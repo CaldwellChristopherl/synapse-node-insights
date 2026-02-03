@@ -1,0 +1,668 @@
+{
+  "factionId": "q9BQlBp583ZuuOnQ",
+  "factionName": "Goblins",
+  "gameSystem": "age-of-fantasy",
+  "factionType": "corrupted",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:16.595Z",
+  "units": [
+    {
+      "id": "DQ5jgGa",
+      "name": "Troll Boss",
+      "cost": 110,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Regeneration",
+        "Tough(6)",
+        "Mischievous"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "cunning",
+        "hero",
+        "human",
+        "leader",
+        "melee",
+        "regeneration",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "purity": -4,
+        "humanity": 3,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "MhIwX30",
+      "name": "Goblin Leader",
+      "cost": 25,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Mischievous"
+      ],
+      "tags": [
+        "corrupted",
+        "cunning",
+        "expendable",
+        "hero",
+        "human",
+        "leader",
+        "melee",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "purity": -4,
+        "humanity": 3,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "3CdeUMf",
+      "name": "Shaman Circle",
+      "cost": 165,
+      "size": 5,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Caster Group",
+        "Mischievous"
+      ],
+      "tags": [
+        "balanced",
+        "corrupted",
+        "cunning",
+        "expendable",
+        "human",
+        "magic",
+        "psychic",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "mystery": 5,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "NfGAfXW",
+      "name": "Warriors",
+      "cost": 60,
+      "size": 10,
+      "quality": 5,
+      "defense": 6,
+      "role": "swarm",
+      "rules": [
+        "Mischievous"
+      ],
+      "tags": [
+        "cheap",
+        "corrupted",
+        "cunning",
+        "expendable",
+        "horde",
+        "human",
+        "melee",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "purity": -4,
+        "humanity": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "HypLKLk",
+      "name": "Cave-Beast Herd",
+      "cost": 95,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Bounding",
+        "Mischievous"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "cunning",
+        "expendable",
+        "human",
+        "melee",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "honor": -4,
+        "order": -2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "u8VLOLK",
+      "name": "Shroom-Sniffers",
+      "cost": 50,
+      "size": 5,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Unpredictable Fighter",
+        "Mischievous"
+      ],
+      "tags": [
+        "beast",
+        "cheap",
+        "corrupted",
+        "cunning",
+        "expendable",
+        "human",
+        "melee",
+        "treacherous",
+        "unpredictable"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "purity": -4,
+        "humanity": 3,
+        "order": -5,
+        "honor": -4,
+        "tech": -3
+      }
+    },
+    {
+      "id": "ahILLgo",
+      "name": "Nasty Assassins",
+      "cost": 50,
+      "size": 3,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Stealth",
+        "Good Fighter",
+        "Mischievous"
+      ],
+      "tags": [
+        "corrupted",
+        "cunning",
+        "expendable",
+        "human",
+        "melee",
+        "stealth",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "subtlety": 4,
+        "purity": -4,
+        "humanity": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "wWfmdi2",
+      "name": "Fanatics",
+      "cost": 95,
+      "size": 3,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Bounding",
+        "Traversal",
+        "Mischievous",
+        "Crossing Barrage(1)"
+      ],
+      "tags": [
+        "corrupted",
+        "cunning",
+        "expendable",
+        "human",
+        "melee",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "FmscopG",
+      "name": "Pester Swarms",
+      "cost": 70,
+      "size": 3,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Tough(3)",
+        "Unpredictable Fighter",
+        "Mischievous"
+      ],
+      "tags": [
+        "corrupted",
+        "cunning",
+        "expendable",
+        "human",
+        "melee",
+        "treacherous",
+        "unpredictable"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "order": -5,
+        "honor": -4
+      }
+    },
+    {
+      "id": "QF59XD5",
+      "name": "Trolls",
+      "cost": 170,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Regeneration",
+        "Tough(3)",
+        "Mischievous"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "cunning",
+        "human",
+        "melee",
+        "regeneration",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "honor": -4,
+        "order": -2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "voUEnj5",
+      "name": "Shooters",
+      "cost": 55,
+      "size": 5,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Mischievous"
+      ],
+      "tags": [
+        "balanced",
+        "cheap",
+        "corrupted",
+        "cunning",
+        "expendable",
+        "human",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "purity": -4,
+        "humanity": 3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "6z-hbTL",
+      "name": "Beast Riders",
+      "cost": 65,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Mischievous"
+      ],
+      "tags": [
+        "beast",
+        "cavalry",
+        "corrupted",
+        "cunning",
+        "expendable",
+        "human",
+        "melee",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3,
+        "honor": -4,
+        "order": -2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "dBNP3MI",
+      "name": "Great Wolf Riders",
+      "cost": 135,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Mischievous",
+        "Fast",
+        "Fearless",
+        "Tough(3)"
+      ],
+      "tags": [
+        "beast",
+        "cavalry",
+        "corrupted",
+        "cunning",
+        "fast",
+        "fearless",
+        "human",
+        "melee",
+        "monster",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "purity": -4,
+        "humanity": -1,
+        "speed": 5,
+        "honor": -4,
+        "order": -2,
+        "faith": 2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "YrYb72R",
+      "name": "Giant Cave-Beast",
+      "cost": 265,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Bounding",
+        "Fear(2)",
+        "Tough(12)",
+        "Mischievous"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "cunning",
+        "human",
+        "melee",
+        "monster",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -1,
+        "purity": -4,
+        "honor": -4,
+        "order": -2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "4OMUbC2",
+      "name": "Giant Spider",
+      "cost": 245,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Tough(12)",
+        "Mischievous"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "cunning",
+        "human",
+        "melee",
+        "monster",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -1,
+        "purity": -4,
+        "honor": -4,
+        "order": -2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "_-4Y87q",
+      "name": "Troll Giant",
+      "cost": 260,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Regeneration",
+        "Tough(12)",
+        "Mischievous"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "cunning",
+        "human",
+        "melee",
+        "monster",
+        "regeneration",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -1,
+        "purity": -4,
+        "honor": -4,
+        "order": -2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "Q4emtC6",
+      "name": "Wolf Chariot",
+      "cost": 110,
+      "size": 1,
+      "quality": 5,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(4)",
+        "Tough(6)",
+        "Mischievous"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "corrupted",
+        "cunning",
+        "fast",
+        "human",
+        "melee",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "purity": -4,
+        "humanity": 3,
+        "speed": 5,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "WWAhxDC",
+      "name": "Pump Wagon",
+      "cost": 115,
+      "size": 1,
+      "quality": 5,
+      "defense": 3,
+      "role": "vehicle",
+      "rules": [
+        "Bounding",
+        "Fear(1)",
+        "Impact(4)",
+        "Tough(6)",
+        "Mischievous"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "corrupted",
+        "cunning",
+        "human",
+        "melee",
+        "tough",
+        "treacherous",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "tech": 3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "zdR7M6l",
+      "name": "Pump Plane",
+      "cost": 125,
+      "size": 1,
+      "quality": 5,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Crossing Barrage(2)",
+        "Fast",
+        "Flying",
+        "Tough(6)",
+        "Mischievous"
+      ],
+      "tags": [
+        "corrupted",
+        "cunning",
+        "fast",
+        "flying",
+        "human",
+        "melee",
+        "tough",
+        "treacherous",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "purity": -4,
+        "humanity": 3,
+        "tech": 3,
+        "speed": 5,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "hGp-X7M",
+      "name": "Goblin Artillery",
+      "cost": 80,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "heavy-support",
+      "rules": [
+        "Tough(3)",
+        "Artillery",
+        "Mischievous"
+      ],
+      "tags": [
+        "balanced",
+        "corrupted",
+        "cunning",
+        "defensive",
+        "human",
+        "ranged",
+        "static",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "purity": -4,
+        "humanity": 3,
+        "patience": 5,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    }
+  ]
+}

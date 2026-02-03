@@ -1,0 +1,407 @@
+{
+  "factionId": "BKi_hJaJflN8ZorH",
+  "factionName": "Jackals",
+  "gameSystem": "grimdark-future",
+  "factionType": "primitive",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:17.285Z",
+  "units": [
+    {
+      "id": "Nzc4pM6",
+      "name": "Elite Veteran",
+      "cost": 40,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Strider",
+        "Tough(3)",
+        "Scrapper"
+      ],
+      "tags": [
+        "hero",
+        "leader",
+        "melee",
+        "mobile",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "XhgyXd9",
+      "name": "Veteran",
+      "cost": 25,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Strider",
+        "Tough(3)",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "expendable",
+        "hero",
+        "leader",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "leadership": 3,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "8LCt3JN",
+      "name": "Nomads",
+      "cost": 135,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Strider",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "expendable",
+        "horde",
+        "mobile",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": 5,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "i38ZXSB",
+      "name": "Stalkers",
+      "cost": 70,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Melee Evasion",
+        "Furious",
+        "Strider",
+        "Scrapper"
+      ],
+      "tags": [
+        "aggressive",
+        "expendable",
+        "melee",
+        "mobile"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "patience": -3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "uF7noGn",
+      "name": "Elites",
+      "cost": 120,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "mobile",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "LutTMHw",
+      "name": "Vultures",
+      "cost": 125,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Crossing Attack(1)",
+        "Flying",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "flying",
+        "mobile",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "ARMiAVY",
+      "name": "Trackers",
+      "cost": 130,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "expendable",
+        "mobile"
+      ],
+      "dimensionScores": {
+        "speed": 3,
+        "versatility": 2,
+        "elite": -3
+      }
+    },
+    {
+      "id": "VEbHNRI",
+      "name": "Hounds",
+      "cost": 65,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Scout",
+        "Strider",
+        "Scrapper"
+      ],
+      "tags": [
+        "beast",
+        "expendable",
+        "fast",
+        "melee",
+        "mobile",
+        "scout"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "speed": 5,
+        "subtlety": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "1znOU_R",
+      "name": "Beast Riders",
+      "cost": 135,
+      "size": 3,
+      "quality": 5,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Bounding",
+        "Impact(2)",
+        "Strider",
+        "Tough(3)",
+        "Scrapper"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cavalry",
+        "melee",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "speed": 5,
+        "patience": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "J6JUfNP",
+      "name": "Beast Gunners",
+      "cost": 180,
+      "size": 3,
+      "quality": 5,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Bounding",
+        "Fortified",
+        "Strider",
+        "Tough(3)",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "cavalry",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "speed": 5,
+        "versatility": 2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "0BlDrtr",
+      "name": "Great Beast",
+      "cost": 300,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Bounding",
+        "Fear(2)",
+        "Strider",
+        "Tough(12)",
+        "Scrapper"
+      ],
+      "tags": [
+        "beast",
+        "melee",
+        "mobile",
+        "monster",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "speed": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "RB1dBZj",
+      "name": "Long Neck",
+      "cost": 735,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(3)",
+        "Strider",
+        "Tough(18)",
+        "Fearless",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "fearless",
+        "mobile",
+        "monster",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "speed": 3,
+        "faith": 2,
+        "versatility": 2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "htslYRn",
+      "name": "Mastodon",
+      "cost": 1180,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(4)",
+        "Strider",
+        "Tough(24)",
+        "Transport(21)",
+        "Fearless",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "fearless",
+        "mobile",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3,
+        "faith": 2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "_eneM1Q",
+      "name": "Ruyi Nonga",
+      "cost": 80,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Ambush",
+        "Flying",
+        "Hero",
+        "Tough(3)",
+        "Unique",
+        "Scrapper"
+      ],
+      "tags": [
+        "balanced",
+        "flying",
+        "hero",
+        "leader",
+        "mobile",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "speed": 5,
+        "leadership": 3,
+        "versatility": 2
+      }
+    }
+  ]
+}

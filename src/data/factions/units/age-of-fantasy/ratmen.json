@@ -1,0 +1,759 @@
+{
+  "factionId": "tOWt5fgqK2nfpoBN",
+  "factionName": "Ratmen",
+  "gameSystem": "age-of-fantasy",
+  "factionType": "organic",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:16.746Z",
+  "units": [
+    {
+      "id": "bl380Vc",
+      "name": "Battle Master",
+      "cost": 45,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Fearless",
+        "Hero",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "fearless",
+        "hero",
+        "leader",
+        "melee",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "tech": -2,
+        "faith": 2,
+        "humanity": -4,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "IDU9HOb",
+      "name": "Champion",
+      "cost": 25,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "expendable",
+        "hero",
+        "leader",
+        "melee",
+        "organic",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "tech": -2,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "L63ELXt",
+      "name": "Militia",
+      "cost": 50,
+      "size": 10,
+      "quality": 6,
+      "defense": 6,
+      "role": "swarm",
+      "rules": [
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cheap",
+        "cunning",
+        "expendable",
+        "horde",
+        "organic",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "tech": -2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "BUbrjeh",
+      "name": "Warriors",
+      "cost": 70,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Scurry"
+      ],
+      "tags": [
+        "cheap",
+        "cunning",
+        "expendable",
+        "horde",
+        "melee",
+        "organic",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "tech": -2,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "wXtqtYK",
+      "name": "Weapon Teams",
+      "cost": 105,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "expendable",
+        "melee",
+        "organic",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -2,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "ePqfxCc",
+      "name": "Grenadiers",
+      "cost": 85,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Quick Readjustment",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "expendable",
+        "organic",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "b29Jcwm",
+      "name": "Monks",
+      "cost": 65,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Furious",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "cunning",
+        "expendable",
+        "melee",
+        "organic",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -2,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "m4jaxg1",
+      "name": "Storm Veterans",
+      "cost": 80,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Fearless",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "fearless",
+        "melee",
+        "monster",
+        "organic",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "tech": -2,
+        "faith": 2,
+        "humanity": -4,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "6vA1AhE",
+      "name": "Night Scouts",
+      "cost": 90,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Scout",
+        "Stealth",
+        "Strider",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "melee",
+        "mobile",
+        "organic",
+        "scout",
+        "stealth",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "tech": -2,
+        "subtlety": 5,
+        "speed": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "bC8eBcR",
+      "name": "Snipers",
+      "cost": 110,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "expendable",
+        "organic",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "r2YUptC",
+      "name": "Rat Swarms",
+      "cost": 70,
+      "size": 3,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "beast",
+        "cunning",
+        "expendable",
+        "horde",
+        "melee",
+        "mobile",
+        "organic",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -5,
+        "collective": 5,
+        "speed": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "etbxZuh",
+      "name": "Giant Rats",
+      "cost": 90,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Strider",
+        "Fast",
+        "Scurry"
+      ],
+      "tags": [
+        "beast",
+        "cheap",
+        "cunning",
+        "expendable",
+        "fast",
+        "horde",
+        "melee",
+        "mobile",
+        "organic",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "tech": -5,
+        "speed": 5,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "UmMDMd0",
+      "name": "Rat Ogres",
+      "cost": 145,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Furious",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cunning",
+        "melee",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -5,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "h2V8ceV",
+      "name": "Storm Ogres",
+      "cost": 220,
+      "size": 3,
+      "quality": 3,
+      "defense": 3,
+      "role": "elite",
+      "rules": [
+        "Fearless",
+        "Furious",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "beast",
+        "cunning",
+        "elite",
+        "fearless",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": -5,
+        "faith": 2,
+        "humanity": -4,
+        "patience": -3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "wr_bjiS",
+      "name": "Giant Beast",
+      "cost": 245,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Regeneration",
+        "Tough(12)",
+        "Scurry"
+      ],
+      "tags": [
+        "beast",
+        "cunning",
+        "melee",
+        "monster",
+        "organic",
+        "regeneration",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -5,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "bIbOg6H",
+      "name": "Blessed Platform",
+      "cost": 125,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(1)",
+        "Fearless",
+        "Furious",
+        "Tough(6)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "cunning",
+        "fearless",
+        "melee",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -2,
+        "faith": 2,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "nlL4SRE",
+      "name": "Great Death Roller",
+      "cost": 135,
+      "size": 1,
+      "quality": 5,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fast",
+        "Fear(1)",
+        "Fearless",
+        "Tough(6)",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "fast",
+        "fearless",
+        "monster",
+        "organic",
+        "ranged",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "humanity": -4,
+        "tech": -2,
+        "speed": 4,
+        "faith": 2,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "vbIWL9u",
+      "name": "Ratmen Artillery",
+      "cost": 65,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "heavy-support",
+      "rules": [
+        "Tough(3)",
+        "Artillery"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "defensive",
+        "organic",
+        "ranged",
+        "static",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "tech": -2,
+        "patience": 5,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "lNrKPTx",
+      "name": "Giant Blessed Beast",
+      "cost": 650,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Caster(2)",
+        "Fear(3)",
+        "Fearless",
+        "Tough(18)",
+        "Scurry"
+      ],
+      "tags": [
+        "beast",
+        "cunning",
+        "elite",
+        "fearless",
+        "magic",
+        "melee",
+        "monster",
+        "organic",
+        "psychic",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -4,
+        "tech": -5,
+        "mystery": 5,
+        "faith": 2,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "SthvnvH",
+      "name": "God-Titan",
+      "cost": 740,
+      "size": 1,
+      "quality": 2,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Caster(4)",
+        "Fear(3)",
+        "Strider",
+        "Tough(18)",
+        "Fearless",
+        "Scurry"
+      ],
+      "tags": [
+        "beast",
+        "cunning",
+        "elite",
+        "fearless",
+        "magic",
+        "melee",
+        "mobile",
+        "monster",
+        "organic",
+        "psychic",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -4,
+        "tech": -5,
+        "mystery": 5,
+        "speed": 3,
+        "faith": 2,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "YCqSF5j",
+      "name": "Brother Hepalit",
+      "cost": 95,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Caster(2)",
+        "Hero",
+        "Tough(3)",
+        "Unique",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "hero",
+        "leader",
+        "magic",
+        "melee",
+        "organic",
+        "psychic",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "collective": -1,
+        "tech": -2,
+        "mystery": 5,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "NUsVj4Q",
+      "name": "Captain Kedseit",
+      "cost": 70,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Fearless",
+        "Hero",
+        "Tough(3)",
+        "Unique",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "fearless",
+        "hero",
+        "leader",
+        "melee",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "tech": -2,
+        "faith": 2,
+        "humanity": -4,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "nTMlNBn",
+      "name": "Getrie Veikasip",
+      "cost": 70,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Scurry",
+        "Unique",
+        "Quick Readjustment"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "hero",
+        "leader",
+        "organic",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "collective": -1,
+        "tech": -2,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    }
+  ]
+}

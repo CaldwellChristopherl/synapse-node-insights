@@ -1,0 +1,565 @@
+{
+  "factionId": "bPAtRGFrpFfyAjLW",
+  "factionName": "High Elves",
+  "gameSystem": "age-of-fantasy",
+  "factionType": "mixed",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:16.640Z",
+  "units": [
+    {
+      "id": "QZAWm8g",
+      "name": "High Noble",
+      "cost": 50,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Highborn"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "rq2n2lW",
+      "name": "Champion",
+      "cost": 30,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Highborn"
+      ],
+      "tags": [
+        "hero",
+        "leader",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "viNCeya",
+      "name": "Warriors",
+      "cost": 95,
+      "size": 10,
+      "quality": 4,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Highborn"
+      ],
+      "tags": [
+        "cheap",
+        "horde",
+        "melee",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -2,
+        "collective": 5
+      }
+    },
+    {
+      "id": "y6Kuu3o",
+      "name": "Weapon Masters",
+      "cost": 90,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Highborn"
+      ],
+      "tags": [
+        "balanced",
+        "melee",
+        "reliable"
+      ],
+      "dimensionScores": {
+        "order": 2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "2Q1kfEx",
+      "name": "Phoenix Warriors",
+      "cost": 100,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Regeneration",
+        "Highborn"
+      ],
+      "tags": [
+        "melee",
+        "regeneration",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3
+      }
+    },
+    {
+      "id": "9QFbSyh",
+      "name": "Lion Warriors",
+      "cost": 135,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Fearless",
+        "Resistance",
+        "Highborn"
+      ],
+      "tags": [
+        "fearless",
+        "melee",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "faith": 2
+      }
+    },
+    {
+      "id": "ypd9AkE",
+      "name": "Archers",
+      "cost": 90,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Highborn"
+      ],
+      "tags": [
+        "balanced",
+        "reliable",
+        "versatile"
+      ],
+      "dimensionScores": {
+        "versatility": 5,
+        "order": 2
+      }
+    },
+    {
+      "id": "auhTZhF",
+      "name": "Coast Guard",
+      "cost": 90,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Highborn"
+      ],
+      "tags": [
+        "balanced",
+        "human",
+        "reliable"
+      ],
+      "dimensionScores": {
+        "humanity": 3,
+        "versatility": 2,
+        "order": 2
+      }
+    },
+    {
+      "id": "y9mMLtv",
+      "name": "Shadow Brothers",
+      "cost": 120,
+      "size": 5,
+      "quality": 3,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Scout",
+        "Stealth",
+        "Highborn"
+      ],
+      "tags": [
+        "balanced",
+        "human",
+        "mobile",
+        "scout",
+        "stealth",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": 3,
+        "subtlety": 5,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "pxtY3yy",
+      "name": "Shadow Sisters",
+      "cost": 130,
+      "size": 5,
+      "quality": 3,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Quick Shot",
+        "Highborn"
+      ],
+      "tags": [
+        "balanced",
+        "versatile",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "versatility": 5
+      }
+    },
+    {
+      "id": "j7hdI7u",
+      "name": "Silver Cavalry",
+      "cost": 100,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(1)",
+        "Highborn"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "fast",
+        "melee",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "KcVqHug",
+      "name": "Reaver Cavalry",
+      "cost": 115,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(1)",
+        "Highborn"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "cavalry",
+        "fast",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "patience": -3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "HmBlS6c",
+      "name": "Dragon Cavalry",
+      "cost": 155,
+      "size": 5,
+      "quality": 3,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Fearless",
+        "Impact(1)",
+        "Highborn"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cavalry",
+        "elite",
+        "fast",
+        "fearless",
+        "melee"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 5,
+        "faith": 2,
+        "patience": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "ifnLlcP",
+      "name": "Giant Eagles",
+      "cost": 160,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Flying",
+        "Impact(2)",
+        "Tough(3)",
+        "Highborn"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "fast",
+        "flying",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "patience": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "3xbutLu",
+      "name": "Fire Phoenix",
+      "cost": 170,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "vehicle",
+      "rules": [
+        "Fear(1)",
+        "Flying",
+        "Regeneration",
+        "Tough(6)",
+        "Highborn"
+      ],
+      "tags": [
+        "beast",
+        "elite",
+        "flying",
+        "melee",
+        "regeneration",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 3
+      }
+    },
+    {
+      "id": "tFWyrTS",
+      "name": "Ice Phoenix",
+      "cost": 205,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "vehicle",
+      "rules": [
+        "Fear(1)",
+        "Flying",
+        "Regeneration",
+        "Tough(6)",
+        "Highborn"
+      ],
+      "tags": [
+        "beast",
+        "elite",
+        "flying",
+        "melee",
+        "regeneration",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 3
+      }
+    },
+    {
+      "id": "5ERKk7_",
+      "name": "Bull Giant",
+      "cost": 300,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Fearless",
+        "Breath Attack",
+        "Tough(12)",
+        "Highborn"
+      ],
+      "tags": [
+        "beast",
+        "elite",
+        "fearless",
+        "melee",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -4,
+        "faith": 2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "PGtcuNf",
+      "name": "War Chariot",
+      "cost": 110,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(4)",
+        "Tough(6)",
+        "Highborn"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "fast",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "9dUbwEg",
+      "name": "Eagle Chariot",
+      "cost": 120,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Flying",
+        "Impact(4)",
+        "Tough(6)",
+        "Highborn"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "fast",
+        "flying",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "Hq2RM_Q",
+      "name": "Lion Chariot",
+      "cost": 180,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Fear(1)",
+        "Fearless",
+        "Impact(2)",
+        "Resistance",
+        "Tough(6)",
+        "Highborn"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "elite",
+        "fast",
+        "fearless",
+        "melee",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "speed": 5,
+        "faith": 2,
+        "patience": -3
+      }
+    },
+    {
+      "id": "AdNkTBx",
+      "name": "High Elf Artillery",
+      "cost": 115,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "heavy-support",
+      "rules": [
+        "Tough(3)",
+        "Artillery"
+      ],
+      "tags": [
+        "balanced",
+        "defensive",
+        "ranged",
+        "static",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "patience": 5,
+        "versatility": 2
+      }
+    }
+  ]
+}

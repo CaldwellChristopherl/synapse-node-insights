@@ -1,0 +1,592 @@
+{
+  "factionId": "7el7k3hgy5pb9o9i",
+  "factionName": "Machine Cult",
+  "gameSystem": "grimdark-future",
+  "factionType": "tech",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:17.355Z",
+  "units": [
+    {
+      "id": "4ajpg-M",
+      "name": "High Priest",
+      "cost": 80,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "balanced",
+        "elite",
+        "hero",
+        "leader",
+        "magic",
+        "psychic",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3,
+        "tradition": 4,
+        "versatility": 2,
+        "mystery": 5
+      }
+    },
+    {
+      "id": "hvRc6eE",
+      "name": "Sect Leader",
+      "cost": 60,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Strider",
+        "Tough(3)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3,
+        "speed": 3,
+        "tradition": 4
+      }
+    },
+    {
+      "id": "iGyqlfa",
+      "name": "Cult Leader",
+      "cost": 45,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Strider",
+        "Tough(3)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "hero",
+        "leader",
+        "melee",
+        "mobile",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3,
+        "speed": 3,
+        "tradition": 4
+      }
+    },
+    {
+      "id": "L6kGWgk",
+      "name": "Cult Rangers",
+      "cost": 95,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "balanced",
+        "mobile"
+      ],
+      "dimensionScores": {
+        "speed": 3,
+        "tradition": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "XivtB59",
+      "name": "Shock Priests",
+      "cost": 140,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Furious",
+        "Regeneration",
+        "Machine-Fog",
+        "Melee Slayer"
+      ],
+      "tags": [
+        "aggressive",
+        "ancient",
+        "magic",
+        "melee",
+        "psychic",
+        "regeneration",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "patience": -3,
+        "tradition": 4,
+        "mystery": 5
+      }
+    },
+    {
+      "id": "GGy44eL",
+      "name": "Sect Stalkers",
+      "cost": 180,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Furious",
+        "Strider",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "aggressive",
+        "ancient",
+        "elite",
+        "fast",
+        "melee",
+        "mobile"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 5,
+        "patience": -3,
+        "tradition": 4
+      }
+    },
+    {
+      "id": "v6H89UD",
+      "name": "Sect Infiltrators",
+      "cost": 165,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Scout",
+        "Strider",
+        "Grounded Stealth",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "elite",
+        "melee",
+        "mobile",
+        "scout",
+        "stealth"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "subtlety": 5,
+        "speed": 3,
+        "tradition": 4
+      }
+    },
+    {
+      "id": "ykvshtT",
+      "name": "Sky Stalkers",
+      "cost": 165,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Flying",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "balanced",
+        "elite",
+        "flying",
+        "mobile"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 5,
+        "tradition": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "SGQH2IV",
+      "name": "Breacher Cyborgs",
+      "cost": 230,
+      "size": 3,
+      "quality": 4,
+      "defense": 3,
+      "role": "heavy-support",
+      "rules": [
+        "Slow",
+        "Tough(3)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "balanced",
+        "cyborg",
+        "robot",
+        "slow",
+        "static",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 5,
+        "humanity": -2,
+        "speed": -2,
+        "tradition": 4,
+        "versatility": 2,
+        "patience": 2
+      }
+    },
+    {
+      "id": "M2Yr_Lr",
+      "name": "Destroyer Cyborgs",
+      "cost": 255,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "heavy-support",
+      "rules": [
+        "Relentless",
+        "Slow",
+        "Tough(3)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "balanced",
+        "cyborg",
+        "ranged",
+        "robot",
+        "slow",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 5,
+        "humanity": -2,
+        "speed": -2,
+        "tradition": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "HGxRxOr",
+      "name": "Raider Cavalry",
+      "cost": 180,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Scout",
+        "Strider",
+        "Tough(3)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "beast",
+        "cavalry",
+        "fast",
+        "melee",
+        "mobile",
+        "scout",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "subtlety": 3,
+        "tradition": 4,
+        "tech": -3
+      }
+    },
+    {
+      "id": "c9GZxU3",
+      "name": "Landing Craft",
+      "cost": 220,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Strider",
+        "Tough(6)",
+        "Transport(11)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "aggressive",
+        "ancient",
+        "elite",
+        "fast",
+        "mobile",
+        "ranged",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "speed": 5,
+        "patience": -3,
+        "tradition": 4
+      }
+    },
+    {
+      "id": "y5c_wLy",
+      "name": "Attack Craft",
+      "cost": 455,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(6)",
+        "Strider",
+        "Tough(12)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "aggressive",
+        "ancient",
+        "elite",
+        "fast",
+        "mobile",
+        "ranged",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "speed": 5,
+        "patience": -3,
+        "tradition": 4
+      }
+    },
+    {
+      "id": "KcJMZWi",
+      "name": "Crawler Tank",
+      "cost": 415,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Strider",
+        "Tough(12)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "balanced",
+        "elite",
+        "mobile",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "speed": 3,
+        "tradition": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "Pgo3CU0",
+      "name": "Dragoon Walker",
+      "cost": 190,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Fear(1)",
+        "Strider",
+        "Tough(6)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "elite",
+        "fast",
+        "melee",
+        "mobile",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "speed": 5,
+        "tradition": 4
+      }
+    },
+    {
+      "id": "ulCeEQs",
+      "name": "Combat Robot",
+      "cost": 210,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(1)",
+        "Fearless",
+        "Tough(6)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "balanced",
+        "elite",
+        "fearless",
+        "robot",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 5,
+        "humanity": -2,
+        "faith": 2,
+        "tradition": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "vnhLLJx",
+      "name": "Iron Walker",
+      "cost": 280,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Fear(1)",
+        "Strider",
+        "Tough(6)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "ancient",
+        "balanced",
+        "elite",
+        "fast",
+        "mobile",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "speed": 5,
+        "tradition": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "dwRC34p",
+      "name": "Arch Fighter",
+      "cost": 280,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Aircraft",
+        "Tough(6)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "aircraft",
+        "ancient",
+        "balanced",
+        "elite",
+        "flying",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 5,
+        "speed": 5,
+        "tradition": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "UBnnvms",
+      "name": "Arch Gunship",
+      "cost": 390,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Aircraft",
+        "Tough(6)",
+        "Machine-Fog"
+      ],
+      "tags": [
+        "aircraft",
+        "ancient",
+        "elite",
+        "flying",
+        "ranged",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 5,
+        "speed": 5,
+        "tradition": 4
+      }
+    }
+  ]
+}

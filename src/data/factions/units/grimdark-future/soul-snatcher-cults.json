@@ -1,0 +1,513 @@
+{
+  "factionId": "zz3kp5ry7ks6mxcx",
+  "factionName": "Soul-Snatcher Cults",
+  "gameSystem": "grimdark-future",
+  "factionType": "mixed",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:17.483Z",
+  "units": [
+    {
+      "id": "YJDuv06",
+      "name": "Supreme Leader",
+      "cost": 80,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Fanatic",
+        "Fear(1)"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3,
+        "humanity": -4
+      }
+    },
+    {
+      "id": "zqbGWjZ",
+      "name": "Brute Champion",
+      "cost": 60,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Regeneration",
+        "Tough(3)",
+        "Fanatic"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "regeneration",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "BMa76or",
+      "name": "Cult Leader",
+      "cost": 30,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Fanatic"
+      ],
+      "tags": [
+        "hero",
+        "leader",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "QVwQQXN",
+      "name": "Cult Hitman",
+      "cost": 50,
+      "size": 1,
+      "quality": 3,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Fanatic",
+        "Hero",
+        "Tough(3)"
+      ],
+      "tags": [
+        "balanced",
+        "elite",
+        "hero",
+        "leader",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "t2ehUmj",
+      "name": "Minions",
+      "cost": 120,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Fanatic"
+      ],
+      "tags": [
+        "balanced",
+        "cheap",
+        "expendable",
+        "horde",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "mnjV-FB",
+      "name": "Support Minions",
+      "cost": 135,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Tough(3)",
+        "Fanatic"
+      ],
+      "tags": [
+        "balanced",
+        "expendable",
+        "tough"
+      ],
+      "dimensionScores": {
+        "versatility": 2,
+        "elite": -3
+      }
+    },
+    {
+      "id": "wg6fbNx",
+      "name": "Neophytes",
+      "cost": 85,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Fanatic"
+      ],
+      "tags": [
+        "balanced",
+        "reliable",
+        "versatile"
+      ],
+      "dimensionScores": {
+        "versatility": 5,
+        "order": 2
+      }
+    },
+    {
+      "id": "USqMvAJ",
+      "name": "Acolytes",
+      "cost": 105,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Fanatic"
+      ],
+      "tags": [
+        "balanced",
+        "mobile",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "Hos9ia8",
+      "name": "Mutant Brutes",
+      "cost": 145,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Regeneration",
+        "Fanatic"
+      ],
+      "tags": [
+        "melee",
+        "regeneration",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3
+      }
+    },
+    {
+      "id": "QhBJKna",
+      "name": "Mutant Soul-Snatchers",
+      "cost": 145,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Fanatic",
+        "Bounding",
+        "Regeneration",
+        "Ambush"
+      ],
+      "tags": [
+        "melee",
+        "mobile",
+        "regeneration",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "8V1jGIF",
+      "name": "Soul-Snatchers",
+      "cost": 160,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Fanatic",
+        "Scout"
+      ],
+      "tags": [
+        "elite",
+        "fast",
+        "melee",
+        "mobile",
+        "scout"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 5,
+        "subtlety": 3
+      }
+    },
+    {
+      "id": "j0Kdw2N",
+      "name": "Neophyte Bikers",
+      "cost": 120,
+      "size": 3,
+      "quality": 4,
+      "defense": 5,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Tough(3)",
+        "Fanatic"
+      ],
+      "tags": [
+        "balanced",
+        "cavalry",
+        "fast",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "DkK7-HC",
+      "name": "Neophyte Quadbike",
+      "cost": 100,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Tough(6)",
+        "Fanatic"
+      ],
+      "tags": [
+        "balanced",
+        "fast",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "9nAIHke",
+      "name": "Attack Vehicle",
+      "cost": 185,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Tough(6)",
+        "Fanatic"
+      ],
+      "tags": [
+        "aggressive",
+        "fast",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3
+      }
+    },
+    {
+      "id": "I_HQfUg",
+      "name": "Light APC",
+      "cost": 195,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Tough(6)",
+        "Transport(11)",
+        "Fanatic"
+      ],
+      "tags": [
+        "aggressive",
+        "fast",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3
+      }
+    },
+    {
+      "id": "q6fx4lG",
+      "name": "Grinder Truck",
+      "cost": 270,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Strider",
+        "Tough(9)",
+        "Transport(6)",
+        "Fanatic"
+      ],
+      "tags": [
+        "aggressive",
+        "fast",
+        "mobile",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "v6grwjb",
+      "name": "Mining Truck",
+      "cost": 330,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Tough(9)",
+        "Transport(11)",
+        "Fanatic"
+      ],
+      "tags": [
+        "aggressive",
+        "fast",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3
+      }
+    },
+    {
+      "id": "yf1gp9C",
+      "name": "Battle Tank",
+      "cost": 340,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(6)",
+        "Tough(12)",
+        "Fanatic"
+      ],
+      "tags": [
+        "aggressive",
+        "fast",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3
+      }
+    },
+    {
+      "id": "2okuxw6",
+      "name": "Light Walker",
+      "cost": 160,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(1)",
+        "Tough(6)",
+        "Fanatic"
+      ],
+      "tags": [
+        "balanced",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "versatility": 2
+      }
+    }
+  ]
+}

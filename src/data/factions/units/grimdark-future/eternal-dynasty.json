@@ -1,0 +1,755 @@
+{
+  "factionId": "vux1Y5vvULmaxZ8P",
+  "factionName": "Eternal Dynasty",
+  "gameSystem": "grimdark-future",
+  "factionType": "tech",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:17.187Z",
+  "units": [
+    {
+      "id": "8sSO8Od",
+      "name": "ONI Captain",
+      "cost": 100,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(6)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "robot",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "tech": 4,
+        "humanity": -2,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "bEeuIws",
+      "name": "Dynasty Leader",
+      "cost": 50,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "elite",
+        "hero",
+        "leader",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "tBFpCN2",
+      "name": "Warriors",
+      "cost": 100,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "versatile",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "versatility": 5
+      }
+    },
+    {
+      "id": "kBJrV-w",
+      "name": "Scouts",
+      "cost": 100,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Scout",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "mobile",
+        "scout",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "subtlety": 3,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "6S-Xqit",
+      "name": "Ninja",
+      "cost": 175,
+      "size": 5,
+      "quality": 3,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Teleport",
+        "Stealth",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "elite",
+        "mobile",
+        "stealth"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 3,
+        "subtlety": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "nT_lDKZ",
+      "name": "Royal Guard",
+      "cost": 210,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "elite",
+      "rules": [
+        "Clan Warrior",
+        "Versatile Attack",
+        "Regeneration"
+      ],
+      "tags": [
+        "balanced",
+        "elite",
+        "human",
+        "regeneration"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "CdkWnvx",
+      "name": "Attack Drones",
+      "cost": 135,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "drone",
+        "mobile",
+        "robot",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 5,
+        "humanity": -4,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "bILTbNt",
+      "name": "ONIs",
+      "cost": 185,
+      "size": 3,
+      "quality": 3,
+      "defense": 3,
+      "role": "elite",
+      "rules": [
+        "Tough(3)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "elite",
+        "melee",
+        "robot",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 4,
+        "humanity": -2
+      }
+    },
+    {
+      "id": "e54b888",
+      "name": "Cyber-Bird Swarms",
+      "cost": 85,
+      "size": 3,
+      "quality": 5,
+      "defense": 6,
+      "role": "fast-attack",
+      "rules": [
+        "Flying",
+        "Tough(3)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "expendable",
+        "flying",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "6LpK3Hi",
+      "name": "Cyber Lizards",
+      "cost": 95,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "beast",
+        "melee",
+        "mobile"
+      ],
+      "dimensionScores": {
+        "speed": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "OaKZu-Y",
+      "name": "Cyber Beast",
+      "cost": 105,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "elite",
+      "rules": [
+        "Furious",
+        "Tough(6)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "elite",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "patience": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "oIvvEaL",
+      "name": "Dynasty APC",
+      "cost": 165,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Tough(6)",
+        "Impact(3)",
+        "Transport(11)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "aggressive",
+        "fast",
+        "mobile",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "MTUdB9s",
+      "name": "Dynasty Tank",
+      "cost": 390,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Tough(12)",
+        "Impact(6)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "aggressive",
+        "fast",
+        "mobile",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "cu0eIWL",
+      "name": "Dragon Speeder",
+      "cost": 185,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Tough(6)",
+        "Impact(3)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "fast",
+        "mobile",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "0ql6EX3",
+      "name": "Ninja Walker",
+      "cost": 320,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Ambush",
+        "Fear(2)",
+        "Stealth",
+        "Tough(9)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "elite",
+        "mobile",
+        "stealth",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "speed": 3,
+        "subtlety": 4,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "aGmn975",
+      "name": "ONI Walker",
+      "cost": 345,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(2)",
+        "Tough(12)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "elite",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "O1HU74Z",
+      "name": "Samurai Titan",
+      "cost": 550,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(3)",
+        "Tough(18)",
+        "Fearless",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "elite",
+        "fearless",
+        "melee",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "faith": 2
+      }
+    },
+    {
+      "id": "5deb40E",
+      "name": "Macaque Titan",
+      "cost": 715,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Bounding",
+        "Fear(3)",
+        "Fearless",
+        "Furious",
+        "Strider",
+        "Tough(18)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "aggressive",
+        "elite",
+        "fearless",
+        "melee",
+        "mobile",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "faith": 2,
+        "patience": -3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "XHJ8f1_",
+      "name": "Dragon Titan",
+      "cost": 850,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Caster(4)",
+        "Fear(3)",
+        "Fearless",
+        "Flying",
+        "Regeneration",
+        "Tough(18)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "elite",
+        "fearless",
+        "flying",
+        "magic",
+        "psychic",
+        "regeneration",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "mystery": 5,
+        "faith": 2,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "hWQCHhE",
+      "name": "Artillery Titan",
+      "cost": 820,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(3)",
+        "Fearless",
+        "Slow",
+        "Tough(18)",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "elite",
+        "fearless",
+        "slow",
+        "static",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "tech": 3,
+        "faith": 2,
+        "speed": -2,
+        "versatility": 2,
+        "patience": 2
+      }
+    },
+    {
+      "id": "Amkoitz",
+      "name": "Captain WuKaon",
+      "cost": 190,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "hero",
+      "rules": [
+        "Bounding",
+        "Furious",
+        "Hero",
+        "Tough(6)",
+        "Unique",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "aggressive",
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "patience": -3,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "UkOaKOI",
+      "name": "Syen & Xaotyan",
+      "cost": 115,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Scout",
+        "Stealth",
+        "Strider",
+        "Tough(3)",
+        "Unique",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "hero",
+        "leader",
+        "melee",
+        "mobile",
+        "scout",
+        "stealth",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3,
+        "subtlety": 5,
+        "speed": 3
+      }
+    },
+    {
+      "id": "EjXfUOe",
+      "name": "Captain Lyao",
+      "cost": 100,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Unique",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "elite",
+        "hero",
+        "leader",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "5G92a0s",
+      "name": "Commander Xao",
+      "cost": 100,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Unique",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "uS-DM9n",
+      "name": "Sage Myan",
+      "cost": 95,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Caster(1)",
+        "Hero",
+        "Tough(3)",
+        "Unique",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "balanced",
+        "hero",
+        "leader",
+        "magic",
+        "psychic",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "mystery": 5,
+        "leadership": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "9fAeLEX",
+      "name": "Sergeant Wou",
+      "cost": 110,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Ambush",
+        "Hero",
+        "Stealth",
+        "Teleport",
+        "Tough(3)",
+        "Unique",
+        "Clan Warrior"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "mobile",
+        "stealth",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "speed": 3,
+        "leadership": 3,
+        "subtlety": 4
+      }
+    }
+  ]
+}

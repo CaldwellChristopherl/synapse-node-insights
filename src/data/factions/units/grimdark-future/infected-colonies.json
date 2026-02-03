@@ -1,0 +1,637 @@
+{
+  "factionId": "dnthspt7c0klhmt8",
+  "factionName": "Infected Colonies",
+  "gameSystem": "grimdark-future",
+  "factionType": "corrupted",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:17.274Z",
+  "units": [
+    {
+      "id": "navlwQ_",
+      "name": "Monstrous Tyrant",
+      "cost": 145,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "hero",
+      "rules": [
+        "Fear(1)",
+        "Hero",
+        "Tough(6)",
+        "Infected"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "elite",
+        "hero",
+        "human",
+        "leader",
+        "melee",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "purity": -4,
+        "humanity": -1,
+        "leadership": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "2Dk-V1m",
+      "name": "Great Hunter",
+      "cost": 60,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Ambush",
+        "Hero",
+        "Strider",
+        "Tough(3)",
+        "Infected"
+      ],
+      "tags": [
+        "corrupted",
+        "elite",
+        "hero",
+        "human",
+        "leader",
+        "melee",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "YtYD-ZH",
+      "name": "Infected Leader",
+      "cost": 25,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Infected"
+      ],
+      "tags": [
+        "balanced",
+        "corrupted",
+        "expendable",
+        "hero",
+        "human",
+        "leader",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "purity": -4,
+        "humanity": 3,
+        "leadership": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "VNRS8L0",
+      "name": "Infected Runners",
+      "cost": 115,
+      "size": 10,
+      "quality": 5,
+      "defense": 6,
+      "role": "swarm",
+      "rules": [
+        "Strider",
+        "Fearless",
+        "Infected"
+      ],
+      "tags": [
+        "cheap",
+        "corrupted",
+        "expendable",
+        "fearless",
+        "horde",
+        "human",
+        "melee",
+        "mobile",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3,
+        "faith": 2
+      }
+    },
+    {
+      "id": "SFsByjQ",
+      "name": "Infected Zombies",
+      "cost": 125,
+      "size": 10,
+      "quality": 5,
+      "defense": 6,
+      "role": "swarm",
+      "rules": [
+        "Regeneration",
+        "Slow",
+        "Fearless",
+        "Infected"
+      ],
+      "tags": [
+        "corrupted",
+        "expendable",
+        "fearless",
+        "horde",
+        "human",
+        "melee",
+        "regeneration",
+        "slow",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": 5,
+        "purity": -4,
+        "humanity": 3,
+        "speed": -2,
+        "faith": 2
+      }
+    },
+    {
+      "id": "4cDEOVp",
+      "name": "Infected Soldiers",
+      "cost": 165,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Infected"
+      ],
+      "tags": [
+        "balanced",
+        "corrupted",
+        "expendable",
+        "horde",
+        "human"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": 4,
+        "purity": -4,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "eFF0JJq",
+      "name": "Weapon Teams",
+      "cost": 120,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Tough(3)",
+        "Infected"
+      ],
+      "tags": [
+        "balanced",
+        "corrupted",
+        "expendable",
+        "human",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "IMWo3hw",
+      "name": "Infected Gunners",
+      "cost": 70,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Relentless",
+        "Infected"
+      ],
+      "tags": [
+        "balanced",
+        "corrupted",
+        "expendable",
+        "human",
+        "ranged"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "CFZyeQL",
+      "name": "Hunters",
+      "cost": 135,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Strider",
+        "Infected"
+      ],
+      "tags": [
+        "corrupted",
+        "human",
+        "melee",
+        "mobile",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "j0HIteF",
+      "name": "Boomers",
+      "cost": 160,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Deathstrike(3)",
+        "Tough(3)",
+        "Infected"
+      ],
+      "tags": [
+        "corrupted",
+        "human",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3
+      }
+    },
+    {
+      "id": "wFIjWHd",
+      "name": "Leech Swarms",
+      "cost": 75,
+      "size": 3,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Tough(3)",
+        "Infected"
+      ],
+      "tags": [
+        "corrupted",
+        "expendable",
+        "human",
+        "melee",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "AdJjRz-",
+      "name": "Crazed Ravens",
+      "cost": 80,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Flying",
+        "Tough(3)",
+        "Infected"
+      ],
+      "tags": [
+        "corrupted",
+        "expendable",
+        "flying",
+        "human",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "4tJy4mK",
+      "name": "Rabid Dogs",
+      "cost": 105,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Scout",
+        "Infected"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "fast",
+        "human",
+        "melee",
+        "mobile",
+        "scout",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 5,
+        "subtlety": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "LFBzHhZ",
+      "name": "Infected Vultures",
+      "cost": 155,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Flying",
+        "Tough(3)",
+        "Infected"
+      ],
+      "tags": [
+        "corrupted",
+        "flying",
+        "human",
+        "melee",
+        "mobile",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 5
+      }
+    },
+    {
+      "id": "UqaaDf5",
+      "name": "Corrupted Beasts",
+      "cost": 210,
+      "size": 3,
+      "quality": 3,
+      "defense": 3,
+      "role": "elite",
+      "rules": [
+        "Tough(3)",
+        "Infected"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "elite",
+        "human",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "purity": -4,
+        "humanity": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "PJ2M66A",
+      "name": "Great Beast",
+      "cost": 135,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(1)",
+        "Tough(6)",
+        "Infected"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "elite",
+        "human",
+        "melee",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -1,
+        "purity": -4,
+        "tech": -3
+      }
+    },
+    {
+      "id": "KK8LQag",
+      "name": "Attack Buggy",
+      "cost": 125,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Tough(6)",
+        "Infected"
+      ],
+      "tags": [
+        "aggressive",
+        "corrupted",
+        "fast",
+        "human",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3
+      }
+    },
+    {
+      "id": "Yss19LW",
+      "name": "Battle Tank",
+      "cost": 380,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Impact(6)",
+        "Tough(12)",
+        "Fast",
+        "Infected"
+      ],
+      "tags": [
+        "aggressive",
+        "corrupted",
+        "fast",
+        "human",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "purity": -4,
+        "humanity": 3,
+        "patience": -3,
+        "speed": 4
+      }
+    },
+    {
+      "id": "Yua0QBl",
+      "name": "Combat Walker",
+      "cost": 155,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(1)",
+        "Tough(6)",
+        "Infected"
+      ],
+      "tags": [
+        "balanced",
+        "corrupted",
+        "human",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "purity": -4,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "c_ks7oX",
+      "name": "Abomination",
+      "cost": 325,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Tough(12)",
+        "Infected"
+      ],
+      "tags": [
+        "beast",
+        "corrupted",
+        "elite",
+        "human",
+        "melee",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -1,
+        "purity": -4,
+        "tech": -3
+      }
+    },
+    {
+      "id": "qSo1oZA",
+      "name": "Light Dropship",
+      "cost": 300,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Aircraft",
+        "Tough(6)",
+        "Transport(11)",
+        "Infected"
+      ],
+      "tags": [
+        "aircraft",
+        "corrupted",
+        "flying",
+        "human",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 5,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 5
+      }
+    }
+  ]
+}

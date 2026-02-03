@@ -1,0 +1,885 @@
+{
+  "factionId": "PGxKcq4R571OtwqD",
+  "factionName": "Havoc Warriors",
+  "gameSystem": "age-of-fantasy",
+  "factionType": "corrupted",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:16.628Z",
+  "units": [
+    {
+      "id": "vnS2q8Z",
+      "name": "Chosen Havoc Master",
+      "cost": 65,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "hero",
+      "rules": [
+        "Havocbound",
+        "Hero",
+        "Tough(3)",
+        "Versatile Attack"
+      ],
+      "tags": [
+        "chaotic",
+        "corrupted",
+        "elite",
+        "hero",
+        "human",
+        "leader",
+        "melee",
+        "tech",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "purity": -4,
+        "humanity": 3,
+        "leadership": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "OJyY0_j",
+      "name": "Havoc Master",
+      "cost": 55,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Havocbound"
+      ],
+      "tags": [
+        "chaotic",
+        "corrupted",
+        "elite",
+        "hero",
+        "human",
+        "leader",
+        "melee",
+        "tech",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "purity": -4,
+        "humanity": 3,
+        "leadership": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "RTeqzVi",
+      "name": "Barbarian Champion",
+      "cost": 30,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Furious",
+        "Hero",
+        "Tough(3)",
+        "Havocbound",
+        "Scout"
+      ],
+      "tags": [
+        "aggressive",
+        "chaotic",
+        "corrupted",
+        "expendable",
+        "hero",
+        "human",
+        "leader",
+        "melee",
+        "mobile",
+        "scout",
+        "tech",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "purity": -4,
+        "humanity": 3,
+        "patience": -3,
+        "leadership": 3,
+        "subtlety": 3,
+        "speed": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "CvN76df",
+      "name": "Harbinger of Havoc",
+      "cost": 120,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "hero",
+      "rules": [
+        "Fear(1)",
+        "Hero",
+        "Tough(6)",
+        "Havocbound"
+      ],
+      "tags": [
+        "chaotic",
+        "corrupted",
+        "elite",
+        "hero",
+        "human",
+        "leader",
+        "melee",
+        "monster",
+        "tech",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "purity": -4,
+        "humanity": -1,
+        "leadership": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "CZy5UIP",
+      "name": "Barbarian Raiders",
+      "cost": 95,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Furious",
+        "Havocbound",
+        "Scout"
+      ],
+      "tags": [
+        "aggressive",
+        "chaotic",
+        "cheap",
+        "corrupted",
+        "expendable",
+        "horde",
+        "human",
+        "melee",
+        "mobile",
+        "scout",
+        "swarm",
+        "tech"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "purity": -4,
+        "humanity": 3,
+        "patience": -3,
+        "subtlety": 3,
+        "speed": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "EuRBdTX",
+      "name": "Warriors",
+      "cost": 85,
+      "size": 5,
+      "quality": 3,
+      "defense": 3,
+      "role": "troops",
+      "rules": [
+        "Havocbound"
+      ],
+      "tags": [
+        "chaotic",
+        "corrupted",
+        "human",
+        "melee",
+        "tech"
+      ],
+      "dimensionScores": {
+        "purity": -4,
+        "humanity": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "CEVxxWK",
+      "name": "Chosen Warriors",
+      "cost": 105,
+      "size": 5,
+      "quality": 3,
+      "defense": 3,
+      "role": "troops",
+      "rules": [
+        "Havocbound",
+        "Versatile Attack"
+      ],
+      "tags": [
+        "chaotic",
+        "corrupted",
+        "human",
+        "melee",
+        "tech",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "twl0KCa",
+      "name": "Mutants",
+      "cost": 105,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Fearless",
+        "Unpredictable Fighter",
+        "Havocbound"
+      ],
+      "tags": [
+        "chaotic",
+        "corrupted",
+        "fearless",
+        "human",
+        "melee",
+        "tech",
+        "unpredictable",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "faith": 2,
+        "order": -5
+      }
+    },
+    {
+      "id": "R9ujGWS",
+      "name": "Havoc Ogres",
+      "cost": 105,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Tough(3)",
+        "Havocbound"
+      ],
+      "tags": [
+        "beast",
+        "chaotic",
+        "corrupted",
+        "human",
+        "melee",
+        "tech",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "_ciVJh1",
+      "name": "Drake-Centaurs",
+      "cost": 155,
+      "size": 3,
+      "quality": 4,
+      "defense": 3,
+      "role": "troops",
+      "rules": [
+        "Tough(3)",
+        "Havocbound"
+      ],
+      "tags": [
+        "cavalry",
+        "chaotic",
+        "corrupted",
+        "human",
+        "melee",
+        "tech",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "aTxCHqz",
+      "name": "Havoc Trolls",
+      "cost": 170,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Regeneration",
+        "Tough(3)",
+        "Havocbound"
+      ],
+      "tags": [
+        "beast",
+        "chaotic",
+        "corrupted",
+        "human",
+        "melee",
+        "regeneration",
+        "tech",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "rk-3OZ-",
+      "name": "Havoc Soul Spawns",
+      "cost": 145,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Strider",
+        "Tough(3)",
+        "Havocbound",
+        "Scout"
+      ],
+      "tags": [
+        "beast",
+        "chaotic",
+        "corrupted",
+        "human",
+        "melee",
+        "mobile",
+        "scout",
+        "tech",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3,
+        "subtlety": 3,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "pG8JznC",
+      "name": "Barbarian Hunters",
+      "cost": 65,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Havocbound",
+        "Scout"
+      ],
+      "tags": [
+        "balanced",
+        "chaotic",
+        "corrupted",
+        "expendable",
+        "human",
+        "mobile",
+        "scout",
+        "tech"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "subtlety": 3,
+        "speed": 3,
+        "order": -3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "9VzVVdy",
+      "name": "Havoc Hounds",
+      "cost": 70,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Havocbound"
+      ],
+      "tags": [
+        "beast",
+        "chaotic",
+        "corrupted",
+        "fast",
+        "human",
+        "melee",
+        "mobile",
+        "tech"
+      ],
+      "dimensionScores": {
+        "purity": -4,
+        "humanity": 3,
+        "speed": 5,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "tIquQyR",
+      "name": "Havoc Furies",
+      "cost": 70,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Flying",
+        "Havocbound"
+      ],
+      "tags": [
+        "beast",
+        "chaotic",
+        "corrupted",
+        "expendable",
+        "flying",
+        "human",
+        "melee",
+        "tech"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 3,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "8LD0dh8",
+      "name": "Barbarian Horsemen",
+      "cost": 80,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Furious",
+        "Impact(1)",
+        "Havocbound",
+        "Scout"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "chaotic",
+        "corrupted",
+        "expendable",
+        "fast",
+        "human",
+        "melee",
+        "mobile",
+        "scout",
+        "tech"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 5,
+        "patience": -3,
+        "subtlety": 3,
+        "order": -3
+      }
+    },
+    {
+      "id": "GJGNWvj",
+      "name": "Havoc Knights",
+      "cost": 125,
+      "size": 5,
+      "quality": 3,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(1)",
+        "Havocbound"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "chaotic",
+        "corrupted",
+        "fast",
+        "human",
+        "melee",
+        "tech",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 5,
+        "patience": -3,
+        "order": -3
+      }
+    },
+    {
+      "id": "3SD9sRo",
+      "name": "Daemonic Guard Knights",
+      "cost": 195,
+      "size": 3,
+      "quality": 3,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(2)",
+        "Tough(3)",
+        "Havocbound"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "chaotic",
+        "corrupted",
+        "daemon",
+        "elite",
+        "fast",
+        "human",
+        "melee",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "purity": -5,
+        "humanity": -1,
+        "faith": 3,
+        "speed": 5,
+        "patience": -3,
+        "order": -3
+      }
+    },
+    {
+      "id": "kBx2if3",
+      "name": "Drake-Giant",
+      "cost": 145,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(1)",
+        "Impact(4)",
+        "Tough(6)",
+        "Havocbound"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "chaotic",
+        "corrupted",
+        "elite",
+        "human",
+        "melee",
+        "monster",
+        "tech",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -1,
+        "purity": -4,
+        "patience": -3,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "QvcEwz1",
+      "name": "Havoc Shrine",
+      "cost": 225,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Tough(12)",
+        "Havocbound"
+      ],
+      "tags": [
+        "chaotic",
+        "corrupted",
+        "human",
+        "melee",
+        "monster",
+        "tech",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -1,
+        "purity": -4,
+        "order": -3
+      }
+    },
+    {
+      "id": "rjgk8RE",
+      "name": "Slaughter Beast",
+      "cost": 235,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Furious",
+        "Tough(12)",
+        "Havocbound"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "chaotic",
+        "corrupted",
+        "human",
+        "melee",
+        "monster",
+        "tech",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -1,
+        "purity": -4,
+        "patience": -3,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "fi0flbH",
+      "name": "Chimera",
+      "cost": 250,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Breath Attack",
+        "Fear(2)",
+        "Flying",
+        "Tough(12)",
+        "Havocbound"
+      ],
+      "tags": [
+        "beast",
+        "chaotic",
+        "corrupted",
+        "flying",
+        "human",
+        "melee",
+        "monster",
+        "tech",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -1,
+        "purity": -4,
+        "speed": 3,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "kEg7-0r",
+      "name": "Vortex Beast",
+      "cost": 340,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Unpredictable Fighter",
+        "Fear(2)",
+        "Regeneration",
+        "Tough(12)",
+        "Havocbound"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "chaotic",
+        "corrupted",
+        "human",
+        "monster",
+        "regeneration",
+        "tech",
+        "tough",
+        "unpredictable",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -1,
+        "purity": -4,
+        "order": -5,
+        "versatility": 2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "Z4lt72z",
+      "name": "Havoc Chariot",
+      "cost": 130,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(4)",
+        "Tough(6)",
+        "Havocbound"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "chaotic",
+        "corrupted",
+        "elite",
+        "fast",
+        "human",
+        "melee",
+        "tech",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "purity": -4,
+        "humanity": 3,
+        "speed": 5,
+        "patience": -3,
+        "order": -3
+      }
+    },
+    {
+      "id": "bOrMaBb",
+      "name": "Beast Chariot",
+      "cost": 145,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fast",
+        "Fear(1)",
+        "Impact(4)",
+        "Tough(6)",
+        "Havocbound"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cavalry",
+        "chaotic",
+        "corrupted",
+        "elite",
+        "fast",
+        "human",
+        "melee",
+        "monster",
+        "tech",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -1,
+        "purity": -4,
+        "speed": 5,
+        "patience": -3,
+        "order": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "a1SnwkJ",
+      "name": "Daemon Artillery",
+      "cost": 210,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "heavy-support",
+      "rules": [
+        "Tough(3)",
+        "Artillery",
+        "Havocbound"
+      ],
+      "tags": [
+        "balanced",
+        "chaotic",
+        "corrupted",
+        "daemon",
+        "defensive",
+        "monster",
+        "ranged",
+        "static",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "purity": -5,
+        "humanity": -4,
+        "faith": 3,
+        "patience": 5,
+        "order": -3,
+        "versatility": 2
+      }
+    }
+  ]
+}

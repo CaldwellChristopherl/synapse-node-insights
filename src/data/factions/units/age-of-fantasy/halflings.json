@@ -1,0 +1,519 @@
+{
+  "factionId": "0EXXlzFwAk3q1n5e",
+  "factionName": "Halflings",
+  "gameSystem": "age-of-fantasy",
+  "factionType": "mixed",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:16.606Z",
+  "units": [
+    {
+      "id": "gjLy2pX",
+      "name": "Champion",
+      "cost": 35,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Lucky",
+        "Slow",
+        "Tough(3)"
+      ],
+      "tags": [
+        "hero",
+        "leader",
+        "melee",
+        "slow",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3,
+        "speed": -2
+      }
+    },
+    {
+      "id": "8zAbXEx",
+      "name": "Leader",
+      "cost": 20,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Slow",
+        "Tough(3)",
+        "Lucky"
+      ],
+      "tags": [
+        "expendable",
+        "hero",
+        "leader",
+        "melee",
+        "slow"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "leadership": 3,
+        "speed": -2
+      }
+    },
+    {
+      "id": "OYcYENm",
+      "name": "Townfolk",
+      "cost": 60,
+      "size": 10,
+      "quality": 6,
+      "defense": 6,
+      "role": "swarm",
+      "rules": [
+        "Slow",
+        "Lucky"
+      ],
+      "tags": [
+        "balanced",
+        "cheap",
+        "expendable",
+        "horde",
+        "slow",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "speed": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "KDxefi6",
+      "name": "Warriors",
+      "cost": 60,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Slow",
+        "Lucky"
+      ],
+      "tags": [
+        "cheap",
+        "expendable",
+        "horde",
+        "melee",
+        "slow",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "speed": -2
+      }
+    },
+    {
+      "id": "fhglA5W",
+      "name": "Veterans",
+      "cost": 70,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Slow",
+        "Lucky"
+      ],
+      "tags": [
+        "cheap",
+        "melee",
+        "slow"
+      ],
+      "dimensionScores": {
+        "speed": -2,
+        "elite": -2
+      }
+    },
+    {
+      "id": "12lW1vI",
+      "name": "Braves",
+      "cost": 85,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Furious",
+        "Melee Slayer",
+        "Slow",
+        "Fearless",
+        "Lucky"
+      ],
+      "tags": [
+        "aggressive",
+        "expendable",
+        "fearless",
+        "melee",
+        "slow"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "patience": -3,
+        "speed": -2,
+        "faith": 2
+      }
+    },
+    {
+      "id": "__kWeE8",
+      "name": "Drunks",
+      "cost": 75,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Bounding",
+        "Fearless",
+        "Lucky",
+        "Regeneration",
+        "Slow"
+      ],
+      "tags": [
+        "expendable",
+        "fearless",
+        "melee",
+        "regeneration",
+        "slow"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "faith": 2,
+        "speed": -2
+      }
+    },
+    {
+      "id": "xSlWPl2",
+      "name": "Thieves",
+      "cost": 45,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Good Fighter",
+        "Slow",
+        "Stealth",
+        "Strider",
+        "Lucky"
+      ],
+      "tags": [
+        "expendable",
+        "melee",
+        "mobile",
+        "slow",
+        "stealth"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "speed": 1,
+        "subtlety": 4
+      }
+    },
+    {
+      "id": "AvS8raq",
+      "name": "Marksmen",
+      "cost": 60,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Slow",
+        "Lucky"
+      ],
+      "tags": [
+        "balanced",
+        "cheap",
+        "expendable",
+        "slow"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "speed": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "BhWJCvb",
+      "name": "Beast Riders",
+      "cost": 70,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Lucky"
+      ],
+      "tags": [
+        "beast",
+        "cavalry",
+        "expendable",
+        "melee"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "speed": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "h5ARfF6",
+      "name": "Golems",
+      "cost": 140,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "heavy-support",
+      "rules": [
+        "Slow",
+        "Strider",
+        "Tough(3)",
+        "Lucky"
+      ],
+      "tags": [
+        "beast",
+        "melee",
+        "mobile",
+        "slow",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 1,
+        "tech": -3
+      }
+    },
+    {
+      "id": "r2A20bR",
+      "name": "Jetpack Troopers",
+      "cost": 150,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Flying",
+        "Tough(3)",
+        "Lucky"
+      ],
+      "tags": [
+        "balanced",
+        "flying",
+        "human",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": 3,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "q10zDe1",
+      "name": "Troll Riders",
+      "cost": 265,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Regeneration",
+        "Tough(3)",
+        "Lucky"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "cavalry",
+        "regeneration",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3,
+        "versatility": 2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "Kt_SEhO",
+      "name": "Zeppelins",
+      "cost": 185,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Flying",
+        "Tough(3)",
+        "Lucky"
+      ],
+      "tags": [
+        "balanced",
+        "flying",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "mdsWqDV",
+      "name": "Cockatrice",
+      "cost": 150,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "vehicle",
+      "rules": [
+        "Fear(1)",
+        "Flying",
+        "Tough(6)",
+        "Lucky"
+      ],
+      "tags": [
+        "beast",
+        "elite",
+        "flying",
+        "melee",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 3
+      }
+    },
+    {
+      "id": "GWQkvw1",
+      "name": "Beast Chariot",
+      "cost": 110,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "troops",
+      "rules": [
+        "Tough(6)",
+        "Lucky"
+      ],
+      "tags": [
+        "beast",
+        "cavalry",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "Lfmodkt",
+      "name": "Harvester",
+      "cost": 120,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "troops",
+      "rules": [
+        "Impact(6)",
+        "Regeneration",
+        "Tough(6)",
+        "Lucky"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "melee",
+        "regeneration",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3,
+        "patience": -3
+      }
+    },
+    {
+      "id": "G42cMNm",
+      "name": "Iron Pig",
+      "cost": 310,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Impact(6)",
+        "Tough(9)",
+        "Lucky"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "beast",
+        "monster",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "patience": -3,
+        "versatility": 2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "avLiLhw",
+      "name": "Halfling Artillery",
+      "cost": 90,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "heavy-support",
+      "rules": [
+        "Tough(3)",
+        "Lucky",
+        "Artillery"
+      ],
+      "tags": [
+        "balanced",
+        "defensive",
+        "ranged",
+        "static",
+        "tough"
+      ],
+      "dimensionScores": {
+        "patience": 5,
+        "versatility": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,844 @@
+{
+  "factionId": "hk70l4d471plza00",
+  "factionName": "Ratmen Clans",
+  "gameSystem": "grimdark-future",
+  "factionType": "organic",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:17.432Z",
+  "units": [
+    {
+      "id": "tu44kj7",
+      "name": "Rat Ogre Handler",
+      "cost": 100,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Fearless",
+        "Furious",
+        "Hero",
+        "Tough(6)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cunning",
+        "fearless",
+        "hero",
+        "leader",
+        "melee",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "tech": -5,
+        "faith": 2,
+        "humanity": -4,
+        "patience": -3,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "iLcYp6m",
+      "name": "Elite Handler",
+      "cost": 45,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Fearless",
+        "Hero",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "fearless",
+        "hero",
+        "leader",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "tech": -2,
+        "faith": 2,
+        "humanity": -4,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "UcqGeeC",
+      "name": "Clan Handler",
+      "cost": 25,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "expendable",
+        "hero",
+        "leader",
+        "organic",
+        "tough",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "tech": -2,
+        "leadership": 3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "E6IcVEg",
+      "name": "Stalkers",
+      "cost": 120,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Furious",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "cheap",
+        "cunning",
+        "expendable",
+        "horde",
+        "melee",
+        "organic",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "tech": -2,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "AAy6wNG",
+      "name": "Operators",
+      "cost": 120,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cheap",
+        "cunning",
+        "expendable",
+        "horde",
+        "organic",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "tech": -2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "_msSIk9",
+      "name": "Saboteurs",
+      "cost": 85,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Quick Readjustment",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "expendable",
+        "organic",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "0luuGfX",
+      "name": "Infiltrators",
+      "cost": 110,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Scout",
+        "Stealth",
+        "Strider",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "mobile",
+        "organic",
+        "scout",
+        "stealth",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -2,
+        "subtlety": 5,
+        "speed": 3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "_ZeOB9W",
+      "name": "Elite Operators",
+      "cost": 110,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Fearless",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "fearless",
+        "monster",
+        "organic",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -2,
+        "faith": 2,
+        "humanity": -4,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "q315RqV",
+      "name": "Sharpshooters",
+      "cost": 95,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Scout",
+        "Stealth",
+        "Strider",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "expendable",
+        "mobile",
+        "organic",
+        "scout",
+        "stealth",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -2,
+        "subtlety": 5,
+        "speed": 3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "vYSjjR0",
+      "name": "Weapon Experts",
+      "cost": 180,
+      "size": 3,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Relentless",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "organic",
+        "ranged",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "TBfyhgl",
+      "name": "Mecha-Beast Riders",
+      "cost": 85,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Ravage(1)",
+        "Fast",
+        "Strider",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "cunning",
+        "expendable",
+        "fast",
+        "mobile",
+        "organic",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -5,
+        "speed": 5,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "pJxreap",
+      "name": "Rat Ogre Bodyguards",
+      "cost": 150,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Fearless",
+        "Furious",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cunning",
+        "fearless",
+        "melee",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -5,
+        "faith": 2,
+        "humanity": -4,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "KXkYPJX",
+      "name": "Rat Ogre Agents",
+      "cost": 180,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Furious",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "beast",
+        "cunning",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -5,
+        "patience": -3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "BYpNAsE",
+      "name": "Mine-Drones",
+      "cost": 75,
+      "size": 5,
+      "quality": 6,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "No Retreat",
+        "Self-Destruct(2)",
+        "Slow"
+      ],
+      "tags": [
+        "cunning",
+        "expendable",
+        "melee",
+        "organic",
+        "slow",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -2,
+        "speed": -2,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "NtrYVeL",
+      "name": "Rat Swarms",
+      "cost": 70,
+      "size": 3,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Tough(3)",
+        "Scurry"
+      ],
+      "tags": [
+        "beast",
+        "cunning",
+        "expendable",
+        "horde",
+        "melee",
+        "mobile",
+        "organic",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": -5,
+        "collective": 5,
+        "speed": 3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "W6abeLL",
+      "name": "Giant Rats",
+      "cost": 90,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Strider",
+        "Fast",
+        "Scurry"
+      ],
+      "tags": [
+        "beast",
+        "cheap",
+        "cunning",
+        "expendable",
+        "fast",
+        "horde",
+        "melee",
+        "mobile",
+        "organic",
+        "swarm",
+        "treacherous"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "tech": -5,
+        "speed": 5,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "JmyR5Mq",
+      "name": "Great Death Wheel",
+      "cost": 165,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fast",
+        "Fear(1)",
+        "Tough(6)",
+        "Scurry"
+      ],
+      "tags": [
+        "cunning",
+        "fast",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -2,
+        "speed": 4,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "9IOpkWV",
+      "name": "Combat Tank",
+      "cost": 355,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(6)",
+        "Tough(12)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "cunning",
+        "fast",
+        "organic",
+        "ranged",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -2,
+        "speed": 4,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "Eo77WB4",
+      "name": "Burrower Tank",
+      "cost": 415,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Fast",
+        "Impact(6)",
+        "Tough(12)",
+        "Transport(11)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "cunning",
+        "fast",
+        "mobile",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -2,
+        "speed": 5,
+        "patience": -3,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "s0KFJIa",
+      "name": "Mecha-Ogre",
+      "cost": 160,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(1)",
+        "Fearless",
+        "Furious",
+        "Tough(6)",
+        "Scurry"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cunning",
+        "fearless",
+        "melee",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -5,
+        "faith": 2,
+        "patience": -3,
+        "honor": -4,
+        "order": -2
+      }
+    },
+    {
+      "id": "KwTE0lJ",
+      "name": "Light Mecha-Walker",
+      "cost": 155,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(1)",
+        "Tough(6)",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "IejCkBb",
+      "name": "Great Mecha-Beast",
+      "cost": 365,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Fearless",
+        "Tough(12)",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "cunning",
+        "fearless",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -5,
+        "faith": 2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "ATpkydc",
+      "name": "Titan Mecha-Beast",
+      "cost": 640,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(3)",
+        "Fearless",
+        "Tough(18)",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "beast",
+        "cunning",
+        "fearless",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -5,
+        "faith": 2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "BYQok8v",
+      "name": "Mecha-Walker Titan",
+      "cost": 775,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Fear(4)",
+        "Fearless",
+        "Tough(24)",
+        "Scurry"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "fearless",
+        "monster",
+        "organic",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -2,
+        "faith": 2,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "gJ2nflS",
+      "name": "Artillery Gun",
+      "cost": 95,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "heavy-support",
+      "rules": [
+        "Tough(3)",
+        "Artillery"
+      ],
+      "tags": [
+        "balanced",
+        "cunning",
+        "defensive",
+        "organic",
+        "ranged",
+        "static",
+        "tough",
+        "treacherous",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": -2,
+        "patience": 5,
+        "honor": -4,
+        "order": -2,
+        "versatility": 2
+      }
+    }
+  ]
+}

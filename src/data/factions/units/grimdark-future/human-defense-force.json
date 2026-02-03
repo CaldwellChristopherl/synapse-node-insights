@@ -1,0 +1,870 @@
+{
+  "factionId": "z65fgu0l29i4lnlu",
+  "factionName": "Human Defense Force",
+  "gameSystem": "grimdark-future",
+  "factionType": "tech",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:17.250Z",
+  "units": [
+    {
+      "id": "CaGeZkh",
+      "name": "Tank Company Leader",
+      "cost": 335,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "hero",
+      "rules": [
+        "Fast",
+        "Impact(6)",
+        "Tough(12)",
+        "Hold the Line",
+        "Hero"
+      ],
+      "tags": [
+        "aggressive",
+        "disciplined",
+        "fast",
+        "hero",
+        "leader",
+        "ranged",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3,
+        "leadership": 3,
+        "order": 5
+      }
+    },
+    {
+      "id": "dwJg2Bu",
+      "name": "Storm Leader",
+      "cost": 45,
+      "size": 1,
+      "quality": 4,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Hold the Line",
+        "Strider",
+        "Tough(3)"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "hero",
+        "leader",
+        "mobile",
+        "reliable",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3,
+        "speed": 3,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "3Tk4911",
+      "name": "Company Leader",
+      "cost": 35,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "hero",
+        "leader",
+        "reliable",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "97ShHAa",
+      "name": "Recruits",
+      "cost": 75,
+      "size": 10,
+      "quality": 6,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "cheap",
+        "disciplined",
+        "expendable",
+        "horde",
+        "human",
+        "reliable",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "humanity": 3,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "kTKbTVs",
+      "name": "GRUNT Robots",
+      "cost": 80,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Fearless",
+        "Good Shot",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "expendable",
+        "fearless",
+        "human",
+        "reliable",
+        "robot"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": 4,
+        "humanity": 1,
+        "faith": 2,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "_nbz3zj",
+      "name": "Infantry Squad",
+      "cost": 115,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "cheap",
+        "disciplined",
+        "expendable",
+        "horde",
+        "human",
+        "reliable",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5,
+        "order": 5,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "SScXOqX",
+      "name": "Veterans",
+      "cost": 80,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "human",
+        "reliable"
+      ],
+      "dimensionScores": {
+        "order": 5,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "Xuu-drz",
+      "name": "Storm Troopers",
+      "cost": 110,
+      "size": 5,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Strider",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "human",
+        "mobile",
+        "reliable",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": 3,
+        "speed": 3,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "SG9cgFZ",
+      "name": "Sappers",
+      "cost": 75,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Relentless",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "expendable",
+        "human",
+        "ranged",
+        "reliable"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "order": 5,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "95wirM-",
+      "name": "Snipers",
+      "cost": 125,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Scout",
+        "Stealth",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "human",
+        "mobile",
+        "reliable",
+        "scout",
+        "stealth"
+      ],
+      "dimensionScores": {
+        "subtlety": 5,
+        "speed": 3,
+        "order": 5,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "8jb141s",
+      "name": "Weapon Teams",
+      "cost": 135,
+      "size": 3,
+      "quality": 5,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Tough(3)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "human",
+        "reliable",
+        "tough"
+      ],
+      "dimensionScores": {
+        "order": 5,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "44TuRY_",
+      "name": "OGRE Robots",
+      "cost": 160,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Fearless",
+        "Furious",
+        "Tough(3)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "beast",
+        "disciplined",
+        "fearless",
+        "human",
+        "monster",
+        "reliable",
+        "robot",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 1,
+        "humanity": -3,
+        "faith": 2,
+        "patience": -3,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "UoYLgB-",
+      "name": "Combat Bikers",
+      "cost": 95,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(1)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "cavalry",
+        "disciplined",
+        "expendable",
+        "fast",
+        "human",
+        "reliable",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "tech": 3,
+        "speed": 5,
+        "patience": -3,
+        "order": 5,
+        "humanity": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "fOa_lx3",
+      "name": "Light APC",
+      "cost": 195,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Tough(6)",
+        "Transport(11)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "disciplined",
+        "fast",
+        "ranged",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3,
+        "order": 5
+      }
+    },
+    {
+      "id": "fNFXxmn",
+      "name": "Armored Truck",
+      "cost": 175,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Strider",
+        "Tough(6)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "battlesuit",
+        "disciplined",
+        "fast",
+        "mobile",
+        "ranged",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 5,
+        "speed": 5,
+        "patience": -3,
+        "order": 5
+      }
+    },
+    {
+      "id": "V_CYLnO",
+      "name": "Attack Vehicle",
+      "cost": 225,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(3)",
+        "Tough(9)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "disciplined",
+        "fast",
+        "ranged",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3,
+        "order": 5
+      }
+    },
+    {
+      "id": "08ymvzA",
+      "name": "Support Vehicle",
+      "cost": 265,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Hold the Line",
+        "Impact(3)",
+        "Mobile Artillery",
+        "Tough(6)"
+      ],
+      "tags": [
+        "aggressive",
+        "disciplined",
+        "ranged",
+        "reliable",
+        "static",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "patience": -1,
+        "order": 5
+      }
+    },
+    {
+      "id": "W35Ba5E",
+      "name": "Battle Tank",
+      "cost": 335,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(6)",
+        "Tough(12)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "disciplined",
+        "fast",
+        "ranged",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3,
+        "order": 5
+      }
+    },
+    {
+      "id": "X8nYjuV",
+      "name": "Heavy Battle Tank",
+      "cost": 425,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(6)",
+        "Tough(15)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "disciplined",
+        "fast",
+        "ranged",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3,
+        "order": 5
+      }
+    },
+    {
+      "id": "rQIWNXD",
+      "name": "Light Walker",
+      "cost": 155,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(1)",
+        "Tough(6)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "2gQYnym",
+      "name": "Combat Walker",
+      "cost": 255,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(2)",
+        "Furious",
+        "Tough(12)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "disciplined",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "patience": -3,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "coX3WxC",
+      "name": "Tactical Walker",
+      "cost": 325,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(2)",
+        "Tough(12)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "FI5HqPD",
+      "name": "Tactical Titan",
+      "cost": 540,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fear(3)",
+        "Fearless",
+        "Tough(18)",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "fearless",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "faith": 2,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "shy3C64",
+      "name": "Super Heavy Battle Tank",
+      "cost": 870,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Fast",
+        "Impact(12)",
+        "Tough(24)",
+        "Fearless",
+        "Hold the Line"
+      ],
+      "tags": [
+        "aggressive",
+        "disciplined",
+        "fast",
+        "fearless",
+        "ranged",
+        "reliable",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 3,
+        "speed": 4,
+        "patience": -3,
+        "faith": 2,
+        "order": 5
+      }
+    },
+    {
+      "id": "s42gz1M",
+      "name": "Light Gunship",
+      "cost": 265,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Aircraft",
+        "Tough(6)",
+        "Transport(11)"
+      ],
+      "tags": [
+        "aircraft",
+        "defensive",
+        "flying",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 5,
+        "speed": 5,
+        "patience": 3
+      }
+    },
+    {
+      "id": "RiIn09O",
+      "name": "Heavy Gunship",
+      "cost": 390,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "vehicle",
+      "rules": [
+        "Aircraft",
+        "Tough(9)",
+        "Transport(6)"
+      ],
+      "tags": [
+        "aircraft",
+        "defensive",
+        "flying",
+        "ranged",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "tech": 5,
+        "speed": 5,
+        "patience": 3
+      }
+    },
+    {
+      "id": "B2dHJih",
+      "name": "Field Artillery",
+      "cost": 110,
+      "size": 1,
+      "quality": 4,
+      "defense": 2,
+      "role": "heavy-support",
+      "rules": [
+        "Artillery",
+        "Hold the Line",
+        "Tough(3)"
+      ],
+      "tags": [
+        "balanced",
+        "defensive",
+        "disciplined",
+        "ranged",
+        "reliable",
+        "static",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "patience": 5,
+        "order": 5,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "f6aWdEK",
+      "name": "Colonel Rixxon",
+      "cost": 45,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Unique",
+        "Hold the Line"
+      ],
+      "tags": [
+        "balanced",
+        "disciplined",
+        "hero",
+        "leader",
+        "reliable",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3,
+        "order": 5,
+        "versatility": 2
+      }
+    }
+  ]
+}

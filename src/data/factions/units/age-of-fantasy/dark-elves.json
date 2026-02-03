@@ -1,0 +1,625 @@
+{
+  "factionId": "IKT625BeGZtF67EA",
+  "factionName": "Dark Elves",
+  "gameSystem": "age-of-fantasy",
+  "factionType": "primitive",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:16.512Z",
+  "units": [
+    {
+      "id": "arB63Yj",
+      "name": "Snake Lady",
+      "cost": 105,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(6)",
+        "Strider",
+        "Harassing"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "hqL6cA1",
+      "name": "Dark Captain",
+      "cost": 50,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Harassing"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "IoM820w",
+      "name": "Champion",
+      "cost": 30,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Harassing"
+      ],
+      "tags": [
+        "hero",
+        "leader",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "yrBgoA2",
+      "name": "Dark Warriors",
+      "cost": 95,
+      "size": 10,
+      "quality": 4,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Harassing"
+      ],
+      "tags": [
+        "cheap",
+        "horde",
+        "melee",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -2,
+        "collective": 5
+      }
+    },
+    {
+      "id": "_XqHhJx",
+      "name": "Harpies",
+      "cost": 75,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Flying",
+        "Scout",
+        "Harassing"
+      ],
+      "tags": [
+        "beast",
+        "expendable",
+        "flying",
+        "melee",
+        "mobile",
+        "scout"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "speed": 5,
+        "subtlety": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "ldmXtEN",
+      "name": "Corsairs",
+      "cost": 75,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Stealth",
+        "Harassing"
+      ],
+      "tags": [
+        "melee",
+        "reliable",
+        "stealth"
+      ],
+      "dimensionScores": {
+        "subtlety": 4,
+        "order": 2
+      }
+    },
+    {
+      "id": "EpqxFAd",
+      "name": "Winged Sisters",
+      "cost": 85,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Flying",
+        "Harassing"
+      ],
+      "tags": [
+        "flying",
+        "melee",
+        "mobile"
+      ],
+      "dimensionScores": {
+        "speed": 5
+      }
+    },
+    {
+      "id": "R0l-qSM",
+      "name": "Slaughter Sisters",
+      "cost": 95,
+      "size": 5,
+      "quality": 3,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Melee Evasion",
+        "Strider",
+        "Harassing"
+      ],
+      "tags": [
+        "melee",
+        "mobile",
+        "reliable"
+      ],
+      "dimensionScores": {
+        "speed": 3,
+        "order": 2
+      }
+    },
+    {
+      "id": "IZPHFER",
+      "name": "Executioners",
+      "cost": 100,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Melee Slayer",
+        "Harassing"
+      ],
+      "tags": [
+        "balanced",
+        "melee",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "KmdhdcR",
+      "name": "Witches",
+      "cost": 105,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Furious",
+        "Harassing"
+      ],
+      "tags": [
+        "aggressive",
+        "melee",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "patience": -3
+      }
+    },
+    {
+      "id": "xq_S8Pc",
+      "name": "Black Guardians",
+      "cost": 110,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Fearless",
+        "Furious",
+        "Harassing"
+      ],
+      "tags": [
+        "aggressive",
+        "fearless",
+        "human",
+        "melee",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": 3,
+        "faith": 2,
+        "patience": -3
+      }
+    },
+    {
+      "id": "6mkvZRW",
+      "name": "Dark Shooters",
+      "cost": 130,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Harassing"
+      ],
+      "tags": [
+        "balanced",
+        "versatile",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "versatility": 5
+      }
+    },
+    {
+      "id": "kj4MEA-",
+      "name": "Shade Scouts",
+      "cost": 135,
+      "size": 5,
+      "quality": 3,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Scout",
+        "Stealth",
+        "Harassing"
+      ],
+      "tags": [
+        "melee",
+        "mobile",
+        "scout",
+        "stealth",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "subtlety": 5,
+        "speed": 3
+      }
+    },
+    {
+      "id": "sJCUs4l",
+      "name": "Snake Sisters",
+      "cost": 160,
+      "size": 3,
+      "quality": 3,
+      "defense": 4,
+      "role": "elite",
+      "rules": [
+        "Strider",
+        "Tough(3)",
+        "Harassing"
+      ],
+      "tags": [
+        "elite",
+        "melee",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 3
+      }
+    },
+    {
+      "id": "Ohd9a74",
+      "name": "Warlock Riders",
+      "cost": 90,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(1)",
+        "Harassing"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "fast",
+        "magic",
+        "melee",
+        "psychic"
+      ],
+      "dimensionScores": {
+        "speed": 5,
+        "patience": -3,
+        "mystery": 5
+      }
+    },
+    {
+      "id": "Qattnen",
+      "name": "Dark Horsemen",
+      "cost": 95,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(1)",
+        "Harassing"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "fast",
+        "melee"
+      ],
+      "dimensionScores": {
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "3MdFeer",
+      "name": "Raptor Knights",
+      "cost": 135,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Harassing",
+        "Impact(1)",
+        "Ravage(1)"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cavalry",
+        "fast",
+        "melee",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "patience": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "trlpgL0",
+      "name": "Great Medusa",
+      "cost": 195,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "vehicle",
+      "rules": [
+        "Fear(1)",
+        "Furious",
+        "Tough(6)",
+        "Harassing"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "beast",
+        "elite",
+        "tough",
+        "vehicle"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "patience": -3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "D9C20sj",
+      "name": "Abyssal Beast",
+      "cost": 225,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Predator Fighter",
+        "Tough(12)",
+        "Harassing"
+      ],
+      "tags": [
+        "beast",
+        "melee",
+        "monster",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -3
+      }
+    },
+    {
+      "id": "fUD-3Ks",
+      "name": "Hydra",
+      "cost": 260,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Regenerative Strength",
+        "Regeneration",
+        "Tough(12)",
+        "Harassing"
+      ],
+      "tags": [
+        "beast",
+        "melee",
+        "monster",
+        "regeneration",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "tech": -3
+      }
+    },
+    {
+      "id": "heZ9k63",
+      "name": "Scourge Chariot",
+      "cost": 110,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Impact(4)",
+        "Tough(6)",
+        "Harassing"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "fast",
+        "melee",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "oi1hSD7",
+      "name": "Raptor Chariot",
+      "cost": 140,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Harassing",
+        "Impact(4)",
+        "Ravage(2)",
+        "Tough(6)"
+      ],
+      "tags": [
+        "aggressive",
+        "cavalry",
+        "elite",
+        "fast",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 5,
+        "patience": -3
+      }
+    },
+    {
+      "id": "hY3SNrI",
+      "name": "Medusa Shrine",
+      "cost": 280,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Furious",
+        "Tough(9)",
+        "Harassing"
+      ],
+      "tags": [
+        "aggressive",
+        "balanced",
+        "elite",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -4,
+        "patience": -3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "D7-GJXh",
+      "name": "Dark Elf Artillery",
+      "cost": 100,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "heavy-support",
+      "rules": [
+        "Tough(3)",
+        "Artillery"
+      ],
+      "tags": [
+        "balanced",
+        "defensive",
+        "ranged",
+        "static",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "patience": 5,
+        "versatility": 2
+      }
+    }
+  ]
+}

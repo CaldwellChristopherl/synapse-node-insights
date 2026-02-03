@@ -1,0 +1,625 @@
+{
+  "factionId": "gHTrjw-g76vfGCSt",
+  "factionName": "Shadow Stalkers",
+  "gameSystem": "age-of-fantasy",
+  "factionType": "mixed",
+  "version": "1.7.2",
+  "taggedAt": "2026-02-03T04:18:16.885Z",
+  "units": [
+    {
+      "id": "BzhKtzr",
+      "name": "Butcher Champion",
+      "cost": 125,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "hero",
+      "rules": [
+        "Ravage(1)",
+        "Fear(1)",
+        "Hero",
+        "Shadowborn",
+        "Tough(6)"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "humanity": -4,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "y2ZMfy4",
+      "name": "Reaper Champion",
+      "cost": 60,
+      "size": 1,
+      "quality": 3,
+      "defense": 4,
+      "role": "hero",
+      "rules": [
+        "Melee Slayer",
+        "Hero",
+        "Tough(3)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "elite",
+        "hero",
+        "leader",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "np9c4GM",
+      "name": "Phantom Champion",
+      "cost": 50,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Ethereal",
+        "Hero",
+        "Tough(3)",
+        "Shadowborn",
+        "Resistance"
+      ],
+      "tags": [
+        "balanced",
+        "hero",
+        "leader",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "collective": -1,
+        "leadership": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "7kPf9Hw",
+      "name": "Spectre Champion",
+      "cost": 40,
+      "size": 1,
+      "quality": 5,
+      "defense": 6,
+      "role": "hero",
+      "rules": [
+        "Ethereal",
+        "Hero",
+        "Tough(3)",
+        "Shadowborn",
+        "Resistance"
+      ],
+      "tags": [
+        "balanced",
+        "expendable",
+        "hero",
+        "leader",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "leadership": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "2WYathE",
+      "name": "Scourge Champion",
+      "cost": 25,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Tough(3)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "expendable",
+        "hero",
+        "leader",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "collective": -1,
+        "leadership": 3
+      }
+    },
+    {
+      "id": "-gmfrKU",
+      "name": "Scourges",
+      "cost": 85,
+      "size": 10,
+      "quality": 5,
+      "defense": 5,
+      "role": "swarm",
+      "rules": [
+        "Shadowborn"
+      ],
+      "tags": [
+        "cheap",
+        "expendable",
+        "horde",
+        "melee",
+        "swarm"
+      ],
+      "dimensionScores": {
+        "elite": -5,
+        "collective": 5
+      }
+    },
+    {
+      "id": "My2uFJX",
+      "name": "Tormentors",
+      "cost": 95,
+      "size": 5,
+      "quality": 4,
+      "defense": 6,
+      "role": "fast-attack",
+      "rules": [
+        "Melee Evasion",
+        "Scout",
+        "Shadowborn"
+      ],
+      "tags": [
+        "melee",
+        "mobile",
+        "scout"
+      ],
+      "dimensionScores": {
+        "subtlety": 3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "ndEHefB",
+      "name": "Phantoms",
+      "cost": 95,
+      "size": 5,
+      "quality": 4,
+      "defense": 5,
+      "role": "troops",
+      "rules": [
+        "Ethereal",
+        "Shadowborn",
+        "Resistance"
+      ],
+      "tags": [
+        "balanced",
+        "reliable",
+        "versatile"
+      ],
+      "dimensionScores": {
+        "versatility": 5,
+        "order": 2
+      }
+    },
+    {
+      "id": "AbtEJXr",
+      "name": "Reapers",
+      "cost": 135,
+      "size": 5,
+      "quality": 3,
+      "defense": 4,
+      "role": "troops",
+      "rules": [
+        "Melee Slayer",
+        "Shadowborn"
+      ],
+      "tags": [
+        "balanced",
+        "melee",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "versatility": 2
+      }
+    },
+    {
+      "id": "dAqayhR",
+      "name": "Spectres",
+      "cost": 90,
+      "size": 5,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Ethereal",
+        "Shadowborn",
+        "Resistance"
+      ],
+      "tags": [
+        "balanced",
+        "expendable",
+        "versatile"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "versatility": 5
+      }
+    },
+    {
+      "id": "_v2ldwG",
+      "name": "Reaper Flayers",
+      "cost": 165,
+      "size": 3,
+      "quality": 3,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Melee Slayer",
+        "Impact(2)",
+        "Tough(3)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "aggressive",
+        "beast",
+        "cavalry",
+        "elite",
+        "fast",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 5,
+        "patience": -3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "tGl68Tj",
+      "name": "Butchers",
+      "cost": 175,
+      "size": 3,
+      "quality": 3,
+      "defense": 3,
+      "role": "elite",
+      "rules": [
+        "Ravage(1)",
+        "Shadowborn",
+        "Tough(3)"
+      ],
+      "tags": [
+        "elite",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4
+      }
+    },
+    {
+      "id": "taTBkkm",
+      "name": "Shadow Hounds",
+      "cost": 65,
+      "size": 5,
+      "quality": 5,
+      "defense": 5,
+      "role": "fast-attack",
+      "rules": [
+        "Fast",
+        "Strider",
+        "Shadowborn"
+      ],
+      "tags": [
+        "beast",
+        "expendable",
+        "fast",
+        "melee",
+        "mobile"
+      ],
+      "dimensionScores": {
+        "elite": -3,
+        "speed": 5,
+        "tech": -3
+      }
+    },
+    {
+      "id": "PBz81Cw",
+      "name": "Fang Swarms",
+      "cost": 80,
+      "size": 3,
+      "quality": 5,
+      "defense": 6,
+      "role": "troops",
+      "rules": [
+        "Melee Evasion",
+        "Tough(3)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "expendable",
+        "melee",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": -3
+      }
+    },
+    {
+      "id": "fjKxvmF",
+      "name": "Fiends",
+      "cost": 145,
+      "size": 3,
+      "quality": 4,
+      "defense": 4,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Melee Evasion",
+        "Tough(3)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "beast",
+        "melee",
+        "mobile",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "V-FTHA1",
+      "name": "Great Winged Horror",
+      "cost": 120,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "vehicle",
+      "rules": [
+        "Breath Attack",
+        "Fear(1)",
+        "Flying",
+        "Tough(6)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "beast",
+        "flying",
+        "melee",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "speed": 3
+      }
+    },
+    {
+      "id": "wUSTx2U",
+      "name": "Great Fiend",
+      "cost": 125,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "fast-attack",
+      "rules": [
+        "Ambush",
+        "Melee Evasion",
+        "Tough(6)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "beast",
+        "elite",
+        "melee",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "speed": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "Ov4wrvl",
+      "name": "Great Screecher",
+      "cost": 150,
+      "size": 1,
+      "quality": 4,
+      "defense": 5,
+      "role": "vehicle",
+      "rules": [
+        "Caster(3)",
+        "Ethereal",
+        "Fear(1)",
+        "Tough(6)",
+        "Shadowborn",
+        "Resistance"
+      ],
+      "tags": [
+        "beast",
+        "magic",
+        "melee",
+        "psychic",
+        "tough",
+        "vehicle",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "mystery": 5
+      }
+    },
+    {
+      "id": "M_NKMWj",
+      "name": "Terror Beast",
+      "cost": 255,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Fortified",
+        "Strider",
+        "Tough(12)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "beast",
+        "melee",
+        "mobile",
+        "monster",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "speed": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "xph0gAw",
+      "name": "Blind Behemoth",
+      "cost": 265,
+      "size": 1,
+      "quality": 3,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Shadowborn",
+        "Tough(12)",
+        "Resistance"
+      ],
+      "tags": [
+        "beast",
+        "elite",
+        "melee",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -4,
+        "tech": -3
+      }
+    },
+    {
+      "id": "wbvP4LV",
+      "name": "Ascended Fiend",
+      "cost": 310,
+      "size": 1,
+      "quality": 3,
+      "defense": 2,
+      "role": "monster",
+      "rules": [
+        "Ambush",
+        "Melee Evasion",
+        "Fear(2)",
+        "Tough(12)",
+        "Shadowborn"
+      ],
+      "tags": [
+        "beast",
+        "elite",
+        "melee",
+        "mobile",
+        "monster",
+        "tough"
+      ],
+      "dimensionScores": {
+        "elite": 4,
+        "humanity": -4,
+        "speed": 3,
+        "tech": -3
+      }
+    },
+    {
+      "id": "NeleRxm",
+      "name": "Great Terror Beast",
+      "cost": 430,
+      "size": 1,
+      "quality": 4,
+      "defense": 3,
+      "role": "monster",
+      "rules": [
+        "Fear(2)",
+        "Strider",
+        "Tough(18)",
+        "Fearless",
+        "Shadowborn"
+      ],
+      "tags": [
+        "beast",
+        "fearless",
+        "melee",
+        "mobile",
+        "monster",
+        "tough",
+        "veteran"
+      ],
+      "dimensionScores": {
+        "elite": 3,
+        "humanity": -4,
+        "speed": 3,
+        "faith": 2,
+        "tech": -3
+      }
+    },
+    {
+      "id": "Oe3wD2F",
+      "name": "Omoshu & Kothiz",
+      "cost": 80,
+      "size": 1,
+      "quality": 5,
+      "defense": 5,
+      "role": "hero",
+      "rules": [
+        "Hero",
+        "Strider",
+        "Tough(3)",
+        "Unique",
+        "Shadowborn"
+      ],
+      "tags": [
+        "hero",
+        "leader",
+        "melee",
+        "mobile",
+        "tough"
+      ],
+      "dimensionScores": {
+        "collective": -1,
+        "leadership": 3,
+        "speed": 3
+      }
+    }
+  ]
+}
