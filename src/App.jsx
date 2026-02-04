@@ -27,7 +27,7 @@ const calculateMatchScore = (userScores, factionScores) => {
 
 
 // Main Component
-export default function OPRQuiz() {
+export default function SynapseNodeInsights() {
   const [gameSystem, setGameSystem] = useState('grimdark-future');
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -41,6 +41,53 @@ export default function OPRQuiz() {
   const [armyList, setArmyList] = useState([]);
   const [activeTab, setActiveTab] = useState('matches');
   const [savedResults, setSavedResults] = useState(null);
+  const [showSavedResults, setShowSavedResults] = useState(false);
+  const [savedResultsList, setSavedResultsList] = useState([]);
+
+  // Load saved results on mount
+  useEffect(() => {
+    const saved = JSON.parse(localStorage.getItem('opr-quiz-results') || '[]');
+    setSavedResultsList(saved);
+  }, []);
+
+  // View saved results
+  const viewSavedResults = () => {
+    const saved = JSON.parse(localStorage.getItem('opr-quiz-results') || '[]');
+    setSavedResultsList(saved);
+    setShowSavedResults(true);
+  };
+
+  // Load saved result
+  const loadSavedResult = (result) => {
+    setAnswers({});
+    Object.entries(result.userScores || {}).forEach(([dim, score]) => {
+      const questions = QUESTIONS.filter(q => q.dimension === dim);
+      questions.forEach((q, idx) => {
+        if (idx === 0) {
+          setAnswers(prev => ({ ...prev, [q.id]: score }));
+        }
+      });
+    });
+    if (result.selectedFaction) {
+      setSelectedFaction(result.selectedFaction);
+    }
+    if (result.armyList && result.armyList.length > 0) {
+      setArmyList(result.armyList);
+    }
+    if (result.armyPoints) {
+      setArmyPoints(result.armyPoints);
+    }
+    setShowResults(true);
+    setShowSavedResults(false);
+  };
+
+  // Delete saved result
+  const deleteSavedResult = (index) => {
+    const saved = JSON.parse(localStorage.getItem('opr-quiz-results') || '[]');
+    saved.splice(index, 1);
+    localStorage.setItem('opr-quiz-results', JSON.stringify(saved));
+    setSavedResultsList(saved);
+  };
 
   // Calculate user dimension scores
   const userScores = useMemo(() => {
@@ -294,6 +341,16 @@ export default function OPRQuiz() {
 
   // Save results
   const saveResults = () => {
+    console.log('Save button clicked');
+    console.log('userScores:', userScores);
+    console.log('detectedArchetype:', detectedArchetype);
+    console.log('factionMatches:', factionMatches);
+    
+    if (Object.keys(userScores).length === 0) {
+      alert('No quiz data to save!');
+      return;
+    }
+    
     const results = {
       timestamp: new Date().toISOString(),
       gameSystem,
@@ -304,19 +361,25 @@ export default function OPRQuiz() {
       armyList: armyList.map(u => ({ name: u.name, cost: u.cost, quantity: u.quantity })),
       armyPoints
     };
-    setSavedResults(results);
-    // Save to localStorage
-    const saved = JSON.parse(localStorage.getItem('opr-quiz-results') || '[]');
-    saved.unshift(results);
-    localStorage.setItem('opr-quiz-results', JSON.stringify(saved.slice(0, 10)));
-    alert('Results saved!');
+    
+    try {
+      setSavedResults(results);
+      const saved = JSON.parse(localStorage.getItem('opr-quiz-results') || '[]');
+      saved.unshift(results);
+      localStorage.setItem('opr-quiz-results', JSON.stringify(saved.slice(0, 10)));
+      setSavedResultsList(saved);
+      alert('Results saved!');
+    } catch (error) {
+      console.error('Error saving results:', error);
+      alert('Failed to save results. Please check browser console.');
+    }
   };
 
   // Export for AI analysis
   const exportForAI = () => {
     const totalPoints = armyList.reduce((sum, u) => sum + (u.cost * u.quantity), 0);
     const exportData = {
-      title: "OPR Army Alignment Quiz Results",
+      title: "Synapse Node Insights Quiz Results",
       exportDate: new Date().toISOString(),
       gameSystem: gameSystem === 'grimdark-future' ? 'Grimdark Future' : 'Age of Fantasy',
       personalityProfile: {
@@ -358,7 +421,7 @@ export default function OPRQuiz() {
         totalUnits: armyList.reduce((sum, u) => sum + u.quantity, 0),
         totalModels: armyList.reduce((sum, u) => sum + (u.size * u.quantity), 0)
       } : null,
-      analysisPrompt: `Please analyze this OPR Army Alignment Quiz result. The user's personality archetype is "${detectedArchetype?.name}" with a playstyle of "${detectedArchetype?.playstyle}". Their top faction match is ${factionMatches[0]?.name} at ${factionMatches[0]?.matchScore}% compatibility. Their ${armyPoints}pt army has ${armyList.reduce((s,u) => s + u.quantity, 0)} units totaling ${totalPoints} points. Please provide: 1) An analysis of their tactical personality, 2) Suggestions for how to build armies that match their playstyle, 3) Tips for playing to their strengths, 4) Potential weaknesses to be aware of, and 5) Specific tactics that would work well with this army composition.`
+      analysisPrompt: `Please analyze this Synapse Node Insights Quiz result. The user's personality archetype is "${detectedArchetype?.name}" with a playstyle of "${detectedArchetype?.playstyle}". Their top faction match is ${factionMatches[0]?.name} at ${factionMatches[0]?.matchScore}% compatibility. Their ${armyPoints}pt army has ${armyList.reduce((s,u) => s + u.quantity, 0)} units totaling ${totalPoints} points. Please provide: 1) An analysis of their tactical personality, 2) Suggestions for how to build armies that match their playstyle, 3) Tips for playing to their strengths, 4) Potential weaknesses to be aware of, and 5) Specific tactics that would work well with this army composition.`
     };
     
     const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
@@ -694,7 +757,7 @@ export default function OPRQuiz() {
               )}
               
               <div className="text-xs text-zinc-600 text-center pt-2 space-y-1">
-                <p>Army auto-built using OPR Force Organization rules</p>
+                <p>Army auto-built using Force Organization rules</p>
                 <p className="text-zinc-700">Max {getForceOrgLimits(armyPoints, gameSystem).maxCopies} copies per unit • Units sorted by personality fit</p>
               </div>
             </>
@@ -709,6 +772,12 @@ export default function OPRQuiz() {
           className="px-4 py-2 rounded-lg bg-zinc-700 text-white hover:bg-zinc-600 transition-colors text-sm"
         >
           💾 Save Results
+        </button>
+        <button
+          onClick={viewSavedResults}
+          className="px-4 py-2 rounded-lg bg-zinc-700 text-white hover:bg-zinc-600 transition-colors text-sm"
+        >
+          📋 View Saved
         </button>
         <button
           onClick={exportForAI}
@@ -774,24 +843,91 @@ export default function OPRQuiz() {
       <div className="relative z-10 max-w-2xl mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-black mb-1 tracking-tight">
-            <span className={gameSystem === 'grimdark-future' ? 'text-red-500' : 'text-emerald-500'}>OPR</span>{' '}
-            <span className="text-white">ARMY ALIGNMENT</span>
+            <span className="text-white">Synapse Node</span>{' '}
+            <span className={gameSystem === 'grimdark-future' ? 'text-red-500' : 'text-emerald-500'}>Insights</span>
           </h1>
           <p className="text-zinc-500 text-sm">Find your perfect army • v3.0</p>
         </div>
 
         <GameSystemToggle />
 
+        {savedResultsList.length > 0 && !showResults && (
+          <button
+            onClick={viewSavedResults}
+            className="mb-4 w-full text-center text-zinc-500 hover:text-zinc-300 text-sm transition-colors"
+          >
+            📋 View Saved Results ({savedResultsList.length})
+          </button>
+        )}
+
         <div className="bg-zinc-900/50 backdrop-blur rounded-2xl p-6 border border-zinc-800">
           {!showResults ? <QuestionCard /> : <ResultsView />}
         </div>
 
         <div className="text-center mt-6 text-zinc-600 text-xs">
-          <p>Data from Army Forge API • One Page Rules</p>
+          <p>Data from Army Forge API</p>
         </div>
       </div>
 
       {showFactionPicker && <FactionPicker />}
+      
+      {showSavedResults && (
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4" onClick={() => setShowSavedResults(false)}>
+          <div className="bg-zinc-900 rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-hidden border border-zinc-700" onClick={e => e.stopPropagation()}>
+            <div className="p-4 border-b border-zinc-800 flex justify-between items-center">
+              <h3 className="font-bold text-white">Saved Results ({savedResultsList.length})</h3>
+              <button onClick={() => setShowSavedResults(false)} className="text-zinc-500 hover:text-white text-xl">×</button>
+            </div>
+            <div className="p-4 overflow-y-auto max-h-[60vh]">
+              {savedResultsList.length === 0 ? (
+                <div className="text-center py-8 text-zinc-500">
+                  <p>No saved results yet.</p>
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {savedResultsList.map((result, index) => (
+                    <div key={index} className="p-4 rounded-lg bg-zinc-800/50 border border-zinc-700">
+                      <div className="flex justify-between items-start mb-2">
+                        <div className="flex-1">
+                          <div className="text-sm text-zinc-500">
+                            {new Date(result.timestamp).toLocaleDateString()}
+                          </div>
+                          <div className="font-bold text-white">
+                            {result.gameSystem === 'grimdark-future' ? 'Grimdark Future' : 'Age of Fantasy'}
+                          </div>
+                          {result.archetype && (
+                            <div className="text-sm text-zinc-400">{result.archetype.name}</div>
+                          )}
+                          {result.selectedFaction && (
+                            <div className="text-sm text-zinc-400">Faction: {result.selectedFaction}</div>
+                          )}
+                          {result.armyList && result.armyList.length > 0 && (
+                            <div className="text-sm text-zinc-400">{result.armyList.length} units ({result.armyPoints} pts)</div>
+                          )}
+                        </div>
+                        <div className="flex gap-2">
+                          <button
+                            onClick={() => loadSavedResult(result)}
+                            className="px-3 py-1 rounded bg-emerald-700 hover:bg-emerald-600 text-white text-sm"
+                          >
+                            Load
+                          </button>
+                          <button
+                            onClick={() => deleteSavedResult(index)}
+                            className="px-3 py-1 rounded bg-red-700 hover:bg-red-600 text-white text-sm"
+                          >
+                            Delete
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
