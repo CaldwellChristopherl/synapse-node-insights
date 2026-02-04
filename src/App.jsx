@@ -107,8 +107,9 @@ export default function OPRQuiz() {
     let heroCount = 0;
     
     // Sort units: heroes first (by personality), then non-heroes (by personality)
-    const heroes = recommendedUnits.filter(u => u.rules?.some(r => r.name === 'Hero'));
-    const troops = recommendedUnits.filter(u => !u.rules?.some(r => r.name === 'Hero'));
+    console.log(recommendedUnits)
+    const heroes = recommendedUnits.filter(u => u.role === 'hero');
+    const troops = recommendedUnits.filter(u => u.role !== 'hero');
     
     // Add heroes (up to limit)
     for (const hero of heroes) {
@@ -618,7 +619,7 @@ export default function OPRQuiz() {
               {/* Force Org Info */}
               {(() => {
                 const limits = getForceOrgLimits(armyPoints,  gameSystem) 
-                const heroCount = armyList.filter(u => u.rules?.some(r => r.name === 'Hero')).reduce((s, u) => s + u.quantity, 0);
+                const heroCount = armyList.filter(u => u.role === 'hero').reduce((s, u) => s + u.quantity, 0);
                 const unitCount = armyList.reduce((s, u) => s + u.quantity, 0);
                 return (
                   <div className="flex gap-4 text-xs text-zinc-500 bg-zinc-800/30 rounded-lg p-2">
@@ -678,7 +679,7 @@ export default function OPRQuiz() {
                         </div>
                       </div>
                       <div className="flex flex-wrap gap-1 mt-2">
-                        {unit.rules?.filter(r => r.name !== 'Hero').slice(0, 3).map((r, i) => (
+                        {unit.rules?.filter(r => r.name !== 'hero').slice(0, 3).map((r, i) => (
                           <span key={i} className={`px-1.5 py-0.5 rounded text-xs ${
                             gameSystem === 'grimdark-future' ? 'bg-red-900/30 text-red-400' : 'bg-emerald-900/30 text-emerald-400'
                           }`}>{r.name}{r.rating ? `(${r.rating})` : ''}</span>
