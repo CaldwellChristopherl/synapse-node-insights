@@ -1,0 +1,2719 @@
+{
+  "factionId": "BKi_hJaJflN8ZorH",
+  "factionName": "Jackals",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Veteran",
+      "forUnits": [
+        "XhgyXd9"
+      ],
+      "sections": [
+        {
+          "label": "Replace Elite Scrap Pistol and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "eazGK",
+              "label": "Hunting Hook (A3, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Hook",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Q3uGZdY",
+              "label": "Explosive Spear (A3, AP(2))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Explosive Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "pEzTUFc",
+              "label": "Harpoon (A3, Thrust)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Harpoon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "W714SZq",
+              "label": "Goad-Spear (A3, Precise, Scratch)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Goad-Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Scratch",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Elite Scrap Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XErG3",
+              "label": "Elite Scrap Rifle (24\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Scrap Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "vnjn-",
+              "label": "Elite Hunting Shotgun (9\", A3, Scratch)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Hunting Shotgun",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 3,
+                  "special": [
+                    "Scratch"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "NPbACac",
+              "label": "Elite Hunting Rifle (24\", A1, Reliable, Scratch, Takedown)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Hunting Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Scratch",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "eF217mx",
+              "label": "Scrap Club (A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scrap Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "4rWkuUp",
+              "label": "Junk Sword (A2, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Junk Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "g5a5mtt",
+              "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jagged Hook",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Ga3fdiz",
+              "label": "Claw Gauntlet (A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Claw Gauntlet",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QTkRWvny",
+              "label": "Hunter's Mark (Precision Tag(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunter's Mark",
+                  "type": "item",
+                  "content": [
+                    "Precision Tag"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Nomads",
+      "forUnits": [
+        "8LCt3JN"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Scrap Rifles and CCWS",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "bUJ1tl-",
+              "label": "Scrap Pistol (12\", A1), CCW (A2)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scrap Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": []
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace up to two Scrap Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "2ru823z",
+              "label": "Hunting Shotgun (9\", A2, Scratch)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Shotgun",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Scratch"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "ynOJ40m",
+              "label": "Power Spiker (18\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Power Spiker",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "GTg1OL-",
+              "label": "Zapper Gun (12\", A3, Surge)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Zapper Gun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Surge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "XjfTraC",
+              "label": "Force Blaster (24\", A1, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Force Blaster",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "kn3Aob2",
+              "label": "Rocket Launcher (18\", A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rocket Launcher",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "vOWy7po",
+              "label": "Fumigator (12\", A1, Blast(3), Reliable, Surge)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fumigator",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable",
+                    "Surge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "Jt6y7B7",
+              "label": "Hunting Rifle (24\", A1, Reliable, Scratch, Takedown)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Scratch",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7i1Lao9J",
+              "label": "Hunter's Mark (Precision Tag(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunter's Mark",
+                  "type": "item",
+                  "content": [
+                    "Precision Tag"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Elites",
+      "forUnits": [
+        "uF7noGn"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Energy Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ncb2Mwk",
+              "label": "Shotgun (12\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "uF7noGn",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shotgun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Energy Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Fk4KScM",
+              "label": "Heavy Shred Rifle (18\", A2, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "uF7noGn",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Shred Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "C-mkPJ0",
+              "label": "Heavy Plasma Rifle (30\", A1, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "uF7noGn",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Plasma Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "CLjKAWt",
+              "label": "Heavy Flamer (12\", A1, AP(1), Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "uF7noGn",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "CkWfS5C",
+              "label": "Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "uF7noGn",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Missile Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "SCPK1vb7",
+              "label": "Hunter's Mark (Precision Tag(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "uF7noGn",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunter's Mark",
+                  "type": "item",
+                  "content": [
+                    "Precision Tag"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Vultures",
+      "forUnits": [
+        "LutTMHw"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Scrap Pistols and CCWS",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "LNQJk",
+              "label": "Explosive Spear (A2, AP(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Explosive Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace all Scrap Pistols",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "a8CET",
+              "label": "Energy Rifle (24\", A1, AP(1))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Scrap Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "KeEMl-4",
+              "label": "Force Blaster (12\", A1, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Force Blaster",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "9Iy_Rqy",
+              "label": "Hunting Shotgun (9\", A2, Scratch)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Shotgun",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Scratch"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "p9G9NJ8",
+              "label": "Zapper Gun (12\", A2, Surge)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Zapper Gun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Surge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fEYEY",
+              "label": "Junk Sword (A2, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Junk Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "aiR2e",
+              "label": "Claw Gauntlet (A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Claw Gauntlet",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "zwPOA",
+              "label": "Scrap Club (A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scrap Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "ALsE8",
+              "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "LutTMHw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jagged Hook",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Hounds",
+      "forUnits": [
+        "VEbHNRI"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "jnd0AJduQ0",
+              "label": "Sharp Claws (A2, Scratch)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VEbHNRI",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sharp Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Scratch"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "N4rW4Hz",
+              "label": "Vicious Bite (Ignores Regeneration in Melee)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "VEbHNRI",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vicious Bite",
+                  "type": "item",
+                  "content": [
+                    "Ignores Regeneration in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "90baKV8",
+              "label": "Hunter Breed (Furious)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "VEbHNRI",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunter Breed",
+                  "type": "item",
+                  "content": [
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Beast Riders",
+      "forUnits": [
+        "1znOU_R"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Hunting Hook",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "bh_sNTx",
+              "label": "Harpoon (A2, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "1znOU_R",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Harpoon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "yGjJT",
+              "label": "Explosive Spear (A2, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "1znOU_R",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Explosive Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "YIFBrT5",
+              "label": "Goad-Spear (A2, Precise, Scratch)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "1znOU_R",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Goad-Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Scratch",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fbew7-yf",
+              "label": "Fearsome Roar (Morale Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1znOU_R",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fearsome Roar",
+                  "type": "item",
+                  "content": [
+                    "Morale Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Great Beast",
+      "forUnits": [
+        "0BlDrtr"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Gd8DciFe9Y",
+              "label": "Transport Platform (Transport(11))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0BlDrtr",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Transport Platform",
+                  "type": "item",
+                  "content": [
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "WYJMZwL",
+              "label": "Harpoon Launcher (12\", A1, AP(4), Deadly(6))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "0BlDrtr",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Harpoon Launcher",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "nSIh3fI",
+              "label": "Spear Launcher (12\", A6, AP(2))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "0BlDrtr",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear Launcher",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "pA4NhTC8Aq",
+              "label": "Fearsome Roar (Morale Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0BlDrtr",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fearsome Roar",
+                  "type": "item",
+                  "content": [
+                    "Morale Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ymHwUtP",
+              "label": "Brutal Charge (Impact(6))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "0BlDrtr",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Brutal Charge",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Long Neck",
+      "forUnits": [
+        "RB1dBZj"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Rail Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "sb7CVLc",
+              "label": "Heavy Energy Cannon (36\", A3, AP(4), Deadly(6))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "RB1dBZj",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Energy Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "AttNl",
+              "label": "Heavy Rocket Array (30\", A3, AP(2), Blast(6), Indirect)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "RB1dBZj",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Rocket Array",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "wBQ7Zz8_",
+              "label": "Fearsome Roar (Morale Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RB1dBZj",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fearsome Roar",
+                  "type": "item",
+                  "content": [
+                    "Morale Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Mastodon",
+      "forUnits": [
+        "htslYRn"
+      ],
+      "sections": [
+        {
+          "label": "Replace Piercing Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "JjWhpYD",
+              "label": "Scatter Cannon (30\", A6, AP(2), Blast(3), Indirect)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "htslYRn",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scatter Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "Blast",
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with up to two",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QSSOu",
+              "label": "Heavy Machinegun (30\", A3, AP(1))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "htslYRn",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Machinegun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "SrFlGFFI",
+              "label": "Fearsome Roar (Morale Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "htslYRn",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fearsome Roar",
+                  "type": "item",
+                  "content": [
+                    "Morale Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "cbIZR",
+      "hint": "Squad Backpacks",
+      "forUnits": [
+        "8LCt3JN",
+        "uF7noGn",
+        "ARMiAVY"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "h-61J",
+              "label": "Satellite Backpack (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "8LCt3JN",
+                  "cost": 10
+                },
+                {
+                  "unitId": "uF7noGn",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ARMiAVY",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Satellite Backpack",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "j3Xwf",
+      "hint": "Stalkers",
+      "forUnits": [
+        "i38ZXSB"
+      ],
+      "sections": [
+        {
+          "label": "Replace any CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tFwnTdD",
+              "label": "Junk Sword (A1, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "i38ZXSB",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Junk Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "oNFc3t_",
+              "label": "Claw Hand (A1, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "i38ZXSB",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Claw Hand",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Y3JuZ",
+              "label": "Scrap Club (A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "i38ZXSB",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scrap Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "p_nDD",
+              "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "i38ZXSB",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jagged Hook",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ED3ga",
+      "hint": "Specialists - Elite",
+      "forUnits": [
+        "Nzc4pM6"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "W2Y-b",
+              "label": "Warlord (Precision Fighter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warlord",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "grMJt",
+              "label": "Shaman (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shaman",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "kxI3l",
+              "label": "Hunt Master (Ranged Shrouding Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunt Master",
+                  "type": "item",
+                  "content": [
+                    "Ranged Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5fOzQ0PH26",
+              "label": "Wasteland Survivor (Scrapper Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wasteland Survivor",
+                  "type": "item",
+                  "content": [
+                    "Scrapper Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "vfX1a",
+              "label": "Merchant (Unpredictable Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Merchant",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Yz7dM",
+      "hint": "Elite Veteran",
+      "forUnits": [
+        "Nzc4pM6"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hunting Hook",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "BN-UP",
+              "label": "Harpoon (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Harpoon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "4-9kx",
+              "label": "Elite Shotgun (12\", A3, AP(1)), CCW (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Shotgun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "87Aom",
+              "label": "Explosive Spear (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Explosive Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "CyPGn",
+              "label": "Goad-Spear (A3, Precise, Scratch)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Goad-Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Scratch",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Elite Shotgun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "AQFJs",
+              "label": "Elite Energy Rifle (24\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Energy Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sPJ6U6yk",
+              "label": "Hunter's Mark (Precision Tag(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunter's Mark",
+                  "type": "item",
+                  "content": [
+                    "Precision Tag"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TM77h",
+      "hint": "Beast Gunners",
+      "forUnits": [
+        "J6JUfNP"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Machinegun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "jAfYX",
+              "label": "Hunting Rifle (24\", A1, Reliable, Scratch, Takedown)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "J6JUfNP",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Scratch",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_e6UmokE",
+              "label": "Fearsome Roar (Morale Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "J6JUfNP",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fearsome Roar",
+                  "type": "item",
+                  "content": [
+                    "Morale Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "QFwEVwtw",
+      "hint": "Trackers",
+      "forUnits": [
+        "ARMiAVY"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "MZw86xjhD-",
+              "label": "Charged Ammo (Surprise Piercing Shot)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ARMiAVY",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Charged Ammo",
+                  "type": "item",
+                  "content": [
+                    "Surprise Piercing Shot"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "KWqQkSmY",
+              "label": "Hunter's Mark (Precision Tag(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ARMiAVY",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunter's Mark",
+                  "type": "item",
+                  "content": [
+                    "Precision Tag"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "eRZ914ip",
+      "hint": "Specialists - Veteran",
+      "forUnits": [
+        "XhgyXd9"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "9OxQPFPq",
+              "label": "Warlord (Precision Fighter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warlord",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "MVFaZNhw",
+              "label": "Pathfinder (Scout Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pathfinder",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "7fZiX5K4",
+              "label": "Shaman (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shaman",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Rm1ZPt1w",
+              "label": "Hunt Master (Ranged Shrouding Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunt Master",
+                  "type": "item",
+                  "content": [
+                    "Ranged Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "bhW24qjY",
+              "label": "Wasteland Survivor (Scrapper Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wasteland Survivor",
+                  "type": "item",
+                  "content": [
+                    "Scrapper Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "medM6NFU",
+      "hint": "Hero Upgrades",
+      "forUnits": [
+        "Nzc4pM6",
+        "XhgyXd9"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "mgC7vFIA",
+              "label": "Stalker (Furious, Melee Evasion)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 10
+                },
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stalker",
+                  "type": "item",
+                  "content": [
+                    "Furious",
+                    "Melee Evasion"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "cvR41s79",
+              "label": "Satellite Backpack (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 10
+                },
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Satellite Backpack",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Mdywcpxn",
+              "label": "Jetpack (Ambush, Crossing Attack(1), Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 15
+                },
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jetpack",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Crossing Attack",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "vUNcCoH5",
+              "label": "Gunner Beast (Bounding, Fortified, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 45
+                },
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gunner Beast",
+                  "type": "item",
+                  "content": [
+                    "Fortified",
+                    "Tough",
+                    "Bounding"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "QNa60ZQX",
+              "label": "Assault Beast (Bounding, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nzc4pM6",
+                  "cost": 50
+                },
+                {
+                  "unitId": "XhgyXd9",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Assault Beast",
+                  "type": "item",
+                  "content": [
+                    "Impact",
+                    "Tough",
+                    "Bounding"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

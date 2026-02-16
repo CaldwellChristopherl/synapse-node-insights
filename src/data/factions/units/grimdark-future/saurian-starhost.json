@@ -3,8 +3,13 @@
   "factionName": "Saurian Starhost",
   "gameSystem": "grimdark-future",
   "factionType": "organic",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.470Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.426Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 39
+  },
   "units": [
     {
       "id": "igyAK4c",
@@ -23,29 +28,49 @@
         "Primal",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Magic Blast",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Heavy Pulse",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "CJhthuW4"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "elite",
-        "fearless",
+        "magic",
+        "psychic",
         "hero",
         "leader",
-        "magic",
         "mobile",
+        "tough",
+        "fearless",
         "monster",
         "organic",
-        "psychic",
-        "tough"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "tech": -5,
         "mystery": 5,
-        "humanity": -4,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": 3,
+        "patience": 1,
         "faith": 2,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -64,23 +89,44 @@
         "Tough(6)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Mace",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "dMe0HVxL"
+      ],
       "tags": [
         "fearless",
         "hero",
         "leader",
-        "melee",
-        "monster",
-        "organic",
         "tough",
-        "veteran"
+        "organic",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": -2,
-        "humanity": -4,
         "faith": 2,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -3
       }
     },
     {
@@ -97,23 +143,40 @@
         "Tough(3)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Veteran Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "jnsJnyP5"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "fearless",
         "hero",
         "leader",
-        "monster",
+        "tough",
         "organic",
-        "tough"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "tech": -2,
         "faith": 2,
-        "humanity": -4,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -131,21 +194,41 @@
         "Tough(3)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Champion Burst Gun",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "X0PEpsW6"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
         "hero",
         "leader",
         "mobile",
+        "tough",
         "organic",
-        "tough"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "tech": -2,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "speed": 3,
+        "patience": 1,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -161,16 +244,32 @@
         "Strider",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Shock Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B5h2e",
+        "uNlW9"
+      ],
       "tags": [
-        "expendable",
         "mobile",
+        "defensive",
         "organic",
-        "ranged"
+        "ranged",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
-        "speed": 3
+        "speed": 3,
+        "patience": 4,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -185,19 +284,35 @@
         "Fearless",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "uNlW9"
+      ],
       "tags": [
-        "balanced",
         "fearless",
-        "monster",
         "organic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -2,
         "faith": 2,
-        "humanity": -4,
-        "versatility": 2
+        "tech": -2,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -215,19 +330,40 @@
         "Primal",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Burst Gun",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "rltOA"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
+        "scout",
         "mobile",
+        "ranged",
         "organic",
-        "scout"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
         "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "patience": 1,
+        "tech": -1,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -242,18 +378,32 @@
         "Fearless",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1",
+        "uNlW9"
+      ],
       "tags": [
-        "elite",
         "fearless",
+        "organic",
         "melee",
-        "monster",
-        "organic"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": -2,
         "faith": 2,
-        "humanity": -4
+        "tech": -3,
+        "patience": -1,
+        "elite": 4
       }
     },
     {
@@ -268,15 +418,38 @@
         "Strider",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Sniper Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "8fKMVYVG"
+      ],
       "tags": [
-        "balanced",
         "mobile",
-        "organic"
+        "organic",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "tech": -2,
         "speed": 3,
-        "versatility": 2
+        "tech": -2,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -286,7 +459,7 @@
       "size": 5,
       "quality": 5,
       "defense": 5,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Bounding",
         "Impact(1)",
@@ -294,19 +467,36 @@
         "Strider",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Shock Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "bzT3W"
+      ],
       "tags": [
+        "fast",
         "aggressive",
-        "beast",
-        "expendable",
-        "melee",
+        "defensive",
         "mobile",
-        "organic"
+        "cavalry",
+        "monster",
+        "organic",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -5,
-        "patience": -3,
-        "speed": 3
+        "speed": 5,
+        "patience": -1,
+        "humanity": -3,
+        "tech": -3,
+        "elite": -3
       }
     },
     {
@@ -323,22 +513,40 @@
         "Fearless",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "fast",
         "fearless",
+        "cavalry",
         "monster",
         "organic",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -5,
-        "speed": 4,
+        "speed": 5,
         "faith": 2,
-        "humanity": -4,
-        "versatility": 2
+        "humanity": -3,
+        "tech": -2,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -357,20 +565,43 @@
         "Primal",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "eZxzRqoU"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
+        "ambush",
+        "mobile",
         "fast",
         "flying",
-        "melee",
-        "mobile",
+        "aggressive",
+        "tough",
+        "defensive",
+        "cavalry",
+        "monster",
         "organic",
-        "tough"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "tech": -5,
+        "subtlety": 3,
         "speed": 5,
-        "patience": -3
+        "elite": -2,
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -389,20 +620,37 @@
         "Primal",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "YQz7andL"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
+        "ambush",
+        "mobile",
         "fast",
         "flying",
-        "melee",
-        "mobile",
+        "aggressive",
+        "tough",
+        "defensive",
+        "cavalry",
+        "monster",
         "organic",
-        "tough"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "tech": -5,
+        "subtlety": 3,
         "speed": 5,
-        "patience": -3
+        "elite": -2,
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -418,19 +666,38 @@
         "Tough(3)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Bash",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Bludgeon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "uNlW9"
+      ],
       "tags": [
         "fearless",
-        "melee",
-        "monster",
-        "organic",
         "tough",
-        "veteran"
+        "organic",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -2,
         "faith": 2,
-        "humanity": -4
+        "elite": 4,
+        "tech": -3
       }
     },
     {
@@ -446,21 +713,31 @@
         "Tough(3)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "expendable",
-        "horde",
-        "melee",
         "mobile",
-        "organic",
+        "tough",
+        "horde",
         "swarm",
-        "tough"
+        "organic",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -5,
+        "speed": 3,
+        "elite": -2,
         "collective": 5,
-        "speed": 3
+        "tech": -3
       }
     },
     {
@@ -479,20 +756,32 @@
         "Tough(3)",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "expendable",
+        "ambush",
+        "mobile",
         "fast",
         "flying",
-        "melee",
-        "mobile",
+        "tough",
+        "monster",
         "organic",
-        "tough"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -5,
-        "speed": 5
+        "subtlety": 3,
+        "speed": 5,
+        "elite": -2,
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -502,7 +791,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fearless",
         "Fortified",
@@ -510,22 +799,48 @@
         "Primal",
         "Strider"
       ],
+      "weapons": [
+        {
+          "name": "Arch Rockets",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "sQC3o"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "fearless",
+        "defensive",
+        "tough",
         "mobile",
         "monster",
         "organic",
-        "tough",
-        "veteran"
+        "indirect",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
         "faith": 2,
+        "patience": 5,
+        "elite": 4,
         "speed": 3,
+        "humanity": -3,
+        "tech": -2,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -536,7 +851,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fearless",
         "Regeneration",
@@ -544,23 +859,47 @@
         "Primal",
         "Strider"
       ],
+      "weapons": [
+        {
+          "name": "Flame Burst",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "sQC3o"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "fearless",
+        "regeneration",
+        "tough",
         "mobile",
         "monster",
         "organic",
-        "regeneration",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
         "faith": 2,
+        "patience": 1,
+        "elite": 4,
         "speed": 3,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -578,20 +917,41 @@
         "Tough(12)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Horns",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "beast",
         "fearless",
-        "melee",
+        "tough",
         "monster",
         "organic",
-        "tough",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
-        "faith": 2
+        "faith": 2,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -608,20 +968,51 @@
         "Tough(12)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Spit Venom",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Toxic Bite",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "fearless",
+        "tough",
         "monster",
         "organic",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
         "faith": 2,
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -640,20 +1031,53 @@
         "Tough(12)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Twin Beam Cannon",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(6)",
+            "Disintegrate"
+          ]
+        },
+        {
+          "name": "Mace Tail",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "fearless",
+        "defensive",
+        "tough",
         "monster",
         "organic",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
         "faith": 2,
+        "patience": 4,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -664,27 +1088,49 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Fear(4)",
         "Fearless",
         "Tough(24)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Vicious Jaws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "O1"
+      ],
       "tags": [
-        "beast",
-        "elite",
         "fearless",
-        "melee",
+        "tough",
         "monster",
         "organic",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "tech": -5,
-        "faith": 2
+        "faith": 2,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -704,24 +1150,35 @@
         "Primal",
         "Spell Conduit"
       ],
+      "weapons": [
+        {
+          "name": "Ornate Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "magic",
+        "psychic",
         "hero",
         "leader",
-        "magic",
-        "melee",
         "mobile",
-        "organic",
-        "psychic",
         "tough",
+        "organic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": -2,
         "mystery": 5,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -3
       }
     }
   ],

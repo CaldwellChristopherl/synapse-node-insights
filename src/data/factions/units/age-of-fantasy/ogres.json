@@ -2,9 +2,14 @@
   "factionId": "lpRj9EBwROpO1um7",
   "factionName": "Ogres",
   "gameSystem": "age-of-fantasy",
-  "factionType": "primitive",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.699Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.157Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 38
+  },
   "units": [
     {
       "id": "CSEbbNe",
@@ -20,17 +25,31 @@
         "Ravage(2)",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "dQ927LD0"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -46,17 +65,31 @@
         "Tough(6)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "7EC0s6n-"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -70,14 +103,27 @@
       "rules": [
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
         "collective": 5
       }
@@ -94,15 +140,28 @@
         "Tough(3)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "F1"
+      ],
       "tags": [
-        "beast",
-        "melee",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -3
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -118,13 +177,28 @@
         "Tough(3)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "H1"
+      ],
       "tags": [
-        "elite",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -141,17 +215,30 @@
         "Tough(3)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Jagged Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Rupture"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "z03KY8c_"
+      ],
       "tags": [
-        "human",
-        "melee",
         "mobile",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": 3,
-        "speed": 3
+        "speed": 3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -167,13 +254,30 @@
         "Tough(3)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "melee",
+        "defensive",
         "tough",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3
+        "patience": 3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -191,15 +295,31 @@
         "Tough(3)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Hunting Spear",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "melee",
+        "ambush",
         "mobile",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3
+        "subtlety": 3,
+        "speed": 3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -214,13 +334,34 @@
         "Tough(3)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Hand Cannon",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "jCew8iaC"
+      ],
       "tags": [
-        "balanced",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
         "versatility": 2
       }
     },
@@ -238,18 +379,32 @@
         "Tough(3)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Jagged Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rupture"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "OAgsi7In"
+      ],
       "tags": [
-        "beast",
         "fast",
-        "melee",
         "mobile",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -266,20 +421,42 @@
         "Impact(2)",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Heavy Jagged Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rupture"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
         "fast",
-        "melee",
+        "aggressive",
         "tough",
-        "veteran"
+        "cavalry",
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -289,7 +466,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "monster",
       "rules": [
         "Ambush",
         "Fear(1)",
@@ -298,21 +475,46 @@
         "Tough(6)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Jagged Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Rupture"
+          ]
+        },
+        {
+          "name": "Vicious Jaws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "74GHqXUP"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "fearless",
-        "melee",
+        "ambush",
         "mobile",
+        "fearless",
+        "aggressive",
         "tough",
-        "vehicle",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 3,
         "faith": 2,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -329,17 +531,46 @@
         "Melee Evasion",
         "Tough(15)"
       ],
+      "weapons": [
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        },
+        {
+          "name": "Great Tusks",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "K1"
+      ],
       "tags": [
-        "beast",
-        "elite",
-        "melee",
+        "tough",
         "monster",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -356,17 +587,47 @@
         "Fortified",
         "Tough(15)"
       ],
+      "weapons": [
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        },
+        {
+          "name": "Giant Horns",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "beast",
-        "elite",
-        "melee",
+        "defensive",
+        "tough",
         "monster",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "tech": -3
+        "patience": 3,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -376,24 +637,56 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(2)",
         "Fortified",
         "Tough(9)",
         "Destroyer"
       ],
+      "weapons": [
+        {
+          "name": "Scrap Catapult",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        },
+        {
+          "name": "Horns",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "monster",
+        "defensive",
         "tough",
-        "veteran"
+        "cavalry",
+        "fast",
+        "indirect",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "speed": 3,
+        "patience": 5,
+        "elite": 4,
+        "speed": 5,
+        "subtlety": 1,
         "versatility": 2
       }
     }

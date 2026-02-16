@@ -1,0 +1,1587 @@
+{
+  "factionId": "FF4UemWHh60T1VRq",
+  "factionName": "Chivalrous Kingdoms",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "High Champion",
+      "forUnits": [
+        "BDOjGOW"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "d2NTT",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "PtMuWon",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "L_HTMqR",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "zFm8-",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "C0aTyoljqj",
+              "label": "Holy Sword (A3, Bane, Shred)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Holy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Bane",
+                    "Shred"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "HR2aY",
+              "label": "Monster Hunting Spear (A3, Puncture)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Monster Hunting Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Puncture"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "5Vg9Wr-",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "5bfXiEg",
+              "label": "Vale Knight (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vale Knight",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "S73t2BNxZD",
+              "label": "Grail Knight (Armor(3), Fast, Heavy Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grail Knight",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Fast",
+                    "Heavy Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "lnDKGegZTi",
+              "label": "Pledge Knight (Fast, Impact(1), Versatile Attack)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pledge Knight",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Versatile Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "E4rKpDUqbp",
+              "label": "Quest Knight (Armor(3), Fast, Impact(1), Melee Slayer)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Quest Knight",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Melee Slayer"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CgF5w7V",
+              "label": "Pegasus Knight (Heavy Hooves (A1, AP(1)), Fast, Flying, Heavy Impact(2), Tough(3))",
+              "cost": 75,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pegasus Knight",
+                  "type": "item",
+                  "content": [
+                    "Heavy Hooves",
+                    "Fast",
+                    "Flying",
+                    "Heavy Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "m0PB6P7",
+              "label": "Hippogryph Knight (Rending Claws (A6, Rending), Armor(3), Fast, Fear(1), Flying, Tough(6))",
+              "cost": 170,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 155
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hippogryph Knight",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Armor",
+                    "Fast",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Vale Defender",
+      "forUnits": [
+        "pISnWKF"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Xzv-n",
+              "label": "Spear (A3, Counter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "mcOPL",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "uBYTq",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "MvizQ",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "ug8eN",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "cbMS6LUEWt",
+              "label": "Errant Leader (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Errant Leader",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CdkjXI3EIL",
+              "label": "Longbow (30\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Longbow",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "znldnGH",
+              "label": "Horse (Fast, Impact(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "hMWVCA7BMO",
+              "label": "Mythical Beast (Heavy Hooves (A1, AP(1)), Fast, Heavy Impact(1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mythical Beast",
+                  "type": "item",
+                  "content": [
+                    "Heavy Hooves",
+                    "Fast",
+                    "Heavy Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "jnI2Fvc",
+        "ivA1HIG",
+        "12YYSzn",
+        "dT_81QU",
+        "cRT9D42",
+        "fE8oxhQ",
+        "gNg9Cq3",
+        "oOE8Ybw",
+        "Yy_TpH7",
+        "HqxT5c9"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "YsCmh5V",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "jnI2Fvc",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ivA1HIG",
+                  "cost": 5
+                },
+                {
+                  "unitId": "12YYSzn",
+                  "cost": 5
+                },
+                {
+                  "unitId": "dT_81QU",
+                  "cost": 5
+                },
+                {
+                  "unitId": "cRT9D42",
+                  "cost": 5
+                },
+                {
+                  "unitId": "fE8oxhQ",
+                  "cost": 5
+                },
+                {
+                  "unitId": "gNg9Cq3",
+                  "cost": 5
+                },
+                {
+                  "unitId": "oOE8Ybw",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Yy_TpH7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "HqxT5c9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "arhMQZO",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "jnI2Fvc",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ivA1HIG",
+                  "cost": 5
+                },
+                {
+                  "unitId": "12YYSzn",
+                  "cost": 5
+                },
+                {
+                  "unitId": "dT_81QU",
+                  "cost": 5
+                },
+                {
+                  "unitId": "cRT9D42",
+                  "cost": 5
+                },
+                {
+                  "unitId": "fE8oxhQ",
+                  "cost": 5
+                },
+                {
+                  "unitId": "gNg9Cq3",
+                  "cost": 5
+                },
+                {
+                  "unitId": "oOE8Ybw",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Yy_TpH7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "HqxT5c9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "tDa45jO",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "jnI2Fvc",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ivA1HIG",
+                  "cost": 10
+                },
+                {
+                  "unitId": "12YYSzn",
+                  "cost": 10
+                },
+                {
+                  "unitId": "dT_81QU",
+                  "cost": 10
+                },
+                {
+                  "unitId": "cRT9D42",
+                  "cost": 10
+                },
+                {
+                  "unitId": "fE8oxhQ",
+                  "cost": 10
+                },
+                {
+                  "unitId": "gNg9Cq3",
+                  "cost": 10
+                },
+                {
+                  "unitId": "oOE8Ybw",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Yy_TpH7",
+                  "cost": 10
+                },
+                {
+                  "unitId": "HqxT5c9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Men-at-Arms",
+      "forUnits": [
+        "jnI2Fvc"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ngq1Qpz",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "jnI2Fvc",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "EIstSqE",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "jnI2Fvc",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Foot Knights",
+      "forUnits": [
+        "ivA1HIG"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5GGDf",
+              "label": "Heavy Great Weapon (A1, AP(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "ivA1HIG",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Peasant Longbowmen",
+      "forUnits": [
+        "12YYSzn"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "RWSJeie",
+              "label": "Defensive Stakes (Counter in Melee)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "12YYSzn",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Defensive Stakes",
+                  "type": "item",
+                  "content": [
+                    "Counter in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ylOAetT",
+              "label": "Fire Braziers (Piercing Shooter)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "12YYSzn",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fire Braziers",
+                  "type": "item",
+                  "content": [
+                    "Piercing Shooter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Wl_e82GyC7",
+              "label": "Peasant's Oath (Precision Growth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "12YYSzn",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Peasant's Oath",
+                  "type": "item",
+                  "content": [
+                    "Precision Growth"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Mounted Bowmen",
+      "forUnits": [
+        "dT_81QU"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6He-_pk",
+              "label": "Lance (A1, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "dT_81QU",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Chivalrous Artillery",
+      "forUnits": [
+        "C9yPp5V"
+      ],
+      "sections": [
+        {
+          "label": "Replace Stone Thrower",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3h63wqP",
+              "label": "Boulder Thrower (36\", A1, AP(3), Deadly(6), Indirect)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "C9yPp5V",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boulder Thrower",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "oaRAcWla",
+              "label": "Knight's Oath (Impact Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "C9yPp5V",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knight's Oath",
+                  "type": "item",
+                  "content": [
+                    "Impact Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "GSX7h",
+      "hint": "Peasant Levy",
+      "forUnits": [
+        "0KXs1FR"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2ahfU",
+              "label": "Peasant's Oath (Precision Growth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0KXs1FR",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Peasant's Oath",
+                  "type": "item",
+                  "content": [
+                    "Precision Growth"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "V1OrO",
+      "hint": "Pegasus Knights",
+      "forUnits": [
+        "HqxT5c9"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0jdE_",
+              "label": "Knight's Oath (Impact Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "HqxT5c9",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knight's Oath",
+                  "type": "item",
+                  "content": [
+                    "Impact Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "PsUez",
+      "hint": "Grail Relic",
+      "forUnits": [
+        "Rbf1yDn"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vJ6lR",
+              "label": "Peasant's Oath (Precision Growth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Rbf1yDn",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Peasant's Oath",
+                  "type": "item",
+                  "content": [
+                    "Precision Growth"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "hWmknzGzZZ",
+              "label": "Knight's Oath (Impact Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Rbf1yDn",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knight's Oath",
+                  "type": "item",
+                  "content": [
+                    "Impact Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "V3l_J",
+      "hint": "Monster Hunting Spear",
+      "forUnits": [
+        "gNg9Cq3",
+        "Yy_TpH7",
+        "HqxT5c9"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "oA-VR",
+              "label": "Monster Hunting Spear (A1, Puncture)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gNg9Cq3",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Yy_TpH7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "HqxT5c9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Monster Hunting Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Puncture"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M97UW",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "BDOjGOW"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sfexc",
+              "label": "Vanguard (Strider Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vanguard",
+                  "type": "item",
+                  "content": [
+                    "Strider Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ccg4pofVin",
+              "label": "Captain (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xCViY",
+              "label": "Paladin (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Paladin",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "YtcVj",
+              "label": "Crusader (Vale Formation Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crusader",
+                  "type": "item",
+                  "content": [
+                    "Vale Formation Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_Ghfu",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BDOjGOW",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "5Iha-zmu",
+      "hint": "Specialists - Defender",
+      "forUnits": [
+        "pISnWKF"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "v5xipjNZ",
+              "label": "Captain (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_tXl996J",
+              "label": "Paladin (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Paladin",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oAIX2YsQ",
+              "label": "Crusader (Vale Formation Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crusader",
+                  "type": "item",
+                  "content": [
+                    "Vale Formation Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "q2aGyNtm",
+              "label": "Enchanter (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Enchanter",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "e0qAuX4k",
+              "label": "Monster Hunter (Ranged Slayer Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pISnWKF",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Monster Hunter",
+                  "type": "item",
+                  "content": [
+                    "Ranged Slayer Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

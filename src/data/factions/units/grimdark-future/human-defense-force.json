@@ -2,9 +2,14 @@
   "factionId": "z65fgu0l29i4lnlu",
   "factionName": "Human Defense Force",
   "gameSystem": "grimdark-future",
-  "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.250Z",
+  "factionType": "human",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.105Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 54
+  },
   "units": [
     {
       "id": "CaGeZkh",
@@ -21,26 +26,55 @@
         "Hold the Line",
         "Hero"
       ],
+      "weapons": [
+        {
+          "name": "Nova Cannon",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "F2",
+        "Kxw7p",
+        "HD0WO",
+        "WrR7BJZw"
+      ],
       "tags": [
-        "aggressive",
-        "disciplined",
         "fast",
+        "aggressive",
+        "tough",
+        "disciplined",
         "hero",
         "leader",
-        "ranged",
-        "reliable",
-        "tough",
         "vehicle",
-        "veteran"
+        "human",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "leadership": 3,
-        "order": 5
+        "patience": -1,
+        "elite": 5,
+        "order": 3,
+        "leadership": 5,
+        "tech": 4,
+        "humanity": 3
       }
     },
     {
@@ -57,22 +91,43 @@
         "Strider",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Master Heavy Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "LbqhtjFV"
+      ],
       "tags": [
-        "balanced",
-        "disciplined",
         "hero",
         "leader",
+        "disciplined",
         "mobile",
-        "reliable",
         "tough",
+        "human",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "order": 3,
         "speed": 3,
-        "order": 5,
+        "patience": 1,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -89,20 +144,39 @@
         "Tough(3)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Master Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "C1"
+      ],
       "tags": [
-        "balanced",
-        "disciplined",
         "hero",
         "leader",
-        "reliable",
         "tough",
+        "disciplined",
+        "human",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "order": 5,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "order": 3,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -117,22 +191,36 @@
       "rules": [
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "disciplined",
+        "human",
         "balanced",
         "cheap",
-        "disciplined",
         "expendable",
         "horde",
-        "human",
-        "reliable",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
+        "order": 3,
         "humanity": 3,
-        "order": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -148,22 +236,39 @@
         "Good Shot",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "lBJTL"
+      ],
       "tags": [
-        "balanced",
-        "disciplined",
-        "expendable",
         "fearless",
-        "human",
-        "reliable",
-        "robot"
+        "ranged",
+        "disciplined",
+        "robot",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": 4,
-        "humanity": 1,
         "faith": 2,
-        "order": 5,
-        "versatility": 2
+        "patience": 1,
+        "tech": 5,
+        "order": 3,
+        "humanity": -2,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -177,22 +282,39 @@
       "rules": [
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "SmJiZ"
+      ],
       "tags": [
+        "disciplined",
+        "human",
         "balanced",
         "cheap",
-        "disciplined",
         "expendable",
         "horde",
-        "human",
-        "reliable",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "order": 5,
+        "order": 3,
         "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -206,14 +328,31 @@
       "rules": [
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1",
+        "SmJiZ"
+      ],
       "tags": [
-        "balanced",
         "disciplined",
         "human",
-        "reliable"
+        "balanced"
       ],
       "dimensionScores": {
-        "order": 5,
+        "order": 3,
         "humanity": 3,
         "versatility": 2
       }
@@ -230,20 +369,39 @@
         "Strider",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "SmJiZ"
+      ],
       "tags": [
-        "balanced",
+        "mobile",
         "disciplined",
         "human",
-        "mobile",
-        "reliable",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": 3,
         "speed": 3,
-        "order": 5,
-        "versatility": 2
+        "order": 3,
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -258,19 +416,39 @@
         "Relentless",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Drum Rifle",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "disciplined",
-        "expendable",
-        "human",
         "ranged",
-        "reliable"
+        "disciplined",
+        "human",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "order": 5,
+        "patience": 1,
+        "tech": 1,
+        "order": 3,
         "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -286,21 +464,43 @@
         "Stealth",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Sniper Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "lh1qR"
+      ],
       "tags": [
-        "balanced",
+        "scout",
+        "mobile",
+        "stealth",
         "disciplined",
         "human",
-        "mobile",
-        "reliable",
-        "scout",
-        "stealth"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
         "subtlety": 5,
         "speed": 3,
-        "order": 5,
+        "order": 3,
         "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -315,16 +515,40 @@
         "Tough(3)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Mortar",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
+        "tough",
         "disciplined",
         "human",
-        "reliable",
-        "tough"
+        "indirect",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "order": 5,
+        "patience": 2,
+        "elite": -2,
+        "order": 3,
         "humanity": 3,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -342,26 +566,43 @@
         "Tough(3)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "OGRE Gatling Gun",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "beast",
-        "disciplined",
         "fearless",
-        "human",
-        "monster",
-        "reliable",
-        "robot",
+        "aggressive",
         "tough",
+        "disciplined",
+        "robot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 1,
-        "humanity": -3,
         "faith": 2,
-        "patience": -3,
-        "order": 5,
+        "patience": -2,
+        "elite": 4,
+        "order": 3,
+        "tech": 4,
+        "humanity": -2,
         "versatility": 2
       }
     },
@@ -372,31 +613,49 @@
       "size": 5,
       "quality": 5,
       "defense": 5,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Impact(1)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Heavy Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "cavalry",
-        "disciplined",
-        "expendable",
         "fast",
+        "aggressive",
+        "disciplined",
+        "vehicle",
+        "cavalry",
         "human",
-        "reliable",
-        "vehicle"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": 3,
         "speed": 5,
         "patience": -3,
-        "order": 5,
+        "order": 3,
+        "tech": 3,
         "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -414,22 +673,52 @@
         "Transport(11)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Turret Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "C2",
+        "Kxw7p"
+      ],
       "tags": [
-        "aggressive",
-        "disciplined",
         "fast",
-        "ranged",
-        "reliable",
+        "aggressive",
         "tough",
+        "transport",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "order": 5
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "order": 3,
+        "tech": 4
       }
     },
     {
@@ -447,24 +736,42 @@
         "Tough(6)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Twin Storm Machinegun",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Light Gatling Gun",
+          "range": 18,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B2"
+      ],
       "tags": [
-        "aggressive",
-        "battlesuit",
-        "disciplined",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
-        "reliable",
         "tough",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 5,
         "speed": 5,
-        "patience": -3,
-        "order": 5
+        "patience": -1,
+        "elite": 4,
+        "order": 3,
+        "tech": 4
       }
     },
     {
@@ -481,22 +788,47 @@
         "Tough(9)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Acid Cannon",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2",
+        "Kxw7p",
+        "A2"
+      ],
       "tags": [
-        "aggressive",
-        "disciplined",
         "fast",
-        "ranged",
-        "reliable",
+        "aggressive",
         "tough",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "order": 5
+        "patience": -1,
+        "elite": 4,
+        "order": 3,
+        "tech": 4
       }
     },
     {
@@ -513,21 +845,50 @@
         "Mobile Artillery",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Shard Mortar",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "Blast(3)",
+            "Indirect",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2",
+        "Kxw7p"
+      ],
       "tags": [
-        "aggressive",
         "disciplined",
-        "ranged",
-        "reliable",
+        "aggressive",
+        "artillery",
         "static",
+        "ranged",
         "tough",
         "vehicle",
-        "veteran"
+        "indirect",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "patience": -1,
-        "order": 5
+        "order": 3,
+        "patience": 4,
+        "tech": 5,
+        "elite": 4,
+        "subtlety": 1
       }
     },
     {
@@ -544,22 +905,49 @@
         "Tough(12)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Nova Cannon",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "F2",
+        "Kxw7p",
+        "HD0WO"
+      ],
       "tags": [
-        "aggressive",
-        "disciplined",
         "fast",
-        "ranged",
-        "reliable",
+        "aggressive",
         "tough",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "order": 5
+        "patience": -1,
+        "elite": 4,
+        "order": 3,
+        "tech": 4
       }
     },
     {
@@ -576,22 +964,51 @@
         "Tough(15)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Twin Light Battle Cannon",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Light Gatling Gun",
+          "range": 18,
+          "attacks": 4,
+          "special": []
+        },
+        {
+          "name": "Fusion Array",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "HOWtk"
+      ],
       "tags": [
-        "aggressive",
-        "disciplined",
         "fast",
-        "ranged",
-        "reliable",
+        "aggressive",
         "tough",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "order": 5
+        "patience": -1,
+        "elite": 4,
+        "order": 3,
+        "tech": 4
       }
     },
     {
@@ -607,18 +1024,42 @@
         "Tough(6)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2"
+      ],
       "tags": [
-        "balanced",
-        "disciplined",
-        "reliable",
         "tough",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
+        "order": 3,
         "tech": 3,
-        "order": 5,
         "versatility": 2
       }
     },
@@ -636,20 +1077,40 @@
         "Tough(12)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Gatling Gun",
+          "range": 18,
+          "attacks": 6,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "KcVUz"
+      ],
       "tags": [
         "aggressive",
-        "balanced",
-        "disciplined",
-        "reliable",
         "tough",
+        "disciplined",
+        "defensive",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
+        "order": 3,
         "tech": 3,
-        "patience": -3,
-        "order": 5,
         "versatility": 2
       }
     },
@@ -666,18 +1127,42 @@
         "Tough(12)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Walker Heavy Flamer",
+          "range": 12,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "T_AtI"
+      ],
       "tags": [
-        "balanced",
-        "disciplined",
-        "reliable",
         "tough",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
+        "order": 3,
         "tech": 3,
-        "order": 5,
         "versatility": 2
       }
     },
@@ -695,20 +1180,52 @@
         "Tough(18)",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Cluster Missiles Array",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Walker Heavy Flamer",
+          "range": 12,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "aGV4L"
+      ],
       "tags": [
-        "balanced",
-        "disciplined",
         "fearless",
-        "reliable",
         "tough",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "faith": 2,
-        "order": 5,
+        "patience": 1,
+        "elite": 4,
+        "order": 3,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -727,24 +1244,58 @@
         "Fearless",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hell Cannon",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Siege Mortar",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(3)",
+            "Blast(3)",
+            "Indirect"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "40qf2"
+      ],
       "tags": [
-        "aggressive",
-        "disciplined",
         "fast",
-        "fearless",
-        "ranged",
-        "reliable",
+        "aggressive",
         "tough",
+        "fearless",
+        "disciplined",
         "vehicle",
-        "veteran"
+        "indirect",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
+        "elite": 4,
         "faith": 2,
-        "order": 5
+        "order": 3,
+        "tech": 4,
+        "subtlety": 1
       }
     },
     {
@@ -760,20 +1311,45 @@
         "Tough(6)",
         "Transport(11)"
       ],
+      "weapons": [
+        {
+          "name": "Laser Cannon",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Twin Rocket Pod",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H2"
+      ],
       "tags": [
         "aircraft",
-        "defensive",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "veteran"
+        "tough",
+        "transport",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "tech": 5,
         "speed": 5,
-        "patience": 3
+        "patience": 2,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1
       }
     },
     {
@@ -789,20 +1365,45 @@
         "Tough(9)",
         "Transport(6)"
       ],
+      "weapons": [
+        {
+          "name": "Fury Missiles",
+          "range": 36,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Twin Laser Cannon",
+          "range": 36,
+          "attacks": 2,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2"
+      ],
       "tags": [
         "aircraft",
-        "defensive",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "veteran"
+        "tough",
+        "transport",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "tech": 5,
         "speed": 5,
-        "patience": 3
+        "patience": 2,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1
       }
     },
     {
@@ -818,20 +1419,46 @@
         "Hold the Line",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Light Shard Mortar",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Indirect",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Artillery Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A_cQW"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "disciplined",
-        "ranged",
-        "reliable",
+        "artillery",
         "static",
+        "ranged",
+        "disciplined",
         "tough",
-        "veteran"
+        "human",
+        "indirect",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "patience": 5,
-        "order": 5,
+        "tech": 3,
+        "order": 3,
+        "elite": 4,
+        "humanity": 3,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -849,20 +1476,39 @@
         "Unique",
         "Hold the Line"
       ],
+      "weapons": [
+        {
+          "name": "Master Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Energy Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "disciplined",
         "hero",
         "leader",
-        "reliable",
         "tough",
+        "disciplined",
+        "human",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "order": 5,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "order": 3,
+        "humanity": 3,
         "versatility": 2
       }
     }

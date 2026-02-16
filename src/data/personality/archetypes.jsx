@@ -69,7 +69,7 @@ const ARCHETYPES = [
     name: "The Balanced Commander",
     icon: "⚖️",
     description: "Flexibility is the ultimate weapon. You adapt to any situation, countering enemy strategies with the perfect response.",
-    conditions: (scores) => scores.versatility > 2,
+    conditions: (scores) => scores.versatility > 2 && Math.max(...Object.values(scores).map(Math.abs)) < 3,
     playstyle: "Mixed forces, tactical flexibility, adaptable strategies"
   },
   {
@@ -95,5 +95,13 @@ const ARCHETYPES = [
     description: "Innovation conquers all. Your cutting-edge technology makes primitive weapons obsolete.",
     conditions: (scores) => scores.tech > 3 && scores.tradition < 0,
     playstyle: "Advanced weapons, vehicles, technological advantages"
+  },
+  {
+    id: "pragmatic-general",
+    name: "The Pragmatic General",
+    icon: "🎖️",
+    description: "You don't subscribe to any one philosophy. You assess each situation on its merits and respond accordingly.",
+    conditions: () => true,
+    playstyle: "Adaptable approach, situation-dependent tactics"
   }
 ];

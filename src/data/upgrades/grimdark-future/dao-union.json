@@ -1,0 +1,4856 @@
+{
+  "factionId": "z8205ez2boggzs22",
+  "factionName": "DAO Union",
+  "packages": [
+    {
+      "uid": "B1",
+      "hint": "Hero Drones",
+      "forUnits": [
+        "ZLsGVby",
+        "wbcHuwv"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "UbHfv_2",
+              "label": "Gun Drone (Drone Pulse-Gun (18\", A2, Limited, Rending))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 10
+                },
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gun Drone",
+                  "type": "item",
+                  "content": [
+                    "Drone Pulse-Gun"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ad2bKlm",
+              "label": "Mini-Shield Drone (Stealth)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 15
+                },
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mini-Shield Drone",
+                  "type": "item",
+                  "content": [
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "yMC7Zai",
+              "label": "Spotter Drone (Precision Spotter)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 15
+                },
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotter Drone",
+                  "type": "item",
+                  "content": [
+                    "Precision Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Grunt Leader",
+      "forUnits": [
+        "wbcHuwv"
+      ],
+      "sections": [
+        {
+          "label": "Replace Holy Baton",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tYjnd",
+              "label": "Holy Halberd (A1, AP(2), Deadly(3))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Holy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "i20Tx",
+              "label": "Holy Sword (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Holy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "_B69A",
+              "label": "Leader Pulse Pistol (12\", A2, AP(1)), CCW (A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Leader Pulse Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "09e1A",
+              "label": "Holy Dual-Spear (A3, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Holy Dual-Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Leader Pulse Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3JioB",
+              "label": "Leader Pulse Shotgun (12\", A3, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Leader Pulse Shotgun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "c98J_",
+              "label": "Leader Pulse Carbine (18\", A3, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Leader Pulse Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "vYREi",
+              "label": "Leader Pulse Rifle (30\", A2, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Leader Pulse Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3ysvT",
+              "label": "Plasma Sword (A2, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "WsiSr",
+              "label": "Plasma Gauntlet (A2, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Gauntlet",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ofuiJB7W3b",
+              "label": "Particle Wall (Shielded)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Particle Wall",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "HoHLe3q8xE",
+              "label": "Spotter Leader (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotter Leader",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Squad Drones",
+      "forUnits": [
+        "l9y9wn9",
+        "ky_P-X8"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "eafWj3Q",
+              "label": "Gun Drone (Drone Pulse-Gun (18\", A2, Limited, Rending))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gun Drone",
+                  "type": "item",
+                  "content": [
+                    "Drone Pulse-Gun"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "OTdmXg9",
+              "label": "Spotter Drone (Precision Spotter)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 15
+                },
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotter Drone",
+                  "type": "item",
+                  "content": [
+                    "Precision Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oWBWdfp",
+              "label": "Shield Drone (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 25
+                },
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shield Drone",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Tactical Grunts",
+      "forUnits": [
+        "l9y9wn9"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Pulse Rifles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XpXQnmE",
+              "label": "Pulse Carbine (18\", A2, AP(1))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pulse Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Pulse Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nl-iQuF",
+              "label": "Burst Carbine (18\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burst Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "XIpBsIK",
+              "label": "Flamer (12\", A1, Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "zOqyvEn",
+              "label": "Plasma Rifle (24\", A1, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "8Ttpz",
+              "label": "Support Turret (Missile Pod (30\", A2, Decimate, Unstoppable))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Support Turret",
+                  "type": "item",
+                  "content": [
+                    "Missile Pod"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Y5eXpzt",
+              "label": "Fusion Carbine (18\", A1, AP(4), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "AOmT3",
+              "label": "Support Turret (Smart Missiles (30\", A3, AP(1), Indirect))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Support Turret",
+                  "type": "item",
+                  "content": [
+                    "Smart Missiles"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Replace one Pulse Rifle and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "DkgEF-1W",
+              "label": "Pulse Pistol (12\", A1, AP(1)), Plasma Sword (A2, AP(1), Rending)",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pulse Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Plasma Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Pulse Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "HJTXvxil",
+              "label": "Pulse Rifle (30\", A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pulse Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "EF8VYqJ1",
+              "label": "Pulse Carbine (18\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pulse Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Plasma Sword",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "0iIN4Lco",
+              "label": "Plasma Gauntlet (A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "l9y9wn9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Gauntlet",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Spotter Squad",
+      "forUnits": [
+        "fdAp19o"
+      ],
+      "sections": [
+        {
+          "label": "Replace up to three Pulse Carbines",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "uAwcxdE",
+              "label": "Scoped Rifle (30\", A1, AP(1), Reliable, Takedown)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scoped Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Scoped Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5vzZT",
+              "label": "Ion Rifle (30\", A1, AP(1), Blast(3))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ion Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "XxGrj",
+              "label": "Rail Rifle (30\", A1, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rail Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade any model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1F5f2Bi",
+              "label": "Spotting Laser (Precision Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Laser",
+                  "type": "item",
+                  "content": [
+                    "Precision Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Ghn6r-AV",
+              "label": "Gun Drone (Drone Pulse-Gun (18\", A2, Limited, Rending))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gun Drone",
+                  "type": "item",
+                  "content": [
+                    "Drone Pulse-Gun"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sM7gW3RY",
+              "label": "Recon Drone (Ambush Beacon)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Recon Drone",
+                  "type": "item",
+                  "content": [
+                    "Ambush Beacon"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sXRMyRQC",
+              "label": "Inhibitor Drone (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Inhibitor Drone",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ccSAzGkc",
+              "label": "Shield Drone (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shield Drone",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "d8rfMvZg",
+              "label": "Accelerator Drone (Increased Shooting Range Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Accelerator Drone",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "fsruO0bdnS",
+              "label": "Weak Spot Locator (Piercing Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fdAp19o",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weak Spot Locator",
+                  "type": "item",
+                  "content": [
+                    "Piercing Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Stealth Suits",
+      "forUnits": [
+        "_Xaptlm"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Rapid Burst Carbine",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1Xte7",
+              "label": "Fusion Carbine (18\", A1, AP(4), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_Xaptlm",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "MAZH0P5",
+              "label": "Recon Locator (Ambush Beacon)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_Xaptlm",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Recon Locator",
+                  "type": "item",
+                  "content": [
+                    "Ambush Beacon"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dsgV0Vj",
+              "label": "Spotting Laser (Precision Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_Xaptlm",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Laser",
+                  "type": "item",
+                  "content": [
+                    "Precision Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "OoBwWslrUq",
+              "label": "Weak Spot Locator (Piercing Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_Xaptlm",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weak Spot Locator",
+                  "type": "item",
+                  "content": [
+                    "Piercing Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QAKvC",
+              "label": "Backpack Thrusters (Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_Xaptlm",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Backpack Thrusters",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Battle Suits",
+      "forUnits": [
+        "ky_P-X8"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Suit-Burst",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "c6VdwWT",
+              "label": "Suit-Missiles (30\", A1, Decimate, Unstoppable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "Decimate",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "V1_eaGP",
+              "label": "Suit-Plasma (24\", A1, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Plasma",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Suit-Burst",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "j3ZmT",
+              "label": "Suit-Flamer (12\", A1, Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "Hvaj5",
+              "label": "Suit-Ion (18\", A1, AP(1), Blast(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Ion",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "ND7pD",
+              "label": "Suit-Fuse (12\", A1, AP(4), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Fuse",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Sm6SX",
+              "label": "Suit-Frag (24\", A1, Blast(3), Indirect)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Frag",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Any model may replace 2x Suit-Burst",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "v-Xqa",
+              "label": "Suit-Flamer (12\", A1, Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "3R-JKurzdG",
+              "label": "Plasma Sword (A2, AP(1), Rending), Energy Shield (Shielded)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Energy Shield",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor",
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "tK_-D",
+              "label": "Suit-Ion (18\", A1, AP(1), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Ion",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "5xqc2",
+              "label": "Suit-Fuse (12\", A1, AP(4), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Fuse",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Omu1h",
+              "label": "Suit-Frag (24\", A1, Blast(3), Indirect)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Frag",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7cXe2uOeeX",
+              "label": "Drop-Thrusters (Ambush)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ky_P-X8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drop-Thrusters",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Gun Drones",
+      "forUnits": [
+        "pBa-dzK"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QbV9nqy",
+              "label": "Precision Rounds (Ignores Cover when Shooting)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pBa-dzK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Precision Rounds",
+                  "type": "item",
+                  "content": [
+                    "Ignores Cover when Shooting"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "YSU1Cgo",
+              "label": "Shock Rounds (Shred when Shooting)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pBa-dzK",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shock Rounds",
+                  "type": "item",
+                  "content": [
+                    "Shred when Shooting"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0NH4PuE",
+              "label": "Self-Repair (Regeneration)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "pBa-dzK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Self-Repair",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Sniper Drones",
+      "forUnits": [
+        "7zBLXHS"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all Pulse Rifles with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "PiWt5ip",
+              "label": "Drone Controller (Reliable, Takedown)",
+              "cost": 75,
+              "costs": [
+                {
+                  "unitId": "7zBLXHS",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drone Controller",
+                  "type": "item",
+                  "content": [
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "A2",
+      "hint": "Replace Twin Heavy Pulse-Guns",
+      "forUnits": [
+        "AjN0k6Z",
+        "37mvtxH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Heavy Pulse-Guns",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "UvejaWa",
+              "label": "Twin Heavy Burst Carbine (18\", A4, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 10
+                },
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Burst Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "7oCDy",
+              "label": "Twin Heavy Missile Pod (30\", A4, AP(1), Decimate, Unstoppable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 45
+                },
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Missile Pod",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Decimate",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "BcUGQfn",
+              "label": "Twin Heavy Frag Pod (24\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 65
+                },
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Frag Pod",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "moC2vqA",
+              "label": "Twin Heavy Smart Missiles (30\", A6, AP(2), Indirect)",
+              "cost": 80,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 145
+                },
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 145
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Smart Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B2",
+      "hint": "Limited Homing Missiles",
+      "forUnits": [
+        "AjN0k6Z",
+        "37mvtxH",
+        "tY8l8ZT",
+        "WtOO_AT"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "s_hpSvjLXY",
+              "label": "Homing Frag-Missiles (24\", A1, AP(1), Blast(3), Indirect, Limited)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 20
+                },
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 20
+                },
+                {
+                  "unitId": "tY8l8ZT",
+                  "cost": 20
+                },
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Homing Frag-Missiles",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "XALV9xt",
+              "label": "Homing AT-Missiles (30\", A1, AP(2), Deadly(3), Indirect, Limited)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 25
+                },
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 25
+                },
+                {
+                  "unitId": "tY8l8ZT",
+                  "cost": 25
+                },
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Homing AT-Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Indirect",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C2",
+      "hint": "Vehicle Upgrades",
+      "forUnits": [
+        "AjN0k6Z",
+        "37mvtxH",
+        "tY8l8ZT"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "O62VqLs",
+              "label": "Inhibitor System (Melee Shrouding)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 5
+                },
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 10
+                },
+                {
+                  "unitId": "tY8l8ZT",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Inhibitor System",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "P8YkOP-",
+              "label": "Vision Scrambler (Stealth)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 15
+                },
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 25
+                },
+                {
+                  "unitId": "tY8l8ZT",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vision Scrambler",
+                  "type": "item",
+                  "content": [
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D2",
+      "hint": "Hover Tank",
+      "forUnits": [
+        "37mvtxH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Sub-Railgun and Twin Heavy Pulse-Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Chp_nPRnxU",
+              "label": "Heavy Sub-Railgun (36\", A2, AP(1), Blast(6)), Heavy Pulse-Gun (18\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Sub-Railgun",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                },
+                {
+                  "name": "Heavy Pulse-Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sub-Railgun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "GJdV0EQ",
+              "label": "Homing Frag-Missile Array (24\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Homing Frag-Missile Array",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "TMhiB1H",
+              "label": "Ion Cannon (30\", A2, AP(2), Blast(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ion Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "t9HzQ",
+              "label": "Railgun (36\", A2, AP(4), Deadly(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Railgun",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "SwlL6aI",
+              "label": "Homing AT-Missile Array (30\", A2, AP(2), Deadly(3), Indirect)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Homing AT-Missile Array",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Heavy Sub-Railgun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "TsMaL0vvLd",
+              "label": "Heavy Homing Frag-Missile Array (24\", A2, AP(1), Blast(6), Indirect)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Homing Frag-Missile Array",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "4UTixTKxjX",
+              "label": "Heavy Ion Cannon (30\", A2, AP(2), Blast(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Ion Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "v9KHFl6lSY",
+              "label": "Heavy Railgun (36\", A2, AP(4), Deadly(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Railgun",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "kCXiJMgzrw",
+              "label": "Heavy Homing AT-Missile Array (30\", A2, AP(2), Deadly(6), Indirect)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Homing AT-Missile Array",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E2",
+      "hint": "Hover Attack Bike",
+      "forUnits": [
+        "tY8l8ZT"
+      ],
+      "sections": [
+        {
+          "label": "Replace Burst Carbine",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ChqmP",
+              "label": "Fusion Carbine (18\", A1, AP(4), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "tY8l8ZT",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "hint": "Heavy Battle Suit",
+      "forUnits": [
+        "WtOO_AT"
+      ],
+      "sections": [
+        {
+          "label": "Replace Quad Missile Pod",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "e6Y65",
+              "label": "Quad Frag Pod (24\", A4, Blast(3), Indirect)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Quad Frag Pod",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "S1Xqm-P",
+              "label": "Twin Heavy Rail Rifle (30\", A2, AP(2), Deadly(6))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Rail Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "bZp_D-i",
+              "label": "Twin Plasma Rifle (24\", A2, AP(4))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Plasma Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "lCmmJ",
+              "label": "Twin Suit Missile Pod (30\", A3, Decimate, Unstoppable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Suit Missile Pod",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Decimate",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "mdiLQCl",
+              "label": "Twin Suit Smart Missiles (30\", A4, AP(1), Indirect)",
+              "cost": 75,
+              "costs": [
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Suit Smart Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "__8xXZh",
+              "label": "Gun Drone (Drone Pulse-Gun (18\", A2, Limited, Rending))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gun Drone",
+                  "type": "item",
+                  "content": [
+                    "Drone Pulse-Gun"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "geJEjWt",
+              "label": "Shield Drone (Stealth)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shield Drone",
+                  "type": "item",
+                  "content": [
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "l8n0H1sG",
+              "label": "Weak Spot Locator (Piercing Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WtOO_AT",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weak Spot Locator",
+                  "type": "item",
+                  "content": [
+                    "Piercing Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G2",
+      "hint": "Heavy Stealth Suit",
+      "forUnits": [
+        "yaCpV7v"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Ion Carbine",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "PFYjG",
+              "label": "Heavy Fusion Carbine (18\", A1, AP(4), Deadly(6))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "yaCpV7v",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Fusion Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Twin Burst Carbine",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3GiDfEV",
+              "label": "Twin Flamer (12\", A2, Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yaCpV7v",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "bVJpj",
+              "label": "Twin Fusion Carbine (18\", A2, AP(4), Deadly(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "yaCpV7v",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Fusion Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Cx8lw",
+              "label": "Backpack Thrusters (Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yaCpV7v",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Backpack Thrusters",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "uQoOePL",
+              "label": "Stealth Drone (Evasive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yaCpV7v",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stealth Drone",
+                  "type": "item",
+                  "content": [
+                    "Evasive"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dsSs1L0F_l",
+              "label": "Weak Spot Locator (Piercing Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yaCpV7v",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weak Spot Locator",
+                  "type": "item",
+                  "content": [
+                    "Piercing Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H2",
+      "hint": "Razor Fighter",
+      "forUnits": [
+        "6izo3fA"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Burst Carbine",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "PBmVi",
+              "label": "Twin Missile Pod (30\", A4, Decimate, Unstoppable)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "6izo3fA",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Missile Pod",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 4,
+                  "special": [
+                    "Decimate",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J2",
+      "hint": "Tide Titan",
+      "forUnits": [
+        "JdvBC-d"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Heavy Plasma Sword",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1Icr2zX",
+              "label": "Titan Burst Carbine (18\", A12, AP(1), Rending)",
+              "cost": 95,
+              "costs": [
+                {
+                  "unitId": "JdvBC-d",
+                  "cost": 100
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Burst Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 12,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "t76YkBW",
+              "label": "Twin Ion Cannon (30\", A4, AP(2), Blast(3))",
+              "cost": 140,
+              "costs": [
+                {
+                  "unitId": "JdvBC-d",
+                  "cost": 165
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Ion Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 4,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Nova Shield",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "faIPX",
+              "label": "Heavy Plasma Sword (A8, AP(1), Rending)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "JdvBC-d",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Plasma Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Twin Plasma Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Jz5TA",
+              "label": "Twin Missile Pod (30\", A4, Decimate, Unstoppable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JdvBC-d",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Missile Pod",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 4,
+                  "special": [
+                    "Decimate",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "pbwGE",
+              "label": "Twin Fusion Carbine (18\", A2, AP(4), Deadly(3))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "JdvBC-d",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Fusion Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "1feBCD1",
+              "label": "Twin Smart Missiles (30\", A6, AP(1), Indirect)",
+              "cost": 100,
+              "costs": [
+                {
+                  "unitId": "JdvBC-d",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Smart Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K2",
+      "hint": "Surge Titan",
+      "forUnits": [
+        "1B1nvAM"
+      ],
+      "sections": [
+        {
+          "label": "Replace Pulse Blaster",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xPuFiOA",
+              "label": "Pulse Driver (36\", A3, AP(3), Deadly(3))",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "1B1nvAM",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pulse Driver",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "id-IsYm",
+              "label": "Twin Flamer (12\", A2, Blast(3), Reliable)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "1B1nvAM",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "ymzFbZe",
+              "label": "Destroyer Missiles (30\", A1, AP(2), Deadly(3))",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "1B1nvAM",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Destroyer Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "02OSH",
+              "label": "Twin Missile Pod (30\", A4, Decimate, Unstoppable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1B1nvAM",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Missile Pod",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 4,
+                  "special": [
+                    "Decimate",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "fkQAm",
+              "label": "Twin Smart Missiles (30\", A6, AP(1), Indirect)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1B1nvAM",
+                  "cost": 140
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Smart Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Twin Flamer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "9Vsnxes",
+              "label": "Twin Heavy Burst Carbine (18\", A4, AP(1), Rending)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "1B1nvAM",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Burst Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "h2oPJtB",
+              "label": "Twin Frag Pod (24\", A2, Blast(3), Indirect)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "1B1nvAM",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Frag Pod",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "WRmsr",
+      "hint": "Specialists - Grunt",
+      "forUnits": [
+        "wbcHuwv"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ie79y",
+              "label": "High Sage (Fortified Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "High Sage",
+                  "type": "item",
+                  "content": [
+                    "Fortified Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "UccrB",
+              "label": "Master Armorer (Counter-Attack Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Armorer",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LPlYP",
+              "label": "Captain (Targeting Visor Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Targeting Visor Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "rJaHv",
+              "label": "Ethereal Elder (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ethereal Elder",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5XLEwfdKww",
+              "label": "Big Game Hunter (Ranged Slayer Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbcHuwv",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Big Game Hunter",
+                  "type": "item",
+                  "content": [
+                    "Ranged Slayer Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "WQ5C-0dL",
+      "hint": "Aircraft Limited Missiles",
+      "forUnits": [
+        "6izo3fA",
+        "d9Tk3DW"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Dg1Q9oElzb",
+              "label": "Frag-Missiles (24\", A1, AP(1), Blast(3), Limited)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6izo3fA",
+                  "cost": 15
+                },
+                {
+                  "unitId": "d9Tk3DW",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Frag-Missiles",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "tBtkZTzm",
+              "label": "AT-Missiles (30\", A1, AP(2), Deadly(3), Limited)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "6izo3fA",
+                  "cost": 20
+                },
+                {
+                  "unitId": "d9Tk3DW",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "AT-Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "u8E17jMy",
+      "hint": "Hover Transport",
+      "forUnits": [
+        "AjN0k6Z"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "RTFr42jG",
+              "label": "Weak Spot Locator (Piercing Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AjN0k6Z",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weak Spot Locator",
+                  "type": "item",
+                  "content": [
+                    "Piercing Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "83qdO-bm",
+      "hint": "Security Grunts",
+      "forUnits": [
+        "KRznAPH"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Pulse Shotgun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xl-1VFRr",
+              "label": "Burst Carbine (18\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burst Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "b97OfDze",
+              "label": "Plasma Rifle (24\", A1, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "an_dBIat",
+              "label": "Flamer (12\", A1, Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "KbfIW41b",
+              "label": "Fusion Carbine (18\", A1, AP(4), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Cr-C7PGjiH",
+              "label": "Particle Wall (Shielded)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Particle Wall",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Pulse Shotgun and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "_1-eEjrX",
+              "label": "Pulse Pistol (12\", A1, AP(1)), Plasma Sword (A2, AP(1), Rending)",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pulse Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Plasma Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Plasma Sword",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "oP6p_ZO-",
+              "label": "Plasma Gauntlet (A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Gauntlet",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "oCGcS1ry",
+      "hint": "Security Grunts Drones",
+      "forUnits": [
+        "KRznAPH"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "pZao-OAM",
+              "label": "Gun Drone (Drone Pulse-Gun (18\", A2, Limited, Rending))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gun Drone",
+                  "type": "item",
+                  "content": [
+                    "Drone Pulse-Gun"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "lZG9gjVG",
+              "label": "Recon Drone (Ambush Beacon)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Recon Drone",
+                  "type": "item",
+                  "content": [
+                    "Ambush Beacon"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gcMioO3O",
+              "label": "Inhibitor Drone (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Inhibitor Drone",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "cJemohDN",
+              "label": "Shield Drone (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KRznAPH",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shield Drone",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "PUpFpK8q",
+      "hint": "Replace Heavy Pulse-Gun",
+      "forUnits": [
+        "37mvtxH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Pulse-Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "eO2AhKI5",
+              "label": "Heavy Burst Carbine (18\", A2, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Burst Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "FXrbDKo0",
+              "label": "Heavy Missile Pod (30\", A2, AP(1), Decimate, Unstoppable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Missile Pod",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Decimate",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "0Q7Lx93-",
+              "label": "Heavy Frag Pod (24\", A1, AP(1), Blast(3), Indirect)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Frag Pod",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "6gpDVs-U",
+              "label": "Heavy Smart Missiles (30\", A3, AP(2), Indirect)",
+              "cost": 80,
+              "costs": [
+                {
+                  "unitId": "37mvtxH",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Smart Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "UA0trVt1",
+      "hint": "Battle Suit Elite",
+      "forUnits": [
+        "ZLsGVby"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Suit-Flamers and Suit-Bursts",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6nSPBvoI",
+              "label": "Suit-Burst (18\", A1, Rending), Suit-Ion (18\", A1, AP(1), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Ion",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Suit-Burst",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "vm3S40f7",
+              "label": "2x Rapid Suit-Burst (18\", A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Suit-Burst",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "SuyiFLUx",
+              "label": "Suit-Burst (18\", A1, Rending), Suit-Fuse (12\", A1, AP(4), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Fuse",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Suit-Burst",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 2
+              }
+            },
+            {
+              "uid": "ot02rcpF",
+              "label": "Suit-Frag (24\", A1, Blast(3), Indirect), Suit-Burst (18\", A1, Rending)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Suit-Frag",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                },
+                {
+                  "name": "Suit-Burst",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace 2x Suit-Flamer and 2x Suit-Burst",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "t9RhXJzh",
+              "label": "2x Rapid Suit-Burst (18\", A2, Rending), Plasma Sword (A4, AP(1), Rending), Energy Shield (Shielded)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Energy Shield",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                },
+                {
+                  "name": "Rapid Suit-Burst",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor",
+                "defensive",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "elite": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "x9d2cOxT",
+              "label": "Rapid Heavy Suit-Burst (24\", A6, AP(1), Rending), Rapid Suit-Burst (18\", A2, Rending)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Heavy Suit-Burst",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Rapid Suit-Burst",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any Rapid Suit-Burst",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ITHh4cdBWX",
+              "label": "Rapid Suit-Missiles (30\", A2, Decimate, Unstoppable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Suit-Missiles",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "Decimate",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "qSm4Wq9SGG",
+              "label": "Rapid Suit-Plasma (24\", A2, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Suit-Plasma",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ciwiVu13",
+              "label": "Drop-Thrusters (Ambush)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drop-Thrusters",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "PPFyeuLW",
+      "hint": "Specialists - Battlesuit",
+      "forUnits": [
+        "ZLsGVby"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "AwnmY6ch",
+              "label": "Storm Leader (Hit & Run Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Leader",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "vxAyPM6Fm-",
+              "label": "Master Armorer (Counter-Attack Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Armorer",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Nnvd8tMy",
+              "label": "Captain (Targeting Visor Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Targeting Visor Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "tE_rHW29",
+              "label": "Big Game Hunter (Ranged Slayer Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZLsGVby",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Big Game Hunter",
+                  "type": "item",
+                  "content": [
+                    "Ranged Slayer Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

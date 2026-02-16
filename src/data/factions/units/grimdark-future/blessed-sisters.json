@@ -3,8 +3,13 @@
   "factionName": "Blessed Sisters",
   "gameSystem": "grimdark-future",
   "factionType": "zealot",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.996Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:22.740Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 43
+  },
   "units": [
     {
       "id": "JzHY_1g",
@@ -20,22 +25,46 @@
         "Tough(9)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Great Energy Sword",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "EDMfI",
+        "zF03yszs"
+      ],
       "tags": [
-        "battlesuit",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
         "vehicle",
-        "veteran"
+        "human",
+        "zealot",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": 5,
-        "leadership": 3,
-        "humanity": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": 2,
+        "humanity": 3,
+        "faith": 4
       }
     },
     {
@@ -52,21 +81,39 @@
         "Tough(6)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "qApWS",
+        "I9gowDbT"
+      ],
       "tags": [
-        "hero",
-        "human",
-        "leader",
-        "melee",
+        "ambush",
         "mobile",
+        "hero",
+        "leader",
         "tough",
+        "defensive",
+        "human",
+        "zealot",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
+        "subtlety": 3,
         "speed": 3,
-        "leadership": 3,
-        "humanity": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "humanity": 3,
+        "faith": 4,
+        "tech": -1
       }
     },
     {
@@ -82,19 +129,36 @@
         "Tough(3)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "C1",
+        "fs5_XMOc"
+      ],
       "tags": [
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "defensive",
+        "human",
+        "zealot",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
-        "humanity": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "humanity": 3,
+        "faith": 4,
+        "tech": -1
       }
     },
     {
@@ -110,19 +174,36 @@
         "Tough(3)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "C1",
+        "fs5_XMOc"
+      ],
       "tags": [
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
+        "defensive",
+        "human",
+        "zealot",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "humanity": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "humanity": 3,
+        "faith": 4,
+        "tech": -1
       }
     },
     {
@@ -140,23 +221,36 @@
         "Piercing Assault",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Dual Shock Whip",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "zKN2X",
+        "B1"
+      ],
       "tags": [
-        "expendable",
-        "faithful",
         "fearless",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "human",
+        "zealot",
         "melee",
-        "monster",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
         "faith": 5,
-        "humanity": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": -1,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -172,18 +266,35 @@
         "Hero",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "iY6FrGVl"
+      ],
       "tags": [
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "melee"
+        "tough",
+        "defensive",
+        "human",
+        "zealot",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3,
-        "humanity": 3
+        "leadership": 5,
+        "elite": -1,
+        "patience": 3,
+        "humanity": 3,
+        "faith": 4,
+        "tech": -1
       }
     },
     {
@@ -197,18 +308,34 @@
       "rules": [
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Dual CCWs",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "5OU0i",
+        "cT2sU"
+      ],
       "tags": [
+        "human",
+        "zealot",
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "human",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "humanity": 3,
+        "faith": 4,
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
-        "collective": 5,
-        "humanity": 3
+        "collective": 5
       }
     },
     {
@@ -224,17 +351,32 @@
         "Devout",
         "Piercing Assault"
       ],
+      "weapons": [
+        {
+          "name": "Chainsaw Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "expendable",
-        "faithful",
         "fearless",
         "human",
-        "melee"
+        "zealot",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "faith": 5,
-        "humanity": 3
+        "humanity": 3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -248,15 +390,37 @@
       "rules": [
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "cT2sU"
+      ],
       "tags": [
-        "balanced",
         "human",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -272,19 +436,40 @@
         "Strider",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "human",
-        "mobile",
         "scout",
+        "mobile",
+        "human",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": 3,
         "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "humanity": 3,
+        "faith": 4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -299,17 +484,41 @@
         "Shielded",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Spear",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Counter"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "cT2sU"
+      ],
       "tags": [
-        "balanced",
         "defensive",
         "human",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "patience": 3,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -326,18 +535,41 @@
         "Devout",
         "Point-Blank Surge"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "balanced",
+        "ambush",
+        "mobile",
         "flying",
         "human",
-        "mobile",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 5,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -353,18 +585,44 @@
         "Flying",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Energy Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "balanced",
+        "ambush",
+        "mobile",
         "flying",
         "human",
-        "mobile",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 5,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -378,15 +636,37 @@
       "rules": [
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "LZCnx",
+        "cT2sU"
+      ],
       "tags": [
+        "human",
+        "zealot",
         "balanced",
-        "elite",
-        "human"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -401,15 +681,38 @@
         "Devout",
         "Devout Boost"
       ],
+      "weapons": [
+        {
+          "name": "Blessed Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Purge"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
         "human",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -425,17 +728,36 @@
         "Tough(3)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "M1",
+        "cT2sU"
+      ],
       "tags": [
-        "human",
-        "melee",
+        "ambush",
         "mobile",
         "tough",
+        "defensive",
+        "human",
+        "zealot",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 3,
-        "humanity": 3
+        "patience": 3,
+        "elite": 4,
+        "humanity": 3,
+        "faith": 4,
+        "tech": -1
       }
     },
     {
@@ -445,7 +767,7 @@
       "size": 3,
       "quality": 5,
       "defense": 5,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Fearless",
@@ -453,20 +775,42 @@
         "Devout",
         "Piercing Assault"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Chainsaw Sword",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "cavalry",
-        "faithful",
         "fast",
         "fearless",
-        "human",
         "tough",
-        "vehicle"
+        "vehicle",
+        "cavalry",
+        "human",
+        "zealot",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "tech": 3,
         "speed": 5,
         "faith": 5,
+        "patience": 1,
+        "elite": -2,
+        "tech": 3,
         "humanity": 3,
         "versatility": 2
       }
@@ -478,26 +822,56 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
         "fast",
-        "human",
         "tough",
         "vehicle",
+        "cavalry",
+        "human",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "humanity": 3,
+        "faith": 4,
         "versatility": 2
       }
     },
@@ -516,21 +890,40 @@
         "Transport(11)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Storm Rifle",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "EYX-G",
+        "5M99X"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
         "vehicle",
-        "veteran"
+        "zealot",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "humanity": 3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4,
+        "faith": 4
       }
     },
     {
@@ -549,24 +942,41 @@
         "Tough(6)",
         "Transport(6)"
       ],
+      "weapons": [
+        {
+          "name": "Holy Statue's Flame Blasts",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Purge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "zOn0M"
+      ],
       "tags": [
-        "aggressive",
-        "faithful",
         "fast",
         "fearless",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
         "vehicle",
-        "veteran"
+        "zealot",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
         "faith": 5,
-        "patience": -3,
-        "humanity": 3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -584,21 +994,53 @@
         "Transport(6)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Blessed Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Purge"
+          ]
+        },
+        {
+          "name": "Twin Blessed Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Purge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "B2",
+        "gT7jc",
+        "EYX-G"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
         "vehicle",
-        "veteran"
+        "zealot",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "humanity": 3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4,
+        "faith": 4
       }
     },
     {
@@ -615,21 +1057,49 @@
         "Tough(9)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Organ Heavy Missile",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Blessed Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Purge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2",
+        "gT7jc",
+        "EYX-G"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
         "vehicle",
-        "veteran"
+        "zealot",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "humanity": 3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4,
+        "faith": 4
       }
     },
     {
@@ -646,21 +1116,49 @@
         "Tough(12)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Anti-Tank Cannon",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Blessed Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Purge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "C2",
+        "gT7jc",
+        "EYX-G"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
         "vehicle",
-        "veteran"
+        "zealot",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "humanity": 3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4,
+        "faith": 4
       }
     },
     {
@@ -676,18 +1174,40 @@
         "Tough(6)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Energy Mace",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "battlesuit",
-        "human",
-        "melee",
         "tough",
         "vehicle",
-        "veteran"
+        "zealot",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 5,
-        "humanity": 3
+        "elite": 4,
+        "tech": 2,
+        "faith": 4
       }
     },
     {
@@ -707,25 +1227,47 @@
         "Devout",
         "Piercing Assault"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flail",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "viyjq",
+        "ObQny"
+      ],
       "tags": [
-        "faithful",
         "fearless",
-        "human",
-        "melee",
-        "mobile",
         "regeneration",
         "scout",
+        "mobile",
         "tough",
         "vehicle",
-        "veteran"
+        "zealot",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "faith": 5,
         "subtlety": 3,
         "speed": 3,
-        "humanity": 3
+        "elite": 4,
+        "tech": 2
       }
     },
     {
@@ -745,21 +1287,45 @@
         "Tough(9)",
         "Devout Boost"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flail",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "viyjq",
+        "Kh2Bq"
+      ],
       "tags": [
-        "faithful",
         "fearless",
-        "human",
-        "melee",
+        "defensive",
         "regeneration",
         "tough",
         "vehicle",
-        "veteran"
+        "zealot",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "faith": 5,
-        "humanity": 3
+        "patience": 3,
+        "elite": 4,
+        "tech": 2
       }
     },
     {
@@ -776,20 +1342,52 @@
         "Tough(24)",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Blessed Hull-Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Purge"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Titan Flail",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Blast(3)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "whyM8"
+      ],
       "tags": [
+        "fearless",
+        "tough",
+        "vehicle",
+        "zealot",
         "balanced",
         "elite",
-        "faithful",
-        "fearless",
-        "human",
-        "tough",
-        "vehicle"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "faith": 5,
-        "humanity": 3,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -809,23 +1407,48 @@
         "Unique",
         "Devout"
       ],
+      "weapons": [
+        {
+          "name": "Blessed Flamer Pistol",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Purge"
+          ]
+        },
+        {
+          "name": "Energy Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "hero",
-        "human",
         "leader",
-        "melee",
-        "mobile",
         "scout",
+        "mobile",
         "tough",
+        "human",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "subtlety": 3,
         "speed": 3,
-        "humanity": 3
+        "patience": 1,
+        "humanity": 3,
+        "faith": 4,
+        "versatility": 2
       }
     }
   ],

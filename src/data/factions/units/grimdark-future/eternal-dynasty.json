@@ -3,8 +3,13 @@
   "factionName": "Eternal Dynasty",
   "gameSystem": "grimdark-future",
   "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.187Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.010Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 44
+  },
   "units": [
     {
       "id": "8sSO8Od",
@@ -19,20 +24,41 @@
         "Tough(6)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Great Mace",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Heavy Bash",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "B1",
+        "zi4AK_tQ"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "robot",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "tech": 4,
-        "humanity": -2,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -48,17 +74,38 @@
         "Tough(3)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Dynasty Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "C1",
+        "P9Fks"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -73,14 +120,32 @@
       "rules": [
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Long Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "F1",
+        "YyyxzNTk"
+      ],
       "tags": [
         "balanced",
-        "versatile",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 5
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -95,17 +160,35 @@
         "Scout",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Long Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "mobile",
         "scout",
+        "mobile",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -122,17 +205,40 @@
         "Stealth",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Auto-Gun",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Sword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "elite",
+        "ambush",
         "mobile",
-        "stealth"
+        "stealth",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "subtlety": 5,
         "speed": 3,
-        "subtlety": 4,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -148,16 +254,34 @@
         "Versatile Attack",
         "Regeneration"
       ],
+      "weapons": [
+        {
+          "name": "Spear-Shot",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Spear",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "YyyxzNTk"
+      ],
       "tags": [
+        "regeneration",
         "balanced",
-        "elite",
-        "human",
-        "regeneration"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -172,19 +296,38 @@
         "Strider",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Laser Gun",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Puncture"
+          ]
+        },
+        {
+          "name": "Taser",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "balanced",
-        "drone",
         "mobile",
+        "drone",
         "robot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "speed": 3,
         "tech": 5,
         "humanity": -4,
-        "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -199,16 +342,36 @@
         "Tough(3)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Bash",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Heavy Fist",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1",
+        "E1",
+        "YyyxzNTk"
+      ],
       "tags": [
-        "elite",
+        "tough",
         "melee",
-        "robot",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 4,
-        "humanity": -2
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -218,21 +381,39 @@
       "size": 3,
       "quality": 5,
       "defense": 6,
-      "role": "fast-attack",
+      "role": "troops",
       "rules": [
         "Flying",
         "Tough(3)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "expendable",
         "flying",
+        "mobile",
+        "tough",
+        "horde",
+        "swarm",
         "melee",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "speed": 3
+        "speed": 5,
+        "elite": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -247,14 +428,29 @@
         "Strider",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Toxin Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "beast",
-        "melee",
-        "mobile"
+        "mobile",
+        "monster",
+        "melee"
       ],
       "dimensionScores": {
         "speed": 3,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -264,23 +460,37 @@
       "size": 1,
       "quality": 3,
       "defense": 4,
-      "role": "elite",
+      "role": "monster",
       "rules": [
         "Furious",
         "Tough(6)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Fist",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
         "aggressive",
-        "beast",
-        "elite",
+        "tough",
+        "monster",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "patience": -3,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -299,20 +509,40 @@
         "Transport(11)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "gZUYQbc3"
+      ],
       "tags": [
-        "aggressive",
         "fast",
         "mobile",
-        "ranged",
         "tough",
+        "aggressive",
+        "transport",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -330,20 +560,47 @@
         "Impact(6)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Artillery Gun",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "B2"
+      ],
       "tags": [
-        "aggressive",
         "fast",
         "mobile",
-        "ranged",
         "tough",
+        "aggressive",
         "vehicle",
-        "veteran"
+        "indirect",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "elite": 4,
+        "tech": 4,
+        "subtlety": 1
       }
     },
     {
@@ -353,7 +610,7 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Strider",
@@ -361,20 +618,43 @@
         "Impact(3)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Hull Auto-Gun",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Twin Burst Laser Gun",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "Puncture"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2",
+        "zSX27"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
         "fast",
         "mobile",
-        "ranged",
         "tough",
+        "aggressive",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -392,19 +672,51 @@
         "Tough(9)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Burst Auto-Gun",
+          "range": 18,
+          "attacks": 8,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Rope-Sickle",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2"
+      ],
       "tags": [
-        "balanced",
-        "elite",
+        "ambush",
         "mobile",
         "stealth",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
+        "subtlety": 5,
         "speed": 3,
-        "subtlety": 4,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -421,14 +733,39 @@
         "Tough(12)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamethrower",
+          "range": 12,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2"
+      ],
       "tags": [
+        "tough",
+        "vehicle",
         "balanced",
         "elite",
-        "tough",
-        "vehicle"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 1,
+        "elite": 5,
         "tech": 3,
         "versatility": 2
       }
@@ -447,17 +784,40 @@
         "Fearless",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Titan Sword",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "AP(2)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F2"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
         "tough",
-        "vehicle"
+        "fearless",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "faith": 2
+        "elite": 5,
+        "faith": 2,
+        "tech": 2
       }
     },
     {
@@ -477,21 +837,42 @@
         "Tough(18)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Titan Fists",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "aggressive",
-        "elite",
+        "fast",
         "fearless",
-        "melee",
+        "aggressive",
         "mobile",
         "tough",
-        "vehicle"
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
+        "speed": 5,
         "faith": 2,
         "patience": -3,
-        "speed": 3
+        "elite": 5,
+        "tech": 2
       }
     },
     {
@@ -501,7 +882,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Caster(4)",
         "Fear(3)",
@@ -511,23 +892,55 @@
         "Tough(18)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Fire Torrent",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Dragon Strike",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "beast",
-        "elite",
-        "fearless",
-        "flying",
         "magic",
         "psychic",
+        "fearless",
+        "flying",
+        "mobile",
         "regeneration",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "mystery": 5,
         "faith": 2,
-        "speed": 3,
+        "speed": 5,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -546,22 +959,65 @@
         "Tough(18)",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Titan Strike Cannon",
+          "range": 36,
+          "attacks": 2,
+          "special": [
+            "AP(3)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Guided Missiles",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(6)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Rocket Pod",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "fearless",
         "slow",
-        "static",
         "tough",
-        "vehicle"
+        "vehicle",
+        "indirect",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "faith": 2,
         "speed": -2,
-        "versatility": 2,
-        "patience": 2
+        "patience": 2,
+        "elite": 5,
+        "tech": 3,
+        "subtlety": 1,
+        "versatility": 2
       }
     },
     {
@@ -580,19 +1036,34 @@
         "Unique",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "The Banded-Stave",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(1)",
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "fast",
         "aggressive",
-        "elite",
         "hero",
         "leader",
+        "tough",
+        "defensive",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "patience": -3,
-        "leadership": 3
+        "speed": 4,
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -612,22 +1083,33 @@
         "Unique",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Stun Staff",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "hero",
         "leader",
-        "melee",
-        "mobile",
         "scout",
+        "mobile",
         "stealth",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "subtlety": 5,
-        "speed": 3
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -644,17 +1126,37 @@
         "Unique",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Twin Shotgun",
+          "range": 12,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Ironbane Swords",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -672,17 +1174,29 @@
         "Unique",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Dual Royal Swords",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -700,20 +1214,37 @@
         "Unique",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Spirit Blast",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Spirit Pulse",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "hero",
-        "leader",
         "magic",
         "psychic",
+        "hero",
+        "leader",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
         "mystery": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -734,21 +1265,45 @@
         "Unique",
         "Clan Warrior"
       ],
+      "weapons": [
+        {
+          "name": "Vine-Hook",
+          "range": 9,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Limited"
+          ]
+        },
+        {
+          "name": "Hwan Spear",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Puncture"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "elite",
+        "ambush",
+        "mobile",
         "hero",
         "leader",
-        "melee",
-        "mobile",
         "stealth",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "subtlety": 5,
         "speed": 3,
-        "leadership": 3,
-        "subtlety": 4
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "versatility": 2
       }
     }
   ],

@@ -1,0 +1,2301 @@
+{
+  "factionId": "0EXXlzFwAk3q1n5e",
+  "factionName": "Halflings",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Champion",
+      "forUnits": [
+        "gjLy2pX"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "BK7Sfer",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "LJsyMsN",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "xvnYezr",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "cQTXeFa",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "hYtXaqv",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7wdOrfYxA_",
+              "label": "Grenades (12\", A1, Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grenades",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "JDVN5lX7Pt",
+              "label": "Improvised Fireworks (18\", A1, AP(1), Bash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Improvised Fireworks",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Bash",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Bkd5VAxc",
+              "label": "Kin Bond (Vengeance)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Kin Bond",
+                  "type": "item",
+                  "content": [
+                    "Vengeance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "F3CdUQE",
+              "label": "Pig (Armor(3), Impact(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pig",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZStjGxIlFV",
+              "label": "Jetpack (Flying, Swift)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jetpack",
+                  "type": "item",
+                  "content": [
+                    "Flying",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iEZ_qnh",
+              "label": "Goat (Heavy Impact(1), Swift)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Goat",
+                  "type": "item",
+                  "content": [
+                    "Heavy Impact",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "-OtCM0E",
+              "label": "Dog (Impact(1), Strider, Swift)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dog",
+                  "type": "item",
+                  "content": [
+                    "Impact",
+                    "Strider",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4gbQlud",
+              "label": "Chicken (Fast, Impact(1), Swift)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chicken",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nqb0Gko",
+              "label": "Pig Chariot (Claws (A2), Armor(3), Impact(4), Swift, Tough(6))",
+              "cost": 110,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pig Chariot",
+                  "type": "item",
+                  "content": [
+                    "Claws",
+                    "Armor",
+                    "Impact",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "GPnXQg2",
+              "label": "Winged Hound (Heavy Bite (A6, AP(1)), Armor(3), Flying, Swift, Tough(6))",
+              "cost": 130,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 125
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Winged Hound",
+                  "type": "item",
+                  "content": [
+                    "Heavy Bite",
+                    "Armor",
+                    "Flying",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Rbg73",
+              "label": "Cockatrice (Sharp Claws (A4, Rending), Sharp Beak (A1, AP(2), Deadly(3)), Fear(1), Flying, Swift, Tough(6))",
+              "cost": 130,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 135
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cockatrice",
+                  "type": "item",
+                  "content": [
+                    "Sharp Claws",
+                    "Sharp Beak",
+                    "Fear",
+                    "Flying",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Leader",
+      "forUnits": [
+        "8zAbXEx"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "_mnFI-F",
+              "label": "Spear (A3, Counter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "ezQSsnc",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "lLg3sM3",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "evTL43g",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "lXRBZ-s",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ci6nWKg",
+              "label": "Toxic Potions (12\", A3, Bane)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxic Potions",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "3amouk2",
+              "label": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniper Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1zHjUumf",
+              "label": "Kin Bond (Vengeance)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Kin Bond",
+                  "type": "item",
+                  "content": [
+                    "Vengeance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "pdMFI",
+              "label": "Dog (Impact(1), Strider, Swift)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dog",
+                  "type": "item",
+                  "content": [
+                    "Impact",
+                    "Strider",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3cM65jv",
+              "label": "Goat (Heavy Impact(1), Swift)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Goat",
+                  "type": "item",
+                  "content": [
+                    "Heavy Impact",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4rfkw",
+              "label": "Pig (Armor(4), Impact(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pig",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "VRaQMZUt4N",
+              "label": "Master Thief (Stealth, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Thief",
+                  "type": "item",
+                  "content": [
+                    "Stealth",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "CK_ML-b",
+              "label": "Chicken (Fast, Impact(1), Swift)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chicken",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "7hTEV_zz7L",
+              "label": "Brave Leader (Fearless, Furious, Melee Slayer)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Brave Leader",
+                  "type": "item",
+                  "content": [
+                    "Fearless",
+                    "Furious",
+                    "Melee Slayer"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "KDxefi6",
+        "fhglA5W",
+        "AvS8raq",
+        "BhWJCvb"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vOSrAcC",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "KDxefi6",
+                  "cost": 5
+                },
+                {
+                  "unitId": "fhglA5W",
+                  "cost": 5
+                },
+                {
+                  "unitId": "AvS8raq",
+                  "cost": 5
+                },
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LC0Ig8e",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "KDxefi6",
+                  "cost": 5
+                },
+                {
+                  "unitId": "fhglA5W",
+                  "cost": 5
+                },
+                {
+                  "unitId": "AvS8raq",
+                  "cost": 5
+                },
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "eNhvR0b",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "KDxefi6",
+                  "cost": 10
+                },
+                {
+                  "unitId": "fhglA5W",
+                  "cost": 10
+                },
+                {
+                  "unitId": "AvS8raq",
+                  "cost": 10
+                },
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Warriors",
+      "forUnits": [
+        "KDxefi6"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "K86ciWB",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "KDxefi6",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "JiajwQJ",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "KDxefi6",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Thieves",
+      "forUnits": [
+        "xSlWPl2"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "obeAFAa",
+              "label": "Throwing Weapon (12\", A2), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "xSlWPl2",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Weapon",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Vk25Cjbkeb",
+              "label": "Improvised Fireworks (18\", A1, AP(1), Bash), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "xSlWPl2",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Improvised Fireworks",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Bash",
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "uGVmy",
+              "label": "Shortling Ambush (Surprise Attack(1))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "xSlWPl2",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortling Ambush",
+                  "type": "item",
+                  "content": [
+                    "Surprise Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4puJK",
+              "label": "Hired Killer (Takedown Strike)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "xSlWPl2",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hired Killer",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Marksmen",
+      "forUnits": [
+        "AvS8raq"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Shortbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "CDQMhP6",
+              "label": "Rifle (18\", A1, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "AvS8raq",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "z3rvgZ3",
+              "label": "Crossbow (24\", A1, Rending)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "AvS8raq",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Beast Riders",
+      "forUnits": [
+        "BhWJCvb"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "t3ACkIM",
+              "label": "Lance (A1, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "F28JAF2",
+              "label": "Shortbow (18\", A1)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "GSN9ukc",
+              "label": "Rifle (18\", A1, AP(1))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace all Dog Mounts",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "C1T5VxJ",
+              "label": "Pig Mount (Armor(4), Impact(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pig Mount",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "tHfZNpU",
+              "label": "Chicken Mount (Fast, Impact(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chicken Mount",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6uYbcQO",
+              "label": "Goat Mount (Heavy Impact(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BhWJCvb",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Goat Mount",
+                  "type": "item",
+                  "content": [
+                    "Heavy Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Golems",
+      "forUnits": [
+        "h5ARfF6"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Ice Breeds",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "WuKRF",
+              "label": "Tree Breed (Bane in Melee, Scout)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "h5ARfF6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tree Breed",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee",
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "uztJdUq",
+              "label": "Rock Breed (Armor(3), Fearless)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "h5ARfF6",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rock Breed",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Fearless"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Beast Chariot",
+      "forUnits": [
+        "GWQkvw1"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spear Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Houi1nw",
+              "label": "Shortbow Crew (18\", A6)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "GWQkvw1",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Draft Goat",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gWxuaTY",
+              "label": "Draft Chicken (Fast, Impact(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "GWQkvw1",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Draft Chicken",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zI9qCno",
+              "label": "Draft Pigs (Armor(2), Impact(4))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "GWQkvw1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Draft Pigs",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PO2CcJF",
+              "label": "Draft Dogs (Impact(4), Scout, Strider)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "GWQkvw1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Draft Dogs",
+                  "type": "item",
+                  "content": [
+                    "Impact",
+                    "Scout",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Halfling Artillery",
+      "forUnits": [
+        "avLiLhw"
+      ],
+      "sections": [
+        {
+          "label": "Replace Volley Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "oSt1Rx9",
+              "label": "Hot Pot (24\", A2, Indirect, Bane, Bash)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "avLiLhw",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hot Pot",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Bane",
+                    "Bash",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "9gMlgz3",
+              "label": "Rocket Battery (24\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "avLiLhw",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rocket Battery",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "-4y88Rj",
+              "label": "Bolt Thrower (36\", A1, AP(3), Deadly(6))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "avLiLhw",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bolt Thrower",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "7amEY5j",
+              "label": "Howitzer (36\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "avLiLhw",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Howitzer",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "qGDS_LeN",
+              "label": "Terrifying Fireworks (Morale Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "avLiLhw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Terrifying Fireworks",
+                  "type": "item",
+                  "content": [
+                    "Morale Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "HFHTR",
+      "hint": "Cockatrice",
+      "forUnits": [
+        "mdsWqDV"
+      ],
+      "sections": [
+        {
+          "label": "Replace Sharp Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ivkoamR",
+              "label": "Claws (A2), Sharp Beak (A1, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "mdsWqDV",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sharp Beak",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "CyHTW9VY",
+      "hint": "Kin Bond",
+      "forUnits": [
+        "KDxefi6",
+        "fhglA5W",
+        "12lW1vI",
+        "AvS8raq"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "3fQXkWfcLV",
+              "label": "Kin Bond (Vengeance)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KDxefi6",
+                  "cost": 20
+                },
+                {
+                  "unitId": "fhglA5W",
+                  "cost": 20
+                },
+                {
+                  "unitId": "12lW1vI",
+                  "cost": 20
+                },
+                {
+                  "unitId": "AvS8raq",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Kin Bond",
+                  "type": "item",
+                  "content": [
+                    "Vengeance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lbuSS5wy",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "gjLy2pX"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "3rDAU__E8w",
+              "label": "Town Chief (Precision Fighter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Town Chief",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CnWP5PEeq-",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "KItfTHwicB",
+              "label": "Feast Master (Regeneration Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Feast Master",
+                  "type": "item",
+                  "content": [
+                    "Regeneration Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "O-d0LVYSKi",
+              "label": "Weaponsmith (Rending when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weaponsmith",
+                  "type": "item",
+                  "content": [
+                    "Rending when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "fHFd0QSs",
+              "label": "Clover Bearer (Lucky Boost Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "gjLy2pX",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Clover Bearer",
+                  "type": "item",
+                  "content": [
+                    "Lucky Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "f9YvFZtJ",
+      "hint": "Zeppelins",
+      "forUnits": [
+        "Kt_SEhO"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "d6QCapC0_b",
+              "label": "Terrifying Fireworks (Morale Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Kt_SEhO",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Terrifying Fireworks",
+                  "type": "item",
+                  "content": [
+                    "Morale Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "3-NoDT5_",
+      "hint": "Drunks",
+      "forUnits": [
+        "__kWeE8"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "iyx4poVcuY",
+              "label": "Improvised Fireworks (18\", A1, AP(1), Bash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "__kWeE8",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Improvised Fireworks",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Bash",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "LJI_OHfS",
+      "hint": "Jetpack Troopers",
+      "forUnits": [
+        "r2A20bR"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Grenades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "iSwt6OxlSB",
+              "label": "Improvised Fireworks (18\", A1, AP(1), Bash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r2A20bR",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Improvised Fireworks",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Bash",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "YR3qP7r-",
+      "hint": "Specialists - Leader",
+      "forUnits": [
+        "8zAbXEx"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "LhjunjFTjl",
+              "label": "Butcher (Takedown Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Butcher",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "wXflx18G",
+              "label": "Feast Master (Regeneration Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Feast Master",
+                  "type": "item",
+                  "content": [
+                    "Regeneration Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "MuqhCrFV",
+              "label": "Shaman (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shaman",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "BW4tT-v8",
+              "label": "Weaponsmith (Rending when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weaponsmith",
+                  "type": "item",
+                  "content": [
+                    "Rending when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gLyrEw7v",
+              "label": "Clover Bearer (Lucky Boost Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Clover Bearer",
+                  "type": "item",
+                  "content": [
+                    "Lucky Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gVyq2drc",
+              "label": "Mystic (Teleport Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8zAbXEx",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mystic",
+                  "type": "item",
+                  "content": [
+                    "Teleport Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

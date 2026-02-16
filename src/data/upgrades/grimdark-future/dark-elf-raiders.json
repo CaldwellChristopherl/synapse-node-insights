@@ -1,0 +1,5063 @@
+{
+  "factionId": "q11la9v8h1heu9ja",
+  "factionName": "Dark Elf Raiders",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Leader Weapons",
+      "forUnits": [
+        "DDyxDBK",
+        "iDd34YF",
+        "YmQxy0f"
+      ],
+      "sections": [
+        {
+          "label": "Replace Elite Barb Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8ZZkD",
+              "label": "Elite EMP Pistol (9\", A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite EMP Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "4N4am48",
+              "label": "Phantom-GL (18\", A1, Blast(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 10
+                },
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 10
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Phantom-GL",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "rPtgfUY",
+              "label": "Elite Plas-Blaster Pistol (6\", A3, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 10
+                },
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 10
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Plas-Blaster Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "OF9Sx",
+              "label": "Elite Barb Rifle (24\", A2, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 10
+                },
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 10
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Barb Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mhoxgf6",
+              "label": "Agony Whip (A1, Blast(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Agony Whip",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "bYPD0nr",
+              "label": "Energy Sword (A2, AP(1), Rending)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 10
+                },
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 10
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "4dLxzLX",
+              "label": "Shell Sword (A1, AP(2), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 15
+                },
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 15
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shell Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zecXbaSn",
+              "label": "Expert Raider (Ruinous Frenzy)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Expert Raider",
+                  "type": "item",
+                  "content": [
+                    "Ruinous Frenzy"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Witch Leader Weapons",
+      "forUnits": [
+        "iDd34YF",
+        "YmQxy0f"
+      ],
+      "sections": [
+        {
+          "label": "Replace Elite Barb Pistol and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "pDO63",
+              "label": "Net & Spear (A3, Thrust)",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Net & Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "z4MOSmr",
+              "label": "Dual Sword-Flails (A1, AP(2), Blast(3))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Sword-Flails",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "V46vhs0",
+              "label": "Dual Crystal Claws (A4, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Crystal Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "8-Uk1-4",
+              "label": "Energy Glaive (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Gene-Tech Master",
+      "forUnits": [
+        "CdDmTiY"
+      ],
+      "sections": [
+        {
+          "label": "Replace Dual CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "aD8YT",
+              "label": "Syringe Pistol (12\", A1, Deadly(3)), CCW (A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Syringe Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Syringe Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "VYb40",
+              "label": "Elite Barb Pistol (12\", A2, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Barb Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "kf-0jvH",
+              "label": "Acid Gun (12\", A1, Blast(3), Reliable, Bane)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Acid Gun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Bane",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "3FybPqM",
+              "label": "Arcane Rifle (30\", A1, AP(1), Reliable, Takedown)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Arcane Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "f2t7tXY",
+              "label": "Agony Whip (A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Agony Whip",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "Ik3xBzU",
+              "label": "Venom Sword (A2, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "xW-lSFB",
+              "label": "Electro-Corroder (A2, AP(1), Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Electro-Corroder",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Pev2125",
+              "label": "Leech Claw (A2, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Leech Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "UDHYDS2",
+              "label": "Syringe Claw (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Syringe Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "_Ub5I5b",
+              "label": "Scissor Claw (A2, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scissor Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Court Henchman",
+      "forUnits": [
+        "Muarpbv"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Courtesan's Sword",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "m4bwF",
+              "label": "Ghoulish Claws (A4, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Muarpbv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ghoulish Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "XRU9M",
+              "label": "Naga Guns (18\", A4, Lacerate), Barb Dagger (A1, Lacerate)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Muarpbv",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Naga Guns",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "Barb Dagger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "-_x8S",
+              "label": "Medusa's Gaze (12\", A4, AP(3)), Barb Dagger (A1, Lacerate)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "Muarpbv",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Dagger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "Medusa's Gaze",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Gene-Brutes",
+      "forUnits": [
+        "jfWbJax"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Acid Gun and Scissor Claw",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "0vdHm",
+              "label": "Dual Scissor Claws (A4, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jfWbJax",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Scissor Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Y0V9HUSq",
+              "label": "Widow Maker (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jfWbJax",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Widow Maker",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Warriors",
+      "forUnits": [
+        "BFjYmT3"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Barb Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "aj7cH-v",
+              "label": "EMP Rifle (18\", A2, Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "EMP Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Zt8an3b",
+              "label": "Scrapper (12\", A1, Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scrapper",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "bcOd6Up",
+              "label": "Scythe Launcher (30\", A1, AP(3), Unstoppable)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scythe Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "rI7Z0Am",
+              "label": "Plas-Blaster (18\", A2, AP(4))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Kkj-mPq",
+              "label": "Barb Cannon (30\", A3, Lacerate)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "ZVNXZfG",
+              "label": "Laser Cannon (36\", A1, AP(3), Deadly(3))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Barb Rifle and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "qD_S6mu-",
+              "label": "Sgt. Barb Pistol (12\", A1, Lacerate), Energy Sword (A2, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sgt. Barb Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sgt. Barb Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "JG5K7P3g",
+              "label": "EMP Pistol (9\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "EMP Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "q7WeDMI0",
+              "label": "Plas-Blaster Pistol (6\", A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Winged Warriors",
+      "forUnits": [
+        "tH89B8Y"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Barb Carbine",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fyXr7tW",
+              "label": "EMP Rifle (18\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "EMP Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "7NhNNCZ",
+              "label": "Scrapper (12\", A1, Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scrapper",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "AYBwco6",
+              "label": "Plas-Blaster (18\", A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "h8r9Ulr",
+              "label": "Barb Cannon (30\", A3, Lacerate)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "jcDO4",
+              "label": "Heavy Fusion Gun (18\", A1, AP(4), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Fusion Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "84FBL19",
+              "label": "Laser Cannon (36\", A1, AP(3), Deadly(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Barb Carbine and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "h5yoNd_D",
+              "label": "Sgt. Barb Pistol (12\", A1, Lacerate), Energy Sword (A2, AP(1), Rending)",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Sgt. Barb Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "elite": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sgt. Barb Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gmLQj-iC",
+              "label": "EMP Pistol (9\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "EMP Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "kRe6Wy_m",
+              "label": "Plas-Blaster Pistol (6\", A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Jetbike Riders",
+      "forUnits": [
+        "sLG6U97"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Twin Barb Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "kVu4vOF",
+              "label": "Plas-Blaster (18\", A2, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "sLG6U97",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "2tLM41D",
+              "label": "Heavy Fusion Gun (18\", A1, AP(4), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "sLG6U97",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Fusion Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "FNq06kh",
+              "label": "Spiked Talon (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "sLG6U97",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spiked Talon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "WT31M",
+              "label": "Razor Caltrops (Impact(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "sLG6U97",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Razor Caltrops",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M1",
+      "hint": "Heavy Jetbike",
+      "forUnits": [
+        "DxDArd8"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Barb Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "FHBFTJI",
+              "label": "Scythe Launcher (30\", A1, AP(3), Unstoppable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "DxDArd8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scythe Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "-9ZG9j4",
+              "label": "Barb Cannon (30\", A3, Lacerate)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "DxDArd8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "HjVnYuj9q2",
+              "label": "Dark-Sails (Speed Boost)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DxDArd8",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark-Sails",
+                  "type": "item",
+                  "content": [
+                    "Speed Boost"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4NBgs7__i5",
+              "label": "Shield of Darkness (Stealth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DxDArd8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shield of Darkness",
+                  "type": "item",
+                  "content": [
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "u7ZGwAeEJg",
+              "label": "Open Deck (Transport(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DxDArd8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Open Deck",
+                  "type": "item",
+                  "content": [
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3uXyAKkqil",
+              "label": "Energy Ram (Impact(5))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DxDArd8",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Ram",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N1",
+      "hint": "Hoverboard Riders",
+      "forUnits": [
+        "vk5kw2R"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Glaive",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "v9R-yJF",
+              "label": "Agony Whip (A1, Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vk5kw2R",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Agony Whip",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "ZEBDh",
+              "label": "Energy Sword (A2, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vk5kw2R",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "KioZ0p8",
+              "label": "Grapple Claw (A1, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vk5kw2R",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grapple Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Twin Barb-Pod",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Mp3zX8q",
+              "label": "Barb-Pod (18\", A1, Lacerate), Phantom-GL (18\", A1, Blast(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "vk5kw2R",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Phantom-GL",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                },
+                {
+                  "name": "Barb-Pod",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "O1",
+      "hint": "Beast Handler",
+      "forUnits": [
+        "z0y38Pu",
+        "ysAV--C",
+        "lqjdRGU"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "z3Kcy3jFEd",
+              "label": "Vanguard Beast Handler (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "z0y38Pu",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ysAV--C",
+                  "cost": 10
+                },
+                {
+                  "unitId": "lqjdRGU",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vanguard Beast Handler",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "izIXABk",
+              "label": "Combat Beast Handler (Unpredictable Fighter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "z0y38Pu",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ysAV--C",
+                  "cost": 15
+                },
+                {
+                  "unitId": "lqjdRGU",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Beast Handler",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "A2",
+      "hint": "Vehicle Upgrades",
+      "forUnits": [
+        "FkqmUWW",
+        "fmxy-Cm"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "YoqFyOM",
+              "label": "Shield of Darkness (Stealth)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "FkqmUWW",
+                  "cost": 15
+                },
+                {
+                  "unitId": "fmxy-Cm",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shield of Darkness",
+                  "type": "item",
+                  "content": [
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "1f-raDr",
+              "label": "Phantom-GL (18\", A1, Blast(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "FkqmUWW",
+                  "cost": 20
+                },
+                {
+                  "unitId": "fmxy-Cm",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Phantom-GL",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "K2trSrp",
+              "label": "Dark-Sails (Speed Boost)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "FkqmUWW",
+                  "cost": 15
+                },
+                {
+                  "unitId": "fmxy-Cm",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark-Sails",
+                  "type": "item",
+                  "content": [
+                    "Speed Boost"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "n4CSR6Y",
+              "label": "Energy Ram (Impact(5))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "FkqmUWW",
+                  "cost": 30
+                },
+                {
+                  "unitId": "fmxy-Cm",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Ram",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B2",
+      "hint": "Leech Engine",
+      "forUnits": [
+        "j4WPNPP"
+      ],
+      "sections": [
+        {
+          "label": "Replace Soul Syphon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "P5OSd",
+              "label": "Soul Vortex (18\", A2, AP(1), Deadly(3), Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j4WPNPP",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Vortex",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Bane",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "JlvnqeanaI",
+              "label": "Soul Blaster (24\", A2, AP(1), Blast(3), Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j4WPNPP",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Blaster",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sR0IekidGx",
+              "label": "Widow Maker (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j4WPNPP",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Widow Maker",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5-UGrEh",
+              "label": "Soul Conductor (Regeneration Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j4WPNPP",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Conductor",
+                  "type": "item",
+                  "content": [
+                    "Regeneration Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C2",
+      "hint": "Engine of Suffering",
+      "forUnits": [
+        "Cu1FSgg"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Acid Spewer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "4Ztb0atvro",
+              "label": "Twin EMP Rifle (18\", A4, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin EMP Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Hd3aq5T",
+              "label": "Stinger Cannon (24\", A2, Blast(3))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stinger Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "mm_Kw4c",
+              "label": "Rapid Barb Cannon (30\", A6, Lacerate)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Barb Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "O2kBY26",
+              "label": "Twin Heavy Fusion Gun (18\", A2, AP(4), Deadly(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Fusion Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Acid Spewer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "dAPfAes",
+              "label": "Heavy Claws (A3, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "CnKxlSS",
+              "label": "Venom Injector (A3, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Injector",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "OzlpAMM",
+              "label": "Shred Flail (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shred Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zCAwIqIWzZ",
+              "label": "Pain Fueled (Regenerative Strength)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pain Fueled",
+                  "type": "item",
+                  "content": [
+                    "Regenerative Strength"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "syd5dBBpqT",
+              "label": "Widow Maker (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Cu1FSgg",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Widow Maker",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D2",
+      "hint": "Raven Bomber",
+      "forUnits": [
+        "y6RfkiV"
+      ],
+      "sections": [
+        {
+          "label": "Replace Shatter Missiles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6Umnqt1",
+              "label": "Void Missiles (36\", A1, AP(3), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "y6RfkiV",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Void Missiles",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E2",
+      "hint": "Razor Fighter",
+      "forUnits": [
+        "M7BepXm"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Barb Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "H1-TsLr",
+              "label": "Barb Cannon (30\", A3, Lacerate)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "M7BepXm",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Laser Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "W6Z9Krs",
+              "label": "Destroyer Cannon (36\", A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "M7BepXm",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Destroyer Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Toxin Missiles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8SaMRVB",
+              "label": "Shatter Missiles (36\", A1, Blast(6))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "M7BepXm",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shatter Missiles",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "apn7K",
+              "label": "Scythe Missiles (36\", A2, AP(3), Unstoppable)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "M7BepXm",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scythe Missiles",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Eosfz",
+      "hint": "Gene-Warriors",
+      "forUnits": [
+        "9KZgNDC"
+      ],
+      "sections": [
+        {
+          "label": "Replace up to two Dual CCWS",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5pcdZ",
+              "label": "Barb Pistol (12\", A1, Lacerate), CCW (A2)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Barb Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "zVIDg",
+              "label": "Syringe Pistol (12\", A1, Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Syringe Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "VHs1J",
+              "label": "Acid Gun (12\", A1, Blast(3), Reliable, Bane)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Acid Gun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Bane",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Barb Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "rKAIw",
+              "label": "Bone Gun (18\", A2, Rending)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "ipxUV",
+              "label": "Arcane Rifle (30\", A1, AP(1), Reliable, Takedown)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Arcane Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "aAjbK",
+              "label": "Agony Whip (A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Agony Whip",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "0EIuD",
+              "label": "Venom Sword (A2, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "DfO1C",
+              "label": "Electro-Corroder (A2, AP(1), Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Electro-Corroder",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "kRxsE",
+              "label": "Leech Claw (A2, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Leech Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "dqdjD",
+              "label": "Syringe Claw (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Syringe Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "e6iOx",
+              "label": "Scissor Claw (A2, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "9KZgNDC",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scissor Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lKaOZ",
+      "hint": "Witches",
+      "forUnits": [
+        "yEJT1lg"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Barb Pistol and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "-ogEc",
+              "label": "Net & Spear (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yEJT1lg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Net & Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "YCsVJ",
+              "label": "Dual Sword-Flails (A1, AP(2), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yEJT1lg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Sword-Flails",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "geD2i",
+              "label": "Dual Crystal Claws (A4, Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "yEJT1lg",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Crystal Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "P3jlv",
+              "label": "Energy Glaive (A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "yEJT1lg",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Barb Pistol and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "4Qn9nWvc",
+              "label": "Sgt. Barb Pistol (12\", A1, Lacerate), Energy Sword (A2, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yEJT1lg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sgt. Barb Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sgt. Barb Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "4r2q_xJn",
+              "label": "EMP Pistol (9\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yEJT1lg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "EMP Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "p4LYz74R",
+              "label": "Plas-Blaster Pistol (6\", A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yEJT1lg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "g86qt",
+      "hint": "True Witches",
+      "forUnits": [
+        "LYpysCo"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Barb Pistol and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "liQHk",
+              "label": "Dual Sword-Flails (A1, AP(2), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "LYpysCo",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Sword-Flails",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "eEGgH",
+              "label": "Net & Spear (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "LYpysCo",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Net & Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "OhqrV",
+              "label": "Dual Crystal Claws (A4, Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "LYpysCo",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Crystal Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "GQmlN",
+              "label": "Energy Glaive (A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "LYpysCo",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Barb Pistol and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "TUz8ZCxQ",
+              "label": "Sgt. Barb Pistol (12\", A1, Lacerate), Energy Sword (A2, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LYpysCo",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sgt. Barb Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sgt. Barb Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "si-GBJi8",
+              "label": "EMP Pistol (9\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "LYpysCo",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "EMP Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "oeezpa0J",
+              "label": "Plas-Blaster Pistol (6\", A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "LYpysCo",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "oicrO",
+      "hint": "True Warriors",
+      "forUnits": [
+        "QTD5frn"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Barb Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "yeLiL",
+              "label": "Scrapper (12\", A1, Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scrapper",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "vdlCg",
+              "label": "EMP Rifle (18\", A2, Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "EMP Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Aj_ct",
+              "label": "Scythe Launcher (30\", A1, AP(3), Unstoppable)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scythe Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "mzzzX",
+              "label": "Plas-Blaster (18\", A2, AP(4))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "_wsTN",
+              "label": "Barb Cannon (30\", A3, Lacerate)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "5E7v-",
+              "label": "Laser Cannon (36\", A1, AP(3), Deadly(3))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Barb Rifle and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8wJKxcH-",
+              "label": "Sgt. Barb Pistol (12\", A1, Lacerate), Energy Sword (A2, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sgt. Barb Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sgt. Barb Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "V4YFwVSW",
+              "label": "EMP Pistol (9\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "EMP Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "5wdoELqS",
+              "label": "Plas-Blaster Pistol (6\", A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plas-Blaster Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "af8DD",
+      "hint": "Specialists - Lord",
+      "forUnits": [
+        "DDyxDBK"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "72YCO",
+              "label": "Alchemist (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Alchemist",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CInxn",
+              "label": "Raid Leader (Harassing Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Raid Leader",
+                  "type": "item",
+                  "content": [
+                    "Harassing Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zI_fAj026V",
+              "label": "Agoniser (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Agoniser",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "V2DHs8gWPS",
+              "label": "Tormentor (Piercing Hunter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tormentor",
+                  "type": "item",
+                  "content": [
+                    "Piercing Hunter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "pkn4h",
+      "hint": "Expert Raider",
+      "forUnits": [
+        "yEJT1lg",
+        "BFjYmT3",
+        "LYpysCo",
+        "QTD5frn",
+        "vk5kw2R",
+        "tH89B8Y"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FX7hM",
+              "label": "Expert Raider (Ruinous Frenzy)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yEJT1lg",
+                  "cost": 10
+                },
+                {
+                  "unitId": "BFjYmT3",
+                  "cost": 10
+                },
+                {
+                  "unitId": "LYpysCo",
+                  "cost": 10
+                },
+                {
+                  "unitId": "QTD5frn",
+                  "cost": 10
+                },
+                {
+                  "unitId": "vk5kw2R",
+                  "cost": 15
+                },
+                {
+                  "unitId": "tH89B8Y",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Expert Raider",
+                  "type": "item",
+                  "content": [
+                    "Ruinous Frenzy"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "EsaG0SmN",
+      "hint": "Shadow Warriors",
+      "forUnits": [
+        "rHODg7t"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "mhkifr3f",
+              "label": "Widow Maker (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rHODg7t",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Widow Maker",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Ywpn14ol",
+      "hint": "Light Skimmer",
+      "forUnits": [
+        "FkqmUWW"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Barb Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XgdsG8kxSQ",
+              "label": "Barb Cannon (30\", A3, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "FkqmUWW",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "ziWN8lHM",
+              "label": "Destroyer Cannon (36\", A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "FkqmUWW",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Destroyer Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "5ulld7-1NK",
+              "label": "Laser Cannon (36\", A1, AP(3), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "FkqmUWW",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "dHohjubM",
+              "label": "Widow Maker (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "FkqmUWW",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Widow Maker",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TjMniuQu",
+      "hint": "Heavy Skimmer",
+      "forUnits": [
+        "fmxy-Cm"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Barb Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "U2E_wXOA",
+              "label": "Destroyer Cannon (36\", A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "fmxy-Cm",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Destroyer Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "jm-YygKyNA",
+              "label": "Laser Cannon (36\", A1, AP(3), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fmxy-Cm",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "iX9Wf8OL",
+      "hint": "Leader Upgrades",
+      "forUnits": [
+        "iDd34YF",
+        "YmQxy0f"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "z9aKVy9a",
+              "label": "Succubus (Melee Evasion)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Succubus",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "2KU97-IA",
+              "label": "Hoverboard (Scout, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 10
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hoverboard",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "1fuYgfzG",
+              "label": "Wings (Ambush, Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 15
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "vDzqqiq4",
+              "label": "Court Master (Martial Prowess)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 15
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Court Master",
+                  "type": "item",
+                  "content": [
+                    "Martial Prowess"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "cpR6iStC",
+              "label": "Jetbike (Twin Barb Rifle (24\", A2, Lacerate), Armor(4), Fast, Strider, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 80
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jetbike",
+                  "type": "item",
+                  "content": [
+                    "Twin Barb Rifle",
+                    "Armor",
+                    "Fast",
+                    "Strider",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "SxFACt6c",
+      "hint": "Specialists - Raider",
+      "forUnits": [
+        "iDd34YF",
+        "YmQxy0f"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "GB29mXG5",
+              "label": "Dread Ruler (Courage Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dread Ruler",
+                  "type": "item",
+                  "content": [
+                    "Courage Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oO52Kz1P6z",
+              "label": "Alchemist (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 10
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Alchemist",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "HSPRqQ81",
+              "label": "Agoniser (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 20
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Agoniser",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "m4uv7izx",
+              "label": "Tormentor (Piercing Hunter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iDd34YF",
+                  "cost": 40
+                },
+                {
+                  "unitId": "YmQxy0f",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tormentor",
+                  "type": "item",
+                  "content": [
+                    "Piercing Hunter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "SX7U67cG",
+      "hint": "Specialists - Gene-Tech",
+      "forUnits": [
+        "CdDmTiY"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rF1vmNX7",
+              "label": "Dread Ruler (Courage Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dread Ruler",
+                  "type": "item",
+                  "content": [
+                    "Courage Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "YZaA7WAn",
+              "label": "Alchemist (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Alchemist",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "rqpT_rM1Dj",
+              "label": "Raid Leader (Harassing Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Raid Leader",
+                  "type": "item",
+                  "content": [
+                    "Harassing Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Sw86xIJG",
+              "label": "Agoniser (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Agoniser",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "uEZu5yf7",
+              "label": "Soul Carrier (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Carrier",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3ASVkOOA",
+              "label": "Master Soul Carrier (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CdDmTiY",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Soul Carrier",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "MuKIuFf_",
+      "hint": "Leader Upgrades - Dark Lord",
+      "forUnits": [
+        "DDyxDBK"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Tad3IZSL",
+              "label": "Succubus (Melee Evasion)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Succubus",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "tlYrY5aW",
+              "label": "Hoverboard (Scout, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hoverboard",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "K828nk68",
+              "label": "Wings (Ambush, Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nALveaGi",
+              "label": "Court Master (Martial Prowess)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Court Master",
+                  "type": "item",
+                  "content": [
+                    "Martial Prowess"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dlmDvq9R",
+              "label": "Jetbike (Twin Barb Rifle (24\", A2, Lacerate), Fast, Strider, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDyxDBK",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jetbike",
+                  "type": "item",
+                  "content": [
+                    "Twin Barb Rifle",
+                    "Strider",
+                    "Tough",
+                    "Fast"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

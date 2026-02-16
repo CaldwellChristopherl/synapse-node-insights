@@ -3,8 +3,13 @@
   "factionName": "Robot Legions",
   "gameSystem": "grimdark-future",
   "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.457Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.405Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 36
+  },
   "units": [
     {
       "id": "R2d8LeD",
@@ -21,22 +26,45 @@
         "Tough(6)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Annihilation Gun",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Harvest Blade",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "mobile",
         "ranged",
-        "tough"
+        "mobile",
+        "tough",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 2,
+        "tech": 1,
         "speed": 3,
-        "tradition": 4,
         "versatility": 2
       }
     },
@@ -54,21 +82,41 @@
         "Tough(6)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Lord Gauss Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Destructive"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "D1",
+        "LkkJyk3R"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "elite",
         "hero",
         "leader",
         "mobile",
-        "tough"
+        "tough",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": 3,
-        "tradition": 4,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -86,24 +134,36 @@
         "Tough(3)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "4ywFLKgD",
+        "P_1aFUp1"
+      ],
       "tags": [
-        "ancient",
-        "elite",
         "hero",
         "leader",
-        "melee",
-        "robot",
         "slow",
-        "tough"
+        "tough",
+        "defensive",
+        "robot",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "tech": 4,
-        "humanity": -2,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": -2,
-        "tradition": 4
+        "patience": 3,
+        "tech": 3,
+        "humanity": -2
       }
     },
     {
@@ -118,14 +178,31 @@
         "Slow",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Gauss Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Destructive"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "slow"
+        "slow",
+        "balanced"
       ],
       "dimensionScores": {
         "speed": -2,
-        "tradition": 4,
         "versatility": 2
       }
     },
@@ -141,19 +218,35 @@
         "Slow",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Atom-Caster",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Void Blade",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "human",
         "slow",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": 3,
         "speed": -2,
-        "tradition": 4,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -169,16 +262,32 @@
         "Self-Repair",
         "Infiltrate"
       ],
+      "weapons": [
+        {
+          "name": "Metal Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "cbvFtGXz"
+      ],
       "tags": [
-        "ancient",
-        "melee",
         "slow",
+        "stealth",
+        "infiltrate",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": -2,
-        "tradition": 4
+        "subtlety": 5,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -193,17 +302,35 @@
         "Slow",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Flux Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "ancient",
+        "slow",
         "balanced",
         "elite",
-        "slow"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": -2,
-        "tradition": 4,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -218,17 +345,36 @@
         "Slow",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "D-Mark",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
         "slow",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": -2,
-        "tradition": 4,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -244,17 +390,30 @@
         "Tough(3)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "ancient",
-        "expendable",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "horde",
+        "swarm",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "speed": 3,
-        "tradition": 4
+        "elite": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -271,22 +430,34 @@
         "Self-Repair",
         "Fast"
       ],
+      "weapons": [
+        {
+          "name": "Whip Coil",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "fast",
-        "melee",
         "mobile",
-        "robot",
         "tough",
+        "fast",
+        "robot",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 1,
-        "humanity": -2,
         "speed": 5,
-        "tradition": 4
+        "elite": 4,
+        "tech": 3,
+        "humanity": -5
       }
     },
     {
@@ -302,19 +473,32 @@
         "Tough(3)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Dual Reaper Blades",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "v1bOr7hx"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "elite",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "monster",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 3,
-        "tradition": 4,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -330,17 +514,31 @@
         "Tough(3)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hyper Swords",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "ancient",
-        "elite",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 3,
-        "tradition": 4
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -356,17 +554,31 @@
         "Tough(3)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Dual Reaper Blades",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "ancient",
-        "elite",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 3,
-        "tradition": 4
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -384,18 +596,36 @@
         "Tough(6)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Disintegration Pistol",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "ancient",
+        "ranged",
+        "mobile",
+        "tough",
         "balanced",
         "elite",
-        "mobile",
-        "ranged",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 2,
+        "tech": 1,
         "speed": 3,
-        "tradition": 4,
+        "elite": 5,
         "versatility": 2
       }
     },
@@ -406,26 +636,47 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "troops",
+      "role": "monster",
       "rules": [
         "Strider",
         "Tough(6)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Twin Atom-Beamer",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Spider Fangs",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "beast",
         "mobile",
         "tough",
-        "veteran"
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 3,
-        "tradition": 4,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -441,17 +692,38 @@
         "Tough(6)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Gauss Cannon",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "Destructive"
+          ]
+        },
+        {
+          "name": "Heavy CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
-        "ancient",
+        "mobile",
+        "tough",
         "balanced",
         "elite",
-        "mobile",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 3,
-        "tradition": 4,
+        "patience": 1,
+        "elite": 5,
         "versatility": 2
       }
     },
@@ -462,28 +734,45 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Strider",
         "Tough(3)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Flux Carbine",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "cavalry",
         "fast",
         "mobile",
         "tough",
         "vehicle",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "tradition": 4,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -502,21 +791,36 @@
         "Transport(11)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Gauss Rifle Array",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "Destructive"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "1wRtSaHa"
+      ],
       "tags": [
         "aggressive",
-        "ancient",
-        "elite",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "transport",
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "patience": -3,
+        "patience": -1,
         "speed": 3,
-        "tradition": 4
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -533,21 +837,42 @@
         "Tough(9)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Doom Cannon",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Gauss Rifle Array",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "Destructive"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2"
+      ],
       "tags": [
         "aggressive",
-        "ancient",
-        "elite",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "patience": -3,
+        "patience": -1,
         "speed": 3,
-        "tradition": 4
+        "elite": 5,
+        "tech": 4
       }
     },
     {
@@ -557,7 +882,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "elite",
+      "role": "vehicle",
       "rules": [
         "Impact(3)",
         "Strider",
@@ -565,21 +890,36 @@
         "Self-Repair",
         "Mobile Artillery"
       ],
+      "weapons": [
+        {
+          "name": "Ray Caster",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2"
+      ],
       "tags": [
         "aggressive",
-        "ancient",
-        "elite",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "artillery",
+        "static",
+        "ranged",
+        "vehicle",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "patience": -3,
+        "patience": 3,
         "speed": 3,
-        "tradition": 4
+        "elite": 5,
+        "tech": 5
       }
     },
     {
@@ -596,19 +936,42 @@
         "Tough(6)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Particle Beam",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "elite",
         "mobile",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 3,
-        "tradition": 4,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -626,19 +989,48 @@
         "Tough(12)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Gauss Cannon",
+          "range": 24,
+          "attacks": 12,
+          "special": [
+            "Destructive"
+          ]
+        },
+        {
+          "name": "Crushing Legs",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "beast",
-        "elite",
         "mobile",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 3,
-        "tradition": 4,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -658,27 +1050,56 @@
         "Fearless",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Nanobot Shards",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Wraith Strike",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "q4O59"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "beast",
-        "elite",
-        "fearless",
-        "flying",
         "magic",
-        "monster",
         "psychic",
-        "tough"
+        "flying",
+        "mobile",
+        "tough",
+        "fearless",
+        "monster",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
         "mystery": 5,
-        "speed": 3,
+        "speed": 5,
+        "patience": 1,
+        "elite": 5,
         "faith": 2,
-        "tradition": 4,
-        "versatility": 2,
-        "tech": -3
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -695,20 +1116,43 @@
         "Transport(11)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Twin Flux Cannon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Close-Range Gauss Array",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "Destructive"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aircraft",
-        "ancient",
-        "elite",
         "flying",
-        "ranged",
+        "vehicle",
         "tough",
-        "vehicle"
+        "transport",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "tradition": 4
+        "patience": 2,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1
       }
     },
     {
@@ -724,20 +1168,41 @@
         "Tough(6)",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Doom Ray",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(4)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Twin Flux Cannon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aircraft",
-        "ancient",
-        "elite",
         "flying",
-        "ranged",
+        "vehicle",
         "tough",
-        "vehicle"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "tradition": 4
+        "patience": 2,
+        "elite": 5
       }
     },
     {
@@ -747,7 +1212,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Caster(3)",
         "Fear(3)",
@@ -756,24 +1221,54 @@
         "Strider",
         "Tough(18)"
       ],
+      "weapons": [
+        {
+          "name": "Monolith Blast",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Crushing Legs",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "XG_QD"
+      ],
       "tags": [
-        "ancient",
+        "magic",
+        "psychic",
+        "fearless",
+        "mobile",
+        "tough",
+        "vehicle",
         "balanced",
         "elite",
-        "fearless",
-        "magic",
-        "mobile",
-        "psychic",
-        "tough",
-        "vehicle"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "mystery": 5,
         "faith": 2,
         "speed": 3,
-        "tradition": 4,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -784,7 +1279,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Fear(3)",
         "Impact(6)",
@@ -793,23 +1288,44 @@
         "Fearless",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Destruction Pulse",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "AP(3)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Gauss Arc Array",
+          "range": 24,
+          "attacks": 12,
+          "special": [
+            "Destructive"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "nLQx_"
+      ],
       "tags": [
         "aggressive",
-        "ancient",
-        "elite",
-        "fearless",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "fearless",
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "patience": -3,
+        "patience": -1,
         "speed": 3,
+        "elite": 5,
         "faith": 2,
-        "tradition": 4
+        "tech": 4
       }
     },
     {
@@ -827,25 +1343,53 @@
         "Fearless",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Nanobot Shards",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Great Wraith Strike",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "aYo5u"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "beast",
-        "elite",
-        "fearless",
         "magic",
-        "monster",
         "psychic",
-        "tough"
+        "tough",
+        "fearless",
+        "monster",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
         "mystery": 5,
+        "patience": 1,
+        "elite": 5,
         "faith": 2,
-        "tradition": 4,
-        "versatility": 2,
-        "tech": -3
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -864,24 +1408,36 @@
         "Unique",
         "Self-Repair"
       ],
+      "weapons": [
+        {
+          "name": "Panoptic Staff",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "ancient",
-        "elite",
+        "magic",
+        "psychic",
         "hero",
         "leader",
-        "magic",
-        "melee",
-        "psychic",
         "slow",
-        "tough"
+        "tough",
+        "stealth",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
         "mystery": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": -2,
-        "tradition": 4
+        "subtlety": 4,
+        "tech": -1
       }
     }
   ],

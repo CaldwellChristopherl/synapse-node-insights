@@ -2,9 +2,14 @@
   "factionId": "tOWt5fgqK2nfpoBN",
   "factionName": "Ratmen",
   "gameSystem": "age-of-fantasy",
-  "factionType": "organic",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.746Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.251Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 44
+  },
   "units": [
     {
       "id": "bl380Vc",
@@ -20,27 +25,33 @@
         "Tough(3)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "VXhpCgFX"
+      ],
       "tags": [
-        "cunning",
         "fearless",
         "hero",
         "leader",
-        "melee",
-        "monster",
-        "organic",
         "tough",
-        "treacherous",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": -2,
         "faith": 2,
-        "humanity": -4,
-        "leadership": 3,
-        "honor": -4,
-        "order": -2
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -56,23 +67,29 @@
         "Tough(3)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "9syfd4vh"
+      ],
       "tags": [
-        "cunning",
-        "expendable",
         "hero",
         "leader",
-        "melee",
-        "organic",
         "tough",
-        "treacherous"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "tech": -2,
-        "leadership": 3,
-        "honor": -4,
-        "order": -2
+        "leadership": 5,
+        "elite": -1,
+        "tech": -1
       }
     },
     {
@@ -86,23 +103,34 @@
       "rules": [
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Sling",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "UYOZiBdI"
+      ],
       "tags": [
         "balanced",
         "cheap",
-        "cunning",
         "expendable",
         "horde",
-        "organic",
-        "swarm",
-        "treacherous"
+        "swarm"
       ],
       "dimensionScores": {
+        "versatility": 2,
         "elite": -5,
-        "collective": 5,
-        "tech": -2,
-        "honor": -4,
-        "order": -2,
-        "versatility": 2
+        "collective": 5
       }
     },
     {
@@ -116,22 +144,30 @@
       "rules": [
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1"
+      ],
       "tags": [
+        "melee",
         "cheap",
-        "cunning",
         "expendable",
         "horde",
-        "melee",
-        "organic",
-        "swarm",
-        "treacherous"
+        "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
-        "collective": 5,
-        "tech": -2,
-        "honor": -4,
-        "order": -2
+        "collective": 5
       }
     },
     {
@@ -146,19 +182,34 @@
         "Tough(3)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Heavy Drill",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "cunning",
-        "expendable",
-        "melee",
-        "organic",
         "tough",
-        "treacherous"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
-        "honor": -4,
-        "order": -2
+        "elite": -2,
+        "tech": -1
       }
     },
     {
@@ -173,19 +224,36 @@
         "Quick Readjustment",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Toxin Bombs",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Indirect",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "fq_Pb"
+      ],
       "tags": [
+        "indirect",
         "balanced",
-        "cunning",
-        "expendable",
-        "organic",
-        "treacherous"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
-        "honor": -4,
-        "order": -2,
-        "versatility": 2
+        "subtlety": 1,
+        "patience": 1,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -200,20 +268,30 @@
         "Furious",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Censer Flail",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "I1"
+      ],
       "tags": [
         "aggressive",
-        "cunning",
-        "expendable",
         "melee",
-        "organic",
-        "treacherous"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
-        "patience": -3,
-        "honor": -4,
-        "order": -2
+        "patience": -4,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -228,20 +306,29 @@
         "Fearless",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Halberd",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "G1"
+      ],
       "tags": [
-        "cunning",
         "fearless",
-        "melee",
-        "monster",
-        "organic",
-        "treacherous"
+        "melee"
       ],
       "dimensionScores": {
-        "tech": -2,
         "faith": 2,
-        "humanity": -4,
-        "honor": -4,
-        "order": -2
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -258,21 +345,28 @@
         "Strider",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "cunning",
-        "melee",
-        "mobile",
-        "organic",
         "scout",
+        "mobile",
         "stealth",
-        "treacherous"
+        "melee"
       ],
       "dimensionScores": {
-        "tech": -2,
         "subtlety": 5,
         "speed": 3,
-        "honor": -4,
-        "order": -2
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -286,19 +380,34 @@
       "rules": [
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Overtuned Sniper Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Reliable",
+            "Hazardous",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A5UY4UYn"
+      ],
       "tags": [
         "balanced",
-        "cunning",
-        "expendable",
-        "organic",
-        "treacherous"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
-        "honor": -4,
-        "order": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -314,24 +423,31 @@
         "Tough(3)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "UYOZiBdI"
+      ],
       "tags": [
-        "beast",
-        "cunning",
-        "expendable",
-        "horde",
-        "melee",
         "mobile",
-        "organic",
+        "tough",
+        "horde",
         "swarm",
-        "treacherous"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -5,
-        "collective": 5,
         "speed": 3,
-        "honor": -4,
-        "order": -2
+        "elite": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -347,26 +463,35 @@
         "Fast",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "UYOZiBdI"
+      ],
       "tags": [
-        "beast",
-        "cheap",
-        "cunning",
-        "expendable",
-        "fast",
-        "horde",
-        "melee",
         "mobile",
-        "organic",
-        "swarm",
-        "treacherous"
+        "fast",
+        "monster",
+        "melee",
+        "cheap",
+        "expendable",
+        "horde",
+        "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "tech": -5,
         "speed": 5,
-        "honor": -4,
-        "order": -2
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -382,22 +507,30 @@
         "Tough(3)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "XSDdT"
+      ],
       "tags": [
         "aggressive",
-        "beast",
-        "cunning",
-        "melee",
-        "organic",
         "tough",
-        "treacherous",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -5,
         "patience": -3,
-        "honor": -4,
-        "order": -2
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -414,26 +547,38 @@
         "Tough(3)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Flame-Fists",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Bash",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "beast",
-        "cunning",
-        "elite",
         "fearless",
-        "monster",
-        "organic",
+        "aggressive",
         "tough",
-        "treacherous"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": -5,
         "faith": 2,
-        "humanity": -4,
-        "patience": -3,
-        "honor": -4,
-        "order": -2,
+        "patience": -2,
+        "elite": 5,
         "versatility": 2
       }
     },
@@ -451,23 +596,37 @@
         "Tough(12)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Claw",
+          "range": 0,
+          "attacks": 10,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "floxm"
+      ],
       "tags": [
-        "beast",
-        "cunning",
-        "melee",
-        "monster",
-        "organic",
         "regeneration",
         "tough",
-        "treacherous",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
-        "honor": -4,
-        "order": -2
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -477,7 +636,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Fearless",
@@ -485,25 +644,39 @@
         "Tough(6)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Giant Censer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "aggressive",
-        "cunning",
         "fearless",
-        "melee",
-        "monster",
-        "organic",
+        "aggressive",
         "tough",
-        "treacherous",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -2,
         "faith": 2,
         "patience": -3,
-        "honor": -4,
-        "order": -2
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -513,7 +686,7 @@
       "size": 1,
       "quality": 5,
       "defense": 3,
-      "role": "monster",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Fear(1)",
@@ -521,23 +694,33 @@
         "Tough(6)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Twin Gatling Guns",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "cunning",
         "fast",
         "fearless",
-        "monster",
-        "organic",
-        "ranged",
         "tough",
-        "treacherous"
+        "ranged",
+        "expendable",
+        "armored"
       ],
       "dimensionScores": {
-        "humanity": -4,
-        "tech": -2,
         "speed": 4,
         "faith": 2,
-        "honor": -4,
-        "order": -2
+        "patience": 2,
+        "elite": -2,
+        "tech": 1
       }
     },
     {
@@ -552,21 +735,38 @@
         "Tough(3)",
         "Artillery"
       ],
+      "weapons": [
+        {
+          "name": "Overtuned Cannon",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Deadly(6)",
+            "Hazardous"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "O1"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
-        "defensive",
-        "organic",
-        "ranged",
-        "static",
         "tough",
-        "treacherous"
+        "artillery",
+        "static",
+        "ranged",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "tech": -2,
         "patience": 5,
-        "honor": -4,
-        "order": -2,
+        "elite": -2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -585,27 +785,43 @@
         "Tough(18)",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Giant Claws",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "BRzzH"
+      ],
       "tags": [
-        "beast",
-        "cunning",
-        "elite",
-        "fearless",
         "magic",
-        "melee",
-        "monster",
-        "organic",
         "psychic",
+        "fearless",
         "tough",
-        "treacherous"
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "tech": -5,
         "mystery": 5,
         "faith": 2,
-        "honor": -4,
-        "order": -2
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -615,7 +831,7 @@
       "size": 1,
       "quality": 2,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Caster(4)",
         "Fear(3)",
@@ -624,29 +840,42 @@
         "Fearless",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Strike",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "cunning",
-        "elite",
-        "fearless",
         "magic",
-        "melee",
-        "mobile",
-        "monster",
-        "organic",
         "psychic",
+        "mobile",
         "tough",
-        "treacherous"
+        "fearless",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "tech": -5,
         "mystery": 5,
         "speed": 3,
+        "elite": 5,
         "faith": 2,
-        "honor": -4,
-        "order": -2
+        "tech": 2
       }
     },
     {
@@ -664,24 +893,31 @@
         "Unique",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Knife & Staff",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "cunning",
+        "magic",
+        "psychic",
         "hero",
         "leader",
-        "magic",
-        "melee",
-        "organic",
-        "psychic",
         "tough",
-        "treacherous"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "collective": -1,
-        "tech": -2,
         "mystery": 5,
-        "leadership": 3,
-        "honor": -4,
-        "order": -2
+        "leadership": 5,
+        "elite": -1,
+        "tech": -1
       }
     },
     {
@@ -699,27 +935,31 @@
         "Unique",
         "Scurry"
       ],
+      "weapons": [
+        {
+          "name": "Havocfall",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "cunning",
         "fearless",
         "hero",
         "leader",
-        "melee",
-        "monster",
-        "organic",
         "tough",
-        "treacherous",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": -2,
         "faith": 2,
-        "humanity": -4,
-        "leadership": 3,
-        "honor": -4,
-        "order": -2
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -737,21 +977,40 @@
         "Unique",
         "Quick Readjustment"
       ],
+      "weapons": [
+        {
+          "name": "Artificer Bombs",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Indirect",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Overtuned Halberd",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Hazardous"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "cunning",
         "hero",
         "leader",
-        "organic",
         "tough",
-        "treacherous"
+        "indirect",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "collective": -1,
-        "tech": -2,
-        "leadership": 3,
-        "honor": -4,
-        "order": -2,
+        "leadership": 5,
+        "elite": -1,
+        "patience": 2,
+        "subtlety": 1,
         "versatility": 2
       }
     }

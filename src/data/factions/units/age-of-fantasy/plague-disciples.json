@@ -2,9 +2,14 @@
   "factionId": "upWNWC9UIXtQP2o_",
   "factionName": "Plague Disciples",
   "gameSystem": "age-of-fantasy",
-  "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.734Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.227Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 50
+  },
   "units": [
     {
       "id": "nXt3cmG71",
@@ -20,22 +25,34 @@
         "Versatile Attack",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "0F-loTQX"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
         "melee",
-        "tech",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3
+        "tech": -1
       }
     },
     {
@@ -51,22 +68,34 @@
         "Tough(3)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "0F-loTQX"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
         "melee",
-        "tech",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3
+        "tech": -1
       }
     },
     {
@@ -84,27 +113,37 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "3kEH_O4p"
+      ],
       "tags": [
         "aggressive",
-        "corrupted",
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "mobile",
+        "tough",
         "scout",
-        "tough"
+        "mobile",
+        "corrupted",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "patience": -3,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "subtlety": 3,
-        "speed": 3
+        "speed": 3,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -120,26 +159,38 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1",
+        "-LAz1HOB"
+      ],
       "tags": [
         "aggressive",
-        "cheap",
+        "scout",
+        "mobile",
         "corrupted",
+        "melee",
+        "cheap",
         "expendable",
         "horde",
-        "human",
-        "melee",
-        "mobile",
-        "scout",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
-        "patience": -3,
+        "patience": -4,
         "subtlety": 3,
-        "speed": 3
+        "speed": 3,
+        "purity": -4,
+        "tech": -1,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -153,14 +204,30 @@
       "rules": [
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "F1",
+        "-LAz1HOB"
+      ],
       "tags": [
         "corrupted",
-        "human",
-        "melee"
+        "melee",
+        "armored"
       ],
       "dimensionScores": {
         "purity": -4,
-        "humanity": 3
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -175,17 +242,32 @@
         "Versatile Attack",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "F1",
+        "-LAz1HOB"
+      ],
       "tags": [
         "corrupted",
-        "human",
         "melee",
-        "tech",
-        "veteran"
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "purity": -4,
-        "humanity": 3
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -201,18 +283,25 @@
         "Unpredictable Fighter",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Mutated Limbs",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
         "fearless",
-        "human",
-        "melee",
-        "unpredictable"
+        "corrupted",
+        "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "faith": 2,
-        "order": -3
+        "purity": -4,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -227,17 +316,29 @@
         "Tough(3)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "z9kTE",
+        "D1"
+      ],
       "tags": [
+        "tough",
         "corrupted",
-        "elite",
-        "human",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3
+        "tech": -1
       }
     },
     {
@@ -252,21 +353,37 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "-LAz1HOB",
+        "AkjTzLVj"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "expendable",
-        "human",
+        "scout",
         "mobile",
-        "scout"
+        "corrupted",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "purity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -282,20 +399,32 @@
         "Strider",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
         "mobile",
-        "tech"
+        "corrupted",
+        "monster",
+        "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "tech": -3
+        "purity": -4,
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -313,24 +442,34 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "-LAz1HOB"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "corrupted",
-        "expendable",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
+        "scout",
         "mobile",
-        "scout"
+        "corrupted",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3,
-        "subtlety": 3
+        "patience": -4,
+        "subtlety": 3,
+        "purity": -4,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -346,22 +485,35 @@
         "Impact(1)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "K1",
+        "-LAz1HOB"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "corrupted",
         "fast",
-        "human",
+        "aggressive",
+        "corrupted",
         "melee",
-        "tech",
-        "veteran"
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "speed": 4,
+        "patience": -4,
         "purity": -4,
-        "humanity": 3,
-        "speed": 5,
-        "patience": -3
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -371,28 +523,50 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "elite",
+      "role": "fast-attack",
       "rules": [
         "Strider",
         "Tough(6)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stinger",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "AW1jN"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "corrupted",
+        "cavalry",
+        "fast",
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "tech": -3
+        "elite": 5,
+        "purity": -4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -408,22 +582,49 @@
         "Tough(12)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        },
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "3Wn1P"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
+        "tough",
         "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "cavalry",
+        "fast",
         "monster",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
+        "elite": 5,
         "purity": -4,
-        "speed": 3,
-        "tech": -3
+        "speed": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -433,25 +634,44 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(2)",
         "Tough(12)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Giant Fists",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "nviJ6TNd"
+      ],
       "tags": [
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
-        "tech",
         "tough",
-        "veteran"
+        "corrupted",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4
+        "elite": 4,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -468,23 +688,41 @@
         "Tough(6)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Hooves",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "s5sVEnxl"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
+        "aggressive",
+        "tough",
+        "corrupted",
+        "cavalry",
         "melee",
-        "tech",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -3,
+        "elite": 5,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -494,7 +732,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "monster",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Fear(1)",
@@ -502,25 +740,43 @@
         "Tough(6)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "DyClsPve"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
+        "aggressive",
+        "tough",
+        "corrupted",
+        "cavalry",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "purity": -4,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 5,
+        "purity": -4,
+        "tech": -1
       }
     }
   ],

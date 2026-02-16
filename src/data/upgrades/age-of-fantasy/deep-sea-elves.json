@@ -1,0 +1,1865 @@
+{
+  "factionId": "L1zCkfmeAongLj1X",
+  "factionName": "Deep-Sea Elves",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Sea Master",
+      "forUnits": [
+        "WOcO4yE"
+      ],
+      "sections": [
+        {
+          "label": "Replace Barb Net-Catcher",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "S70OB",
+              "label": "Heavy Hand Weapon (A3, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Zb1cZO7",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "oLcbq_A",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "CxcPYS6",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "lizeqpy",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "aYx-T",
+              "label": "Bow (24\", A2), Head Reaver (Quick Shot)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Head Reaver",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "JDAC5S_HyT",
+              "label": "Crossbow (24\", A2, Rending), Head Reaver (Quick Shot)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Head Reaver",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "UrxVYUDD",
+              "label": "Deep-Sea Passage (Ambush Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deep-Sea Passage",
+                  "type": "item",
+                  "content": [
+                    "Ambush Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "X0tI09l6fV",
+              "label": "Sea Guardian (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sea Guardian",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_hzb7cAeqn",
+              "label": "Thrall Master (Furious)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Thrall Master",
+                  "type": "item",
+                  "content": [
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nFIfQ",
+              "label": "Barrier War-Eel (Fast, Impact(1), Stealth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barrier War-Eel",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "Dc5t4b4",
+              "label": "Blaster War-Eel (Fast, Impact(1), Retaliate(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blaster War-Eel",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Retaliate"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "wAe6XjF",
+              "label": "Sea-Wyrm (Toxin Jaws (A1, Bane), Fast, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sea-Wyrm",
+                  "type": "item",
+                  "content": [
+                    "Toxin Jaws",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_QA282w",
+              "label": "Sea Drake (Heavy Claws (A6, AP(1)), Armor(3), Fear(1), Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 125
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sea Drake",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Armor",
+                    "Fear",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Scholar",
+      "forUnits": [
+        "UgsTwGS"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1F5iYE6",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "eTvqSbV",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "HkhaGuM",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "g-a9f",
+              "label": "Bow (24\", A2), Head Reaver (Quick Shot)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Head Reaver",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "ruQFNlFQSo",
+              "label": "Crossbow (24\", A2, Rending), Head Reaver (Quick Shot)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Head Reaver",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "RDVZW20k3-",
+              "label": "Deep-Sea Passage (Ambush Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deep-Sea Passage",
+                  "type": "item",
+                  "content": [
+                    "Ambush Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IRNQV6kiKa",
+              "label": "Deep-Sea Companion (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deep-Sea Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vKWezKmV-g",
+              "label": "Sea Guardian (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sea Guardian",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4DNG-cUKqj",
+              "label": "Thrall Master (Furious)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Thrall Master",
+                  "type": "item",
+                  "content": [
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "U_uam",
+              "label": "Barrier War-Eel (Fast, Impact(1), Stealth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barrier War-Eel",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "C4aTl",
+              "label": "Blaster War-Eel (Fast, Impact(1), Retaliate(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blaster War-Eel",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Retaliate"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "-jpUn",
+              "label": "Great Beast (Toxin Tongue (A3, Bane), Armor(4), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Beast",
+                  "type": "item",
+                  "content": [
+                    "Toxin Tongue",
+                    "Armor",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "O1Dyb",
+              "label": "Great Water Elemental (Flood Attack (A8), Fear(1), Furious, Regeneration, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 135
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Water Elemental",
+                  "type": "item",
+                  "content": [
+                    "Flood Attack",
+                    "Fear",
+                    "Furious",
+                    "Regeneration",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "5WDN0x7",
+        "PZhbjdS",
+        "lpZp_f1",
+        "a6lI1qt",
+        "Oh8-WQ0"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QRcRClU",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "5WDN0x7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "PZhbjdS",
+                  "cost": 5
+                },
+                {
+                  "unitId": "lpZp_f1",
+                  "cost": 5
+                },
+                {
+                  "unitId": "a6lI1qt",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Oh8-WQ0",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IUPUXOz",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "5WDN0x7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "PZhbjdS",
+                  "cost": 5
+                },
+                {
+                  "unitId": "lpZp_f1",
+                  "cost": 5
+                },
+                {
+                  "unitId": "a6lI1qt",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Oh8-WQ0",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "DhaIGMA",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "5WDN0x7",
+                  "cost": 10
+                },
+                {
+                  "unitId": "PZhbjdS",
+                  "cost": 10
+                },
+                {
+                  "unitId": "lpZp_f1",
+                  "cost": 10
+                },
+                {
+                  "unitId": "a6lI1qt",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Oh8-WQ0",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Elf Reavers",
+      "forUnits": [
+        "a6lI1qt"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Bows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8zsgF5K",
+              "label": "Crossbow (24\", A1, Rending)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "a6lI1qt",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Depth Horrors",
+      "forUnits": [
+        "lpZp_f1"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Barb Net-Catchers",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "DOUae",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "lpZp_f1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Bl_CY",
+              "label": "Heavy Hand Weapon (A3, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lpZp_f1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "w64sE",
+              "label": "Heavy Great Weapon (A2, AP(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "lpZp_f1",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "9B7MjcQ5",
+              "label": "Constricting Kelp (Precision Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lpZp_f1",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Constricting Kelp",
+                  "type": "item",
+                  "content": [
+                    "Precision Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "War-Eel Riders",
+      "forUnits": [
+        "Oh8-WQ0"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lNlU8MN",
+              "label": "Rending Sabre (A1, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Oh8-WQ0",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rending Sabre",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Cj6nGpp",
+              "label": "Electric Barrier (Stealth)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Oh8-WQ0",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Electric Barrier",
+                  "type": "item",
+                  "content": [
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "Ar-eI4M",
+              "label": "Electric Blasts (Retaliate(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Oh8-WQ0",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Electric Blasts",
+                  "type": "item",
+                  "content": [
+                    "Retaliate"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "War-Shark Riders",
+      "forUnits": [
+        "ld--eZy"
+      ],
+      "sections": [
+        {
+          "label": "Replace Barb Net Launcher",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Tkk8dMu7F6",
+              "label": "Harpoon Launcher (24\", A2, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ld--eZy",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Harpoon Launcher",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Deep-Sea Artillery",
+      "forUnits": [
+        "Cc_04Jm"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Barb Net Launcher",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ZmGPTCXVP-",
+              "label": "Mini-Harpoon Launcher (30\", A6, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Cc_04Jm",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mini-Harpoon Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "3P_JDMb",
+              "label": "Great Harpoon Launcher (30\", A1, AP(3), Deadly(6))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Cc_04Jm",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Harpoon Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "qebESXxV",
+      "hint": "Deep-Sea Passage",
+      "forUnits": [
+        "H-MgQOe",
+        "PZhbjdS",
+        "a6lI1qt",
+        "zqO-_Er"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gdf5N89IGv",
+              "label": "Deep-Sea Passage (Ambush Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "H-MgQOe",
+                  "cost": 5
+                },
+                {
+                  "unitId": "PZhbjdS",
+                  "cost": 10
+                },
+                {
+                  "unitId": "a6lI1qt",
+                  "cost": 10
+                },
+                {
+                  "unitId": "zqO-_Er",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deep-Sea Passage",
+                  "type": "item",
+                  "content": [
+                    "Ambush Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Y0KBO_CB",
+      "hint": "Giant War-Turtle",
+      "forUnits": [
+        "ZSC5U0Y"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Barb Net Launcher",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "VkriLDEday",
+              "label": "Heavy Harpoon Launcher (24\", A4, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZSC5U0Y",
+                  "cost": 105
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Harpoon Launcher",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "83Y7DAf5gJ",
+              "label": "Distortion Drummer (Stealth Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZSC5U0Y",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Distortion Drummer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Buff"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "U6SdxmF6ss",
+              "label": "Constricting Kelp (Precision Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ZSC5U0Y",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Constricting Kelp",
+                  "type": "item",
+                  "content": [
+                    "Precision Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "wkcImEeh",
+      "hint": "Specialists - Scholar",
+      "forUnits": [
+        "UgsTwGS"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "CoTYSwO6",
+              "label": "Light Bringer (Fearless Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light Bringer",
+                  "type": "item",
+                  "content": [
+                    "Fearless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nNTMGMA9",
+              "label": "Soul Collector (Shred when Shooting Aura)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Collector",
+                  "type": "item",
+                  "content": [
+                    "Shred when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gJqcrlA_",
+              "label": "Divine Navigator (Wave-Step Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Divine Navigator",
+                  "type": "item",
+                  "content": [
+                    "Wave-Step Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dQZXy5dQ",
+              "label": "Depth Scryer (Ranged Shrouding Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Depth Scryer",
+                  "type": "item",
+                  "content": [
+                    "Ranged Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "V_RleiVj",
+              "label": "Tidemage (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tidemage",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "t5kgCWqZn8",
+              "label": "Master Tidemage (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UgsTwGS",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Tidemage",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "WcjON",
+      "hint": "Elf Thralls",
+      "forUnits": [
+        "PZhbjdS"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Great Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "z1BoR",
+              "label": "Barb Net-Catcher (A1, AP(1), Bane, Thrash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "PZhbjdS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Net-Catcher",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Bane",
+                    "Thrash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Ku5irLdL",
+      "hint": "Sea Guard",
+      "forUnits": [
+        "5WDN0x7"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "JI5h-eJ2fH",
+              "label": "Mage Apprentice (Spell Accumulator(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "5WDN0x7",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mage Apprentice",
+                  "type": "item",
+                  "content": [
+                    "Spell Accumulator"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "14EBpVA1",
+      "hint": "Sea-Wyrm Riders",
+      "forUnits": [
+        "kfaYxDi"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rWtf35EP",
+              "label": "Constricting Kelp (Precision Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kfaYxDi",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Constricting Kelp",
+                  "type": "item",
+                  "content": [
+                    "Precision Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TPHl_s6k",
+      "hint": "Specialists - Master",
+      "forUnits": [
+        "WOcO4yE"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0__IRnQT",
+              "label": "Light Bringer (Fearless Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light Bringer",
+                  "type": "item",
+                  "content": [
+                    "Fearless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "E5uFWaus",
+              "label": "High Monarch (Bane in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "High Monarch",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "1quz5nQ-",
+              "label": "Divine Navigator (Wave-Step Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Divine Navigator",
+                  "type": "item",
+                  "content": [
+                    "Wave-Step Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "WNG0Wa7W",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_xKdXPMM",
+              "label": "Depth Scryer (Ranged Shrouding Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "WOcO4yE",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Depth Scryer",
+                  "type": "item",
+                  "content": [
+                    "Ranged Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

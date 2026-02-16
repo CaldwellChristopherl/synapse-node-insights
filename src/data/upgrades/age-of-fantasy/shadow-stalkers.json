@@ -1,0 +1,2787 @@
+{
+  "factionId": "gHTrjw-g76vfGCSt",
+  "factionName": "Shadow Stalkers",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Scourge Champion",
+      "forUnits": [
+        "2WYathE"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "wg90c4r",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "2WYathE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "roFXFbr",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "2WYathE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "l9CwuHS",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "2WYathE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "HkcPkIh",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "2WYathE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "F0VCK",
+              "label": "Great Hound (Heavy Claws (A3, AP(2)), Melee Evasion, Strider, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2WYathE",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Hound",
+                  "type": "item",
+                  "content": [
+                    "Tough",
+                    "Heavy Claws",
+                    "Strider",
+                    "Melee Evasion"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Scourges",
+      "forUnits": [
+        "-gmfrKU"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Ubldjug",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "-gmfrKU",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "VPiRMt9",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "-gmfrKU",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "JsiBjWv6",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "-gmfrKU",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "MPbQcMFM",
+              "label": "Scourging Censer (Shadowborn Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-gmfrKU",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scourging Censer",
+                  "type": "item",
+                  "content": [
+                    "Shadowborn Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Shadow Hounds",
+      "forUnits": [
+        "taTBkkm"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "oi0JlzL",
+              "label": "Hungry Beasts (Scout)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "taTBkkm",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hungry Beasts",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "87-xojAdzO",
+              "label": "Vicious Maw (Bane in Melee)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "taTBkkm",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vicious Maw",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "d-nErxEc",
+              "label": "Censer Bearer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "taTBkkm",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Censer Bearer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Fang Swarms",
+      "forUnits": [
+        "PBz81Cw"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "eC9b_Acam6",
+              "label": "Vicious Maw (Bane in Melee)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "PBz81Cw",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vicious Maw",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "HqKJ_yvSPQ",
+              "label": "Needle Spitters (12\", A3, Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "PBz81Cw",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Needle Spitters",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "EqWtvEXaUl",
+              "label": "Venom Spitters (12\", A3, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "PBz81Cw",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Spitters",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Butchers",
+      "forUnits": [
+        "tGl68Tj"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Butcher Blades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ITO0m8q",
+              "label": "Throwing Spears (12\", A3, AP(1)), Bash (A2)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "tGl68Tj",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Spears",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "NrYPGtI",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "tGl68Tj",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FM8LCl4w",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "tGl68Tj",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "wGsdVn9C",
+              "label": "Labyrinthian Censer (Unpredictable Fighter Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "tGl68Tj",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Labyrinthian Censer",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "byJFE",
+      "hint": "Butcher Champion",
+      "forUnits": [
+        "BzhKtzr"
+      ],
+      "sections": [
+        {
+          "label": "Replace Butcher Blade",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "kPlVy",
+              "label": "Throwing Spears (12\", A6, AP(1)), Bash (A4)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BzhKtzr",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Spears",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "ggge6",
+              "label": "Heavy Great Weapon (A6, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BzhKtzr",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "-I9Od",
+      "hint": "Command Group",
+      "forUnits": [
+        "-gmfrKU",
+        "dAqayhR",
+        "_v2ldwG"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Srp9_",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "-gmfrKU",
+                  "cost": 5
+                },
+                {
+                  "unitId": "dAqayhR",
+                  "cost": 5
+                },
+                {
+                  "unitId": "_v2ldwG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xCu1w",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "-gmfrKU",
+                  "cost": 5
+                },
+                {
+                  "unitId": "dAqayhR",
+                  "cost": 5
+                },
+                {
+                  "unitId": "_v2ldwG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "-ujza",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "-gmfrKU",
+                  "cost": 10
+                },
+                {
+                  "unitId": "dAqayhR",
+                  "cost": 10
+                },
+                {
+                  "unitId": "_v2ldwG",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "9XSzu",
+      "hint": "Spectre Champion",
+      "forUnits": [
+        "7kPf9Hw"
+      ],
+      "sections": [
+        {
+          "label": "Replace Champion Shadow Staff",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Cgkz1zPofw",
+              "label": "Champion Stalker Staff (18\", A2, AP(1), Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Stalker Staff",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "sxk-HC9AgK",
+              "label": "Champion Stalker Wand (12\", A4, Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Stalker Wand",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "P1--A",
+              "label": "Champion Shadow Wand (12\", A4, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Shadow Wand",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "p3Tky",
+      "hint": "Spectres",
+      "forUnits": [
+        "dAqayhR"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Stalker Wands",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "rRzPu03OLN",
+              "label": "Stalker Staff (18\", A1, AP(1), Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dAqayhR",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stalker Staff",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "TDGb4qWoJ2",
+              "label": "Shadow Staff (18\", A1, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dAqayhR",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Staff",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "_Wb6i",
+              "label": "Shadow Wand (12\", A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dAqayhR",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Wand",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7Y-jJ8EY",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "dAqayhR",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IilYSM0c",
+              "label": "Soul-Hunter Censer (Precision Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dAqayhR",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul-Hunter Censer",
+                  "type": "item",
+                  "content": [
+                    "Precision Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "YUvTY",
+      "hint": "Reaper Champion",
+      "forUnits": [
+        "y2ZMfy4"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "K_pJd",
+              "label": "Great Flayer (Heavy Claws (A2, AP(1)), Fast, Impact(4), Melee Evasion, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y2ZMfy4",
+                  "cost": 125
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Flayer",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion",
+                    "Fast",
+                    "Impact",
+                    "Tough",
+                    "Heavy Claws"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5yk78",
+              "label": "Flying Beast (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Armor(3), Breath Attack, Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y2ZMfy4",
+                  "cost": 305
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flying Beast",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Stomp",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "9oFgk",
+      "hint": "Reaper Flayers",
+      "forUnits": [
+        "_v2ldwG"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Great Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Ni5zk",
+              "label": "Lance (A2, Thrust)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "_v2ldwG",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "pnmHyhwD",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "_v2ldwG",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nOv1LhTf",
+              "label": "Soul-Hunter Censer (Precision Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_v2ldwG",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul-Hunter Censer",
+                  "type": "item",
+                  "content": [
+                    "Precision Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "67uoQ",
+      "hint": "Tormentors",
+      "forUnits": [
+        "My2uFJX"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "JK_0X",
+              "label": "Deadly Stinger (A1, AP(2), Limited)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "My2uFJX",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deadly Stinger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "8IoYVO0K",
+              "label": "Censer Bearer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "My2uFJX",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Censer Bearer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "PFlbK",
+      "hint": "Blind Behemoth",
+      "forUnits": [
+        "xph0gAw"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Flail",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tVuC8",
+              "label": "Great Mace (A8, AP(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "xph0gAw",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "GCkPE-Pe",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "xph0gAw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Vf6pHu_h",
+              "label": "Soul-Hunter Censer (Precision Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "xph0gAw",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul-Hunter Censer",
+                  "type": "item",
+                  "content": [
+                    "Precision Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "KRPmW",
+      "hint": "Fiends",
+      "forUnits": [
+        "fjKxvmF"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "bpU7E",
+              "label": "Venom Spitters (12\", A3, Bane)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "fjKxvmF",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Spitters",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "6pLyQP4hNw",
+              "label": "Needle Spitters (12\", A3, Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fjKxvmF",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Needle Spitters",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "X5UnuEGK",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "fjKxvmF",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dHNXM354",
+              "label": "Labyrinthian Censer (Unpredictable Fighter Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fjKxvmF",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Labyrinthian Censer",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "HrLjV",
+      "hint": "Great Fiend",
+      "forUnits": [
+        "wUSTx2U"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "S-7Tr",
+              "label": "Venom Spitters (12\", A6, Rending)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "wUSTx2U",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Spitters",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "ASSqCw2Ce6",
+              "label": "Needle Spitters (12\", A6, Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wUSTx2U",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Needle Spitters",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": [
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1R8x5hBd",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "wUSTx2U",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "cYWJileB",
+              "label": "Labyrinthian Censer (Unpredictable Fighter Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wUSTx2U",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Labyrinthian Censer",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "YVBVR",
+      "hint": "Ascended Fiend",
+      "forUnits": [
+        "wbvP4LV"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "PkqPM",
+              "label": "Venom Spitters (12\", A12, Bane)",
+              "cost": 105,
+              "costs": [
+                {
+                  "unitId": "wbvP4LV",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Spitters",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 12,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "on6uB9vyF6",
+              "label": "Needle Spitters (12\", A12, Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbvP4LV",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Needle Spitters",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 12,
+                  "special": [
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "75ho7SJQ",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "wbvP4LV",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "TV7xxnqB",
+              "label": "Labyrinthian Censer (Unpredictable Fighter Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wbvP4LV",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Labyrinthian Censer",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "PEG-C",
+      "hint": "Great Screecher",
+      "forUnits": [
+        "Ov4wrvl"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "nKD4M",
+              "label": "Mind-Blaster Shriek (12\", A2, Blast(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "Ov4wrvl",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mind-Blaster Shriek",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "E4W_S",
+              "label": "Mind-Piercer Screech (12\", A2, AP(1), Deadly(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "Ov4wrvl",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mind-Piercer Screech",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "d97eyn0t",
+              "label": "Scourging Censer (Shadowborn Boost)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Ov4wrvl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scourging Censer",
+                  "type": "item",
+                  "content": [
+                    "Shadowborn Boost"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ItafBxVX",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Ov4wrvl",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "IFllj",
+      "hint": "Reapers",
+      "forUnits": [
+        "AbtEJXr"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Halberds",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5zY2k",
+              "label": "Great Weapon (A2, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AbtEJXr",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "CQz_mnXI",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "AbtEJXr",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_mc5S9-d",
+              "label": "Soul-Hunter Censer (Precision Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AbtEJXr",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul-Hunter Censer",
+                  "type": "item",
+                  "content": [
+                    "Precision Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ll4pM",
+      "hint": "Phantoms",
+      "forUnits": [
+        "ndEHefB"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Throwing Spears and Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "cJkle",
+              "label": "Assault Blades (A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ndEHefB",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Assault Blades",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0lwTSfZ5",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ndEHefB",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qPSBpZeV",
+              "label": "Scourging Censer (Shadowborn Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ndEHefB",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scourging Censer",
+                  "type": "item",
+                  "content": [
+                    "Shadowborn Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "8tgG5",
+      "hint": "Phantom Champion",
+      "forUnits": [
+        "np9c4GM"
+      ],
+      "sections": [
+        {
+          "label": "Replace Throwing Spear and Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7MMfb",
+              "label": "Heavy Assault Blades (A4, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "np9c4GM",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Assault Blades",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "WPGmH",
+      "hint": "Terror Beast",
+      "forUnits": [
+        "M_NKMWj"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "qqh7F",
+              "label": "Spear Rider (A1, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "M_NKMWj",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear Rider",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "fflZS",
+              "label": "Dual Sword Rider (A3, Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "M_NKMWj",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Sword Rider",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "macmFvMO",
+              "label": "Censer Bearer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "M_NKMWj",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Censer Bearer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "0cNCnEia",
+      "hint": "Great Terror Beast",
+      "forUnits": [
+        "NeleRxm"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "RednTNhQ",
+              "label": "Censer Bearer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "NeleRxm",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Censer Bearer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "iMCOR3XJ",
+      "hint": "Great Winged Horror",
+      "forUnits": [
+        "V-FTHA1"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Gs5rmLlV",
+              "label": "Scourging Censer (Shadowborn Boost)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "V-FTHA1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scourging Censer",
+                  "type": "item",
+                  "content": [
+                    "Shadowborn Boost"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "y73bXRNY",
+              "label": "Shadow Censer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "V-FTHA1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Censer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "iFD4lLMx",
+      "hint": "Specialists - Spectre/Phantom",
+      "forUnits": [
+        "np9c4GM",
+        "7kPf9Hw"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gXBxYRnf",
+              "label": "Night Shade (Counter-Attack Aura)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "np9c4GM",
+                  "cost": 15
+                },
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Night Shade",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "hTy-_tXk7l",
+              "label": "Maze Walker (Rapid Rush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "np9c4GM",
+                  "cost": 15
+                },
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Maze Walker",
+                  "type": "item",
+                  "content": [
+                    "Rapid Rush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "RG1TO_kw",
+              "label": "Dream Stalker (Thrust in Melee Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "np9c4GM",
+                  "cost": 30
+                },
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dream Stalker",
+                  "type": "item",
+                  "content": [
+                    "Thrust in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "S-ss40PV",
+              "label": "Umbral Horror (Increased Shooting Range Aura)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "np9c4GM",
+                  "cost": 35
+                },
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Umbral Horror",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "c6J7PssVTj",
+              "label": "Hex Banshee (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "np9c4GM",
+                  "cost": 40
+                },
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Banshee",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QsjDDqml",
+              "label": "Censer Bearer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "np9c4GM",
+                  "cost": 10
+                },
+                {
+                  "unitId": "7kPf9Hw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Censer Bearer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Op1ye6Cn",
+      "hint": "Specialists - Butcher",
+      "forUnits": [
+        "BzhKtzr"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "pibehgt-",
+              "label": "Night Shade (Counter-Attack Aura)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "BzhKtzr",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Night Shade",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0hw6BT2a",
+              "label": "Maze Walker (Rapid Rush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BzhKtzr",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Maze Walker",
+                  "type": "item",
+                  "content": [
+                    "Rapid Rush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "QhrP5pWF",
+              "label": "Dream Stalker (Thrust in Melee Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "BzhKtzr",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dream Stalker",
+                  "type": "item",
+                  "content": [
+                    "Thrust in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "69Wxd4Yz",
+              "label": "Shadow Master (Shadowborn Boost Aura)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BzhKtzr",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Master",
+                  "type": "item",
+                  "content": [
+                    "Shadowborn Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "y4Yfwppx",
+              "label": "Censer Bearer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BzhKtzr",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Censer Bearer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Xy1wyZTe",
+      "hint": "Specialists - Scourge/Reaper",
+      "forUnits": [
+        "y2ZMfy4",
+        "2WYathE"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "6UW6pFQw",
+              "label": "Night Shade (Counter-Attack Aura)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "y2ZMfy4",
+                  "cost": 15
+                },
+                {
+                  "unitId": "2WYathE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Night Shade",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "JNpCUlcG",
+              "label": "Maze Walker (Rapid Rush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y2ZMfy4",
+                  "cost": 15
+                },
+                {
+                  "unitId": "2WYathE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Maze Walker",
+                  "type": "item",
+                  "content": [
+                    "Rapid Rush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "-TA_WHoh",
+              "label": "Dream Stalker (Thrust in Melee Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "y2ZMfy4",
+                  "cost": 30
+                },
+                {
+                  "unitId": "2WYathE",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dream Stalker",
+                  "type": "item",
+                  "content": [
+                    "Thrust in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "7_1mrUWA",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y2ZMfy4",
+                  "cost": 30
+                },
+                {
+                  "unitId": "2WYathE",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Y0YNO6Aj",
+              "label": "Shadow Master (Shadowborn Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y2ZMfy4",
+                  "cost": 30
+                },
+                {
+                  "unitId": "2WYathE",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shadow Master",
+                  "type": "item",
+                  "content": [
+                    "Shadowborn Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "wlFxQAae",
+              "label": "Censer Bearer (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "y2ZMfy4",
+                  "cost": 10
+                },
+                {
+                  "unitId": "2WYathE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Censer Bearer",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2325 @@
+{
+  "factionId": "8siLk9I6-H8lk78b",
+  "factionName": "Havoc Dwarves",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Iron Champion",
+      "forUnits": [
+        "mUV7hLd"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "EzDoAJr",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "YIhyZET",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "E1xxqLw",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "h7rbqPh",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "JVd_hmksnX",
+              "label": "Heavy Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "JcwPZz9",
+              "label": "Abyssal Shotgun (9\", A3, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Shotgun",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "4F2ZCoN4Tz",
+              "label": "Abyssal Hex Shotgun (12\", A3, Purge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Hex Shotgun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Purge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "dmqrWa9",
+              "label": "Abyssal Rifle (18\", A2, AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "YfBfMmgOzb",
+              "label": "Abyssal Hex Rifle (24\", A2, Purge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Hex Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Purge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "4x1EmwgIex",
+              "label": "Immortals Leader (Regeneration)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Immortals Leader",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Ah4wUpW",
+              "label": "Great Winged Beast (Horn (A6, AP(2)), Armor(3), Fear(1), Flying, Swift, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 170
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Winged Beast",
+                  "type": "item",
+                  "content": [
+                    "Horn",
+                    "Armor",
+                    "Fear",
+                    "Flying",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Abyssal Leader",
+      "forUnits": [
+        "QKGF3-r"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "raFE0",
+              "label": "Spear (A3, Counter)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "ZCFKK",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "4XQq8",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "q6pzP",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7WiLxViGpJ",
+              "label": "Heavy Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "NwMdOqD",
+              "label": "Abyssal Pistol (9\", A2, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "HJouCnR_k0",
+              "label": "Abyssal Hex Pistol (12\", A2, Purge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Hex Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Purge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "tt_lmdStvh",
+              "label": "Great Winged Beast (Horn (A6, AP(2)), Armor(3), Fear(1), Flying, Swift, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 145
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Winged Beast",
+                  "type": "item",
+                  "content": [
+                    "Horn",
+                    "Armor",
+                    "Fear",
+                    "Flying",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "AaosBeN",
+        "N08Wbr2",
+        "OBHUXCQ"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "cMEzhjO",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "AaosBeN",
+                  "cost": 5
+                },
+                {
+                  "unitId": "N08Wbr2",
+                  "cost": 5
+                },
+                {
+                  "unitId": "OBHUXCQ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6Wh7ce5",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "AaosBeN",
+                  "cost": 5
+                },
+                {
+                  "unitId": "N08Wbr2",
+                  "cost": 5
+                },
+                {
+                  "unitId": "OBHUXCQ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZpQkPmH",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "AaosBeN",
+                  "cost": 10
+                },
+                {
+                  "unitId": "N08Wbr2",
+                  "cost": 10
+                },
+                {
+                  "unitId": "OBHUXCQ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rYw7sW14",
+              "label": "Icon of Havoc (Versatile Defense Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AaosBeN",
+                  "cost": 20
+                },
+                {
+                  "unitId": "N08Wbr2",
+                  "cost": 20
+                },
+                {
+                  "unitId": "OBHUXCQ",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Icon of Havoc",
+                  "type": "item",
+                  "content": [
+                    "Versatile Defense Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Warriors",
+      "forUnits": [
+        "AaosBeN"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "hMXJ1OX",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "AaosBeN",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "UObZe4p",
+              "label": "Spear (A1, Counter)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "AaosBeN",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "tzbcGHbK6E",
+              "label": "Heavy Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AaosBeN",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "k9fdf4Ybff",
+              "label": "Hex Banner (Spell Conduit)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AaosBeN",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Banner",
+                  "type": "item",
+                  "content": [
+                    "Spell Conduit"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Berserker",
+      "forUnits": [
+        "qvEDRj3"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Great Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6QQ-Luz",
+              "label": "Dual Hand Weapons (A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qvEDRj3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Shooters",
+      "forUnits": [
+        "OBHUXCQ"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Shotguns",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "_0wSRhG",
+              "label": "Rifle (18\", A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OBHUXCQ",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "9KGvhA9iLy",
+              "label": "Hex Rifle (24\", A1, Purge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OBHUXCQ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Purge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "HqSW3kupxh",
+              "label": "Hex Shotgun (12\", A2, Purge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OBHUXCQ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Shotgun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Purge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Weapon Teams",
+      "forUnits": [
+        "1LxGJeH"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Flamethrowers",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "eQ92-xj",
+              "label": "Mortar (24\", A1, Blast(3), Indirect)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1LxGJeH",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mortar",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "YWt1zTVv8D",
+              "label": "Hex Launcher (24\", A3, Indirect, Purge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1LxGJeH",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Launcher",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Purge",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "tVXiyzqd",
+              "label": "Abyssal Targeting (Relentless Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1LxGJeH",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Targeting",
+                  "type": "item",
+                  "content": [
+                    "Relentless Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Flame Spirits",
+      "forUnits": [
+        "Zcjn-Fo"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "IMc7c",
+              "label": "Spit Fire (12\", A1, Blast(3), Reliable), Hand Weapon (A2)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "Zcjn-Fo",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Spit Fire",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Siege Wagon",
+      "forUnits": [
+        "XeFmKyU"
+      ],
+      "sections": [
+        {
+          "label": "Replace Siege Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "perxHPX",
+              "label": "Twin Cannon (30\", A2, AP(2), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "XeFmKyU",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "DmAe7",
+              "label": "Siege Mortar (24\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XeFmKyU",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Siege Mortar",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "QnmXhnYxjz",
+              "label": "Siege Hex Launcher (24\", A6, AP(1), Indirect, Purge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XeFmKyU",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Siege Hex Launcher",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Purge",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_M9u0VV5",
+              "label": "Abyssal Targeting (Relentless Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XeFmKyU",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Targeting",
+                  "type": "item",
+                  "content": [
+                    "Relentless Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Havoc Artillery",
+      "forUnits": [
+        "rD_q6e2"
+      ],
+      "sections": [
+        {
+          "label": "Replace Rocket Battery",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "BZM8Idc",
+              "label": "Heavy Mortar (36\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "rD_q6e2",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Mortar",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Lo8e0fgl",
+              "label": "Abyssal Targeting (Relentless Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rD_q6e2",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Targeting",
+                  "type": "item",
+                  "content": [
+                    "Relentless Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Nn4trSXC",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "mUV7hLd"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "kxS0Vk3P",
+              "label": "Taskmaster (Swift Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Taskmaster",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ACb5dQMi",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "e4CIvujG",
+              "label": "Oppressor (Increased Shooting Range Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Oppressor",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Z99jh9EyT6",
+              "label": "Pain Forger (Melee Slayer Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pain Forger",
+                  "type": "item",
+                  "content": [
+                    "Melee Slayer Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "AYnxG2s8",
+              "label": "Ashen Lord (Havocbound Boost Aura)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "mUV7hLd",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ashen Lord",
+                  "type": "item",
+                  "content": [
+                    "Havocbound Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "uWSjBQGC",
+      "hint": "Havoc Favour (One Model)",
+      "forUnits": [
+        "co-Zdti",
+        "f9hmCJj"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yloOV8xz",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "co-Zdti",
+                  "cost": 15
+                },
+                {
+                  "unitId": "f9hmCJj",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "c4q_HctA",
+      "hint": "Golems",
+      "forUnits": [
+        "79f3C6Z"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "LYuqyXX7Sq",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "79f3C6Z",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F9KpnKOX",
+      "hint": "Specialists - Leader",
+      "forUnits": [
+        "QKGF3-r"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "4A1DrNoz",
+              "label": "Flame Keeper (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flame Keeper",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "R4r9LmNW",
+              "label": "Taskmaster (Swift Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Taskmaster",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "45rHpsf7",
+              "label": "Pain Forger (Melee Slayer Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pain Forger",
+                  "type": "item",
+                  "content": [
+                    "Melee Slayer Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "M0TQrxc2",
+              "label": "Oppressor (Increased Shooting Range Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Oppressor",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "KZpWUF_k",
+              "label": "Hex Caster (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Caster",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "j8JLmz6n",
+              "label": "Master Hex Caster (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QKGF3-r",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Hex Caster",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "W3nSUFoZ",
+      "hint": "Specialists - Centaur",
+      "forUnits": [
+        "vdDNuUB"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "tnAG0nai",
+              "label": "Flame Keeper (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vdDNuUB",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flame Keeper",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "p0lPx1Kw",
+              "label": "Pain Forger (Melee Slayer Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vdDNuUB",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pain Forger",
+                  "type": "item",
+                  "content": [
+                    "Melee Slayer Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "D4G9Mk9E",
+              "label": "Hex Caster (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vdDNuUB",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Caster",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dCvC-mff",
+              "label": "Ashen Lord (Havocbound Boost Aura)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "vdDNuUB",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ashen Lord",
+                  "type": "item",
+                  "content": [
+                    "Havocbound Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Fu-m-xut",
+      "hint": "Sentinel Centaurs",
+      "forUnits": [
+        "ObMuJtt"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Great Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "VCKtfS0MJi",
+              "label": "Rifle (18\", A1, AP(1)), Bash (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ObMuJtt",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "C9Bi7QyGeJ",
+              "label": "Shotgun (9\", A2, AP(1)), Bash (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ObMuJtt",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shotgun",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "_HCybH5L-C",
+              "label": "Hex Shotgun (12\", A2, Purge), Bash (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ObMuJtt",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Shotgun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Purge"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "X7uU4_uH00",
+              "label": "Hex Rifle (24\", A1, Purge), Bash (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ObMuJtt",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Purge"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "l3fKjfMB",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ObMuJtt",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "tQbWANWn",
+      "hint": "Bull Centaurs",
+      "forUnits": [
+        "fwglR4A"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "PZBP8iLaAe",
+              "label": "Throwing Weapon (12\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fwglR4A",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Weapon",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1F2WI3R8",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fwglR4A",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "BfzXcguU",
+      "hint": "Bull Centaur Champion",
+      "forUnits": [
+        "vdDNuUB"
+      ],
+      "sections": [
+        {
+          "label": "Replace Dual Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3Sg_RH0ZU-",
+              "label": "Heavy Great Weapon (A4, AP(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vdDNuUB",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "HzD1KZEFY3",
+              "label": "Throwing Weapon (12\", A4)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vdDNuUB",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Weapon",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "X2LU7GIa",
+      "hint": "Bull Construct",
+      "forUnits": [
+        "bOv6BGK"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Great Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Kg6e1CT0QU",
+              "label": "Twin Heavy Flamer (12\", A2, AP(1), Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bOv6BGK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Bv3TD_to",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bOv6BGK",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "vNStSdEC",
+      "hint": "Infernal Shooters",
+      "forUnits": [
+        "oe1piOs"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Blunderbusses",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "uC2J6L4Pns",
+              "label": "Flamethrower (12\", A1, Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "oe1piOs",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamethrower",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "TduoWRnJMZ",
+              "label": "Hex Blunderbuss (18\", A3, Purge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "oe1piOs",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hex Blunderbuss",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Purge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

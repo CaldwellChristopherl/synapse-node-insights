@@ -3,8 +3,13 @@
   "factionName": "Alien Hives",
   "gameSystem": "grimdark-future",
   "factionType": "organic",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.956Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:22.682Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 32
+  },
   "units": [
     {
       "id": "lmZtl0E",
@@ -21,26 +26,57 @@
         "Hive Bond",
         "Tough(12)"
       ],
+      "weapons": [
+        {
+          "name": "Shredder Cannon",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "sNOcQ",
+        "7ob7CvQy"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "collective",
-        "elite",
         "fearless",
         "hero",
         "leader",
+        "collective",
+        "tough",
         "monster",
         "organic",
-        "swarm",
-        "tough"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": 5,
-        "tech": -5,
-        "humanity": -4,
         "faith": 2,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "collective": 3,
+        "patience": 1,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -57,21 +93,44 @@
         "Tough(6)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Shredder Gun",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "mPtwD",
+        "sxjOBkWZ"
+      ],
       "tags": [
-        "balanced",
-        "collective",
         "hero",
         "leader",
-        "organic",
-        "swarm",
         "tough",
+        "collective",
+        "organic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": 5,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "collective": 3,
         "tech": -2,
-        "leadership": 3,
         "versatility": 2
       }
     },
@@ -91,26 +150,39 @@
         "Tough(3)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "IPTxSUQr"
+      ],
       "tags": [
-        "collective",
-        "elite",
         "fast",
         "hero",
         "leader",
-        "melee",
-        "mobile",
-        "organic",
         "scout",
-        "swarm",
-        "tough"
+        "mobile",
+        "tough",
+        "collective",
+        "organic",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": 5,
-        "tech": -2,
         "speed": 5,
-        "leadership": 3,
-        "subtlety": 3
+        "leadership": 5,
+        "elite": 5,
+        "subtlety": 3,
+        "collective": 3,
+        "tech": -3
       }
     },
     {
@@ -127,23 +199,34 @@
         "Tough(3)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "SmjKV",
+        "X-fXcthf"
+      ],
       "tags": [
-        "beast",
-        "collective",
-        "expendable",
         "hero",
         "leader",
-        "melee",
         "mobile",
+        "tough",
+        "collective",
         "organic",
-        "swarm"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": 5,
-        "tech": -5,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": -1,
+        "speed": 3,
+        "collective": 3,
+        "tech": -3
       }
     },
     {
@@ -159,23 +242,35 @@
         "Strider",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "F1"
+      ],
       "tags": [
-        "beast",
-        "cheap",
-        "collective",
-        "expendable",
         "fast",
-        "horde",
-        "melee",
         "mobile",
+        "collective",
         "organic",
+        "melee",
+        "cheap",
+        "expendable",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
+        "speed": 5,
         "collective": 5,
-        "tech": -5,
-        "speed": 5
+        "tech": -3,
+        "patience": -1,
+        "elite": -5
       }
     },
     {
@@ -190,22 +285,42 @@
         "Strider",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Bio-Spiner",
+          "range": 6,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1"
+      ],
       "tags": [
-        "beast",
-        "cheap",
+        "mobile",
         "collective",
+        "organic",
+        "balanced",
+        "cheap",
         "expendable",
         "horde",
-        "melee",
-        "mobile",
-        "organic",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
+        "speed": 3,
         "collective": 5,
-        "tech": -5,
-        "speed": 3
+        "tech": -2,
+        "versatility": 2,
+        "elite": -5
       }
     },
     {
@@ -221,22 +336,36 @@
         "Strider",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "smyqxD7u"
+      ],
       "tags": [
-        "beast",
-        "cheap",
+        "mobile",
         "collective",
+        "organic",
+        "melee",
+        "cheap",
         "expendable",
         "horde",
-        "melee",
-        "mobile",
-        "organic",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
+        "speed": 3,
         "collective": 5,
-        "tech": -5,
-        "speed": 3
+        "tech": -3,
+        "patience": -1,
+        "elite": -5
       }
     },
     {
@@ -252,22 +381,44 @@
         "Flying",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Bio-Spiner",
+          "range": 6,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1"
+      ],
       "tags": [
-        "beast",
-        "collective",
-        "expendable",
-        "flying",
-        "horde",
-        "melee",
+        "ambush",
         "mobile",
+        "flying",
+        "collective",
         "organic",
+        "balanced",
+        "expendable",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "subtlety": 3,
+        "speed": 5,
         "collective": 5,
-        "tech": -5,
-        "speed": 5
+        "tech": -2,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -283,20 +434,45 @@
         "Strider",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Bio-Cannon",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Indirect",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "mJL8P"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "collective",
-        "mobile",
-        "organic",
         "ranged",
-        "swarm"
+        "mobile",
+        "collective",
+        "organic",
+        "indirect",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "tech": -5,
+        "patience": 2,
+        "tech": -1,
         "speed": 3,
-        "collective": 5,
-        "versatility": 2
+        "collective": 3,
+        "subtlety": 1,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -313,22 +489,36 @@
         "Strider",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "collective",
-        "elite",
         "fast",
-        "melee",
-        "mobile",
-        "organic",
         "scout",
-        "swarm"
+        "mobile",
+        "collective",
+        "organic",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": -2,
         "speed": 5,
         "subtlety": 3,
-        "collective": 5
+        "collective": 3,
+        "tech": -3,
+        "patience": -1,
+        "elite": 4
       }
     },
     {
@@ -344,21 +534,34 @@
         "Tough(3)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "beast",
-        "collective",
-        "expendable",
-        "horde",
-        "melee",
         "mobile",
+        "tough",
+        "collective",
+        "horde",
+        "swarm",
         "organic",
-        "swarm"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -5,
+        "speed": 3,
+        "elite": -2,
         "collective": 5,
-        "speed": 3
+        "tech": -3
       }
     },
     {
@@ -373,19 +576,29 @@
         "Tough(3)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "J1"
+      ],
       "tags": [
-        "beast",
-        "collective",
-        "melee",
-        "organic",
-        "swarm",
         "tough",
+        "collective",
+        "organic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -5,
-        "collective": 5
+        "elite": 4,
+        "collective": 3,
+        "tech": -3
       }
     },
     {
@@ -402,22 +615,34 @@
         "Tough(3)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "K1"
+      ],
       "tags": [
-        "beast",
-        "collective",
         "fast",
-        "melee",
         "mobile",
-        "organic",
-        "swarm",
         "tough",
+        "collective",
+        "monster",
+        "organic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -5,
         "speed": 5,
-        "collective": 5
+        "elite": 4,
+        "collective": 3,
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -433,20 +658,43 @@
         "Regeneration",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Poison Spurt",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Toxin Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "i5nQm"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "collective",
-        "organic",
-        "regeneration",
-        "swarm",
         "tough",
+        "regeneration",
+        "collective",
+        "monster",
+        "organic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -5,
-        "collective": 5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -463,20 +711,32 @@
         "Tough(3)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "L1"
+      ],
       "tags": [
-        "beast",
-        "collective",
-        "elite",
-        "melee",
-        "organic",
         "ranged",
-        "swarm",
-        "tough"
+        "tough",
+        "collective",
+        "organic",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": -5,
-        "collective": 5
+        "patience": 1,
+        "tech": -2,
+        "elite": 5,
+        "collective": 3
       }
     },
     {
@@ -494,23 +754,33 @@
         "Hive Bond",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "collective",
-        "elite",
-        "melee",
-        "mobile",
-        "organic",
-        "scout",
         "stealth",
-        "swarm",
-        "tough"
+        "mobile",
+        "tough",
+        "collective",
+        "scout",
+        "organic",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": -2,
         "subtlety": 5,
         "speed": 3,
-        "collective": 5
+        "elite": 5,
+        "collective": 3,
+        "tech": -3
       }
     },
     {
@@ -527,22 +797,40 @@
         "Resistance",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Psy-Blast",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Psy-Shock",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "beast",
-        "collective",
         "magic",
-        "organic",
         "psychic",
-        "swarm",
         "tough",
+        "collective",
+        "monster",
+        "organic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -5,
         "mystery": 5,
-        "collective": 5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -559,17 +847,26 @@
         "No Retreat",
         "Slow"
       ],
+      "weapons": [
+        {
+          "name": "Tendrils",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "expendable",
-        "melee",
+        "slow",
         "organic",
-        "slow"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -5,
-        "speed": -2
+        "speed": -2,
+        "tech": -3,
+        "patience": -1,
+        "elite": -3
       }
     },
     {
@@ -579,23 +876,33 @@
       "size": 3,
       "quality": 6,
       "defense": 6,
-      "role": "heavy-support",
+      "role": "troops",
       "rules": [
         "Self-Destruct(6)",
         "No Retreat",
         "Tough(3)",
         "Slow"
       ],
+      "weapons": [
+        {
+          "name": "Tendrils",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "melee",
-        "organic",
+        "tough",
         "slow",
-        "tough"
+        "organic",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "tech": -5,
-        "speed": -2
+        "elite": -2,
+        "speed": -2,
+        "tech": -3
       }
     },
     {
@@ -605,7 +912,7 @@
       "size": 1,
       "quality": 3,
       "defense": 4,
-      "role": "monster",
+      "role": "elite",
       "rules": [
         "Fear(1)",
         "Stealth",
@@ -614,24 +921,36 @@
         "Hive Bond",
         "Infiltrate"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "vcLnn",
+        "mPtwD"
+      ],
       "tags": [
-        "collective",
-        "elite",
-        "melee",
-        "mobile",
-        "monster",
-        "organic",
         "stealth",
-        "swarm",
-        "tough"
+        "mobile",
+        "tough",
+        "collective",
+        "infiltrate",
+        "organic",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "tech": -2,
-        "subtlety": 4,
+        "subtlety": 5,
         "speed": 3,
-        "collective": 5
+        "elite": 5,
+        "collective": 3,
+        "tech": -3
       }
     },
     {
@@ -641,27 +960,60 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Tough(6)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Spore Gun",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Indirect",
+            "Shred"
+          ]
+        },
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Pym4H"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "tough",
         "collective",
         "monster",
         "organic",
-        "swarm",
-        "tough",
-        "veteran"
+        "indirect",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
-        "collective": 5,
+        "patience": 2,
+        "elite": 4,
+        "collective": 3,
+        "humanity": -3,
+        "tech": -2,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -672,7 +1024,7 @@
       "size": 1,
       "quality": 4,
       "defense": 4,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Caster(3)",
         "Fear(1)",
@@ -680,24 +1032,43 @@
         "Tough(6)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Psy-Stinger",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Rupture"
+          ]
+        },
+        {
+          "name": "Psy-Shock",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "r1AkY"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "collective",
         "magic",
+        "psychic",
+        "tough",
+        "collective",
         "monster",
         "organic",
-        "psychic",
-        "swarm",
-        "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
         "mystery": 5,
-        "collective": 5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -708,27 +1079,56 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Tough(6)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Spit Flames",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "beast",
+        "tough",
         "collective",
         "monster",
         "organic",
-        "swarm",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
-        "collective": 5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -746,23 +1146,45 @@
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2",
+        "A2",
+        "pATvLAB2"
+      ],
       "tags": [
-        "beast",
+        "tough",
         "collective",
         "fearless",
-        "melee",
         "monster",
         "organic",
-        "swarm",
-        "tough",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -780,24 +1202,55 @@
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Acid Spurt",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Whip Limbs",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "Bane",
+            "Precise"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "knp1i"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "tough",
+        "regeneration",
         "collective",
         "fearless",
         "monster",
         "organic",
-        "regeneration",
-        "swarm",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -817,26 +1270,57 @@
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Psy-Stinger",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Rupture"
+          ]
+        },
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "r1AkY",
+        "fwuug7vD"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "magic",
+        "psychic",
+        "tough",
         "collective",
         "fearless",
-        "magic",
         "monster",
         "organic",
-        "psychic",
-        "swarm",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
         "mystery": 5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -854,23 +1338,44 @@
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 5,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "SucsKB8B"
+      ],
       "tags": [
-        "beast",
+        "tough",
         "collective",
         "fearless",
-        "melee",
         "monster",
         "organic",
-        "swarm",
-        "tough",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -887,23 +1392,52 @@
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Bio-Pod",
+          "range": 24,
+          "attacks": 12,
+          "special": []
+        },
+        {
+          "name": "Stinger Launcher",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "Rupture"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 5,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F2",
+        "pATvLAB2",
+        "bs2Yjx3S"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "tough",
         "collective",
         "fearless",
         "monster",
         "organic",
-        "swarm",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -921,23 +1455,54 @@
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Stinger Launcher",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "Rupture"
+          ]
+        },
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 5,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "VLQwo",
+        "Cu2eSQdc",
+        "bs2Yjx3S"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "tough",
         "collective",
         "fearless",
         "monster",
         "organic",
-        "swarm",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -955,23 +1520,55 @@
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Devouring Tongue",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "Heavy Razor Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 5,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "Cu2eSQdc"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "tough",
         "collective",
         "fearless",
         "monster",
         "organic",
-        "swarm",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -989,26 +1586,50 @@
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Shredder Bio-Artillery",
+          "range": 36,
+          "attacks": 3,
+          "special": [
+            "Blast(6)",
+            "Indirect",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 5,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2",
+        "Cu2eSQdc"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "tough",
         "collective",
         "fearless",
         "monster",
         "organic",
-        "static",
-        "swarm",
-        "tough",
-        "veteran"
+        "indirect",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "patience": 2,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5,
-        "versatility": 2,
-        "patience": 2
+        "humanity": -3,
+        "tech": -2,
+        "subtlety": 1,
+        "versatility": 2
       }
     },
     {
@@ -1018,7 +1639,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Ambush",
         "Slow",
@@ -1026,24 +1647,38 @@
         "Transport(11)",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Razor Tendrils",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2"
+      ],
       "tags": [
-        "beast",
-        "collective",
-        "melee",
+        "ambush",
         "mobile",
-        "monster",
-        "organic",
         "slow",
-        "swarm",
         "tough",
-        "veteran"
+        "transport",
+        "collective",
+        "organic",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "subtlety": 3,
         "speed": 1,
-        "collective": 5
+        "elite": 4,
+        "collective": 5,
+        "versatility": 1,
+        "tech": -3
       }
     },
     {
@@ -1053,31 +1688,58 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "heavy-support",
       "rules": [
         "Ambush",
         "Artillery",
         "Hive Bond",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Spore Gun",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Indirect",
+            "Shred"
+          ]
+        },
+        {
+          "name": "Razor Tendrils",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2",
+        "ZrthW"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "collective",
+        "ambush",
         "mobile",
-        "monster",
-        "organic",
+        "artillery",
+        "static",
         "ranged",
-        "swarm",
+        "collective",
         "tough",
-        "veteran"
+        "organic",
+        "indirect",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
+        "subtlety": 4,
         "speed": 3,
-        "collective": 5,
+        "patience": 5,
+        "tech": 1,
+        "collective": 3,
+        "elite": 4,
         "versatility": 2
       }
     },
@@ -1088,32 +1750,57 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Aircraft",
         "Tough(6)",
         "Hive Bond",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Caustic Cannon",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Spore Bombs",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(6)",
+            "Shred",
+            "Strafing"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J2",
+        "pATvLAB2"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "flying",
+        "tough",
         "collective",
         "fearless",
-        "flying",
         "monster",
         "organic",
-        "swarm",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -5,
         "speed": 3,
+        "patience": 1,
+        "elite": 4,
+        "collective": 3,
         "faith": 2,
-        "collective": 5,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -1124,30 +1811,52 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Fear(3)",
         "Fearless",
         "Hive Bond",
         "Tough(18)"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Titanic Heavy Claws",
+          "range": 0,
+          "attacks": 18,
+          "special": [
+            "AP(2)",
+            "Rupture"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "jWv2C",
+        "sNOcQ"
+      ],
       "tags": [
-        "beast",
-        "collective",
-        "elite",
         "fearless",
-        "melee",
+        "collective",
+        "tough",
         "monster",
         "organic",
-        "swarm",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "tech": -5,
         "faith": 2,
-        "collective": 5
+        "collective": 3,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -1166,25 +1875,52 @@
         "Unique",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Axe Tail",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rupture"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Wrathful Blade",
+          "range": 0,
+          "attacks": 9,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "collective",
-        "elite",
         "fearless",
+        "tough",
         "hero",
         "leader",
-        "melee",
-        "monster",
+        "collective",
+        "defensive",
         "organic",
-        "swarm",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": 5,
-        "tech": -2,
-        "humanity": -4,
         "faith": 2,
-        "leadership": 3
+        "patience": 3,
+        "elite": 5,
+        "leadership": 5,
+        "collective": 3,
+        "tech": -3
       }
     },
     {
@@ -1205,27 +1941,48 @@
         "Unique",
         "Hero"
       ],
+      "weapons": [
+        {
+          "name": "Bio-Smoke Guns",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Shadow Daggers",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(1)",
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
         "collective",
-        "elite",
+        "stealth",
+        "infiltrate",
+        "mobile",
+        "tough",
         "hero",
         "leader",
-        "mobile",
-        "monster",
         "organic",
-        "stealth",
-        "swarm",
-        "tough"
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": 5,
-        "tech": -2,
-        "humanity": -4,
-        "subtlety": 4,
+        "collective": 3,
+        "subtlety": 5,
         "speed": 3,
-        "leadership": 3,
+        "patience": 1,
+        "elite": 5,
+        "leadership": 5,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -1243,21 +2000,40 @@
         "Unique",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Carapace Fist",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "Fierceclaw Sword",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Rupture"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "collective",
         "hero",
         "leader",
-        "melee",
-        "organic",
-        "swarm",
         "tough",
+        "collective",
+        "organic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": 5,
-        "tech": -2,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "collective": 3,
+        "tech": -3
       }
     },
     {
@@ -1274,21 +2050,42 @@
         "Tough(6)",
         "Unique"
       ],
+      "weapons": [
+        {
+          "name": "Bile-Burner",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Acidic Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "collective",
         "hero",
         "leader",
-        "organic",
-        "swarm",
+        "collective",
         "tough",
+        "organic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": 5,
+        "leadership": 5,
+        "elite": 5,
+        "collective": 3,
+        "patience": 1,
         "tech": -2,
-        "leadership": 3,
         "versatility": 2
       }
     },
@@ -1310,29 +2107,39 @@
         "Tough(3)",
         "Unique"
       ],
+      "weapons": [
+        {
+          "name": "Unbroken Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "collective",
-        "elite",
+        "magic",
+        "psychic",
         "fast",
         "hero",
         "leader",
-        "magic",
-        "melee",
-        "mobile",
-        "organic",
-        "psychic",
+        "collective",
         "scout",
-        "swarm",
-        "tough"
+        "mobile",
+        "tough",
+        "organic",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": 5,
-        "tech": -2,
         "mystery": 5,
         "speed": 5,
-        "leadership": 3,
-        "subtlety": 3
+        "leadership": 5,
+        "elite": 5,
+        "collective": 3,
+        "subtlety": 3,
+        "tech": -3
       }
     },
     {
@@ -1353,29 +2160,40 @@
         "Unique",
         "Hive Bond"
       ],
+      "weapons": [
+        {
+          "name": "Twin Stingers",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rupture"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "collective",
-        "elite",
+        "magic",
+        "psychic",
         "fast",
         "hero",
         "leader",
-        "magic",
-        "melee",
-        "mobile",
-        "organic",
-        "psychic",
         "scout",
-        "swarm",
-        "tough"
+        "mobile",
+        "tough",
+        "collective",
+        "organic",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": 5,
-        "tech": -2,
         "mystery": 5,
         "speed": 5,
-        "leadership": 3,
-        "subtlety": 3
+        "leadership": 5,
+        "elite": 5,
+        "subtlety": 3,
+        "collective": 3,
+        "tech": -3
       }
     }
   ],

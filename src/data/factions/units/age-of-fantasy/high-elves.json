@@ -3,8 +3,13 @@
   "factionName": "High Elves",
   "gameSystem": "age-of-fantasy",
   "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.640Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.040Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 42
+  },
   "units": [
     {
       "id": "QZAWm8g",
@@ -19,17 +24,31 @@
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "Q6zJVUz8"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -45,17 +64,29 @@
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "Qebw9E2Z"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -69,13 +100,27 @@
       "rules": [
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1"
+      ],
       "tags": [
+        "melee",
         "cheap",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -2,
         "collective": 5
       }
@@ -91,14 +136,26 @@
       "rules": [
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "F1"
+      ],
       "tags": [
-        "balanced",
-        "melee",
-        "reliable"
+        "melee"
       ],
       "dimensionScores": {
-        "order": 2,
-        "versatility": 2
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -113,12 +170,29 @@
         "Regeneration",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Halberd",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "RSy98sC3"
+      ],
       "tags": [
-        "melee",
         "regeneration",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": 3
       }
     },
@@ -135,14 +209,30 @@
         "Resistance",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Great Axe",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "UGspmPob"
+      ],
       "tags": [
         "fearless",
         "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "faith": 2
+        "faith": 2,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -156,14 +246,29 @@
       "rules": [
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Longbow",
+          "range": 30,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "cH3-VQad"
+      ],
       "tags": [
-        "balanced",
-        "reliable",
-        "versatile"
+        "balanced"
       ],
       "dimensionScores": {
-        "versatility": 5,
-        "order": 2
+        "versatility": 2
       }
     },
     {
@@ -177,15 +282,33 @@
       "rules": [
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Master-Crafted Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "Spear",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Counter"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "FZOhpEEg"
+      ],
       "tags": [
-        "balanced",
-        "human",
-        "reliable"
+        "balanced"
       ],
       "dimensionScores": {
-        "humanity": 3,
-        "versatility": 2,
-        "order": 2
+        "versatility": 2
       }
     },
     {
@@ -201,20 +324,35 @@
         "Stealth",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "RSy98sC3"
+      ],
       "tags": [
-        "balanced",
-        "human",
-        "mobile",
         "scout",
+        "mobile",
         "stealth",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": 3,
         "subtlety": 5,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -229,14 +367,30 @@
         "Quick Shot",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Magic Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "balanced",
-        "versatile",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 5
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -252,17 +406,31 @@
         "Impact(1)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
+        "fast",
         "aggressive",
         "cavalry",
-        "fast",
         "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -4,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -278,18 +446,38 @@
         "Impact(1)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Master-Crafted Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "G1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "cavalry",
         "fast",
+        "aggressive",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -306,21 +494,35 @@
         "Impact(1)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "elite",
         "fast",
         "fearless",
-        "melee"
+        "aggressive",
+        "cavalry",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 5,
         "faith": 2,
-        "patience": -3,
-        "tech": -3
+        "patience": -4,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -338,20 +540,33 @@
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "UGspmPob"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
         "fast",
         "flying",
-        "melee",
+        "mobile",
+        "aggressive",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -361,7 +576,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "elite",
       "rules": [
         "Fear(1)",
         "Flying",
@@ -369,18 +584,35 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Flame Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Reliable",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "kPklv00N"
+      ],
       "tags": [
-        "beast",
-        "elite",
         "flying",
-        "melee",
+        "mobile",
         "regeneration",
         "tough",
-        "vehicle"
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 5,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -390,7 +622,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "elite",
       "rules": [
         "Fear(1)",
         "Flying",
@@ -398,18 +630,34 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Ice Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "kPklv00N"
+      ],
       "tags": [
-        "beast",
-        "elite",
         "flying",
-        "melee",
+        "mobile",
         "regeneration",
         "tough",
-        "vehicle"
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 5,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -427,19 +675,40 @@
         "Tough(12)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Greathammer",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "beast",
-        "elite",
         "fearless",
-        "melee",
+        "tough",
         "monster",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
         "faith": 2,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -456,18 +725,39 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Hooves",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Spear Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
-        "melee",
+        "aggressive",
         "tough",
-        "veteran"
+        "cavalry",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -485,19 +775,41 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Spear Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
         "flying",
-        "melee",
+        "mobile",
+        "aggressive",
         "tough",
-        "veteran"
+        "cavalry",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -507,7 +819,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Fear(1)",
@@ -517,22 +829,43 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Axe Crew",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Deriqiaq"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "elite",
         "fast",
         "fearless",
-        "melee",
+        "aggressive",
         "tough",
-        "vehicle"
+        "cavalry",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
         "faith": 2,
-        "patience": -3
+        "patience": -3,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -547,17 +880,37 @@
         "Tough(3)",
         "Artillery"
       ],
+      "weapons": [
+        {
+          "name": "Repeater Bolt Thrower",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "n2FkD"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "ranged",
-        "static",
         "tough",
+        "artillery",
+        "static",
+        "ranged",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "patience": 5,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     }

@@ -3,8 +3,13 @@
   "factionName": "Wood Elves",
   "gameSystem": "age-of-fantasy",
   "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.940Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.506Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 36
+  },
   "units": [
     {
       "id": "J_QVrUH",
@@ -22,22 +27,43 @@
         "Tough(9)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Great Hammer",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "bC7ik",
+        "VYQeN8dU"
+      ],
       "tags": [
-        "elite",
         "hero",
-        "human",
         "leader",
-        "melee",
         "mobile",
-        "monster",
-        "tough"
+        "tough",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "humanity": -1,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -54,19 +80,34 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "cyTDX",
+        "eK4X61TO"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -83,19 +124,32 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "Q2sXQ",
+        "cyTDX",
+        "i9K277Ij"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "mobile",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -113,21 +167,35 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Branch Mace",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "Iwc7rWem"
+      ],
       "tags": [
         "aggressive",
-        "expendable",
         "hero",
         "leader",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
         "patience": -3,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": -1,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -145,19 +213,33 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Spite Blades",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "YTCKXlAg"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "mobile",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -173,20 +255,34 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "1-gUF"
+      ],
       "tags": [
         "aggressive",
+        "mobile",
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
-        "mobile",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -4,
+        "speed": 3,
+        "tech": -1,
         "elite": -5,
-        "collective": 5,
-        "patience": -3,
-        "speed": 3
+        "collective": 5
       }
     },
     {
@@ -201,17 +297,31 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "l1tXy"
+      ],
       "tags": [
+        "mobile",
+        "melee",
         "cheap",
         "horde",
-        "melee",
-        "mobile",
         "swarm"
       ],
       "dimensionScores": {
+        "speed": 3,
+        "patience": -1,
+        "tech": -1,
         "elite": -2,
-        "collective": 5,
-        "speed": 3
+        "collective": 5
       }
     },
     {
@@ -227,14 +337,30 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Spite Blades",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "F1"
+      ],
       "tags": [
-        "melee",
         "mobile",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3
+        "speed": 3,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -250,14 +376,30 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "U8N4h1oZ"
+      ],
       "tags": [
-        "melee",
         "mobile",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3
+        "speed": 3,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -274,17 +416,29 @@
         "Unpredictable Fighter",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "vBbIv"
+      ],
       "tags": [
-        "melee",
-        "mobile",
         "regeneration",
-        "unpredictable",
+        "mobile",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 3,
-        "order": -3
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -299,17 +453,33 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Longbow",
+          "range": 30,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1",
+        "E1"
+      ],
       "tags": [
-        "balanced",
-        "human",
         "mobile",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -326,18 +496,37 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Hunting Bow",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Pierce"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "N92nOt54"
+      ],
       "tags": [
-        "balanced",
-        "mobile",
         "scout",
+        "mobile",
         "stealth",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "subtlety": 5,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -354,17 +543,37 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Hunting Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Pierce"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "aH1blIB4"
+      ],
       "tags": [
-        "balanced",
+        "ambush",
         "mobile",
         "stealth",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 5,
         "speed": 3,
-        "subtlety": 4,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -382,20 +591,35 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1",
+        "E1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
-        "melee",
-        "mobile",
+        "aggressive",
         "scout",
+        "mobile",
+        "cavalry",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3,
-        "subtlety": 3
+        "patience": -4,
+        "subtlety": 3,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -413,18 +637,32 @@
         "Strider",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "U8N4h1oZ"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
-        "melee",
+        "aggressive",
         "mobile",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -4,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -442,19 +680,39 @@
         "Resistance",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Magic Staff",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "E1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "cavalry",
         "fast",
+        "aggressive",
         "mobile",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -472,20 +730,45 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Toxin Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "R0EgN"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
         "flying",
-        "melee",
+        "mobile",
+        "aggressive",
         "tough",
+        "cavalry",
+        "fast",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -502,17 +785,31 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Branch Mace",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "jwaHa"
+      ],
       "tags": [
         "aggressive",
-        "melee",
         "mobile",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "patience": -3,
-        "speed": 3
+        "speed": 3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -529,15 +826,29 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "elite",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 3,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -553,14 +864,30 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "expendable",
+        "mobile",
+        "tough",
+        "horde",
+        "swarm",
         "melee",
-        "mobile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "speed": 3
+        "speed": 3,
+        "elite": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -578,20 +905,35 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "RpapiXLK"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
         "fast",
         "flying",
-        "melee",
+        "mobile",
+        "aggressive",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -609,21 +951,44 @@
         "Tough(3)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "elite",
         "fast",
         "flying",
+        "mobile",
+        "aggressive",
+        "tough",
+        "cavalry",
+        "monster",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -633,7 +998,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "elite",
       "rules": [
         "Fear(1)",
         "Melee Evasion",
@@ -641,19 +1006,39 @@
         "Tough(6)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Great Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "wTXNP"
+      ],
       "tags": [
-        "elite",
-        "human",
-        "melee",
         "mobile",
         "tough",
-        "vehicle"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "humanity": 3,
-        "speed": 3
+        "speed": 3,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -670,20 +1055,50 @@
         "Tough(12)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Hunting Shortbow Crew",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "Pierce"
+          ]
+        },
+        {
+          "name": "Great Horn",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Fmw6r"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "mobile",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
         "speed": 3,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -700,20 +1115,49 @@
         "Tough(12)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Whip Root",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Branch Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "elite",
         "mobile",
+        "tough",
         "monster",
-        "tough"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
         "speed": 3,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 5,
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -732,22 +1176,50 @@
         "Fearless",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Great Horns",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "fearless",
         "flying",
-        "melee",
-        "monster",
+        "mobile",
         "regeneration",
         "tough",
-        "veteran"
+        "fearless",
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "speed": 3,
+        "speed": 5,
+        "elite": 4,
         "faith": 2,
-        "tech": -3
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -766,22 +1238,52 @@
         "Tough(24)",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Tail Strike",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "elite",
-        "fearless",
         "magic",
-        "melee",
-        "mobile",
         "psychic",
+        "fearless",
+        "mobile",
         "tough",
-        "vehicle"
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "mystery": 5,
         "faith": 2,
-        "speed": 3
+        "speed": 3,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -800,22 +1302,33 @@
         "Unique",
         "Wild Veil"
       ],
+      "weapons": [
+        {
+          "name": "Blightfang Staff",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "magic",
+        "psychic",
         "hero",
         "leader",
-        "magic",
-        "melee",
         "mobile",
-        "psychic",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
         "mystery": 5,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -1
       }
     }
   ],

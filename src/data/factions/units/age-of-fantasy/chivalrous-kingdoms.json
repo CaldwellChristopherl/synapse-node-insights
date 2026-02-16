@@ -3,8 +3,13 @@
   "factionName": "Chivalrous Kingdoms",
   "gameSystem": "age-of-fantasy",
   "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.498Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.759Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 54
+  },
   "units": [
     {
       "id": "BDOjGOW",
@@ -20,21 +25,33 @@
         "Tough(3)",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "M97UW"
+      ],
       "tags": [
         "fearless",
         "hero",
         "leader",
-        "melee",
-        "monster",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
         "faith": 2,
-        "humanity": -4,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -50,17 +67,29 @@
         "Tough(3)",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "5Iha-zmu"
+      ],
       "tags": [
-        "expendable",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": -1,
+        "tech": -1
       }
     },
     {
@@ -74,14 +103,32 @@
       "rules": [
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Throw Stones",
+          "range": 6,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "GSX7h"
+      ],
       "tags": [
+        "balanced",
         "cheap",
         "expendable",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "versatility": 2,
         "elite": -5,
         "collective": 5
       }
@@ -97,14 +144,28 @@
       "rules": [
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "D1"
+      ],
       "tags": [
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
         "collective": 5
       }
@@ -121,14 +182,28 @@
         "Fearless",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "E1"
+      ],
       "tags": [
-        "cheap",
         "fearless",
         "melee"
       ],
       "dimensionScores": {
         "faith": 2,
-        "elite": -2
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -142,14 +217,31 @@
       "rules": [
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Longbow",
+          "range": 30,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "F1"
+      ],
       "tags": [
         "balanced",
-        "expendable",
-        "versatile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "versatility": 5
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -164,16 +256,34 @@
         "Fast",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Bow",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "G1"
+      ],
       "tags": [
-        "balanced",
+        "fast",
         "cavalry",
-        "expendable",
-        "fast"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "speed": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -190,20 +300,33 @@
         "Scout",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "expendable",
         "fast",
-        "melee",
+        "aggressive",
+        "scout",
         "mobile",
-        "scout"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "speed": 5,
-        "patience": -3,
-        "subtlety": 3
+        "patience": -4,
+        "subtlety": 3,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -221,19 +344,33 @@
         "Versatile Attack",
         "Impact(1)"
       ],
+      "weapons": [
+        {
+          "name": "Holy Sword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane",
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
         "fearless",
+        "aggressive",
         "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 5,
+        "speed": 4,
         "faith": 2,
-        "patience": -3
+        "patience": -4,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -250,19 +387,34 @@
         "Vale Formation",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "V3l_J"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
+        "aggressive",
         "fearless",
         "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 5,
-        "patience": -3,
-        "faith": 2
+        "speed": 4,
+        "patience": -4,
+        "faith": 2,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -280,19 +432,33 @@
         "Vale Formation",
         "Melee Slayer"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
         "fearless",
+        "aggressive",
         "melee",
-        "veteran"
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 5,
+        "speed": 4,
         "faith": 2,
-        "patience": -3
+        "patience": -4,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -310,19 +476,35 @@
         "Impact(1)",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "V3l_J"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
         "fearless",
+        "aggressive",
         "melee",
-        "veteran"
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 5,
+        "speed": 4,
         "faith": 2,
-        "patience": -3
+        "patience": -4,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -341,25 +523,48 @@
         "Tough(3)",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hooves",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "V3l_J",
+        "V1OrO"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
         "fast",
         "fearless",
         "flying",
-        "melee",
-        "monster",
+        "mobile",
+        "aggressive",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "faith": 2,
-        "humanity": -4,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -369,22 +574,36 @@
       "size": 1,
       "quality": 6,
       "defense": 6,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Furious",
         "Tough(6)",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Pilgrim Crew",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "PsUez"
+      ],
       "tags": [
         "aggressive",
-        "melee",
         "tough",
-        "vehicle"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "tech": 3,
-        "patience": -3
+        "patience": -3,
+        "elite": -2,
+        "tech": -1
       }
     },
     {
@@ -400,15 +619,41 @@
         "Artillery",
         "Vale Formation"
       ],
+      "weapons": [
+        {
+          "name": "Stone Thrower",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Blast(6)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "ranged",
+        "tough",
+        "artillery",
         "static",
-        "tough"
+        "ranged",
+        "indirect",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
         "patience": 5,
+        "elite": -2,
+        "tech": 3,
+        "subtlety": 1,
         "versatility": 2
       }
     }

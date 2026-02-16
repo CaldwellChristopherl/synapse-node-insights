@@ -3,8 +3,13 @@
   "factionName": "Halflings",
   "gameSystem": "age-of-fantasy",
   "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.606Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.970Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 53
+  },
   "units": [
     {
       "id": "gjLy2pX",
@@ -20,19 +25,33 @@
         "Slow",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "lbuSS5wy"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "slow",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -49,18 +68,31 @@
         "Tough(3)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "YR3qP7r-"
+      ],
       "tags": [
-        "expendable",
         "hero",
         "leader",
+        "slow",
+        "tough",
         "melee",
-        "slow"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": -1,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -75,19 +107,34 @@
         "Slow",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Throw Stones",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "slow",
         "balanced",
         "cheap",
         "expendable",
         "horde",
-        "slow",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
         "speed": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -102,18 +149,33 @@
         "Slow",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "D1",
+        "CyHTW9VY"
+      ],
       "tags": [
+        "slow",
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
-        "slow",
         "swarm"
       ],
       "dimensionScores": {
+        "speed": -2,
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
-        "collective": 5,
-        "speed": -2
+        "collective": 5
       }
     },
     {
@@ -128,14 +190,28 @@
         "Slow",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "CyHTW9VY"
+      ],
       "tags": [
-        "cheap",
-        "melee",
-        "slow"
+        "slow",
+        "melee"
       ],
       "dimensionScores": {
         "speed": -2,
-        "elite": -2
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -153,18 +229,30 @@
         "Fearless",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "CyHTW9VY"
+      ],
       "tags": [
         "aggressive",
-        "expendable",
+        "slow",
         "fearless",
         "melee",
-        "slow"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "patience": -3,
+        "patience": -4,
         "speed": -2,
-        "faith": 2
+        "faith": 2,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -182,17 +270,32 @@
         "Regeneration",
         "Slow"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "3-NoDT5_"
+      ],
       "tags": [
-        "expendable",
+        "fast",
         "fearless",
-        "melee",
         "regeneration",
-        "slow"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "speed": 4,
         "faith": 2,
-        "speed": -2
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -210,17 +313,30 @@
         "Strider",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "expendable",
-        "melee",
-        "mobile",
         "slow",
-        "stealth"
+        "stealth",
+        "mobile",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "speed": 1,
-        "subtlety": 4
+        "subtlety": 4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -235,16 +351,35 @@
         "Slow",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "F1",
+        "CyHTW9VY"
+      ],
       "tags": [
+        "slow",
         "balanced",
         "cheap",
-        "expendable",
-        "slow"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -5,
         "speed": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5
       }
     },
     {
@@ -254,20 +389,35 @@
       "size": 5,
       "quality": 5,
       "defense": 5,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "G1"
+      ],
       "tags": [
-        "beast",
         "cavalry",
-        "expendable",
-        "melee"
+        "fast",
+        "monster",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "speed": 3,
-        "tech": -3
+        "speed": 5,
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -277,25 +427,39 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "heavy-support",
+      "role": "troops",
       "rules": [
         "Slow",
         "Strider",
         "Tough(3)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Fist",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "beast",
-        "melee",
-        "mobile",
         "slow",
+        "mobile",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 1,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -305,23 +469,42 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "fast-attack",
+      "role": "troops",
       "rules": [
         "Flying",
         "Tough(3)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Grenades",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Fists",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "LJI_OHfS"
+      ],
       "tags": [
-        "balanced",
         "flying",
-        "human",
+        "mobile",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": 3,
-        "speed": 3,
+        "speed": 5,
+        "patience": 1,
+        "elite": 4,
         "versatility": 2
       }
     },
@@ -332,25 +515,46 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Regeneration",
         "Tough(3)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Gunner",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "beast",
-        "cavalry",
         "regeneration",
         "tough",
+        "cavalry",
+        "fast",
+        "monster",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "speed": 5,
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -360,23 +564,44 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Flying",
         "Tough(3)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "f9YvFZtJ"
+      ],
       "tags": [
-        "balanced",
         "flying",
+        "mobile",
         "tough",
         "vehicle",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "speed": 5,
+        "patience": 1,
+        "elite": 4,
         "tech": 3,
-        "speed": 3,
         "versatility": 2
       }
     },
@@ -387,24 +612,49 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "monster",
       "rules": [
         "Fear(1)",
         "Flying",
         "Tough(6)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Sharp Beak",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Sharp Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "HFHTR"
+      ],
       "tags": [
-        "beast",
-        "elite",
         "flying",
-        "melee",
+        "mobile",
         "tough",
-        "vehicle"
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 5,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -419,17 +669,37 @@
         "Tough(6)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Spear Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
-        "melee",
         "tough",
-        "veteran"
+        "cavalry",
+        "fast",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3,
-        "tech": -3
+        "elite": 4,
+        "speed": 5,
+        "tech": -1
       }
     },
     {
@@ -446,18 +716,29 @@
         "Tough(6)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Whirling Blades",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aggressive",
-        "cavalry",
-        "melee",
         "regeneration",
         "tough",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -474,20 +755,47 @@
         "Tough(9)",
         "Lucky"
       ],
+      "weapons": [
+        {
+          "name": "Improvised Fireworks",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Bash"
+          ]
+        },
+        {
+          "name": "Smasher Gun",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Blade Tusks",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aggressive",
-        "balanced",
-        "beast",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "patience": -3,
-        "versatility": 2,
-        "tech": -3
+        "patience": -2,
+        "elite": 4,
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -503,15 +811,37 @@
         "Lucky",
         "Artillery"
       ],
+      "weapons": [
+        {
+          "name": "Volley Gun",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "ranged",
+        "tough",
+        "artillery",
         "static",
-        "tough"
+        "ranged",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
         "patience": 5,
+        "elite": -2,
+        "tech": 3,
         "versatility": 2
       }
     }

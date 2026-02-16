@@ -3,8 +3,13 @@
   "factionName": "Infected Colonies",
   "gameSystem": "grimdark-future",
   "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.274Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.154Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 28
+  },
   "units": [
     {
       "id": "navlwQ_",
@@ -20,24 +25,45 @@
         "Tough(6)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Monstrous Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "E1"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
         "monster",
-        "tough"
+        "corrupted",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
+        "humanity": -3,
         "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -55,23 +81,38 @@
         "Tough(3)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Barbed Claw",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "5rFzCDtH"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "hero",
-        "human",
-        "leader",
-        "melee",
+        "ambush",
         "mobile",
-        "tough"
+        "hero",
+        "leader",
+        "tough",
+        "corrupted",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 3,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -87,21 +128,37 @@
         "Tough(3)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Leader Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "cLY8Qo6O"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "tough"
+        "tough",
+        "corrupted",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
+        "leadership": 5,
+        "elite": -1,
+        "patience": 1,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
         "versatility": 2
       }
     },
@@ -118,24 +175,35 @@
         "Fearless",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "GIuQy"
+      ],
       "tags": [
-        "cheap",
-        "corrupted",
-        "expendable",
-        "fearless",
-        "horde",
-        "human",
-        "melee",
         "mobile",
+        "fearless",
+        "corrupted",
+        "melee",
+        "cheap",
+        "expendable",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
-        "faith": 2
+        "faith": 2,
+        "purity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -152,24 +220,35 @@
         "Fearless",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "GIuQy"
+      ],
       "tags": [
-        "corrupted",
-        "expendable",
-        "fearless",
-        "horde",
-        "human",
-        "melee",
         "regeneration",
         "slow",
+        "fearless",
+        "corrupted",
+        "melee",
+        "expendable",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
         "speed": -2,
-        "faith": 2
+        "faith": 2,
+        "purity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3,
+        "collective": 5
       }
     },
     {
@@ -179,23 +258,39 @@
       "size": 10,
       "quality": 5,
       "defense": 5,
-      "role": "troops",
+      "role": "swarm",
       "rules": [
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
         "corrupted",
+        "balanced",
         "expendable",
         "horde",
-        "human"
+        "swarm"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": 4,
         "purity": -4,
-        "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3,
+        "collective": 5
       }
     },
     {
@@ -210,17 +305,39 @@
         "Tough(3)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Spore Mortar",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "Indirect",
+            "Bane",
+            "Bash"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
+        "tough",
         "corrupted",
-        "expendable",
-        "human",
-        "tough"
+        "indirect",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "patience": 2,
+        "elite": -2,
         "purity": -4,
-        "humanity": 3,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -236,18 +353,38 @@
         "Relentless",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Spore Shooter",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Bane",
+            "Bash"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
+        "ranged",
         "corrupted",
-        "expendable",
-        "human",
-        "ranged"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "patience": 1,
+        "tech": 1,
         "purity": -4,
-        "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -263,18 +400,33 @@
         "Strider",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Toxic Claw",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "corrupted",
-        "human",
-        "melee",
+        "ambush",
         "mobile",
+        "corrupted",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
+        "speed": 3,
         "purity": -4,
-        "humanity": 3,
-        "speed": 3
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -290,17 +442,29 @@
         "Tough(3)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Putrid Fists",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "DWOurOs3"
+      ],
       "tags": [
-        "corrupted",
-        "human",
-        "melee",
         "tough",
+        "corrupted",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "elite": 4,
         "purity": -4,
-        "humanity": 3
+        "tech": -1
       }
     },
     {
@@ -316,19 +480,34 @@
         "Tough(3)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "GIuQy"
+      ],
       "tags": [
-        "corrupted",
-        "expendable",
-        "human",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "horde",
+        "swarm",
+        "corrupted",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "speed": 3,
+        "elite": -2,
+        "collective": 5,
         "purity": -4,
-        "humanity": 3,
-        "speed": 3
+        "tech": -1
       }
     },
     {
@@ -338,25 +517,39 @@
       "size": 3,
       "quality": 5,
       "defense": 5,
-      "role": "fast-attack",
+      "role": "troops",
       "rules": [
         "Flying",
         "Tough(3)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Beak Attack",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "GIuQy"
+      ],
       "tags": [
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
+        "mobile",
+        "tough",
+        "horde",
+        "swarm",
+        "corrupted",
         "melee",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "speed": 5,
+        "elite": -2,
+        "collective": 5,
         "purity": -4,
-        "humanity": 3,
-        "speed": 3
+        "tech": -1
       }
     },
     {
@@ -372,23 +565,34 @@
         "Scout",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Vicious Jaws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
-        "mobile",
         "scout",
+        "mobile",
+        "monster",
+        "corrupted",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "tech": -3
+        "humanity": -3,
+        "purity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -405,20 +609,37 @@
         "Tough(3)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Sharp Talons",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "corrupted",
-        "flying",
-        "human",
-        "melee",
+        "ambush",
         "mobile",
+        "flying",
         "tough",
+        "horde",
+        "swarm",
+        "corrupted",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
+        "speed": 5,
+        "elite": 4,
+        "collective": 5,
         "purity": -4,
-        "humanity": 3,
-        "speed": 5
+        "tech": -1
       }
     },
     {
@@ -433,19 +654,31 @@
         "Tough(3)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Dual Sharp Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "beast",
+        "tough",
         "corrupted",
-        "elite",
-        "human",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -461,20 +694,32 @@
         "Tough(6)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "muQxL"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "tough",
         "monster",
-        "tough"
+        "corrupted",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
+        "elite": 5,
+        "humanity": -3,
         "purity": -4,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -484,30 +729,43 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Impact(3)",
         "Tough(6)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Spore Shooter",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Bane",
+            "Bash"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
         "vehicle",
-        "veteran"
+        "corrupted",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4,
+        "purity": -4
       }
     },
     {
@@ -524,23 +782,44 @@
         "Fast",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
         "aggressive",
-        "corrupted",
-        "fast",
-        "human",
-        "ranged",
         "tough",
+        "fast",
         "vehicle",
-        "veteran"
+        "corrupted",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
-        "patience": -3,
-        "speed": 4
+        "patience": -1,
+        "elite": 4,
+        "speed": 4,
+        "tech": 4,
+        "purity": -4
       }
     },
     {
@@ -556,19 +835,41 @@
         "Tough(6)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Super-Heavy Fusion Rifle",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "human",
         "tough",
         "vehicle",
-        "veteran"
+        "corrupted",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
         "tech": 3,
         "purity": -4,
-        "humanity": 3,
         "versatility": 2
       }
     },
@@ -585,20 +886,40 @@
         "Tough(12)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "muQxL"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "tough",
         "monster",
-        "tough"
+        "corrupted",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
+        "elite": 5,
+        "humanity": -3,
         "purity": -4,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -615,22 +936,46 @@
         "Transport(11)",
         "Infected"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Minigun",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "O1"
+      ],
       "tags": [
         "aircraft",
-        "corrupted",
         "flying",
-        "human",
-        "ranged",
-        "tough",
         "vehicle",
-        "veteran"
+        "tough",
+        "transport",
+        "corrupted",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "tech": 5,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 5
+        "speed": 5,
+        "patience": 2,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "purity": -4
       }
     }
   ],

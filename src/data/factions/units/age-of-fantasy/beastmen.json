@@ -2,9 +2,14 @@
   "factionId": "TciwNI3AOMXAM-dr",
   "factionName": "Beastmen",
   "gameSystem": "age-of-fantasy",
-  "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.475Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.717Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 40
+  },
   "units": [
     {
       "id": "qt6GWWu",
@@ -20,23 +25,34 @@
         "Tough(6)",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "pe_koRYB"
+      ],
       "tags": [
         "aggressive",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "patience": -3,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -55,28 +71,35 @@
         "Unpredictable Fighter",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Flameforged Heavy Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Tear"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "bnkzt",
+        "TUjbaM_z"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "corrupted",
         "fast",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "aggressive",
         "tough",
-        "unpredictable",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 5,
-        "leadership": 3,
+        "speed": 4,
+        "leadership": 5,
+        "elite": 5,
         "patience": -3,
-        "order": -3
+        "tech": -1
       }
     },
     {
@@ -92,23 +115,32 @@
         "Tough(3)",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "RHPaCfDZ"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "tech": -3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -125,23 +157,31 @@
         "Tough(3)",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "K17-z"
+      ],
       "tags": [
-        "corrupted",
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": -1,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -156,22 +196,32 @@
         "Strider",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "G1"
+      ],
       "tags": [
+        "mobile",
+        "melee",
         "cheap",
-        "corrupted",
         "expendable",
         "horde",
-        "human",
-        "melee",
-        "mobile",
         "swarm"
       ],
       "dimensionScores": {
+        "speed": 3,
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3
+        "collective": 5
       }
     },
     {
@@ -185,19 +235,29 @@
       "rules": [
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "H1"
+      ],
       "tags": [
-        "cheap",
-        "corrupted",
-        "horde",
-        "human",
         "melee",
+        "cheap",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -2,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3
+        "collective": 5
       }
     },
     {
@@ -213,21 +273,30 @@
         "Scout",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
-        "melee",
         "mobile",
-        "scout"
+        "scout",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "subtlety": 3
+        "subtlety": 3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -242,14 +311,27 @@
         "Melee Slayer",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "I1"
+      ],
       "tags": [
-        "corrupted",
-        "human",
-        "melee"
+        "melee",
+        "armored"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -265,19 +347,32 @@
         "Tough(3)",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "J1",
+        "kUdFVTDa"
+      ],
       "tags": [
         "aggressive",
-        "corrupted",
-        "elite",
-        "human",
+        "tough",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
-        "patience": -3
+        "patience": -3,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -293,21 +388,35 @@
         "Strider",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "KjcGp"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "expendable",
-        "human",
+        "stealth",
         "mobile",
-        "stealth"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "subtlety": 4,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -324,23 +433,31 @@
         "Unpredictable Fighter",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "L1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "corrupted",
         "fast",
-        "human",
+        "aggressive",
         "melee",
-        "unpredictable",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 5,
-        "patience": -3,
-        "order": -3
+        "speed": 4,
+        "patience": -4,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -358,25 +475,33 @@
         "Unpredictable Fighter",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Tusks",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "kUdFVTDa"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
         "tough",
-        "unpredictable",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 4,
         "patience": -3,
-        "order": -3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -392,19 +517,30 @@
         "Strider",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
-        "mobile"
+        "mobile",
+        "monster",
+        "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -422,21 +558,39 @@
         "Tough(6)",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Spear Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Tusks",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
         "mobile",
-        "tough"
+        "tough",
+        "cavalry",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -3,
+        "elite": -2,
+        "tech": -1
       }
     },
     {
@@ -454,24 +608,39 @@
         "Unpredictable Fighter",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Tusks",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Spear Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
         "tough",
-        "unpredictable",
-        "veteran"
+        "cavalry",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "patience": -3,
-        "order": -3
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -488,20 +657,39 @@
         "Tough(12)",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Strike",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1",
+        "O1"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -518,22 +706,39 @@
         "Tough(12)",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 10,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1",
+        "P1"
+      ],
       "tags": [
         "aggressive",
-        "beast",
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "tough",
         "monster",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "purity": -4,
         "patience": -3,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -550,23 +755,53 @@
         "Tough(12)",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Tongue Grasp",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "Acid Maw",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1",
+        "B0skK"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
         "flying",
-        "human",
-        "monster",
+        "mobile",
         "tough",
-        "veteran"
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "speed": 3,
-        "versatility": 2,
-        "tech": -3
+        "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -583,21 +818,50 @@
         "Fearless",
         "Bestial"
       ],
+      "weapons": [
+        {
+          "name": "Shoot Flames",
+          "range": 12,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Titan Strike",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "X7SMk"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
         "tough",
-        "vehicle"
+        "fearless",
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
+        "patience": 1,
+        "elite": 5,
         "faith": 2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -617,24 +881,33 @@
         "Tough(3)",
         "Unique"
       ],
+      "weapons": [
+        {
+          "name": "Mabalo Dual Staves",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
-        "hero",
-        "human",
-        "leader",
         "magic",
-        "melee",
-        "mobile",
         "psychic",
-        "tough"
+        "hero",
+        "leader",
+        "mobile",
+        "tough",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "mystery": 5,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": -1,
+        "speed": 3,
+        "tech": -1
       }
     }
   ],

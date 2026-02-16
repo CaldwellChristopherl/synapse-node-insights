@@ -1,0 +1,3338 @@
+{
+  "factionId": "4k5amkxoybdiqotm",
+  "factionName": "Robot Legions",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Annihilator Lord",
+      "forUnits": [
+        "y8xIlHV"
+      ],
+      "sections": [
+        {
+          "label": "Replace Lord Gauss Pistol and 2x CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "PuKT0nUIL-",
+              "label": "Dual Hyper Swords (A4, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hyper Swords",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "-3YN10I",
+              "label": "Staff-Shots (12\", A3, AP(1)), Hyper Sword (A3, AP(1), Rending), Combat Staff (A3, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Staff-Shots",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Combat Staff",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Hyper Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Lord Gauss Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3IcMq",
+              "label": "Combat Shield (Shielded)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Shield",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "Wf-4yd5",
+              "label": "Wrist-Flamer (12\", A1, Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wrist-Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "uiYOefY",
+              "label": "Wrist-Plasma (24\", A1, AP(4))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wrist-Plasma",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "nvflTmAnRV",
+              "label": "Heavy Gauss Cannon (30\", A6, Destructive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Gauss Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "bbWMZnA",
+              "label": "Void Sword (A1, Blast(3))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Void Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "cYskqiN",
+              "label": "Doom Scythe (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom Scythe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "pX4Pg2c",
+              "label": "Hyper Sword (A3, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hyper Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "0UFj8Wn",
+              "label": "Phase Glaive (A3, AP(4))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Phase Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Vc8Jxy2P7J",
+              "label": "Phase Core (Ambush)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Phase Core",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Specialists - Tri-Scorpion",
+      "forUnits": [
+        "R2d8LeD"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "iUPolg0",
+              "label": "Chronomancer (Ambush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "R2d8LeD",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chronomancer",
+                  "type": "item",
+                  "content": [
+                    "Ambush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "VHtYlsj",
+              "label": "Psychomancer (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "R2d8LeD",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychomancer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "-X9uv",
+              "label": "Re-Animator (Reanimation Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "R2d8LeD",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Re-Animator",
+                  "type": "item",
+                  "content": [
+                    "Reanimation Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "a-G2qj8",
+              "label": "Controller (Piercing Assault Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "R2d8LeD",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Controller",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "o9XTNqDKhH",
+              "label": "Overseer (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "R2d8LeD",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Warriors",
+      "forUnits": [
+        "njiIkJi"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Gauss Rifles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "r_yHp",
+              "label": "Reaper Rifle (18\", A1, AP(1), Shred)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "njiIkJi",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Reaper Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Shred"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Gauss Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fKU7QT5",
+              "label": "Flame Caster (12\", A1, Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "njiIkJi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flame Caster",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "4Tdkvna",
+              "label": "Plasma Caster (24\", A1, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "njiIkJi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Caster",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "vzTRYEt",
+              "label": "Fusion Caster (12\", A1, AP(4), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "njiIkJi",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Caster",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "bhUJI",
+              "label": "Ray Caster (18\", A2, AP(4), Unstoppable)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "njiIkJi",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ray Caster",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Eternals",
+      "forUnits": [
+        "wvgi7_R"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Flux Carbines",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "4wl6uX1",
+              "label": "Heavy Gauss Rifle (24\", A2, Destructive)",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "wvgi7_R",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Gauss Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Guardians",
+      "forUnits": [
+        "xVuwyHf"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Atom-Casters and Void Blades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "iJb_1pk",
+              "label": "War Scythe (A2, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "xVuwyHf",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Scythe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "copnY",
+              "label": "Rod-Shots (12\", A2, AP(1)), Rod (A1)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "xVuwyHf",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rod-Shots",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Rod",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "dCcieks",
+              "label": "Hyper Sword (A2, AP(1), Rending), Combat Shields (Shielded)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "xVuwyHf",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hyper Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Combat Shields",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor",
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "CqbkQoJ",
+              "label": "Jetpacks (Ambush, Flying, Swift)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "xVuwyHf",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jetpacks",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Snipers",
+      "forUnits": [
+        "mEX6i0s"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zI794Cc",
+              "label": "Hyperspace Reapers (Surprise Piercing Shot)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "mEX6i0s",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hyperspace Reapers",
+                  "type": "item",
+                  "content": [
+                    "Surprise Piercing Shot"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "STcqrQJH",
+              "label": "Networked Target Lock (Indirect Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mEX6i0s",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Networked Target Lock",
+                  "type": "item",
+                  "content": [
+                    "Indirect Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Bikers",
+      "forUnits": [
+        "yhG8aeu"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Rapid Flux Carbine",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "KUvdZXo",
+              "label": "Rapid Gauss Rifle (24\", A3, Destructive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yhG8aeu",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Gauss Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "MA2pB-p",
+              "label": "Atom-Beamer (24\", A3, AP(1))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "yhG8aeu",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Atom-Beamer",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Snakes",
+      "forUnits": [
+        "0x2SCtg"
+      ],
+      "sections": [
+        {
+          "label": "Any model may replace Whip Coil",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "SBY8c9UtjY",
+              "label": "2x Metal Fangs (A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0x2SCtg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Metal Fangs",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Any model may replace one Metal Fangs",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mWbTxiU",
+              "label": "Twin Atom-Caster (12\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0x2SCtg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Atom-Caster",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "8axTRpf",
+              "label": "Death Gaze (12\", A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "0x2SCtg",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Gaze",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Tri-Scorpions",
+      "forUnits": [
+        "XgJtpyh"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Dual Reaper Blades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "eDUyrWE",
+              "label": "Heavy Reaper Blade (A1, AP(3), Deadly(6), Shred)",
+              "cost": -10,
+              "costs": [
+                {
+                  "unitId": "XgJtpyh",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Reaper Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Shred"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "CuaPMH-",
+              "label": "Plasmabot (Rending in Melee)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "XgJtpyh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasmabot",
+                  "type": "item",
+                  "content": [
+                    "Rending in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Annihilators",
+      "forUnits": [
+        "IMHCbyw"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Hyper Swords",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "4cbFIbx",
+              "label": "Gauss Cannon (24\", A4, Destructive), CCW (A1)",
+              "cost": 115,
+              "costs": [
+                {
+                  "unitId": "IMHCbyw",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gauss Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "Destructive"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Gauss Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ACs7O",
+              "label": "Ray Cannon (24\", A2, AP(4), Unstoppable)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "IMHCbyw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ray Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "3G2M1",
+              "label": "Heavy Gauss Cannon (30\", A6, Destructive)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "IMHCbyw",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Gauss Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gKxEYw8PlK",
+              "label": "Phase Core (Ambush)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IMHCbyw",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Phase Core",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "lcCGBXh_",
+              "label": "Networked Target Lock (Indirect Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IMHCbyw",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Networked Target Lock",
+                  "type": "item",
+                  "content": [
+                    "Indirect Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M1",
+      "hint": "Heavy Annihilator",
+      "forUnits": [
+        "if9G9o7"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Gauss Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "JsYtKUP",
+              "label": "Heavy Ray Cannon (24\", A4, AP(4), Unstoppable)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "if9G9o7",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Ray Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "5rbjt",
+              "label": "Exterminator Cannon (30\", A2, AP(2), Blast(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "if9G9o7",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Exterminator Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "tkZJFj0w-n",
+              "label": "Phase Core (Ambush)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "if9G9o7",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Phase Core",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "aThzg0k_HO",
+              "label": "Networked Target Lock (Indirect Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "if9G9o7",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Networked Target Lock",
+                  "type": "item",
+                  "content": [
+                    "Indirect Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N1",
+      "hint": "Forge Spider",
+      "forUnits": [
+        "obCuik6"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "--D-J",
+              "label": "Widowmaker (Ambush)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "obCuik6",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Widowmaker",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PgpX2FajxI",
+              "label": "Repair Nanobots (Self-Repair Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "obCuik6",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repair Nanobots",
+                  "type": "item",
+                  "content": [
+                    "Self-Repair Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CxZjZn5",
+              "label": "Bot Fabricator (Spawn(Bot Swarms [3]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "obCuik6",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bot Fabricator",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Replace Twin Atom-Beamer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "-uNTHox",
+              "label": "Atom-Beamer (24\", A3, AP(1)), Cyber-Palps (Mend)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "obCuik6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cyber-Palps",
+                  "type": "item",
+                  "content": [
+                    "Mend"
+                  ]
+                },
+                {
+                  "name": "Atom-Beamer",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B2",
+      "hint": "Doom Tank",
+      "forUnits": [
+        "LObigTp"
+      ],
+      "sections": [
+        {
+          "label": "Replace Doom Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "i0Cst",
+              "label": "Heavy Doom Cannon (30\", A3, AP(3), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "LObigTp",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Doom Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C2",
+      "hint": "Support Platform",
+      "forUnits": [
+        "8pPhbp8"
+      ],
+      "sections": [
+        {
+          "label": "Replace Ray Caster",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mleTL7p",
+              "label": "Gauss Cannon (24\", A4, Destructive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8pPhbp8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gauss Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "ysN0D",
+              "label": "Flux Cannon (24\", A3, AP(1), Surge)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "8pPhbp8",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flux Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Surge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Overseer Pilot",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "O55As",
+              "label": "Twin Flux Cannon (24\", A6, AP(1), Surge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8pPhbp8",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Flux Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Surge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "GfO7FOyKPo",
+              "label": "Repair Nanobots (Self-Repair Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8pPhbp8",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repair Nanobots",
+                  "type": "item",
+                  "content": [
+                    "Self-Repair Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "QuWegInD",
+              "label": "Networked Target Lock (Indirect Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8pPhbp8",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Networked Target Lock",
+                  "type": "item",
+                  "content": [
+                    "Indirect Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D2",
+      "hint": "Tripod Walker",
+      "forUnits": [
+        "17TaNC2"
+      ],
+      "sections": [
+        {
+          "label": "Replace Rapid Particle Beam",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Kn8u51H",
+              "label": "Rapid Doom Blaster (24\", A2, AP(1), Blast(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "17TaNC2",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Doom Blaster",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "MEdz-w1",
+              "label": "Rapid Ray Caster (18\", A4, AP(4), Unstoppable)",
+              "cost": 105,
+              "costs": [
+                {
+                  "unitId": "17TaNC2",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Ray Caster",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vUKoS",
+              "label": "Tripod Queen (Swift Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "17TaNC2",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tripod Queen",
+                  "type": "item",
+                  "content": [
+                    "Swift Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LwOuSPi",
+              "label": "Twin Gauss Rifle (24\", A2, Destructive)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "17TaNC2",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Gauss Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sOYgKbI3",
+              "label": "Repair Nanobots (Self-Repair Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "17TaNC2",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repair Nanobots",
+                  "type": "item",
+                  "content": [
+                    "Self-Repair Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E2",
+      "hint": "Spider Walker",
+      "forUnits": [
+        "n9nkDBw"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Heavy Gauss Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fxqRj",
+              "label": "Twin Fusion Ray (18\", A2, AP(4), Deadly(6))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "n9nkDBw",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Fusion Ray",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "xip22",
+              "label": "Twin Atom-Shredder (24\", A12, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "n9nkDBw",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Atom-Shredder",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 12,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "NYSw1",
+              "label": "Twin Exterminator Cannon (30\", A4, AP(2), Blast(3))",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "n9nkDBw",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Exterminator Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 4,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "nLQx_",
+      "hint": "Death Fortress",
+      "forUnits": [
+        "YGwsxBN"
+      ],
+      "sections": [
+        {
+          "label": "Replace Destruction Pulse",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gz0nP",
+              "label": "Atom-Scourge (24\", A9, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "YGwsxBN",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Atom-Scourge",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 9,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Gauss Arc Array",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gJq0__R",
+              "label": "Flux Sphere Array (24\", A9, AP(1), Surge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "YGwsxBN",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flux Sphere Array",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 9,
+                  "special": [
+                    "AP",
+                    "Surge"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2ifV25v",
+              "label": "Warp Gate (Transport(21))",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "YGwsxBN",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warp Gate",
+                  "type": "item",
+                  "content": [
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "NILpP",
+              "label": "Wraith-Shard Vault (Caster(4), Tough(6))",
+              "cost": 270,
+              "costs": [
+                {
+                  "unitId": "YGwsxBN",
+                  "cost": 220
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wraith-Shard Vault",
+                  "type": "item",
+                  "content": [
+                    "Tough",
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "XG_QD",
+      "hint": "Great Monolith",
+      "forUnits": [
+        "t-fjiKb"
+      ],
+      "sections": [
+        {
+          "label": "Replace Monolith Blast",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "KBsG2FBwFa",
+              "label": "Monolith Beam (18\", A3, AP(3), Deadly(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "t-fjiKb",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Monolith Beam",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with up to two",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "KWVm-",
+              "label": "Technoward (Casting Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "t-fjiKb",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Technoward",
+                  "type": "item",
+                  "content": [
+                    "Casting Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "q4O59",
+      "hint": "Wraith-Shard",
+      "forUnits": [
+        "dCXjC0x"
+      ],
+      "sections": [
+        {
+          "label": "Replace Nanobot Shards",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "-m-fy",
+              "label": "Void Shard (24\", A12, AP(2))",
+              "cost": 95,
+              "costs": [
+                {
+                  "unitId": "dCXjC0x",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Void Shard",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 12,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "aYo5u",
+      "hint": "Great Wraith-Shard",
+      "forUnits": [
+        "pV6ndhZ"
+      ],
+      "sections": [
+        {
+          "label": "Replace Nanobot Shards",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7sNyuXMx",
+              "label": "Void Shard (24\", A12, AP(2))",
+              "cost": 95,
+              "costs": [
+                {
+                  "unitId": "pV6ndhZ",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Void Shard",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 12,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Wraith Seer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "swLo3",
+              "label": "Great Wraith (Wraith Spear (A2, AP(4), Deadly(3)), Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pV6ndhZ",
+                  "cost": 100
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Wraith",
+                  "type": "item",
+                  "content": [
+                    "Wraith Spear",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "cbvFtGXz",
+      "hint": "Flesh-Eaters",
+      "forUnits": [
+        "6q8HvOZ"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "kDpZSflgHy",
+              "label": "Machine-Horror (Fear(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6q8HvOZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Machine-Horror",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "1wRtSaHa",
+      "hint": "Transport Tank",
+      "forUnits": [
+        "sCI2_zX"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2jOGNDdDac",
+              "label": "Repair Nanobots (Self-Repair Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sCI2_zX",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repair Nanobots",
+                  "type": "item",
+                  "content": [
+                    "Self-Repair Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "B10Oi6L9",
+              "label": "Networked Target Lock (Indirect Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sCI2_zX",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Networked Target Lock",
+                  "type": "item",
+                  "content": [
+                    "Indirect Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "4ywFLKgD",
+      "hint": "Robot Lord",
+      "forUnits": [
+        "lcEWPMS"
+      ],
+      "sections": [
+        {
+          "label": "Replace Combat Shield and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "naOtTU7I",
+              "label": "Staff-Shots (12\", A3, AP(1)), Combat Staff (A3, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Staff-Shots",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Combat Staff",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Combat Shield",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xSDaM3DEcn",
+              "label": "Lord Gauss Pistol (12\", A2, Destructive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord Gauss Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "ZreTSK6T",
+              "label": "Wrist-Flamer (12\", A1, Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wrist-Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "fsyf5DWYdy",
+              "label": "Lord Gauss Rifle (24\", A2, Destructive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord Gauss Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "XqYUO6IwXg",
+              "label": "Lord Reaper Rifle (18\", A2, AP(1), Shred)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord Reaper Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Shred"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "AGPRbyVn",
+              "label": "Wrist-Plasma (24\", A1, AP(4))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wrist-Plasma",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "lAp_fGh0",
+              "label": "Gauss Blaster (18\", A4, Destructive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gauss Blaster",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "Destructive"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "CrvwnnNr",
+              "label": "Void Sword (A1, Blast(3))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Void Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "M--NkSUw",
+              "label": "Doom Scythe (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom Scythe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "lpum77Fl",
+              "label": "Hyper Sword (A3, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hyper Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "v6oAy26N",
+              "label": "Phase Glaive (A3, AP(4))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Phase Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "XqEVp42Ws4",
+              "label": "Pet Technoaide (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pet Technoaide",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "bBzY0Z8RwI",
+              "label": "Jetpack (Ambush, Flying, Swift)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jetpack",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "LkkJyk3R",
+      "hint": "Specialists - Annihilator",
+      "forUnits": [
+        "y8xIlHV"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "s53tnvC-",
+              "label": "Psychomancer (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychomancer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "KXpsDa_L",
+              "label": "Re-Animator (Reanimation Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Re-Animator",
+                  "type": "item",
+                  "content": [
+                    "Reanimation Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5JBuIEot",
+              "label": "Technomancer (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Technomancer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "hZ4c-_MS",
+              "label": "Warden (Relentless Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warden",
+                  "type": "item",
+                  "content": [
+                    "Relentless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "YL3SK4gW",
+              "label": "Controller (Piercing Assault Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Controller",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "YpAyrQtc7X",
+              "label": "Overseer (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "y8xIlHV",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "P_1aFUp1",
+      "hint": "Specialists - Lord",
+      "forUnits": [
+        "lcEWPMS"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7lxEwwHb",
+              "label": "Chronomancer (Ambush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chronomancer",
+                  "type": "item",
+                  "content": [
+                    "Ambush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iG8fpXPdzR",
+              "label": "Psychomancer (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychomancer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "IX0ogKsR",
+              "label": "Re-Animator (Reanimation Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Re-Animator",
+                  "type": "item",
+                  "content": [
+                    "Reanimation Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "H9PNM4jf",
+              "label": "Technomancer (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Technomancer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "j6HM1Sbi",
+              "label": "Warden (Relentless Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warden",
+                  "type": "item",
+                  "content": [
+                    "Relentless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nwoVXhKvN_",
+              "label": "Overseer (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lcEWPMS",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "v1bOr7hx",
+      "hint": "Destroyer Snakes",
+      "forUnits": [
+        "gcoBL7U"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Dual Reaper Blades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "qScEKgrw",
+              "label": "Heavy Reaper Blade (A1, AP(3), Deadly(6), Shred)",
+              "cost": -10,
+              "costs": [
+                {
+                  "unitId": "gcoBL7U",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Reaper Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Shred"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "dS1iaKPR",
+              "label": "Plasmabot (Rending in Melee)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "gcoBL7U",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasmabot",
+                  "type": "item",
+                  "content": [
+                    "Rending in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Jk7LdYM44E",
+              "label": "Elite Vanguard (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gcoBL7U",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Vanguard",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

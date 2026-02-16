@@ -25,7 +25,7 @@
       themes: ["alliance", "diversity", "cooperation", "adaptable"]
     },
     "Dark Elf Raiders": {
-      dimensionScores: { patience: -2, collective: 2, order: 1, tech: 2, elite: 2, honor: -4, faith: -2, subtlety: 4, tradition: 1, purity: -2, speed: 4, mystery: 3, versatility: 3, humanity: 1, leadership: 1 },
+      dimensionScores: { patience: -3, collective: 1, order: -1, tech: 3, elite: 3, honor: -5, faith: -3, subtlety: 5, tradition: -1, purity: -3, speed: 5, mystery: 3, versatility: 3, humanity: 0, leadership: 1 },
       description: "Pain is currency. Suffering is art.",
       themes: ["raiders", "speed", "cruelty", "pirates"]
     },
@@ -75,7 +75,7 @@
       themes: ["infection", "corruption", "cult", "transformation"]
     },
     "Jackals": {
-      dimensionScores: { patience: -3, collective: 2, order: -2, tech: 1, elite: 0, honor: -3, faith: 1, subtlety: 2, tradition: -3, purity: -2, speed: 4, mystery: 2, versatility: 3, humanity: 2, leadership: 0 },
+      dimensionScores: { patience: -4, collective: 3, order: -3, tech: 0, elite: -1, honor: -4, faith: 1, subtlety: 3, tradition: -4, purity: -2, speed: 5, mystery: 1, versatility: 3, humanity: 2, leadership: 0 },
       description: "Speed is survival. Take everything.",
       themes: ["raiders", "speed", "scavengers", "nomads"]
     },
@@ -100,7 +100,7 @@
       themes: ["horde", "technology", "treachery", "underworld"]
     },
     "Rebel Guerrillas": {
-      dimensionScores: { patience: 1, collective: 3, order: 1, tech: 2, elite: 0, honor: 1, faith: 2, subtlety: 3, tradition: -1, purity: 1, speed: 2, mystery: 2, versatility: 5, humanity: 4, leadership: 2 },
+      dimensionScores: { patience: -1, collective: 4, order: -2, tech: 1, elite: -2, honor: 2, faith: 3, subtlety: 4, tradition: -3, purity: 1, speed: 3, mystery: 1, versatility: 5, humanity: 4, leadership: 3 },
       description: "Freedom at any cost. Fight the power.",
       themes: ["guerrilla", "resistance", "freedom", "adaptable"]
     },
@@ -120,7 +120,7 @@
       themes: ["cult", "infiltration", "xenos", "hybrid"]
     },
     "Titan Lords": {
-      dimensionScores: { patience: 1, collective: 1, order: 2, tech: 4, elite: 5, honor: 1, faith: 2, subtlety: -3, tradition: 2, purity: 0, speed: 1, mystery: 2, versatility: 2, humanity: 0, leadership: 3 },
+      dimensionScores: { patience: 1, collective: -3, order: 3, tech: 5, elite: 5, honor: 4, faith: -1, subtlety: -5, tradition: 3, purity: 2, speed: -2, mystery: -2, versatility: -4, humanity: -3, leadership: 1 },
       description: "Engines of war. Mountains that walk.",
       themes: ["titans", "knights", "war-machines", "nobility"]
     },

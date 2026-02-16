@@ -2,9 +2,14 @@
   "factionId": "3j10zage1lddt6sr",
   "factionName": "Titan Lords",
   "gameSystem": "grimdark-future",
-  "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.494Z",
+  "factionType": "tech",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.476Z",
+  "monoType": {
+    "isMonoType": true,
+    "dominantRole": "vehicle",
+    "rolePercentage": 100
+  },
   "units": [
     {
       "id": "bcpqzan",
@@ -19,15 +24,48 @@
         "Honor Code",
         "Tough(9)"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "2yNbr",
+        "V4LzS8wg",
+        "1TksVWNd",
+        "Dt4jA0yd"
+      ],
       "tags": [
-        "elite",
-        "melee",
+        "honorable",
+        "noble",
         "tough",
-        "vehicle"
+        "defensive",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3
+        "honor": 5,
+        "patience": 3,
+        "elite": 5,
+        "tech": 2,
+        "versatility": -4
       }
     },
     {
@@ -44,17 +82,47 @@
         "Furious",
         "Honor Code"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "FkW7e",
+        "2yNbr"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
-        "melee",
         "tough",
-        "vehicle"
+        "aggressive",
+        "honorable",
+        "noble",
+        "defensive",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "patience": -3
+        "elite": 5,
+        "honor": 5,
+        "tech": 2,
+        "versatility": -4
       }
     },
     {
@@ -70,16 +138,48 @@
         "Tough(12)",
         "Honor Code"
       ],
+      "weapons": [
+        {
+          "name": "Fusion Blaster",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "FkW7e",
+        "dW3hJ",
+        "2yNbr"
+      ],
       "tags": [
+        "tough",
+        "honorable",
+        "noble",
+        "defensive",
+        "vehicle",
         "balanced",
         "elite",
-        "tough",
-        "vehicle"
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 4,
+        "elite": 5,
+        "honor": 5,
         "tech": 3,
-        "versatility": 2
+        "versatility": -4
       }
     },
     {
@@ -96,17 +196,47 @@
         "Relentless",
         "Honor Code"
       ],
+      "weapons": [
+        {
+          "name": "Fusion Blaster",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "dW3hJ",
+        "2yNbr"
+      ],
       "tags": [
+        "tough",
+        "ranged",
+        "honorable",
+        "noble",
+        "vehicle",
         "balanced",
         "elite",
-        "ranged",
-        "tough",
-        "vehicle"
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "versatility": 2
+        "patience": 2,
+        "elite": 5,
+        "tech": 4,
+        "honor": 5,
+        "versatility": -4
       }
     },
     {
@@ -123,18 +253,57 @@
         "Furious",
         "Honor Code"
       ],
+      "weapons": [
+        {
+          "name": "Hull-Fuser",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Titan Hammer",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "N0XqA",
+        "2yNbr"
+      ],
       "tags": [
+        "tough",
         "aggressive",
+        "honorable",
+        "noble",
+        "defensive",
+        "vehicle",
         "balanced",
         "elite",
-        "tough",
-        "vehicle"
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 1,
+        "elite": 5,
+        "honor": 5,
         "tech": 3,
-        "patience": -3,
-        "versatility": 2
+        "versatility": -4
       }
     },
     {
@@ -150,16 +319,57 @@
         "Tough(24)",
         "Honor Code"
       ],
+      "weapons": [
+        {
+          "name": "Titan Fusion Cannon",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Hull-Fuser",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "N0XqA",
+        "-bOjE",
+        "2yNbr"
+      ],
       "tags": [
+        "tough",
+        "honorable",
+        "noble",
+        "defensive",
+        "vehicle",
         "balanced",
         "elite",
-        "tough",
-        "vehicle"
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 4,
+        "elite": 5,
+        "honor": 5,
         "tech": 3,
-        "versatility": 2
+        "versatility": -4
       }
     },
     {
@@ -176,17 +386,56 @@
         "Relentless",
         "Honor Code"
       ],
+      "weapons": [
+        {
+          "name": "Titan Fusion Cannon",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Hull-Fuser",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "-bOjE",
+        "2yNbr"
+      ],
       "tags": [
+        "tough",
+        "ranged",
+        "honorable",
+        "noble",
+        "vehicle",
         "balanced",
         "elite",
-        "ranged",
-        "tough",
-        "vehicle"
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "versatility": 2
+        "patience": 2,
+        "elite": 5,
+        "tech": 4,
+        "honor": 5,
+        "versatility": -4
       }
     },
     {
@@ -202,16 +451,63 @@
         "Tough(30)",
         "Honor Code"
       ],
+      "weapons": [
+        {
+          "name": "Twin Shoulder-Cannon",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Titan Harpoon Cannon",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(9)"
+          ]
+        },
+        {
+          "name": "Twin Hull-Fuser",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 10,
+          "special": [
+            "AP(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "2yNbr"
+      ],
       "tags": [
+        "tough",
+        "honorable",
+        "noble",
+        "vehicle",
         "balanced",
         "elite",
-        "tough",
-        "vehicle"
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 1,
+        "elite": 5,
+        "honor": 5,
         "tech": 3,
-        "versatility": 2
+        "versatility": -4
       }
     }
   ],

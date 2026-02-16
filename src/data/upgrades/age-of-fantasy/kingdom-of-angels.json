@@ -1,0 +1,2357 @@
+{
+  "factionId": "RgHxqAlAXnUuF3ty",
+  "factionName": "Kingdom of Angels",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "High Angel",
+      "forUnits": [
+        "r4Z1aBG"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Ice Halberd",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "rkD2UnlSkG",
+              "label": "Heavy Flame Spear (A6, Counter, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flame Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "Bane",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "5xWsxNU",
+              "label": "Heavy Ice Blade (A6, AP(1), Shred)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Ice Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Shred"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "-MqFiOC",
+              "label": "Heavy Flame Sword (A6, AP(1), Bane)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flame Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "PZDNYOvCc2",
+              "label": "Heavy Blessed Greatsword (A2, AP(4), Chop)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Blessed Greatsword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Chop"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "p1Bv-otH_r",
+              "label": "Great Weapon (A6, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "ZyNvWe0tny",
+              "label": "Heavy Greatbow (24\", A6), Heavy Hand Weapon (A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Greatbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": []
+                },
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "wwbJQ_zj9V",
+              "label": "Heavy Blessed Greatbow (24\", A2, AP(2), Chop), Heavy Hand Weapon (A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Blessed Greatbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Chop"
+                  ]
+                },
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "BmSVeE_xVJ",
+              "label": "Ember Strike (Crossing Strike(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ember Strike",
+                  "type": "item",
+                  "content": [
+                    "Crossing Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LjOwZUpG8w",
+              "label": "Frost Strike (Precision Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Frost Strike",
+                  "type": "item",
+                  "content": [
+                    "Precision Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "wce-yJhN",
+              "label": "Angelic Protector (Angelic Blessing Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Angelic Protector",
+                  "type": "item",
+                  "content": [
+                    "Angelic Blessing Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oSzafLDl",
+              "label": "Angelic Benefactor (Versatile Attack Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Angelic Benefactor",
+                  "type": "item",
+                  "content": [
+                    "Versatile Attack Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Champion",
+      "forUnits": [
+        "pLjX5pT"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lc_esyx",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Q_jw9EM",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "4sIj9te",
+              "label": "Blessed Greatsword (A1, AP(4), Chop)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blessed Greatsword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Chop"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "zHFQdCa",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "q4cPL5-",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "t_t_-ueYng",
+              "label": "Crossbow (24\", A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "waf0K6a",
+              "label": "War Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jPiDfWU",
+              "label": "Lion (Heavy Claws (A3, AP(1)), Fast, Fear(1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lion",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Fast",
+                    "Fear",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nSXHG",
+              "label": "Griffon (Rending Claws (A6, Rending), Armor(3), Fast, Fear(1), Flying, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 175
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Griffon",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Armor",
+                    "Fast",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4kO0_",
+              "label": "Dragon (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Armor(3), Breath Attack, Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 315
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dragon",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Stomp",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "pLjX5pT"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "lNxYTXGw2o",
+              "label": "Defender (Fortified Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Defender",
+                  "type": "item",
+                  "content": [
+                    "Fortified Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "fVzQW",
+              "label": "Captain (Furious Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Oejmg",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "bGPRFLOo0M",
+              "label": "Retributor (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Retributor",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zhvRD",
+              "label": "Battle Mage (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Battle Mage",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Ji72V",
+              "label": "Enforcer (Piercing Hunter Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "pLjX5pT",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Enforcer",
+                  "type": "item",
+                  "content": [
+                    "Piercing Hunter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Command Group",
+      "forUnits": [
+        "3oth-Og",
+        "Y0W0r2D",
+        "4rlqiFR",
+        "IOfFzfA",
+        "xF2Vi2D",
+        "rJxE8Vl",
+        "OAksFLS",
+        "DbWEaJG",
+        "63YFdHQ"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "AF3oFlL",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "3oth-Og",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Y0W0r2D",
+                  "cost": 5
+                },
+                {
+                  "unitId": "4rlqiFR",
+                  "cost": 5
+                },
+                {
+                  "unitId": "IOfFzfA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "xF2Vi2D",
+                  "cost": 5
+                },
+                {
+                  "unitId": "rJxE8Vl",
+                  "cost": 5
+                },
+                {
+                  "unitId": "OAksFLS",
+                  "cost": 5
+                },
+                {
+                  "unitId": "DbWEaJG",
+                  "cost": 5
+                },
+                {
+                  "unitId": "63YFdHQ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3Z8-dki",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "3oth-Og",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Y0W0r2D",
+                  "cost": 10
+                },
+                {
+                  "unitId": "4rlqiFR",
+                  "cost": 10
+                },
+                {
+                  "unitId": "IOfFzfA",
+                  "cost": 10
+                },
+                {
+                  "unitId": "xF2Vi2D",
+                  "cost": 10
+                },
+                {
+                  "unitId": "rJxE8Vl",
+                  "cost": 10
+                },
+                {
+                  "unitId": "OAksFLS",
+                  "cost": 10
+                },
+                {
+                  "unitId": "DbWEaJG",
+                  "cost": 10
+                },
+                {
+                  "unitId": "63YFdHQ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZstyZZo",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "3oth-Og",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Y0W0r2D",
+                  "cost": 5
+                },
+                {
+                  "unitId": "4rlqiFR",
+                  "cost": 5
+                },
+                {
+                  "unitId": "IOfFzfA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "xF2Vi2D",
+                  "cost": 10
+                },
+                {
+                  "unitId": "rJxE8Vl",
+                  "cost": 10
+                },
+                {
+                  "unitId": "OAksFLS",
+                  "cost": 10
+                },
+                {
+                  "unitId": "DbWEaJG",
+                  "cost": 5
+                },
+                {
+                  "unitId": "63YFdHQ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Infantry",
+      "forUnits": [
+        "Y0W0r2D"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "9Ii7GKa",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "Y0W0r2D",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "JeVsUpi",
+              "label": "Spear (A1, Counter)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "Y0W0r2D",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Angelic Artillery",
+      "forUnits": [
+        "KlrjNRp"
+      ],
+      "sections": [
+        {
+          "label": "Replace Repeater Bolt Thrower",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ig3WVHh",
+              "label": "Light Bolt Thrower (30\", A1, AP(3), Deadly(6))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "KlrjNRp",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light Bolt Thrower",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "OSQf0qiG",
+              "label": "Smite the Heretic (Slayer Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KlrjNRp",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smite the Heretic",
+                  "type": "item",
+                  "content": [
+                    "Slayer Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "xcsxB",
+      "hint": "Abbess",
+      "forUnits": [
+        "qcD_87C"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Blessed Glaive",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gpZ_wo8xuQ",
+              "label": "Heavy Flail (A3, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "S3I7A",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "uztuqZyJ_d",
+              "label": "Bow (24\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fQVsFiuh2B",
+              "label": "Scout Leader (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scout Leader",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "SDfMC",
+              "label": "Panther (Claws (A1), Fast, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Panther",
+                  "type": "item",
+                  "content": [
+                    "Claws",
+                    "Fast",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "SHN8G",
+              "label": "Panther Chariot (Claws (A2), Armor(3), Fast, Impact(4), Strider, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 135
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Panther Chariot",
+                  "type": "item",
+                  "content": [
+                    "Claws",
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Strider",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "LVp-gKnO",
+      "hint": "Burning Angels",
+      "forUnits": [
+        "rJxE8Vl"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Flame Spears",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "YhcvF_ArA_",
+              "label": "Flame Sword (A3, AP(1), Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rJxE8Vl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flame Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "CMazpE2dck",
+              "label": "Ember Strike (Crossing Strike(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rJxE8Vl",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ember Strike",
+                  "type": "item",
+                  "content": [
+                    "Crossing Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "xwbLHjhB",
+      "hint": "Frozen Angels",
+      "forUnits": [
+        "xF2Vi2D"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Ice Halberds",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "NuaW8myRG5",
+              "label": "Ice Blade (A3, AP(1), Shred)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "xF2Vi2D",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ice Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Shred"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "uOZszmN7_H",
+              "label": "Frost Strike (Precision Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "xF2Vi2D",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Frost Strike",
+                  "type": "item",
+                  "content": [
+                    "Precision Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lsyUNOg3",
+      "hint": "Panther Chariot",
+      "forUnits": [
+        "QMd_Zn8"
+      ],
+      "sections": [
+        {
+          "label": "Replace Blessed Glaive Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7gUSKWCmWl",
+              "label": "Halberd Crew (A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QMd_Zn8",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd Crew",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "SNbc27h73L",
+              "label": "Shortbow Crew (18\", A6)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QMd_Zn8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Hjcoow2z",
+              "label": "Smite the Heretic (Slayer Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QMd_Zn8",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smite the Heretic",
+                  "type": "item",
+                  "content": [
+                    "Slayer Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B42esrbN",
+      "hint": "Palace Guard",
+      "forUnits": [
+        "-RIuFfS"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Halberds",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "H_E9molUOq",
+              "label": "Blessed Greatsword (A1, AP(4), Chop)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-RIuFfS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blessed Greatsword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Chop"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "jTWRHVase4",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-RIuFfS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "P6ci8ipi",
+              "label": "Smite the Heretic (Slayer Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-RIuFfS",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smite the Heretic",
+                  "type": "item",
+                  "content": [
+                    "Slayer Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "65XvfLA9",
+      "hint": "Paladins",
+      "forUnits": [
+        "IOfFzfA"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Great Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "G3lB4QngNr",
+              "label": "Blessed Greatsword (A1, AP(4), Chop)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IOfFzfA",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blessed Greatsword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Chop"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "qtwwZVhN",
+      "hint": "Battle Angels",
+      "forUnits": [
+        "OAksFLS"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Blessed Greatswords",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lJ4Tg3EDry",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OAksFLS",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "b9OpDwm1AP",
+              "label": "Greatbow (24\", A3), Heavy Hand Weapon (A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OAksFLS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Greatbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": []
+                },
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "KOUlGpG6E-",
+              "label": "Blessed Greatbow (24\", A1, AP(2), Chop), Heavy Hand Weapon (A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OAksFLS",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blessed Greatbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Chop"
+                  ]
+                },
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "A5_c2weA",
+              "label": "Angelic Protector (Angelic Blessing Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OAksFLS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Angelic Protector",
+                  "type": "item",
+                  "content": [
+                    "Angelic Blessing Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "e84EWhwP",
+              "label": "Angelic Benefactor (Versatile Attack Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OAksFLS",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Angelic Benefactor",
+                  "type": "item",
+                  "content": [
+                    "Versatile Attack Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "0c9-c-n1",
+      "hint": "Panther Riders",
+      "forUnits": [
+        "DbWEaJG"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Shortbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tHCwQglakT",
+              "label": "Halberd (A1, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DbWEaJG",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "buDhQzvEJu",
+              "label": "Heavy Glaive (A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DbWEaJG",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "-WOgP56b",
+      "hint": "Penitents",
+      "forUnits": [
+        "3oth-Og"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rVEO1q4jho",
+              "label": "Sacrificial Devotee (Deathstrike(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "3oth-Og",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sacrificial Devotee",
+                  "type": "item",
+                  "content": [
+                    "Deathstrike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lUiXOm1w",
+      "hint": "Paladin Knights",
+      "forUnits": [
+        "63YFdHQ"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "QfL-NEkbD9",
+              "label": "Great Weapon (A1, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "63YFdHQ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Great Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7QNCqmgY7M",
+              "label": "Blessed Greatsword (A1, AP(4), Chop)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "63YFdHQ",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blessed Greatsword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Chop"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2iNsO9NV",
+              "label": "Smite the Heretic (Slayer Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "63YFdHQ",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smite the Heretic",
+                  "type": "item",
+                  "content": [
+                    "Slayer Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "rzds1i9r",
+      "hint": "Specialists - Angel",
+      "forUnits": [
+        "r4Z1aBG"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "5K5ScPI6",
+              "label": "Guardian (Fortified Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Guardian",
+                  "type": "item",
+                  "content": [
+                    "Fortified Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "1WfcrWJD",
+              "label": "Overseer (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Xf1oMapF",
+              "label": "Tyrant (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tyrant",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dReiaPfH",
+              "label": "Sorcerer (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gilx2izi",
+              "label": "Judge (Piercing Hunter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Judge",
+                  "type": "item",
+                  "content": [
+                    "Piercing Hunter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "G2iSeluL",
+              "label": "Master Sorcerer (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r4Z1aBG",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Ki-_c8f-",
+      "hint": "Specialists - Abbess",
+      "forUnits": [
+        "qcD_87C"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "B9n-NgNj",
+              "label": "Priest (Spell Conduit)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Priest",
+                  "type": "item",
+                  "content": [
+                    "Spell Conduit"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5O3G4LVC",
+              "label": "Captain (Furious Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xAQVOqPC",
+              "label": "Angelic Envoy (Angelic Blessing Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Angelic Envoy",
+                  "type": "item",
+                  "content": [
+                    "Angelic Blessing Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "fNm49Yf3",
+              "label": "Retributor (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Retributor",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "E7_DCJBm",
+              "label": "Enforcer (Piercing Hunter Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "qcD_87C",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Enforcer",
+                  "type": "item",
+                  "content": [
+                    "Piercing Hunter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

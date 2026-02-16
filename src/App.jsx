@@ -6,8 +6,8 @@ import { TAG_TO_DIMENSION } from './data/personality/tag-to-dimension';
 import { POINT_PRESETS } from './data/game/point-presets';
 import { DIMENSION_INFO } from './data/personality/dimension-info';
 import { getForceOrgLimits } from './helper/game/get-force-org-limits';
-import { extractTags } from './helper/unit-score/extract-tags';
 import { scoreUnit } from './helper/unit-score/score-unit';
+import { LoadoutPanel } from './components/LoadoutPanel';
 
 const factionUnitFiles = import.meta.glob('./data/factions/units/*/*.json', { eager: false });
 
@@ -16,10 +16,13 @@ const calculateMatchScore = (userScores, factionScores) => {
   let maxPossible = 0;
   Object.keys(userScores).forEach(dim => {
     const userVal = userScores[dim];
-    const factionVal = factionScores[dim];
+    const factionVal = factionScores[dim] || 0;
     const diff = Math.abs(userVal - factionVal);
-    totalScore += 10 - diff;
-    maxPossible += 10;
+    // Weight dimensions where faction has strong opinions more heavily
+    // This prevents neutral-profile factions from dominating moderate users
+    const importance = Math.max(1, Math.abs(factionVal));
+    totalScore += (10 - diff) * importance;
+    maxPossible += 10 * importance;
   });
   return Math.round((totalScore / maxPossible) * 100);
 };
@@ -110,7 +113,7 @@ export default function SynapseNodeInsights() {
     for (const arch of ARCHETYPES) {
       if (arch.conditions(userScores)) return arch;
     }
-    return ARCHETYPES.find(a => a.id === 'balanced-commander');
+    return ARCHETYPES.find(a => a.id === 'pragmatic-general');
   }, [userScores]);
 
   // Calculate faction matches
@@ -128,17 +131,25 @@ export default function SynapseNodeInsights() {
 
   
 
-  // Recommended units - computed from faction data
+  // Recommended units - computed from faction data with faction context
+  const factionContext = useMemo(() => {
+    if (!factionData) return null;
+    return {
+      factionType: factionData.factionType || 'mixed',
+      monoType: factionData.monoType || { isMonoType: false },
+    };
+  }, [factionData]);
+
   const recommendedUnits = useMemo(() => {
     if (!factionData?.units) return [];
     return factionData.units
       .map(unit => ({
         ...unit,
-        personalityScore: scoreUnit(unit, userScores),
-        tags: extractTags(unit)
+        personalityScore: scoreUnit(unit, userScores, factionContext),
+        tags: unit.tags || []
       }))
       .sort((a, b) => b.personalityScore - a.personalityScore);
-  }, [factionData, userScores]);
+  }, [factionData, userScores, factionContext]);
 
   // Build army list with force organization rules
   useEffect(() => {
@@ -154,7 +165,6 @@ export default function SynapseNodeInsights() {
     let heroCount = 0;
     
     // Sort units: heroes first (by personality), then non-heroes (by personality)
-    console.log(recommendedUnits)
     const heroes = recommendedUnits.filter(u => u.role === 'hero');
     const troops = recommendedUnits.filter(u => u.role !== 'hero');
     
@@ -742,15 +752,24 @@ export default function SynapseNodeInsights() {
                         </div>
                       </div>
                       <div className="flex flex-wrap gap-1 mt-2">
-                        {unit.rules?.filter(r => r.name !== 'hero').slice(0, 3).map((r, i) => (
+                        {unit.rules?.filter(r => {
+                          const name = typeof r === 'string' ? r : r.name || '';
+                          return name.toLowerCase() !== 'hero';
+                        }).slice(0, 3).map((r, i) => (
                           <span key={i} className={`px-1.5 py-0.5 rounded text-xs ${
                             gameSystem === 'grimdark-future' ? 'bg-red-900/30 text-red-400' : 'bg-emerald-900/30 text-emerald-400'
-                          }`}>{r.name}{r.rating ? `(${r.rating})` : ''}</span>
+                          }`}>{typeof r === 'string' ? r : `${r.name}${r.rating ? `(${r.rating})` : ''}`}</span>
                         ))}
                         {unit.tags?.slice(0, 3).map((t, i) => (
                           <span key={`t${i}`} className="px-1.5 py-0.5 bg-zinc-700/50 rounded text-xs text-zinc-500">{t}</span>
                         ))}
                       </div>
+                      <LoadoutPanel
+                        unit={unit}
+                        gameSystem={gameSystem}
+                        factionName={selectedFaction}
+                        userScores={userScores}
+                      />
                     </div>
                   ))}
                 </div>

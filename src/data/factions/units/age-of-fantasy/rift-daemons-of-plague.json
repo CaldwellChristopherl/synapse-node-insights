@@ -3,8 +3,13 @@
   "factionName": "Rift Daemons of Plague",
   "gameSystem": "age-of-fantasy",
   "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.847Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.323Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 50
+  },
   "units": [
     {
       "id": "d4ZOjeR",
@@ -21,28 +26,48 @@
         "Fearless",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Exalted Plague Hammer",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "tEWDivyl"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
+        "fearless",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 2,
-        "order": -3,
-        "tech": -3
+        "leadership": 5,
+        "elite": 5,
+        "faith": 5,
+        "purity": -5,
+        "humanity": -5,
+        "tech": -1
       }
     },
     {
@@ -59,26 +84,47 @@
         "Tough(12)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Great Plague Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "TR8Yy3Y4"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "order": -3,
-        "tech": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -95,24 +141,46 @@
         "Tough(6)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Plague Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "VWRrd",
+        "NV-_X09O"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
+        "daemon",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -128,23 +196,45 @@
         "Tough(3)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Plague Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Sword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "78g-I",
+        "htH7F"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
+        "corrupted",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -162,28 +252,50 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Plague Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Sword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "QBjx3",
+        "3fAzEmP_"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "hero",
-        "human",
-        "leader",
-        "melee",
         "mobile",
+        "hero",
+        "leader",
+        "tough",
         "scout",
-        "tough"
+        "corrupted",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -200,26 +312,40 @@
         "Tough(3)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Plague Scythe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "2S6soCLt"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "hero",
-        "human",
-        "leader",
         "magic",
-        "melee",
         "psychic",
+        "hero",
+        "leader",
         "tough",
+        "corrupted",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "mystery": 5,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -235,23 +361,38 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "FZSgS"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
-        "melee",
         "mobile",
-        "scout"
+        "scout",
+        "corrupted",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -265,18 +406,33 @@
       "rules": [
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1"
+      ],
       "tags": [
-        "chaotic",
-        "cheap",
         "corrupted",
-        "human",
-        "melee"
+        "daemon",
+        "melee",
+        "cheap"
       ],
       "dimensionScores": {
-        "elite": -2,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -2
       }
     },
     {
@@ -292,24 +448,42 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Scatter-Sling",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "qJABjJ0n"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
         "mobile",
-        "scout"
+        "scout",
+        "corrupted",
+        "daemon",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -323,19 +497,38 @@
       "rules": [
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Scatter-Sling",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "R0ZVK"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
         "corrupted",
-        "human",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -352,23 +545,37 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
-        "human",
-        "melee",
         "mobile",
+        "tough",
         "scout",
-        "tough"
+        "corrupted",
+        "horde",
+        "swarm",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
+        "elite": -2,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "collective": 5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -385,25 +592,38 @@
         "Scout",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Plague Sword",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Z3PEk"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
         "mobile",
-        "scout",
         "tough",
+        "scout",
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
+        "elite": 4,
         "subtlety": 3,
-        "order": -3,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -413,30 +633,53 @@
       "size": 3,
       "quality": 4,
       "defense": 3,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Strider",
         "Tough(3)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stinger",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "F1"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
         "mobile",
         "tough",
-        "veteran"
+        "corrupted",
+        "cavalry",
+        "fast",
+        "monster",
+        "daemon",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "order": -3,
-        "tech": -3
+        "elite": 4,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -453,24 +696,45 @@
         "Furious",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Toxic Maw",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "So9Sl4AD"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "aggressive",
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
         "patience": -3,
-        "order": -3,
-        "tech": -3
+        "elite": 4,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -486,22 +750,41 @@
         "Tough(9)",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "M1nAP"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "order": -3,
-        "tech": -3
+        "elite": 4,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -518,25 +801,52 @@
         "Fearless",
         "Plaguebound"
       ],
+      "weapons": [
+        {
+          "name": "Plague Cannon",
+          "range": 24,
+          "attacks": 9,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Plague Sword",
+          "range": 0,
+          "attacks": 18,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "daemon",
-        "elite",
+        "tough",
         "fearless",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "purity": -5,
+        "patience": 1,
+        "elite": 5,
         "faith": 5,
-        "order": -3,
-        "versatility": 2,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "versatility": 2
       }
     }
   ],

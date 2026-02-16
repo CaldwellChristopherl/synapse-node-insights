@@ -2,9 +2,14 @@
   "factionId": "RgHxqAlAXnUuF3ty",
   "factionName": "Kingdom of Angels",
   "gameSystem": "age-of-fantasy",
-  "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.663Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.086Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "elite",
+    "rolePercentage": 35
+  },
   "units": [
     {
       "id": "r4Z1aBG",
@@ -20,19 +25,35 @@
         "Tough(6)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Ice Halberd",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Rending",
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "rzds1i9r"
+      ],
       "tags": [
-        "elite",
         "flying",
+        "mobile",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "speed": 3,
-        "leadership": 3
+        "speed": 5,
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -48,17 +69,31 @@
         "Tough(3)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "C1"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -75,19 +110,34 @@
         "Tough(3)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Blessed Glaive",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Chop"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "xcsxB",
+        "Ki-_c8f-"
+      ],
       "tags": [
         "aggressive",
         "hero",
         "leader",
-        "melee",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
         "patience": -3,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -101,14 +151,28 @@
       "rules": [
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "-WOgP56b"
+      ],
       "tags": [
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
         "collective": 5
       }
@@ -124,13 +188,27 @@
       "rules": [
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "F1"
+      ],
       "tags": [
+        "melee",
         "cheap",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -2,
         "collective": 5
       }
@@ -147,14 +225,26 @@
         "Furious",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Flail",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
         "aggressive",
-        "cheap",
         "melee"
       ],
       "dimensionScores": {
-        "patience": -3,
-        "elite": -2
+        "patience": -4,
+        "tech": -1
       }
     },
     {
@@ -168,14 +258,26 @@
       "rules": [
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "65XvfLA9"
+      ],
       "tags": [
-        "balanced",
-        "melee",
-        "reliable"
+        "melee"
       ],
       "dimensionScores": {
-        "order": 2,
-        "versatility": 2
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -190,15 +292,29 @@
         "Tough(3)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Halberd",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B42esrbN"
+      ],
       "tags": [
-        "elite",
-        "human",
+        "tough",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": 3
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -208,21 +324,38 @@
       "size": 3,
       "quality": 3,
       "defense": 4,
-      "role": "fast-attack",
+      "role": "elite",
       "rules": [
         "Flying",
         "Tough(3)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Ice Halberd",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending",
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "xwbLHjhB",
+        "E1"
+      ],
       "tags": [
-        "elite",
         "flying",
+        "mobile",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -232,21 +365,38 @@
       "size": 3,
       "quality": 3,
       "defense": 4,
-      "role": "fast-attack",
+      "role": "elite",
       "rules": [
         "Flying",
         "Tough(3)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Flame Spear",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Counter",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "LVp-gKnO",
+        "E1"
+      ],
       "tags": [
-        "elite",
         "flying",
+        "mobile",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -256,21 +406,38 @@
       "size": 3,
       "quality": 3,
       "defense": 4,
-      "role": "fast-attack",
+      "role": "elite",
       "rules": [
         "Flying",
         "Tough(3)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Blessed Greatsword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Chop"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "qtwwZVhN",
+        "E1"
+      ],
       "tags": [
-        "elite",
         "flying",
+        "mobile",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -284,14 +451,30 @@
       "rules": [
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Crossbow",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "balanced",
-        "expendable",
-        "versatile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "versatility": 5
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -307,19 +490,34 @@
         "Furious",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Bow",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "scout",
+        "mobile",
         "aggressive",
         "balanced",
-        "mobile",
-        "scout",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "subtlety": 3,
         "speed": 3,
         "patience": -3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -335,15 +533,26 @@
         "Strider",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
         "fast",
-        "melee",
-        "mobile"
+        "mobile",
+        "monster",
+        "melee"
       ],
       "dimensionScores": {
         "speed": 5,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -360,21 +569,39 @@
         "Strider",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "0c9-c-n1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "beast",
-        "cavalry",
         "fast",
+        "aggressive",
         "mobile",
+        "cavalry",
+        "monster",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
+        "humanity": -3,
         "versatility": 2,
-        "tech": -3
+        "elite": 3
       }
     },
     {
@@ -390,17 +617,31 @@
         "Impact(1)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "lUiXOm1w"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
+        "aggressive",
         "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 5,
-        "patience": -3
+        "speed": 4,
+        "patience": -4,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -410,7 +651,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "elite",
       "rules": [
         "Fear(1)",
         "Flying",
@@ -418,18 +659,41 @@
         "Regeneration",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Flame Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Reliable",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "elite",
         "flying",
-        "melee",
-        "regeneration",
+        "mobile",
         "tough",
-        "vehicle"
+        "regeneration",
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 5,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -439,7 +703,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "elite",
       "rules": [
         "Fear(1)",
         "Flying",
@@ -447,18 +711,40 @@
         "Regeneration",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Ice Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "elite",
         "flying",
-        "melee",
-        "regeneration",
+        "mobile",
         "tough",
-        "vehicle"
+        "regeneration",
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3
+        "speed": 5,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -477,19 +763,41 @@
         "Tough(6)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Blessed Glaive Crew",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Chop"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "lsyUNOg3"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
-        "melee",
+        "aggressive",
         "mobile",
         "tough",
-        "veteran"
+        "cavalry",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -505,17 +813,37 @@
         "Tough(3)",
         "Angelic Blessing"
       ],
+      "weapons": [
+        {
+          "name": "Repeater Bolt Thrower",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "ranged",
+        "artillery",
         "static",
+        "ranged",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "patience": 5,
+        "tech": 3,
+        "elite": 4,
         "versatility": 2
       }
     }

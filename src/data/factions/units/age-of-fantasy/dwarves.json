@@ -2,9 +2,14 @@
   "factionId": "RJDq2ZD7wjlAcUVB",
   "factionName": "Dwarves",
   "gameSystem": "age-of-fantasy",
-  "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.552Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.853Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 37
+  },
   "units": [
     {
       "id": "rJMWIC1",
@@ -21,28 +26,45 @@
         "Fearless",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Champion Steam-Gun",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "n-rf0GIS",
+        "IwbewFdg"
+      ],
       "tags": [
-        "balanced",
-        "battlesuit",
-        "corrupted",
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
         "slow",
         "tough",
-        "vehicle"
+        "fearless",
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "tech": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": -2,
+        "patience": 1,
         "faith": 2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -61,26 +83,35 @@
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "tnOXbco7"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
         "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "slow",
-        "tough"
+        "tough",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
         "faith": 2,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -100,28 +131,38 @@
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Great Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "UGkOL2zB"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
         "fearless",
+        "aggressive",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "slow",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
         "faith": 2,
         "patience": -3,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -136,21 +177,32 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "D1",
+        "2sGfpUP0"
+      ],
       "tags": [
-        "cheap",
-        "corrupted",
-        "horde",
-        "human",
-        "melee",
         "slow",
+        "melee",
+        "cheap",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
+        "speed": -2,
+        "patience": -1,
+        "tech": -1,
         "elite": -2,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
-        "speed": -2
+        "collective": 5
       }
     },
     {
@@ -166,18 +218,30 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "F1"
+      ],
       "tags": [
-        "corrupted",
         "fearless",
-        "human",
-        "melee",
-        "slow"
+        "slow",
+        "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "faith": 2,
-        "speed": -2
+        "speed": -2,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -195,20 +259,30 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "ZrJ3ixPR",
+        "2sGfpUP0"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
         "fearless",
-        "human",
-        "melee",
-        "slow"
+        "aggressive",
+        "slow",
+        "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "faith": 2,
-        "patience": -3,
-        "speed": -2
+        "patience": -4,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -224,18 +298,34 @@
         "Sturdy",
         "Infiltrate"
       ],
+      "weapons": [
+        {
+          "name": "Pick",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "E1",
+        "2sGfpUP0"
+      ],
       "tags": [
-        "cheap",
-        "corrupted",
-        "human",
+        "slow",
+        "stealth",
+        "infiltrate",
         "melee",
-        "slow"
+        "cheap"
       ],
       "dimensionScores": {
-        "elite": -2,
-        "purity": -4,
-        "humanity": 3,
-        "speed": -2
+        "speed": -2,
+        "subtlety": 5,
+        "patience": -1,
+        "tech": -1,
+        "elite": -2
       }
     },
     {
@@ -250,16 +340,29 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Runic Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Quake"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "G1"
+      ],
       "tags": [
-        "corrupted",
-        "human",
+        "slow",
         "melee",
-        "slow"
+        "armored"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
-        "speed": -2
+        "speed": -2,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -274,18 +377,29 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "corrupted",
-        "human",
-        "melee",
         "slow",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": -2
+        "speed": -2,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -302,22 +416,33 @@
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Great Mace",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "NSw3O"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
-        "mobile",
         "slow",
+        "mobile",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 1,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -327,31 +452,48 @@
       "size": 3,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "elite",
       "rules": [
         "Slow",
         "Tough(3)",
         "Fearless",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Steam-Gun",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "battlesuit",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
         "slow",
         "tough",
-        "vehicle"
+        "fearless",
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 5,
-        "purity": -4,
-        "humanity": 3,
         "speed": -2,
+        "patience": 1,
+        "elite": 5,
         "faith": 2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -367,15 +509,31 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "I1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "human",
-        "slow"
+        "slow",
+        "balanced"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "speed": -2,
         "versatility": 2
       }
@@ -393,17 +551,31 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Throwing Picks",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "J1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "human",
-        "mobile",
         "scout",
-        "slow"
+        "mobile",
+        "slow",
+        "balanced"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "subtlety": 3,
         "speed": 1,
         "versatility": 2
@@ -421,19 +593,36 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Fire Rifle",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "K1",
+        "C1"
+      ],
       "tags": [
+        "slow",
         "balanced",
-        "corrupted",
         "elite",
-        "human",
-        "slow"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -443,7 +632,7 @@
       "size": 5,
       "quality": 4,
       "defense": 5,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Fearless",
         "Furious",
@@ -451,24 +640,35 @@
         "Ravage(1)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "ZrJ3ixPR",
+        "2sGfpUP0"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "corrupted",
         "fearless",
-        "human",
+        "aggressive",
+        "cavalry",
+        "fast",
+        "monster",
         "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3,
         "faith": 2,
-        "patience": -3,
-        "tech": -3
+        "patience": -4,
+        "speed": 5,
+        "humanity": -3,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -478,30 +678,49 @@
       "size": 3,
       "quality": 3,
       "defense": 3,
-      "role": "elite",
+      "role": "fast-attack",
       "rules": [
         "Impact(2)",
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "L1"
+      ],
       "tags": [
         "aggressive",
-        "beast",
+        "tough",
         "cavalry",
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "fast",
         "robot",
-        "tough"
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 1,
-        "speed": 3,
-        "tech": 1,
-        "patience": -3
+        "patience": -3,
+        "elite": 5,
+        "speed": 5,
+        "tech": 3,
+        "humanity": -5
       }
     },
     {
@@ -511,30 +730,48 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Flying",
         "Tough(6)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Flamethrower",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
-        "aircraft",
-        "balanced",
-        "corrupted",
         "fast",
         "flying",
-        "human",
+        "mobile",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "tech": 5,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -552,23 +789,39 @@
         "Tough(6)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Burst Gun",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "aircraft",
-        "balanced",
-        "corrupted",
         "fast",
         "flying",
-        "human",
+        "mobile",
         "tough",
+        "aircraft",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 5,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 5,
         "versatility": 2
       }
     },
@@ -587,25 +840,43 @@
         "Fearless",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "melee",
-        "monster",
-        "robot",
         "slow",
-        "tough"
+        "tough",
+        "fearless",
+        "robot",
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -3,
-        "purity": -4,
-        "tech": 1,
         "speed": -2,
-        "faith": 2
+        "elite": 5,
+        "faith": 2,
+        "tech": 3,
+        "humanity": -5
       }
     },
     {
@@ -624,24 +895,40 @@
         "Tough(18)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Titan Fists",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "corrupted",
-        "elite",
         "fearless",
-        "human",
-        "melee",
-        "mobile",
         "slow",
+        "mobile",
         "tough",
-        "vehicle"
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "faith": 2,
-        "speed": 1
+        "speed": 1,
+        "elite": 5,
+        "tech": 2
       }
     },
     {
@@ -651,30 +938,56 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "monster",
       "rules": [
         "Flying",
         "Sturdy",
         "Tough(24)"
       ],
+      "weapons": [
+        {
+          "name": "Great Burst Cannon",
+          "range": 18,
+          "attacks": 12,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Steam-Gun Array",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "KaojFw0M"
+      ],
       "tags": [
-        "aircraft",
-        "balanced",
-        "beast",
-        "corrupted",
-        "elite",
         "flying",
-        "human",
-        "robot",
+        "mobile",
         "tough",
-        "vehicle"
+        "robot",
+        "monster",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 1,
-        "tech": 5,
         "speed": 5,
+        "patience": 1,
+        "elite": 5,
+        "tech": 4,
+        "humanity": -5,
         "versatility": 2
       }
     },
@@ -691,21 +1004,37 @@
         "Sturdy",
         "Artillery"
       ],
+      "weapons": [
+        {
+          "name": "Burst Cannon",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "O1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "defensive",
-        "human",
-        "ranged",
-        "static",
         "tough",
+        "artillery",
+        "static",
+        "ranged",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "patience": 5,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -725,26 +1054,33 @@
         "Unique",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Hammer of Konaghald",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
-        "elite",
         "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "slow",
-        "tough"
+        "tough",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
         "faith": 2,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "tech": -1
       }
     }
   ],

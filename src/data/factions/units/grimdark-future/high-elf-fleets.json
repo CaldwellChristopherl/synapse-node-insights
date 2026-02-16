@@ -2,9 +2,14 @@
   "factionId": "7i7blhft75q9zfdc",
   "factionName": "High Elf Fleets",
   "gameSystem": "grimdark-future",
-  "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.231Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.078Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 32
+  },
   "units": [
     {
       "id": "9zCsahE",
@@ -19,17 +24,32 @@
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "B1",
+        "D1"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
+        "defensive",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "tech": -1
       }
     },
     {
@@ -45,17 +65,32 @@
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "C1",
+        "U5VSVHH-"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "tough",
+        "defensive",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "tech": -1
       }
     },
     {
@@ -70,16 +105,38 @@
         "Caster Group",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Shard Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "Energy Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "balanced",
         "magic",
         "psychic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "mystery": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -93,14 +150,30 @@
       "rules": [
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Shardgun",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "reliable",
-        "versatile"
+        "balanced"
       ],
       "dimensionScores": {
-        "versatility": 5,
-        "order": 2
+        "versatility": 2
       }
     },
     {
@@ -114,14 +187,27 @@
       "rules": [
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Energy Sword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "melee",
-        "reliable"
+        "defensive",
+        "melee"
       ],
       "dimensionScores": {
-        "order": 2,
-        "versatility": 2
+        "patience": 2,
+        "tech": -1
       }
     },
     {
@@ -136,10 +222,29 @@
         "Scout",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Shard Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
+        "scout",
         "mobile",
-        "scout"
+        "balanced"
       ],
       "dimensionScores": {
         "subtlety": 3,
@@ -160,15 +265,37 @@
         "Flying",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Laser Pistol",
+          "range": 9,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "elite",
+        "ambush",
+        "mobile",
         "flying",
-        "melee",
-        "mobile"
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 5
+        "subtlety": 3,
+        "speed": 5,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -183,15 +310,37 @@
         "Strider",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Shard Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "Energy Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
+        "mobile",
         "balanced",
-        "elite",
-        "mobile"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -207,18 +356,40 @@
         "Stealth",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Shard Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "Stinger Blade",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Reliable",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "balanced",
-        "elite",
-        "mobile",
         "scout",
-        "stealth"
+        "mobile",
+        "stealth",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "subtlety": 5,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -234,15 +405,36 @@
         "Teleport",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Web Spinner",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
+        "ambush",
+        "mobile",
         "balanced",
-        "elite",
-        "mobile"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -256,14 +448,34 @@
       "rules": [
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
         "balanced",
-        "elite",
-        "versatile"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "versatility": 5
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -280,18 +492,39 @@
         "Strider",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Sniper Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "ZWNjt"
+      ],
       "tags": [
-        "balanced",
-        "mobile",
         "scout",
+        "mobile",
         "stealth",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "subtlety": 5,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -306,14 +539,36 @@
         "Relentless",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Surge Rockets",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
+        "ranged",
         "balanced",
-        "elite",
-        "ranged"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "versatility": 2
+        "patience": 1,
+        "tech": 1,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -330,18 +585,39 @@
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Distortion Gun",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "O1"
+      ],
       "tags": [
+        "fearless",
+        "ranged",
+        "tough",
         "balanced",
         "elite",
-        "fearless",
-        "monster",
-        "ranged",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "faith": 2,
-        "humanity": -4,
+        "patience": 2,
+        "tech": 1,
+        "elite": 5,
         "versatility": 2
       }
     },
@@ -359,19 +635,33 @@
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Killing Axe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "61rpe"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fearless",
+        "aggressive",
+        "tough",
+        "defensive",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "faith": 2,
-        "humanity": -4,
-        "patience": -3
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -381,26 +671,53 @@
       "size": 3,
       "quality": 3,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Strider",
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Mounted Shardguns",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "Shard Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "P1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "elite",
         "fast",
         "mobile",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -411,7 +728,7 @@
       "size": 3,
       "quality": 3,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Impact(1)",
@@ -419,21 +736,47 @@
         "Tough(3)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Mounted Shardguns",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "Shard Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "XLPem"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "cavalry",
-        "elite",
         "fast",
+        "aggressive",
         "mobile",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
-        "patience": -3,
+        "patience": -2,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -453,20 +796,39 @@
         "Transport(11)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Mounted Shardguns",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Crack"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "C2",
+        "wrOYo"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "transport",
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -484,20 +846,45 @@
         "Tough(12)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Shard Cannon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Crack"
+          ]
+        },
+        {
+          "name": "Mounted Shardguns",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Crack"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "D2",
+        "wrOYo"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 5,
+        "tech": 4
       }
     },
     {
@@ -507,7 +894,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Impact(3)",
@@ -515,20 +902,45 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Shard Cannon",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Crack"
+          ]
+        },
+        {
+          "name": "Mounted Shardguns",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Crack"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Q1",
+        "A2",
+        "wrOYo"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 5,
+        "tech": 4
       }
     },
     {
@@ -544,19 +956,44 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Shard Cannon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Crack"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "wrOYo",
+        "ghKvx"
+      ],
       "tags": [
+        "scout",
+        "mobile",
+        "tough",
+        "vehicle",
         "balanced",
         "elite",
-        "mobile",
-        "scout",
-        "tough",
-        "vehicle"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "subtlety": 3,
         "speed": 3,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -567,24 +1004,55 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Fear(2)",
         "Fearless",
         "Tough(12)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Shardgun",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Crack"
+          ]
+        },
+        {
+          "name": "Great Claw",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "fearless",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "faith": 2,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -602,17 +1070,39 @@
         "Tough(24)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Dual Titan Claws",
+          "range": 0,
+          "attacks": 24,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2"
+      ],
       "tags": [
-        "elite",
         "fearless",
-        "melee",
         "tough",
-        "vehicle"
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "faith": 2
+        "faith": 2,
+        "elite": 5,
+        "tech": 2
       }
     },
     {
@@ -622,7 +1112,7 @@
       "size": 1,
       "quality": 2,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Fear(3)",
         "Regeneration",
@@ -630,18 +1120,41 @@
         "Fearless",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Flame Sword",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "AP(2)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "OXRlb"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
         "regeneration",
         "tough",
-        "vehicle"
+        "fearless",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "faith": 2
+        "elite": 5,
+        "faith": 2,
+        "tech": 2
       }
     },
     {
@@ -658,21 +1171,35 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Distortion Guns",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(3)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aircraft",
-        "elite",
         "flying",
+        "vehicle",
         "magic",
         "psychic",
-        "ranged",
         "tough",
-        "vehicle"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "mystery": 5
+        "mystery": 5,
+        "patience": 2,
+        "elite": 5
       }
     },
     {
@@ -688,20 +1215,43 @@
         "Tough(6)",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Pulse Laser",
+          "range": 36,
+          "attacks": 6,
+          "special": [
+            "AP(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Twin Shatter Cannon",
+          "range": 36,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H2"
+      ],
       "tags": [
         "aircraft",
-        "defensive",
-        "elite",
         "flying",
-        "ranged",
+        "vehicle",
         "tough",
-        "vehicle"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "patience": 3
+        "patience": 2,
+        "elite": 5
       }
     },
     {
@@ -711,22 +1261,47 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "elite",
+      "role": "heavy-support",
       "rules": [
         "Artillery",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Burst Mortar",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Artillery Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F2",
+        "wrOYo"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "elite",
-        "ranged",
+        "artillery",
         "static",
-        "tough"
+        "ranged",
+        "tough",
+        "indirect",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "patience": 5,
+        "tech": 3,
+        "elite": 5,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -744,17 +1319,47 @@
         "Unique",
         "Highborn"
       ],
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Blast(3)",
+            "Limited"
+          ]
+        },
+        {
+          "name": "Shred Blaster Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Energy Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     }

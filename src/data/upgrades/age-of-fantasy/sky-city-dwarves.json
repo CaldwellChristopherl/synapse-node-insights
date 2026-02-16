@@ -1,0 +1,2060 @@
+{
+  "factionId": "AcDXPPXmWrgHChlS",
+  "factionName": "Sky-City Dwarves",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Sky-Captain",
+      "forUnits": [
+        "PHMSpuh"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "9texG_I",
+              "label": "Great Hammer (A1, AP(1), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "v57USkG",
+              "label": "Sky-Pike (A3, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Pike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Flame Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Z8BtT7B",
+              "label": "Twin Sky-Pistol (12\", A2, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Sky-Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "BCu5Vz4",
+              "label": "Chem-Gun (12\", A1, Blast(3), Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chem-Gun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Bane",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "Bw3VRXRS5M",
+              "label": "Twin Sky-Rifle (24\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Sky-Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Balloon Master",
+      "forUnits": [
+        "vzAMpIv"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Sky-Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "bvw9nkL",
+              "label": "Rivet Gun (12\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rivet Gun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Chain-Sword",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "hL6A6",
+              "label": "Sky-Pike (A4, AP(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Pike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Aether-Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mrSYPDDvsW",
+              "label": "Cannon-Gun (18\", A1, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cannon-Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Crew",
+      "forUnits": [
+        "d4D40BG"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Sky-Pistol and Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tJuOF",
+              "label": "Sky-Pike (A2, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "d4D40BG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Pike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Sky-Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "eCtnXvb",
+              "label": "Hook Rifle (24\", A1, Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "d4D40BG",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hook Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "7D0Gdfs",
+              "label": "Volley Rifle (18\", A4, AP(1))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "d4D40BG",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volley Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Sky-Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "bt6Ud8r",
+              "label": "Flame Pistol (6\", A1, Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "d4D40BG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flame Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "Kg84Sk2",
+              "label": "Twin Sky-Pistol (12\", A2, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "d4D40BG",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Sky-Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "47NNNVFr",
+              "label": "Fine-Tuned Weapons (Versatile Reach)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "d4D40BG",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fine-Tuned Weapons",
+                  "type": "item",
+                  "content": [
+                    "Versatile Reach"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Gunners",
+      "forUnits": [
+        "a8sLHLr"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Sky-Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "LGNbXEa",
+              "label": "Twin Sky-Rifle (24\", A2, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "a8sLHLr",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Sky-Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "aRQy7YNXPc",
+              "label": "Aether-Gun (18\", A3, Scratch)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "a8sLHLr",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether-Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Scratch"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Balloon Wardens",
+      "forUnits": [
+        "UdcIwMi"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Twin Sky-Pistol and Sky-Pike",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "RILTgax",
+              "label": "Drill Shooter (18\", A1, AP(2), Deadly(3)), Knife (A2)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "UdcIwMi",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drill Shooter",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "mX3F84n",
+              "label": "Heavy Hook Rifle (24\", A1, AP(1), Blast(3)), Knife (A2)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "UdcIwMi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hook Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                },
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "ZG7LwqQ",
+              "label": "Volley Rifle (18\", A4, AP(1)), Knife (A2)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "UdcIwMi",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volley Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "jfoH1R3",
+              "label": "Grappling Hook Launcher (18\", A3, AP(1)), Knife (A2), Grapple (Hit & Run Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UdcIwMi",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grappling Hook Launcher",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Grapple",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Twin Sky-Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "SsWXS_h",
+              "label": "Sky-Charges (Crossing Barrage(1))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "UdcIwMi",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Charges",
+                  "type": "item",
+                  "content": [
+                    "Crossing Barrage"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Nkjpd3H",
+              "label": "Sky-Mines (Counter-Attack Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "UdcIwMi",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Mines",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sb9dXF06",
+              "label": "Fine-Tuned Weapons (Versatile Reach)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UdcIwMi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fine-Tuned Weapons",
+                  "type": "item",
+                  "content": [
+                    "Versatile Reach"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Balloon Riggers",
+      "forUnits": [
+        "WumZjo6"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Rivet Gun and Chain-Sword",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "RnHdZNy",
+              "label": "Drill Shooter (18\", A1, AP(2), Deadly(3)), Knife (A2)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "WumZjo6",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Drill Shooter",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "MMLo7Cb",
+              "label": "Heavy Hook Rifle (24\", A1, AP(1), Blast(3)), Knife (A2)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "WumZjo6",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Heavy Hook Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "Y64SIGk",
+              "label": "Grappling Hook Launcher (18\", A3, AP(1)), Knife (A2), Grapple (Hit & Run Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WumZjo6",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grappling Hook Launcher",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Grapple",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "1RYvCTu",
+              "label": "Volley Rifle (18\", A4, AP(1)), Knife (A2)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "WumZjo6",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Volley Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zKS1LevzeB",
+              "label": "Aether-Cloud Generator (Casting Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WumZjo6",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether-Cloud Generator",
+                  "type": "item",
+                  "content": [
+                    "Casting Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0VBRh8d",
+              "label": "Sky-Rigger (Mend)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "WumZjo6",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Rigger",
+                  "type": "item",
+                  "content": [
+                    "Mend"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Sky-Gunboat",
+      "forUnits": [
+        "zhS4dQT"
+      ],
+      "sections": [
+        {
+          "label": "Replace Deck Gun and Bombing Run",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Rx2sbbj",
+              "label": "Drill Cannon (18\", A1, AP(2), Deadly(6))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "zhS4dQT",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drill Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "ySzYfLOPY5",
+              "label": "Aether-Cannon (18\", A6, Scratch)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "zhS4dQT",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether-Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Scratch"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "kSfhJ",
+              "label": "Sky-Cannon (24\", A2, AP(1), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "zhS4dQT",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sky-Barrage",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "dX1f6tIA",
+              "label": "Cargo Hold (Transport(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "zhS4dQT",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cargo Hold",
+                  "type": "item",
+                  "content": [
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "VDTYDW5J",
+              "label": "Aether-Cloud Generator (Casting Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "zhS4dQT",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether-Cloud Generator",
+                  "type": "item",
+                  "content": [
+                    "Casting Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Sky-Frigate",
+      "forUnits": [
+        "BBcwECv"
+      ],
+      "sections": [
+        {
+          "label": "Replace Bombing Run",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "f7vTbR0q95",
+              "label": "Aether-Cannon (18\", A6, Scratch)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BBcwECv",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether-Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Scratch"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "fk_JWLY",
+              "label": "Heavy Sky-Cannon (24\", A2, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "BBcwECv",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Sky-Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "v5LC2",
+              "label": "Heavy Hook Cannon (24\", A2, AP(2), Blast(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "BBcwECv",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hook Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sky-Barrage",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "0hk1jy_1",
+              "label": "Cargo Hold (Transport(11))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BBcwECv",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cargo Hold",
+                  "type": "item",
+                  "content": [
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N1",
+      "hint": "Sky-Ironclad",
+      "forUnits": [
+        "wBqS9bm"
+      ],
+      "sections": [
+        {
+          "label": "Replace Bombing Run",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "MRmJz",
+              "label": "Volley Cannon (18\", A6, AP(1))",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "wBqS9bm",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volley Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Ys7cCzo",
+              "label": "Heavy Hook Cannon (24\", A2, AP(2), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wBqS9bm",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hook Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "2_Wr8d4",
+              "label": "Great Sky-Cannon (24\", A2, AP(4), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "wBqS9bm",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Sky-Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sky-Barrage",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "uLoXU2C3",
+              "label": "Cargo Hold (Transport(16))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wBqS9bm",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cargo Hold",
+                  "type": "item",
+                  "content": [
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Hr9hf",
+      "hint": "Heavy Gunners",
+      "forUnits": [
+        "HxPMIeY"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Flame-Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ASgZR",
+              "label": "Organ-Gun (12\", A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "HxPMIeY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Organ-Gun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Zy4TU",
+              "label": "Cannon-Gun (18\", A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "HxPMIeY",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cannon-Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "4gFjTIjYXM",
+              "label": "Aether-Gun (18\", A3, Scratch)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "HxPMIeY",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether-Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Scratch"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "XDTs_",
+              "label": "Mortar-Gun (24\", A1, Blast(3), Indirect)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "HxPMIeY",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mortar-Gun",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M7Doa-LE",
+      "hint": "Specialists - Captain",
+      "forUnits": [
+        "PHMSpuh"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "24pak1bu",
+              "label": "Navigator (Hit & Run Shooter Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Navigator",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "x_rwdY1I",
+              "label": "Admiral (Buccaneer Boost Aura)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Admiral",
+                  "type": "item",
+                  "content": [
+                    "Buccaneer Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zRaMxDiL",
+              "label": "Sky-Seer (Resistance Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Seer",
+                  "type": "item",
+                  "content": [
+                    "Resistance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zMXeXyhK",
+              "label": "Aether Master (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether Master",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iHVh4xSS",
+              "label": "Engine Master (Mend)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Engine Master",
+                  "type": "item",
+                  "content": [
+                    "Mend"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "KUz3_Tc7",
+              "label": "Master Chemist (Rending when Shooting Aura)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Chemist",
+                  "type": "item",
+                  "content": [
+                    "Rending when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "O_6Wpdq1",
+              "label": "Fine-Tuned Weapons (Versatile Reach)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "PHMSpuh",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fine-Tuned Weapons",
+                  "type": "item",
+                  "content": [
+                    "Versatile Reach"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "S2bCarml",
+      "hint": "Specialists - Balloon Master",
+      "forUnits": [
+        "vzAMpIv"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "dswaiyC1",
+              "label": "Admiral (Buccaneer Boost Aura)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Admiral",
+                  "type": "item",
+                  "content": [
+                    "Buccaneer Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PDaHHtms",
+              "label": "Code Enforcer (Shred in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Code Enforcer",
+                  "type": "item",
+                  "content": [
+                    "Shred in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4QFVLc6f",
+              "label": "Sky-Seer (Resistance Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sky-Seer",
+                  "type": "item",
+                  "content": [
+                    "Resistance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CGozQzcp",
+              "label": "Engine Master (Mend)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Engine Master",
+                  "type": "item",
+                  "content": [
+                    "Mend"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oVcUyFkD",
+              "label": "Master Chemist (Rending when Shooting Aura)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Chemist",
+                  "type": "item",
+                  "content": [
+                    "Rending when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "CMS4yeY9",
+              "label": "Fine-Tuned Weapons (Versatile Reach)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vzAMpIv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fine-Tuned Weapons",
+                  "type": "item",
+                  "content": [
+                    "Versatile Reach"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "kMOacEuq",
+      "hint": "Balloon Hunters",
+      "forUnits": [
+        "fmWhps6"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "B8MAvrOTQT",
+              "label": "Twin Sky-Rifle (24\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fmWhps6",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Sky-Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "x-Py4-76",
+              "label": "Grappling Hook Pistol (12\", A3, AP(1)), Grapple (Hit & Run Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fmWhps6",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grappling Hook Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Grapple",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "b5ZWr-9_",
+              "label": "Aether-Cloud Generator (Casting Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fmWhps6",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether-Cloud Generator",
+                  "type": "item",
+                  "content": [
+                    "Casting Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

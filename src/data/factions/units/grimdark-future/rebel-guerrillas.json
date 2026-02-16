@@ -2,9 +2,14 @@
   "factionId": "5wbcv465hacdwvkb",
   "factionName": "Rebel Guerrillas",
   "gameSystem": "grimdark-future",
-  "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.444Z",
+  "factionType": "human",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.389Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 31
+  },
   "units": [
     {
       "id": "oeM_chu",
@@ -20,19 +25,35 @@
         "Tough(6)",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Massive Fist",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "B1"
+      ],
       "tags": [
         "aggressive",
         "hero",
         "leader",
-        "melee",
         "tough",
+        "human",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
         "patience": -3,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -48,17 +69,37 @@
         "Guerrilla",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Leader Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "UUV6r5IZ"
+      ],
       "tags": [
-        "balanced",
         "hero",
         "leader",
         "tough",
+        "human",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -73,16 +114,35 @@
       "rules": [
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
+        "human",
         "balanced",
         "expendable",
         "horde",
         "swarm"
       ],
       "dimensionScores": {
+        "humanity": 3,
+        "versatility": 2,
         "elite": -3,
-        "collective": 5,
-        "versatility": 2
+        "collective": 5
       }
     },
     {
@@ -96,7 +156,25 @@
       "rules": [
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
+        "human",
         "balanced",
         "cheap",
         "expendable",
@@ -104,9 +182,10 @@
         "swarm"
       ],
       "dimensionScores": {
+        "humanity": 3,
+        "versatility": 2,
         "elite": -5,
-        "collective": 5,
-        "versatility": 2
+        "collective": 5
       }
     },
     {
@@ -122,18 +201,37 @@
         "Stealth",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
-        "mobile",
         "scout",
-        "stealth"
+        "mobile",
+        "stealth",
+        "human",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "subtlety": 5,
         "speed": 3,
-        "versatility": 2
+        "humanity": 3,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -148,15 +246,34 @@
         "Fearless",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "sauFF"
+      ],
       "tags": [
-        "balanced",
         "fearless",
+        "human",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "faith": 2,
-        "versatility": 2
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -172,17 +289,38 @@
         "Counter-Attack",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Shotgun",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
+        "ambush",
+        "mobile",
         "human",
-        "mobile"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "humanity": 3,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -197,13 +335,33 @@
         "Surprise Piercing Shot",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Sniper Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "human",
         "balanced",
-        "expendable",
-        "versatile"
+        "expendable"
       ],
       "dimensionScores": {
-        "versatility": 5,
+        "humanity": 3,
+        "versatility": 2,
         "elite": -3
       }
     },
@@ -220,15 +378,31 @@
         "Tough(3)",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Fist",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "LXLIb_zz"
+      ],
       "tags": [
         "aggressive",
-        "melee",
         "tough",
+        "human",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -244,15 +418,41 @@
         "Tough(3)",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Light Cluster-GL",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Precise",
+            "Thrash"
+          ]
+        },
+        {
+          "name": "Wrist-Blade",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
+        "slow",
+        "tough",
+        "human",
         "balanced",
         "elite",
-        "slow",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": -2,
+        "patience": 1,
+        "elite": 5,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -263,24 +463,44 @@
       "size": 3,
       "quality": 5,
       "defense": 5,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Burst Pistol",
+          "range": 12,
+          "attacks": 3,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "expendable",
         "fast",
         "tough",
-        "vehicle"
+        "vehicle",
+        "cavalry",
+        "human",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": -2,
+        "tech": 3,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -291,7 +511,7 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Impact(3)",
@@ -299,20 +519,36 @@
         "Tough(6)",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Twin Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "K1"
+      ],
       "tags": [
-        "aggressive",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -329,19 +565,43 @@
         "Tough(6)",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Light Cluster Cannon",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "Precise",
+            "Thrash"
+          ]
+        },
+        {
+          "name": "Pintle-Machinegun",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "L1"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
+        "aggressive",
         "tough",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -357,14 +617,39 @@
         "Tough(6)",
         "Guerrilla"
       ],
+      "weapons": [
+        {
+          "name": "Super-Heavy Fusion Rifle",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "M1"
+      ],
       "tags": [
-        "balanced",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
         "tech": 3,
         "versatility": 2
       }
@@ -382,18 +667,44 @@
         "Tough(6)",
         "Transport(11)"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Minigun",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
         "aircraft",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "veteran"
+        "tough",
+        "transport",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "tech": 5,
-        "speed": 5
+        "speed": 5,
+        "patience": 2,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1
       }
     }
   ],

@@ -2,9 +2,14 @@
   "factionId": "Ir5XtqTM8JS3YEAJ",
   "factionName": "Volcanic Dwarves",
   "gameSystem": "age-of-fantasy",
-  "factionType": "primitive",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.917Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.460Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 67
+  },
   "units": [
     {
       "id": "9_552fZ",
@@ -22,25 +27,37 @@
         "Tough(3)",
         "Drakesworn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "Sqic0bLK"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fearless",
+        "aggressive",
         "hero",
         "leader",
-        "melee",
-        "monster",
         "slow",
-        "tough"
+        "tough",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
         "faith": 2,
-        "humanity": -4,
         "patience": -3,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -59,25 +76,35 @@
         "Tough(3)",
         "Drakesworn"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "yCGL_",
+        "zE0-vhqp"
+      ],
       "tags": [
-        "aggressive",
         "fearless",
+        "aggressive",
         "hero",
         "leader",
-        "melee",
-        "monster",
         "slow",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
         "faith": 2,
-        "humanity": -4,
         "patience": -3,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -95,21 +122,35 @@
         "Slow",
         "Drakesworn"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "D1"
+      ],
       "tags": [
-        "aggressive",
-        "cheap",
         "fearless",
-        "horde",
-        "melee",
+        "aggressive",
+        "defensive",
         "slow",
+        "melee",
+        "cheap",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -2,
-        "collective": 5,
         "faith": 2,
-        "patience": -3,
-        "speed": -2
+        "patience": -1,
+        "speed": -2,
+        "tech": -1,
+        "elite": -2,
+        "collective": 5
       }
     },
     {
@@ -127,16 +168,29 @@
         "Slow",
         "Drakesworn"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "jy_D3rKL"
+      ],
       "tags": [
-        "aggressive",
         "fearless",
-        "melee",
-        "slow"
+        "aggressive",
+        "slow",
+        "melee"
       ],
       "dimensionScores": {
         "faith": 2,
-        "patience": -3,
-        "speed": -2
+        "patience": -4,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -154,19 +208,31 @@
         "Slow",
         "Drakesworn"
       ],
+      "weapons": [
+        {
+          "name": "Spear",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Counter"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "uXsoIi8b"
+      ],
       "tags": [
-        "aggressive",
         "fearless",
-        "human",
-        "melee",
+        "aggressive",
         "regeneration",
-        "slow"
+        "slow",
+        "melee"
       ],
       "dimensionScores": {
-        "humanity": 3,
         "faith": 2,
-        "patience": -3,
-        "speed": -2
+        "patience": -4,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -183,11 +249,31 @@
         "Slow",
         "Drakesworn"
       ],
+      "weapons": [
+        {
+          "name": "Throwing Axes",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "oBJLnX6b"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
         "fearless",
-        "slow"
+        "aggressive",
+        "slow",
+        "balanced"
       ],
       "dimensionScores": {
         "faith": 2,
@@ -210,19 +296,38 @@
         "Slow",
         "Drakesworn"
       ],
+      "weapons": [
+        {
+          "name": "Lava Long-Shooter",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Pulverize"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
         "fearless",
+        "aggressive",
         "slow",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "faith": 2,
         "patience": -3,
         "speed": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -239,16 +344,30 @@
         "Drakesworn",
         "Regeneration"
       ],
+      "weapons": [
+        {
+          "name": "Fire Strikes",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Tju24RZu"
+      ],
       "tags": [
         "aggressive",
-        "melee",
-        "regeneration",
         "tough",
+        "regeneration",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -258,7 +377,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "monster",
       "rules": [
         "Fear(1)",
         "Fearless",
@@ -266,19 +385,43 @@
         "Tough(6)",
         "Drakesworn"
       ],
+      "weapons": [
+        {
+          "name": "Spit Lava",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Pulverize"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "MXdquYZT"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "fearless",
         "mobile",
         "tough",
-        "vehicle",
-        "veteran"
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "faith": 2,
         "speed": 3,
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
         "versatility": 2
       }
     },
@@ -289,7 +432,7 @@
       "size": 1,
       "quality": 4,
       "defense": 5,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Furious",
@@ -297,18 +440,30 @@
         "Drakesworn",
         "Regeneration"
       ],
+      "weapons": [
+        {
+          "name": "Flame Attacks",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "dcJS0pvf"
+      ],
       "tags": [
         "aggressive",
-        "melee",
-        "regeneration",
         "tough",
-        "vehicle",
+        "regeneration",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -327,20 +482,39 @@
         "Drakesworn",
         "Strider"
       ],
+      "weapons": [
+        {
+          "name": "Magma Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "melee",
-        "mobile",
-        "monster",
         "regeneration",
         "tough",
-        "veteran"
+        "mobile",
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
+        "elite": 4,
         "speed": 3,
-        "tech": -3
+        "humanity": -3,
+        "tech": -1
       }
     }
   ],

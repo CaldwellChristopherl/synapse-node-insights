@@ -3,8 +3,13 @@
   "factionName": "Orcs",
   "gameSystem": "age-of-fantasy",
   "factionType": "primitive",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.712Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.181Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 41
+  },
   "units": [
     {
       "id": "SNHGV-P",
@@ -19,17 +24,35 @@
         "Tough(6)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "-J4eu",
+        "Ln8_dJlm"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "tough",
+        "aggressive",
+        "chaotic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": -3,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -46,17 +69,36 @@
         "Tough(3)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Great Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "lznLj",
+        "E-g-hMDL"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "tough",
-        "veteran"
+        "aggressive",
+        "chaotic",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": -3,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -72,17 +114,35 @@
         "Tough(3)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "wB99qy6D"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "tough",
+        "aggressive",
+        "chaotic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": -3,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -98,17 +158,33 @@
         "Tough(3)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "cmBmdfQf"
+      ],
       "tags": [
-        "expendable",
         "hero",
         "leader",
+        "tough",
+        "aggressive",
+        "chaotic",
         "melee",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": -1,
+        "patience": -3,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -126,21 +202,37 @@
         "Tough(3)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "cmBmdfQf",
+        "vWsED_iX"
+      ],
       "tags": [
-        "expendable",
         "hero",
         "leader",
-        "melee",
-        "mobile",
         "scout",
-        "tough"
+        "mobile",
+        "tough",
+        "aggressive",
+        "chaotic",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "subtlety": 3,
-        "speed": 3
+        "speed": 3,
+        "patience": -3,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -154,14 +246,31 @@
       "rules": [
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "VSfqB"
+      ],
       "tags": [
+        "aggressive",
+        "chaotic",
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -4,
+        "order": -3,
+        "tech": -1,
         "elite": -5,
         "collective": 5
       }
@@ -177,14 +286,31 @@
       "rules": [
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "G1"
+      ],
       "tags": [
+        "aggressive",
+        "chaotic",
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -4,
+        "order": -3,
+        "tech": -1,
         "elite": -5,
         "collective": 5
       }
@@ -203,16 +329,35 @@
         "Piercing Assault",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Spear",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Counter"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "H1"
+      ],
       "tags": [
-        "expendable",
-        "melee",
+        "scout",
         "mobile",
-        "scout"
+        "aggressive",
+        "chaotic",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "subtlety": 3,
-        "speed": 3
+        "speed": 3,
+        "patience": -4,
+        "order": -3,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -227,14 +372,30 @@
         "Melee Slayer",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "I1"
+      ],
       "tags": [
-        "balanced",
+        "aggressive",
+        "chaotic",
         "melee",
-        "reliable"
+        "armored"
       ],
       "dimensionScores": {
-        "order": 2,
-        "versatility": 2
+        "patience": -4,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -249,13 +410,32 @@
         "Tough(3)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Spear",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Counter"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "melee",
         "tough",
+        "aggressive",
+        "chaotic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3
+        "patience": -3,
+        "elite": 4,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -273,17 +453,36 @@
         "Piercing Assault",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Wrecking Flail",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "9Cwc-"
+      ],
       "tags": [
-        "melee",
-        "mobile",
         "scout",
+        "mobile",
         "tough",
+        "aggressive",
+        "chaotic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "subtlety": 3,
-        "speed": 3
+        "speed": 3,
+        "patience": -3,
+        "elite": 4,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -297,14 +496,35 @@
       "rules": [
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Bow",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "K1"
+      ],
       "tags": [
+        "aggressive",
+        "chaotic",
         "balanced",
-        "expendable",
-        "versatile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "versatility": 5
+        "patience": -3,
+        "order": -3,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -321,17 +541,39 @@
         "Piercing Assault",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "ed4Vt-lH"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
+        "scout",
         "mobile",
-        "scout"
+        "aggressive",
+        "chaotic",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "patience": -3,
+        "order": -3,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -345,14 +587,36 @@
       "rules": [
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Skew-Bow",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Reliable",
+            "Rending",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "aggressive",
+        "chaotic",
         "balanced",
-        "expendable",
-        "versatile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "versatility": 5
+        "patience": -3,
+        "order": -3,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -368,19 +632,34 @@
         "Impact(1)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "L1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "expendable",
         "fast",
-        "melee"
+        "aggressive",
+        "chaotic",
+        "cavalry",
+        "monster",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "speed": 5,
-        "patience": -3,
-        "tech": -3
+        "patience": -4,
+        "order": -3,
+        "humanity": -3,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -399,20 +678,39 @@
         "Piercing Assault",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "M1"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
-        "expendable",
         "fast",
-        "melee",
+        "scout",
         "mobile",
-        "scout"
+        "aggressive",
+        "chaotic",
+        "cavalry",
+        "monster",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "speed": 5,
         "subtlety": 3,
-        "tech": -3
+        "patience": -4,
+        "order": -3,
+        "humanity": -3,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -429,20 +727,43 @@
         "Tough(3)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Heavy Tusks",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
         "fast",
-        "melee",
+        "aggressive",
         "tough",
-        "veteran"
+        "chaotic",
+        "cavalry",
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "order": -3,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -452,7 +773,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "monster",
       "rules": [
         "Fear(1)",
         "Ferocious",
@@ -460,16 +781,41 @@
         "Regeneration",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        },
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "iwxaKQGf"
+      ],
       "tags": [
-        "beast",
-        "melee",
+        "aggressive",
+        "chaotic",
         "regeneration",
         "tough",
-        "vehicle",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3
+        "patience": -3,
+        "order": -3,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -486,20 +832,54 @@
         "Tough(12)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Snatching Hook",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "Putrid Bite",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "iwxaKQGf"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "monster",
         "stealth",
         "tough",
-        "veteran"
+        "aggressive",
+        "chaotic",
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
         "subtlety": 4,
-        "versatility": 2,
-        "tech": -3
+        "patience": -2,
+        "elite": 4,
+        "order": -3,
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -516,18 +896,41 @@
         "Tough(6)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Spear Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Tusks",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "qZiYcngV"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
         "fast",
-        "melee",
+        "aggressive",
         "tough",
-        "veteran"
+        "chaotic",
+        "cavalry",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -3,
+        "elite": 4,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -545,22 +948,43 @@
         "Tough(6)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Giant Tusks",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "0rx9m"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
         "fast",
-        "melee",
-        "monster",
+        "aggressive",
         "tough",
-        "veteran"
+        "chaotic",
+        "cavalry",
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "order": -3,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -576,15 +1000,40 @@
         "Artillery",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Giant Crossbow",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "iTg-1ZZY"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "ranged",
+        "tough",
+        "artillery",
         "static",
-        "tough"
+        "ranged",
+        "aggressive",
+        "chaotic",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "patience": 5,
+        "patience": 3,
+        "elite": -2,
+        "tech": 3,
+        "order": -3,
         "versatility": 2
       }
     }

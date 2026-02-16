@@ -1,0 +1,5246 @@
+{
+  "factionId": "w7qor7b2kuifcyvk",
+  "factionName": "Alien Hives",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Hive Lord",
+      "forUnits": [
+        "lmZtl0E"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Razor Claw",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ZcJrRjd",
+              "label": "Piercing Spike (A1, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Piercing Spike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Nln2tjI",
+              "label": "Smashing Club (A1, AP(2), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smashing Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "YYeZ_c0",
+              "label": "Slashing Blade (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Slashing Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "myNXmU1",
+              "label": "Razor Whip (A3, Bane, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Razor Whip",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Bane",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Hew0ygN",
+              "label": "Serrated Blade (A3, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Serrated Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Shredder Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3-IE66xrBA",
+              "label": "2x Heavy Razor Claws (A3, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Razor Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "iUCjrNH",
+              "label": "Spitter Cannon (24\", A2, Blast(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spitter Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "-IBC2-S",
+              "label": "Barb Cannon (36\", A1, AP(2), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "sMqyK",
+              "label": "Heavy Piercing Spike (A2, AP(2), Deadly(3), Reliable)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Piercing Spike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "S_6R6",
+              "label": "Heavy Smashing Club (A2, AP(2), Blast(3), Reliable)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Smashing Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "6x55-nX",
+              "label": "Heavy Slashing Blade (A6, AP(1), Reliable, Rending)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Slashing Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "6WrDyMW",
+              "label": "Heavy Ravager Cannon (18\", A6, AP(1), Rupture)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Ravager Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rupture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "O-auvUz",
+              "label": "Acid Cannon (36\", A1, AP(2), Deadly(6), Unstoppable)",
+              "cost": 90,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Acid Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Z6fpHJF",
+              "label": "Heavy Serrated Blade (A6, AP(4), Reliable)",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Serrated Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "a7-Dy",
+              "label": "Wings (Ambush, Flying)",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Prime Warrior",
+      "forUnits": [
+        "jJP5jiL"
+      ],
+      "sections": [
+        {
+          "label": "Replace Shredder Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "m-agKeMYFH",
+              "label": "Heavy Razor Claws (A3, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Razor Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "RmyozDO",
+              "label": "Spitter Gun (24\", A1, Blast(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spitter Gun",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "WqEowcx",
+              "label": "Twin Spine Guns (12\", A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Spine Guns",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "9pGbddW",
+              "label": "Heavy Ravager Gun (18\", A3, AP(1), Rupture)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Ravager Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rupture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "xYQxVE8",
+              "label": "Barb Gun (30\", A1, AP(2), Blast(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Gun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "Kn0hvKM",
+              "label": "Acid Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Acid Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "RS4rKkQ",
+              "label": "Wings (Ambush, Flying)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Grunt Upgrades",
+      "forUnits": [
+        "_LXFoO9",
+        "CMADHYi",
+        "6oOZMAA",
+        "vuuKwqD",
+        "_c1518l"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1ewDpNQ",
+              "label": "Adrenaline Fueled (Agile)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_LXFoO9",
+                  "cost": 5
+                },
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6oOZMAA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 5
+                },
+                {
+                  "unitId": "_c1518l",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Adrenaline Fueled",
+                  "type": "item",
+                  "content": [
+                    "Agile"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Kz0oZ4M",
+              "label": "Toxic Cysts (Bane in Melee)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "_LXFoO9",
+                  "cost": 10
+                },
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6oOZMAA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 5
+                },
+                {
+                  "unitId": "_c1518l",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxic Cysts",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "QdM5WhnXD_",
+              "label": "Combat Mutations (Piercing Growth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_LXFoO9",
+                  "cost": 25
+                },
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 25
+                },
+                {
+                  "unitId": "6oOZMAA",
+                  "cost": 10
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 25
+                },
+                {
+                  "unitId": "_c1518l",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Mutations",
+                  "type": "item",
+                  "content": [
+                    "Piercing Growth"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Grunt Ranged Upgrades",
+      "forUnits": [
+        "CMADHYi",
+        "vuuKwqD"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Bio-Spiners",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "WI01jD8",
+              "label": "Bio-Borer (12\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 10
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Borer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "lf5nM",
+              "label": "Bio-Ravager (18\", A1, AP(1))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 20
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Ravager",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace up to two Bio-Spiners",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "c9eYKZ1",
+              "label": "Bio-Plasma (12\", A1, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Plasma",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "KTLQOcc",
+              "label": "Bio-Fuser (6\", A1, AP(4), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Fuser",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "mlcBa2f",
+              "label": "Bio-Shredder (9\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Shredder",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "ycL039j",
+              "label": "Bio-Flamer (6\", A1, Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Flamer",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "_9KIH",
+              "label": "Bio-Spiker (18\", A1, AP(1), Reliable, Takedown)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "CMADHYi",
+                  "cost": 15
+                },
+                {
+                  "unitId": "vuuKwqD",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Spiker",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Assault Grunts",
+      "forUnits": [
+        "_LXFoO9"
+      ],
+      "sections": [
+        {
+          "label": "Replace up to two Razor Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "977ZcjC",
+              "label": "Piercing Claws (A1, AP(1), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "_LXFoO9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Piercing Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "XH56vgL",
+              "label": "Smashing Claws (A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "_LXFoO9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smashing Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "SFzjLjP",
+              "label": "Slashing Claws (A2, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_LXFoO9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Slashing Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "zL0pfTI",
+              "label": "Serrated Claws (A2, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_LXFoO9",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Serrated Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Soul-Snatchers",
+      "forUnits": [
+        "19W7XoU"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ifL1POY",
+              "label": "Mind Snatcher (Caster(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "19W7XoU",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mind Snatcher",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Hive Swarm",
+      "forUnits": [
+        "rv0FY-K"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0izCR",
+              "label": "Spine Shooter (12\", A4, AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "rv0FY-K",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spine Shooter",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Melee Upgrades",
+      "forUnits": [
+        "Fvllq03",
+        "tLoLwnZ",
+        "LYBGBaU",
+        "tbvpeyi"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Razor Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Im_0Vg2",
+              "label": "Slashing Blade (A2, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 5
+                },
+                {
+                  "unitId": "tLoLwnZ",
+                  "cost": 5
+                },
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 10
+                },
+                {
+                  "unitId": "tbvpeyi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Slashing Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "nOtx_Bj",
+              "label": "Razor Whip (A2, Bane, Precise)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 10
+                },
+                {
+                  "unitId": "tLoLwnZ",
+                  "cost": 10
+                },
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 10
+                },
+                {
+                  "unitId": "tbvpeyi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Razor Whip",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Bane",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "BWnDa5I",
+              "label": "Serrated Blade (A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 15
+                },
+                {
+                  "unitId": "tLoLwnZ",
+                  "cost": 15
+                },
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 15
+                },
+                {
+                  "unitId": "tbvpeyi",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Serrated Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Razor Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tUSWo",
+              "label": "Piercing Spike (A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 10
+                },
+                {
+                  "unitId": "tLoLwnZ",
+                  "cost": 10
+                },
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 15
+                },
+                {
+                  "unitId": "tbvpeyi",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Piercing Spike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "A0zKA",
+              "label": "Smashing Club (A1, AP(2), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 10
+                },
+                {
+                  "unitId": "tLoLwnZ",
+                  "cost": 10
+                },
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 15
+                },
+                {
+                  "unitId": "tbvpeyi",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smashing Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Hive Warriors",
+      "forUnits": [
+        "Fvllq03"
+      ],
+      "sections": [
+        {
+          "label": "Any model may replace one Razor Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "A23zi",
+              "label": "Ravager Gun (18\", A3)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ravager Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "BrBlA",
+              "label": "Spitter Gun (24\", A1, Blast(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spitter Gun",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "bp4t5LO",
+              "label": "Twin Spine Guns (12\", A4, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Spine Guns",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Ravager Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "JNqa1bh",
+              "label": "Shredder Gun (18\", A2, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shredder Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "yTWp32j",
+              "label": "Heavy Ravager Gun (18\", A3, AP(1), Rupture)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Ravager Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rupture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "8s-6qvX",
+              "label": "Barb Gun (30\", A1, AP(2), Blast(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Gun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "wJ1ZRc0",
+              "label": "Acid Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Acid Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "pRH6ELq",
+              "label": "Wings (Ambush, Flying)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "AOb3BkWi",
+              "label": "Battle Pheromones (Unpredictable Fighter Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Fvllq03",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Battle Pheromones",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Ravenous Beasts",
+      "forUnits": [
+        "tLoLwnZ"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "WrcB_YW",
+              "label": "Burrowing Strike (Ambush)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "tLoLwnZ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burrowing Strike",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Hive Guardians",
+      "forUnits": [
+        "LYBGBaU"
+      ],
+      "sections": [
+        {
+          "label": "Any model may replace one Razor Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5_QlW",
+              "label": "Heavy Ravager Gun (18\", A3, AP(1), Rupture)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Ravager Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rupture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "5XxDmHx",
+              "label": "Shock Harpoon (24\", A1, AP(2), Deadly(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shock Harpoon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "a-gTK",
+              "label": "Skewer Cannon (30\", A2, AP(4), Unstoppable)",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skewer Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ATkE5ooK",
+              "label": "Battle Pheromones (Unpredictable Fighter Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LYBGBaU",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Battle Pheromones",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "A2",
+      "hint": "Monster Melee Upgrades",
+      "forUnits": [
+        "YbEEu7h",
+        "laQL0iJ",
+        "ntetDg-"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Razor Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "DMcODOj",
+              "label": "Piercing Claws (A1, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 5
+                },
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ntetDg-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Piercing Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "EGx3D3_",
+              "label": "Smashing Claws (A1, AP(2), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 5
+                },
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ntetDg-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smashing Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "rDfQvDB",
+              "label": "Slashing Claws (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 5
+                },
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ntetDg-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Slashing Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "43qrfkW",
+              "label": "Serrated Claws (A3, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 15
+                },
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 15
+                },
+                {
+                  "unitId": "ntetDg-",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Serrated Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "P1CRz",
+              "label": "Whip Limbs (A4, Bane, Precise)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 20
+                },
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 20
+                },
+                {
+                  "unitId": "ntetDg-",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Whip Limbs",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Bane",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C2",
+      "hint": "Carnivo-Rex",
+      "forUnits": [
+        "YbEEu7h"
+      ],
+      "sections": [
+        {
+          "label": "Replace 3x Heavy Razor Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "JkeBJ_4",
+              "label": "Heavy Shredder Cannon (18\", A8, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Shredder Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 8,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "aIoYoYB",
+              "label": "Heavy Spitter Cannon (24\", A4, Blast(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spitter Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "XgRLaSX",
+              "label": "Rapid Heavy Ravager Cannon (18\", A12, AP(1), Rupture)",
+              "cost": 80,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Heavy Ravager Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 12,
+                  "special": [
+                    "AP",
+                    "Rupture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "_X_hmP3",
+              "label": "Heavy Barb Cannon (36\", A2, AP(2), Blast(6))",
+              "cost": 110,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 110
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Barb Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "n4fW6Iw",
+              "label": "Heavy Acid Cannon (36\", A2, AP(2), Deadly(6), Unstoppable)",
+              "cost": 150,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 110
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Acid Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Heavy Razor Claw",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "SwOFk",
+              "label": "Killing Scream (Breath Attack)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Killing Scream",
+                  "type": "item",
+                  "content": [
+                    "Breath Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "hint": "Tyrant Heavy Beast",
+      "forUnits": [
+        "XXealbA"
+      ],
+      "sections": [
+        {
+          "label": "Replace Bio-Pod",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Sow7hVH",
+              "label": "Toxic Spray (18\", A12, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XXealbA",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxic Spray",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 12,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "vdzed-2",
+              "label": "Fracture Cannon (30\", A2, AP(3), Deadly(6))",
+              "cost": 105,
+              "costs": [
+                {
+                  "unitId": "XXealbA",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fracture Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G2",
+      "hint": "Artillery Heavy Beast",
+      "forUnits": [
+        "efiZafu"
+      ],
+      "sections": [
+        {
+          "label": "Replace Shredder Bio-Artillery",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "YTn2_bV",
+              "label": "Spitter Bio-Artillery (36\", A6, AP(1), Blast(3), Indirect)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "efiZafu",
+                  "cost": 105
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spitter Bio-Artillery",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "b2tHbDv",
+              "label": "Acid Bio-Artillery (36\", A3, AP(3), Deadly(6), Indirect)",
+              "cost": 125,
+              "costs": [
+                {
+                  "unitId": "efiZafu",
+                  "cost": 165
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Acid Bio-Artillery",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "fX8c0oo",
+              "label": "Plasma Bio-Artillery (36\", A3, AP(4), Blast(6), Indirect)",
+              "cost": 170,
+              "costs": [
+                {
+                  "unitId": "efiZafu",
+                  "cost": 255
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Bio-Artillery",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "Blast",
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I2",
+      "hint": "Invasion Spores",
+      "forUnits": [
+        "18VuWgg",
+        "Jwz4vyd"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "W6LlqTZ",
+              "label": "Shredder Gun Array (18\", A4, Rending)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "18VuWgg",
+                  "cost": 30
+                },
+                {
+                  "unitId": "Jwz4vyd",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shredder Gun Array",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "UfsOJuh",
+              "label": "Spitter Gun Array (24\", A2, Blast(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "18VuWgg",
+                  "cost": 45
+                },
+                {
+                  "unitId": "Jwz4vyd",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spitter Gun Array",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "iSkEvsI",
+              "label": "Barb Cannon Array (30\", A2, AP(2), Blast(3))",
+              "cost": 80,
+              "costs": [
+                {
+                  "unitId": "18VuWgg",
+                  "cost": 90
+                },
+                {
+                  "unitId": "Jwz4vyd",
+                  "cost": 110
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Cannon Array",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "dMYEx89",
+              "label": "Acid Launcher Array (30\", A2, AP(2), Deadly(3), Unstoppable)",
+              "cost": 100,
+              "costs": [
+                {
+                  "unitId": "18VuWgg",
+                  "cost": 90
+                },
+                {
+                  "unitId": "Jwz4vyd",
+                  "cost": 115
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Acid Launcher Array",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "V1I2VNk6",
+              "label": "Battle Pheromones (Unpredictable Fighter Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "18VuWgg",
+                  "cost": 30
+                },
+                {
+                  "unitId": "Jwz4vyd",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Battle Pheromones",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J2",
+      "hint": "Rapacious Beast",
+      "forUnits": [
+        "kQgZckF"
+      ],
+      "sections": [
+        {
+          "label": "Replace Caustic Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "JOZIuoJ",
+              "label": "Twin Barb Guns (30\", A2, AP(2), Blast(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "kQgZckF",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Barb Guns",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "AEfvVBk",
+              "label": "Twin Acid Launchers (30\", A2, AP(3), Deadly(3), Unstoppable)",
+              "cost": 80,
+              "costs": [
+                {
+                  "unitId": "kQgZckF",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Acid Launchers",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Spore Bomb",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XPbKy",
+              "label": "Stinger Spitter (18\", A3, Rupture)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kQgZckF",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stinger Spitter",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Rupture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "xAyAJwz",
+              "label": "Missile Bugs (36\", A2, AP(3), Unstoppable)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "kQgZckF",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Missile Bugs",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "BaYwL",
+              "label": "Spawn(Spores [5])",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kQgZckF",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spawn",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "aluXt",
+              "label": "Spawn(Massive Spores [3])",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kQgZckF",
+                  "cost": 120
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spawn",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "vcLnn",
+      "hint": "Shadow Hunter",
+      "forUnits": [
+        "nETJZj-"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "eaId4V20bt",
+              "label": "Silent Assassin (Takedown Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "nETJZj-",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Silent Assassin",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "04Q3z",
+              "label": "Mind Hunter (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "nETJZj-",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mind Hunter",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "mPtwD",
+      "hint": "Elite Melee Upgrades",
+      "forUnits": [
+        "jJP5jiL",
+        "nETJZj-"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Razor Claw",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Sxxz9Ij",
+              "label": "Serrated Blade (A2, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 5
+                },
+                {
+                  "unitId": "nETJZj-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Serrated Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "CLfNz",
+              "label": "Piercing Spike (A1, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 5
+                },
+                {
+                  "unitId": "nETJZj-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Piercing Spike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "vaBJf",
+              "label": "Smashing Club (A1, AP(2), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 5
+                },
+                {
+                  "unitId": "nETJZj-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smashing Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "gKj06aL",
+              "label": "Slashing Blade (A3, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 5
+                },
+                {
+                  "unitId": "nETJZj-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Slashing Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "PFAg3x9",
+              "label": "Razor Whip (A4, Bane, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 20
+                },
+                {
+                  "unitId": "nETJZj-",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Razor Whip",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Bane",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Pym4H",
+      "hint": "Mortar Beast",
+      "forUnits": [
+        "CXEkpHT"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spore Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XDzjTD5wny",
+              "label": "Spore Carrier (Spawn(Spores [5]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CXEkpHT",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spore Carrier",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "i5nQm",
+      "hint": "Venom Beasts",
+      "forUnits": [
+        "_nhe5Po"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Poison Spurts and Toxin Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "QC0ch7-Qsv",
+              "label": "Whip Limbs (A4, Bane, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_nhe5Po",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Whip Limbs",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Bane",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "bdGEN",
+              "label": "Shrouding Mist (Stealth Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_nhe5Po",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shrouding Mist",
+                  "type": "item",
+                  "content": [
+                    "Stealth Buff"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "VLQwo",
+      "hint": "Spawning Heavy Beast",
+      "forUnits": [
+        "KzCu3EC"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_7Jir",
+              "label": "Swarm Brood (Spawn(Hive Swarms [3]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KzCu3EC",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Swarm Brood",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8cWIq",
+              "label": "Shooter Brood (Spawn(Shooter Grunts [10]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KzCu3EC",
+                  "cost": 120
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shooter Brood",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "n4jLa",
+              "label": "Assault Brood (Spawn(Assault Grunts [10]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KzCu3EC",
+                  "cost": 120
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Assault Brood",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7hYzPOSx",
+              "label": "Battle Pheromones (Unpredictable Fighter Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KzCu3EC",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Battle Pheromones",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZrthW",
+      "hint": "Invasion Artillery Spore",
+      "forUnits": [
+        "Jwz4vyd"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spore Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "F-vXk7AUOd",
+              "label": "Spore Carrier (Spawn(Spores [5]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Jwz4vyd",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spore Carrier",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "mGOpE",
+              "label": "Massive Spore Carrier (Spawn(Massive Spores [3]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Jwz4vyd",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Massive Spore Carrier",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "r1AkY",
+      "hint": "Replace Heavy Psy-Torrent",
+      "forUnits": [
+        "go9isSI",
+        "X1N2nRX"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Psy-Stinger",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xMLIE",
+              "label": "Heavy Psy-Blast (18\", A2, AP(1), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "go9isSI",
+                  "cost": 5
+                },
+                {
+                  "unitId": "X1N2nRX",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Psy-Blast",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "B-hV4APr5W",
+              "label": "Heavy Psy-Torrent (9\", A2, AP(1), Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "go9isSI",
+                  "cost": 5
+                },
+                {
+                  "unitId": "X1N2nRX",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Psy-Torrent",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "sNOcQ",
+      "hint": "Bio-Recovery/Psy-Barrier (One Model)",
+      "forUnits": [
+        "lmZtl0E",
+        "GiIM1wN"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0ggFq",
+              "label": "Psy-Barrier (Resistance)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 35
+                },
+                {
+                  "unitId": "GiIM1wN",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psy-Barrier",
+                  "type": "item",
+                  "content": [
+                    "Resistance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Dyl0s",
+              "label": "Bio-Recovery (Regeneration)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 40
+                },
+                {
+                  "unitId": "GiIM1wN",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Recovery",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "mJL8P",
+      "hint": "Support Grunts",
+      "forUnits": [
+        "_c1518l"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Bio-Cannons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "rPDHUaGhtP",
+              "label": "Ravager Bio-Cannon (24\", A3, Indirect, Rupture)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_c1518l",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ravager Bio-Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Indirect",
+                    "Rupture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "knp1i",
+      "hint": "Toxico-Rex",
+      "forUnits": [
+        "w1qhVzS"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "-EPrf",
+              "label": "Shrouding Mist (Stealth Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "w1qhVzS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shrouding Mist",
+                  "type": "item",
+                  "content": [
+                    "Stealth Buff"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "lJkG2",
+              "label": "Poison Mist (12\", A1, Blast(6), Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "w1qhVzS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Poison Mist",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "jWv2C",
+      "hint": "Hive Titan",
+      "forUnits": [
+        "GiIM1wN"
+      ],
+      "sections": [
+        {
+          "label": "Replace Titanic Heavy Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "VnuTX_XBTC",
+              "label": "Explosive Spit (30\", A2, AP(2), Blast(6)), Titanic Claws (A6, AP(2), Rupture)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "GiIM1wN",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Explosive Spit",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                },
+                {
+                  "name": "Titanic Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rupture"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 3,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Warrior Emissary",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mbhtPllriY",
+              "label": "Psychic Emissary (Caster(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "GiIM1wN",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychic Emissary",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "q8s8YwBjtN",
+              "label": "Carrier Titan (Tough(6), Transport(21))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "GiIM1wN",
+                  "cost": 165
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Carrier Titan",
+                  "type": "item",
+                  "content": [
+                    "Tough",
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZOQ5w",
+              "label": "Winged Titan (Flying, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "GiIM1wN",
+                  "cost": 165
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Winged Titan",
+                  "type": "item",
+                  "content": [
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_PKKN",
+              "label": "Devourer Titan (Titan Devouring Tongue (18\", A3, AP(4), Deadly(3), Takedown), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "GiIM1wN",
+                  "cost": 225
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Devourer Titan",
+                  "type": "item",
+                  "content": [
+                    "Titan Devouring Tongue",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jbDHr",
+              "label": "Grasping Titan (Titan Grasping Tongue (18\", A12, Reliable, Bane), Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "GiIM1wN",
+                  "cost": 285
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grasping Titan",
+                  "type": "item",
+                  "content": [
+                    "Titan Grasping Tongue",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "SmjKV",
+      "hint": "Grunt Veteran",
+      "forUnits": [
+        "lezKVcK"
+      ],
+      "sections": [
+        {
+          "label": "Replace Razor Claw",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fnuCt",
+              "label": "Smashing Club (A1, Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smashing Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "3vi7Q",
+              "label": "Piercing Spike (A1, AP(1), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Piercing Spike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "o7-MB",
+              "label": "Slashing Blade (A2, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Slashing Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "8ohhJ",
+              "label": "Serrated Blade (A2, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Serrated Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "BiA1i",
+              "label": "Veteran Bio-Spiner (6\", A3, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Veteran Bio-Spiner",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "1z6D6",
+              "label": "Veteran Bio-Borer (12\", A3)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Veteran Bio-Borer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "2izmV",
+              "label": "Veteran Bio-Ravager (18\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Veteran Bio-Ravager",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Qp_aj",
+              "label": "Assault Breed (Fast)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Assault Breed",
+                  "type": "item",
+                  "content": [
+                    "Fast"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "WkhNj",
+              "label": "Winged Breed (Ambush, Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Winged Breed",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4FiQC",
+              "label": "Psycho Breed (Resistance)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psycho Breed",
+                  "type": "item",
+                  "content": [
+                    "Resistance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fDFbdifl",
+              "label": "Toxin Cysts (Bane in Melee)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxin Cysts",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ObE8QRad",
+              "label": "Adrenaline Fueled (Agile)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Adrenaline Fueled",
+                  "type": "item",
+                  "content": [
+                    "Agile"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jRTy1_-n",
+              "label": "Combat Mutations (Piercing Growth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Mutations",
+                  "type": "item",
+                  "content": [
+                    "Piercing Growth"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "SucsKB8B",
+      "hint": "Hive Burrower",
+      "forUnits": [
+        "laQL0iJ"
+      ],
+      "sections": [
+        {
+          "label": "Replace 3x Heavy Razor Claw",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8-wIt2o0Kq",
+              "label": "Acid Spurt (12\", A2, Blast(3), Bane), Whip Limbs (A8, Bane, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Whip Limbs",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "Bane",
+                    "Precise"
+                  ]
+                },
+                {
+                  "name": "Acid Spurt",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Deep Deployment",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gPCICFM1WX",
+              "label": "Burrow Attack (Surprise Attack(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burrow Attack",
+                  "type": "item",
+                  "content": [
+                    "Surprise Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7SS2AJzWWO",
+              "label": "Venom Burrower (Regeneration, Stealth Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Burrower",
+                  "type": "item",
+                  "content": [
+                    "Regeneration",
+                    "Stealth Buff"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "--1ICq2e_s",
+              "label": "Synapse Burrower (Caster(3), Resistance)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "laQL0iJ",
+                  "cost": 110
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Synapse Burrower",
+                  "type": "item",
+                  "content": [
+                    "Caster",
+                    "Resistance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Cu2eSQdc",
+      "hint": "Psy-Barrier (One Model)",
+      "forUnits": [
+        "KzCu3EC",
+        "ntetDg-",
+        "efiZafu"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2xTg7kLl",
+              "label": "Psy-Barrier (Resistance)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KzCu3EC",
+                  "cost": 50
+                },
+                {
+                  "unitId": "ntetDg-",
+                  "cost": 50
+                },
+                {
+                  "unitId": "efiZafu",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psy-Barrier",
+                  "type": "item",
+                  "content": [
+                    "Resistance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "smyqxD7u",
+      "hint": "Psycho-Grunts",
+      "forUnits": [
+        "6oOZMAA"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "-GlN7qGGXE",
+              "label": "Synaptic Relay (Spell Conduit)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6oOZMAA",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Synaptic Relay",
+                  "type": "item",
+                  "content": [
+                    "Spell Conduit"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "pATvLAB2",
+      "hint": "Bio-Recovery (One Model)",
+      "forUnits": [
+        "YbEEu7h",
+        "XXealbA",
+        "kQgZckF"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "M1gpr5Hk",
+              "label": "Bio-Recovery (Regeneration)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "YbEEu7h",
+                  "cost": 40
+                },
+                {
+                  "unitId": "XXealbA",
+                  "cost": 50
+                },
+                {
+                  "unitId": "kQgZckF",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Recovery",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bs2Yjx3S",
+      "hint": "Replace Stinger Launcher",
+      "forUnits": [
+        "XXealbA",
+        "KzCu3EC"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Stinger Launcher",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "dQvkUbClXK",
+              "label": "Barb Launcher (18\", A2, AP(2), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XXealbA",
+                  "cost": 10
+                },
+                {
+                  "unitId": "KzCu3EC",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barb Launcher",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "5pBRSWoo",
+              "label": "Acid Spike Launcher (18\", A2, AP(2), Deadly(3), Unstoppable)",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "XXealbA",
+                  "cost": 15
+                },
+                {
+                  "unitId": "KzCu3EC",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Acid Spike Launcher",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "sxjOBkWZ",
+      "hint": "Specialists - Prime",
+      "forUnits": [
+        "jJP5jiL"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "oVHTYr3w",
+              "label": "Pheromone Host (Hive Bond Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pheromone Host",
+                  "type": "item",
+                  "content": [
+                    "Hive Bond Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "rTo3VK_wHQ",
+              "label": "Brood Leader (Rapid Charge Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Brood Leader",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "9zmw1pkG",
+              "label": "Combat Bio-Engineer (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Bio-Engineer",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "u8jMuwdY",
+              "label": "Bio-Tech Master (Increased Shooting Range Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Tech Master",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZhFjlPim",
+              "label": "Psychic Synapses (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jJP5jiL",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychic Synapses",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "IPTxSUQr",
+      "hint": "Specialists - Snatcher",
+      "forUnits": [
+        "qpW1fhD"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "dm58lKX4",
+              "label": "Brood Leader (Rapid Charge Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qpW1fhD",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Brood Leader",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zOBe_LnV",
+              "label": "Hive Protector (Shielded Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qpW1fhD",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hive Protector",
+                  "type": "item",
+                  "content": [
+                    "Shielded Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "SuDX0Jdzbv",
+              "label": "Combat Bio-Engineer (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qpW1fhD",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Bio-Engineer",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3XZcH-MJ",
+              "label": "Psychic Synapses (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qpW1fhD",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychic Synapses",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "X-fXcthf",
+      "hint": "Specialists - Grunt",
+      "forUnits": [
+        "lezKVcK"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "DhkQ-TiH",
+              "label": "Brood Leader (Rapid Charge Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Brood Leader",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "W87Ov3Dg",
+              "label": "Hive Protector (Shielded Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hive Protector",
+                  "type": "item",
+                  "content": [
+                    "Shielded Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "UEWZUSkU",
+              "label": "Combat Bio-Engineer (Furious Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Bio-Engineer",
+                  "type": "item",
+                  "content": [
+                    "Furious Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "EhJeTRFs",
+              "label": "Bio-Tech Master (Increased Shooting Range Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lezKVcK",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Tech Master",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "7ob7CvQy",
+      "hint": "Specialists - Hive Lord",
+      "forUnits": [
+        "lmZtl0E"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FPRinSCc",
+              "label": "Bio-Tech Master (Increased Shooting Range)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bio-Tech Master",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PKMzF8zi",
+              "label": "Brood Leader (Rapid Charge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Brood Leader",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "37RpQAC4",
+              "label": "Combat Bio-Engineer (Furious)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Bio-Engineer",
+                  "type": "item",
+                  "content": [
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IUubTEBnm7",
+              "label": "Hive Protector (Shielded)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hive Protector",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "NoK_mkbV",
+              "label": "Psychic Synapses (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmZtl0E",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychic Synapses",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "fwuug7vD",
+      "hint": "Psycho-Rex",
+      "forUnits": [
+        "X1N2nRX"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Psy-Torrent",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "0hdtH6VN",
+              "label": "Heavy Razor Claws (A6, AP(1)), Psy-Frenzy (Regenerative Strength)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "X1N2nRX",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Razor Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Psy-Frenzy",
+                  "type": "item",
+                  "content": [
+                    "Regenerative Strength"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

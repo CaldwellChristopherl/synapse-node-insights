@@ -2,9 +2,14 @@
   "factionId": "1wj1ysgxpuuz9bc7",
   "factionName": "Orc Marauders",
   "gameSystem": "grimdark-future",
-  "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.372Z",
+  "factionType": "primitive",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.286Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 42
+  },
   "units": [
     {
       "id": "wHYIcWV",
@@ -20,17 +25,35 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Club",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Xfkmc",
+        "lDQurWrm"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
+        "aggressive",
+        "chaotic",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": -3,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -47,17 +70,40 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Leader Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "ovl6M",
+        "F1",
+        "Eajh5yiG"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "aggressive",
+        "chaotic",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": -2,
+        "order": -3,
         "versatility": 2
       }
     },
@@ -76,17 +122,35 @@
         "Piercing Assault",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "xeAdI",
+        "crEb815g"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "tough",
+        "aggressive",
+        "chaotic",
+        "defensive",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -103,17 +167,40 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Leader Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "D1",
+        "E1",
+        "F1"
+      ],
       "tags": [
-        "balanced",
         "hero",
         "leader",
         "tough",
+        "aggressive",
+        "chaotic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": -2,
+        "order": -3,
         "versatility": 2
       }
     },
@@ -124,20 +211,41 @@
       "size": 10,
       "quality": 4,
       "defense": 5,
-      "role": "troops",
+      "role": "swarm",
       "rules": [
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "QWV3L"
+      ],
       "tags": [
+        "aggressive",
+        "chaotic",
         "balanced",
         "horde",
-        "reliable"
+        "swarm"
       ],
       "dimensionScores": {
-        "collective": 4,
+        "patience": -3,
+        "order": -3,
         "versatility": 2,
-        "order": 2
+        "collective": 5
       }
     },
     {
@@ -153,14 +261,30 @@
         "Piercing Assault",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Spear",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Counter"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "QWV3L",
+        "PjXum"
+      ],
       "tags": [
-        "balanced",
-        "melee",
-        "reliable"
+        "aggressive",
+        "chaotic",
+        "defensive",
+        "melee"
       ],
       "dimensionScores": {
-        "order": 2,
-        "versatility": 2
+        "patience": -1,
+        "order": -3,
+        "tech": -1
       }
     },
     {
@@ -175,14 +299,35 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "N1",
+        "QWV3L"
+      ],
       "tags": [
+        "aggressive",
+        "chaotic",
         "balanced",
-        "versatile",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 5
+        "patience": -3,
+        "order": -3,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -200,18 +345,40 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "lCdWF"
+      ],
       "tags": [
-        "balanced",
-        "mobile",
         "scout",
+        "mobile",
         "stealth",
+        "aggressive",
+        "chaotic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "subtlety": 5,
         "speed": 3,
-        "versatility": 2
+        "patience": -3,
+        "order": -3,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -228,16 +395,40 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "iAHfQ"
+      ],
       "tags": [
-        "balanced",
-        "flying",
+        "ambush",
         "mobile",
+        "flying",
+        "aggressive",
+        "chaotic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 5,
-        "versatility": 2
+        "patience": -3,
+        "order": -3,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -253,14 +444,37 @@
         "Ferocious",
         "Ferocious Boost"
       ],
+      "weapons": [
+        {
+          "name": "Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
+        "aggressive",
+        "chaotic",
         "balanced",
-        "versatile",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 5
+        "patience": -3,
+        "order": -3,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -276,14 +490,38 @@
         "Ferocious",
         "Ferocious Boost"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "2_HB8"
+      ],
       "tags": [
+        "aggressive",
+        "chaotic",
         "balanced",
-        "elite",
-        "versatile"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "versatility": 5
+        "patience": -3,
+        "order": -3,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -299,13 +537,48 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Heavy Flamer-Mod",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Limited",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Heavy Club",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "O1",
+        "_eOt2"
+      ],
       "tags": [
+        "tough",
+        "aggressive",
+        "chaotic",
         "balanced",
-        "elite",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": -2,
+        "elite": 5,
+        "order": -3,
         "versatility": 2
       }
     },
@@ -316,7 +589,7 @@
       "size": 3,
       "quality": 4,
       "defense": 6,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Bounding",
         "Protected",
@@ -324,17 +597,42 @@
         "Piercing Assault",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Beast Jaws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "FGrYe"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
-        "melee",
+        "fast",
         "tough",
+        "aggressive",
+        "chaotic",
+        "cavalry",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3,
-        "tech": -3
+        "speed": 5,
+        "patience": -3,
+        "elite": 4,
+        "order": -3,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -344,25 +642,54 @@
       "size": 3,
       "quality": 4,
       "defense": 5,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Twin Mini-MG",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
         "fast",
         "tough",
+        "aggressive",
+        "chaotic",
         "vehicle",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": -2,
+        "elite": 4,
+        "order": -3,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -373,25 +700,54 @@
       "size": 3,
       "quality": 3,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Twin Mini-MG",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "elite",
         "fast",
         "tough",
-        "vehicle"
+        "aggressive",
+        "chaotic",
+        "vehicle",
+        "cavalry",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
+        "patience": -2,
+        "elite": 5,
+        "order": -3,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -402,7 +758,7 @@
       "size": 3,
       "quality": 4,
       "defense": 5,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Flying",
@@ -410,19 +766,49 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Twin Mini-MG",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J2"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
         "fast",
         "flying",
+        "mobile",
         "tough",
+        "aggressive",
+        "chaotic",
         "vehicle",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": -2,
+        "elite": 4,
+        "order": -3,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -439,17 +825,39 @@
         "Tough(6)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Triple Heavy Shotgun",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G2",
+        "A2"
+      ],
       "tags": [
-        "balanced",
         "fast",
         "tough",
-        "vehicle",
+        "aggressive",
+        "chaotic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
+        "patience": -2,
+        "elite": 4,
+        "order": -3,
         "versatility": 2
       }
     },
@@ -460,27 +868,51 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Impact(3)",
         "Tough(9)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Boost-Gun",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Blast-GL",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "F2"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
         "fast",
+        "aggressive",
         "tough",
+        "chaotic",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "versatility": 2
+        "patience": -1,
+        "elite": 4,
+        "order": -3,
+        "tech": 4
       }
     },
     {
@@ -498,19 +930,41 @@
         "Transport(11)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Rocket Launcher",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "B4pV1",
+        "E2VPqxe_"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
+        "chaotic",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "order": -3,
+        "tech": 4
       }
     },
     {
@@ -527,19 +981,55 @@
         "Tough(12)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Rocket Launcher",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Rapid Rocket Launcher",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "D2",
+        "B4pV1"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
+        "aggressive",
         "tough",
+        "chaotic",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "order": -3,
+        "tech": 4
       }
     },
     {
@@ -557,19 +1047,58 @@
         "Transport(11)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Basic Cannon",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Rapid Rocket Launcher",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "E2",
+        "B4pV1"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
+        "chaotic",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "order": -3,
+        "tech": 4
       }
     },
     {
@@ -579,22 +1108,59 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "troops",
+      "role": "monster",
       "rules": [
         "Tough(18)",
         "Transport(11)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Great Harpoon Cannon",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "oMqUe"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "tough",
-        "vehicle",
-        "veteran"
+        "transport",
+        "aggressive",
+        "chaotic",
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 2
+        "patience": -2,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 3,
+        "order": -3,
+        "humanity": -3
       }
     },
     {
@@ -610,15 +1176,42 @@
         "Tough(12)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Saw",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "glGGm"
+      ],
       "tags": [
-        "melee",
         "tough",
+        "aggressive",
+        "chaotic",
         "vehicle",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3
+        "patience": -3,
+        "elite": 4,
+        "order": -3,
+        "tech": 2
       }
     },
     {
@@ -635,14 +1228,42 @@
         "Ferocious",
         "Ferocious Boost"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L2"
+      ],
       "tags": [
-        "balanced",
         "tough",
+        "aggressive",
+        "chaotic",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": -2,
+        "elite": 4,
+        "order": -3,
         "tech": 3,
         "versatility": 2
       }
@@ -660,18 +1281,55 @@
         "Tough(6)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Dorsal Gunner",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Super-MG",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Heavy Bombs",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(6)",
+            "Strafing"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N2"
+      ],
       "tags": [
         "aircraft",
-        "balanced",
         "flying",
-        "tough",
         "vehicle",
-        "veteran"
+        "tough",
+        "aggressive",
+        "chaotic",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "tech": 5,
         "speed": 5,
+        "patience": -2,
+        "elite": 4,
+        "order": -3,
         "versatility": 2
       }
     },
@@ -688,18 +1346,35 @@
         "Tough(6)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Twin Super-MG",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aircraft",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "veteran"
+        "tough",
+        "aggressive",
+        "chaotic",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "tech": 5,
-        "speed": 5
+        "speed": 5,
+        "patience": -1,
+        "elite": 4,
+        "order": -3
       }
     },
     {
@@ -716,20 +1391,63 @@
         "Tough(18)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Deathstorm Minigun",
+          "range": 36,
+          "attacks": 8,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Rocket Launcher Array",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Great Walker Saw",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "P2"
+      ],
       "tags": [
-        "balanced",
         "fearless",
-        "static",
         "tough",
+        "aggressive",
+        "chaotic",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "faith": 2,
-        "versatility": 2,
-        "patience": 2
+        "patience": -2,
+        "elite": 4,
+        "order": -3,
+        "tech": 3,
+        "versatility": 2
       }
     },
     {
@@ -747,17 +1465,40 @@
         "Bad Shot",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Dueling Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Tyrant’s Sabre",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Counter"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
         "hero",
         "leader",
         "tough",
+        "aggressive",
+        "chaotic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": -2,
+        "order": -3,
         "versatility": 2
       }
     },
@@ -768,22 +1509,87 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "troops",
+      "role": "vehicle",
       "rules": [
         "Tough(24)",
         "Transport(11)",
         "Ferocious"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Basic Cannon",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Great Harpoon Cannon",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(6)"
+          ]
+        },
+        {
+          "name": "Rapid Rocket Launcher",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B4wr5qlU",
+        "B4pV1",
+        "E2"
+      ],
       "tags": [
-        "balanced",
-        "beast",
         "tough",
+        "transport",
+        "aggressive",
+        "chaotic",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 2
+        "patience": -2,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 3,
+        "order": -3,
+        "tech": 3
       }
     }
   ],

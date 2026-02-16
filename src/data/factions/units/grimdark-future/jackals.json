@@ -2,9 +2,14 @@
   "factionId": "BKi_hJaJflN8ZorH",
   "factionName": "Jackals",
   "gameSystem": "grimdark-future",
-  "factionType": "primitive",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.285Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.171Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 36
+  },
   "units": [
     {
       "id": "Nzc4pM6",
@@ -20,19 +25,34 @@
         "Tough(3)",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Hunting Hook",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "ED3ga",
+        "Yz7dM",
+        "medM6NFU"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "mobile",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -49,19 +69,38 @@
         "Tough(3)",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Elite Scrap Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "eRZ914ip",
+        "medM6NFU"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
         "hero",
         "leader",
         "mobile",
-        "tough"
+        "tough",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "speed": 3,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -77,18 +116,36 @@
         "Strider",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Scrap Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "cbIZR"
+      ],
       "tags": [
+        "mobile",
         "balanced",
         "expendable",
         "horde",
-        "mobile",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": 5,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3,
+        "collective": 5
       }
     },
     {
@@ -105,16 +162,28 @@
         "Strider",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "j3Xwf"
+      ],
       "tags": [
         "aggressive",
-        "expendable",
+        "mobile",
         "melee",
-        "mobile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "patience": -3,
-        "speed": 3
+        "patience": -4,
+        "speed": 3,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -129,15 +198,35 @@
         "Strider",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Energy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "cbIZR"
+      ],
       "tags": [
-        "balanced",
         "mobile",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -154,16 +243,35 @@
         "Flying",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Scrap Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
-        "flying",
+        "ambush",
         "mobile",
+        "flying",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -178,10 +286,32 @@
         "Strider",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Hunting Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Reliable",
+            "Scratch",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "cbIZR",
+        "QFwEVwtw"
+      ],
       "tags": [
+        "mobile",
         "balanced",
-        "expendable",
-        "mobile"
+        "expendable"
       ],
       "dimensionScores": {
         "speed": 3,
@@ -203,19 +333,32 @@
         "Strider",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "beast",
-        "expendable",
         "fast",
-        "melee",
+        "scout",
         "mobile",
-        "scout"
+        "monster",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "speed": 5,
         "subtlety": 3,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -225,7 +368,7 @@
       "size": 3,
       "quality": 5,
       "defense": 4,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Bounding",
         "Impact(2)",
@@ -233,18 +376,35 @@
         "Tough(3)",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Hunting Hook",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
+        "fast",
         "aggressive",
-        "beast",
-        "cavalry",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "cavalry",
+        "monster",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": -2,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -254,7 +414,7 @@
       "size": 3,
       "quality": 5,
       "defense": 4,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Bounding",
         "Fortified",
@@ -262,17 +422,40 @@
         "Tough(3)",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "TM77h"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "cavalry",
+        "fast",
+        "defensive",
         "mobile",
-        "tough"
+        "tough",
+        "monster",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
         "speed": 5,
-        "versatility": 2,
-        "tech": -3
+        "patience": 4,
+        "elite": -2,
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -290,19 +473,41 @@
         "Tough(12)",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Massive Jaws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "beast",
-        "melee",
+        "fast",
         "mobile",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "speed": 3,
-        "tech": -3
+        "speed": 5,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -320,22 +525,54 @@
         "Fearless",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rail Cannon",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Heavy Tusks",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Scratch"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "fearless",
         "mobile",
-        "monster",
         "tough",
-        "veteran"
+        "fearless",
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
         "speed": 3,
+        "patience": 1,
+        "elite": 4,
         "faith": 2,
-        "versatility": 2,
-        "tech": -3
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -354,20 +591,66 @@
         "Fearless",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Piercing Cannon",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Pipe Rockets",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Great Tusks",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)",
+            "Scratch"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "fearless",
         "mobile",
         "tough",
-        "vehicle",
-        "veteran"
+        "transport",
+        "fearless",
+        "monster",
+        "indirect",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 3,
+        "patience": 2,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 3,
         "faith": 2,
-        "versatility": 2
+        "humanity": -3,
+        "subtlety": 1
       }
     },
     {
@@ -386,20 +669,41 @@
         "Unique",
         "Scrapper"
       ],
+      "weapons": [
+        {
+          "name": "Gauss Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Destructive"
+          ]
+        },
+        {
+          "name": "Explosive Spear",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
+        "ambush",
+        "mobile",
         "flying",
         "hero",
         "leader",
-        "mobile",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
+        "subtlety": 3,
         "speed": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     }

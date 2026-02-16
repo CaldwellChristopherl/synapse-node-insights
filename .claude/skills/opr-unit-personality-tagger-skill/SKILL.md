@@ -1,10 +1,10 @@
-# OPR Unit Personality Tagger Skill - Version 1.7.2
+# OPR Unit Personality Tagger Skill - Version 1.8.0
 
 ## Overview
 
 This skill enables an AI agent to analyze One Page Rules (OPR) army book JSON files and add personality-based tags to each unit. These tags are used by the OPR Army Alignment Quiz to match units to player personalities based on 15 psychological dimensions.
 
-**Version 1.7.1 Update:** Human Inquisition validation fixes — Assassin detection, Human faction validation, mutually exclusive tag checks.
+**Version 1.8.0 Update:** Titan Lords & Mono-Type Army Fixes — Mono-type army versatility override, Honor Code rule mapping, Titan Lords faction guidance, Dimension Inflation Check.
 
 ## Critical Distinction: Corrupted vs Organic
 
@@ -216,6 +216,8 @@ The `genericName` field provides pre-classified unit types. Use this for role an
 | `For the Greater Good` | `collective`, `disciplined` | collective: +2, order: +2 |
 | `WAAAGH!` / `Ferocious` | `aggressive`, `chaotic` | patience: -2, order: -2 |
 | `Changebound` / `Lustbound` / `Plaguebound` / `Warbound` | `corrupted` + god-specific | purity: -4 |
+| `Honor Code` | `honorable`, `noble` | honor: +4, honor: +3 |
+| `Mercenary` | `independent` | collective: -2 |
 
 ### Weapon Properties Reference (unit.weapons[])
 
@@ -255,7 +257,7 @@ The agent produces a tagged unit file with the following structure:
   "factionId": "faction-slug",
   "factionName": "Faction Name",
   "gameSystem": "grimdark-future",
-  "version": "1.7.2",
+  "version": "1.8.0",
   "taggedAt": "2026-02-01T00:00:00Z",
   "units": [
     {
@@ -786,6 +788,24 @@ Some rules appear on EVERY unit in a faction and indicate faction personality:
 2. This overrides generic assumptions (Goblins are NOT defensive/patient)
 3. The faction's overall "feel" should be consistent across units
 
+### NEW: Mono-Type Army Versatility Override (v1.8.0)
+
+**CRITICAL RULE:** If a faction consists entirely or almost entirely of a single unit type (e.g., all vehicles, all monsters, all infantry), the faction is inherently LOW versatility regardless of individual unit weapon mixes.
+
+The `balanced` weapon tag (assigned when a unit has both melee and ranged weapons) should NOT inflate the versatility dimension for mono-type factions. A unit having both weapon types does not make it "versatile" in the personality sense if every unit in the faction is the same type.
+
+**Application:**
+- After tagging all units, check if >80% of non-hero units share the same role
+- If YES → override `versatility` dimension to negative (-2 to -4) for the faction
+- Remove or suppress `balanced` tag's versatility contribution
+
+**Examples:**
+- Titan Lords (ALL giant mechs) → faction versatility: -4 (extreme specialist)
+- Custodian Brothers (ALL elite infantry) → reduce versatility by -2
+- Alien Hives (diverse: swarms, monsters, flyers, transports) → keep high versatility
+
+**Why this matters:** Without this rule, a faction like Titan Lords gets `balanced` + `versatility: +2` on every unit simply because each mech carries both melee and ranged weapons. This inflates the faction's versatility score and causes it to match with moderate user profiles, even though having only giant mechs makes Titan Lords one of the LEAST versatile factions in the game.
+
 ### Step 3: Calculate Dimension Scores
 
 For each unit, calculate dimension scores based on tags:
@@ -1221,6 +1241,49 @@ When adding fallback tags to reach the minimum of 3 tags, avoid infinite loops b
 - ✅ Not Chaos corruption, but alien genetic corruption
 - ✅ Hybrids are still `human` (corrupted humans)
 
+### Titan Lords — v1.8.0
+
+```
+Faction Type: "tech" (ALL units are mechanical walkers)
+Faction Composition: 100% vehicles (no infantry, no monsters, no swarms)
+Key Identity: Ultra-elite mechanical mercenary individuals with code of honor
+
+Tagging Rules:
+- ALL units are vehicles (no infantry, no monsters)
+- Honor Code rule → honorable tag + honor: +4
+- Every unit should have: vehicle, elite, tough, honorable
+- Faction-wide: independent (mercenary glory-seekers, NOT team players)
+- NO mystery/psychic/magic (purely mechanical)
+- NEGATIVE versatility (mono-type army, all giant mechs)
+- Negative humanity (giant robotic bodies, not humanoid)
+- Negative subtlety (biggest possible targets on the field)
+
+Corrected Dimension Profile:
+  patience: 1    (tanky but thrill-seekers)
+  collective: -3 (individual mercenary glory-seekers)
+  order: 3       (code of honor, heraldry discipline)
+  tech: 5        (ALL giant robots, maximum tech)
+  elite: 5       (most elite faction in the game)
+  honor: 4       (code of honor, heraldry, nobility)
+  faith: -1      (secular thrill-seekers, fight for sport/glory)
+  subtlety: -5   (giant walking robots, zero stealth, most visible)
+  tradition: 3   (heraldry, codes, established traditions)
+  purity: 2      (human pilots, uncorrupted mechanical)
+  speed: -2      (big slow walkers, not fast)
+  mystery: -2    (purely mechanical, no magic/psychic)
+  versatility: -4 (ONE unit type, least versatile faction)
+  humanity: -3   (giant robotic bodies, not humanoid)
+  leadership: 1  (individual glory, not army commanders)
+
+Common Mistakes for Titan Lords:
+- ❌ Tagging units as "balanced" → versatility: +2 (mechs with both weapons ≠ versatile)
+- ❌ Missing "honorable" tag from Honor Code rule
+- ❌ Missing "independent" from mercenary nature
+- ❌ Neutral/positive versatility (should be strongly negative)
+- ❌ Neutral humanity (giant robots are NOT humanoid)
+- ❌ Positive mystery (no psychic/magic elements whatsoever)
+```
+
 ## Example Tagging
 
 ### Example 12: Pure Daemon (Wormhole Daemons) - NEW v1.7.0
@@ -1454,6 +1517,25 @@ Before submitting tagged output, verify:
 - [ ] `monster` tag → negative `humanity` present
 - [ ] `corrupted` tag → `purity: -4` present
 
+**Dimension Inflation Check (v1.8.0):**
+
+After tagging all units in a faction, perform this validation:
+
+- [ ] Calculate faction average for each dimension across all units
+- [ ] Compare to expected faction profile (FACTION_DATA)
+- [ ] Flag dimensions where unit-tag average deviates >3 from expected
+- [ ] Check for common inflation sources:
+  - `balanced` tag on weapon mix giving false versatility to mono-type factions
+  - Missing faction-wide tags (Honor Code, Mischievous, etc.)
+  - Not accounting for mono-type army composition
+- [ ] Verify mono-type factions have NEGATIVE versatility
+
+**Mono-Type Army Validation (v1.8.0):**
+
+- [ ] If >80% of units share same role → apply mono-type versatility override
+- [ ] Titan Lords: ALL units should have negative versatility
+- [ ] `balanced` weapon tag does NOT mean personality versatility for mono-type factions
+
 **Common Mistakes to Avoid:**
 - ❌ Tagging cheap Q5+ units as `elite` just because they have Tough
 - ❌ Tagging every unit as `defensive` when faction is chaotic/aggressive
@@ -1484,6 +1566,10 @@ Before submitting tagged output, verify:
 - ❌ **Contradictory `human` + `monster` tags on same unit**
 - ❌ **Missing `humanity: +3` dimension on human units**
 - ❌ **Cyborgs missing `tech` dimension (they're tech-enhanced)**
+- ❌ **Equating weapon versatility with faction versatility** (a mech with sword + gun is NOT "versatile" if every unit is a mech)
+- ❌ **Missing Honor Code → honorable tag mapping** (Titan Lords units all have this rule)
+- ❌ **Ignoring faction composition for versatility scoring** (mono-type armies are specialists)
+- ❌ **Neutral scores on identity dimensions** (Titan Lords at 0 on humanity when they're ALL robots)
 
 ## Output File Naming
 
@@ -1505,6 +1591,16 @@ If a unit cannot be confidently tagged:
 
 ## Version History
 
+- **1.8.0: Titan Lords & Mono-Type Army Fixes**
+  - NEW: Mono-type army versatility override rule
+  - NEW: Honor Code → honorable/noble tag mapping
+  - NEW: Mercenary → independent tag mapping
+  - NEW: Titan Lords faction-specific guidance
+  - NEW: Dimension Inflation Check in Quality Checklist
+  - NEW: Mono-Type Army Validation in Quality Checklist
+  - Fixed: balanced weapon tag inflating versatility for mono-type factions
+  - Fixed: Missing rule-to-tag mappings (Honor Code, Mercenary)
+  - Added: 4 new common mistakes for versatility/dimension inflation
 - **1.7.3: Infinite loop bug fix and fallback tag strategy**
   - **CRITICAL BUG FIX**: Fixed infinite loop in minimum 3 tags enforcement
   - Issue: Units with existing `reliable` tag would get stuck in while loop

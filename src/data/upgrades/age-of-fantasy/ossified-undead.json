@@ -1,0 +1,2275 @@
+{
+  "factionId": "a_HXTYv06IFtSs9G",
+  "factionName": "Ossified Undead",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Herald of Death",
+      "forUnits": [
+        "NySQofv"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tqHS09d",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Rse0qzF",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "TgRKfL-",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "p32prx6",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "65NGWzp",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "xWRpbTL6TI",
+              "label": "Heavy Bone Mace (A3, AP(1), Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Bone Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vykGWmjeyv",
+              "label": "Master Bone Bow (18\", A2, Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Bone Bow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "0FMjSSnH2i",
+              "label": "Master Heavy Bow (24\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Heavy Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "9qBMe4ZN",
+              "label": "Unstoppable Husk (Precision Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Unstoppable Husk",
+                  "type": "item",
+                  "content": [
+                    "Precision Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ZJdD2A6",
+              "label": "Skeletal Steed (Impact(1), Swift)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skeletal Steed",
+                  "type": "item",
+                  "content": [
+                    "Impact",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Hu_IMS4",
+              "label": "Great Steed (Impact(3), Swift, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Steed",
+                  "type": "item",
+                  "content": [
+                    "Tough",
+                    "Impact",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "p1Fc8gKuWo",
+              "label": "Bone Chariot (Hooves (A2), Armor(3), Impact(4), Swift, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 120
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Chariot",
+                  "type": "item",
+                  "content": [
+                    "Hooves",
+                    "Armor",
+                    "Impact",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Bone Master",
+      "forUnits": [
+        "VUZBCgc"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7Pf33gJ",
+              "label": "Spear (A3, Counter)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "p3ft6Ac",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "mOJrnvm",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "OGXE30Y",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "g5AQzEKLdT",
+              "label": "Bone Mace (A3, Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "MMNr80n",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "XDJqA2B7Qt",
+              "label": "Master Bone Bow (18\", A2, Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Bone Bow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "5yvklLmWTv",
+              "label": "Master Heavy Bow (24\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Heavy Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "YpdeoK8C",
+              "label": "Unstoppable Husk (Precision Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Unstoppable Husk",
+                  "type": "item",
+                  "content": [
+                    "Precision Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "V49hqlG",
+              "label": "Skeletal Steed (Impact(1), Swift)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skeletal Steed",
+                  "type": "item",
+                  "content": [
+                    "Impact",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Qo3xEwA",
+              "label": "Bone Throne (Stomp (A2), Spell Accumulator(1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Throne",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Spell Accumulator",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "hfpL-6Qr2E",
+              "label": "Bone Chariot (Hooves (A2), Armor(3), Impact(4), Swift, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 105
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Chariot",
+                  "type": "item",
+                  "content": [
+                    "Hooves",
+                    "Armor",
+                    "Impact",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "ubHQDXB",
+        "otlq8Mn",
+        "6m8JmNI"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sg4y4Fi",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "ubHQDXB",
+                  "cost": 5
+                },
+                {
+                  "unitId": "otlq8Mn",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6m8JmNI",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4OWC-et",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "ubHQDXB",
+                  "cost": 5
+                },
+                {
+                  "unitId": "otlq8Mn",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6m8JmNI",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_CKDIWi",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ubHQDXB",
+                  "cost": 10
+                },
+                {
+                  "unitId": "otlq8Mn",
+                  "cost": 10
+                },
+                {
+                  "unitId": "6m8JmNI",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Guardians",
+      "forUnits": [
+        "ubHQDXB"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "-pDoK8v",
+              "label": "Halberd (A1, Rending)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "ubHQDXB",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "oVrHurW",
+              "label": "Spear (A1, Counter)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "ubHQDXB",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Vw8z-wnaEN",
+              "label": "Bone Mace (A1, Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ubHQDXB",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "4cFbHQM",
+              "label": "Great Bone Mace (A3, AP(1), Destructive, Precise)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "ubHQDXB",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Bone Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Death Riders",
+      "forUnits": [
+        "6m8JmNI"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "LP-R-",
+              "label": "Lance (A1, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "6m8JmNI",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "llbzaL8RhC",
+              "label": "Bone Mace (A1, Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6m8JmNI",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Skeleton Horror",
+      "forUnits": [
+        "_1EeViZ"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Halberd",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ONOhh5Z_g3",
+              "label": "Dual Heavy Hand Weapons (A8, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_1EeViZ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "FmJ6CrnhkA",
+              "label": "Great Bone Mace (A6, AP(1), Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_1EeViZ",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Bone Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "moXQwzqL",
+              "label": "Unstoppable Husk (Precision Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_1EeViZ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Unstoppable Husk",
+                  "type": "item",
+                  "content": [
+                    "Precision Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Stalkers",
+      "forUnits": [
+        "gSDuJ2-"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Quad Blades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "wUtJzi6",
+              "label": "Dual Falchions (A2, AP(2), Blast(3))",
+              "cost": -10,
+              "costs": [
+                {
+                  "unitId": "gSDuJ2-",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Falchions",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Harvester Beast",
+      "forUnits": [
+        "BMbl1hs"
+      ],
+      "sections": [
+        {
+          "label": "Replace Sickle Arm",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "VOsuclL",
+              "label": "Mace Arms (A6, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BMbl1hs",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mace Arms",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Z4oK3rs",
+              "label": "Spew Death (Breath Attack)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "BMbl1hs",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spew Death",
+                  "type": "item",
+                  "content": [
+                    "Breath Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "2aDrOHgMOP",
+              "label": "Bone Pile (Regeneration Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BMbl1hs",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Pile",
+                  "type": "item",
+                  "content": [
+                    "Regeneration Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "XQktU4h3",
+              "label": "Unstoppable Husk (Precision Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BMbl1hs",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Unstoppable Husk",
+                  "type": "item",
+                  "content": [
+                    "Precision Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Crawler Catapult",
+      "forUnits": [
+        "7wHQr3l"
+      ],
+      "sections": [
+        {
+          "label": "Replace Cursed Skulls",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "51o_79i",
+              "label": "Dread Cauldron (36\", A1, AP(2), Deadly(6), Indirect)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "7wHQr3l",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dread Cauldron",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ctHO_666",
+              "label": "Ur-Dead Nightmare (Furious Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "7wHQr3l",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ur-Dead Nightmare",
+                  "type": "item",
+                  "content": [
+                    "Furious Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "7nPkjKGx",
+      "hint": "Unstoppable Husk",
+      "forUnits": [
+        "ubHQDXB",
+        "otlq8Mn",
+        "6m8JmNI",
+        "gSDuJ2-"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "BSvBGx3DLr",
+              "label": "Unstoppable Husk (Precision Feat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ubHQDXB",
+                  "cost": 35
+                },
+                {
+                  "unitId": "otlq8Mn",
+                  "cost": 35
+                },
+                {
+                  "unitId": "6m8JmNI",
+                  "cost": 35
+                },
+                {
+                  "unitId": "gSDuJ2-",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Unstoppable Husk",
+                  "type": "item",
+                  "content": [
+                    "Precision Feat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZEd8YlWG",
+      "hint": "Immortals",
+      "forUnits": [
+        "LsrSzo-"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Halberds",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3KT_O8cJx_",
+              "label": "Great Bone Mace (A3, AP(1), Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LsrSzo-",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Bone Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "wWUjR0ZO",
+              "label": "Ur-Dead Nightmare (Furious Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LsrSzo-",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ur-Dead Nightmare",
+                  "type": "item",
+                  "content": [
+                    "Furious Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "8RMBuN3F",
+      "hint": "Specialists - Bone Master",
+      "forUnits": [
+        "VUZBCgc"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QDpW3S9h",
+              "label": "Bone Shaper (Ossified Boost Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Shaper",
+                  "type": "item",
+                  "content": [
+                    "Ossified Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "fv95-3ro",
+              "label": "Lord of Bones (Swift Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord of Bones",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "AxS1nfcluL",
+              "label": "Soul Master (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Master",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "wkgiyCxkMs",
+              "label": "Army Trophy Banner (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Trophy Banner",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "EZTJDJWk",
+              "label": "Artisan of Shards (Regeneration Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Artisan of Shards",
+                  "type": "item",
+                  "content": [
+                    "Regeneration Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "VCEkR0Y0",
+              "label": "Spell Reaper (Relentless Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VUZBCgc",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spell Reaper",
+                  "type": "item",
+                  "content": [
+                    "Relentless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TqYiXPhW",
+      "hint": "Great Stalker",
+      "forUnits": [
+        "vObAD3f"
+      ],
+      "sections": [
+        {
+          "label": "Replace Dual Falchion",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "QcQXoFU_5G",
+              "label": "Heavy Halberd (A6, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "DN1AGk8D",
+              "label": "Quad Blades (A8, AP(1))",
+              "cost": -10,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Quad Blades",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "FszdHtaHWM",
+              "label": "Great Bone Mace (A6, AP(1), Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Bone Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "D1TNS2pw",
+              "label": "Unstoppable Husk (Precision Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Unstoppable Husk",
+                  "type": "item",
+                  "content": [
+                    "Precision Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ucy9QX3H",
+      "hint": "Specialists - Stalker",
+      "forUnits": [
+        "vObAD3f"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Gvnh8osp",
+              "label": "Bone Shaper (Ossified Boost Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Shaper",
+                  "type": "item",
+                  "content": [
+                    "Ossified Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Xyc66BSn",
+              "label": "Lord of Bones (Swift Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord of Bones",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "QfCFx5Aa",
+              "label": "High Liege (Bane in Melee Aura)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "High Liege",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "SFJQ9BGf",
+              "label": "Artisan of Shards (Regeneration Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Artisan of Shards",
+                  "type": "item",
+                  "content": [
+                    "Regeneration Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "a2fE2xHXnE",
+              "label": "Ur-Dead Master (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vObAD3f",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ur-Dead Master",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "QuXqv_Oq",
+      "hint": "Specialists - Herald",
+      "forUnits": [
+        "NySQofv"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vYbAWoWK",
+              "label": "Bone Shaper (Ossified Boost Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Shaper",
+                  "type": "item",
+                  "content": [
+                    "Ossified Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "MuYUYl7-",
+              "label": "Lord of Bones (Swift Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord of Bones",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "pEMJqaWg",
+              "label": "High Liege (Bane in Melee Aura)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "High Liege",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "UopVZ4uR",
+              "label": "Spell Reaper (Relentless Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spell Reaper",
+                  "type": "item",
+                  "content": [
+                    "Relentless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dl0eQZHgv_",
+              "label": "Ur-Dead Master (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NySQofv",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ur-Dead Master",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "roiRwxiB",
+      "hint": "Guardian Archers",
+      "forUnits": [
+        "otlq8Mn"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Bone Bows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "LacyZMLAv8",
+              "label": "Heavy Bow (24\", A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "otlq8Mn",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yqkZE6aL5r",
+              "label": "Fire Braziers (Piercing Shooter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "otlq8Mn",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fire Braziers",
+                  "type": "item",
+                  "content": [
+                    "Piercing Shooter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "n5MkiuH_",
+      "hint": "Reapers",
+      "forUnits": [
+        "PG_O1yz"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "6xcPoR-bNz",
+              "label": "Smoke Cache (Evasive Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "PG_O1yz",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smoke Cache",
+                  "type": "item",
+                  "content": [
+                    "Evasive Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "sGDyy54o",
+      "hint": "Bone Chariot",
+      "forUnits": [
+        "cIbDtLJ"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Weapon Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "IWzpy0Bfar",
+              "label": "Bone Mace Crew (A2, Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cIbDtLJ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Mace Crew",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "2a-UhayjnA",
+              "label": "Javelin Crew (12\", A6, AP(1), Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cIbDtLJ",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Javelin Crew",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Iu3urd_Lku",
+              "label": "Bone Bow Crew (18\", A6, Destructive, Precise)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cIbDtLJ",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bone Bow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Destructive",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "2gC-d9bv2c",
+              "label": "Heavy Bow Crew (24\", A6, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cIbDtLJ",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Bow Crew",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

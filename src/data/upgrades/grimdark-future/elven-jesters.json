@@ -1,0 +1,1276 @@
+{
+  "factionId": "nyh41t82jugcdq8m",
+  "factionName": "Elven Jesters",
+  "packages": [
+    {
+      "uid": "D1",
+      "hint": "Jesters",
+      "forUnits": [
+        "CPnUv7L"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Fragment Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "llGIxy1",
+              "label": "Neuron Pistol (12\", A2, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CPnUv7L",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Neuron Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Fragment Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XLcx0",
+              "label": "Fusion Pistol (6\", A1, AP(4), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CPnUv7L",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "y9P_vwx",
+              "label": "Deathly Caress (A2, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CPnUv7L",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deathly Caress",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "tD1bdD3",
+              "label": "Deathly Embrace (A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "CPnUv7L",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deathly Embrace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3tg6i",
+              "label": "Deathly Touch (A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CPnUv7L",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deathly Touch",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "zxtNS",
+              "label": "Deathly Kiss (A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "CPnUv7L",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deathly Kiss",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Jetbikes",
+      "forUnits": [
+        "cek8t2a"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Exploding Bolas",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "WI6kVsPqdP",
+              "label": "Energy Glaive (A2, AP(1), Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cek8t2a",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "kmggBz1BuT",
+              "label": "Light EMP Cannon (24\", A3, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cek8t2a",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light EMP Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "G-sDIWr",
+              "label": "Fragment Cannon (24\", A3, AP(1), Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cek8t2a",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fragment Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1FesqD9X",
+              "label": "Spectacle of Death (Slayer Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cek8t2a",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spectacle of Death",
+                  "type": "item",
+                  "content": [
+                    "Slayer Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Heavy Jetbike",
+      "forUnits": [
+        "cZ2fRIl"
+      ],
+      "sections": [
+        {
+          "label": "Replace Energy Glaive",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "vcWkzrkkA5",
+              "label": "Twin Light Fragment Cannon (24\", A4, AP(1), Fragment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cZ2fRIl",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Light Fragment Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Fragment"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Twin Fragment Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XH7Dxk4aJT",
+              "label": "Light EMP Cannon (24\", A3, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cZ2fRIl",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light EMP Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "iohEw2cMnf",
+              "label": "Focus Cannon (24\", A1, AP(2), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cZ2fRIl",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Focus Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "1RvKm0tAz3",
+              "label": "Light Laser Cannon (24\", A1, AP(3), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cZ2fRIl",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light Laser Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "SpMyLGg9gH",
+              "label": "Open Back (Transport(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cZ2fRIl",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Open Back",
+                  "type": "item",
+                  "content": [
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CJX9zCdqu9",
+              "label": "Spectacle of Death (Slayer Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cZ2fRIl",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spectacle of Death",
+                  "type": "item",
+                  "content": [
+                    "Slayer Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F-qtY",
+      "hint": "Master Jester",
+      "forUnits": [
+        "Z8Cf2Y3"
+      ],
+      "sections": [
+        {
+          "label": "Replace Master Fragment Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "TMkgLRV",
+              "label": "Fusion Pistol (6\", A1, AP(4), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Norbj",
+              "label": "Hallucination-GL (18\", A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hallucination-GL",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "yzRwZ",
+              "label": "Master Neuron Pistol (12\", A3, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Neuron Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "a08lo",
+              "label": "Jester Sniper Rifle (24\", A2, Reliable, Fragment, Takedown)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jester Sniper Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Fragment",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Dagger and Deathly Touch",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "vG-EHi2qrA",
+              "label": "2x CCW (A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "MrAeY",
+              "label": "Dagger (A1), Deathly Kiss (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deathly Kiss",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Dagger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "iIYJ-",
+              "label": "Deathly Caress (A2, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deathly Caress",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "3dK0V",
+              "label": "Deathly Embrace (A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deathly Embrace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "bt3UaC_8",
+              "label": "Twisted Illusion (Ambush Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twisted Illusion",
+                  "type": "item",
+                  "content": [
+                    "Ambush Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "3Xy0FrTy5e",
+              "label": "Joker Hoverpack (Flying, Point-Blank Surge)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Joker Hoverpack",
+                  "type": "item",
+                  "content": [
+                    "Flying",
+                    "Point-Blank Surge"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iZ8BlN_LPm",
+              "label": "Prankster Suit (Ambush, Regeneration)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prankster Suit",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "XOaf1OI",
+              "label": "Jetbike (Fragment Cannon (24\", A3, AP(1), Fragment), Fast, Strider, Tough(3))",
+              "cost": 125,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 120
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jetbike",
+                  "type": "item",
+                  "content": [
+                    "Fragment Cannon",
+                    "Fast",
+                    "Strider",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G7bVZ",
+      "hint": "Specialists - Jester",
+      "forUnits": [
+        "Z8Cf2Y3"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "-bQNR",
+              "label": "Stage Master (Shielded Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stage Master",
+                  "type": "item",
+                  "content": [
+                    "Shielded Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "FErbBMiBrt",
+              "label": "Solitaire (Takedown Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Solitaire",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4kL02NYN-h",
+              "label": "Death Dealer (Shred when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Dealer",
+                  "type": "item",
+                  "content": [
+                    "Shred when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Z0UV7",
+              "label": "Apex Killer (Unpredictable Fighter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Apex Killer",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8fydS",
+              "label": "Troupe Lord (Rapid Blink Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Troupe Lord",
+                  "type": "item",
+                  "content": [
+                    "Rapid Blink Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IF6uP",
+              "label": "Jester Seer (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jester Seer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IebOQAo",
+              "label": "Master Jester Seer (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "Z8Cf2Y3",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Jester Seer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "FAA3V",
+      "hint": "Twisted Illusion",
+      "forUnits": [
+        "CPnUv7L",
+        "A_o3aHw",
+        "d4Z91Se"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "NUHZ1",
+              "label": "Twisted Illusion (Ambush Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CPnUv7L",
+                  "cost": 10
+                },
+                {
+                  "unitId": "A_o3aHw",
+                  "cost": 10
+                },
+                {
+                  "unitId": "d4Z91Se",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twisted Illusion",
+                  "type": "item",
+                  "content": [
+                    "Ambush Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "4tXjpLOE",
+      "hint": "Specialists - Fool",
+      "forUnits": [
+        "Poir2bw"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "63Z8NNSs",
+              "label": "Stage Master (Shielded Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Poir2bw",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stage Master",
+                  "type": "item",
+                  "content": [
+                    "Shielded Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "fGCgLFDh",
+              "label": "Death Dealer (Shred when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Poir2bw",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Dealer",
+                  "type": "item",
+                  "content": [
+                    "Shred when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4WMBoEP2Vt",
+              "label": "Troupe Lord (Rapid Blink Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Poir2bw",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Troupe Lord",
+                  "type": "item",
+                  "content": [
+                    "Rapid Blink Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "INTCopeN",
+              "label": "Jester Seer (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "Poir2bw",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jester Seer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Yyz_0me6",
+              "label": "Harlequin (Teleport Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Poir2bw",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Harlequin",
+                  "type": "item",
+                  "content": [
+                    "Teleport Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

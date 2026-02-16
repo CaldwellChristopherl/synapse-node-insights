@@ -2,9 +2,14 @@
   "factionId": "q11la9v8h1heu9ja",
   "factionName": "Dark Elf Raiders",
   "gameSystem": "grimdark-future",
-  "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.125Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:22.927Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 32
+  },
   "units": [
     {
       "id": "DDyxDBK",
@@ -19,17 +24,38 @@
         "Hero",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Elite Barb Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "af8DD",
+        "MuKIuFf_"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -46,17 +72,39 @@
         "Hero",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Elite Barb Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "C1",
+        "iX9Wf8OL",
+        "SxFACt6c"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -73,17 +121,39 @@
         "Hero",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Elite Barb Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "C1",
+        "iX9Wf8OL",
+        "SxFACt6c"
+      ],
       "tags": [
-        "balanced",
         "hero",
         "leader",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -101,18 +171,30 @@
         "Regeneration",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Dual CCWs",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "SX7U67cG"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "regeneration",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -127,13 +209,24 @@
         "Regeneration",
         "Harassing"
       ],
+      "weapons": [
+        {
+          "name": "Dual CCWs",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "Eosfz"
+      ],
       "tags": [
-        "melee",
         "regeneration",
-        "reliable"
+        "melee"
       ],
       "dimensionScores": {
-        "order": 2
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -148,14 +241,31 @@
         "Melee Evasion",
         "Harassing"
       ],
+      "weapons": [
+        {
+          "name": "Barb Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "lKaOZ",
+        "pkn4h"
+      ],
       "tags": [
-        "balanced",
-        "reliable",
-        "versatile"
+        "balanced"
       ],
       "dimensionScores": {
-        "versatility": 5,
-        "order": 2
+        "versatility": 2
       }
     },
     {
@@ -169,14 +279,31 @@
       "rules": [
         "Harassing"
       ],
+      "weapons": [
+        {
+          "name": "Barb Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "pkn4h"
+      ],
       "tags": [
-        "balanced",
-        "reliable",
-        "versatile"
+        "balanced"
       ],
       "dimensionScores": {
-        "versatility": 5,
-        "order": 2
+        "versatility": 2
       }
     },
     {
@@ -191,14 +318,33 @@
         "Harassing",
         "Melee Evasion"
       ],
+      "weapons": [
+        {
+          "name": "Barb Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "g86qt",
+        "pkn4h"
+      ],
       "tags": [
         "balanced",
-        "versatile",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 5
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -212,14 +358,33 @@
       "rules": [
         "Harassing"
       ],
+      "weapons": [
+        {
+          "name": "Barb Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "oicrO",
+        "pkn4h"
+      ],
       "tags": [
         "balanced",
-        "versatile",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 5
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -234,14 +399,27 @@
         "Harassing",
         "Martial Prowess"
       ],
+      "weapons": [
+        {
+          "name": "Courtesan's Sword",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
-        "elite",
-        "melee"
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "versatility": 2
+        "patience": -1,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -257,20 +435,43 @@
         "Scout",
         "Strider"
       ],
+      "weapons": [
+        {
+          "name": "Twin Barb-Pods",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "Glaive",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "N1",
+        "pkn4h"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "mobile",
         "scout",
+        "mobile",
         "vehicle",
+        "fast",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "speed": 5,
         "subtlety": 3,
-        "versatility": 2
+        "speed": 5,
+        "tech": 3,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -285,14 +486,26 @@
         "Harassing",
         "Melee Slayer"
       ],
+      "weapons": [
+        {
+          "name": "Energy Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "elite",
-        "melee"
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "versatility": 2
+        "patience": -1,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -308,16 +521,38 @@
         "Flying",
         "Harassing"
       ],
+      "weapons": [
+        {
+          "name": "Barb Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "K1",
+        "pkn4h"
+      ],
       "tags": [
-        "balanced",
-        "flying",
+        "ambush",
         "mobile",
+        "flying",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -334,17 +569,39 @@
         "Stealth",
         "Strider"
       ],
+      "weapons": [
+        {
+          "name": "Dark Blast",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "EsaG0SmN"
+      ],
       "tags": [
-        "balanced",
-        "elite",
+        "stealth",
+        "infiltrate",
         "mobile",
-        "stealth"
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "subtlety": 4,
+        "subtlety": 5,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -360,14 +617,38 @@
         "Regeneration",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Acid Gun",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Scissor Claw",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "regeneration",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 1,
+        "elite": 5,
         "versatility": 2
       }
     },
@@ -378,26 +659,54 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Harassing",
         "Strider",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Twin Barb Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "Barb Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
         "fast",
         "mobile",
         "tough",
         "vehicle",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -408,21 +717,39 @@
       "size": 3,
       "quality": 5,
       "defense": 6,
-      "role": "fast-attack",
+      "role": "troops",
       "rules": [
         "Flying",
         "Harassing",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "O1"
+      ],
       "tags": [
-        "expendable",
         "flying",
+        "mobile",
+        "tough",
+        "horde",
+        "swarm",
         "melee",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "speed": 3
+        "speed": 5,
+        "elite": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -437,14 +764,29 @@
         "Fast",
         "Harassing"
       ],
+      "weapons": [
+        {
+          "name": "Toxin Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "O1"
+      ],
       "tags": [
-        "beast",
         "fast",
+        "monster",
         "melee"
       ],
       "dimensionScores": {
         "speed": 4,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -454,23 +796,37 @@
       "size": 1,
       "quality": 3,
       "defense": 4,
-      "role": "elite",
+      "role": "monster",
       "rules": [
         "Furious",
         "Harassing",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "O1"
+      ],
       "tags": [
         "aggressive",
-        "beast",
-        "elite",
+        "tough",
+        "monster",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "patience": -3,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -488,18 +844,42 @@
         "Tough(6)",
         "Relentless"
       ],
+      "weapons": [
+        {
+          "name": "Soul Syphon",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2"
+      ],
       "tags": [
-        "balanced",
         "fearless",
-        "ranged",
         "tough",
+        "ranged",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "faith": 2,
+        "patience": 2,
+        "elite": 4,
+        "tech": 4,
         "versatility": 2
       }
     },
@@ -518,18 +898,41 @@
         "Regeneration",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Acid Spewer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2"
+      ],
       "tags": [
         "fearless",
-        "melee",
         "regeneration",
         "tough",
         "vehicle",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "faith": 2
+        "faith": 2,
+        "elite": 4,
+        "tech": 2
       }
     },
     {
@@ -539,7 +942,7 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Harassing",
@@ -547,20 +950,42 @@
         "Tough(6)",
         "Impact(3)"
       ],
+      "weapons": [
+        {
+          "name": "Barb Cannon",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "Lacerate"
+          ]
+        },
+        {
+          "name": "Twin Barb Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
-        "aggressive",
         "fast",
         "mobile",
-        "ranged",
         "tough",
+        "aggressive",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -570,7 +995,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Harassing",
@@ -579,20 +1004,38 @@
         "Tough(6)",
         "Transport(11)"
       ],
+      "weapons": [
+        {
+          "name": "Twin Barb Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "Ywpn14ol"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "transport",
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -602,7 +1045,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Harassing",
@@ -610,20 +1053,35 @@
         "Tough(9)",
         "Impact(3)"
       ],
+      "weapons": [
+        {
+          "name": "Barb Cannon",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "Lacerate"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "TjMniuQu"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
         "mobile",
-        "ranged",
         "tough",
-        "vehicle"
+        "aggressive",
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 5,
+        "tech": 4
       }
     },
     {
@@ -638,18 +1096,52 @@
         "Aircraft",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Shatter Missiles",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Void Cannon",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Void Bombs",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)",
+            "Strafing"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2"
+      ],
       "tags": [
         "aircraft",
+        "flying",
+        "vehicle",
+        "tough",
         "balanced",
         "elite",
-        "flying",
-        "tough",
-        "vehicle"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
+        "patience": 1,
+        "elite": 5,
         "versatility": 2
       }
     },
@@ -665,20 +1157,51 @@
         "Aircraft",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Laser Cannon",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Toxin Missiles",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Twin Barb Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Lacerate"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2"
+      ],
       "tags": [
         "aircraft",
-        "defensive",
-        "elite",
         "flying",
-        "ranged",
+        "vehicle",
         "tough",
-        "vehicle"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "patience": 3
+        "patience": 2,
+        "elite": 5
       }
     }
   ],

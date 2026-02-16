@@ -1,0 +1,2243 @@
+{
+  "factionId": "lpRj9EBwROpO1um7",
+  "factionName": "Ogres",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Tribe Master",
+      "forUnits": [
+        "CSEbbNe"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "hgQIzEH",
+              "label": "Heavy Halberd (A4, AP(2), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "VGPHj2Y",
+              "label": "Heavy Great Weapon (A4, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "lKJ2le0dLQ",
+              "label": "Heavy Lance (A4, AP(2), Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "pYtPEVZ",
+              "label": "Dual Heavy Hand Weapons (A8, AP(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1t17X",
+              "label": "Twin Big Pistols (9\", A6, AP(1))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Big Pistols",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0qd_pAkWOc",
+              "label": "Mountain Strider (Stealth, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mountain Strider",
+                  "type": "item",
+                  "content": [
+                    "Stealth",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "xIUWYOghXR",
+              "label": "Wall Crusher (Fast, Furious)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wall Crusher",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3P4WHKD83B",
+              "label": "Death Cheater (Fearless, Regeneration)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Cheater",
+                  "type": "item",
+                  "content": [
+                    "Fearless",
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Ap9dM8Rc76",
+              "label": "Blood Seeker (Fear(2), Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blood Seeker",
+                  "type": "item",
+                  "content": [
+                    "Fear",
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nOGnXPk",
+              "label": "Fang Beast (Heavy Jagged Claws (A2, AP(1), Rupture), Armor(3), Fast, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fang Beast",
+                  "type": "item",
+                  "content": [
+                    "Heavy Jagged Claws",
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "HRRefS6VVs",
+              "label": "Giant Bison (Stomp (A4, AP(1)), Giant Horns (A2, AP(1), Blast(3)), Armor(3), Fear(2), Fortified, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 290
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Bison",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Giant Horns",
+                    "Armor",
+                    "Fear",
+                    "Fortified",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "MWNwSj3ve3",
+              "label": "Ice Mammoth (Stomp (A4, AP(1)), Giant Tusks (A2, AP(4), Deadly(3)), Armor(3), Fear(2), Melee Evasion, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 295
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ice Mammoth",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Giant Tusks",
+                    "Armor",
+                    "Fear",
+                    "Melee Evasion",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Champion",
+      "forUnits": [
+        "8tuBG2T"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "l4gw0Pi",
+              "label": "Heavy Halberd (A4, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "SboB31joN9",
+              "label": "Heavy Lance (A4, AP(1), Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "y6sARvC",
+              "label": "Heavy Great Weapon (A4, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "IBqRT5g",
+              "label": "Dual Heavy Hand Weapons (A8, AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zD4UJd-",
+              "label": "Great Javelin (12\", A1, AP(2), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "-bByccC",
+              "label": "Twin Big Pistols (9\", A6, AP(1))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Big Pistols",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "0t5514V",
+              "label": "Harpoon Shooter (24\", A1, AP(3), Deadly(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Harpoon Shooter",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yPZ6vNeiEz",
+              "label": "Iron Warrior (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Iron Warrior",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "Seu61wz8-_",
+              "label": "Hunter (Ambush, Melee Slayer, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunter",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Melee Slayer",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0i28sDv",
+              "label": "Fang Beast (Heavy Jagged Claws (A2, AP(1), Rupture), Armor(3), Fast, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fang Beast",
+                  "type": "item",
+                  "content": [
+                    "Heavy Jagged Claws",
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xL8sLwqkXG",
+              "label": "Ice Mammoth (Stomp (A4, AP(1)), Giant Tusks (A2, AP(4), Deadly(3)), Armor(3), Fear(2), Melee Evasion, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 260
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ice Mammoth",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Giant Tusks",
+                    "Armor",
+                    "Fear",
+                    "Melee Evasion",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qdKnCRH9NN",
+              "label": "Giant Bison (Stomp (A4, AP(1)), Giant Horns (A2, AP(1), Blast(3)), Armor(3), Fear(2), Fortified, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 260
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Bison",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Giant Horns",
+                    "Armor",
+                    "Fear",
+                    "Fortified",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Little Ones",
+      "forUnits": [
+        "7upclf5"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Bt-Am1D",
+              "label": "Trapper (Counter-Attack)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "7upclf5",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Trapper",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xRkRDaN",
+              "label": "Throwing Weapon (12\", A1)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "7upclf5",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Weapon",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Command Group",
+      "forUnits": [
+        "1FBW2AA",
+        "asVnpOO",
+        "bYNsRqK",
+        "Z-nCWpB"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "54SVBOl",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "1FBW2AA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 5
+                },
+                {
+                  "unitId": "bYNsRqK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Z-nCWpB",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6AYhq6d",
+              "label": "Sergeant",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "1FBW2AA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 5
+                },
+                {
+                  "unitId": "bYNsRqK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Z-nCWpB",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "kSCmTl_",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "1FBW2AA",
+                  "cost": 10
+                },
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 10
+                },
+                {
+                  "unitId": "bYNsRqK",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Z-nCWpB",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Warriors",
+      "forUnits": [
+        "1FBW2AA"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "H6PHP1RgdE",
+              "label": "Heavy Halberd (A2, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1FBW2AA",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "uyHDo",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "1FBW2AA",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zvSOdMxV",
+              "label": "Doom of Kingdoms (Piercing Feat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1FBW2AA",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom of Kingdoms",
+                  "type": "item",
+                  "content": [
+                    "Piercing Feat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Hunters",
+      "forUnits": [
+        "m1sTpwi"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hunting Spears",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "0LPBQVO",
+              "label": "Great Javelin (12\", A1, AP(2), Deadly(3)), Knife (A2)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "m1sTpwi",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Devourers",
+      "forUnits": [
+        "asVnpOO"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fl2aMiW",
+              "label": "Heavy Great Weapon (A2, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "FDBZiTB",
+              "label": "Big Pistol (9\", A3, AP(1)), Knife (A2)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knife",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Big Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "SNYBN",
+              "label": "Dual Heavy Hand Weapons (A4, AP(2))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0JZK8AWI",
+              "label": "Mountain Strider (Stealth, Strider)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mountain Strider",
+                  "type": "item",
+                  "content": [
+                    "Stealth",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "vj4NpwXT",
+              "label": "Wall Crusher (Fast, Furious)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wall Crusher",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "lL6qY-Ct",
+              "label": "Death Cheater (Fearless, Regeneration)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Cheater",
+                  "type": "item",
+                  "content": [
+                    "Fearless",
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "OZAAsnu0",
+              "label": "Blood Seeker (Fear(1), Scout)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blood Seeker",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "__tYBeB0",
+              "label": "Doom of Kingdoms (Piercing Feat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "asVnpOO",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom of Kingdoms",
+                  "type": "item",
+                  "content": [
+                    "Piercing Feat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Fang-Beast Rider",
+      "forUnits": [
+        "F5uuBFE"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "_jhQx",
+              "label": "Great Weapon (A2, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "F5uuBFE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "yTflX2qW05",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "F5uuBFE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "di4qluozbD",
+              "label": "Heavy Lance (A2, AP(1), Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "F5uuBFE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "HehcelXj",
+              "label": "Intimidating Maw (Unwieldy Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "F5uuBFE",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Intimidating Maw",
+                  "type": "item",
+                  "content": [
+                    "Unwieldy Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "xp6PwWMz",
+              "label": "Great Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "F5uuBFE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IU0l7yjY",
+              "label": "Great Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "F5uuBFE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CFOYhnwk",
+              "label": "Great Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "F5uuBFE",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Monster Crew",
+      "forUnits": [
+        "MQkPVVf",
+        "pOvVyze"
+      ],
+      "sections": [
+        {
+          "label": "Replace Crew Attacks",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "YXMB_",
+              "label": "Harpoon Shooter (24\", A1, AP(3), Deadly(3)), Trap-Chain (12\", A3, AP(1)), Crew Attacks (A3)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "MQkPVVf",
+                  "cost": 70
+                },
+                {
+                  "unitId": "pOvVyze",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Trap-Chain",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Harpoon Shooter",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Crew Attacks",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Ice Mammoth",
+      "forUnits": [
+        "MQkPVVf"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Tusk and Ice Conduit",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Ipu_Um8IdZ",
+              "label": "Giant Tusks (A2, AP(4), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MQkPVVf",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Tusks",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Bl8Rq",
+              "label": "Frost Blast (24\", A2, AP(1), Blast(3)), Great Tusks (A1, AP(2), Deadly(3))",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "MQkPVVf",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Frost Blast",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Great Tusks",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "collective": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Heavy Chariot",
+      "forUnits": [
+        "Rgj_uYH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Scrap Catapult",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "x22wRX_",
+              "label": "Heavy Cannon (30\", A3, AP(2), Deadly(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "Rgj_uYH",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "YZAlK27C",
+              "label": "Doom of Kingdoms (Piercing Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Rgj_uYH",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom of Kingdoms",
+                  "type": "item",
+                  "content": [
+                    "Piercing Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "7EC0s6n-",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "8tuBG2T"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1iJW5lhE",
+              "label": "War Chief (Courage Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Chief",
+                  "type": "item",
+                  "content": [
+                    "Courage Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6gNn386T",
+              "label": "Instigator (Unpredictable Fighter Aura)",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Instigator",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "mRvdo405X0",
+              "label": "Hunt Master (Unstoppable when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunt Master",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "QFfJ6fDeNZ",
+              "label": "Great Devourer (Destroyer Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Devourer",
+                  "type": "item",
+                  "content": [
+                    "Destroyer Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "UUh_NEAduZ",
+              "label": "Shaman (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shaman",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "bJ4ks4lqy1",
+              "label": "Master Shaman (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Shaman",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "L6XJwGQtXE",
+              "label": "Fire Eater (Spit Flames (12\", A3, Blast(3), Limited, Reliable))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8tuBG2T",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fire Eater",
+                  "type": "item",
+                  "content": [
+                    "Spit Flames"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "z03KY8c_",
+      "hint": "Yetis",
+      "forUnits": [
+        "9CloGG7"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "AHtDgKojQg",
+              "label": "Ice Conduit (Melee Evasion Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9CloGG7",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ice Conduit",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4jqnXnmT9G",
+              "label": "Intimidating Maw (Unwieldy Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9CloGG7",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Intimidating Maw",
+                  "type": "item",
+                  "content": [
+                    "Unwieldy Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "OAgsi7In",
+      "hint": "Sabre-Tooths",
+      "forUnits": [
+        "vgrmCvx"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "d8PE1qVV5b",
+              "label": "Intimidating Maw (Unwieldy Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vgrmCvx",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Intimidating Maw",
+                  "type": "item",
+                  "content": [
+                    "Unwieldy Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "74GHqXUP",
+      "hint": "Abomination",
+      "forUnits": [
+        "66qy-Ni"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "wpkV-xsv",
+              "label": "Intimidating Maw (Unwieldy Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "66qy-Ni",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Intimidating Maw",
+                  "type": "item",
+                  "content": [
+                    "Unwieldy Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "jCew8iaC",
+      "hint": "Shooters",
+      "forUnits": [
+        "Z-nCWpB"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "oFp_m7_z41",
+              "label": "Doom of Kingdoms (Piercing Feat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z-nCWpB",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom of Kingdoms",
+                  "type": "item",
+                  "content": [
+                    "Piercing Feat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "dQ927LD0",
+      "hint": "Specialists - Master",
+      "forUnits": [
+        "CSEbbNe"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "kZLkMgQe",
+              "label": "War Chief (Courage Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Chief",
+                  "type": "item",
+                  "content": [
+                    "Courage Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gvaBwOej",
+              "label": "Blessed One (Fortified Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blessed One",
+                  "type": "item",
+                  "content": [
+                    "Fortified Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "MB7Wb-0Mb5",
+              "label": "Executioner (Takedown Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Executioner",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Brs69C3U",
+              "label": "Instigator (Unpredictable Fighter Aura)",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Instigator",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "HICqeXnL",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PuoEuAO8",
+              "label": "Great Devourer (Destroyer Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Devourer",
+                  "type": "item",
+                  "content": [
+                    "Destroyer Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Ien8lVK9n9",
+              "label": "Fire Eater (Spit Flames (12\", A3, Blast(3), Limited, Reliable))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CSEbbNe",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fire Eater",
+                  "type": "item",
+                  "content": [
+                    "Spit Flames"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

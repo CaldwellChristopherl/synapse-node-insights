@@ -1,0 +1,2288 @@
+{
+  "factionId": "PGxKcq4R571OtwqD",
+  "factionName": "Havoc Warriors",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Havoc Master",
+      "forUnits": [
+        "vnS2q8Z",
+        "OJyY0_j"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "DFV89N_",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 5
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Kh98k",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 15
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "p_mJ2mK",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 15
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "TqD8aK5",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 15
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "cVMHC7i",
+              "label": "Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 15
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "7gHEUZM",
+              "label": "Daemon Mount (Heavy Claws (A1, AP(1)), Fast, Fear(1), Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 80
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Daemon Mount",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Fast",
+                    "Fear",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IqVrJ",
+              "label": "Chariot (Hooves (A2), Fast, Impact(4), Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 125
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 115
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chariot",
+                  "type": "item",
+                  "content": [
+                    "Hooves",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "MGH9S",
+              "label": "Beast Chariot (Heavy Claws (A2, AP(1)), Fast, Fear(1), Impact(4), Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 140
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 130
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beast Chariot",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Fast",
+                    "Fear",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iOGKJV4",
+              "label": "Manticore (Rending Claws (A6, Rending), Fear(1), Flying, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 165
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 145
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Manticore",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "TAW-0",
+              "label": "Havoc Dragon (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Breath Attack, Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 335
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 295
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Dragon",
+                  "type": "item",
+                  "content": [
+                    "Tough",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Stomp",
+                    "Heavy Claws"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Barbarian Champion",
+      "forUnits": [
+        "RTeqzVi"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "9IOId",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "d2ymphv",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "G9ZmlCx",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "CSJn0_u",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ovX7Zezua3",
+              "label": "Shortbow (18\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "dqN_cItftB",
+              "label": "Barbed Javelin (12\", A2, AP(1), Slam)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barbed Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Slam"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "SDT9lXj",
+              "label": "Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Harbinger of Havoc",
+      "forUnits": [
+        "CvN76df"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Daemon Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "LxL-N",
+              "label": "Daemon Chain (12\", A3)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CvN76df",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Daemon Chain",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "XLwzd",
+              "label": "Daemon Spear (A1, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CvN76df",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Daemon Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "B54hC",
+              "label": "Daemon Sword (A3, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CvN76df",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Daemon Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "PNXcvDx",
+              "label": "Daemon Gauntlet (A3, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CvN76df",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Daemon Gauntlet",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "igk49az",
+              "label": "Daemonic Incursion (Ambush)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "CvN76df",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Daemonic Incursion",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "y3CDm08xXt",
+              "label": "Wings (Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CvN76df",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0hGnZ-1HJh",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CvN76df",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PdHmRY1",
+              "label": "Lore of Havoc (Caster(3))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "CvN76df",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lore of Havoc",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Command Group",
+      "forUnits": [
+        "CZy5UIP",
+        "EuRBdTX",
+        "CEVxxWK",
+        "R9ujGWS",
+        "GJGNWvj"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "90dWcTi",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CZy5UIP",
+                  "cost": 5
+                },
+                {
+                  "unitId": "EuRBdTX",
+                  "cost": 5
+                },
+                {
+                  "unitId": "CEVxxWK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "R9ujGWS",
+                  "cost": 5
+                },
+                {
+                  "unitId": "GJGNWvj",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gyA2sDO",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "CZy5UIP",
+                  "cost": 5
+                },
+                {
+                  "unitId": "EuRBdTX",
+                  "cost": 5
+                },
+                {
+                  "unitId": "CEVxxWK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "R9ujGWS",
+                  "cost": 5
+                },
+                {
+                  "unitId": "GJGNWvj",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_T_SSCh",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CZy5UIP",
+                  "cost": 10
+                },
+                {
+                  "unitId": "EuRBdTX",
+                  "cost": 10
+                },
+                {
+                  "unitId": "CEVxxWK",
+                  "cost": 10
+                },
+                {
+                  "unitId": "R9ujGWS",
+                  "cost": 10
+                },
+                {
+                  "unitId": "GJGNWvj",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Barbarian Raiders",
+      "forUnits": [
+        "CZy5UIP"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Rjhvq6D",
+              "label": "Flail (A1, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CZy5UIP",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "t1TTf",
+              "label": "Spear (A1, Counter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CZy5UIP",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Warriors",
+      "forUnits": [
+        "EuRBdTX",
+        "CEVxxWK"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "47obGZt",
+              "label": "Heavy Halberd (A1, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "EuRBdTX",
+                  "cost": 5
+                },
+                {
+                  "unitId": "CEVxxWK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "NdaV_Ee",
+              "label": "Heavy Great Weapon (A1, AP(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "EuRBdTX",
+                  "cost": 20
+                },
+                {
+                  "unitId": "CEVxxWK",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "sj1XsR1",
+              "label": "Dual Heavy Hand Weapons (A2, AP(1))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "EuRBdTX",
+                  "cost": 45
+                },
+                {
+                  "unitId": "CEVxxWK",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Havoc Ogres",
+      "forUnits": [
+        "R9ujGWS"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "g6bvEY1",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "R9ujGWS",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Drake-Centaurs",
+      "forUnits": [
+        "_ciVJh1"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Great Weapons and Stomps",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "FEX-c",
+              "label": "Dual Heavy Hand Weapons (A4, AP(2))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "_ciVJh1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Havoc Hounds",
+      "forUnits": [
+        "9VzVVdy"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FSTpWcs",
+              "label": "Vicious (Shred in Melee)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "9VzVVdy",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vicious",
+                  "type": "item",
+                  "content": [
+                    "Shred in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "x1n6xIw",
+              "label": "Bounding Advance (Scout)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "9VzVVdy",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bounding Advance",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Barbarian Horsemen",
+      "forUnits": [
+        "8LD0dh8"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "E93HmvE",
+              "label": "Flail (A1, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "8LD0dh8",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "aHIuaOw1Lo",
+              "label": "Shortbow (18\", A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "8LD0dh8",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "9tCCn1h",
+              "label": "Barbed Javelin (12\", A1, AP(1), Slam)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "8LD0dh8",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barbed Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Slam"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Havoc Knights",
+      "forUnits": [
+        "GJGNWvj"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "zYkUhcd",
+              "label": "Heavy Lance (A1, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "GJGNWvj",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Daemonic Guard Knights",
+      "forUnits": [
+        "3SD9sRo"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hexed Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Yn9WINy",
+              "label": "Heavy Lance (A1, AP(1), Thrust)",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "3SD9sRo",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M1",
+      "hint": "Daemon Artillery",
+      "forUnits": [
+        "a1SnwkJ"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hell Fire",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "vbvianl",
+              "label": "Doom Fire (36\", A2, AP(2), Deadly(3), Indirect)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "a1SnwkJ",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom Fire",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "Deadly",
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "lKmMLJU6",
+              "label": "Summoned Tendrils (Dangerous Terrain Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "a1SnwkJ",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Summoned Tendrils",
+                  "type": "item",
+                  "content": [
+                    "Dangerous Terrain Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "n-7pC",
+      "hint": "Havoc Furies",
+      "forUnits": [
+        "tIquQyR"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Armblades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "UhUr3",
+              "label": "Rending Claws (A2, Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "tIquQyR",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rending Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "CTIpA",
+      "hint": "Havoc Soul Spawns",
+      "forUnits": [
+        "rk-3OZ-"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Havoc Swords",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "acjO7",
+              "label": "Mutated Claws (A4)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rk-3OZ-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mutated Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "nviJ6TNd",
+      "hint": "Havoc Shrine",
+      "forUnits": [
+        "QvcEwz1"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "049Pq_xQae",
+              "label": "Battle Aura (Precision Fighter Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QvcEwz1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Battle Aura",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighter Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "SP3-sldf",
+      "hint": "Havoc Trolls",
+      "forUnits": [
+        "aTxCHqz"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "a5eAw6d2Dm",
+              "label": "Summoned Tendrils (Dangerous Terrain Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "aTxCHqz",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Summoned Tendrils",
+                  "type": "item",
+                  "content": [
+                    "Dangerous Terrain Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "s5sVEnxl",
+      "hint": "Havoc Chariot",
+      "forUnits": [
+        "Z4lt72z"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Crew Attack",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mpswXEbpXB",
+              "label": "Barbed Javelin Crew (12\", A6, AP(1), Slam)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z4lt72z",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barbed Javelin Crew",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Slam"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "E2rA_ZE3",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z4lt72z",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "0F-loTQX",
+      "hint": "Specialists - Master",
+      "forUnits": [
+        "vnS2q8Z",
+        "OJyY0_j"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7VfKYoEc",
+              "label": "Conqueror (Scout Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 20
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Conqueror",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "dECfqdNuXm",
+              "label": "Marauder (Unpredictable Fighter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 30
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Marauder",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "BUiUOCp7",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 30
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "A_0cX9zoTL",
+              "label": "Warlock (Ranged Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 35
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warlock",
+                  "type": "item",
+                  "content": [
+                    "Ranged Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Nk7dEyu6",
+              "label": "Sorcerer (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 55
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "GMTZWqE5zt",
+              "label": "Lord of Havoc (Havocbound Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 65
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord of Havoc",
+                  "type": "item",
+                  "content": [
+                    "Havocbound Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "e1upTXcC",
+              "label": "Master Sorcerer (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "vnS2q8Z",
+                  "cost": 80
+                },
+                {
+                  "unitId": "OJyY0_j",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "-LAz1HOB",
+      "hint": "Icon of Havoc",
+      "forUnits": [
+        "CZy5UIP",
+        "EuRBdTX",
+        "CEVxxWK",
+        "pG8JznC",
+        "8LD0dh8",
+        "GJGNWvj"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "iIvpr7Ri",
+              "label": "Icon of Havoc (Versatile Defense Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CZy5UIP",
+                  "cost": 20
+                },
+                {
+                  "unitId": "EuRBdTX",
+                  "cost": 20
+                },
+                {
+                  "unitId": "CEVxxWK",
+                  "cost": 20
+                },
+                {
+                  "unitId": "pG8JznC",
+                  "cost": 20
+                },
+                {
+                  "unitId": "8LD0dh8",
+                  "cost": 20
+                },
+                {
+                  "unitId": "GJGNWvj",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Icon of Havoc",
+                  "type": "item",
+                  "content": [
+                    "Versatile Defense Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "7oz3TNet",
+      "hint": "Summoned Tendrils (One Model)",
+      "forUnits": [
+        "rjgk8RE",
+        "kEg7-0r"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "OBlGb3RM",
+              "label": "Summoned Tendrils (Dangerous Terrain Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rjgk8RE",
+                  "cost": 35
+                },
+                {
+                  "unitId": "kEg7-0r",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Summoned Tendrils",
+                  "type": "item",
+                  "content": [
+                    "Dangerous Terrain Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "DyClsPve",
+      "hint": "Beast Chariot",
+      "forUnits": [
+        "bOrMaBb"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "5ubmRNrm",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bOrMaBb",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ABgXpNp_",
+      "hint": "Havoc Favour",
+      "forUnits": [
+        "3SD9sRo"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "RlYwUr0M",
+              "label": "Havoc Favour (Steadfast Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "3SD9sRo",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Havoc Favour",
+                  "type": "item",
+                  "content": [
+                    "Steadfast Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "3kEH_O4p",
+      "hint": "Specialists - Barbarian",
+      "forUnits": [
+        "RTeqzVi"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "tmPApwuU",
+              "label": "Herald (Shred when Shooting Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Herald",
+                  "type": "item",
+                  "content": [
+                    "Shred when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LJPgqmPg",
+              "label": "Marauder (Unpredictable Fighter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Marauder",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "fg-MFBLQ",
+              "label": "Warlock (Ranged Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warlock",
+                  "type": "item",
+                  "content": [
+                    "Ranged Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PDGzdCgyzE",
+              "label": "Sorcerer  (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sorcerer ",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "rmZzrG_m",
+              "label": "Lord of Havoc (Havocbound Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RTeqzVi",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord of Havoc",
+                  "type": "item",
+                  "content": [
+                    "Havocbound Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "AkjTzLVj",
+      "hint": "Barbarian Hunters",
+      "forUnits": [
+        "pG8JznC"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Shortbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "UR9QNOZo",
+              "label": "Barbed Javelin (12\", A1, AP(1), Slam)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pG8JznC",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barbed Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Slam"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

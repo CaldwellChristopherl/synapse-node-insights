@@ -3,8 +3,13 @@
   "factionName": "Soul-Snatcher Cults",
   "gameSystem": "grimdark-future",
   "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.483Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.452Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 40
+  },
   "units": [
     {
       "id": "YJDuv06",
@@ -20,19 +25,31 @@
         "Fanatic",
         "Fear(1)"
       ],
+      "weapons": [
+        {
+          "name": "Sharp Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "ASognPyS",
+        "wsBlZzhB"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "monster",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
-        "humanity": -4
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -49,18 +66,33 @@
         "Tough(3)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Massive Heavy Pick",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "QLa-aHeu",
+        "7L4sutlT"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
-        "melee",
         "regeneration",
-        "tough"
+        "tough",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -76,17 +108,31 @@
         "Tough(3)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Dual Sharp Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "AlvLT"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -102,17 +148,34 @@
         "Hero",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Cult Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -127,6 +190,23 @@
       "rules": [
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
         "balanced",
         "cheap",
@@ -135,9 +215,9 @@
         "swarm"
       ],
       "dimensionScores": {
+        "versatility": 2,
         "elite": -5,
-        "collective": 5,
-        "versatility": 2
+        "collective": 5
       }
     },
     {
@@ -152,14 +232,37 @@
         "Tough(3)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Mortar",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
+        "tough",
+        "indirect",
         "balanced",
-        "expendable",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "versatility": 2,
-        "elite": -3
+        "patience": 2,
+        "elite": -2,
+        "subtlety": 1,
+        "versatility": 2
       }
     },
     {
@@ -173,14 +276,28 @@
       "rules": [
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
-        "reliable",
-        "versatile"
+        "balanced"
       ],
       "dimensionScores": {
-        "versatility": 5,
-        "order": 2
+        "versatility": 2
       }
     },
     {
@@ -195,15 +312,34 @@
         "Strider",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Mutant Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
         "mobile",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -218,12 +354,28 @@
         "Regeneration",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pick",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "melee",
         "regeneration",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": 3
       }
     },
@@ -241,15 +393,33 @@
         "Regeneration",
         "Ambush"
       ],
+      "weapons": [
+        {
+          "name": "Sharp Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "melee",
-        "mobile",
+        "fast",
         "regeneration",
+        "ambush",
+        "mobile",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3
+        "speed": 5,
+        "subtlety": 3,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -266,17 +436,33 @@
         "Fanatic",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "elite",
         "fast",
-        "melee",
         "mobile",
-        "scout"
+        "scout",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "speed": 5,
-        "subtlety": 3
+        "subtlety": 3,
+        "patience": -1,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -286,24 +472,42 @@
       "size": 3,
       "quality": 4,
       "defense": 5,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
         "fast",
         "tough",
         "vehicle",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -314,23 +518,51 @@
       "size": 1,
       "quality": 4,
       "defense": 5,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(6)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Burst Pistol",
+          "range": 12,
+          "attacks": 3,
+          "special": []
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "balanced",
         "fast",
         "tough",
         "vehicle",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -348,19 +580,42 @@
         "Tough(6)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Mining Laser",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
+        "aggressive",
         "tough",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -378,19 +633,39 @@
         "Transport(11)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2",
+        "C2"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -409,20 +684,46 @@
         "Transport(6)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Quake Cannon",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2"
+      ],
       "tags": [
-        "aggressive",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
+        "transport",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -440,19 +741,44 @@
         "Transport(11)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Twin Autocannon",
+          "range": 36,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "6l9CF"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -469,19 +795,45 @@
         "Tough(12)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Nova Cannon",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2",
+        "E2"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
+        "aggressive",
         "tough",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -497,14 +849,39 @@
         "Tough(6)",
         "Fanatic"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F2"
+      ],
       "tags": [
-        "balanced",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
         "tech": 3,
         "versatility": 2
       }

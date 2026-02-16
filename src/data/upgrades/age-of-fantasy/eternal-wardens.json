@@ -1,0 +1,3125 @@
+{
+  "factionId": "-MrGWaleoZR7pxIn",
+  "factionName": "Eternal Wardens",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Eternal Lord",
+      "forUnits": [
+        "afr8Kxs"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1Z0h6x7ASu",
+              "label": "Great Thunder Mace (A2, AP(4), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Thunder Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "IvhRA-N",
+              "label": "Meteor Great Hammer (A2, AP(2), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Meteor Great Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "pPXGzhA",
+              "label": "Heavy Great Weapon (A4, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "B_ft2",
+              "label": "Heavy Lance (A4, AP(2), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "YHIsTBo",
+              "label": "Dual Heavy Hand Weapons (A8, AP(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "T5eLkG6aVn",
+              "label": "Destroyer Armor (Armor(2), Infiltrate, Slow)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Destroyer Armor",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Infiltrate",
+                    "Slow"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "c8GFLa9",
+              "label": "Drake (Rending Claws (A1, Rending), Breath Attack, Fast, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drake",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Breath Attack",
+                    "Fast",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Rb-22",
+              "label": "Dragon (Heavy Claws (A2, AP(1)), Breath Attack, Fear(1), Flying, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 110
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dragon",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ene7P",
+              "label": "Great Dragon (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Breath Attack, Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 350
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Dragon",
+                  "type": "item",
+                  "content": [
+                    "Breath Attack",
+                    "Heavy Claws",
+                    "Stomp",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Guardian Elite",
+      "forUnits": [
+        "h0ceTgP"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nbHj8Ed",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "TvLR7wr",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "paigCbx",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fFaHYJt",
+              "label": "Elite Bow (24\", A3)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elite Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Command Group",
+      "forUnits": [
+        "1nVvrJ8",
+        "BIpTSoW",
+        "jxZHMjf"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "GKvIlfY",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "1nVvrJ8",
+                  "cost": 5
+                },
+                {
+                  "unitId": "BIpTSoW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "jxZHMjf",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Onk5i73",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "1nVvrJ8",
+                  "cost": 5
+                },
+                {
+                  "unitId": "BIpTSoW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "jxZHMjf",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "87olQse",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "1nVvrJ8",
+                  "cost": 10
+                },
+                {
+                  "unitId": "BIpTSoW",
+                  "cost": 10
+                },
+                {
+                  "unitId": "jxZHMjf",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Guardians",
+      "forUnits": [
+        "1nVvrJ8"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Halberds",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "pDfBN",
+              "label": "Heavy Spear (A1, AP(1), Counter)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "1nVvrJ8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "51-laAp",
+              "label": "Heavy Great Weapon (A1, AP(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "1nVvrJ8",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "U1QXeUPu",
+              "label": "Lightning Beacon (Piercing Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1nVvrJ8",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lightning Beacon",
+                  "type": "item",
+                  "content": [
+                    "Piercing Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Paladins",
+      "forUnits": [
+        "ay8SZTZ"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Sword & Staffs",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "_Z5cY",
+              "label": "Hand Weapon (A3)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ay8SZTZ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "-Gq11",
+              "label": "Great Staff (A2, AP(1), Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "ay8SZTZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Staff",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "bsJOxus7SU",
+              "label": "Thunder Mace (A1, AP(4), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ay8SZTZ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Thunder Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "CwUmEIC",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ay8SZTZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1P85c7G",
+              "label": "Evocator (Caster(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "ay8SZTZ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Evocator",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Wardens",
+      "forUnits": [
+        "BIpTSoW"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7alIWAJ",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "BIpTSoW",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6i29a9RFCg",
+              "label": "Thunder Mace (A1, AP(4), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BIpTSoW",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Thunder Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "ddJqS",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "BIpTSoW",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "wXGzo88m",
+              "label": "Lightning Beacon (Piercing Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BIpTSoW",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lightning Beacon",
+                  "type": "item",
+                  "content": [
+                    "Piercing Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Eternals",
+      "forUnits": [
+        "EVgav1G"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Great Glaives",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mb15kBn",
+              "label": "Great Axe (A3, AP(1), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "EVgav1G",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Axe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "KFqGgq_",
+              "label": "Great Hammer (A3, AP(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "EVgav1G",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Great Glaive",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "At_RJ",
+              "label": "Dual Axes (A4, Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "EVgav1G",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Axes",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "CxVAAw7",
+              "label": "Great Thunder Mace (A2, AP(4), Smash)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "EVgav1G",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Thunder Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Destroyers",
+      "forUnits": [
+        "2yYDL1W"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Meteor Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nl-FIDLEIz",
+              "label": "Great Thunder Mace (A2, AP(4), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2yYDL1W",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Thunder Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "xMIx4",
+              "label": "Meteor Great Hammer (A2, AP(2), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "2yYDL1W",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Meteor Great Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Warden Shooters",
+      "forUnits": [
+        "meDF1iu"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Bows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lx3s6Mi",
+              "label": "Thunder Crossbow (18\", A1, AP(4), Smash)",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "meDF1iu",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Thunder Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "bTyTr29",
+              "label": "Rapid Heavy Crossbow (24\", A2, AP(1), Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "meDF1iu",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Heavy Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "dN_Xpql",
+              "label": "Volley Crossbow (12\", A4, AP(1), Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "meDF1iu",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volley Crossbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "VVEfZh-P",
+              "label": "Storm Caller (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "meDF1iu",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Caller",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "hTt92kDtmk",
+              "label": "Lightning Beacon (Piercing Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "meDF1iu",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lightning Beacon",
+                  "type": "item",
+                  "content": [
+                    "Piercing Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Winged Wardens",
+      "forUnits": [
+        "lfX0CH6"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mz9g7",
+              "label": "Javelin (12\", A2, AP(1)), Dagger (A1)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "lfX0CH6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Dagger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "IffeZWD",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "lfX0CH6",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "FJWtAc8q8c",
+              "label": "Thunder Mace (A1, AP(4), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lfX0CH6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Thunder Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "nVUfm1i",
+              "label": "Heavy Great Weapon (A2, AP(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lfX0CH6",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Javelin",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "d2NhlWj",
+              "label": "Storm Trident (12\", A1, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lfX0CH6",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Trident",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Px1cC",
+              "label": "Celestial Descent (Ambush)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "lfX0CH6",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Celestial Descent",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M1",
+      "hint": "Warden Marskmen",
+      "forUnits": [
+        "kbDThPs"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Cyclone Crossbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "MQWh2CG",
+              "label": "Precision Crossbow (24\", A2, AP(1), Reliable, Rending, Takedown)",
+              "cost": 235,
+              "costs": [
+                {
+                  "unitId": "kbDThPs",
+                  "cost": 105
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Precision Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sbIxnUH6",
+              "label": "Storm Caller (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kbDThPs",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Caller",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N1",
+      "hint": "Gryph Hunters",
+      "forUnits": [
+        "jxZHMjf"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "t1ulFXYyff",
+              "label": "Lance (A2, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jxZHMjf",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "SYD-4Dp",
+              "label": "Bolt Pistol (12\", A2, Rending), Dagger (A1)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "jxZHMjf",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bolt Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Dagger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "MnOom",
+              "label": "Javelin (12\", A2, AP(1)), Dagger (A1)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "jxZHMjf",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Dagger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "O1",
+      "hint": "Drake-Lion Paladins",
+      "forUnits": [
+        "Nl1wnIW"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Sword & Staff",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lALZGpd",
+              "label": "Great Staff (A2, AP(1), Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nl1wnIW",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Staff",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QxYsMle",
+              "label": "Evocator (Caster(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "Nl1wnIW",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Evocator",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "azHim-DxYz",
+              "label": "Storm Caller (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nl1wnIW",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Caller",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "P1",
+      "hint": "Drake Eternal",
+      "forUnits": [
+        "vLfPceQ"
+      ],
+      "sections": [
+        {
+          "label": "Replace Thunder Mace",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "c7-SiyVTZB",
+              "label": "Great Glaive (A3, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vLfPceQ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "1arydu5",
+              "label": "Great Axe (A3, AP(1), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vLfPceQ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Axe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "hQ7mYZ0",
+              "label": "Great Hammer (A3, AP(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vLfPceQ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "ZqhR14x",
+              "label": "Volley Crossbow (12\", A4, AP(1), Rending), Dagger (A1)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "vLfPceQ",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dagger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                },
+                {
+                  "name": "Volley Crossbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Q1",
+      "hint": "Dragon Eternal",
+      "forUnits": [
+        "3xUEKek"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Lance",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "478O6",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": -10,
+              "costs": [
+                {
+                  "unitId": "3xUEKek",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "1BkxKoQU2v",
+              "label": "Great Thunder Mace (A2, AP(4), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "3xUEKek",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Thunder Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "hx8sXRfI",
+              "label": "Storm Caller (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "3xUEKek",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Caller",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "R1",
+      "hint": "Storm Chariot",
+      "forUnits": [
+        "xTDneuF"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spear Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6J0Eb",
+              "label": "Bow Crew (18\", A9, AP(1))",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "xTDneuF",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 9,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "S1",
+      "hint": "Eternal Artillery",
+      "forUnits": [
+        "itx-O4O"
+      ],
+      "sections": [
+        {
+          "label": "Replace Celestial Bolt Ballista",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8KaLy_X",
+              "label": "Shock Bolt Ballista (24\", A6, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "itx-O4O",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shock Bolt Ballista",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "AW8xyY5sME",
+              "label": "Thunder Bolt Ballista (30\", A2, AP(4), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "itx-O4O",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Thunder Bolt Ballista",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gUAM55LC",
+              "label": "Storm Caller (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "itx-O4O",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Caller",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "9EFD4",
+      "hint": "Warden Knight",
+      "forUnits": [
+        "IDLyyFy"
+      ],
+      "sections": [
+        {
+          "label": "Replace Sword & Staff",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "oI467",
+              "label": "Heavy Hand Weapon (A4, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "mNucM",
+              "label": "Great Staff (A4, AP(1), Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Staff",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "UyQSlgcpbT",
+              "label": "Great Thunder Mace (A2, AP(4), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Thunder Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "kkYvw",
+              "label": "Heavy Great Weapon (A4, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "17qSL",
+              "label": "Dual Heavy Hand Weapons (A8, AP(1))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "W2ovx",
+              "label": "Knight Bow (24\", A4, AP(1))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knight Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "96RQI",
+              "label": "Great Bow (30\", A1, AP(3), Deadly(3))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Bow",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rpOah",
+              "label": "Paladin (Unpredictable Fighter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Paladin",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1M_1b03",
+              "label": "Drake-Lion (Fast, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drake-Lion",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "mAwv6UxMIz",
+              "label": "Wings (Ambush, Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5neCl",
+              "label": "Horned Pegasus (Fast, Flying, Impact(3), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Horned Pegasus",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Flying",
+                    "Tough",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4hm5D9l",
+              "label": "Great Gryph (Fast, Impact(4), Scout, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Gryph",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Scout",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "06HzmdsR",
+      "hint": "Guardian Archers",
+      "forUnits": [
+        "L83Dn49"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "IbgJHJfsh8",
+              "label": "Lightning Beacon (Piercing Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "L83Dn49",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lightning Beacon",
+                  "type": "item",
+                  "content": [
+                    "Piercing Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "uzin9Wjg",
+      "hint": "Specialists - Knight",
+      "forUnits": [
+        "IDLyyFy"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_fqZRq5q",
+              "label": "Herald (Unstoppable in Melee Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Herald",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "mD7S8OG8DL",
+              "label": "Prayer Chanter (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prayer Chanter",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "prYq5BFo",
+              "label": "Exorcist (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Exorcist",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jZq4QuEH",
+              "label": "Soul Collector (Bane when Shooting Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Collector",
+                  "type": "item",
+                  "content": [
+                    "Bane when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "D9w-kWD6",
+              "label": "Heirloom Bearer (Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heirloom Bearer",
+                  "type": "item",
+                  "content": [
+                    "Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "drJI8JnZ",
+              "label": "Master Exorcist (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Exorcist",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zjCw_8jC",
+              "label": "Beast-Hound Companion (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beast-Hound Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "32Grhkpj",
+      "hint": "Lightning Beacon (Heroes)",
+      "forUnits": [
+        "afr8Kxs",
+        "IDLyyFy",
+        "h0ceTgP"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "NOVgAGVZ",
+              "label": "Lightning Beacon (Piercing Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 35
+                },
+                {
+                  "unitId": "IDLyyFy",
+                  "cost": 35
+                },
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lightning Beacon",
+                  "type": "item",
+                  "content": [
+                    "Piercing Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "4y4E5-2F",
+      "hint": "Beast-Hounds",
+      "forUnits": [
+        "VioxaNM"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "DN9fiu4DyN",
+              "label": "Retriever Hounds (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VioxaNM",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Retriever Hounds",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bsRn3QFK",
+      "hint": "Specialists - Guardian",
+      "forUnits": [
+        "h0ceTgP"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "TUnrtZYr",
+              "label": "Relic Warden (Warden Boost Aura)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Relic Warden",
+                  "type": "item",
+                  "content": [
+                    "Warden Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "mqqIKZGR",
+              "label": "Artillerist (Re-Position Artillery)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Artillerist",
+                  "type": "item",
+                  "content": [
+                    "Re-Position Artillery"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "SXeH31vp",
+              "label": "Prayer Chanter (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prayer Chanter",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "Y2Mh0NCA",
+              "label": "Soul Collector (Bane when Shooting Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Collector",
+                  "type": "item",
+                  "content": [
+                    "Bane when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "E2lLN7P3",
+              "label": "Heirloom Bearer (Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heirloom Bearer",
+                  "type": "item",
+                  "content": [
+                    "Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "pEqyiNJ_",
+              "label": "Beast-Hound Companion (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "h0ceTgP",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beast-Hound Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "775OQ1nF",
+      "hint": "Specialists - Lord",
+      "forUnits": [
+        "afr8Kxs"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "hOCiFPmv",
+              "label": "Relic Warden (Warden Boost Aura)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Relic Warden",
+                  "type": "item",
+                  "content": [
+                    "Warden Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0L9j8yGr",
+              "label": "Herald (Unstoppable in Melee Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Herald",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ofBxQ914ka",
+              "label": "Prayer Chanter (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prayer Chanter",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "NUVvdsJu",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "2zyg2_Eh",
+              "label": "Heirloom Bearer (Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heirloom Bearer",
+                  "type": "item",
+                  "content": [
+                    "Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "R3t6Lp4Q",
+              "label": "Beast-Hound Companion (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "afr8Kxs",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beast-Hound Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

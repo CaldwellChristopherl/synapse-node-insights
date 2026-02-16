@@ -3,8 +3,13 @@
   "factionName": "DAO Union",
   "gameSystem": "grimdark-future",
   "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.086Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:22.880Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 50
+  },
   "units": [
     {
       "id": "ZLsGVby",
@@ -20,22 +25,55 @@
         "Tough(6)",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Suit-Burst",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Suit-Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Bash",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "UA0trVt1",
+        "PPFyeuLW"
+      ],
       "tags": [
-        "balanced",
-        "battlesuit",
         "flying",
+        "mobile",
         "hero",
         "leader",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": 5,
-        "speed": 3,
-        "leadership": 3,
+        "speed": 5,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -53,20 +91,33 @@
         "Targeting Visor",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Holy Baton",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "C1",
+        "WRmsr"
+      ],
       "tags": [
-        "expendable",
+        "ranged",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "robot",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "tech": 4,
-        "humanity": -2,
-        "leadership": 3
+        "patience": 1,
+        "leadership": 5,
+        "elite": -1
       }
     },
     {
@@ -81,16 +132,36 @@
         "Good Shot",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Pulse Shotgun",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "83qdO-bm",
+        "oCGcS1ry"
+      ],
       "tags": [
+        "ranged",
         "balanced",
-        "expendable",
-        "robot"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": 4,
-        "humanity": -2,
-        "versatility": 2
+        "patience": 1,
+        "tech": 1,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -105,16 +176,36 @@
         "Good Shot",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Pulse Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "G1"
+      ],
       "tags": [
+        "ranged",
         "balanced",
-        "expendable",
-        "robot"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": 4,
-        "humanity": -2,
-        "versatility": 2
+        "patience": 1,
+        "tech": 1,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -130,17 +221,39 @@
         "Scout",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Pulse Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
+        "ranged",
+        "scout",
         "mobile",
-        "scout"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "patience": 1,
+        "tech": 1,
         "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -150,27 +263,47 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Ambush",
         "Stealth",
         "Targeting Visor",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Burst Carbine",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "balanced",
-        "battlesuit",
+        "ambush",
         "mobile",
         "stealth",
         "tough",
         "vehicle",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 5,
+        "subtlety": 5,
         "speed": 3,
-        "subtlety": 4,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -181,24 +314,47 @@
       "size": 3,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Flying",
         "Tough(3)",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Suit-Burst",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Bash",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "Oa7j1nk0",
+        "J1"
+      ],
       "tags": [
-        "balanced",
-        "battlesuit",
         "flying",
+        "mobile",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 5,
-        "speed": 3,
+        "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -215,19 +371,40 @@
         "Good Shot",
         "Strider"
       ],
+      "weapons": [
+        {
+          "name": "Twin Pulse-Gun",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Taser",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "balanced",
-        "drone",
-        "expendable",
+        "ranged",
         "mobile",
-        "robot"
+        "drone",
+        "robot",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "patience": 1,
         "tech": 5,
-        "humanity": -4,
         "speed": 3,
-        "versatility": 2
+        "humanity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -243,19 +420,40 @@
         "Strider",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Pulse Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Taser",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "balanced",
-        "drone",
-        "expendable",
+        "ranged",
         "mobile",
-        "robot"
+        "drone",
+        "robot",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "patience": 1,
         "tech": 5,
-        "humanity": -4,
         "speed": 3,
-        "versatility": 2
+        "humanity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -274,20 +472,49 @@
         "Tough(6)",
         "Transport(11)"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Burst Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Twin Heavy Pulse-Gun",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "B2",
+        "C2",
+        "u8E17jMy"
+      ],
       "tags": [
-        "aggressive",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
+        "transport",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -305,20 +532,47 @@
         "Targeting Visor",
         "Tough(12)"
       ],
+      "weapons": [
+        {
+          "name": "Sub-Railgun",
+          "range": 36,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Pulse-Gun",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "B2",
+        "C2",
+        "D2",
+        "PUpFpK8q"
+      ],
       "tags": [
-        "aggressive",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -328,7 +582,7 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Impact(3)",
@@ -336,20 +590,44 @@
         "Targeting Visor",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Burst Carbine",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Twin Heavy Pulse-Gun",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2",
+        "C2",
+        "E2"
+      ],
       "tags": [
-        "aggressive",
         "fast",
+        "aggressive",
         "mobile",
-        "ranged",
         "tough",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -365,16 +643,40 @@
         "Tough(12)",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Quad Missile Pod",
+          "range": 30,
+          "attacks": 8,
+          "special": [
+            "Decimate",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2",
+        "F2"
+      ],
       "tags": [
-        "balanced",
-        "battlesuit",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -393,20 +695,52 @@
         "Tough(12)",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Ion Carbine",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Twin Burst Carbine",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2"
+      ],
       "tags": [
-        "balanced",
-        "battlesuit",
+        "ambush",
         "mobile",
         "stealth",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 5,
+        "subtlety": 5,
         "speed": 3,
-        "subtlety": 4,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -423,18 +757,43 @@
         "Tough(6)",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Ion Cannon",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Twin Burst Carbine",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H2",
+        "WQ5C-0dL"
+      ],
       "tags": [
         "aircraft",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "veteran"
+        "tough",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "tech": 5,
-        "speed": 5
+        "speed": 5,
+        "patience": 2,
+        "elite": 4
       }
     },
     {
@@ -450,18 +809,53 @@
         "Tough(6)",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Ion Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Missile Pod",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "Decimate",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Pulse Bombs",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Strafing"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "WQ5C-0dL"
+      ],
       "tags": [
         "aircraft",
-        "balanced",
         "flying",
-        "tough",
         "vehicle",
-        "veteran"
+        "tough",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "tech": 5,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
         "versatility": 2
       }
     },
@@ -478,14 +872,46 @@
         "Tough(18)",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Twin Plasma Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "Heavy Plasma Sword",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J2"
+      ],
       "tags": [
-        "balanced",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
         "tech": 3,
         "versatility": 2
       }
@@ -503,14 +929,46 @@
         "Tough(24)",
         "Targeting Visor"
       ],
+      "weapons": [
+        {
+          "name": "Cluster Rockets",
+          "range": 24,
+          "attacks": 8,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Pulse Blaster",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K2"
+      ],
       "tags": [
-        "balanced",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 1,
+        "elite": 4,
         "tech": 3,
         "versatility": 2
       }

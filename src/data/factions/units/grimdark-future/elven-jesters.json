@@ -2,9 +2,14 @@
   "factionId": "nyh41t82jugcdq8m",
   "factionName": "Elven Jesters",
   "gameSystem": "grimdark-future",
-  "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.174Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:22.989Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 50
+  },
   "units": [
     {
       "id": "Z8Cf2Y3",
@@ -21,19 +26,46 @@
         "Rapid Blink",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Master Fragment Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Fragment"
+          ]
+        },
+        {
+          "name": "Dagger",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Deathly Touch",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F-qtY",
+        "G7bVZ"
+      ],
       "tags": [
         "aggressive",
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "patience": -3,
-        "leadership": 3,
+        "patience": -2,
+        "leadership": 5,
+        "elite": 5,
         "versatility": 2
       }
     },
@@ -52,17 +84,37 @@
         "Rapid Blink",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Master Fragment Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Fragment"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "4tXjpLOE"
+      ],
       "tags": [
         "aggressive",
-        "balanced",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "collective": -1,
-        "patience": -3,
-        "leadership": 3,
+        "patience": -2,
+        "leadership": 5,
+        "elite": -1,
         "versatility": 2
       }
     },
@@ -79,15 +131,32 @@
         "Rapid Blink",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Fragment Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Fragment"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aggressive",
         "balanced",
         "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "patience": -3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -103,15 +172,35 @@
         "Rapid Blink",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Fragment Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Fragment"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "FAA3V"
+      ],
       "tags": [
         "aggressive",
         "balanced",
         "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "patience": -3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -129,17 +218,34 @@
         "Rapid Blink",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Energy Glaive",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "FAA3V"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
-        "melee",
+        "ambush",
         "mobile",
-        "regeneration"
+        "aggressive",
+        "regeneration",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "subtlety": 3,
         "speed": 3,
-        "patience": -3
+        "patience": -4,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -149,7 +255,7 @@
       "size": 3,
       "quality": 3,
       "defense": 5,
-      "role": "fast-attack",
+      "role": "elite",
       "rules": [
         "Flying",
         "Furious",
@@ -157,17 +263,37 @@
         "Rapid Blink",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Exploding Bolas",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "FAA3V"
+      ],
       "tags": [
+        "flying",
+        "mobile",
         "aggressive",
         "balanced",
-        "elite",
-        "flying"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 3,
+        "speed": 5,
         "patience": -3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -177,7 +303,7 @@
       "size": 3,
       "quality": 3,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Furious",
@@ -186,21 +312,47 @@
         "Rapid Blink",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Exploding Bolas",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Fragment Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Fragment"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "cavalry",
-        "elite",
         "fast",
+        "aggressive",
         "mobile",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
-        "patience": -3,
+        "patience": -2,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -211,7 +363,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Furious",
@@ -221,20 +373,43 @@
         "Rapid Blink",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Twin Fragment Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Fragment"
+          ]
+        },
+        {
+          "name": "Energy Glaive",
+          "range": 0,
+          "attacks": 5,
+          "special": [
+            "AP(1)",
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "elite",
         "fast",
+        "aggressive",
         "mobile",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
-        "patience": -3,
+        "patience": -2,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     }

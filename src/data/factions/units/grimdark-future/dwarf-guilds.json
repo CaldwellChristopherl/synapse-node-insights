@@ -2,9 +2,14 @@
   "factionId": "fk1mkbp8apvltu0z",
   "factionName": "Dwarf Guilds",
   "gameSystem": "grimdark-future",
-  "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.166Z",
+  "factionType": "tech",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:22.974Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 39
+  },
   "units": [
     {
       "id": "5op34S_",
@@ -21,23 +26,40 @@
         "Tough(6)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Shock Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "ZpmpO",
+        "knt9G"
+      ],
       "tags": [
-        "battlesuit",
-        "elite",
+        "ambush",
+        "mobile",
         "hero",
         "leader",
-        "melee",
-        "mobile",
         "slow",
         "tough",
-        "vehicle"
+        "defensive",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "tech": 5,
+        "subtlety": 3,
         "speed": 1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "tech": 2
       }
     },
     {
@@ -54,19 +76,34 @@
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "8fCGVtUC"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
-        "melee",
         "slow",
-        "tough"
+        "tough",
+        "defensive",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "patience": 3,
+        "tech": -1
       }
     },
     {
@@ -86,25 +123,38 @@
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Great Axe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "zk6mCwIo"
+      ],
       "tags": [
-        "aggressive",
         "fearless",
+        "aggressive",
         "hero",
         "leader",
-        "melee",
-        "monster",
         "slow",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
         "faith": 2,
-        "humanity": -4,
         "patience": -3,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -120,13 +170,30 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Bash",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "cp4t1"
+      ],
       "tags": [
-        "balanced",
-        "human",
-        "slow"
+        "defensive",
+        "slow",
+        "balanced"
       ],
       "dimensionScores": {
-        "humanity": 3,
+        "patience": 3,
         "speed": -2,
         "versatility": 2
       }
@@ -143,15 +210,30 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
-        "balanced",
-        "reliable",
-        "slow"
+        "slow",
+        "balanced"
       ],
       "dimensionScores": {
         "speed": -2,
-        "versatility": 2,
-        "order": 2
+        "versatility": 2
       }
     },
     {
@@ -169,16 +251,31 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Great Axe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K-pN2",
+        "XZ94w"
+      ],
       "tags": [
-        "aggressive",
         "fearless",
-        "melee",
-        "slow"
+        "aggressive",
+        "slow",
+        "melee"
       ],
       "dimensionScores": {
         "faith": 2,
-        "patience": -3,
-        "speed": -2
+        "patience": -4,
+        "speed": -2,
+        "tech": -1
       }
     },
     {
@@ -193,14 +290,35 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Iron Shotgun",
+          "range": 6,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "zgWVm"
+      ],
       "tags": [
-        "melee",
         "slow",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": -2
+        "speed": -2,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -216,14 +334,38 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Iron Pistol",
+          "range": 9,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1",
+        "XZ94w"
+      ],
       "tags": [
-        "melee",
+        "stealth",
+        "infiltrate",
         "slow",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": -2
+        "subtlety": 5,
+        "speed": -2,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -239,16 +381,36 @@
         "Flying",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1",
+        "XZ94w"
+      ],
       "tags": [
-        "balanced",
-        "flying",
+        "ambush",
         "mobile",
+        "flying",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -265,16 +427,34 @@
         "Slow",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Heat Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Quake"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "3M4up"
+      ],
       "tags": [
         "fearless",
-        "melee",
+        "defensive",
         "slow",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "faith": 2,
-        "speed": -2
+        "patience": 2,
+        "speed": -2,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -291,19 +471,40 @@
         "Stealth",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Sniper Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "N0Cgw"
+      ],
       "tags": [
-        "balanced",
-        "mobile",
         "scout",
+        "mobile",
         "slow",
         "stealth",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "subtlety": 5,
         "speed": 1,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -313,21 +514,44 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "heavy-support",
+      "role": "troops",
       "rules": [
         "Slow",
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Mortar",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "balanced",
         "slow",
         "tough",
+        "indirect",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": -2,
+        "patience": 2,
+        "elite": 4,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -338,28 +562,43 @@
       "size": 3,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Ambush",
         "Slow",
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Shock Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "battlesuit",
-        "elite",
-        "human",
-        "melee",
+        "ambush",
         "mobile",
         "slow",
         "tough",
-        "vehicle"
+        "defensive",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 5,
-        "humanity": 3,
-        "speed": 1
+        "subtlety": 3,
+        "speed": 1,
+        "patience": 3,
+        "elite": 5,
+        "tech": 2
       }
     },
     {
@@ -376,21 +615,38 @@
         "Sturdy",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Light Iron Cannon",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "sEQ3Cyyh"
+      ],
       "tags": [
+        "slow",
+        "tough",
+        "fearless",
         "balanced",
         "elite",
-        "fearless",
-        "human",
-        "monster",
-        "robot",
-        "slow",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 4,
-        "humanity": -3,
         "speed": -2,
+        "patience": 1,
+        "elite": 5,
         "faith": 2,
         "versatility": 2
       }
@@ -402,24 +658,53 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Auto-Gun",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Iron Pistol",
+          "range": 9,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "M1",
+        "XZ94w"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
         "fast",
         "tough",
         "vehicle",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -436,17 +721,54 @@
         "Tough(6)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Auto-Gun",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Iron Pistol",
+          "range": 9,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "N1",
+        "XZ94w"
+      ],
       "tags": [
-        "balanced",
         "fast",
         "tough",
-        "vehicle",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
+        "patience": 1,
+        "elite": 4,
         "versatility": 2
       }
     },
@@ -465,19 +787,45 @@
         "Transport(11)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F_Pu1",
+        "j6cT1"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
         "tough",
+        "aggressive",
+        "transport",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -495,20 +843,35 @@
         "Impact(3)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Fusion Rifle",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2"
+      ],
       "tags": [
-        "aggressive",
         "fast",
         "mobile",
-        "ranged",
         "tough",
+        "aggressive",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -525,19 +888,45 @@
         "Impact(6)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Fusion Rifle",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2",
+        "Bs_St"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
         "tough",
+        "aggressive",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -547,7 +936,7 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Ambush",
         "Fast",
@@ -556,21 +945,49 @@
         "Transport(11)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Tunneling Drill",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "fast",
+        "ambush",
         "mobile",
+        "fast",
         "tough",
+        "aggressive",
+        "transport",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
+        "subtlety": 3,
         "speed": 5,
-        "patience": -3,
-        "versatility": 2
+        "patience": -2,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 3,
+        "tech": 3
       }
     },
     {
@@ -580,26 +997,52 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Tough(12)",
         "Impact(6)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Twin Light AA-Gun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "U_Eld",
+        "vlzTD",
+        "F_Pu1",
+        "D2"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
         "tough",
+        "aggressive",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -617,19 +1060,54 @@
         "Transport(16)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Rail M-Cannon",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(6)",
+            "Quake"
+          ]
+        },
+        {
+          "name": "Minigun",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "1DZgT"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "ranged",
         "tough",
+        "aggressive",
+        "transport",
         "vehicle",
-        "veteran"
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4
       }
     },
     {
@@ -645,15 +1123,37 @@
         "Tough(12)",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Shock Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2"
+      ],
       "tags": [
-        "elite",
-        "melee",
         "tough",
-        "vehicle"
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3
+        "elite": 5,
+        "tech": 2
       }
     },
     {
@@ -669,17 +1169,42 @@
         "Sturdy",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Drill-Bomb Launcher",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F2"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "ranged",
+        "artillery",
         "static",
+        "ranged",
         "tough",
-        "veteran"
+        "indirect",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "patience": 5,
+        "tech": 3,
+        "elite": 4,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -697,17 +1222,57 @@
         "Fearless",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Dual Grabbing Claws",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Piercing M-Drill",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Quake"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Tunneling Drill",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "tough",
+        "fearless",
+        "vehicle",
         "balanced",
         "elite",
-        "fearless",
-        "tough",
-        "vehicle"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
+        "patience": 1,
+        "elite": 5,
         "faith": 2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -718,26 +1283,76 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Tough(24)",
         "Impact(12)",
         "Fearless",
         "Sturdy"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Light AA-Gun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Twin Heavy Fusion Rifle",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Heavy Excavator",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "Tunneling Drill",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2",
+        "F_Pu1",
+        "vlzTD"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "fearless",
         "tough",
+        "aggressive",
+        "fearless",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "patience": -3,
+        "patience": -2,
+        "elite": 4,
         "faith": 2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -758,23 +1373,36 @@
         "Fearless",
         "Fortified"
       ],
+      "weapons": [
+        {
+          "name": "Boulderbreaker",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(2)",
+            "Quake"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "elite",
-        "fearless",
         "hero",
         "leader",
-        "melee",
-        "monster",
         "slow",
-        "tough"
+        "tough",
+        "fearless",
+        "defensive",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": -2,
+        "patience": 3,
         "faith": 2,
-        "humanity": -4
+        "tech": -1
       }
     }
   ],

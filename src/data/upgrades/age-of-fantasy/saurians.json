@@ -1,0 +1,2587 @@
+{
+  "factionId": "BubhE1kUpgYbqZvW",
+  "factionName": "Saurians",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Frog-Mage",
+      "forUnits": [
+        "NWwd7ue"
+      ],
+      "sections": [
+        {
+          "label": "Replace Magic Blast",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "038QiJW",
+              "label": "Magic Shock (18\", A3)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "NWwd7ue",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magic Shock",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "BMwBx4t",
+              "label": "Magic Beam (12\", A1, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "NWwd7ue",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magic Beam",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "KZGbM",
+              "label": "Queztalcoatl (Mystic Strike (A12, AP(1)), Stomp (A6, AP(2)), Fear(3), Flying, Tough(18))",
+              "cost": 770,
+              "costs": [
+                {
+                  "unitId": "NWwd7ue",
+                  "cost": 545
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Queztalcoatl",
+                  "type": "item",
+                  "content": [
+                    "Tough",
+                    "Fear",
+                    "Stomp",
+                    "Flying",
+                    "Mystic Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Saurian Veteran",
+      "forUnits": [
+        "iPmkRyx"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "zwJM3i2",
+              "label": "Obsidian Great Weapon (A3, Disintegrate)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Obsidian Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Disintegrate"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "cskjgjY",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "-bQG-",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Tb551tVJTq",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "VdO816r",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "RSRpnvG",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "chq7l32",
+              "label": "Raptor (Fast, Impact(1), Ravage(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Raptor",
+                  "type": "item",
+                  "content": [
+                    "Ravage",
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zZQnfg8",
+              "label": "Tyrannosaur (Crushing Jaws (A6, AP(2)), Stomp (A4, AP(1)), Fear(2), Primal Boost Buff, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 305
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tyrannosaur",
+                  "type": "item",
+                  "content": [
+                    "Crushing Jaws",
+                    "Stomp",
+                    "Fear",
+                    "Primal Boost Buff",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Gecko Champion",
+      "forUnits": [
+        "pbodyqx"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "WrmWwB6",
+              "label": "Dual Hand Weapons (A4, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "hDoIgJY",
+              "label": "Lance (A3, Bane, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Bane",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1mauL",
+              "label": "Champion Fire Bolas (12\", A3)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Fire Bolas",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Av-sygZ",
+              "label": "Champion Javelin (12\", A2, AP(1), Bane)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "6JDY3mA",
+              "label": "Champion Blowpipe (18\", A2, Bane)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Blowpipe",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2IRcSKpqca",
+              "label": "Chameleon Breed (Evasive, Good Shot, Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chameleon Breed",
+                  "type": "item",
+                  "content": [
+                    "Good Shot",
+                    "Scout",
+                    "Evasive"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "m9PWJ",
+              "label": "Deinonychus (Bounding, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deinonychus",
+                  "type": "item",
+                  "content": [
+                    "Impact",
+                    "Bounding"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "viijf",
+              "label": "Starseer Palanquin (Magic Pulse (A3), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Starseer Palanquin",
+                  "type": "item",
+                  "content": [
+                    "Magic Pulse",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "SJZuv1i",
+              "label": "Pterodactyl (Claws (A2), Ambush, Crossing Strike(1), Fast, Flying, Impact(1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pterodactyl",
+                  "type": "item",
+                  "content": [
+                    "Claws",
+                    "Ambush",
+                    "Crossing Strike",
+                    "Fast",
+                    "Flying",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "q9RudDw",
+              "label": "Ripjawdactyl (Ambush, Fast, Flying, Heavy Impact(3), Precision Target(1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ripjawdactyl",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Fast",
+                    "Flying",
+                    "Heavy Impact",
+                    "Precision Target",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Command Group",
+      "forUnits": [
+        "kpjfnHa",
+        "i3Iw5yl",
+        "0d7I4c6",
+        "wJnwDI4",
+        "e3dqR3h",
+        "VLpx9v4",
+        "Bci6cb_"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7Z-Dh2z",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "kpjfnHa",
+                  "cost": 5
+                },
+                {
+                  "unitId": "i3Iw5yl",
+                  "cost": 5
+                },
+                {
+                  "unitId": "0d7I4c6",
+                  "cost": 5
+                },
+                {
+                  "unitId": "wJnwDI4",
+                  "cost": 5
+                },
+                {
+                  "unitId": "e3dqR3h",
+                  "cost": 5
+                },
+                {
+                  "unitId": "VLpx9v4",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Bci6cb_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oPUxZab",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "kpjfnHa",
+                  "cost": 5
+                },
+                {
+                  "unitId": "i3Iw5yl",
+                  "cost": 5
+                },
+                {
+                  "unitId": "0d7I4c6",
+                  "cost": 5
+                },
+                {
+                  "unitId": "wJnwDI4",
+                  "cost": 5
+                },
+                {
+                  "unitId": "e3dqR3h",
+                  "cost": 5
+                },
+                {
+                  "unitId": "VLpx9v4",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Bci6cb_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4ZExDZI",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "kpjfnHa",
+                  "cost": 10
+                },
+                {
+                  "unitId": "i3Iw5yl",
+                  "cost": 10
+                },
+                {
+                  "unitId": "0d7I4c6",
+                  "cost": 10
+                },
+                {
+                  "unitId": "wJnwDI4",
+                  "cost": 10
+                },
+                {
+                  "unitId": "e3dqR3h",
+                  "cost": 10
+                },
+                {
+                  "unitId": "VLpx9v4",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Bci6cb_",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Geckos",
+      "forUnits": [
+        "i3Iw5yl"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "lvYqmF9",
+              "label": "Javelin (12\", A1, AP(1), Bane)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "i3Iw5yl",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "A1Xu2xb",
+              "label": "Blowpipe (18\", A1, Bane)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "i3Iw5yl",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blowpipe",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Saurian Warriors",
+      "forUnits": [
+        "kpjfnHa"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "aEE_cEz",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "kpjfnHa",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "PDVbuJo",
+              "label": "Spear (A1, Counter)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "kpjfnHa",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Guardians",
+      "forUnits": [
+        "0d7I4c6"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Obsidian Great Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "t66d8Z2ZF4",
+              "label": "Heavy Halberd (A1, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0d7I4c6",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "pNsoT",
+              "label": "Great Weapon (A1, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "0d7I4c6",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Raptor Riders",
+      "forUnits": [
+        "e3dqR3h"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8P-Dkxj",
+              "label": "Lance (A1, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "e3dqR3h",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Support Lizards",
+      "forUnits": [
+        "uaDbgEQ",
+        "qSnKBnl"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "SgVuzkLS4t",
+              "label": "Vanguard Lizard Handlers (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "uaDbgEQ",
+                  "cost": 10
+                },
+                {
+                  "unitId": "qSnKBnl",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vanguard Lizard Handlers",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "1JvJot0",
+              "label": "Combat Lizard Handlers (Relentless)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "uaDbgEQ",
+                  "cost": 10
+                },
+                {
+                  "unitId": "qSnKBnl",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Lizard Handlers",
+                  "type": "item",
+                  "content": [
+                    "Relentless"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "A2",
+      "hint": "Spinosaurus",
+      "forUnits": [
+        "cYx_v0-"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zQvxTb03xo",
+              "label": "Primal Roar (Primal Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cYx_v0-",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Primal Roar",
+                  "type": "item",
+                  "content": [
+                    "Primal Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "pXQOCNP",
+              "label": "Priest Rider (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "cYx_v0-",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Priest Rider",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B2",
+      "hint": "Triceratops",
+      "forUnits": [
+        "kcvHdip"
+      ],
+      "sections": [
+        {
+          "label": "Replace Javelin Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "62973oL",
+              "label": "Giant Blowpipe (18\", A6, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "kcvHdip",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Blowpipe",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "_B4oT",
+              "label": "Bolt Thrower (24\", A2, AP(2), Deadly(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "kcvHdip",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bolt Thrower",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "vn7U4y8",
+              "label": "Javelin Crew (12\", A6, AP(1), Bane), Godly Altar (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kcvHdip",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Javelin Crew",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                },
+                {
+                  "name": "Godly Altar",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "6U3rwF3",
+              "label": "Trample (Impact(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "kcvHdip",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Trample",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Vb8X1D3kl6",
+              "label": "Sacred Destiny (Protection Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kcvHdip",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sacred Destiny",
+                  "type": "item",
+                  "content": [
+                    "Protection Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C2",
+      "hint": "Ankylosaurus",
+      "forUnits": [
+        "fOR1eIh"
+      ],
+      "sections": [
+        {
+          "label": "Replace Javelin Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mT95oo0",
+              "label": "Serpent Ark (Spawn(Snake Swarms [3]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fOR1eIh",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Serpent Ark",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Sg09O",
+              "label": "Solar Beam (24\", A2, AP(2), Blast(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "fOR1eIh",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Solar Beam",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Obsidian Tail",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "HTwfB",
+              "label": "Mace Tail (A4, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "fOR1eIh",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mace Tail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ggxnK0Dm",
+              "label": "Prophetic Vision (Shred Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fOR1eIh",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prophetic Vision",
+                  "type": "item",
+                  "content": [
+                    "Shred Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D2",
+      "hint": "Dread Titan",
+      "forUnits": [
+        "0wDWWMd"
+      ],
+      "sections": [
+        {
+          "label": "Replace Dread Gator",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gVYRT78",
+              "label": "Dread Pterodactyl (Caster(2), Crossing Barrage(2), Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0wDWWMd",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dread Pterodactyl",
+                  "type": "item",
+                  "content": [
+                    "Caster",
+                    "Crossing Barrage",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "NZnfqFX",
+              "label": "Dread Behemoth Fighter (Tail Strike (A2, AP(1), Blast(3)), Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0wDWWMd",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dread Behemoth Fighter",
+                  "type": "item",
+                  "content": [
+                    "Tail Strike",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "NWhrO",
+              "label": "Dread Behemoth Carrier (Tough(6), Transport(21))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0wDWWMd",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dread Behemoth Carrier",
+                  "type": "item",
+                  "content": [
+                    "Tough",
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "wGmGu",
+      "hint": "Deinonychus Riders",
+      "forUnits": [
+        "wJnwDI4"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "-Me_c",
+              "label": "Javelin (12\", A1, AP(1), Bane), Hand Weapon (A1, Bane)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "wJnwDI4",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Bane"
+                  ]
+                },
+                {
+                  "name": "Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Wo23Mo3E",
+      "hint": "Sacred Destiny",
+      "forUnits": [
+        "kpjfnHa",
+        "i3Iw5yl",
+        "0d7I4c6",
+        "JJaMJDn"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "md9ZQk7Abe",
+              "label": "Sacred Destiny (Protection Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kpjfnHa",
+                  "cost": 15
+                },
+                {
+                  "unitId": "i3Iw5yl",
+                  "cost": 10
+                },
+                {
+                  "unitId": "0d7I4c6",
+                  "cost": 10
+                },
+                {
+                  "unitId": "JJaMJDn",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sacred Destiny",
+                  "type": "item",
+                  "content": [
+                    "Protection Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "gJCoqNRc",
+      "hint": "Pterodactyl Riders",
+      "forUnits": [
+        "VLpx9v4"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "HLhCfY8p",
+              "label": "Fire Bolas (12\", A4)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "VLpx9v4",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fire Bolas",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "RhhKon5T",
+              "label": "Javelin (12\", A2, AP(1), Bane)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "VLpx9v4",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fUHKNWj7",
+              "label": "Drop Rocks (Crossing Strike(1))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "VLpx9v4",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drop Rocks",
+                  "type": "item",
+                  "content": [
+                    "Crossing Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "0oqGbTJE",
+      "hint": "Ripjawdactyl Riders",
+      "forUnits": [
+        "Bci6cb_"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "n00y6LfC",
+              "label": "Fire Bolas (12\", A4)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "Bci6cb_",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fire Bolas",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "loaQds7K",
+              "label": "Javelin (12\", A2, AP(1), Bane)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "Bci6cb_",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FozxjH9C",
+              "label": "Hunting Bait (Precision Target(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Bci6cb_",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Bait",
+                  "type": "item",
+                  "content": [
+                    "Precision Target"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "KD0vGDjM",
+      "hint": "Gator Veteran",
+      "forUnits": [
+        "HdCoUob"
+      ],
+      "sections": [
+        {
+          "label": "Replace Obsidian Great Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "KDItCYQNye",
+              "label": "Great Weapon (A6, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "HdCoUob",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "v4qez5Nn",
+      "hint": "Gators",
+      "forUnits": [
+        "JJaMJDn"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Obsidian Great Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fD1unKbi8V",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JJaMJDn",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rKaJBmDu",
+              "label": "Prophetic Vision (Shred Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JJaMJDn",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prophetic Vision",
+                  "type": "item",
+                  "content": [
+                    "Shred Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bYFx1NhH",
+      "hint": "Specialists - Gecko",
+      "forUnits": [
+        "pbodyqx"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "5gDudlHH",
+              "label": "Skirmisher (Hit & Run Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skirmisher",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4VLkIdki",
+              "label": "Temple Guardian (Counter-Attack Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Temple Guardian",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CIcRolek",
+              "label": "Primal Hunter (Primal Boost Buff)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Primal Hunter",
+                  "type": "item",
+                  "content": [
+                    "Primal Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jVAyMM3E",
+              "label": "Chief (Rending in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chief",
+                  "type": "item",
+                  "content": [
+                    "Rending in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "1LwyiJsN",
+              "label": "Priest (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Priest",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "qpvpkjYq",
+              "label": "Sacred Destiny (Protection Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pbodyqx",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sacred Destiny",
+                  "type": "item",
+                  "content": [
+                    "Protection Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "nUsyaMjj",
+      "hint": "Specialists - Saurian",
+      "forUnits": [
+        "iPmkRyx"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "hpHQ2kzl",
+              "label": "Holy Spawn (Rapid Charge Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Holy Spawn",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZIGgqQC0",
+              "label": "Temple Guardian (Counter-Attack Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Temple Guardian",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "-0_3kdAcVU",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zaZUj8J1aa",
+              "label": "Chief (Rending in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chief",
+                  "type": "item",
+                  "content": [
+                    "Rending in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "5XfZIKnx",
+              "label": "Sacred Destiny (Protection Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "iPmkRyx",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sacred Destiny",
+                  "type": "item",
+                  "content": [
+                    "Protection Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "gYUA2Ao_",
+      "hint": "Specialists - Gator",
+      "forUnits": [
+        "HdCoUob"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ETX5Pqh9",
+              "label": "Holy Spawn (Rapid Charge Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "HdCoUob",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Holy Spawn",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "DnrKppek",
+              "label": "Temple Guardian (Counter-Attack Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "HdCoUob",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Temple Guardian",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3Y90CbBS",
+              "label": "Primal Roar (Primal Boost Buff)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "HdCoUob",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Primal Roar",
+                  "type": "item",
+                  "content": [
+                    "Primal Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Nk9vr2GI",
+              "label": "Sacred Destiny (Protection Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "HdCoUob",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sacred Destiny",
+                  "type": "item",
+                  "content": [
+                    "Protection Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "GvaZUqcA",
+      "hint": "Specialists - Frog-Mage",
+      "forUnits": [
+        "NWwd7ue"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "mYzfUblX",
+              "label": "Holy Spawn (Rapid Charge Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "NWwd7ue",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Holy Spawn",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "uiL5SwuP",
+              "label": "Temple Guardian (Counter-Attack Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NWwd7ue",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Temple Guardian",
+                  "type": "item",
+                  "content": [
+                    "Counter-Attack Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "RqJjyf_a",
+              "label": "Enlightened Mage (Caster(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NWwd7ue",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Enlightened Mage",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4egLQ00F",
+              "label": "Primal Guidance (Primal Boost Buff)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "NWwd7ue",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Primal Guidance",
+                  "type": "item",
+                  "content": [
+                    "Primal Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Cb7xY54f",
+              "label": "Sacred Destiny (Protection Feat)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NWwd7ue",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sacred Destiny",
+                  "type": "item",
+                  "content": [
+                    "Protection Feat"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "CkvFtad3",
+      "hint": "Chameleons",
+      "forUnits": [
+        "2AX2D13"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Fire Bolas",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "0b8GI9DEru",
+              "label": "Blowpipe (18\", A1, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2AX2D13",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Blowpipe",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Lg2BYMj5",
+              "label": "Prophetic Vision (Shred Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2AX2D13",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prophetic Vision",
+                  "type": "item",
+                  "content": [
+                    "Shred Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

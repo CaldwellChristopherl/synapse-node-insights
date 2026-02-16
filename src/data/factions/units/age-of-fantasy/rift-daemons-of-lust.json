@@ -3,8 +3,13 @@
   "factionName": "Rift Daemons of Lust",
   "gameSystem": "age-of-fantasy",
   "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.804Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.299Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 45
+  },
   "units": [
     {
       "id": "7PyQwyu",
@@ -21,28 +26,48 @@
         "Fearless",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Exalted Ritual Hammer",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Blast(3)",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "CSin2YIA"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
+        "fearless",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 2,
-        "order": -3,
-        "tech": -3
+        "leadership": 5,
+        "elite": 5,
+        "faith": 5,
+        "purity": -5,
+        "humanity": -5,
+        "tech": -1
       }
     },
     {
@@ -59,26 +84,47 @@
         "Tough(12)",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Great Ritual Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "jzDxo3pZ"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "order": -3,
-        "tech": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -95,24 +141,46 @@
         "Tough(6)",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Ritual Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "FkCgO",
+        "4j9W8lgY"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
+        "daemon",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -128,23 +196,45 @@
         "Tough(3)",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Blade",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "Ritual Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "gwQ59",
+        "dPcAl"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
+        "corrupted",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -162,28 +252,50 @@
         "Scout",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Blade",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "Ritual Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1A8-",
+        "uSH-N"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "hero",
-        "human",
-        "leader",
-        "melee",
         "mobile",
+        "hero",
+        "leader",
+        "tough",
         "scout",
-        "tough"
+        "corrupted",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -199,23 +311,47 @@
         "Lustbound",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Infernal Harp",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Indirect",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Blade",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
         "hero",
-        "human",
         "leader",
+        "corrupted",
         "tough",
+        "daemon",
+        "indirect",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3,
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "patience": 2,
+        "faith": 3,
+        "humanity": -4,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -232,23 +368,37 @@
         "Scout",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "ZGnOB"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
-        "melee",
         "mobile",
-        "scout"
+        "scout",
+        "corrupted",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -262,18 +412,33 @@
       "rules": [
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "F1"
+      ],
       "tags": [
-        "chaotic",
-        "cheap",
         "corrupted",
-        "human",
-        "melee"
+        "daemon",
+        "melee",
+        "cheap"
       ],
       "dimensionScores": {
-        "elite": -2,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -2
       }
     },
     {
@@ -289,24 +454,42 @@
         "Scout",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Arm-Crossbow",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "pDN65OGU"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
         "mobile",
-        "scout"
+        "scout",
+        "corrupted",
+        "daemon",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -320,19 +503,38 @@
       "rules": [
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Arm-Crossbow",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "oVEIy"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
         "corrupted",
-        "human",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -347,21 +549,43 @@
         "Fast",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "Toxin Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "ANHMS"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
-        "chaotic",
-        "corrupted",
         "fast",
-        "human",
+        "corrupted",
+        "cavalry",
+        "monster",
+        "daemon",
         "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "order": -3,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -377,20 +601,35 @@
         "Tough(3)",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "chaotic",
+        "mobile",
+        "tough",
         "corrupted",
-        "expendable",
-        "human",
+        "horde",
+        "swarm",
+        "daemon",
         "melee",
-        "mobile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
-        "order": -3
+        "elite": -2,
+        "purity": -5,
+        "collective": 5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -407,25 +646,37 @@
         "Scout",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Mutated Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "vShmf"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
         "mobile",
-        "scout",
         "tough",
+        "scout",
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
+        "elite": 4,
         "subtlety": 3,
-        "order": -3,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -435,36 +686,44 @@
       "size": 1,
       "quality": 3,
       "defense": 4,
-      "role": "fast-attack",
+      "role": "monster",
       "rules": [
         "Impact(4)",
         "Tough(6)",
         "Scout",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Toxin Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aggressive",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "daemon",
-        "elite",
-        "melee",
-        "mobile",
-        "monster",
+        "tough",
         "scout",
-        "tough"
+        "mobile",
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -5,
-        "humanity": -4,
-        "faith": 3,
         "patience": -3,
+        "elite": 5,
         "subtlety": 3,
         "speed": 3,
-        "order": -3,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -474,7 +733,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fear(1)",
         "Impact(4)",
@@ -482,26 +741,47 @@
         "Fast",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Razor-Flail Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Surge",
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Toxin Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "MSIJ4I2i"
+      ],
       "tags": [
         "aggressive",
-        "cavalry",
-        "chaotic",
-        "corrupted",
-        "fast",
-        "human",
-        "melee",
         "tough",
-        "vehicle",
-        "veteran"
+        "fast",
+        "corrupted",
+        "cavalry",
+        "daemon",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 5,
         "patience": -3,
-        "order": -3
+        "elite": 4,
+        "speed": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -518,22 +798,45 @@
         "Lustbound",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Horrific Reflection",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Blast(3)",
+            "Surge"
+          ]
+        },
+        {
+          "name": "Crew Attack",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "llcJckoW"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
-        "human",
         "magic",
         "psychic",
         "tough",
+        "corrupted",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "mystery": 5,
-        "order": -3,
+        "patience": 1,
+        "elite": 4,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
         "versatility": 2
       }
     },
@@ -551,25 +854,52 @@
         "Fearless",
         "Lustbound"
       ],
+      "weapons": [
+        {
+          "name": "Lust Cannon",
+          "range": 24,
+          "attacks": 9,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "Lust Sword",
+          "range": 0,
+          "attacks": 18,
+          "special": [
+            "Surge"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "daemon",
-        "elite",
+        "tough",
         "fearless",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "purity": -5,
+        "patience": 1,
+        "elite": 5,
         "faith": 5,
-        "order": -3,
-        "versatility": 2,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "versatility": 2
       }
     },
     {
@@ -586,23 +916,40 @@
         "Tough(3)",
         "Unique"
       ],
+      "weapons": [
+        {
+          "name": "Astral Serpent",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Shatter"
+          ]
+        },
+        {
+          "name": "Claw",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
         "hero",
-        "human",
         "leader",
+        "corrupted",
         "tough",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3,
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "patience": 1,
+        "faith": 3,
+        "humanity": -4,
         "versatility": 2
       }
     },
@@ -620,23 +967,39 @@
         "Tough(3)",
         "Unique"
       ],
+      "weapons": [
+        {
+          "name": "Hypnotic Violin",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Conductor's Dagger",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
         "hero",
-        "human",
         "leader",
+        "corrupted",
         "tough",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3,
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "patience": 1,
+        "faith": 3,
+        "humanity": -4,
         "versatility": 2
       }
     }

@@ -1,0 +1,2228 @@
+{
+  "factionId": "HjmV6_v6dmBmEdy7",
+  "factionName": "Giant Tribes",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Giant Upgrades",
+      "forUnits": [
+        "XKqsHuf",
+        "16uch_h",
+        "qkg2vr2"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yYZHYwm",
+              "label": "Patient Wanderer (Delayed Action)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 20
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 20
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Patient Wanderer",
+                  "type": "item",
+                  "content": [
+                    "Delayed Action"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PS0_S3_IAY",
+              "label": "Wandering Mystic (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 40
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 40
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wandering Mystic",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oDm8U1YHko",
+              "label": "Stumbling Giant (Bounding, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 40
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 40
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stumbling Giant",
+                  "type": "item",
+                  "content": [
+                    "Bounding",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Tpbk0k1",
+              "label": "War Paint (Regeneration)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 40
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 40
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Paint",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Giant Hybrid",
+      "forUnits": [
+        "16uch_h",
+        "qkg2vr2"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Hurl Log",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "VJwybwM",
+              "label": "Throw Stones (18\", A2, Blast(3), Indirect)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "16uch_h",
+                  "cost": 5
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throw Stones",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Mega-Giant Ranged",
+      "forUnits": [
+        "RtG7qxd"
+      ],
+      "sections": [
+        {
+          "label": "Replace 2x Hurl Trunk",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8zJdHcbZol",
+              "label": "Mega Sling (30\", A3, Blast(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Sling",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "u47XcFx",
+              "label": "Mega Shortbow (18\", A3, AP(2), Deadly(6))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "etbn4L9E",
+      "hint": "Disciple of Havoc",
+      "forUnits": [
+        "j0hkdLv",
+        "XKqsHuf",
+        "16uch_h",
+        "qkg2vr2",
+        "Yqd4Coq",
+        "qgzAHTV",
+        "RtG7qxd",
+        "WX9-csr"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0LA_vqTlsw",
+              "label": "Disciple of Lust (Lustbound)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 10
+                },
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 15
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 15
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 15
+                },
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 20
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 20
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 20
+                },
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Disciple of Lust",
+                  "type": "item",
+                  "content": [
+                    "Lustbound"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "j1GYX9Et0P",
+              "label": "Disciple of War (Warbound)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 10
+                },
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 20
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 15
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 30
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 25
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 15
+                },
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Disciple of War",
+                  "type": "item",
+                  "content": [
+                    "Warbound"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "yOWxD26kzg",
+              "label": "Disciple of Change (Changebound)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 20
+                },
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 25
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 25
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 25
+                },
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 40
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 40
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 40
+                },
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Disciple of Change",
+                  "type": "item",
+                  "content": [
+                    "Changebound"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "XL7NHvB_mp",
+              "label": "Disciple of Plague (Plaguebound)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 20
+                },
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 25
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 25
+                },
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 25
+                },
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 40
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 40
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 40
+                },
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Disciple of Plague",
+                  "type": "item",
+                  "content": [
+                    "Plaguebound"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ouyv31pD",
+      "hint": "Giant Melee",
+      "forUnits": [
+        "XKqsHuf",
+        "16uch_h"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Giant Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5tFlZrJr",
+              "label": "Giant Mace (A2, AP(1), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 5
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "7qIsAhkdMl",
+              "label": "Giant Pike (A6, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 15
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Pike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "DW0OfbwK3R",
+              "label": "Giant Spear (A2, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 20
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "xzJjoJngf9",
+              "label": "Giant Hammer (A4, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 25
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "eGxJFtCz",
+              "label": "Giant Club (A6, AP(1), Precise)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 25
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "gG1wqrr_Hp",
+              "label": "Giant Sword (A6, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 30
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "DiH57dV_",
+              "label": "Giant Flail (A6, Rending, Precise)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 35
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "Precise",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Giant Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "wBglsstFGQ",
+              "label": "Giant Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XKqsHuf",
+                  "cost": 0
+                },
+                {
+                  "unitId": "16uch_h",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "8pGBG41k",
+      "hint": "Half-Giant Melee",
+      "forUnits": [
+        "j0hkdLv"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "9LFaQsWP",
+              "label": "Heavy Mace (A1, AP(1), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "hi6PkcMa",
+              "label": "Heavy Pike (A3, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Pike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "a7xJ0pyH",
+              "label": "Heavy Spear (A1, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "VDPnTY-W",
+              "label": "Heavy Sword (A3, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Fofpae6e",
+              "label": "Heavy Hammer (A2, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "6_ML2MCT",
+              "label": "Heavy Club (A3, AP(1), Precise)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "otw8SAwK",
+              "label": "Heavy Flail (A3, Rending, Precise)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Precise",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Heavy Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "SYQJgYnNIn",
+              "label": "Giant Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "9m27fRj7",
+      "hint": "Half-Giant Ranged",
+      "forUnits": [
+        "j0hkdLv"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Heavy Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "eAzmhSa3",
+              "label": "Hurl Branch (12\", A1, AP(2), Deadly(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hurl Branch",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "4oOXq37LCT",
+              "label": "Throw Debris (18\", A1, Blast(3), Indirect)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throw Debris",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "X0Ru03gV",
+      "hint": "Mega-Giant Melee",
+      "forUnits": [
+        "Yqd4Coq",
+        "qgzAHTV"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Mega Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "SGF6FjKR",
+              "label": "Mega Mace (A3, AP(1), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 10
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "84Y0HdO-",
+              "label": "Mega Pike (A9, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 20
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Pike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 9,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "P10LMV5B",
+              "label": "Mega Spear (A3, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 30
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "VPuezfQx",
+              "label": "Mega Hammer (A6, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 35
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "arquXiMp",
+              "label": "Mega Club (A9, AP(1), Precise)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 40
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 9,
+                  "special": [
+                    "AP",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "hrHyD3me",
+              "label": "Mega Sword (A9, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 45
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 9,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "1p3JXFTP",
+              "label": "Mega Flail (A9, Rending, Precise)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 50
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mega Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 9,
+                  "special": [
+                    "Rending",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Mega Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tgxQPaSW",
+              "label": "Giant Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 5
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "b06PFQTJ",
+      "hint": "Ultra-Giant Melee",
+      "forUnits": [
+        "WX9-csr"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Ultra Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "bbb_AQ9Z",
+              "label": "Ultra Mace (A4, AP(1), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ultra Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "Yc_POhE0",
+              "label": "Ultra Pike (A12, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ultra Pike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 12,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "JGuJOJ-8",
+              "label": "Ultra Spear (A4, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ultra Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "7vKAUCJW",
+              "label": "Ultra Hammer (A8, AP(4))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ultra Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "6nWvCcnd",
+              "label": "Ultra Sword (A12, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ultra Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 12,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "sBwd052m",
+              "label": "Ultra Club (A12, AP(1), Precise)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ultra Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 12,
+                  "special": [
+                    "AP",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "dpEF-zS6",
+              "label": "Ultra Flail (A12, Rending, Precise)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ultra Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 12,
+                  "special": [
+                    "Precise",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Ultra Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mUCvZyWvuh",
+              "label": "Giant Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "74Mh6EuJ",
+      "hint": "Ultra-Giant Ranged",
+      "forUnits": [
+        "WX9-csr"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Ultra Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "jvUMksnD5J",
+              "label": "Hurl Tree (12\", A4, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hurl Tree",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Bc6IzhM-",
+              "label": "Throw Boulder (18\", A4, Blast(3), Indirect)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throw Boulder",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "dssc-JNx",
+      "hint": "Giant Ranged",
+      "forUnits": [
+        "qkg2vr2"
+      ],
+      "sections": [
+        {
+          "label": "Replace 2x Hurl Log",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nLvT0SARpE",
+              "label": "Giant Sling (30\", A2, Blast(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Sling",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "UDZlqRcT",
+              "label": "Giant Shortbow (18\", A2, AP(2), Deadly(6))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "qkg2vr2",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "NDo9focl",
+      "hint": "Mega-Giant Hybrid",
+      "forUnits": [
+        "qgzAHTV",
+        "RtG7qxd"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Hurl Trunk",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "eGCq-W7i",
+              "label": "Throw Rocks (18\", A3, Blast(3), Indirect)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 10
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throw Rocks",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "5pHi27lO",
+      "hint": "Half-Giant Upgrades",
+      "forUnits": [
+        "j0hkdLv"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "B_MDYqMmLu",
+              "label": "Patient Wanderer (Delayed Action)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Patient Wanderer",
+                  "type": "item",
+                  "content": [
+                    "Delayed Action"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "eJ3h_LZEOO",
+              "label": "Vanguard Giant (Scout, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vanguard Giant",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "b4LginmH",
+              "label": "War Paint (Regeneration)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Paint",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "grAbQYmGXo",
+              "label": "Wandering Mystic (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j0hkdLv",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wandering Mystic",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "0b8UofXT",
+      "hint": "Mega-Giant Upgrades",
+      "forUnits": [
+        "Yqd4Coq",
+        "qgzAHTV",
+        "RtG7qxd"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "E8haS6P-HV",
+              "label": "Hungry Giant (Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 15
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 15
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hungry Giant",
+                  "type": "item",
+                  "content": [
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "GmIfGQCb",
+              "label": "Patient Wanderer (Delayed Action)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 20
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 20
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Patient Wanderer",
+                  "type": "item",
+                  "content": [
+                    "Delayed Action"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "T5R5KlyXne",
+              "label": "Wandering Mystic (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 65
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 65
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wandering Mystic",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zSPNjm1h",
+              "label": "War Paint (Regeneration)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Yqd4Coq",
+                  "cost": 65
+                },
+                {
+                  "unitId": "qgzAHTV",
+                  "cost": 65
+                },
+                {
+                  "unitId": "RtG7qxd",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Paint",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "wi0yU8dJ",
+      "hint": "Ultra-Giant Upgrades",
+      "forUnits": [
+        "WX9-csr"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "-wIYsJTc",
+              "label": "Patient Wanderer (Delayed Action)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Patient Wanderer",
+                  "type": "item",
+                  "content": [
+                    "Delayed Action"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "JMR27O8gc4",
+              "label": "Hungry Giant (Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hungry Giant",
+                  "type": "item",
+                  "content": [
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ojAR9ZTYtZ",
+              "label": "Wandering Mystic (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wandering Mystic",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3KRANN9Y",
+              "label": "War Paint (Regeneration)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "WX9-csr",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Paint",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

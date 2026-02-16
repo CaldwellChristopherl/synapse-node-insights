@@ -3,8 +3,13 @@
   "factionName": "Knight Brothers",
   "gameSystem": "grimdark-future",
   "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.301Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.193Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 62
+  },
   "units": [
     {
       "id": "Yta_jhYaB",
@@ -21,24 +26,41 @@
         "Fearless",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "PzePx",
+        "gIdERs5O",
+        "6wzcY"
+      ],
       "tags": [
-        "elite",
-        "fearless",
+        "ambush",
+        "mobile",
         "hero",
         "leader",
-        "melee",
-        "mobile",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "defensive",
+        "human",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "subtlety": 3,
         "speed": 3,
-        "leadership": 3,
-        "faith": 5,
-        "humanity": -4
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "faith": 2,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -56,23 +78,38 @@
         "Versatile Attack",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "HkK5EImr",
+        "9gPjzFMb",
+        "2DX0T"
+      ],
       "tags": [
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "defensive",
+        "human",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 5
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "faith": 2,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -89,23 +126,46 @@
         "Fearless",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Gravity Pistol",
+          "range": 9,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Smash"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "B1",
+        "HkK5EImr",
+        "2DX0T"
+      ],
       "tags": [
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "human",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 5
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "faith": 2,
+        "humanity": 3,
+        "versatility": 2
       }
     },
     {
@@ -120,18 +180,39 @@
         "Knightborn",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Assault Storm Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "7gc3Z",
+        "5gBfI",
+        "esDdC"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "fearless",
         "human",
-        "zealot"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "faith": 2,
         "humanity": 3,
-        "faith": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -147,19 +228,41 @@
         "Knightborn",
         "Versatile Attack"
       ],
+      "weapons": [
+        {
+          "name": "Incinerator",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "7gc3Z",
+        "S7CWD",
+        "esDdC"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "fearless",
         "human",
-        "monster",
-        "zealot"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "faith": 5,
-        "versatility": 2
+        "faith": 2,
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -175,20 +278,44 @@
         "Knightborn",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Incinerator",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "7gc3Z",
+        "dpmpM",
+        "bOqR4"
+      ],
       "tags": [
-        "balanced",
-        "elite",
+        "ranged",
         "fearless",
         "human",
-        "monster",
-        "ranged",
-        "zealot"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "faith": 5,
-        "versatility": 2
+        "patience": 1,
+        "tech": 1,
+        "faith": 2,
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -205,20 +332,44 @@
         "Knightborn",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Storm Rifle",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "7gc3Z",
+        "7se04",
+        "esDdC"
+      ],
       "tags": [
+        "ambush",
+        "mobile",
+        "tough",
+        "fearless",
+        "human",
         "balanced",
         "elite",
-        "fearless",
-        "mobile",
-        "monster",
-        "tough",
-        "zealot"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "subtlety": 3,
         "speed": 3,
-        "faith": 5,
-        "humanity": -4,
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -238,22 +389,39 @@
         "Fearless",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Storm Rifle",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "r1P1w"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
+        "fearless",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4
       }
     },
     {
@@ -272,22 +440,41 @@
         "Fearless",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2",
+        "UMUIV2vH"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
+        "fearless",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4
       }
     },
     {
@@ -306,22 +493,47 @@
         "Fearless",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Rifle Array",
+          "range": 24,
+          "attacks": 12,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2",
+        "A2"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
         "tough",
+        "aggressive",
+        "transport",
+        "fearless",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4
       }
     },
     {
@@ -338,18 +550,39 @@
         "Fearless",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Fist",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
         "tough",
+        "fearless",
         "vehicle",
-        "zealot"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "faith": 5
+        "elite": 5,
+        "faith": 2,
+        "tech": 2
       }
     },
     {
@@ -367,18 +600,39 @@
         "Versatile Attack",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Fist",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
         "tough",
+        "fearless",
         "vehicle",
-        "zealot"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "faith": 5
+        "elite": 5,
+        "faith": 2,
+        "tech": 2
       }
     },
     {
@@ -397,23 +651,58 @@
         "Knightborn",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Super-Heavy Incinerator",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Nemesis Fist",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "udZIV",
+        "UMUIV2vH"
+      ],
       "tags": [
-        "balanced",
-        "elite",
-        "fearless",
-        "magic",
+        "ambush",
         "mobile",
+        "magic",
         "psychic",
         "tough",
+        "fearless",
         "vehicle",
-        "zealot"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
+        "subtlety": 3,
         "speed": 3,
         "mystery": 5,
-        "faith": 5,
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -431,21 +720,44 @@
         "Fearless",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Minigun",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Typhoon Missiles",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(2)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J2"
+      ],
       "tags": [
         "aircraft",
-        "elite",
-        "fearless",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "zealot"
+        "tough",
+        "fearless",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "faith": 5
+        "patience": 2,
+        "elite": 5,
+        "faith": 2
       }
     },
     {
@@ -463,23 +775,64 @@
         "Fearless",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Storm Missiles",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Light Heavy Rifle Array",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Minigun",
+          "range": 24,
+          "attacks": 8,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Typhoon Missiles",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K2"
+      ],
       "tags": [
         "aircraft",
-        "defensive",
-        "elite",
-        "fearless",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "zealot"
+        "tough",
+        "transport",
+        "fearless",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "faith": 5,
-        "patience": 3
+        "patience": 2,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2
       }
     },
     {
@@ -489,29 +842,49 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "elite",
+      "role": "heavy-support",
       "rules": [
         "Artillery",
         "Fearless",
         "Tough(3)",
         "Knightborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Gatling Cannon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F2"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "elite",
-        "fearless",
-        "monster",
-        "ranged",
+        "artillery",
         "static",
+        "ranged",
+        "fearless",
         "tough",
-        "zealot"
+        "human",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "patience": 5,
-        "faith": 5,
-        "humanity": -4,
+        "tech": 3,
+        "faith": 2,
+        "elite": 5,
+        "humanity": 3,
         "versatility": 2
       }
     }

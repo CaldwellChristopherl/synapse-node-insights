@@ -2,9 +2,14 @@
   "factionId": "q9BQlBp583ZuuOnQ",
   "factionName": "Goblins",
   "gameSystem": "age-of-fantasy",
-  "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.595Z",
+  "factionType": "primitive",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.948Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 50
+  },
   "units": [
     {
       "id": "DQ5jgGa",
@@ -20,28 +25,38 @@
         "Tough(6)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "iUDhFVim",
+        "UP8jGi06"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "cunning",
         "hero",
-        "human",
         "leader",
-        "melee",
         "regeneration",
         "tough",
         "treacherous",
+        "cunning",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "honor": -4,
+        "leadership": 5,
+        "elite": 5,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -57,25 +72,34 @@
         "Tough(3)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "wU37Uj_a"
+      ],
       "tags": [
-        "corrupted",
-        "cunning",
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
-        "treacherous"
+        "treacherous",
+        "cunning",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "honor": -4,
-        "order": -2
+        "leadership": 5,
+        "elite": -1,
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "tech": -1
       }
     },
     {
@@ -90,24 +114,38 @@
         "Caster Group",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Magic Staff",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "corrupted",
-        "cunning",
-        "expendable",
-        "human",
         "magic",
         "psychic",
-        "treacherous"
+        "treacherous",
+        "cunning",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "mystery": 5,
-        "honor": -4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -121,24 +159,37 @@
       "rules": [
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "D1",
+        "WElvV",
+        "tNRza3iu"
+      ],
       "tags": [
-        "cheap",
-        "corrupted",
+        "treacherous",
         "cunning",
+        "melee",
+        "cheap",
         "expendable",
         "horde",
-        "human",
-        "melee",
-        "swarm",
-        "treacherous"
+        "swarm"
       ],
       "dimensionScores": {
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
-        "honor": -4,
-        "order": -2
+        "collective": 5
       }
     },
     {
@@ -153,22 +204,36 @@
         "Bounding",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Vicious Jaws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
+        "fast",
+        "treacherous",
         "cunning",
-        "expendable",
-        "human",
+        "monster",
         "melee",
-        "treacherous"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
-        "honor": -4,
+        "speed": 4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -183,24 +248,35 @@
         "Unpredictable Fighter",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Acid Weapons",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "pg6bfxLq"
+      ],
       "tags": [
-        "beast",
-        "cheap",
-        "corrupted",
-        "cunning",
-        "expendable",
-        "human",
-        "melee",
         "treacherous",
-        "unpredictable"
+        "cunning",
+        "monster",
+        "melee",
+        "cheap",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "purity": -4,
-        "humanity": 3,
-        "order": -5,
-        "honor": -4,
-        "tech": -3
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -5
       }
     },
     {
@@ -216,22 +292,33 @@
         "Good Fighter",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Acid Daggers",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "dIbO3"
+      ],
       "tags": [
-        "corrupted",
-        "cunning",
-        "expendable",
-        "human",
-        "melee",
         "stealth",
-        "treacherous"
+        "treacherous",
+        "cunning",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "subtlety": 4,
-        "purity": -4,
-        "humanity": 3,
-        "honor": -4,
-        "order": -2
+        "subtlety": 5,
+        "honor": -5,
+        "order": -2,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -248,20 +335,32 @@
         "Mischievous",
         "Crossing Barrage(1)"
       ],
+      "weapons": [
+        {
+          "name": "Ball & Chain",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
+        "fast",
+        "treacherous",
         "cunning",
-        "expendable",
-        "human",
         "melee",
-        "treacherous"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
-        "honor": -4,
-        "order": -2
+        "speed": 4,
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -277,21 +376,31 @@
         "Unpredictable Fighter",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
-        "cunning",
-        "expendable",
-        "human",
-        "melee",
+        "tough",
         "treacherous",
-        "unpredictable"
+        "cunning",
+        "horde",
+        "swarm",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
-        "order": -5,
-        "honor": -4
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -307,24 +416,34 @@
         "Tough(3)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "8Gnl1BiT"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "cunning",
-        "human",
-        "melee",
         "regeneration",
         "tough",
         "treacherous",
+        "cunning",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "honor": -4,
+        "elite": 4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -338,22 +457,39 @@
       "rules": [
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "G1",
+        "WElvV",
+        "tNRza3iu"
+      ],
       "tags": [
+        "treacherous",
+        "cunning",
         "balanced",
         "cheap",
-        "corrupted",
-        "cunning",
-        "expendable",
-        "human",
-        "treacherous"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "purity": -4,
-        "humanity": 3,
-        "honor": -4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5
       }
     },
     {
@@ -363,28 +499,41 @@
       "size": 5,
       "quality": 5,
       "defense": 5,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "H1",
+        "tNRza3iu"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
-        "corrupted",
+        "treacherous",
         "cunning",
-        "expendable",
-        "human",
+        "cavalry",
+        "fast",
+        "monster",
         "melee",
-        "treacherous"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3,
-        "honor": -4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "tech": -3
+        "speed": 5,
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -401,27 +550,47 @@
         "Fearless",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Bites",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "tNRza3iu"
+      ],
       "tags": [
-        "beast",
-        "cavalry",
-        "corrupted",
+        "treacherous",
         "cunning",
         "fast",
         "fearless",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "treacherous"
+        "cavalry",
+        "monster",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": -1,
-        "speed": 5,
-        "honor": -4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
+        "speed": 5,
         "faith": 2,
-        "tech": -3
+        "elite": -2,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -438,24 +607,45 @@
         "Tough(12)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Giant Jaws",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "xIepTb7J"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "cunning",
-        "human",
-        "melee",
-        "monster",
+        "fast",
         "tough",
         "treacherous",
-        "veteran"
+        "cunning",
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "honor": -4,
+        "speed": 4,
+        "elite": 4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "tech": -3
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -471,24 +661,43 @@
         "Tough(12)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Great Acid Fangs",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "cunning",
-        "human",
-        "melee",
-        "monster",
         "tough",
         "treacherous",
-        "veteran"
+        "cunning",
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "honor": -4,
+        "elite": 4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "tech": -3
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -505,25 +714,44 @@
         "Tough(12)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Giant Club",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1",
+        "iUDhFVim"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "cunning",
-        "human",
-        "melee",
-        "monster",
         "regeneration",
         "tough",
         "treacherous",
+        "cunning",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "honor": -4,
+        "elite": 4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "tech": -3
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -540,24 +768,46 @@
         "Tough(6)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Bites",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Spear Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "corrupted",
-        "cunning",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
         "tough",
-        "treacherous"
+        "treacherous",
+        "cunning",
+        "cavalry",
+        "melee",
+        "expendable",
+        "armored"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "patience": -3,
-        "honor": -4,
-        "order": -2
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "tech": -1
       }
     },
     {
@@ -567,7 +817,7 @@
       "size": 1,
       "quality": 5,
       "defense": 3,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Bounding",
         "Fear(1)",
@@ -575,25 +825,43 @@
         "Tough(6)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Roller",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
+        "fast",
         "aggressive",
-        "cavalry",
-        "corrupted",
-        "cunning",
-        "human",
-        "melee",
         "tough",
         "treacherous",
-        "vehicle"
+        "cunning",
+        "melee",
+        "expendable",
+        "armored"
       ],
       "dimensionScores": {
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3,
+        "speed": 4,
         "patience": -3,
-        "honor": -4,
-        "order": -2
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "tech": -1
       }
     },
     {
@@ -603,7 +871,7 @@
       "size": 1,
       "quality": 5,
       "defense": 3,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Crossing Barrage(2)",
         "Fast",
@@ -611,24 +879,34 @@
         "Tough(6)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
-        "cunning",
         "fast",
         "flying",
-        "human",
-        "melee",
+        "mobile",
         "tough",
         "treacherous",
-        "vehicle"
+        "cunning",
+        "vehicle",
+        "melee",
+        "expendable",
+        "armored"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
-        "tech": 3,
         "speed": 5,
-        "honor": -4,
-        "order": -2
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "tech": 2
       }
     },
     {
@@ -644,22 +922,41 @@
         "Artillery",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Scrap-Shooter",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "cunning",
-        "defensive",
-        "human",
-        "ranged",
-        "static",
         "tough",
-        "treacherous"
+        "artillery",
+        "static",
+        "ranged",
+        "treacherous",
+        "cunning",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "patience": 5,
-        "honor": -4,
+        "elite": -2,
+        "tech": 3,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
         "versatility": 2
       }

@@ -2,9 +2,14 @@
   "factionId": "r6hr29338u4micfw",
   "factionName": "Change Disciples",
   "gameSystem": "grimdark-future",
-  "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.061Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:22.839Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 45
+  },
   "units": [
     {
       "id": "9MyRwgy_6",
@@ -20,23 +25,44 @@
         "Tough(6)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Champion Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "vXRdV",
+        "5JvjxB5-"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "hero",
-        "human",
-        "leader",
+        "ambush",
         "mobile",
-        "tough"
+        "hero",
+        "leader",
+        "tough",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 3,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "purity": -4,
         "versatility": 2
       }
     },
@@ -54,22 +80,43 @@
         "Versatile Attack",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "B1",
+        "C1"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "tech",
-        "tough"
+        "tough",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3
+        "versatility": 2
       }
     },
     {
@@ -85,21 +132,43 @@
         "Tough(3)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "B1",
+        "C1"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "tough"
+        "tough",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3
+        "versatility": 2
       }
     },
     {
@@ -115,21 +184,37 @@
         "Tough(3)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Champion Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "OJI7c",
+        "qEX_dhcM"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "tough"
+        "tough",
+        "corrupted",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
+        "leadership": 5,
+        "elite": -1,
+        "patience": 1,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
         "versatility": 2
       }
     },
@@ -146,21 +231,38 @@
         "Tough(3)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hexed Sword",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "OmD4C"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
         "hero",
-        "human",
         "leader",
         "tough",
+        "corrupted",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
         "versatility": 2
       }
     },
@@ -175,20 +277,36 @@
       "rules": [
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "rW-lT"
+      ],
       "tags": [
-        "balanced",
         "corrupted",
+        "balanced",
         "expendable",
         "horde",
-        "human",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": 5,
         "purity": -4,
-        "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3,
+        "collective": 5
       }
     },
     {
@@ -202,17 +320,28 @@
       "rules": [
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Dual CCWs",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "FAsO5"
+      ],
       "tags": [
         "corrupted",
-        "horde",
-        "human",
         "melee",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
-        "collective": 5,
         "purity": -4,
-        "humanity": 3
+        "patience": -1,
+        "tech": -1,
+        "collective": 5
       }
     },
     {
@@ -226,17 +355,38 @@
       "rules": [
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1",
+        "rW-lT",
+        "U2vwW",
+        "2hw7q"
+      ],
       "tags": [
-        "balanced",
         "corrupted",
-        "human",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "purity": -4,
-        "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -251,18 +401,38 @@
         "Versatile Attack",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "mUdNI",
+        "rW-lT",
+        "2hw7q",
+        "U2vwW"
+      ],
       "tags": [
-        "balanced",
         "corrupted",
+        "balanced",
         "elite",
-        "human",
-        "tech"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "purity": -4,
-        "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -277,18 +447,41 @@
         "Relentless",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1",
+        "U2vwW"
+      ],
       "tags": [
-        "balanced",
+        "ranged",
         "corrupted",
+        "balanced",
         "elite",
-        "human",
-        "ranged"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 1,
+        "tech": 1,
         "purity": -4,
-        "humanity": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -304,19 +497,37 @@
         "Tough(3)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Dual Energy Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "rW-lT",
+        "U2vwW",
+        "1ebDg"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "ambush",
         "mobile",
-        "tough"
+        "tough",
+        "corrupted",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "subtlety": 3,
+        "speed": 3,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "speed": 3
+        "tech": -1
       }
     },
     {
@@ -331,22 +542,31 @@
         "Unpredictable Fighter",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "DjlMK"
+      ],
       "tags": [
-        "cheap",
         "corrupted",
+        "melee",
+        "cheap",
         "expendable",
         "horde",
-        "human",
-        "melee",
-        "swarm",
-        "unpredictable"
+        "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
         "purity": -4,
-        "humanity": 3,
-        "order": -3
+        "patience": -1,
+        "tech": -1,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -362,20 +582,32 @@
         "Unpredictable Fighter",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1",
+        "DjlMK"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
         "fast",
-        "human",
+        "corrupted",
         "melee",
-        "unpredictable"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": 4,
-        "order": -3
+        "purity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -392,21 +624,31 @@
         "Unpredictable Fighter",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "DjlMK"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
         "fast",
-        "human",
-        "melee",
         "tough",
-        "unpredictable"
+        "corrupted",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": 4,
-        "order": -3
+        "elite": 5,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -423,21 +665,33 @@
         "Unpredictable",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Dual Mutated Claws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "ambush",
         "mobile",
         "tough",
-        "unpredictable"
+        "corrupted",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 3,
-        "order": -3
+        "elite": 5,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -447,30 +701,44 @@
       "size": 3,
       "quality": 4,
       "defense": 5,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Strider",
         "Tough(3)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Burst Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "5Pqqo"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "corrupted",
         "fast",
-        "human",
         "mobile",
         "tough",
-        "vehicle",
+        "corrupted",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "purity": -4,
         "versatility": 2
       }
     },
@@ -489,23 +757,39 @@
         "Transport(11)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Storm Rifle",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "9_OBxQoM"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
-        "vehicle"
+        "transport",
+        "corrupted",
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "purity": -4,
+        "tech": 4
       }
     },
     {
@@ -522,23 +806,45 @@
         "Tough(12)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Twin Laser Cannon",
+          "range": 36,
+          "attacks": 2,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "B2"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
-        "vehicle"
+        "corrupted",
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 5,
+        "purity": -4,
+        "tech": 4
       }
     },
     {
@@ -556,23 +862,48 @@
         "Transport(11)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Quad Laser Cannon",
+          "range": 36,
+          "attacks": 4,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "1WEvQGAK"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
-        "vehicle"
+        "transport",
+        "corrupted",
+        "vehicle",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 4,
-        "patience": -3
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "purity": -4,
+        "tech": 4
       }
     },
     {
@@ -588,19 +919,62 @@
         "Fear(1)",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Hell Missile Rack",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Limited",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Flamer Cannon",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Fusion Rifle",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "_-iYK8ti"
+      ],
       "tags": [
-        "balanced",
         "corrupted",
-        "elite",
-        "human",
         "tough",
-        "vehicle"
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "purity": -4,
-        "humanity": 3,
+        "patience": 1,
+        "elite": 5,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -611,25 +985,45 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "monster",
+      "role": "vehicle",
       "rules": [
         "Fear(2)",
         "Tough(12)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Brute Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
         "tough",
-        "vehicle"
+        "corrupted",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "tech": 3
+        "tech": 2
       }
     },
     {
@@ -646,22 +1040,48 @@
         "Tough(12)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Fiend Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Steel Tails",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2"
+      ],
       "tags": [
-        "battlesuit",
-        "beast",
-        "corrupted",
-        "daemon",
-        "elite",
-        "melee",
         "regeneration",
         "tough",
-        "vehicle"
+        "corrupted",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -5,
-        "faith": 3
+        "elite": 5,
+        "purity": -4,
+        "tech": 2
       }
     },
     {
@@ -679,24 +1099,48 @@
         "Unpredictable Fighter",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Vortex of Mutation",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Barbed Tentacles",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
-        "elite",
-        "human",
-        "monster",
         "regeneration",
         "tough",
-        "unpredictable"
+        "corrupted",
+        "monster",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
+        "patience": 1,
+        "elite": 5,
         "purity": -4,
-        "order": -3,
-        "versatility": 2,
-        "tech": -3
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -713,20 +1157,64 @@
         "Tough(18)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Battle Cannon",
+          "range": 30,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Reaper Cannon",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "Slam"
+          ]
+        },
+        {
+          "name": "Crab Fists",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(3)"
+          ]
+        },
+        {
+          "name": "Crab Flail",
+          "range": 0,
+          "attacks": 8,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F2"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
-        "elite",
-        "human",
         "regeneration",
         "tough",
-        "vehicle"
+        "corrupted",
+        "vehicle",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 1,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -744,24 +1232,38 @@
         "Tough(6)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Forge Flamethrower",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2"
+      ],
       "tags": [
         "aircraft",
-        "beast",
-        "corrupted",
-        "elite",
         "flying",
-        "human",
-        "ranged",
+        "vehicle",
         "regeneration",
         "tough",
-        "vehicle"
+        "corrupted",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 5
+        "tech": 5,
+        "speed": 5,
+        "patience": 2,
+        "elite": 5,
+        "purity": -4
       }
     }
   ],

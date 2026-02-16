@@ -1,0 +1,2689 @@
+{
+  "factionId": "qABIfXYbYxmA75yL",
+  "factionName": "Vampiric Undead",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Vampire Master",
+      "forUnits": [
+        "hYgOS5j"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "YdmKAcL",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "zvIDG0d",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "89wEiIM",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "6eOkyQR",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Ul9FVTE",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "j6jZPhg",
+              "label": "Hunting Pet (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Pet",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "W1keD",
+              "label": "Steed (Fast, Impact(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Steed",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iAg9g",
+              "label": "Winged Steed (Hooves (A1), Fast, Flying, Impact(2), Tough(3))",
+              "cost": 90,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Winged Steed",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Flying",
+                    "Impact",
+                    "Tough",
+                    "Hooves"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PjoFIJE",
+              "label": "Winged Terror (Heavy Claws (A3, AP(1)), Flying, Ravage(1), Tough(3))",
+              "cost": 85,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Winged Terror",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Ravage",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "JS867",
+              "label": "Zombie Dragon (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Breath Attack, Fear(2), Flying, Regeneration, Tough(12))",
+              "cost": 420,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 370
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Zombie Dragon",
+                  "type": "item",
+                  "content": [
+                    "Tough",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Regeneration",
+                    "Stomp",
+                    "Heavy Claws"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "67F4I",
+              "label": "Skeleton Dragon (Heavy Claws (A6, AP(1)), Putrid Bite (A6, Bane), Stomp (A6, AP(2)), Fear(3), Flying, Tough(18))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 510
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skeleton Dragon",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Putrid Bite",
+                    "Stomp",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "i4ZWN",
+              "label": "Stitched Zombie Horde (Zombie Claws (A18), Fear(3), Fearless, Regeneration, Tough(18))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 520
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stitched Zombie Horde",
+                  "type": "item",
+                  "content": [
+                    "Zombie Claws",
+                    "Fear",
+                    "Fearless",
+                    "Regeneration",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Skeleton Champion",
+      "forUnits": [
+        "IFoiX6E"
+      ],
+      "sections": [
+        {
+          "label": "Replace Cursed Sword",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lsWyQrG",
+              "label": "Cursed Halberd (A3, Rending, Sever)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "_CTZVA-",
+              "label": "Cursed Spear (A3, Counter, Sever)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter",
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "rHGTF3O",
+              "label": "Cursed Dual Hand Weapons (A4, Sever)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "8cLlfkJ",
+              "label": "Cursed Lance (A3, Sever, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust",
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "5avQAPq",
+              "label": "Cursed Greatsword (A3, AP(2), Sever)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Greatsword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "UCYRX",
+              "label": "Champion Cursed Crossbow (24\", A2, Rending, Sever)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Cursed Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending",
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7MF4a",
+              "label": "Skeletal Steed (Fast, Impact(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skeletal Steed",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "22mei",
+              "label": "Abyssal Beast (Heavy Claws (A6, AP(1)), Armor(3), Fear(1), Strider, Tough(6))",
+              "cost": 160,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 125
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Abyssal Beast",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Armor",
+                    "Fear",
+                    "Strider",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Ghoul Champion",
+      "forUnits": [
+        "ounVlif"
+      ],
+      "sections": [
+        {
+          "label": "Replace Toxin Claw",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "DC8Lf",
+              "label": "Lance (A3, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "qTCu8",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "LQevRr-rVq",
+              "label": "Sling (12\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sling",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "HrbgE",
+              "label": "Wings (Ambush, Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "A4zn9",
+              "label": "Winged Beast (Flying, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Winged Beast",
+                  "type": "item",
+                  "content": [
+                    "Flying",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LWNBi",
+              "label": "Bat Beast (Deadly Fangs (A6, Shred), Ambush, Armor(3), Fear(1), Flying, Furious, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 195
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bat Beast",
+                  "type": "item",
+                  "content": [
+                    "Deadly Fangs",
+                    "Ambush",
+                    "Armor",
+                    "Fear",
+                    "Flying",
+                    "Furious",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "FeTAN",
+              "label": "Bat Dragon (Stomp (A4, AP(1)), Deadly Fangs (A8, Shred), Armor(3), Fear(2), Flying, Furious, Tough(12))",
+              "cost": 370,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 345
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bat Dragon",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Deadly Fangs",
+                    "Armor",
+                    "Fear",
+                    "Flying",
+                    "Furious",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Command Group",
+      "forUnits": [
+        "feVlWGg",
+        "ywA6N1i",
+        "uZbIBgP",
+        "ga8M8Bg",
+        "nbfcBdh",
+        "t7GGspb",
+        "VYTV8S4",
+        "9x1rCWH",
+        "SlQz0wf"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2ASMdAD",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "feVlWGg",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ywA6N1i",
+                  "cost": 5
+                },
+                {
+                  "unitId": "uZbIBgP",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ga8M8Bg",
+                  "cost": 5
+                },
+                {
+                  "unitId": "nbfcBdh",
+                  "cost": 5
+                },
+                {
+                  "unitId": "t7GGspb",
+                  "cost": 5
+                },
+                {
+                  "unitId": "VYTV8S4",
+                  "cost": 5
+                },
+                {
+                  "unitId": "9x1rCWH",
+                  "cost": 5
+                },
+                {
+                  "unitId": "SlQz0wf",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8Q8PJmB",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "feVlWGg",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ywA6N1i",
+                  "cost": 5
+                },
+                {
+                  "unitId": "uZbIBgP",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ga8M8Bg",
+                  "cost": 5
+                },
+                {
+                  "unitId": "nbfcBdh",
+                  "cost": 5
+                },
+                {
+                  "unitId": "t7GGspb",
+                  "cost": 5
+                },
+                {
+                  "unitId": "VYTV8S4",
+                  "cost": 5
+                },
+                {
+                  "unitId": "9x1rCWH",
+                  "cost": 5
+                },
+                {
+                  "unitId": "SlQz0wf",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "UNfyZYn",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "feVlWGg",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ywA6N1i",
+                  "cost": 10
+                },
+                {
+                  "unitId": "uZbIBgP",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ga8M8Bg",
+                  "cost": 10
+                },
+                {
+                  "unitId": "nbfcBdh",
+                  "cost": 10
+                },
+                {
+                  "unitId": "t7GGspb",
+                  "cost": 10
+                },
+                {
+                  "unitId": "VYTV8S4",
+                  "cost": 10
+                },
+                {
+                  "unitId": "9x1rCWH",
+                  "cost": 10
+                },
+                {
+                  "unitId": "SlQz0wf",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Soldiers",
+      "forUnits": [
+        "feVlWGg"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "U9uzW1z",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "feVlWGg",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "fK6JvBi",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "feVlWGg",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Skeleton Guard",
+      "forUnits": [
+        "uZbIBgP"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Cursed Swords",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "26M5Y23",
+              "label": "Cursed Halberd (A1, Rending, Sever)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "uZbIBgP",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "CYMmv",
+              "label": "Cursed Spear (A1, Counter, Sever)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "uZbIBgP",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter",
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "StPWo",
+              "label": "Cursed Mace (A1, AP(2), Sever)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "uZbIBgP",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Sever"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Vampire Knights",
+      "forUnits": [
+        "9x1rCWH"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Fg9JU",
+              "label": "Heavy Lance (A1, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "9x1rCWH",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B2",
+      "hint": "Corpse Wagon",
+      "forUnits": [
+        "cWoCifs"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Q7NCg8U9i1",
+              "label": "Cursed Monolith (Casting Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cWoCifs",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cursed Monolith",
+                  "type": "item",
+                  "content": [
+                    "Casting Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "f_usv09",
+              "label": "Unholy Brazier (Resistance)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "cWoCifs",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Unholy Brazier",
+                  "type": "item",
+                  "content": [
+                    "Resistance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oU-iw8q",
+              "label": "Corpse Pile (Spawn(Stitched Zombies [10]))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "cWoCifs",
+                  "cost": 105
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Corpse Pile",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "eASXb",
+      "hint": "Werewolves",
+      "forUnits": [
+        "K2QdNmm"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Rending Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "uqhzu",
+              "label": "Heavy Hand Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "K2QdNmm",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "8Hcou",
+      "hint": "Werewolf Champion",
+      "forUnits": [
+        "DmUheiD"
+      ],
+      "sections": [
+        {
+          "label": "Replace 2x Razor Blade",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "901bS",
+              "label": "Heavy Rending Claws (A6, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "DmUheiD",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Rending Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "CL7cl",
+              "label": "Great Sword (A3, AP(4)), Razor Blades (A3, Reliable)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "DmUheiD",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Razor Blades",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "PXdja",
+      "hint": "Drained Leader",
+      "forUnits": [
+        "tcFt2jt"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "kQ-ci",
+              "label": "Spear (A3, Counter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "397uP",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "NWwGS",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "veYsE",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "3u_Vrahxjq",
+              "label": "Bow (24\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "kPSBQi4IBZ",
+              "label": "Stitched Leader (Fearless, Slow)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stitched Leader",
+                  "type": "item",
+                  "content": [
+                    "Fearless",
+                    "Slow"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "J6NFA",
+              "label": "Pet Ghoul (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pet Ghoul",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bgALt",
+      "hint": "Stitched Butchers",
+      "forUnits": [
+        "EcmqnZb"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Slicing Blades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "_IRiq",
+              "label": "Carving Tool (A4, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "EcmqnZb",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Carving Tool",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "JgSYCk3c",
+              "label": "Corpse Master (Cursed Undead Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "EcmqnZb",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Corpse Master",
+                  "type": "item",
+                  "content": [
+                    "Cursed Undead Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "kJpFO",
+      "hint": "Ghouls",
+      "forUnits": [
+        "ga8M8Bg"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Toxin Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XY8DM",
+              "label": "Heavy Hand Weapon (A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ga8M8Bg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Qt6dc",
+              "label": "Halberd (A1, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ga8M8Bg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "_wNjnoNmzX",
+              "label": "Sling (12\", A1), Claws (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ga8M8Bg",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sling",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": []
+                },
+                {
+                  "name": "Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "7-rE4Axv",
+      "hint": "Specialists - Vampire Master",
+      "forUnits": [
+        "hYgOS5j"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "OFQV_FcLwA",
+              "label": "King's Gift Bearer (Cursed Undead Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "King's Gift Bearer",
+                  "type": "item",
+                  "content": [
+                    "Cursed Undead Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "yYnjkaS8",
+              "label": "Count (Scout Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Count",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "PL4u8xxx",
+              "label": "Night Bringer (Stealth Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Night Bringer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "vn81Hu4N",
+              "label": "Lord (Shred in Melee Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lord",
+                  "type": "item",
+                  "content": [
+                    "Shred in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iB6HnTC-rs",
+              "label": "Commander (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Commander",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oeqHV1Fu",
+              "label": "Necromancer (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Necromancer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "emyKSXyW",
+              "label": "Master Necromancer (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Necromancer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "LJtbVTw50t",
+              "label": "Twisted Seduction (Mind Control)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hYgOS5j",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twisted Seduction",
+                  "type": "item",
+                  "content": [
+                    "Mind Control"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "OXPncBHU",
+      "hint": "Zombie Dragon",
+      "forUnits": [
+        "kS28Jel"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ytqWz9XF",
+              "label": "Vampire Lord Rider (Mind Control)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kS28Jel",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vampire Lord Rider",
+                  "type": "item",
+                  "content": [
+                    "Mind Control"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "6yal0SOR",
+      "hint": "Stitched Zombies",
+      "forUnits": [
+        "ywA6N1i"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "UGBz5pbH22",
+              "label": "The Rising Dead (Infiltrate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ywA6N1i",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "The Rising Dead",
+                  "type": "item",
+                  "content": [
+                    "Infiltrate"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "zsqIHqLH",
+      "hint": "Specialists - Drained",
+      "forUnits": [
+        "tcFt2jt"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "lguNHaTx",
+              "label": "Corpse Master (Cursed Undead Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Corpse Master",
+                  "type": "item",
+                  "content": [
+                    "Cursed Undead Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nuIGnjz3",
+              "label": "Village Chief (Scout Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Village Chief",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sU3oIVRu",
+              "label": "Night Bringer (Stealth Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Night Bringer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "O4RyBcSj",
+              "label": "Great Corpse Master (Reanimation Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Corpse Master",
+                  "type": "item",
+                  "content": [
+                    "Reanimation Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "341WYbCn",
+              "label": "Hunt Master (Piercing Hunter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunt Master",
+                  "type": "item",
+                  "content": [
+                    "Piercing Hunter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_FxDNJnZ",
+              "label": "Necromancer (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Necromancer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Jol5gz3D",
+              "label": "Master Necromancer (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "tcFt2jt",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Necromancer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "s6Zm5_SH",
+      "hint": "Specialists - Ghoul",
+      "forUnits": [
+        "ounVlif"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "9cXFXpWS",
+              "label": "Magic Attuned (Caster(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magic Attuned",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4jTGmJRd",
+              "label": "Grave Digger (Cursed Undead Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grave Digger",
+                  "type": "item",
+                  "content": [
+                    "Cursed Undead Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "EsKMlzh0",
+              "label": "Night Bringer (Stealth Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Night Bringer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "i3ZGu2Yq",
+              "label": "Superior (Shred in Melee Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Superior",
+                  "type": "item",
+                  "content": [
+                    "Shred in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "mZMlPhee",
+              "label": "Hunt Master (Piercing Hunter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ounVlif",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunt Master",
+                  "type": "item",
+                  "content": [
+                    "Piercing Hunter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Qt3DGDL0",
+      "hint": "Specialists - Skeleton",
+      "forUnits": [
+        "IFoiX6E"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "o4geUykg",
+              "label": "Ancient Count (Scout Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ancient Count",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "OsUOcMpw",
+              "label": "Night Bringer (Stealth Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Night Bringer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "G0APMOUl",
+              "label": "Awakened Lord (Shred in Melee Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Awakened Lord",
+                  "type": "item",
+                  "content": [
+                    "Shred in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0dOBrX0G",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zCCICSDQrU",
+              "label": "Commander (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Commander",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "24iohcdu",
+              "label": "Hunt Master (Piercing Hunter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IFoiX6E",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunt Master",
+                  "type": "item",
+                  "content": [
+                    "Piercing Hunter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Pt4ZZxgt",
+      "hint": "Specialists - Werewolf",
+      "forUnits": [
+        "DmUheiD"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vDvTrPLd1m",
+              "label": "King's Gift Bearer (Cursed Undead Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DmUheiD",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "King's Gift Bearer",
+                  "type": "item",
+                  "content": [
+                    "Cursed Undead Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jd6ntV-T",
+              "label": "Night Bringer (Stealth Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "DmUheiD",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Night Bringer",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "pl7kqpqx",
+              "label": "Aspiring Lord (Shred in Melee Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "DmUheiD",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aspiring Lord",
+                  "type": "item",
+                  "content": [
+                    "Shred in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "l7IJpA0zVv",
+              "label": "Commander (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DmUheiD",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Commander",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "k_ossoZt",
+      "hint": "Bat Beast",
+      "forUnits": [
+        "MMr2Uug"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "6ZxqMMNe1p",
+              "label": "Wings (Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MMr2Uug",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

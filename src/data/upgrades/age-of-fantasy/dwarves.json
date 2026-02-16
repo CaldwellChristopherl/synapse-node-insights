@@ -1,0 +1,2754 @@
+{
+  "factionId": "RJDq2ZD7wjlAcUVB",
+  "factionName": "Dwarves",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Dwarf Champion",
+      "forUnits": [
+        "1ifiBs3"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "2fdZCEj",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "aNjcCzm",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "e76nr9Z",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "syPlE0b_A0",
+              "label": "Heavy Runic Hammer (A3, AP(1), Quake)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Runic Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Quake",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "GuUt_Pv",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "C_teAsr",
+              "label": "Champion Rifle (18\", A2, AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "FTab6zr",
+              "label": "Champion Twin Pistol (9\", A4, AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Twin Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "PRwvb-L",
+              "label": "Champion Fire Pistol (9\", A4, Reliable)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Fire Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 4,
+                  "special": [
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "h_Q_FN5",
+              "label": "Champion Crossbow (24\", A2, Rending)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Champion Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "SXC-Bd2",
+              "label": "Burst Rifle (18\", A3, AP(1))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burst Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "w-0Jum0k",
+              "label": "Rune of Power (Devastating Frenzy)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune of Power",
+                  "type": "item",
+                  "content": [
+                    "Devastating Frenzy"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "iNG0B0WKLs",
+              "label": "Ranger Leader (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ranger Leader",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "DGnKggV",
+              "label": "Coal Beast (Impact(1), Swift)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Coal Beast",
+                  "type": "item",
+                  "content": [
+                    "Impact",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "bHtatkt94z",
+              "label": "Miner Leader (Explosives (12\", A3, AP(1), Limited), Infiltrate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Miner Leader",
+                  "type": "item",
+                  "content": [
+                    "Explosives",
+                    "Infiltrate"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zrJAasG",
+              "label": "Myth Stone (Fear(1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Myth Stone",
+                  "type": "item",
+                  "content": [
+                    "Fear",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "UNjaFFw",
+              "label": "Shield Platform (Crew (A3), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shield Platform",
+                  "type": "item",
+                  "content": [
+                    "Crew",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zkq-z",
+              "label": "Doom Cart (Caster(1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom Cart",
+                  "type": "item",
+                  "content": [
+                    "Caster",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "34Ca6L8",
+              "label": "Beast-Construct (Heavy Claws (A1, AP(2)), Armor(3), Impact(2), Swift, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beast-Construct",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Armor",
+                    "Impact",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Berserker Lord",
+      "forUnits": [
+        "yLOTQBH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "m-K4g7fxgU",
+              "label": "Dual Runic Hammers (A4, Quake)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Runic Hammers",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Quake"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "RS6Ej",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "d4mj7MZ-h8",
+              "label": "Rune of Power (Devastating Frenzy)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune of Power",
+                  "type": "item",
+                  "content": [
+                    "Devastating Frenzy"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nbAxT",
+              "label": "Coal Beast (Ravage(1), Swift)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Coal Beast",
+                  "type": "item",
+                  "content": [
+                    "Ravage",
+                    "Swift"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "Q_3SCh5",
+        "5bGe5Gt",
+        "YbC6RqA",
+        "i0n-_y7",
+        "dQ4QZ3t",
+        "Eo7N5DF",
+        "jdOf4MW",
+        "2Zg_4xv",
+        "nlOhiKk",
+        "TQRwaRq",
+        "ozrADDd"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "-2GbLN4",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Q_3SCh5",
+                  "cost": 5
+                },
+                {
+                  "unitId": "5bGe5Gt",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YbC6RqA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "i0n-_y7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "dQ4QZ3t",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Eo7N5DF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "jdOf4MW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "2Zg_4xv",
+                  "cost": 5
+                },
+                {
+                  "unitId": "nlOhiKk",
+                  "cost": 5
+                },
+                {
+                  "unitId": "TQRwaRq",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ozrADDd",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "EACh3ui",
+              "label": "Sergeant",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Q_3SCh5",
+                  "cost": 5
+                },
+                {
+                  "unitId": "5bGe5Gt",
+                  "cost": 5
+                },
+                {
+                  "unitId": "YbC6RqA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "i0n-_y7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "dQ4QZ3t",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Eo7N5DF",
+                  "cost": 5
+                },
+                {
+                  "unitId": "jdOf4MW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "2Zg_4xv",
+                  "cost": 5
+                },
+                {
+                  "unitId": "nlOhiKk",
+                  "cost": 10
+                },
+                {
+                  "unitId": "TQRwaRq",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ozrADDd",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zdyTwWn",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Q_3SCh5",
+                  "cost": 10
+                },
+                {
+                  "unitId": "5bGe5Gt",
+                  "cost": 10
+                },
+                {
+                  "unitId": "YbC6RqA",
+                  "cost": 10
+                },
+                {
+                  "unitId": "i0n-_y7",
+                  "cost": 10
+                },
+                {
+                  "unitId": "dQ4QZ3t",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Eo7N5DF",
+                  "cost": 10
+                },
+                {
+                  "unitId": "jdOf4MW",
+                  "cost": 10
+                },
+                {
+                  "unitId": "2Zg_4xv",
+                  "cost": 10
+                },
+                {
+                  "unitId": "nlOhiKk",
+                  "cost": 10
+                },
+                {
+                  "unitId": "TQRwaRq",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ozrADDd",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Mountain Warriors",
+      "forUnits": [
+        "Q_3SCh5"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "OYG0yGs",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "Q_3SCh5",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "MvJZlTB",
+              "label": "Spear (A1, Counter)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "Q_3SCh5",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Coal Miners",
+      "forUnits": [
+        "i0n-_y7"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Xql8Y",
+              "label": "Explosives (12\", A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "i0n-_y7",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Explosives",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Pick",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "shXzItK",
+              "label": "Mining Drill (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "i0n-_y7",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mining Drill",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Bearded Veterans",
+      "forUnits": [
+        "5bGe5Gt"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "pu78OuE",
+              "label": "Heavy Spear (A1, AP(1), Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "5bGe5Gt",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Vb_6IYy",
+              "label": "Heavy Great Weapon (A1, AP(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "5bGe5Gt",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Iron Warriors",
+      "forUnits": [
+        "dQ4QZ3t"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "uvWFddl",
+              "label": "Shrapnel Bombs (12\", A1, AP(1), Blast(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "dQ4QZ3t",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shrapnel Bombs",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "qL6EVyh",
+              "label": "Twin Fire Pistol (9\", A4, Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "dQ4QZ3t",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Fire Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 4,
+                  "special": [
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Steam-Suits",
+      "forUnits": [
+        "1O25E7P"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Steam-Guns and Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "jCsJ85KoGt",
+              "label": "Great Weapon (A3, AP(2)), Heavy Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1O25E7P",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Heavy Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 1
+              }
+            },
+            {
+              "uid": "bnlVD",
+              "label": "Heavy Fists (A4, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1O25E7P",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Fists",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "qSD6-xB1",
+              "label": "Rune of Slowing (Speed Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1O25E7P",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune of Slowing",
+                  "type": "item",
+                  "content": [
+                    "Speed Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Marksmen",
+      "forUnits": [
+        "jdOf4MW"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Rifles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "SQ2yNN9",
+              "label": "Crossbow (24\", A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "jdOf4MW",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "D72ZlpI",
+              "label": "Twin Pistol (9\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jdOf4MW",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Rangers",
+      "forUnits": [
+        "2Zg_4xv"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Throwing Picks",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "YNjRU1l",
+              "label": "Crossbow (24\", A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "2Zg_4xv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Throwing Pick",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xsM06",
+              "label": "Giant Crossbow (18\", A1, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2Zg_4xv",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Iron Marksmen",
+      "forUnits": [
+        "nlOhiKk"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Fire Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nswr0",
+              "label": "Shrapnel Bombs (12\", A1, AP(1), Blast(3))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "nlOhiKk",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shrapnel Bombs",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "ncSdeRt",
+              "label": "Twin Fire Pistol (9\", A4, Reliable)",
+              "cost": -10,
+              "costs": [
+                {
+                  "unitId": "nlOhiKk",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Fire Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 4,
+                  "special": [
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "RtHBws2",
+              "label": "Torpedo Rifle (18\", A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "nlOhiKk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Torpedo Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Beast-Construct Riders",
+      "forUnits": [
+        "ozrADDd"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "oH7pRRo",
+              "label": "Axe-Halberd (A1, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "ozrADDd",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Axe-Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "hbraZz6J",
+              "label": "Rune of Slowing (Speed Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ozrADDd",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune of Slowing",
+                  "type": "item",
+                  "content": [
+                    "Speed Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M1",
+      "hint": "Attack Helicopter",
+      "forUnits": [
+        "FDcuRY7"
+      ],
+      "sections": [
+        {
+          "label": "Replace Rapid Flamethrower",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "FTAPM",
+              "label": "Mini-Cannon (18\", A2, AP(1), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "FDcuRY7",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mini-Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "SVyhYxd",
+              "label": "First to Battle (Scout)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "FDcuRY7",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "First to Battle",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N1",
+      "hint": "Giant Construct",
+      "forUnits": [
+        "fi25oul"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "d1Bdue0",
+              "label": "Heavy Steam-Gun (18\", A4, AP(1), Blast(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "fi25oul",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Steam-Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "6sZI7fli",
+              "label": "Rune of Slowing (Speed Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "fi25oul",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune of Slowing",
+                  "type": "item",
+                  "content": [
+                    "Speed Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "O1",
+      "hint": "Dwarf Artillery",
+      "forUnits": [
+        "5dQUQD1"
+      ],
+      "sections": [
+        {
+          "label": "Replace Burst Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "NtzLPTe",
+              "label": "Pick Flinger (18\", A2, AP(2), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "5dQUQD1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pick Flinger",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "r8Ll7Eb",
+              "label": "Cannon (30\", A2, AP(1), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "5dQUQD1",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "SxxaOv4",
+              "label": "Flame Cannon (18\", A2, AP(1), Blast(3), Reliable)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "5dQUQD1",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flame Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Reliable",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "ZNFMp-F",
+              "label": "Heavy Cannon (30\", A2, AP(2), Deadly(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "5dQUQD1",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "lKn0jrm",
+              "label": "Bolt Thrower (36\", A1, AP(3), Deadly(6))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "5dQUQD1",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bolt Thrower",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "jEscg-6",
+              "label": "Stone Thrower (36\", A1, AP(2), Blast(6), Indirect)",
+              "cost": 80,
+              "costs": [
+                {
+                  "unitId": "5dQUQD1",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stone Thrower",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "V8ridyJ3",
+              "label": "Rune of Slowing (Speed Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "5dQUQD1",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune of Slowing",
+                  "type": "item",
+                  "content": [
+                    "Speed Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "NSw3O",
+      "hint": "Coal Golems",
+      "forUnits": [
+        "mJMH25d"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Great Maces",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Dc13w",
+              "label": "Heavy Blade (A3, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mJMH25d",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "aKrv9",
+              "label": "Golem Fists (A4, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "mJMH25d",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Golem Fists",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "n-rf0GIS",
+      "hint": "Steam-Suit Champion",
+      "forUnits": [
+        "rJMWIC1"
+      ],
+      "sections": [
+        {
+          "label": "Replace Champion Steam-Gun and Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "b2cL6Tw1gQ",
+              "label": "Great Weapon (A6, AP(2)), Heavy Shield (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rJMWIC1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Heavy Shield",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 1
+              }
+            },
+            {
+              "uid": "esZrePBFAQ",
+              "label": "Heavy Fists (A8, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rJMWIC1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Fists",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "2sGfpUP0",
+      "hint": "Rune of Power",
+      "forUnits": [
+        "Q_3SCh5",
+        "YbC6RqA",
+        "i0n-_y7",
+        "TQRwaRq"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zHaizH3cnG",
+              "label": "Rune of Power (Devastating Frenzy)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Q_3SCh5",
+                  "cost": 10
+                },
+                {
+                  "unitId": "YbC6RqA",
+                  "cost": 10
+                },
+                {
+                  "unitId": "i0n-_y7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "TQRwaRq",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune of Power",
+                  "type": "item",
+                  "content": [
+                    "Devastating Frenzy"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "IwbewFdg",
+      "hint": "Specialists - Steam-Suit",
+      "forUnits": [
+        "rJMWIC1"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "frg0Mmkk2c",
+              "label": "Iron Forger (Sturdy Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rJMWIC1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Iron Forger",
+                  "type": "item",
+                  "content": [
+                    "Sturdy Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Q3FRXbQb",
+              "label": "Pathfinder (Swift Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "rJMWIC1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pathfinder",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "pjaoO7umXj",
+              "label": "Prospector (Resistance Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rJMWIC1",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prospector",
+                  "type": "item",
+                  "content": [
+                    "Resistance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "K3x8BzhF3v",
+              "label": "Artificer (Relentless Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rJMWIC1",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Artificer",
+                  "type": "item",
+                  "content": [
+                    "Relentless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oi9UjwMR",
+              "label": "Rune Lord (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "rJMWIC1",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune Lord",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZrJ3ixPR",
+      "hint": "Berserkers",
+      "forUnits": [
+        "YbC6RqA",
+        "TQRwaRq"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "krKSsAC8h_",
+              "label": "Dual Runic Hammers (A2, Quake)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "YbC6RqA",
+                  "cost": 30
+                },
+                {
+                  "unitId": "TQRwaRq",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Runic Hammers",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Quake"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "UGkOL2zB",
+      "hint": "Specialists - Berserker",
+      "forUnits": [
+        "yLOTQBH"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gNGi0Xck",
+              "label": "Iron Forger (Sturdy Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Iron Forger",
+                  "type": "item",
+                  "content": [
+                    "Sturdy Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "h26EMs1x",
+              "label": "Pathfinder (Swift Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pathfinder",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "18dvvIn9",
+              "label": "Prospector (Resistance Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Prospector",
+                  "type": "item",
+                  "content": [
+                    "Resistance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sYduq25p",
+              "label": "Warden (Rending in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warden",
+                  "type": "item",
+                  "content": [
+                    "Rending in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "eXvMY8mI",
+              "label": "Rune Lord (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "yLOTQBH",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune Lord",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "tnOXbco7",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "1ifiBs3"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "V7-xhvjp",
+              "label": "Iron Forger (Sturdy Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Iron Forger",
+                  "type": "item",
+                  "content": [
+                    "Sturdy Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xz_matcV",
+              "label": "Machinist (Re-Position Artillery)",
+              "cost": 75,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Machinist",
+                  "type": "item",
+                  "content": [
+                    "Re-Position Artillery"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0p98iwnd",
+              "label": "Pathfinder (Swift Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pathfinder",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8K0j2D3R",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Dvf_YpwW",
+              "label": "Warden (Rending in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warden",
+                  "type": "item",
+                  "content": [
+                    "Rending in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nUvJ2nhV",
+              "label": "Artificer (Relentless Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Artificer",
+                  "type": "item",
+                  "content": [
+                    "Relentless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "RwWAm7w_",
+              "label": "Rune Lord (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "1ifiBs3",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune Lord",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "KaojFw0M",
+      "hint": "Helicopter Construct",
+      "forUnits": [
+        "wEIcD9m"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with up to two",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ucZxpJHth9",
+              "label": "Attack Cargo-Bay (Spawn(Attack Helicopter [1]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wEIcD9m",
+                  "cost": 145
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Attack Cargo-Bay",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "aOUHjARPNH",
+              "label": "Bomber Cargo-Bay (Spawn(Bomber Helicopter [1]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wEIcD9m",
+                  "cost": 165
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bomber Cargo-Bay",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fVDk9v-1",
+              "label": "Rune of Slowing (Speed Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wEIcD9m",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune of Slowing",
+                  "type": "item",
+                  "content": [
+                    "Speed Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

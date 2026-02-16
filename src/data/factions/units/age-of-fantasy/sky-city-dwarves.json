@@ -2,9 +2,14 @@
   "factionId": "AcDXPPXmWrgHChlS",
   "factionName": "Sky-City Dwarves",
   "gameSystem": "age-of-fantasy",
-  "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.895Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.415Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 44
+  },
   "units": [
     {
       "id": "vzAMpIv",
@@ -21,21 +26,60 @@
         "Scout",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Aether-Gun",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "Scratch"
+          ]
+        },
+        {
+          "name": "Twin Sky-Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Weapon-Rig",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Chain-Sword",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "S2bCarml"
+      ],
       "tags": [
-        "balanced",
         "flying",
+        "mobile",
         "hero",
         "leader",
-        "mobile",
-        "scout",
         "tough",
+        "scout",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
         "speed": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "subtlety": 3,
         "versatility": 2
       }
@@ -54,19 +98,41 @@
         "Tough(3)",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Flame Pistol",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "M7Doa-LE"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "slow",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "speed": -2
+        "leadership": 5,
+        "elite": 5,
+        "speed": -2,
+        "patience": 1,
+        "versatility": 2
       }
     },
     {
@@ -81,16 +147,35 @@
         "Slow",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Sky-Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
+        "slow",
         "balanced",
         "horde",
-        "slow",
         "swarm"
       ],
       "dimensionScores": {
-        "collective": 5,
         "speed": -2,
-        "versatility": 2
+        "versatility": 2,
+        "collective": 5
       }
     },
     {
@@ -105,15 +190,34 @@
         "Slow",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Sky-Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
-        "balanced",
         "slow",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -129,16 +233,38 @@
         "Relentless",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Flame-Gun",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "Hr9hf"
+      ],
       "tags": [
-        "balanced",
-        "ranged",
         "slow",
+        "ranged",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": -2,
-        "versatility": 2
+        "patience": 1,
+        "tech": 1,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -148,22 +274,37 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "fast-attack",
+      "role": "troops",
       "rules": [
         "Flying",
         "Tough(3)",
         "Buccaneer",
         "Melee Slayer"
       ],
+      "weapons": [
+        {
+          "name": "Sky-Pike",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "kMOacEuq"
+      ],
       "tags": [
         "flying",
-        "melee",
+        "mobile",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3
+        "speed": 5,
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -180,17 +321,39 @@
         "Scout",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Rivet Gun",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Chain-Sword",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
         "flying",
         "mobile",
-        "scout",
         "tough",
+        "scout",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
         "subtlety": 3,
         "versatility": 2
       }
@@ -202,21 +365,44 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "fast-attack",
+      "role": "troops",
       "rules": [
         "Flying",
         "Tough(3)",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Twin Sky-Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Sky-Pike",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "balanced",
         "flying",
+        "mobile",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3,
+        "speed": 5,
+        "patience": 1,
+        "elite": 4,
         "versatility": 2
       }
     },
@@ -227,25 +413,47 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Flying",
         "Tough(6)",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Deck Gun",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
         "fast",
         "flying",
+        "mobile",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -256,25 +464,47 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Flying",
         "Tough(9)",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Deck Gun",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
         "fast",
         "flying",
+        "mobile",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -285,25 +515,47 @@
       "size": 1,
       "quality": 4,
       "defense": 2,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Fast",
         "Flying",
         "Tough(12)",
         "Buccaneer"
       ],
+      "weapons": [
+        {
+          "name": "Deck Gun",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "balanced",
         "fast",
         "flying",
+        "mobile",
         "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     }

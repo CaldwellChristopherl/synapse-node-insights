@@ -1,0 +1,2845 @@
+{
+  "factionId": "tOWt5fgqK2nfpoBN",
+  "factionName": "Ratmen",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Battle Master",
+      "forUnits": [
+        "bl380Vc"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "MCMrVMa",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "tGZPInu",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "ZL6_3Nw",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "WyF0vjY",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "tYrIhbQKOm",
+              "label": "Scout Master (Scout, Stealth, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scout Master",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Stealth",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "Ntgqn",
+              "label": "War Beast (Claws (A3), Fast, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Beast",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Tough",
+                    "Claws"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LJE4o",
+              "label": "Rat Ogre (Heavy Claws (A3, AP(1)), Furious, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rat Ogre",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Furious",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "p-bstvd",
+              "label": "War Throne (Crew Attacks (A4, AP(1), Rending), Defense Debuff, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 100
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Throne",
+                  "type": "item",
+                  "content": [
+                    "Crew Attacks",
+                    "Defense Debuff",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qa-nB",
+              "label": "Great Beast (Rending Claws (A6, Rending), Armor(3), Fast, Fear(1), Strider, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 150
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Beast",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Armor",
+                    "Fast",
+                    "Fear",
+                    "Strider",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Champion",
+      "forUnits": [
+        "IDU9HOb"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "OQxeA5P",
+              "label": "Spear (A3, Counter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "HUEMuZt",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "1w7VHrs",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "cFWnmdI",
+              "label": "Censer Flail (A3, AP(1), Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Censer Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "kfvVmLL",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rkG9Bqvxeo",
+              "label": "Toxin Pistol (9\", A2, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxin Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "koS7BpgKqf",
+              "label": "Overtuned Carbine (18\", A1, Hazardous)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overtuned Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Hazardous"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "9apVl",
+              "label": "Overtuned Pistol (12\", A2, Hazardous)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overtuned Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Hazardous"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "OLreNYDRoL",
+              "label": "Toxin Carbine (18\", A2, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxin Carbine",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "c1fwY",
+              "label": "Overtuned Rocket Launcher (18\", A1, Blast(3), Indirect, Hazardous)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overtuned Rocket Launcher",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect",
+                    "Hazardous"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "lcXikKuf8S",
+              "label": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniper Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "yMoR-V7ooU",
+              "label": "Overtuned Sniper Rifle (24\", A1, Reliable, Hazardous, Takedown)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overtuned Sniper Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Hazardous",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Command Group",
+      "forUnits": [
+        "BUbrjeh",
+        "b29Jcwm",
+        "m4jaxg1"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zoMovLL",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 5
+                },
+                {
+                  "unitId": "b29Jcwm",
+                  "cost": 5
+                },
+                {
+                  "unitId": "m4jaxg1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "R4iUCuT",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 5
+                },
+                {
+                  "unitId": "b29Jcwm",
+                  "cost": 5
+                },
+                {
+                  "unitId": "m4jaxg1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZhMfGgt",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 10
+                },
+                {
+                  "unitId": "b29Jcwm",
+                  "cost": 10
+                },
+                {
+                  "unitId": "m4jaxg1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Warriors",
+      "forUnits": [
+        "BUbrjeh"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1QYYsYq",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "DcELWLY",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "qflnR",
+              "label": "Weapon Team (Crew (A1), Heavy Drill (A1, AP(4), Deadly(3)), Tough(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weapon Team",
+                  "type": "item",
+                  "content": [
+                    "Heavy Drill",
+                    "Crew",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jKnsu",
+              "label": "Weapon Team (Flamethrower (12\", A1, Blast(3), Reliable), Crew (A1), Tough(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weapon Team",
+                  "type": "item",
+                  "content": [
+                    "Flamethrower",
+                    "Crew",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "kCh-m",
+              "label": "Weapon Team (Gatling Gun (18\", A4, AP(1)), Crew (A1), Tough(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weapon Team",
+                  "type": "item",
+                  "content": [
+                    "Gatling Gun",
+                    "Crew",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "UUosb",
+              "label": "Weapon Team (Crew (A1), Death Roller (A3, AP(2), Thrust), Tough(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weapon Team",
+                  "type": "item",
+                  "content": [
+                    "Death Roller",
+                    "Crew",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3D5HyhwS86",
+              "label": "Weapon Team (Overtuned Gatling Gun (18\", A4, Hazardous), Crew (A1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weapon Team",
+                  "type": "item",
+                  "content": [
+                    "Overtuned Gatling Gun",
+                    "Crew",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qZhjk",
+              "label": "Weapon Team (Toxin Mortar (24\", A1, Blast(3), Indirect, Bane), Crew (A1), Tough(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "BUbrjeh",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weapon Team",
+                  "type": "item",
+                  "content": [
+                    "Toxin Mortar",
+                    "Crew",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Weapon Teams",
+      "forUnits": [
+        "wXtqtYK"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Drill",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "I-bS0",
+              "label": "Flamethrower (12\", A1, Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wXtqtYK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamethrower",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "VurkaS1",
+              "label": "Gatling Gun (18\", A4, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wXtqtYK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gatling Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "1kNCVsE",
+              "label": "Death Roller (A3, AP(2), Thrust)",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "wXtqtYK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Roller",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "fpKwnytsFB",
+              "label": "Overtuned Gatling Gun (18\", A4, Hazardous)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wXtqtYK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overtuned Gatling Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "Hazardous"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "5YDtlX5",
+              "label": "Toxin Mortar (24\", A1, Blast(3), Indirect, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wXtqtYK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxin Mortar",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Bane",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "KYZ4pSrM",
+              "label": "Spotter Rat (Defense Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "wXtqtYK",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotter Rat",
+                  "type": "item",
+                  "content": [
+                    "Defense Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Storm Veterans",
+      "forUnits": [
+        "m4jaxg1"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Halberds",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "GdOWO",
+              "label": "Heavy Great Weapon (A1, AP(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "m4jaxg1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Night Scouts",
+      "forUnits": [
+        "6vA1AhE"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "d-iyp-a",
+              "label": "Bow (24\", A1), Hand Weapon (A1)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "6vA1AhE",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                },
+                {
+                  "name": "Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Vb_oi8D",
+              "label": "Throwing Knives (6\", A1, Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6vA1AhE",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Knives",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "JPr85-ze21",
+              "label": "Smoke Bombs (Evasive Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6vA1AhE",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smoke Bombs",
+                  "type": "item",
+                  "content": [
+                    "Evasive Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Monks",
+      "forUnits": [
+        "b29Jcwm"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Censer Flails",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1E3EV",
+              "label": "Dual Hand Weapons (A2)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "b29Jcwm",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Rat Master",
+      "forUnits": [
+        "r2YUptC",
+        "etbxZuh",
+        "UmMDMd0"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "la3z8EBaRF",
+              "label": "Vanguard Rat Master (Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r2YUptC",
+                  "cost": 10
+                },
+                {
+                  "unitId": "etbxZuh",
+                  "cost": 10
+                },
+                {
+                  "unitId": "UmMDMd0",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vanguard Rat Master",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "OOsd9yj",
+              "label": "Combat Rat Master (Unpredictable Fighter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "r2YUptC",
+                  "cost": 15
+                },
+                {
+                  "unitId": "etbxZuh",
+                  "cost": 10
+                },
+                {
+                  "unitId": "UmMDMd0",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Rat Master",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Storm Ogres",
+      "forUnits": [
+        "h2V8ceV"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Flame-Fist and Bash",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ioN6SAX",
+              "label": "Drill-Fists (A1, AP(4), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "h2V8ceV",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drill-Fists",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "543qkT8",
+              "label": "Shock-Fists (A4, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "h2V8ceV",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shock-Fists",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "SnMy4fL",
+              "label": "Gatling-Fist (18\", A4, AP(1)), Bash (A1)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "h2V8ceV",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gatling-Fist",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "8XejFYcNQN",
+              "label": "Overtuned Gatling-Fists (18\", A4, Hazardous), Bash (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "h2V8ceV",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overtuned Gatling-Fists",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "Hazardous"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "B41--TS",
+              "label": "Mortar-Fist (24\", A1, Blast(3), Indirect, Bane), Bash (A1)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "h2V8ceV",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mortar-Fist",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect",
+                    "Bane"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect",
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "Ipq1M",
+              "label": "Roller-Fists (A4, AP(2), Thrust)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "h2V8ceV",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Roller-Fists",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Thrust",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Blessed Platform",
+      "forUnits": [
+        "bIbOg6H"
+      ],
+      "sections": [
+        {
+          "label": "Replace Giant Censer and Crew Attack",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "kERQhXi",
+              "label": "Great Bell (18\", A2, Blast(3), Unstoppable), Crew Attacks (A2)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "bIbOg6H",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Bell",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Unstoppable"
+                  ]
+                },
+                {
+                  "name": "Crew Attacks",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "2Ab8qT8",
+              "label": "Crew Attacks (A6), Holy Statue (Precision Fighter Buff)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "bIbOg6H",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crew Attacks",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": []
+                },
+                {
+                  "name": "Holy Statue",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighter Buff"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "N79HPGq",
+              "label": "Crew Attacks (A2), Rat Ogre Champion (A6, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bIbOg6H",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rat Ogre Champion",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Crew Attacks",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "cU4fPXh",
+              "label": "Preacher (Resistance)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "bIbOg6H",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Preacher",
+                  "type": "item",
+                  "content": [
+                    "Resistance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N1",
+      "hint": "Great Death Roller",
+      "forUnits": [
+        "nlL4SRE"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Gatling Guns and Heavy Wheels",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "H2NPD8I2DK",
+              "label": "Twin Overtuned Gatling Guns (18\", A6, Hazardous), Heavy Wheels (Impact(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "nlL4SRE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Overtuned Gatling Guns",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Hazardous"
+                  ]
+                },
+                {
+                  "name": "Heavy Wheels",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Im0UrA1zPH",
+              "label": "Twin Flamethrower (12\", A2, Blast(3), Reliable), Heavy Wheels (Impact(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "nlL4SRE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Flamethrower",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                },
+                {
+                  "name": "Heavy Wheels",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "AcIzp",
+              "label": "Bladed Wheels (Heavy Impact(8))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "nlL4SRE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bladed Wheels",
+                  "type": "item",
+                  "content": [
+                    "Heavy Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "oFtD5yoJ",
+              "label": "Spotter Rat (Defense Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "nlL4SRE",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotter Rat",
+                  "type": "item",
+                  "content": [
+                    "Defense Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "O1",
+      "hint": "Ratmen Artillery",
+      "forUnits": [
+        "vbIWL9u"
+      ],
+      "sections": [
+        {
+          "label": "Replace Overtuned Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "sMhg52uJSN",
+              "label": "Heavy Gatling Gun (18\", A6, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vbIWL9u",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Gatling Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "lWD6J4NsqN",
+              "label": "Heavy Overtuned Gatling Gun (18\", A6, Hazardous)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vbIWL9u",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Overtuned Gatling Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Hazardous"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "VvCIF",
+              "label": "Heavy Cannon (30\", A2, AP(2), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vbIWL9u",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Edrjs",
+              "label": "Toxin Catapult (30\", A2, Blast(3), Indirect, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vbIWL9u",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxin Catapult",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Bane",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "mABz62QD",
+              "label": "Spotter Rat (Defense Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vbIWL9u",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotter Rat",
+                  "type": "item",
+                  "content": [
+                    "Defense Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "floxm",
+      "hint": "Giant Beast",
+      "forUnits": [
+        "wr_bjiS"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "eTH7eSb",
+              "label": "Captain Rider (Unpredictable Fighter)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "wr_bjiS",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Rider",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "fq_Pb",
+      "hint": "Grenadiers",
+      "forUnits": [
+        "ePqfxCc"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Toxin Bombs",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "JNQsN",
+              "label": "Fire Bombs (12\", A2, AP(1), Indirect)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ePqfxCc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fire Bombs",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "jo089cCGvP",
+              "label": "Overtuned Bombs (12\", A2, Indirect, Hazardous)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ePqfxCc",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overtuned Bombs",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Hazardous",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "XSDdT",
+      "hint": "Rat Ogres",
+      "forUnits": [
+        "UmMDMd0"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Rending Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "XediB",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "UmMDMd0",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "YEtop",
+              "label": "Flamer-Mod (12\", A1, Blast(3), Limited, Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UmMDMd0",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer-Mod",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "BRzzH",
+      "hint": "Giant Blessed Beast",
+      "forUnits": [
+        "lNrKPTx"
+      ],
+      "sections": [
+        {
+          "label": "Replace Giant Otter",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "yDC7B",
+              "label": "Giant Rat Ogre (Twin Fist-Flamers (12\", A2, Blast(6), Reliable), Furious)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lNrKPTx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Rat Ogre",
+                  "type": "item",
+                  "content": [
+                    "Twin Fist-Flamers",
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "9syfd4vh",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "IDU9HOb"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Q5pmR4K5tI",
+              "label": "God-Mother's Envoy (Scurry Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "God-Mother's Envoy",
+                  "type": "item",
+                  "content": [
+                    "Scurry Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "o2pCys5NB9",
+              "label": "Drill Engineer (Ambush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drill Engineer",
+                  "type": "item",
+                  "content": [
+                    "Ambush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "QPLNNnuD",
+              "label": "Warlock (Stealth Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warlock",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "UmkYrL4otl",
+              "label": "Priest (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Priest",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4bXY-5MU",
+              "label": "Engineer (Bane when Shooting Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Engineer",
+                  "type": "item",
+                  "content": [
+                    "Bane when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CBBYC-YpCa",
+              "label": "Master Priest (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Priest",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gXK-r3-Tei",
+              "label": "Pet Giant Rat (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IDU9HOb",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pet Giant Rat",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "UYOZiBdI",
+      "hint": "Horde of Rats",
+      "forUnits": [
+        "L63ELXt",
+        "r2YUptC",
+        "etbxZuh"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FCzbWY25io",
+              "label": "Horde of Rats (Reinforcement)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "L63ELXt",
+                  "cost": 25
+                },
+                {
+                  "unitId": "r2YUptC",
+                  "cost": 35
+                },
+                {
+                  "unitId": "etbxZuh",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Horde of Rats",
+                  "type": "item",
+                  "content": [
+                    "Reinforcement"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "A5UY4UYn",
+      "hint": "Snipers",
+      "forUnits": [
+        "bC8eBcR"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Overtuned Sniper Rifles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "X1KylCe0oA",
+              "label": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bC8eBcR",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniper Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rieIEEKndt",
+              "label": "Pavise Shield (Shielded, Slow)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bC8eBcR",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pavise Shield",
+                  "type": "item",
+                  "content": [
+                    "Shielded",
+                    "Slow"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_K1A6mso",
+              "label": "Spotter Rat (Defense Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bC8eBcR",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotter Rat",
+                  "type": "item",
+                  "content": [
+                    "Defense Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "VXhpCgFX",
+      "hint": "Specialists - Master",
+      "forUnits": [
+        "bl380Vc"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "0qZGXPnwZ3",
+              "label": "Master Assassin (Takedown Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Assassin",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "og8hg_9Q",
+              "label": "Captain (Precision Fighter Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "vqi0TCTZ",
+              "label": "Drill Engineer (Ambush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Drill Engineer",
+                  "type": "item",
+                  "content": [
+                    "Ambush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jao-Vw9j",
+              "label": "Warlock (Stealth Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warlock",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "coGOn5ox",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fNwHbYSW",
+              "label": "Pet Giant Rat (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bl380Vc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pet Giant Rat",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

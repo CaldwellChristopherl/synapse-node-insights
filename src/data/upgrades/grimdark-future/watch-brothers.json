@@ -1,0 +1,4810 @@
+{
+  "factionId": "rvvb3kdn2x2pqkki",
+  "factionName": "Watch Brothers",
+  "packages": [
+    {
+      "uid": "dP0Zq",
+      "hint": "Watch Brothers",
+      "forUnits": [
+        "Hdob1gk"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Pistol and Heavy CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "OMeKQ",
+              "label": "Heavy Rifle (24\", A1, AP(1)), Heavy CCW (A1, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Heavy CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "5RLLG",
+              "label": "Heavy Energy Hammer (A1, AP(2), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Energy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "72aGp",
+              "label": "Dual Energy Claws (A4, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Energy Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any Heavy Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xtOsH",
+              "label": "Shotgun (12\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shotgun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "ROieU",
+              "label": "Flamer (12\", A1, Blast(3), Reliable)",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "I15R1",
+              "label": "Stalker Rifle (24\", A1, AP(1), Reliable, Takedown)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stalker Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "jNV4_",
+              "label": "Heavy Flamer (12\", A1, AP(1), Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "56Btw",
+              "label": "Plasma Rifle (24\", A1, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "maIHu",
+              "label": "Gravity Rifle (18\", A2, Smash)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gravity Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "4bzvCoe",
+              "label": "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Rifle",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "uSKpDyx",
+              "label": "Frag-Blaster (12\", A4, AP(1), Rending)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Frag-Blaster",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "51Ge_",
+              "label": "Storm Rifle (24\", A3, AP(1))",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "ZdClP",
+              "label": "Heavy Machinegun (30\", A3, AP(1))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Machinegun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "fyhwH",
+              "label": "Missile Launcher (30\", A1, AP(2), Deadly(3), Unstoppable)",
+              "cost": 85,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Missile Launcher",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "2hG1Lxp",
+              "label": "Gravity Cannon (24\", A4, Smash)",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gravity Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Any model may take one Heavy Rifle attachment",
+          "variant": "attachment",
+          "options": [
+            {
+              "uid": "70LOe",
+              "label": "Flamer-Mod (12\", A1, Blast(3), Limited, Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer-Mod",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "LkLLr",
+              "label": "Plasma-Mod (24\", A1, AP(4), Limited)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma-Mod",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "NFJgH",
+              "label": "Gravity-Mod (18\", A2, Limited, Smash)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gravity-Mod",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Limited",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "OkKrn9y",
+              "label": "Fusion-Mod (12\", A1, AP(4), Deadly(3), Limited)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion-Mod",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Any model may take one Heavy Machinegun attachment",
+          "variant": "attachment",
+          "options": [
+            {
+              "uid": "aPM4c",
+              "label": "Flamer-Mod (12\", A1, Blast(3), Limited, Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer-Mod",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any Heavy Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xX6Bn",
+              "label": "Flamer Pistol (6\", A1, Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "cpGgz",
+              "label": "Plasma Pistol (12\", A1, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "AeIaR",
+              "label": "Gravity Pistol (9\", A2, Smash)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gravity Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "l49A1GP",
+              "label": "Fusion Pistol (6\", A1, AP(4), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any Heavy CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "alKpw",
+              "label": "Energy Hammer (A1, Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "vIPpW",
+              "label": "Energy Sword (A2, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "52nLx",
+              "label": "Chain-Fist (A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chain-Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "8cebs",
+              "label": "Energy Fist (A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "kpKkY",
+              "label": "Combat Shield (Shielded)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Shield",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "MWMyH",
+      "hint": "Vanguard",
+      "forUnits": [
+        "owizlbE"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Pistol and Heavy CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "2-hrY",
+              "label": "Heavy Energy Hammer (A1, AP(2), Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Energy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "WsWA0",
+              "label": "Dual Energy Claws (A4, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Energy Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any Heavy Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "RpxAZ",
+              "label": "Flamer Pistol (6\", A1, Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "PtHFU",
+              "label": "Plasma Pistol (12\", A1, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "pNONa",
+              "label": "Gravity Pistol (9\", A2, Smash)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gravity Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "A-wwe8I",
+              "label": "Fusion Pistol (6\", A1, AP(4), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any Heavy CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5cNhd",
+              "label": "Energy Hammer (A1, Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "gmEff",
+              "label": "Energy Sword (A2, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "UEG9N",
+              "label": "Chain-Fist (A1, AP(2), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chain-Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Z_YTy",
+              "label": "Energy Fist (A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vs_v5",
+              "label": "Combat Shields (Shielded)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "owizlbE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Shields",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "9v6ox",
+      "hint": "Deathstar Gunship",
+      "forUnits": [
+        "xKMz4eN"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Minigun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6pc_p",
+              "label": "Twin Laser Cannon (36\", A2, AP(3), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "xKMz4eN",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Storm Missiles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "pwUw0",
+              "label": "Death Rockets (30\", A3, AP(2), Unstoppable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "xKMz4eN",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Rockets",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "-STmi",
+              "label": "Cluster Bombs (A2, Blast(3), Strafing)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "xKMz4eN",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cluster Bombs",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Strafing"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "E3MOp",
+              "label": "Heavy Rifle Array (24\", A6, AP(1))",
+              "cost": 100,
+              "costs": [
+                {
+                  "unitId": "xKMz4eN",
+                  "cost": 145
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Rifle Array",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Destroyers",
+      "forUnits": [
+        "VqoCVPT2e"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Combat Shields and CCWS",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "e7Md_H4",
+              "label": "Dual Energy Claws (A4, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Energy Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "KX3tk",
+              "label": "Storm Rifle (24\", A3, AP(1)), CCW (A1)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 130
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Storm Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "vbJAkt3",
+              "label": "Twin Heavy Flamer (12\", A2, AP(1), Blast(3), Reliable)",
+              "cost": -15,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "k_5UC9Q",
+              "label": "Minigun (24\", A4, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Minigun",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "60Bjt",
+              "label": "Cyclone Missiles (24\", A1, AP(2), Deadly(3), Unstoppable), Storm Rifle (24\", A3, AP(1))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Cyclone Missiles",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "qeqOO",
+              "label": "Energy Hammer (A1, Blast(3))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": -5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "732XFdh",
+              "label": "Chain-Fist (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chain-Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "QwMKwzA",
+              "label": "Energy Sword (A3, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "DeBa4HM",
+              "label": "Energy Fist (A3, AP(4))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Brother Bikers",
+      "forUnits": [
+        "CM--w4iPg"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Pistols and CCWs",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "mbrze",
+              "label": "Heavy Rifle (24\", A1, AP(1)), CCW (A1)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Heavy Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "apMzuRh",
+              "label": "Gravity Rifle (18\", A1, AP(1), Smash)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gravity Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Smash",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "SsZ1hN0",
+              "label": "Flamer (12\", A1, Blast(3), Reliable)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "s0dFhPv",
+              "label": "Plasma Rifle (24\", A1, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "zq5eKuI",
+              "label": "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Rifle",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Heavy Pistol and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "H6pp5qz2",
+              "label": "Sgt. Heavy Pistol (12\", A1, AP(1)), Energy Sword (A2, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sgt. Heavy Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Sgt. Heavy Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "aQi8zX5w",
+              "label": "Gravity Pistol (9\", A1, AP(1), Smash)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gravity Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 1,
+                  "special": [
+                    "Smash",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "0yYAgGxV",
+              "label": "Plasma Pistol (12\", A1, AP(4))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Energy Sword",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fo82REdd",
+              "label": "Energy Fist (A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "A2",
+      "hint": "Vehicle Upgrades",
+      "forUnits": [
+        "B-kDAyTMm",
+        "9UjB4_FkG"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "uCXlbuk",
+              "label": "Storm Rifle (24\", A3, AP(1))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "B-kDAyTMm",
+                  "cost": 70
+                },
+                {
+                  "unitId": "9UjB4_FkG",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "XVkLl",
+              "label": "Heavy Fusion Rifle (18\", A1, AP(4), Deadly(3))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "B-kDAyTMm",
+                  "cost": 70
+                },
+                {
+                  "unitId": "9UjB4_FkG",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Fusion Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "b37TG",
+              "label": "Dozer Blade (Strider)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "B-kDAyTMm",
+                  "cost": 5
+                },
+                {
+                  "unitId": "9UjB4_FkG",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dozer Blade",
+                  "type": "item",
+                  "content": [
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "OM1px",
+              "label": "Hunter Missiles (24\", A1, AP(2), Deadly(3), Limited, Unstoppable)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "B-kDAyTMm",
+                  "cost": 25
+                },
+                {
+                  "unitId": "9UjB4_FkG",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunter Missiles",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B2",
+      "hint": "Attack APC",
+      "forUnits": [
+        "I8snC4JV9"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Heavy Flamer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ywfq9CK",
+              "label": "Twin Heavy Machinegun (30\", A6, AP(1))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "I8snC4JV9",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Machinegun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "mM-q08o",
+              "label": "Laser Cannon (36\", A1, AP(3), Deadly(3)), Twin Plasma Rifle (24\", A2, AP(4))",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "I8snC4JV9",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Plasma Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "long-range",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "O2e-dl7",
+              "label": "Twin Minigun (24\", A8, AP(1))",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "I8snC4JV9",
+                  "cost": 100
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Minigun",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "0ALGIK3",
+              "label": "Twin Laser Cannon (36\", A2, AP(3), Deadly(3))",
+              "cost": 85,
+              "costs": [
+                {
+                  "unitId": "I8snC4JV9",
+                  "cost": 125
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "m7V-N",
+              "label": "Dozer Blade (Strider)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "I8snC4JV9",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dozer Blade",
+                  "type": "item",
+                  "content": [
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C2",
+      "hint": "Drop Pod",
+      "forUnits": [
+        "zxAxrs2mU"
+      ],
+      "sections": [
+        {
+          "label": "Replace Death Launcher",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nw6Xg",
+              "label": "Rapid Storm Rifle (24\", A6, AP(1))",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "zxAxrs2mU",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Storm Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "dcJ3TIZQ",
+              "label": "Targeting Array (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "zxAxrs2mU",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Targeting Array",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E2",
+      "hint": "Heavy Tank",
+      "forUnits": [
+        "9UjB4_FkG"
+      ],
+      "sections": [
+        {
+          "label": "Replace Twin Heavy Rifle Array",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6Nmdt",
+              "label": "Quad Flamer Cannon (18\", A4, AP(1), Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "9UjB4_FkG",
+                  "cost": -35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Quad Flamer Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "oWwex19",
+              "label": "Quad Laser Cannon (36\", A4, AP(3), Deadly(3))",
+              "cost": 110,
+              "costs": [
+                {
+                  "unitId": "9UjB4_FkG",
+                  "cost": 140
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Quad Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Twin Heavy Machinegun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "LzGKPod",
+              "label": "Twin Minigun (24\", A8, AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "9UjB4_FkG",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Minigun",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I2",
+      "hint": "Combat Walker",
+      "forUnits": [
+        "nsUTIvemD"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Walker Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "OAsGaS8",
+              "label": "Twin Heavy Flamer (12\", A2, AP(1), Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "pUeZ4lD",
+              "label": "Super-Heavy Fusion Rifle (18\", A1, AP(4), Deadly(6))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Super-Heavy Fusion Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "fC81SaK",
+              "label": "Heavy Rifle Array (24\", A6, AP(1))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Rifle Array",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "6c4JW",
+              "label": "Twin Heavy Machinegun (30\", A6, AP(1))",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Heavy Machinegun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "wzlxX0p",
+              "label": "Heavy Plasma Cannon (30\", A1, AP(4), Blast(6))",
+              "cost": 75,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Plasma Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "gj0Bupn",
+              "label": "Heavy Minigun (24\", A6, AP(2))",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 100
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Minigun",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "v5IssdJ",
+              "label": "Twin Laser Cannon (36\", A2, AP(3), Deadly(3))",
+              "cost": 90,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 135
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Walker Fist",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "JMJmTZc",
+              "label": "Missile Array (30\", A4, AP(2), Unstoppable)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Missile Array",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "_t9Qffn",
+              "label": "Twin Autocannon (36\", A6, AP(2))",
+              "cost": 95,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 140
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Autocannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade any Walker Fist with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "USt3p4O",
+              "label": "Heavy Flamer (12\", A1, AP(1), Blast(3), Reliable)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "K6JV_Pm",
+              "label": "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Rifle",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "PBvkMde",
+              "label": "Storm Rifle (24\", A3, AP(1))",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "nsUTIvemD",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Storm Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "hE8ye",
+      "hint": "Watch Captain Brother",
+      "forUnits": [
+        "XmCx2rl"
+      ],
+      "sections": [
+        {
+          "label": "Replace Flamer Pistol and Heavy CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "KA6o-",
+              "label": "Heavy Energy Hammer (A1, AP(2), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Energy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "jPQxc",
+              "label": "Flamer (12\", A1, Blast(3), Reliable), CCW (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "kBd1d",
+              "label": "Dual Energy Claws (A4, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Energy Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "58qM0",
+              "label": "Spear-Rifle (24\", A1, AP(1)), Energy Spear (A1, AP(2), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Spear-Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "elite": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Flamer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "dKpFf",
+              "label": "Master Shotgun (12\", A3, AP(1))",
+              "cost": -10,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Shotgun",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "z2Rak",
+              "label": "Heavy Rifle (24\", A1, AP(1)), Flamer-Mod (12\", A1, Blast(3), Limited, Reliable)",
+              "cost": -15,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Flamer-Mod",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Reliable",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "rmi6T",
+              "label": "Master Heavy Rifle (24\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Heavy Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "wZegR",
+              "label": "Fusion Rifle (12\", A1, AP(4), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Rifle",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "xyowo",
+              "label": "Master Gravity Rifle (18\", A3, Smash)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Gravity Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "YKDnf",
+              "label": "Master Stalker Rifle (24\", A2, AP(1), Reliable, Takedown)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Stalker Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Reliable",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "6eBcf",
+              "label": "Master Plasma Rifle (24\", A2, AP(4))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Plasma Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "bPBLs",
+              "label": "Master Storm Rifle (24\", A4, AP(1))",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Storm Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Flamer-Mod",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ELCEv",
+              "label": "Gravity-Mod (18\", A2, Limited, Smash)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gravity-Mod",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Limited",
+                    "Smash"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "zsxdz",
+              "label": "Plasma-Mod (24\", A1, AP(4), Limited)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma-Mod",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "K-HjL",
+              "label": "Fusion-Mod (12\", A1, AP(4), Deadly(3), Limited)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion-Mod",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Flamer Pistol",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "DcSPN",
+              "label": "Master Gravity Pistol (9\", A1, AP(1), Smash)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Gravity Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 1,
+                  "special": [
+                    "Smash",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "eIt-W",
+              "label": "Master Heavy Pistol (12\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Heavy Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "9UnuU",
+              "label": "Fusion Pistol (6\", A1, AP(4), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Pistol",
+                  "type": "weapon",
+                  "range": 6,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "aJez4",
+              "label": "Master Plasma Pistol (12\", A2, AP(4))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Plasma Pistol",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Heavy CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "zYEyG",
+              "label": "Energy Hammer (A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "lh5HW",
+              "label": "Energy Sword (A2, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "X_Tk9",
+              "label": "Chain-Fist (A1, AP(2), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chain-Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "0f0pn",
+              "label": "Energy Fist (A2, AP(4))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "uiR-U",
+              "label": "Combat Shield (Shielded)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Shield",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gx224",
+              "label": "Jetpack (Ambush, Flying)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jetpack",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "grcKj",
+              "label": "Combat Bike (Twin Heavy Rifle (24\", A2, AP(1)), Fast, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 95
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Combat Bike",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Tough",
+                    "Twin Heavy Rifle"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "PzePx",
+      "hint": "Master Destroyer",
+      "forUnits": [
+        "JVfYuXAMc"
+      ],
+      "sections": [
+        {
+          "label": "Replace Combat Shield and CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "D8t0PJs",
+              "label": "Dual Energy Claws (A8, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Energy Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "PrzNAwR",
+              "label": "Rapid Storm Rifle (24\", A6, AP(1)), CCW (A4)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 120
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Storm Rifle",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "CCW",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace CCW",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "qF-t4",
+              "label": "Energy Hammer (A2, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "90LRn",
+              "label": "Energy Sword (A4, AP(1), Rending)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "gmZ7t",
+              "label": "Chain-Fist (A2, AP(2), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chain-Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "tXFvr",
+              "label": "Energy Fist (A4, AP(4))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lBsat",
+      "hint": "Squad Upgrades",
+      "forUnits": [
+        "Hdob1gk",
+        "owizlbE",
+        "VqoCVPT2e"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "SHtGWKf6_g",
+              "label": "Detachment Banner (Courage Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 5
+                },
+                {
+                  "unitId": "owizlbE",
+                  "cost": 5
+                },
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Detachment Banner",
+                  "type": "item",
+                  "content": [
+                    "Courage Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "bgv7l",
+              "label": "The Founder's Banner (Versatile Reach Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 15
+                },
+                {
+                  "unitId": "owizlbE",
+                  "cost": 15
+                },
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "The Founder's Banner",
+                  "type": "item",
+                  "content": [
+                    "Versatile Reach Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "aaeYD",
+              "label": "Medical Training (Regeneration Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Hdob1gk",
+                  "cost": 30
+                },
+                {
+                  "unitId": "owizlbE",
+                  "cost": 30
+                },
+                {
+                  "unitId": "VqoCVPT2e",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Medical Training",
+                  "type": "item",
+                  "content": [
+                    "Regeneration Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "r1P1w",
+      "hint": "APC",
+      "forUnits": [
+        "B-kDAyTMm"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ePAAP",
+              "label": "Targeting Array (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "B-kDAyTMm",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Targeting Array",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "rDXPYf9Y",
+      "hint": "Targeting Array (One Model)",
+      "forUnits": [
+        "I8snC4JV9",
+        "zxAxrs2mU"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "uSBxCXb0s0",
+              "label": "Targeting Array (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "I8snC4JV9",
+                  "cost": 35
+                },
+                {
+                  "unitId": "zxAxrs2mU",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Targeting Array",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "aoRc6cK5",
+      "hint": "Targeting Array",
+      "forUnits": [
+        "CM--w4iPg"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "lUE_ToQO",
+              "label": "Targeting Array (Unstoppable Shooting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "CM--w4iPg",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Targeting Array",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable Shooting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "gIdERs5O",
+      "hint": "Specialists - Destroyer",
+      "forUnits": [
+        "JVfYuXAMc"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "5HpHlih2",
+              "label": "Guardian (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Guardian",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "z9eh_DiRrP",
+              "label": "Watch Munitioner (Shred when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Watch Munitioner",
+                  "type": "item",
+                  "content": [
+                    "Shred when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "rNnBn077",
+              "label": "Preacher (Bane in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Preacher",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "piynK1b3",
+              "label": "Archivist (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Archivist",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "7tAvKHMu",
+              "label": "Captain (Bane when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Bane when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "-PTZ7awpKY",
+              "label": "Lieutenant (Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lieutenant",
+                  "type": "item",
+                  "content": [
+                    "Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "be5c8HnP",
+              "label": "Master Archivist (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "JVfYuXAMc",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Archivist",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F2",
+      "hint": "Artillery Gun",
+      "forUnits": [
+        "UUPlfP4i_"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Gatling Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "iQjjP",
+              "label": "Heavy Flak Cannon (30\", A2, AP(3), Deadly(3), Unstoppable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "UUPlfP4i_",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flak Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Pv4-N",
+              "label": "Heavy Thunder Cannon (30\", A2, AP(2), Blast(3), Indirect)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "UUPlfP4i_",
+                  "cost": 150
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Thunder Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "-b1IRhQ",
+              "label": "Heavy Crack Cannon (30\", A6, AP(1), Indirect, Rending)",
+              "cost": -35,
+              "costs": [
+                {
+                  "unitId": "UUPlfP4i_",
+                  "cost": 160
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Crack Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-armor",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "S6v3T1nb",
+      "hint": "Specialists - Captain",
+      "forUnits": [
+        "XmCx2rl"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "nUsckhHmJt",
+              "label": "Commander (Rapid Rush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Commander",
+                  "type": "item",
+                  "content": [
+                    "Rapid Rush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qt6M5ssF7w",
+              "label": "Artillerist (Re-Position Artillery)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Artillerist",
+                  "type": "item",
+                  "content": [
+                    "Re-Position Artillery"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "tP2prbNyiV",
+              "label": "Watch Munitioner (Shred when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Watch Munitioner",
+                  "type": "item",
+                  "content": [
+                    "Shred when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4V8eWeopt2",
+              "label": "Preacher (Bane in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Preacher",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "9P-DP6PUtd",
+              "label": "Archivist (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Archivist",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "2SGwZm1JTl",
+              "label": "Engineer (Mend)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Engineer",
+                  "type": "item",
+                  "content": [
+                    "Mend"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "q_m5T8l62X",
+              "label": "Captain (Bane when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Bane when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8J3PZXCbf_",
+              "label": "Lieutenant (Re-Deployment)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lieutenant",
+                  "type": "item",
+                  "content": [
+                    "Re-Deployment"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5bZZDBLHGz",
+              "label": "Master Archivist (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "XmCx2rl",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Archivist",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

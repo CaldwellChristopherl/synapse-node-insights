@@ -3,8 +3,13 @@
   "factionName": "Wormhole Daemons of Change",
   "gameSystem": "grimdark-future",
   "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.667Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.614Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 46
+  },
   "units": [
     {
       "id": "MTxM2hhth",
@@ -22,30 +27,51 @@
         "Tough(18)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Exalted Power Hammer",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Blast(3)",
+            "Shred"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "pnJhInan"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
         "fearless",
         "flying",
+        "mobile",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "faith": 2,
-        "speed": 3,
-        "leadership": 3,
-        "order": -3,
-        "tech": -3
+        "faith": 5,
+        "speed": 5,
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "humanity": -5,
+        "tech": -1
       }
     },
     {
@@ -63,28 +89,50 @@
         "Tough(12)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Great Power Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Shred"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "cIuSSrzh"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
         "flying",
+        "mobile",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "speed": 3,
-        "leadership": 3,
-        "order": -3,
-        "tech": -3
+        "speed": 5,
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -101,24 +149,46 @@
         "Tough(6)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Power Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Shred"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "W8zTJ6PC"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
+        "daemon",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -134,23 +204,45 @@
         "Tough(3)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Power Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Shred"
+          ]
+        },
+        {
+          "name": "Staff",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C3UuL",
+        "OEIyhwnI"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
+        "corrupted",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -168,28 +260,50 @@
         "Scout",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Power Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Shred"
+          ]
+        },
+        {
+          "name": "Staff",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Fvv3j",
+        "cyNMLovf"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "hero",
-        "human",
-        "leader",
-        "melee",
         "mobile",
+        "hero",
+        "leader",
+        "tough",
         "scout",
-        "tough"
+        "corrupted",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -206,25 +320,44 @@
         "Tough(3)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Power Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Shred"
+          ]
+        },
+        {
+          "name": "Staff",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "3y_Pe"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "daemon",
         "hero",
         "leader",
-        "melee",
-        "monster",
         "tough",
+        "corrupted",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
         "purity": -5,
-        "humanity": -4,
         "faith": 3,
-        "leadership": 3,
-        "order": -3
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -240,23 +373,38 @@
         "Scout",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Armblades",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "W1opR"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
-        "melee",
         "mobile",
-        "scout"
+        "scout",
+        "corrupted",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -270,16 +418,35 @@
       "rules": [
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Fireballs",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
         "corrupted",
-        "human"
+        "daemon",
+        "balanced"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
-        "order": -3,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
         "versatility": 2
       }
     },
@@ -295,21 +462,38 @@
         "Split(Lesser Change Horrors [5])",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Fireballs",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "C8rox"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
         "corrupted",
         "daemon",
-        "monster",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "purity": -5,
-        "humanity": -4,
         "faith": 3,
-        "order": -3,
-        "versatility": 2
+        "humanity": -4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -324,21 +508,35 @@
         "Changebound",
         "Split(Changelings [10])"
       ],
+      "weapons": [
+        {
+          "name": "Fireballs",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "chaotic",
         "corrupted",
         "daemon",
-        "expendable",
-        "monster"
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "purity": -5,
-        "humanity": -4,
         "faith": 3,
-        "order": -3,
-        "versatility": 2
+        "humanity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -352,23 +550,39 @@
       "rules": [
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Fireballs",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "chaotic",
-        "cheap",
         "corrupted",
+        "daemon",
+        "balanced",
+        "cheap",
         "expendable",
         "horde",
-        "human",
         "swarm"
       ],
       "dimensionScores": {
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
         "elite": -5,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3,
-        "versatility": 2
+        "collective": 5
       }
     },
     {
@@ -384,24 +598,42 @@
         "Scout",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Magic Blast",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "YXGkS3db"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
         "mobile",
-        "scout"
+        "scout",
+        "corrupted",
+        "daemon",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -415,19 +647,38 @@
       "rules": [
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Magic Blast",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "CqlfGIcz"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
         "corrupted",
-        "human",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -444,25 +695,37 @@
         "Scout",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Mutated Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "5H-fH"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
         "mobile",
-        "scout",
         "tough",
+        "scout",
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
+        "elite": 4,
         "subtlety": 3,
-        "order": -3,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -480,26 +743,36 @@
         "Scout",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Sharp Beak",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
         "mobile",
-        "scout",
         "tough",
+        "scout",
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
+        "elite": 4,
         "subtlety": 3,
-        "order": -3,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -514,22 +787,41 @@
         "Tough(3)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Spout Flames",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "vLio6z1i"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
         "tough",
+        "corrupted",
+        "monster",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "versatility": 2
       }
     },
     {
@@ -539,27 +831,47 @@
       "size": 1,
       "quality": 4,
       "defense": 4,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Tough(6)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Infernal Blaze",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "ccGq9nsV"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
         "tough",
-        "vehicle",
+        "corrupted",
+        "monster",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3,
+        "patience": 1,
+        "elite": 4,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
         "versatility": 2
       }
     },
@@ -570,7 +882,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Fear(1)",
@@ -578,25 +890,47 @@
         "Tough(6)",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Great Scorcher Blaze",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Deadly(3)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Sharp Beak",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "tefTpkNJ"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "chaotic",
-        "corrupted",
         "fast",
-        "human",
         "mobile",
         "tough",
-        "vehicle",
-        "veteran"
+        "corrupted",
+        "cavalry",
+        "daemon",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "order": -3,
+        "patience": 1,
+        "elite": 4,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
         "versatility": 2
       }
     },
@@ -614,25 +948,52 @@
         "Fearless",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Change Cannon",
+          "range": 24,
+          "attacks": 9,
+          "special": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Change Sword",
+          "range": 0,
+          "attacks": 18,
+          "special": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "daemon",
-        "elite",
+        "tough",
         "fearless",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "purity": -5,
+        "patience": 1,
+        "elite": 5,
         "faith": 5,
-        "order": -3,
-        "versatility": 2,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "versatility": 2
       }
     },
     {
@@ -649,23 +1010,43 @@
         "Unique",
         "Changebound"
       ],
+      "weapons": [
+        {
+          "name": "Dimension Slicer",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Slash"
+          ]
+        },
+        {
+          "name": "Needle",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Slash"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "chaotic",
-        "corrupted",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
+        "corrupted",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2
       }
     },
     {
@@ -682,23 +1063,34 @@
         "Tough(3)",
         "Unique"
       ],
+      "weapons": [
+        {
+          "name": "Tainted Hammer",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Blast(3)",
+            "Ignores Regeneration"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "chaotic",
         "corrupted",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3
+        "purity": -5,
+        "leadership": 5,
+        "elite": 5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     }
   ],

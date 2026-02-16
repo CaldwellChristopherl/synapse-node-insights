@@ -2,9 +2,14 @@
   "factionId": "BubhE1kUpgYbqZvW",
   "factionName": "Saurians",
   "gameSystem": "age-of-fantasy",
-  "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.872Z",
+  "factionType": "organic",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.369Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 35
+  },
   "units": [
     {
       "id": "NWwd7ue",
@@ -23,32 +28,50 @@
         "Primal",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Magic Blast",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Heavy Magic Pulse",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "GvaZUqcA"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
-        "elite",
-        "fearless",
-        "hero",
-        "human",
-        "leader",
         "magic",
-        "mobile",
-        "monster",
         "psychic",
-        "tough"
+        "hero",
+        "leader",
+        "mobile",
+        "tough",
+        "fearless",
+        "monster",
+        "organic",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
         "mystery": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": 3,
+        "patience": 1,
         "faith": 2,
-        "versatility": 2,
-        "tech": -3
+        "humanity": -3,
+        "tech": -2,
+        "versatility": 2
       }
     },
     {
@@ -66,24 +89,35 @@
         "Tough(6)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Obsidian Great Weapon",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Disintegrate"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "KD0vGDjM",
+        "gYUA2Ao_"
+      ],
       "tags": [
-        "corrupted",
         "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "organic",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
         "faith": 2,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -3
       }
     },
     {
@@ -100,24 +134,35 @@
         "Tough(3)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "nUsyaMjj"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
         "fearless",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "organic",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
         "faith": 2,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -3
       }
     },
     {
@@ -134,23 +179,34 @@
         "Strider",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "bYFx1NhH"
+      ],
       "tags": [
-        "corrupted",
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
         "mobile",
-        "tough"
+        "organic",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": -1,
+        "speed": 3,
+        "tech": -3
       }
     },
     {
@@ -165,21 +221,33 @@
         "Primal",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "G1",
+        "Wo23Mo3E"
+      ],
       "tags": [
-        "cheap",
-        "corrupted",
         "fearless",
-        "horde",
-        "human",
+        "organic",
         "melee",
+        "cheap",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
+        "faith": 2,
+        "tech": -3,
+        "patience": -1,
         "elite": -2,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
-        "faith": 2
+        "collective": 5
       }
     },
     {
@@ -194,19 +262,33 @@
         "Strider",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1",
+        "Wo23Mo3E"
+      ],
       "tags": [
-        "cheap",
-        "corrupted",
-        "expendable",
-        "human",
+        "mobile",
+        "organic",
         "melee",
-        "mobile"
+        "cheap",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3
+        "speed": 3,
+        "tech": -3,
+        "patience": -1,
+        "elite": -5
       }
     },
     {
@@ -221,16 +303,31 @@
         "Fearless",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Obsidian Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Disintegrate"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "H1",
+        "Wo23Mo3E"
+      ],
       "tags": [
-        "corrupted",
         "fearless",
-        "human",
-        "melee"
+        "organic",
+        "melee",
+        "armored"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
-        "faith": 2
+        "faith": 2,
+        "tech": -3,
+        "patience": -1
       }
     },
     {
@@ -248,21 +345,38 @@
         "Primal",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Fire Bolas",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "CkvFtad3"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "expendable",
-        "human",
+        "ranged",
+        "scout",
         "mobile",
-        "scout"
+        "organic",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
+        "patience": 1,
+        "tech": -1,
         "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -272,30 +386,44 @@
       "size": 5,
       "quality": 5,
       "defense": 5,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Bounding",
         "Impact(1)",
         "Strider",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane",
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "wGmGu"
+      ],
       "tags": [
+        "fast",
         "aggressive",
-        "beast",
+        "mobile",
         "cavalry",
-        "corrupted",
-        "expendable",
-        "human",
+        "monster",
+        "organic",
         "melee",
-        "mobile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3,
-        "tech": -3
+        "patience": -4,
+        "humanity": -3,
+        "tech": -3,
+        "elite": -3
       }
     },
     {
@@ -313,26 +441,35 @@
         "Impact(1)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "I1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "corrupted",
         "fast",
         "fearless",
-        "human",
+        "aggressive",
+        "cavalry",
+        "monster",
+        "organic",
         "melee",
-        "tech",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "faith": 2,
-        "patience": -3,
-        "tech": -3
+        "patience": -4,
+        "humanity": -3,
+        "tech": -3,
+        "elite": 3
       }
     },
     {
@@ -351,23 +488,45 @@
         "Primal",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "gJCoqNRc"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "corrupted",
+        "ambush",
+        "mobile",
         "fast",
         "flying",
-        "human",
+        "aggressive",
+        "tough",
+        "cavalry",
+        "monster",
+        "organic",
         "melee",
-        "mobile",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 5,
         "patience": -3,
+        "elite": -2,
+        "humanity": -3,
         "tech": -3
       }
     },
@@ -387,23 +546,39 @@
         "Primal",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "0oqGbTJE"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "corrupted",
+        "ambush",
+        "mobile",
         "fast",
         "flying",
-        "human",
+        "aggressive",
+        "tough",
+        "cavalry",
+        "monster",
+        "organic",
         "melee",
-        "mobile",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 5,
         "patience": -3,
+        "elite": -2,
+        "humanity": -3,
         "tech": -3
       }
     },
@@ -420,20 +595,32 @@
         "Tough(3)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Obsidian Great Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Disintegrate"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "v4qez5Nn",
+        "Wo23Mo3E"
+      ],
       "tags": [
-        "corrupted",
         "fearless",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "organic",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": -1,
-        "faith": 2
+        "faith": 2,
+        "elite": 4,
+        "tech": -3
       }
     },
     {
@@ -449,19 +636,31 @@
         "Tough(3)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
-        "expendable",
-        "human",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "horde",
+        "swarm",
+        "organic",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3
+        "speed": 3,
+        "elite": -2,
+        "collective": 5,
+        "tech": -3
       }
     },
     {
@@ -480,22 +679,31 @@
         "Tough(3)",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "corrupted",
-        "expendable",
+        "ambush",
+        "mobile",
         "fast",
         "flying",
-        "human",
+        "tough",
+        "monster",
+        "organic",
         "melee",
-        "mobile",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 5,
+        "elite": -2,
+        "humanity": -3,
         "tech": -3
       }
     },
@@ -506,7 +714,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Fearless",
         "Fortified",
@@ -514,23 +722,45 @@
         "Strider",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Shoot Spikes",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
         "fearless",
-        "human",
-        "mobile",
+        "defensive",
         "tough",
-        "vehicle",
-        "veteran"
+        "mobile",
+        "monster",
+        "organic",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "faith": 2,
+        "patience": 4,
+        "elite": 4,
         "speed": 3,
+        "humanity": -3,
+        "tech": -2,
         "versatility": 2
       }
     },
@@ -541,7 +771,7 @@
       "size": 1,
       "quality": 4,
       "defense": 4,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fearless",
         "Primal",
@@ -549,26 +779,46 @@
         "Strider",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Spit Flames",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
         "fearless",
-        "human",
-        "mobile",
-        "monster",
         "regeneration",
+        "mobile",
         "tough",
+        "monster",
+        "organic",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
         "faith": 2,
         "speed": 3,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -2,
+        "versatility": 2
       }
     },
     {
@@ -585,23 +835,52 @@
         "Tough(12)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Javelin Crew",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Horns",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
         "fearless",
-        "human",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "organic",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
         "faith": 2,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -2,
+        "versatility": 2
       }
     },
     {
@@ -618,23 +897,52 @@
         "Tough(12)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Spit Venom",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Toxic Bite",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
         "fearless",
-        "human",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "organic",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
         "faith": 2,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -2,
+        "versatility": 2
       }
     },
     {
@@ -651,23 +959,53 @@
         "Tough(12)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Javelin Crew",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Obsidian Tail",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Deadly(3)",
+            "Disintegrate"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
         "fearless",
-        "human",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "organic",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
         "faith": 2,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -2,
+        "versatility": 2
       }
     },
     {
@@ -684,21 +1022,42 @@
         "Tough(18)",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Vicious Jaws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "elite",
         "fearless",
-        "human",
-        "melee",
         "tough",
-        "vehicle"
+        "monster",
+        "organic",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
-        "faith": 2
+        "faith": 2,
+        "elite": 5,
+        "humanity": -3,
+        "tech": -3
       }
     },
     {
@@ -717,24 +1076,34 @@
         "Unique",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Sun Clubs",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
-        "elite",
         "fearless",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "defensive",
+        "organic",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
         "faith": 2,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "tech": -3
       }
     },
     {
@@ -753,24 +1122,34 @@
         "Unique",
         "Primal"
       ],
+      "weapons": [
+        {
+          "name": "Celestial Staff",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "corrupted",
-        "hero",
-        "human",
-        "leader",
         "magic",
-        "melee",
-        "mobile",
         "psychic",
-        "tough"
+        "hero",
+        "leader",
+        "mobile",
+        "tough",
+        "organic",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "mystery": 5,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": -1,
+        "speed": 3,
+        "tech": -3
       }
     }
   ],

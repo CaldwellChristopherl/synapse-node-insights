@@ -1,135 +1,78 @@
 import { extractTags } from './extract-tags.jsx';
+import { TAG_TO_DIMENSION } from '../../data/personality/tag-to-dimension.jsx';
 
-export const scoreUnit = (unit, userScores) => {
-  const tags = extractTags(unit);
-  let score = 50;
-    console.log(tags)
-  // Patience dimension
-  if (userScores.patience > 2) {
-    if (tags.includes('defensive') || tags.includes('patient')) score += 15;
-    if (tags.includes('static') || tags.includes('artillery')) score += 10;
-  } else if (userScores.patience < -2) {
-    if (tags.includes('aggressive') || tags.includes('furious')) score += 15;
-    if (tags.includes('melee') || tags.includes('impact')) score += 10;
+/**
+ * Score a unit against user personality scores using dimension-alignment.
+ *
+ * Three-tier approach:
+ *   1. Pre-tagged dimensionScores (from retag script) — fastest, most accurate
+ *   2. Pre-tagged tags → TAG_TO_DIMENSION conversion — fallback
+ *   3. Runtime extractTags() → TAG_TO_DIMENSION — last resort
+ *
+ * @param {Object} unit - Unit with optional dimensionScores, tags, rules, weapons
+ * @param {Object} userScores - User's personality dimension scores (-5 to 5)
+ * @param {Object} [factionContext] - Optional faction context (factionType, monoType)
+ * @returns {number} Score 0-100
+ */
+export const scoreUnit = (unit, userScores, factionContext) => {
+  // Get unit dimension scores (three-tier)
+  let unitDimScores = unit.dimensionScores;
+
+  if (!unitDimScores || Object.keys(unitDimScores).length === 0) {
+    // Tier 2: convert pre-tagged tags to dimension scores
+    const tags = unit.tags && unit.tags.length > 0
+      ? unit.tags
+      : extractTags(unit, factionContext); // Tier 3: runtime extraction
+
+    unitDimScores = tagsToScores(tags);
   }
 
-  // Collective dimension
-  if (userScores.collective > 2) {
-    if (tags.includes('swarm') || tags.includes('horde')) score += 15;
-    if (tags.includes('support') || tags.includes('collective')) score += 10;
-  } else if (userScores.collective < -2) {
-    if (tags.includes('hero') || tags.includes('independent')) score += 15;
-    if (tags.includes('elite')) score += 10;
+  // Compute alignment via dot product
+  let alignment = 0;
+  let maxAlignment = 0;
+
+  const allDims = new Set([
+    ...Object.keys(userScores),
+    ...Object.keys(unitDimScores)
+  ]);
+
+  for (const dim of allDims) {
+    const userVal = userScores[dim] || 0;
+    const unitVal = unitDimScores[dim] || 0;
+
+    if (userVal === 0 && unitVal === 0) continue;
+
+    // Alignment: positive when user and unit agree on a dimension
+    alignment += userVal * unitVal;
+    // Max possible: both at full agreement
+    maxAlignment += Math.abs(userVal) * Math.abs(unitVal);
   }
 
-  // Order dimension
-  if (userScores.order > 2) {
-    if (tags.includes('disciplined') || tags.includes('reliable')) score += 15;
-    if (tags.includes('organized')) score += 10;
-  } else if (userScores.order < -2) {
-    if (tags.includes('chaotic') || tags.includes('unpredictable')) score += 15;
-    if (tags.includes('cunning') || tags.includes('treacherous')) score += 10;
-  }
+  if (maxAlignment === 0) return 50; // No dimensional overlap
 
-  // Tech dimension
-  if (userScores.tech > 2) {
-    if (tags.includes('vehicle') || tags.includes('robot')) score += 15;
-    if (tags.includes('ranged') || tags.includes('artillery')) score += 10;
-    if (tags.includes('drone') || tags.includes('aircraft')) score += 10;
-  } else if (userScores.tech < -2) {
-    if (tags.includes('organic') || tags.includes('beast')) score += 15;
-    if (tags.includes('melee') || tags.includes('combat')) score += 10;
-  }
+  // Normalize to 0-100 range (50 = neutral, 100 = perfect alignment)
+  const normalizedAlignment = alignment / maxAlignment; // -1 to 1
+  const score = 50 + normalizedAlignment * 50;
 
-  // Elite dimension
-  if (userScores.elite > 2) {
-    if (tags.includes('elite') || tags.includes('veteran')) score += 15;
-    if (tags.includes('hero') || tags.includes('expensive')) score += 10;
-  } else if (userScores.elite < -2) {
-    if (tags.includes('horde') || tags.includes('numerous')) score += 15;
-    if (tags.includes('cheap') || tags.includes('expendable')) score += 10;
-  }
-
-  // Honor dimension
-  if (userScores.honor > 2) {
-    if (tags.includes('honorable') || tags.includes('noble')) score += 15;
-  } else if (userScores.honor < -2) {
-    if (tags.includes('ruthless') || tags.includes('treacherous')) score += 15;
-    if (tags.includes('cunning')) score += 10;
-  }
-
-  // Faith dimension
-  if (userScores.faith > 2) {
-    if (tags.includes('zealot') || tags.includes('faithful')) score += 15;
-    if (tags.includes('fearless')) score += 10;
-  }
-
-  // Subtlety dimension
-  if (userScores.subtlety > 2) {
-    if (tags.includes('infiltrate') || tags.includes('stealth')) score += 15;
-    if (tags.includes('scout') || tags.includes('ambush')) score += 10;
-    if (tags.includes('sniper')) score += 10;
-  } else if (userScores.subtlety < -2) {
-    if (tags.includes('melee') || tags.includes('tough')) score += 15;
-    if (tags.includes('aggressive')) score += 10;
-  }
-
-  // Tradition dimension
-  if (userScores.tradition > 2) {
-    if (tags.includes('ancient') || tags.includes('traditional')) score += 15;
-  } else if (userScores.tradition < -2) {
-    if (tags.includes('innovative') || tags.includes('experimental')) score += 15;
-  }
-
-  // Purity dimension
-  if (userScores.purity > 2) {
-    if (tags.includes('pure') || tags.includes('blessed')) score += 15;
-  } else if (userScores.purity < -2) {
-    if (tags.includes('corrupted') || tags.includes('daemon')) score += 15;
-    if (tags.includes('mutant') || tags.includes('corruption')) score += 10;
-  }
-
-  // Speed dimension
-  if (userScores.speed > 2) {
-    if (tags.includes('fast') || tags.includes('flying')) score += 15;
-    if (tags.includes('scout') || tags.includes('ambush')) score += 10;
-    if (tags.includes('cavalry') || tags.includes('mobile')) score += 10;
-  } else if (userScores.speed < -2) {
-    if (tags.includes('tough') || tags.includes('armored')) score += 15;
-    if (tags.includes('artillery') || tags.includes('static')) score += 10;
-    if (tags.includes('slow')) score += 10;
-  }
-
-  // Mystery dimension
-  if (userScores.mystery > 2) {
-    if (tags.includes('psychic') || tags.includes('magic')) score += 15;
-    if (tags.includes('ethereal') || tags.includes('mysterious')) score += 10;
-  }
-
-  // Versatility dimension
-  if (userScores.versatility > 2) {
-    if (tags.includes('versatile') || tags.includes('adaptive')) score += 15;
-    if (tags.includes('balanced')) score += 10;
-  } else if (userScores.versatility < -2) {
-    if (tags.includes('specialist') || tags.includes('focused')) score += 15;
-  }
-
-  // Humanity dimension
-  if (userScores.humanity > 2) {
-    if (tags.includes('human') || tags.includes('humanoid')) score += 15;
-  } else if (userScores.humanity < -2) {
-    if (tags.includes('alien') || tags.includes('monster')) score += 15;
-    if (tags.includes('daemon') || tags.includes('robot')) score += 10;
-    if (tags.includes('beast')) score += 10;
-  }
-
-  // Leadership dimension
-  if (userScores.leadership > 2) {
-    if (tags.includes('commander') || tags.includes('leader')) score += 15;
-    if (tags.includes('inspiring') || tags.includes('hero')) score += 10;
-  } else if (userScores.leadership < -2) {
-    if (tags.includes('autonomous') || tags.includes('independent')) score += 15;
-  }
-
-  return Math.min(100, Math.max(0, score));
+  return Math.min(100, Math.max(0, Math.round(score)));
 };
+
+/**
+ * Convert tags array to dimension scores using TAG_TO_DIMENSION mapping.
+ */
+function tagsToScores(tags) {
+  const scores = {};
+  for (const tag of tags) {
+    const mapping = TAG_TO_DIMENSION[tag];
+    if (mapping) {
+      for (const [dim, val] of Object.entries(mapping)) {
+        scores[dim] = (scores[dim] || 0) + val;
+      }
+    }
+  }
+  // Clamp to [-5, 5]
+  for (const dim of Object.keys(scores)) {
+    scores[dim] = Math.max(-5, Math.min(5, scores[dim]));
+  }
+  return scores;
+}

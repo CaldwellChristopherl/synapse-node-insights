@@ -2,9 +2,14 @@
   "factionId": "L1zCkfmeAongLj1X",
   "factionName": "Deep-Sea Elves",
   "gameSystem": "age-of-fantasy",
-  "factionType": "primitive",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.523Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.804Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 53
+  },
   "units": [
     {
       "id": "WOcO4yE",
@@ -20,19 +25,35 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Barb Net-Catcher",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Bane",
+            "Thrash"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "TPHl_s6k"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
-        "mobile",
         "tough",
+        "mobile",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -49,19 +70,31 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "wkcImEeh"
+      ],
       "tags": [
         "hero",
         "leader",
-        "melee",
-        "mobile",
         "tough",
+        "mobile",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -77,23 +110,39 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Throwing Weapon",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "Ku5irLdL"
+      ],
       "tags": [
+        "scout",
+        "mobile",
         "balanced",
         "cheap",
         "expendable",
         "horde",
-        "human",
-        "mobile",
-        "scout",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "humanity": 3,
         "subtlety": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -109,16 +158,29 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Tentacles",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "qebESXxV"
+      ],
       "tags": [
-        "expendable",
-        "melee",
+        "stealth",
         "mobile",
-        "stealth"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "subtlety": 4,
-        "speed": 3
+        "speed": 3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -134,14 +196,30 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "WcjON",
+        "qebESXxV"
+      ],
       "tags": [
         "aggressive",
-        "melee",
-        "mobile"
+        "mobile",
+        "melee"
       ],
       "dimensionScores": {
-        "patience": -3,
-        "speed": 3
+        "patience": -4,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -158,15 +236,32 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Barb Net-Catcher",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Bane",
+            "Thrash"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "E1"
+      ],
       "tags": [
-        "melee",
-        "mobile",
         "tough",
+        "mobile",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3
+        "elite": 4,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -182,15 +277,34 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Bow",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "D1",
+        "qebESXxV"
+      ],
       "tags": [
-        "balanced",
         "mobile",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 3,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -207,15 +321,30 @@
         "Wave-Step",
         "Guarded"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "expendable",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "horde",
+        "swarm",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "speed": 3
+        "speed": 3,
+        "elite": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -232,17 +361,31 @@
         "Wave-Step",
         "Guarded"
       ],
+      "weapons": [
+        {
+          "name": "Pincer",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "qebESXxV"
+      ],
       "tags": [
-        "beast",
-        "melee",
-        "mobile",
         "tough",
+        "mobile",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "elite": 4,
         "speed": 3,
-        "tech": -3
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -260,18 +403,28 @@
         "Wave-Step",
         "Regeneration"
       ],
+      "weapons": [
+        {
+          "name": "Wave Strike",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aggressive",
-        "melee",
+        "tough",
         "mobile",
         "regeneration",
-        "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "patience": -3,
-        "speed": 3
+        "elite": 4,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -288,20 +441,35 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "F1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
         "fast",
-        "melee",
+        "aggressive",
         "mobile",
+        "cavalry",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3,
-        "tech": -3
+        "patience": -4,
+        "humanity": -3,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -319,21 +487,43 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Lance",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Toxin Jaws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "14EBpVA1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
         "fast",
-        "melee",
-        "mobile",
+        "aggressive",
         "tough",
+        "mobile",
+        "cavalry",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -343,7 +533,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "monster",
       "rules": [
         "Fast",
         "Fear(1)",
@@ -352,21 +542,50 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Barb Net Launcher",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Bane",
+            "Thrash"
+          ]
+        },
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Jaws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "aggressive",
-        "balanced",
-        "beast",
-        "cavalry",
         "fast",
-        "mobile",
+        "aggressive",
         "tough",
-        "vehicle",
-        "veteran"
+        "mobile",
+        "cavalry",
+        "monster",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 5,
-        "patience": -3,
+        "patience": -2,
+        "elite": 4,
+        "humanity": -3,
         "versatility": 2
       }
     },
@@ -377,7 +596,7 @@
       "size": 1,
       "quality": 4,
       "defense": 5,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Furious",
@@ -386,20 +605,28 @@
         "Wave-Step",
         "Regeneration"
       ],
+      "weapons": [
+        {
+          "name": "Flood Attack",
+          "range": 0,
+          "attacks": 8,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aggressive",
-        "melee",
+        "tough",
         "mobile",
         "regeneration",
-        "tough",
-        "vehicle",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "patience": -3,
-        "speed": 3
+        "elite": 4,
+        "speed": 3,
+        "tech": -1
       }
     },
     {
@@ -417,19 +644,36 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Giant Tentacles",
+          "range": 0,
+          "attacks": 8,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "melee",
+        "tough",
         "mobile",
         "monster",
-        "tough",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
+        "elite": 4,
         "speed": 3,
-        "tech": -3
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -446,20 +690,50 @@
         "Strider",
         "Wave-Step"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Barb Net Launcher",
+          "range": 18,
+          "attacks": 4,
+          "special": [
+            "Bane",
+            "Thrash"
+          ]
+        },
+        {
+          "name": "Jaws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Y0KBO_CB"
+      ],
       "tags": [
-        "balanced",
-        "beast",
+        "tough",
         "mobile",
         "monster",
-        "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
+        "patience": 1,
+        "elite": 4,
         "speed": 3,
-        "versatility": 2,
-        "tech": -3
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -474,17 +748,38 @@
         "Tough(3)",
         "Artillery"
       ],
+      "weapons": [
+        {
+          "name": "Great Barb Net Launcher",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Bane",
+            "Thrash"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "ranged",
-        "static",
         "tough",
+        "artillery",
+        "static",
+        "ranged",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "patience": 5,
+        "elite": 4,
+        "tech": 3,
         "versatility": 2
       }
     }

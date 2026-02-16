@@ -8,7 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "extract-personality": "node extract-personality-data.cjs",
+    "retag": "node src/scripts/retag-army-books.cjs"
   },
   "dependencies": {
     "react": "^18.3.1",

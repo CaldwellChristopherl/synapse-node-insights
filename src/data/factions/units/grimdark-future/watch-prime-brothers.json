@@ -3,8 +3,13 @@
   "factionName": "Watch Prime Brothers",
   "gameSystem": "grimdark-future",
   "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.549Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.561Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "elite",
+    "rolePercentage": 35
+  },
   "units": [
     {
       "id": "TuZuMbNzg",
@@ -21,26 +26,37 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "IN4uK",
+        "oFEWO3jp"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
-        "tech",
         "tough",
-        "zealot"
+        "fearless",
+        "resilient",
+        "defensive",
+        "corrupted",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 5,
+        "faith": 2,
         "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 5
+        "tech": -1
       }
     },
     {
@@ -58,26 +74,38 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "B1",
+        "C1"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
-        "tech",
         "tough",
-        "zealot"
+        "fearless",
+        "resilient",
+        "defensive",
+        "corrupted",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 5,
+        "faith": 2,
         "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 5
+        "tech": -1
       }
     },
     {
@@ -97,30 +125,46 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "cbCaeLWh",
+        "caHBKulf"
+      ],
       "tags": [
         "aggressive",
-        "corrupted",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
         "mobile",
-        "monster",
-        "tech",
         "tough",
-        "veteran",
-        "zealot"
+        "fearless",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "patience": -3,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": 3,
-        "faith": 5
+        "faith": 2,
+        "purity": -4,
+        "versatility": 2
       }
     },
     {
@@ -138,24 +182,43 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Marksman Carbine",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Rending",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "fearless",
-        "human",
-        "mobile",
         "scout",
-        "tech",
-        "veteran",
-        "zealot"
+        "mobile",
+        "fearless",
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "subtlety": 3,
         "speed": 3,
-        "faith": 5,
+        "faith": 2,
+        "patience": 3,
+        "elite": 5,
+        "purity": -4,
         "versatility": 2
       }
     },
@@ -174,24 +237,40 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
         "aggressive",
-        "balanced",
-        "corrupted",
-        "fearless",
-        "human",
         "mobile",
-        "tech",
-        "veteran",
-        "zealot"
+        "fearless",
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "patience": -3,
         "speed": 3,
-        "faith": 5,
+        "faith": 2,
+        "elite": 5,
+        "purity": -4,
         "versatility": 2
       }
     },
@@ -208,20 +287,40 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Precision Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Precise"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
         "fearless",
-        "human",
-        "tech",
-        "zealot"
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "faith": 2,
+        "patience": 3,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -238,20 +337,42 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
         "fearless",
-        "human",
-        "tech",
-        "zealot"
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "faith": 2,
+        "patience": 3,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -269,21 +390,39 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "HE-Launcher",
+          "range": 30,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "ftzK4"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
         "ranged",
-        "tech",
-        "zealot"
+        "fearless",
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 4,
+        "tech": 1,
+        "faith": 2,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -301,21 +440,41 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Plasma Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
         "ranged",
-        "tech",
-        "zealot"
+        "fearless",
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 4,
+        "tech": 1,
+        "faith": 2,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -333,22 +492,40 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "monster",
         "ranged",
-        "tech",
-        "zealot"
+        "fearless",
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 4,
+        "tech": 1,
+        "faith": 2,
+        "elite": 5,
         "purity": -4,
-        "humanity": -1,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -368,26 +545,45 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Sniper Rifle",
+          "range": 30,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "fearless",
-        "human",
-        "mobile",
-        "monster",
         "scout",
+        "mobile",
         "stealth",
-        "tech",
-        "veteran",
-        "zealot"
+        "fearless",
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": -1,
         "subtlety": 5,
         "speed": 3,
-        "faith": 5,
+        "faith": 2,
+        "patience": 3,
+        "elite": 5,
+        "purity": -4,
         "versatility": 2
       }
     },
@@ -405,22 +601,39 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Grave Precision Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Precise"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "zXqQM"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "monster",
-        "tech",
         "tough",
-        "zealot"
+        "fearless",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 3,
+        "elite": 5,
+        "faith": 2,
         "purity": -4,
-        "humanity": -1,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -439,24 +652,38 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "IX13T9W5",
+        "D1"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "melee",
-        "mobile",
-        "monster",
-        "tech",
         "tough",
-        "zealot"
+        "ambush",
+        "mobile",
+        "fearless",
+        "resilient",
+        "defensive",
+        "corrupted",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": -1,
+        "patience": 5,
+        "elite": 5,
+        "subtlety": 3,
         "speed": 3,
-        "faith": 5
+        "faith": 2,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -475,25 +702,42 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Assault Blaster",
+          "range": 12,
+          "attacks": 4,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "flying",
-        "human",
+        "ambush",
         "mobile",
-        "monster",
-        "tech",
+        "flying",
         "tough",
-        "zealot"
+        "fearless",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": -1,
+        "subtlety": 3,
         "speed": 5,
-        "faith": 5,
+        "patience": 3,
+        "elite": 5,
+        "faith": 2,
+        "purity": -4,
         "versatility": 2
       }
     },
@@ -511,22 +755,43 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Relic Sword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "ikmDw"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "monster",
-        "tech",
         "tough",
-        "zealot"
+        "fearless",
+        "resilient",
+        "defensive",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 5,
+        "elite": 5,
+        "faith": 2,
         "purity": -4,
-        "humanity": -1,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -545,23 +810,42 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Fusion Rifle",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "monster",
-        "ranged",
-        "tech",
         "tough",
-        "zealot"
+        "ranged",
+        "fearless",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 4,
+        "elite": 5,
+        "tech": 1,
+        "faith": 2,
         "purity": -4,
-        "humanity": -1,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -572,7 +856,7 @@
       "size": 3,
       "quality": 3,
       "defense": 3,
-      "role": "fast-attack",
+      "role": "vehicle",
       "rules": [
         "Relentless",
         "Flying",
@@ -581,26 +865,44 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Assault Autocannon",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "flying",
-        "human",
-        "mobile",
         "ranged",
-        "tech",
-        "vehicle",
-        "zealot"
+        "flying",
+        "mobile",
+        "ambush",
+        "fearless",
+        "tough",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
-        "tech": 3,
+        "patience": 4,
+        "tech": 1,
         "speed": 5,
-        "faith": 5,
+        "subtlety": 3,
+        "faith": 2,
+        "elite": 5,
+        "purity": -4,
         "versatility": 2
       }
     },
@@ -618,22 +920,43 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Fist-Flamers",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Dual Energy Fists",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "melee",
-        "monster",
-        "tech",
         "tough",
-        "zealot"
+        "fearless",
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 3,
+        "elite": 5,
+        "faith": 2,
         "purity": -4,
-        "humanity": -1,
-        "faith": 5
+        "versatility": 2
       }
     },
     {
@@ -643,7 +966,7 @@
       "size": 3,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
@@ -651,26 +974,50 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
+        "fast",
+        "tough",
+        "fearless",
+        "resilient",
+        "vehicle",
         "cavalry",
         "corrupted",
+        "balanced",
         "elite",
-        "fast",
-        "fearless",
-        "human",
-        "tech",
-        "tough",
-        "vehicle",
-        "zealot"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "speed": 5,
+        "patience": 3,
+        "elite": 5,
+        "faith": 2,
         "tech": 3,
         "purity": -4,
-        "humanity": 3,
-        "speed": 5,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -681,7 +1028,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Scout",
@@ -692,30 +1039,46 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Gatling Gun",
+          "range": 18,
+          "attacks": 6,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "N1"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
         "fast",
-        "fearless",
-        "human",
-        "mobile",
-        "ranged",
         "scout",
-        "tech",
+        "mobile",
         "tough",
-        "vehicle",
-        "zealot"
+        "aggressive",
+        "fearless",
+        "resilient",
+        "corrupted",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "patience": -3,
-        "faith": 5
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "purity": -4,
+        "tech": 1
       }
     },
     {
@@ -736,28 +1099,42 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Frag-GL",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
         "fast",
-        "fearless",
-        "human",
+        "aggressive",
         "mobile",
-        "ranged",
-        "tech",
         "tough",
+        "transport",
+        "fearless",
+        "resilient",
         "vehicle",
-        "zealot"
+        "corrupted",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3,
-        "faith": 5
+        "patience": 1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4,
+        "purity": -4
       }
     },
     {
@@ -767,7 +1144,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "monster",
+      "role": "fast-attack",
       "rules": [
         "Ambush",
         "Fearless",
@@ -777,25 +1154,41 @@
         "Transport(11)",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Death Launcher",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Blast(6)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "QsdbGwH_"
+      ],
       "tags": [
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
+        "ambush",
         "mobile",
-        "ranged",
-        "tech",
+        "fearless",
         "tough",
-        "vehicle",
-        "zealot"
+        "resilient",
+        "transport",
+        "corrupted",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 3,
-        "faith": 5,
-        "tech": 3
+        "faith": 2,
+        "patience": 4,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "purity": -4,
+        "tech": 1
       }
     },
     {
@@ -815,28 +1208,45 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Frag-GL",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Twin Light Gatling Gun",
+          "range": 18,
+          "attacks": 8,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B2"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
         "fast",
-        "fearless",
-        "human",
+        "aggressive",
         "mobile",
-        "ranged",
-        "tech",
         "tough",
+        "fearless",
+        "resilient",
         "vehicle",
-        "zealot"
+        "corrupted",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3,
-        "faith": 5
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "tech": 4,
+        "purity": -4
       }
     },
     {
@@ -857,28 +1267,58 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Gatling Gun",
+          "range": 18,
+          "attacks": 8,
+          "special": []
+        },
+        {
+          "name": "Proximity Defense Array",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2",
+        "iVzeY"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
         "fast",
-        "fearless",
-        "human",
+        "aggressive",
         "mobile",
-        "ranged",
-        "tech",
         "tough",
+        "transport",
+        "fearless",
+        "resilient",
         "vehicle",
-        "zealot"
+        "corrupted",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3,
-        "faith": 5
+        "patience": 1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4,
+        "purity": -4
       }
     },
     {
@@ -899,28 +1339,66 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Anti-Gravity Cannon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "Demolish"
+          ]
+        },
+        {
+          "name": "Heavy Gatling Gun",
+          "range": 18,
+          "attacks": 8,
+          "special": []
+        },
+        {
+          "name": "Proximity Defense Array",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "pxqgw",
+        "C2"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
         "fast",
-        "fearless",
-        "human",
+        "aggressive",
         "mobile",
-        "ranged",
-        "tech",
         "tough",
+        "transport",
+        "fearless",
+        "resilient",
         "vehicle",
-        "zealot"
+        "corrupted",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3,
-        "faith": 5
+        "patience": 1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4,
+        "purity": -4
       }
     },
     {
@@ -930,7 +1408,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Ambush",
         "Fast",
@@ -941,28 +1419,48 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Gatling Gun",
+          "range": 18,
+          "attacks": 6,
+          "special": []
+        },
+        {
+          "name": "Strike Missiles",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2"
+      ],
       "tags": [
-        "aggressive",
-        "corrupted",
-        "elite",
-        "fast",
-        "fearless",
-        "human",
+        "ambush",
         "mobile",
-        "ranged",
-        "tech",
+        "fast",
+        "aggressive",
         "tough",
+        "fearless",
+        "resilient",
         "vehicle",
-        "zealot"
+        "corrupted",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 5,
-        "patience": -3,
-        "faith": 5
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "tech": 4,
+        "purity": -4
       }
     },
     {
@@ -981,27 +1479,57 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Walker Pistol",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Incendiary Cannon",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F2"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "mobile",
         "scout",
-        "tech",
+        "mobile",
         "tough",
+        "fearless",
+        "resilient",
         "vehicle",
-        "zealot"
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "subtlety": 3,
         "speed": 3,
-        "faith": 5,
+        "patience": 3,
+        "elite": 5,
+        "faith": 2,
+        "tech": 3,
+        "purity": -4,
         "versatility": 2
       }
     },
@@ -1020,23 +1548,52 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Chest-GL",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 5,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Walker Claw",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "tech",
         "tough",
+        "fearless",
+        "resilient",
         "vehicle",
-        "zealot"
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "patience": 3,
+        "elite": 5,
+        "faith": 2,
         "tech": 3,
         "purity": -4,
-        "humanity": 3,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -1047,7 +1604,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "heavy-support",
       "rules": [
         "Artillery",
         "Fearless",
@@ -1055,27 +1612,43 @@
         "Reinforced",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Laser Talon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(3)"
+          ]
+        },
+        {
+          "name": "Turret Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H2"
+      ],
       "tags": [
-        "balanced",
-        "corrupted",
-        "defensive",
-        "elite",
-        "fearless",
-        "human",
-        "ranged",
+        "artillery",
         "static",
-        "tech",
+        "ranged",
+        "fearless",
         "tough",
-        "vehicle",
-        "zealot"
+        "resilient",
+        "corrupted",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
         "patience": 5,
-        "faith": 5,
+        "tech": 3,
+        "faith": 2,
+        "elite": 5,
+        "purity": -4,
         "versatility": 2
       }
     }

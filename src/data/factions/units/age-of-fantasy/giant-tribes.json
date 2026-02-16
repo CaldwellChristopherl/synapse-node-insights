@@ -2,9 +2,14 @@
   "factionId": "HjmV6_v6dmBmEdy7",
   "factionName": "Giant Tribes",
   "gameSystem": "age-of-fantasy",
-  "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.583Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.924Z",
+  "monoType": {
+    "isMonoType": true,
+    "dominantRole": "troops",
+    "rolePercentage": 100
+  },
   "units": [
     {
       "id": "j0hkdLv",
@@ -13,26 +18,45 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Tough(9)",
         "Unmovable"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Fist",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "etbn4L9E",
+        "8pGBG41k",
+        "9m27fRj7",
+        "5pHi27lO"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "tech": -3
+        "elite": 4,
+        "tech": -1,
+        "versatility": -4
       }
     },
     {
@@ -42,29 +66,47 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(2)",
         "Tough(12)",
         "Furious",
         "Unmovable"
       ],
+      "weapons": [
+        {
+          "name": "Giant Fist",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "ouyv31pD",
+        "etbn4L9E",
+        "A1"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "aggressive",
+        "melee",
+        "veteran",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "tech": -1,
+        "versatility": -4
       }
     },
     {
@@ -74,27 +116,54 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(2)",
         "Tough(12)",
         "Unmovable"
       ],
+      "weapons": [
+        {
+          "name": "Hurl Log",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Giant Fist",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "ouyv31pD",
+        "etbn4L9E",
+        "B1",
+        "A1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
-        "human",
-        "monster",
         "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "versatility": -4
       }
     },
     {
@@ -104,29 +173,51 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(2)",
         "Tough(12)",
         "Relentless",
         "Unmovable"
       ],
+      "weapons": [
+        {
+          "name": "Hurl Log",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "etbn4L9E",
+        "dssc-JNx",
+        "A1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
-        "human",
-        "monster",
-        "ranged",
         "tough",
-        "veteran"
+        "ranged",
+        "balanced",
+        "veteran",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "versatility": 2,
-        "tech": -3
+        "patience": 2,
+        "elite": 4,
+        "tech": 1,
+        "versatility": -4
       }
     },
     {
@@ -136,29 +227,47 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(3)",
         "Tough(18)",
         "Furious",
         "Unmovable"
       ],
+      "weapons": [
+        {
+          "name": "Mega Fist",
+          "range": 0,
+          "attacks": 9,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "etbn4L9E",
+        "X0Ru03gV",
+        "0b8UofXT"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "aggressive",
+        "melee",
+        "veteran",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
         "patience": -3,
-        "tech": -3
+        "elite": 4,
+        "tech": -1,
+        "versatility": -4
       }
     },
     {
@@ -168,27 +277,54 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(3)",
         "Tough(18)",
         "Unmovable"
       ],
+      "weapons": [
+        {
+          "name": "Hurl Trunk",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Mega Fist",
+          "range": 0,
+          "attacks": 9,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "etbn4L9E",
+        "X0Ru03gV",
+        "NDo9focl",
+        "0b8UofXT"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
-        "human",
-        "monster",
         "tough",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "versatility": 2,
-        "tech": -3
+        "patience": 1,
+        "elite": 4,
+        "versatility": -4
       }
     },
     {
@@ -198,29 +334,51 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(3)",
         "Tough(18)",
         "Relentless",
         "Unmovable"
       ],
+      "weapons": [
+        {
+          "name": "Hurl Trunk",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "etbn4L9E",
+        "D1",
+        "NDo9focl",
+        "0b8UofXT"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "corrupted",
-        "human",
-        "monster",
-        "ranged",
         "tough",
-        "veteran"
+        "ranged",
+        "balanced",
+        "veteran",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "versatility": 2,
-        "tech": -3
+        "patience": 2,
+        "elite": 4,
+        "tech": 1,
+        "versatility": -4
       }
     },
     {
@@ -230,26 +388,45 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(4)",
         "Tough(24)",
         "Unmovable"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Ultra Fist",
+          "range": 0,
+          "attacks": 12,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "etbn4L9E",
+        "b06PFQTJ",
+        "74Mh6EuJ",
+        "wi0yU8dJ"
+      ],
       "tags": [
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "melee",
+        "veteran",
+        "armored",
+        "specialist"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "tech": -3
+        "elite": 4,
+        "tech": -1,
+        "versatility": -4
       }
     }
   ],

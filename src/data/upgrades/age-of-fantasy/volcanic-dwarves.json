@@ -1,0 +1,1669 @@
+{
+  "factionId": "Ir5XtqTM8JS3YEAJ",
+  "factionName": "Volcanic Dwarves",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Magma Champion",
+      "forUnits": [
+        "9_552fZ"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "N_9TwZfG6O",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "kN1FY-p",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "z30pKdt",
+              "label": "Heavy Great Axe (A1, AP(4), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Axe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "OYMS8r3",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "qZjJhj0J0z",
+              "label": "Lava Long-Shooter (18\", A1, Pulverize)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lava Long-Shooter",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Pulverize"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "sgY4_kluFr",
+              "label": "Lava Shooter (12\", A2, Pulverize)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lava Shooter",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Pulverize"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "KgPCdk3",
+              "label": "Throwing Axes (12\", A2, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Axes",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "y03NEbI",
+              "label": "Beast Slayer Javelin (12\", A1, AP(2), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beast Slayer Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "-UaFhFqg",
+              "label": "Oath of Wrath (Grounded Speed)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Oath of Wrath",
+                  "type": "item",
+                  "content": [
+                    "Grounded Speed"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zX-xTpfOVx",
+              "label": "Berserker Leader (Regeneration)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Berserker Leader",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "k3Sxf",
+              "label": "Magma Drake (Stomp (A4, AP(1)), Magma Claws (A6, Rending), Armor(3), Breath Attack, Fear(2), Regeneration, Strider, Swift, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 395
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magma Drake",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Magma Claws",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Regeneration",
+                    "Strider",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "uOrMraA",
+        "P9uw_7a",
+        "s23pJR5"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "wOe-d1F",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "uOrMraA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "P9uw_7a",
+                  "cost": 5
+                },
+                {
+                  "unitId": "s23pJR5",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qy-lqs4",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "uOrMraA",
+                  "cost": 5
+                },
+                {
+                  "unitId": "P9uw_7a",
+                  "cost": 5
+                },
+                {
+                  "unitId": "s23pJR5",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qOsANqm",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "uOrMraA",
+                  "cost": 10
+                },
+                {
+                  "unitId": "P9uw_7a",
+                  "cost": 10
+                },
+                {
+                  "unitId": "s23pJR5",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Shield Berserkers",
+      "forUnits": [
+        "uOrMraA"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8Uy-mIw",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "uOrMraA",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "F-tuiNo7",
+              "label": "Volcanic Banner (Strider Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "uOrMraA",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volcanic Banner",
+                  "type": "item",
+                  "content": [
+                    "Strider Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Auric Marksmen",
+      "forUnits": [
+        "AUCYT-X"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lava Long-Shooters",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3pGLw",
+              "label": "Lava Shooter (12\", A2, Pulverize)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "AUCYT-X",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lava Shooter",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Pulverize"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Lava Long-Shooter",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "dQICLWx-uV",
+              "label": "Lava Spray-Shooter (12\", A4, Pulverize)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AUCYT-X",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lava Spray-Shooter",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "Pulverize"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "JkLPAh5",
+              "label": "Magma Bolt-Shooter (18\", A1, AP(2), Deadly(3))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "AUCYT-X",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magma Bolt-Shooter",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "bCbaHZ5dx8",
+              "label": "Magmatic Protection (Grounded Reinforcement Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AUCYT-X",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magmatic Protection",
+                  "type": "item",
+                  "content": [
+                    "Grounded Reinforcement Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "GpCobOmF",
+              "label": "Volcanic Banner (Strider Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AUCYT-X",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volcanic Banner",
+                  "type": "item",
+                  "content": [
+                    "Strider Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "yCGL_",
+      "hint": "Volcanic Leader",
+      "forUnits": [
+        "v2vdu9x"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "D5BbhR8ZM9",
+              "label": "Spear (A3, Counter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "h3Xmi",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "jwnqa",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "cdV1l",
+              "label": "Great Axe (A1, AP(3), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Axe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "jz_9a",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "NglTp08x0z",
+              "label": "Lava Long-Shooter (18\", A1, Pulverize)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lava Long-Shooter",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Pulverize"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "qAVflUOdMT",
+              "label": "Lava Shooter (12\", A2, Pulverize)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lava Shooter",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Pulverize"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "H3GCE",
+              "label": "Throwing Axes (12\", A2, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Axes",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Lh1cGS1Z",
+              "label": "Oath of Wrath (Grounded Speed)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Oath of Wrath",
+                  "type": "item",
+                  "content": [
+                    "Grounded Speed"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_-wy4ZGdbi",
+              "label": "Shield Leader (Shielded)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shield Leader",
+                  "type": "item",
+                  "content": [
+                    "Shielded"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "IJSX1C1pmc",
+              "label": "Volcanic Lizard (Spit Lava (12\", A2, Blast(3), Pulverize), Heavy Claws (A3, AP(1)), Armor(3), Fear(1), Strider, Swift, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 160
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volcanic Lizard",
+                  "type": "item",
+                  "content": [
+                    "Spit Lava",
+                    "Heavy Claws",
+                    "Armor",
+                    "Fear",
+                    "Strider",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "FJ_Uo4uaUm",
+              "label": "Magma Drake (Stomp (A4, AP(1)), Magma Claws (A6, Rending), Armor(3), Breath Attack, Fear(2), Regeneration, Strider, Swift, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 355
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magma Drake",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Magma Claws",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Regeneration",
+                    "Strider",
+                    "Swift",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "dcJS0pvf",
+      "hint": "Great Fire Elemental",
+      "forUnits": [
+        "1v7Mor3"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_hzbLw950p",
+              "label": "Doom Call (Piercing Assault Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "1v7Mor3",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom Call",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "jy_D3rKL",
+      "hint": "Volcanic Berserkers",
+      "forUnits": [
+        "P9uw_7a"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2vYGDjz7Cb",
+              "label": "Magmatic Protection (Grounded Reinforcement Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "P9uw_7a",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magmatic Protection",
+                  "type": "item",
+                  "content": [
+                    "Grounded Reinforcement Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Bj4eYQg571",
+              "label": "Volcanic Banner (Strider Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "P9uw_7a",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volcanic Banner",
+                  "type": "item",
+                  "content": [
+                    "Strider Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "MXdquYZT",
+      "hint": "Volcanic Lizard",
+      "forUnits": [
+        "LEkb1SH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spit Lava",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ypL74Ko8PZ",
+              "label": "Spit Flames (12\", A2, Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LEkb1SH",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spit Flames",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "zE0-vhqp",
+      "hint": "Specialists - Leader",
+      "forUnits": [
+        "v2vdu9x"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yR9s0G_F",
+              "label": "Auric Lord (Grounded Protection Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Auric Lord",
+                  "type": "item",
+                  "content": [
+                    "Grounded Protection Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZHbPYOB4xM",
+              "label": "Veteran Seeker (Swift Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Veteran Seeker",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iez5g6wQBQ",
+              "label": "Volcanic Monk (Stealth Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volcanic Monk",
+                  "type": "item",
+                  "content": [
+                    "Stealth Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "OpPiZ_-w",
+              "label": "Rune Smith (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rune Smith",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "YGBEex3L",
+              "label": "Smite Forger (Quick Shot Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "v2vdu9x",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smite Forger",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "oBJLnX6b",
+      "hint": "Berserker Throwers",
+      "forUnits": [
+        "s23pJR5"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vg7H9HbT",
+              "label": "Oath of Wrath (Grounded Speed)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "s23pJR5",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Oath of Wrath",
+                  "type": "item",
+                  "content": [
+                    "Grounded Speed"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "cjs1MBhS",
+              "label": "Volcanic Banner (Strider Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "s23pJR5",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volcanic Banner",
+                  "type": "item",
+                  "content": [
+                    "Strider Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Tju24RZu",
+      "hint": "Doom Call",
+      "forUnits": [
+        "LRYPY9o"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "AOoGpeOW",
+              "label": "Doom Call (Piercing Assault Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LRYPY9o",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Doom Call",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Sqic0bLK",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "9_552fZ"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "xiUmaaMM",
+              "label": "Grim Lord (Unstoppable in Melee Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grim Lord",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "FisnLxT7DL",
+              "label": "Grudge Bearer (Takedown Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grudge Bearer",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "wBeQPUiw",
+              "label": "Auric Lord (Grounded Protection Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Auric Lord",
+                  "type": "item",
+                  "content": [
+                    "Grounded Protection Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gaV1Y7ZL",
+              "label": "Veteran Seeker (Swift Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Veteran Seeker",
+                  "type": "item",
+                  "content": [
+                    "Swift Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "cr_PCBl2",
+              "label": "Ancient Icon Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ancient Icon Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "pyWpLMt2",
+              "label": "Smite Forger (Quick Shot Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "9_552fZ",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Smite Forger",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "uXsoIi8b",
+      "hint": "Berserker Guards",
+      "forUnits": [
+        "SM5pfnR"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Spears",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "HWNJSLhItJ",
+              "label": "Great Weapon (A1, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "SM5pfnR",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Z1bp-SLa",
+              "label": "Oath of Wrath (Grounded Speed)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "SM5pfnR",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Oath of Wrath",
+                  "type": "item",
+                  "content": [
+                    "Grounded Speed"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ZobW6PTI",
+              "label": "Volcanic Banner (Strider Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "SM5pfnR",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volcanic Banner",
+                  "type": "item",
+                  "content": [
+                    "Strider Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

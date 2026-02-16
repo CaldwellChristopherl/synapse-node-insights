@@ -1,0 +1,2874 @@
+{
+  "factionId": "t-sIke2snonFSL6Q",
+  "factionName": "Mummified Undead",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Royal Leader",
+      "forUnits": [
+        "AfqFVor"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "f82dUWD",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "g2pb_er",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "3ZWPcTC",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "1CRYy7f",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "5NOuowf",
+              "label": "Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "eyva4nml",
+              "label": "Spotting Vulture (Piercing Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Vulture",
+                  "type": "item",
+                  "content": [
+                    "Piercing Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "5UmpSzd",
+              "label": "Royal Beast (Heavy Claws (A1, AP(2)), Fast)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Royal Beast",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Fast"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "V_CrzX-",
+              "label": "Skeletal Steed (Fast, Impact(1), Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skeletal Steed",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ysWIM",
+              "label": "Royal Snake (Snake Fangs (A1, Bane), Fast, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Royal Snake",
+                  "type": "item",
+                  "content": [
+                    "Snake Fangs",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IjHwkkL",
+              "label": "Royal Chariot (Hooves (A2), Armor(3), Fast, Impact(4), Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 125
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Royal Chariot",
+                  "type": "item",
+                  "content": [
+                    "Hooves",
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qmRr5m7",
+              "label": "War Sphinx (Stomp (A4, AP(1)), Armor(2), Breath Attack, Fear(2), Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 260
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Sphinx",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "B0HGe",
+              "label": "Skeleton Beast (Heavy Claws (A6, AP(1)), Stomp (A6, AP(2)), Toxin Claws (A6, Bane), Armor(3), Fear(3), Flying, Tough(18))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 450
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skeleton Beast",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Stomp",
+                    "Toxin Claws",
+                    "Armor",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade Royal Snake with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "UBPgR7AnZc",
+              "label": "Armored (Armor(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Armored",
+                  "type": "item",
+                  "content": [
+                    "Armor"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "01rDYPUrEE",
+              "label": "Burrower (Ambush)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burrower",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Skeleton Leader",
+      "forUnits": [
+        "lmuO_K1"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "orH0CEv",
+              "label": "Spear (A3, Counter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "FIlyfeK",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "KQPmq98",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "58XWmAA",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "XyucgBe",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "xecdIAzaHM",
+              "label": "Bow (24\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "6XHQi1-iyQ",
+              "label": "Royal Bow (18\", A2, Perforate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Royal Bow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Perforate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "pFD0mhhQhC",
+              "label": "Mummies Leader (Fearless, Slow)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mummies Leader",
+                  "type": "item",
+                  "content": [
+                    "Fearless",
+                    "Slow"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "hH2y4JO",
+              "label": "Skeletal Steed (Fast, Impact(1), Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skeletal Steed",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "c0Zs841-P2",
+              "label": "Spotting Vulture (Piercing Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Vulture",
+                  "type": "item",
+                  "content": [
+                    "Piercing Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "IvDRlw5",
+        "c14qXDf",
+        "SJevoE7",
+        "6aipsh4",
+        "xCYqdWK",
+        "d1f_Kvo"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "j2W2gon",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "IvDRlw5",
+                  "cost": 5
+                },
+                {
+                  "unitId": "c14qXDf",
+                  "cost": 5
+                },
+                {
+                  "unitId": "SJevoE7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6aipsh4",
+                  "cost": 5
+                },
+                {
+                  "unitId": "xCYqdWK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "d1f_Kvo",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "UNQAGNw",
+              "label": "Sergeant",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "IvDRlw5",
+                  "cost": 5
+                },
+                {
+                  "unitId": "c14qXDf",
+                  "cost": 5
+                },
+                {
+                  "unitId": "SJevoE7",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6aipsh4",
+                  "cost": 5
+                },
+                {
+                  "unitId": "xCYqdWK",
+                  "cost": 5
+                },
+                {
+                  "unitId": "d1f_Kvo",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "B6z3U1d",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "IvDRlw5",
+                  "cost": 10
+                },
+                {
+                  "unitId": "c14qXDf",
+                  "cost": 10
+                },
+                {
+                  "unitId": "SJevoE7",
+                  "cost": 10
+                },
+                {
+                  "unitId": "6aipsh4",
+                  "cost": 10
+                },
+                {
+                  "unitId": "xCYqdWK",
+                  "cost": 10
+                },
+                {
+                  "unitId": "d1f_Kvo",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Skeleton Warriors",
+      "forUnits": [
+        "IvDRlw5"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8mWm8Nl",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "IvDRlw5",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "41f_gUh",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "IvDRlw5",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Royal Guard",
+      "forUnits": [
+        "c14qXDf"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "rnym-nt",
+              "label": "Heavy Halberd (A1, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "c14qXDf",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "XZTOV_A",
+              "label": "Heavy Great Weapon (A1, AP(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "c14qXDf",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Skeleton Horsemen",
+      "forUnits": [
+        "6aipsh4"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "vBxWvv5",
+              "label": "Lance (A1, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "6aipsh4",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "7chix7vi8I",
+              "label": "Bow (24\", A1), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6aipsh4",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": []
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "zs7U3",
+              "label": "Royal Bow (18\", A1, Perforate), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6aipsh4",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Royal Bow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Perforate"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2iICRXAr",
+              "label": "Spotting Vulture (Piercing Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6aipsh4",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Vulture",
+                  "type": "item",
+                  "content": [
+                    "Piercing Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Guardian Statues",
+      "forUnits": [
+        "Dzx2JbZ"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "z05dXP4",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Dzx2JbZ",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "yunqzHqO1U",
+              "label": "Great Bow (24\", A3, AP(1)), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Dzx2JbZ",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "5NUNSTB",
+              "label": "Great Royal Bow (18\", A3, AP(1), Perforate), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Dzx2JbZ",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                },
+                {
+                  "name": "Great Royal Bow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Perforate"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "VIsmnO7p",
+              "label": "Stone Shaper (Fortified Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Dzx2JbZ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stone Shaper",
+                  "type": "item",
+                  "content": [
+                    "Fortified Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Great Snakes",
+      "forUnits": [
+        "5oQ5WS4"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "LmGFfCl",
+              "label": "Burrower (Ambush)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "5oQ5WS4",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burrower",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "FVp-WDK",
+              "label": "Armored (Armor(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "5oQ5WS4",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Armored",
+                  "type": "item",
+                  "content": [
+                    "Armor"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Snakemen",
+      "forUnits": [
+        "xE4z4X9"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Halberds",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "85mQyBg",
+              "label": "Great Weapon (A2, AP(2))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "xE4z4X9",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "k88yxFt",
+              "label": "Burrower (Ambush)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "xE4z4X9",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burrower",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sePVoiX",
+              "label": "Death Gaze (12\", A2, AP(2))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "xE4z4X9",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Gaze",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "KvrbRezU",
+              "label": "Curse of Sand (Difficult Terrain Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "xE4z4X9",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Curse of Sand",
+                  "type": "item",
+                  "content": [
+                    "Difficult Terrain Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Beast Riders",
+      "forUnits": [
+        "xCYqdWK"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7jA7q33",
+              "label": "Heavy Lance (A1, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "xCYqdWK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "A2",
+      "hint": "Skeleton Giant",
+      "forUnits": [
+        "m42zRTL"
+      ],
+      "sections": [
+        {
+          "label": "Replace Dual Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "MylCz9f",
+              "label": "Heavy Hand Weapon (A8, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "m42zRTL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 8,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "D_jv1Qf",
+              "label": "Great Weapon (A6, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "m42zRTL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "2iLF5yX",
+              "label": "Giant Royal Bow (18\", A1, AP(2), Deadly(6), Perforate), Hand Weapon (A6)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "m42zRTL",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": []
+                },
+                {
+                  "name": "Giant Royal Bow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Perforate"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "3vFV-Z5Dfw",
+              "label": "Giant Bow (24\", A1, AP(2), Deadly(6)), Hand Weapon (A6)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "m42zRTL",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B2",
+      "hint": "Sphinx Champion",
+      "forUnits": [
+        "INP-p46"
+      ],
+      "sections": [
+        {
+          "label": "Replace Dual Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "pCDTH",
+              "label": "Great Weapon (A6, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "INP-p46",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Stomp",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "u4RyfI4Fet",
+              "label": "Toxic Stinger (A5, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "INP-p46",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxic Stinger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 5,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "EGoXLXA",
+              "label": "Decapitating Strike (A1, AP(2), Deadly(6))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "INP-p46",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Decapitating Strike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "oZk41wKLzS",
+              "label": "Stone Shaper (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "INP-p46",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stone Shaper",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "8N-UMd9",
+              "label": "Wings (Flying)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "INP-p46",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D2",
+      "hint": "Skeleton Chariot",
+      "forUnits": [
+        "ixK72jI"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spear Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "IzeJGJbuEe",
+              "label": "Bow Crew (24\", A6)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ixK72jI",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow Crew",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "2fQ_OLC",
+              "label": "Royal Bow Crew (18\", A6, Perforate)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "ixK72jI",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Royal Bow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Perforate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "bN8O64kW",
+              "label": "Spotting Vulture (Piercing Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ixK72jI",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Vulture",
+                  "type": "item",
+                  "content": [
+                    "Piercing Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E2",
+      "hint": "Death Casket",
+      "forUnits": [
+        "Be6l2xH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Release Spirits",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "yoBYNczWnj",
+              "label": "Radiate Curse (18\", A6, AP(1), Perforate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Be6l2xH",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Radiate Curse",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Perforate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "646wu",
+              "label": "Unleash Souls (24\", A2, AP(2), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "Be6l2xH",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Unleash Souls",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "S8vmkLWl",
+              "label": "Curse of Sand (Difficult Terrain Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Be6l2xH",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Curse of Sand",
+                  "type": "item",
+                  "content": [
+                    "Difficult Terrain Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "SYrZt",
+      "hint": "Desert Titan",
+      "forUnits": [
+        "hkQVnnX"
+      ],
+      "sections": [
+        {
+          "label": "Replace Ammut Titan",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "N_m4T",
+              "label": "Skeleton Titan (Surprise Attack(18))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hkQVnnX",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skeleton Titan",
+                  "type": "item",
+                  "content": [
+                    "Surprise Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "8khPW",
+      "hint": "War Sphinx",
+      "forUnits": [
+        "nHSYbM7"
+      ],
+      "sections": [
+        {
+          "label": "Replace Stomp",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "aTEXmwLs3n",
+              "label": "Toxic Stinger (A5, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "nHSYbM7",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxic Stinger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 5,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "kzs3nmF2vf",
+              "label": "Stone Shaper (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "nHSYbM7",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stone Shaper",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "oPnkX",
+              "label": "Spew Death (Breath Attack)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "nHSYbM7",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spew Death",
+                  "type": "item",
+                  "content": [
+                    "Breath Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lhDni",
+      "hint": "God-Titan",
+      "forUnits": [
+        "ty-Aqfo"
+      ],
+      "sections": [
+        {
+          "label": "Replace Godly Battle-Axe",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "jXGVp",
+              "label": "Godly Spear (A3, AP(4), Deadly(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ty-Aqfo",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Godly Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "CluVEwT-",
+      "hint": "Giant God-Statue",
+      "forUnits": [
+        "Wu1tVLY"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gwrM3CfoZE",
+              "label": "Stone Shaper (Fortified)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Wu1tVLY",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stone Shaper",
+                  "type": "item",
+                  "content": [
+                    "Fortified"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "i7OUBgj8",
+      "hint": "Vultures",
+      "forUnits": [
+        "VO46CPB"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "nDMJ3Dqmpp",
+              "label": "Spotting Vulture (Piercing Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "VO46CPB",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Vulture",
+                  "type": "item",
+                  "content": [
+                    "Piercing Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L4zIk2o-",
+      "hint": "Specialists - Leader",
+      "forUnits": [
+        "lmuO_K1"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "rZOANUnPv3",
+              "label": "Herald (Scout Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Herald",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "c0z2HmDP",
+              "label": "Venom Expert (Bane in Melee Aura)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Expert",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "95PssFRYhD",
+              "label": "Soul-Gem Keeper (Resistance Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul-Gem Keeper",
+                  "type": "item",
+                  "content": [
+                    "Resistance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "y9tqmP62Lt",
+              "label": "Nomad Hunter (Indirect when Shooting Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Nomad Hunter",
+                  "type": "item",
+                  "content": [
+                    "Indirect when Shooting Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZFsgYSNPnV",
+              "label": "Master Stone Shaper (Mend)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Stone Shaper",
+                  "type": "item",
+                  "content": [
+                    "Mend"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CSdWhiP7",
+              "label": "Priest (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Priest",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ssNUv_mj",
+              "label": "Master Priest (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "lmuO_K1",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Priest",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "BvwdziQX",
+      "hint": "Skeleton Archers",
+      "forUnits": [
+        "SJevoE7"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Bows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "v4EM8JkFa9",
+              "label": "Royal Bow (18\", A1, Perforate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "SJevoE7",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Royal Bow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Perforate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "O6q92Iou",
+              "label": "Spotting Vulture (Piercing Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "SJevoE7",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Vulture",
+                  "type": "item",
+                  "content": [
+                    "Piercing Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "m9eZKfzK",
+      "hint": "Skull Catapult",
+      "forUnits": [
+        "9asisuK"
+      ],
+      "sections": [
+        {
+          "label": "Replace Skull Barrage",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ywxgMzXOhh",
+              "label": "Royal Skull Barrage (30\", A6, AP(1), Indirect, Perforate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9asisuK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Royal Skull Barrage",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Indirect",
+                    "Perforate"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "IIWcbq9b",
+              "label": "Curse of Sand (Difficult Terrain Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9asisuK",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Curse of Sand",
+                  "type": "item",
+                  "content": [
+                    "Difficult Terrain Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "kSx9s9-Y",
+      "hint": "Snake Riders",
+      "forUnits": [
+        "d1f_Kvo"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yu4szPKy",
+              "label": "Curse of Sand (Difficult Terrain Debuff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "d1f_Kvo",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Curse of Sand",
+                  "type": "item",
+                  "content": [
+                    "Difficult Terrain Debuff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "4-7eG0pn",
+              "label": "Burrower (Ambush)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "d1f_Kvo",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Burrower",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6wIANeGO",
+              "label": "Armored (Armor(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "d1f_Kvo",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Armored",
+                  "type": "item",
+                  "content": [
+                    "Armor"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "9GeLv1dD",
+      "hint": "Specialists - Royal",
+      "forUnits": [
+        "AfqFVor"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "WQjrfsnb",
+              "label": "Herald (Scout Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Herald",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_FmxhxE5",
+              "label": "Tomb Queen Icon Bearer (Royal Legion Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tomb Queen Icon Bearer",
+                  "type": "item",
+                  "content": [
+                    "Royal Legion Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "GFfc5DpQ",
+              "label": "Venom Expert (Bane in Melee Aura)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Venom Expert",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZmoHyh8x",
+              "label": "Soul-Gem Keeper (Resistance Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul-Gem Keeper",
+                  "type": "item",
+                  "content": [
+                    "Resistance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oW8v9pi6-q",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "G12u6ZynVq",
+              "label": "Monarch (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Monarch",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8hOtjL96",
+              "label": "Priest (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Priest",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "WhDH9uDp",
+              "label": "Master Priest (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "AfqFVor",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Priest",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

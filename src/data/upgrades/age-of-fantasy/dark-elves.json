@@ -1,0 +1,2889 @@
+{
+  "factionId": "IKT625BeGZtF67EA",
+  "factionName": "Dark Elves",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Dark Captain",
+      "forUnits": [
+        "hqL6cA1"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Eepq2ajeao",
+              "label": "Captain Heavy Dark Cutlass (A3, AP(1), Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Heavy Dark Cutlass",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "MvGKje-",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Mph7Nh-",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "F5UXi",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "NMGdWRI",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "v0vsYlx",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "JAevtPO",
+              "label": "Captain Repeater Handbow (9\", A3, Rending)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Repeater Handbow",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Wt8r1we2Mw",
+              "label": "Captain Dark Handbow (12\", A3, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Dark Handbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "35qfIyG",
+              "label": "Captain Repeater Crossbow (18\", A3, Rending)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Repeater Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "hlDyUJsVFT",
+              "label": "Captain Dark Crossbow (24\", A3, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Dark Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "WkMU7xkA",
+              "label": "Boarding Attack (Retreating Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boarding Attack",
+                  "type": "item",
+                  "content": [
+                    "Retreating Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "SDYngKa-",
+              "label": "Looting Frenzy (Ruinous Frenzy)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Looting Frenzy",
+                  "type": "item",
+                  "content": [
+                    "Ruinous Frenzy"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "4jYfcfTPy-",
+              "label": "Guardian Leader (Fearless, Furious)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Guardian Leader",
+                  "type": "item",
+                  "content": [
+                    "Fearless",
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Qe0pBJ9",
+              "label": "Dark Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0NHfvNzfrW",
+              "label": "Shade Master (Scout, Stealth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shade Master",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "Hu6sQ",
+              "label": "Raptor (Armor(3), Fast, Impact(1), Ravage(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Raptor",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Ravage"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_i-MiAZ",
+              "label": "Black Pegasus (Heavy Hooves (A1, AP(1)), Fast, Flying, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Black Pegasus",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Flying",
+                    "Heavy Hooves",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "VID8oh2",
+              "label": "Manticore (Rending Claws (A6, Rending), Armor(3), Fear(1), Flying, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 150
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Manticore",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Armor",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "OzM9ROe",
+              "label": "Cauldron Wagon (Crew Attacks (A4), Armor(3), Fear(1), Piercing Assault Buff, Regeneration, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 170
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cauldron Wagon",
+                  "type": "item",
+                  "content": [
+                    "Crew Attacks",
+                    "Armor",
+                    "Fear",
+                    "Piercing Assault Buff",
+                    "Regeneration",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "o5O8k",
+              "label": "Black Dragon (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Armor(3), Breath Attack, Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 305
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Black Dragon",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Stomp",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Snake Lady",
+      "forUnits": [
+        "arB63Yj"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Glaive",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "bdeMI6o",
+              "label": "Great Seeker Bow (24\", A4, AP(1), Bane), Hand Weapon (A3)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "arB63Yj",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": []
+                },
+                {
+                  "name": "Great Seeker Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Champion",
+      "forUnits": [
+        "IoM820w"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "R1BCi",
+              "label": "Spear (A3, Counter)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "k-Yq8",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "AfGos",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Wa6CP10inC",
+              "label": "Captain Dark Cutlass (A3, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Dark Cutlass",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "Ra4Pj",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Km2Y7",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "hgV8lkw4Yd",
+              "label": "Dual Toxin Daggers (A4, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Toxin Daggers",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_Bv_4-aHgK",
+              "label": "Captain Repeater Handbow (9\", A3, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Repeater Handbow",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "NLGAblZnPW",
+              "label": "Captain Dark Handbow (12\", A3, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Dark Handbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "MsHO-dnL2j",
+              "label": "Captain Repeater Crossbow (18\", A3, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Repeater Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "93tcjgLO7B",
+              "label": "Captain Dark Crossbow (24\", A3, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain Dark Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Rinfqi8u",
+              "label": "Boarding Attack (Retreating Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boarding Attack",
+                  "type": "item",
+                  "content": [
+                    "Retreating Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sjkud8Ig",
+              "label": "Looting Frenzy (Ruinous Frenzy)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Looting Frenzy",
+                  "type": "item",
+                  "content": [
+                    "Ruinous Frenzy"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "WV5WwkofS0",
+              "label": "Corsair Leader (Stealth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Corsair Leader",
+                  "type": "item",
+                  "content": [
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "I_ej9zl",
+              "label": "Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Y7O_nVu",
+              "label": "Raptor (Armor(4), Fast, Impact(1), Ravage(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Raptor",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Ravage"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8370njl",
+              "label": "Black Pegasus (Heavy Hooves (A2, AP(1)), Armor(4), Fast, Flying, Impact(3), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Black Pegasus",
+                  "type": "item",
+                  "content": [
+                    "Heavy Hooves",
+                    "Armor",
+                    "Fast",
+                    "Flying",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ME_BF",
+              "label": "Black Dragon (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Armor(3), Breath Attack, Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 265
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Black Dragon",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Stomp",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Command Group",
+      "forUnits": [
+        "yrBgoA2",
+        "ldmXtEN",
+        "R0l-qSM",
+        "IZPHFER",
+        "KmdhdcR",
+        "xq_S8Pc",
+        "6mkvZRW",
+        "kj4MEA-",
+        "Qattnen",
+        "3MdFeer"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7CR2QIL",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "yrBgoA2",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ldmXtEN",
+                  "cost": 5
+                },
+                {
+                  "unitId": "R0l-qSM",
+                  "cost": 5
+                },
+                {
+                  "unitId": "IZPHFER",
+                  "cost": 5
+                },
+                {
+                  "unitId": "KmdhdcR",
+                  "cost": 5
+                },
+                {
+                  "unitId": "xq_S8Pc",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6mkvZRW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "kj4MEA-",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Qattnen",
+                  "cost": 5
+                },
+                {
+                  "unitId": "3MdFeer",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "q8FSjON",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yrBgoA2",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ldmXtEN",
+                  "cost": 5
+                },
+                {
+                  "unitId": "R0l-qSM",
+                  "cost": 5
+                },
+                {
+                  "unitId": "IZPHFER",
+                  "cost": 5
+                },
+                {
+                  "unitId": "KmdhdcR",
+                  "cost": 5
+                },
+                {
+                  "unitId": "xq_S8Pc",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6mkvZRW",
+                  "cost": 10
+                },
+                {
+                  "unitId": "kj4MEA-",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Qattnen",
+                  "cost": 5
+                },
+                {
+                  "unitId": "3MdFeer",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6xoBgi2",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "yrBgoA2",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ldmXtEN",
+                  "cost": 10
+                },
+                {
+                  "unitId": "R0l-qSM",
+                  "cost": 10
+                },
+                {
+                  "unitId": "IZPHFER",
+                  "cost": 10
+                },
+                {
+                  "unitId": "KmdhdcR",
+                  "cost": 10
+                },
+                {
+                  "unitId": "xq_S8Pc",
+                  "cost": 10
+                },
+                {
+                  "unitId": "6mkvZRW",
+                  "cost": 10
+                },
+                {
+                  "unitId": "kj4MEA-",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Qattnen",
+                  "cost": 10
+                },
+                {
+                  "unitId": "3MdFeer",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Dark Warriors",
+      "forUnits": [
+        "yrBgoA2"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ua_WTFgckF",
+              "label": "Dark Cutlass (A1, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yrBgoA2",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Cutlass",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "7xUQ_zZ",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "yrBgoA2",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "MYQPTbU",
+              "label": "Spear (A1, Counter)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "yrBgoA2",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Corsairs",
+      "forUnits": [
+        "ldmXtEN"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "AfAA_Ti",
+              "label": "Repeater Handbow (9\", A2, Rending), Hand Weapon (A1)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "ldmXtEN",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repeater Handbow",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "w_PzjlmyPq",
+              "label": "Dark Handbow (12\", A2, Lacerate), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ldmXtEN",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Handbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Winged Sisters",
+      "forUnits": [
+        "EpqxFAd"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "a6NMB",
+              "label": "Javelin (12\", A1, AP(1)), Hand Weapon (A1)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "EpqxFAd",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Javelin",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Snake Sisters",
+      "forUnits": [
+        "sJCUs4l"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Blood Glaives",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xnOZxLM",
+              "label": "Seeker Bow (24\", A3, Bane), Hand Weapon (A2)",
+              "cost": 70,
+              "costs": [
+                {
+                  "unitId": "sJCUs4l",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Seeker Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gY_mGzsY",
+              "label": "Swashbuckling Menace (Thrust Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sJCUs4l",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Swashbuckling Menace",
+                  "type": "item",
+                  "content": [
+                    "Thrust Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Dark Horsemen",
+      "forUnits": [
+        "Qattnen"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "0zQue",
+              "label": "Repeater Crossbow (18\", A2, Rending), Hand Weapon (A1)",
+              "cost": 85,
+              "costs": [
+                {
+                  "unitId": "Qattnen",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repeater Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "zOQeI_O12E",
+              "label": "Dark Crossbow (24\", A2, Lacerate), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Qattnen",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Lacerate"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Warlock Riders",
+      "forUnits": [
+        "Ohd9a74"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "8kO0n",
+              "label": "Apprentice Sorcerer (Caster(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "Ohd9a74",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Apprentice Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Beast Master",
+      "forUnits": [
+        "D9C20sj",
+        "fUD-3Ks"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "qifDJhT3Pr",
+              "label": "Boarding Attack (Retreating Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "D9C20sj",
+                  "cost": 15
+                },
+                {
+                  "unitId": "fUD-3Ks",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boarding Attack",
+                  "type": "item",
+                  "content": [
+                    "Retreating Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "yr_hLii",
+              "label": "Beast Master (Unpredictable Fighter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "D9C20sj",
+                  "cost": 20
+                },
+                {
+                  "unitId": "fUD-3Ks",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beast Master",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M1",
+      "hint": "Scourge Chariot",
+      "forUnits": [
+        "heZ9k63"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spear Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "txarA",
+              "label": "Repeater Crossbow Crew (18\", A6, Rending)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "heZ9k63",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repeater Crossbow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "1MXw32hPZ3",
+              "label": "Dark Crossbow Crew (24\", A6, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "heZ9k63",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Crossbow Crew",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "vRym5",
+              "label": "Harpoon Thrower (24\", A2, AP(2), Deadly(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "heZ9k63",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Harpoon Thrower",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N1",
+      "hint": "Raptor Chariot",
+      "forUnits": [
+        "oi1hSD7"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spear Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "4uf3mB9",
+              "label": "Repeater Crossbow Crew (18\", A6, Rending)",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "oi1hSD7",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repeater Crossbow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "s9QskvCi_X",
+              "label": "Dark Crossbow Crew (24\", A6, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "oi1hSD7",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Crossbow Crew",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Zy0dqbSz",
+              "label": "Swashbuckling Menace (Thrust Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "oi1hSD7",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Swashbuckling Menace",
+                  "type": "item",
+                  "content": [
+                    "Thrust Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "O1",
+      "hint": "Dark Elf Artillery",
+      "forUnits": [
+        "D7-GJXh"
+      ],
+      "sections": [
+        {
+          "label": "Replace Dark Bolt Thrower",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "p10v3s_0FT",
+              "label": "Repeater Bolt Thrower (30\", A6, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "D7-GJXh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repeater Bolt Thrower",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "uhNNY",
+              "label": "Light Bolt Thrower (30\", A1, AP(3), Deadly(6))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "D7-GJXh",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light Bolt Thrower",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "cw1w8H-W",
+              "label": "Swashbuckling Menace (Thrust Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "D7-GJXh",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Swashbuckling Menace",
+                  "type": "item",
+                  "content": [
+                    "Thrust Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ilpkKbcW",
+      "hint": "Boarding Attack + Looting Frenzy",
+      "forUnits": [
+        "ldmXtEN",
+        "EpqxFAd",
+        "KmdhdcR",
+        "Ohd9a74"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gHyoGbtVWe",
+              "label": "Boarding Attack (Retreating Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ldmXtEN",
+                  "cost": 5
+                },
+                {
+                  "unitId": "EpqxFAd",
+                  "cost": 5
+                },
+                {
+                  "unitId": "KmdhdcR",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Ohd9a74",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boarding Attack",
+                  "type": "item",
+                  "content": [
+                    "Retreating Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "fUg5vDjYKB",
+              "label": "Looting Frenzy (Ruinous Frenzy)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "ldmXtEN",
+                  "cost": 5
+                },
+                {
+                  "unitId": "EpqxFAd",
+                  "cost": 5
+                },
+                {
+                  "unitId": "KmdhdcR",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Ohd9a74",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Looting Frenzy",
+                  "type": "item",
+                  "content": [
+                    "Ruinous Frenzy"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "gl_D6lFg",
+      "hint": "Dark Shooters",
+      "forUnits": [
+        "6mkvZRW"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Repeater Crossbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "sTBaA5znAk",
+              "label": "Dark Crossbow (24\", A2, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6mkvZRW",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "kNvSY4sh",
+      "hint": "Shade Scouts",
+      "forUnits": [
+        "kj4MEA-"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Repeater Handbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "-Zm_pn60hZ",
+              "label": "Dark Handbow (12\", A2, Lacerate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kj4MEA-",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Handbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Lacerate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "feAxYOtm",
+      "hint": "Specialists - Snake Lady",
+      "forUnits": [
+        "arB63Yj"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "zyX92wTe",
+              "label": "Dark Tyrant (Rapid Charge Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "arB63Yj",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Tyrant",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nIJHQzDD",
+              "label": "Quartermaster (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "arB63Yj",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Quartermaster",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "9bhY06qh",
+              "label": "Boarding Expert (Harassing Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "arB63Yj",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boarding Expert",
+                  "type": "item",
+                  "content": [
+                    "Harassing Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "fBQFr3lB",
+              "label": "Freebooter Captain (Quick Shot Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "arB63Yj",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Freebooter Captain",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "TXx3sFwe",
+              "label": "Sorcerer (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "arB63Yj",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8qy80PGZ",
+              "label": "Master Sorcerer (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "arB63Yj",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "IwPwmwma",
+      "hint": "Raptor Knights",
+      "forUnits": [
+        "3MdFeer"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "HXNFo6l8",
+              "label": "Swashbuckling Menace (Thrust Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "3MdFeer",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Swashbuckling Menace",
+                  "type": "item",
+                  "content": [
+                    "Thrust Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TZZYRyWq",
+      "hint": "Specialists - Captain",
+      "forUnits": [
+        "hqL6cA1"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "npytsR2o",
+              "label": "Dark Tyrant (Rapid Charge Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dark Tyrant",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "bRtsG84d-i",
+              "label": "Shade Assassin (Takedown Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shade Assassin",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "MrR9WWVC",
+              "label": "Boarding Expert (Harassing Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boarding Expert",
+                  "type": "item",
+                  "content": [
+                    "Harassing Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3vW5B4W-",
+              "label": "Fleet Master (Ambush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fleet Master",
+                  "type": "item",
+                  "content": [
+                    "Ambush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "vP5SfMx2",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oCeQW3Pd",
+              "label": "Freebooter Captain (Quick Shot Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hqL6cA1",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Freebooter Captain",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "f3D6qW6V",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "IoM820w"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "DmvXNdM2",
+              "label": "Quartermaster (Melee Shrouding Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Quartermaster",
+                  "type": "item",
+                  "content": [
+                    "Melee Shrouding Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "pT49ZnIB",
+              "label": "Boarding Expert (Harassing Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boarding Expert",
+                  "type": "item",
+                  "content": [
+                    "Harassing Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gDK5nWPE",
+              "label": "Fleet Master (Ambush Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fleet Master",
+                  "type": "item",
+                  "content": [
+                    "Ambush Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "lNzMMhg2",
+              "label": "Freebooter Captain (Quick Shot Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Freebooter Captain",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6Nrk7TTT",
+              "label": "Sorcerer (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "NkqUKVZI",
+              "label": "Master Sorcerer (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IoM820w",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Sorcerer",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "2L1NnJuC",
+      "hint": "Boarding Attack",
+      "forUnits": [
+        "yrBgoA2",
+        "_XqHhJx",
+        "R0l-qSM",
+        "IZPHFER",
+        "xq_S8Pc",
+        "3MdFeer"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ExbDwBGiEn",
+              "label": "Boarding Attack (Retreating Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yrBgoA2",
+                  "cost": 15
+                },
+                {
+                  "unitId": "_XqHhJx",
+                  "cost": 5
+                },
+                {
+                  "unitId": "R0l-qSM",
+                  "cost": 5
+                },
+                {
+                  "unitId": "IZPHFER",
+                  "cost": 5
+                },
+                {
+                  "unitId": "xq_S8Pc",
+                  "cost": 5
+                },
+                {
+                  "unitId": "3MdFeer",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Boarding Attack",
+                  "type": "item",
+                  "content": [
+                    "Retreating Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

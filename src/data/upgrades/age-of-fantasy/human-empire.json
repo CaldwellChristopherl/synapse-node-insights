@@ -1,0 +1,2727 @@
+{
+  "factionId": "jZ02AVPLx_S48Mnb",
+  "factionName": "Human Empire",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Battle Master",
+      "forUnits": [
+        "Vj0QX3_"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "wY2on-L",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "dE3hfyN",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "viWl8Uf",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "1xWdT3M",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "G98-EZf",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "On-yO792hZ",
+              "label": "Twin Firepowder Pistols (9\", A2, Fracture)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Firepowder Pistols",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Fracture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "GgJ20tU",
+              "label": "Twin Pistol (9\", A2, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "TFxHS",
+              "label": "Twin Handbow (12\", A2, Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Handbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Ewib3",
+              "label": "Pet Companion (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pet Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "e94njN8",
+              "label": "Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zJDvfRy",
+              "label": "Pegasus (Hooves (A1), Fast, Flying, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pegasus",
+                  "type": "item",
+                  "content": [
+                    "Hooves",
+                    "Fast",
+                    "Flying",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "_3t-C",
+              "label": "Griffon (Rending Claws (A6, Rending), Stomp (A4, AP(1)), Armor(3), Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 235
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Griffon",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Stomp",
+                    "Armor",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "RH04n",
+              "label": "Dragon (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Armor(3), Breath Attack, Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 255
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dragon",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Stomp",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Champion",
+      "forUnits": [
+        "yYreRfL"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "tacnEgT",
+              "label": "Spear (A3, Counter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "GN_aTld",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "lTpZjN9",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "M3J2TYB",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "jcs2CVw",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ak58lgK",
+              "label": "Twin Gatling Pistol (9\", A4, AP(1))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Gatling Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "u2VfO",
+              "label": "Bow (24\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "gg4kG8y",
+              "label": "Grenade Launcher (24\", A1, Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Grenade Launcher",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "VcCLuhYtmW",
+              "label": "Crossbow (24\", A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "zzPObkZ",
+              "label": "Gatling Rifle (18\", A4, AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gatling Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "baak_Rr",
+              "label": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniper Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "7HlkZ",
+              "label": "Pet Companion (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pet Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QMxz4tQ",
+              "label": "Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LgZ8it9",
+              "label": "Robo-Skeleton Horse (Bounding, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Robo-Skeleton Horse",
+                  "type": "item",
+                  "content": [
+                    "Bounding",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6_Ekx",
+              "label": "Robot Hulk (Great Weapon (A3, AP(2)), Armor(4), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Robot Hulk",
+                  "type": "item",
+                  "content": [
+                    "Great Weapon",
+                    "Armor",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "-ESvMWE",
+        "ccY9OvL",
+        "0IYBIDW",
+        "kY9pOKT",
+        "vmcM4E8",
+        "eXoFcRr",
+        "rKfk_hD",
+        "hZjPpN-"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sjLOrlF",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "-ESvMWE",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ccY9OvL",
+                  "cost": 5
+                },
+                {
+                  "unitId": "0IYBIDW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 5
+                },
+                {
+                  "unitId": "eXoFcRr",
+                  "cost": 5
+                },
+                {
+                  "unitId": "rKfk_hD",
+                  "cost": 5
+                },
+                {
+                  "unitId": "hZjPpN-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xv_a5Pv",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "-ESvMWE",
+                  "cost": 5
+                },
+                {
+                  "unitId": "ccY9OvL",
+                  "cost": 5
+                },
+                {
+                  "unitId": "0IYBIDW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 5
+                },
+                {
+                  "unitId": "eXoFcRr",
+                  "cost": 5
+                },
+                {
+                  "unitId": "rKfk_hD",
+                  "cost": 5
+                },
+                {
+                  "unitId": "hZjPpN-",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "rh8do3_",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "-ESvMWE",
+                  "cost": 10
+                },
+                {
+                  "unitId": "ccY9OvL",
+                  "cost": 10
+                },
+                {
+                  "unitId": "0IYBIDW",
+                  "cost": 10
+                },
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 10
+                },
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 10
+                },
+                {
+                  "unitId": "eXoFcRr",
+                  "cost": 10
+                },
+                {
+                  "unitId": "rKfk_hD",
+                  "cost": 10
+                },
+                {
+                  "unitId": "hZjPpN-",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Infantrymen",
+      "forUnits": [
+        "-ESvMWE"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ZUYzjUz",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "-ESvMWE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "HuU-bKf",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "-ESvMWE",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Marksmen",
+      "forUnits": [
+        "kY9pOKT"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Firepowder Rifles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "HXJMGjTq6z",
+              "label": "Rifle (18\", A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "zs8QzBe",
+              "label": "Crossbow (24\", A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Firepowder Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "joGq0UW-7T",
+              "label": "Twin Firepowder Pistols (9\", A2, Fracture)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Firepowder Pistols",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Fracture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "2CyrIV1",
+              "label": "Twin Pistol (9\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "S7oNEl7",
+              "label": "Gatling Rifle (18\", A4, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gatling Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "zaLzc38",
+              "label": "Sniper Rifle (30\", A1, AP(1), Reliable, Takedown)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniper Rifle",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Horse Marksmen",
+      "forUnits": [
+        "vmcM4E8"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Firepowder Rifles",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "N__P9y05EG",
+              "label": "Twin Firepowder Pistols (9\", A2, Fracture)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Firepowder Pistols",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Fracture"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Bc7IVtMusn",
+              "label": "Rifle (18\", A1, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "7LuBH",
+              "label": "Twin Pistol (9\", A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Firepowder Rifle",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "X4CwY8j",
+              "label": "Twin Gatling Pistol (9\", A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Gatling Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "i4jv9h5",
+              "label": "Gatling Rifle (18\", A4, AP(1))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gatling Rifle",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Knights",
+      "forUnits": [
+        "eXoFcRr"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5N_fgg4",
+              "label": "Lance (A1, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "eXoFcRr",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Guard Knights",
+      "forUnits": [
+        "rKfk_hD"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ScTTS",
+              "label": "Great Weapon (A1, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "rKfk_hD",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Gryph Riders",
+      "forUnits": [
+        "hZjPpN-"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "LOp3Sjo",
+              "label": "Halberd (A1, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hZjPpN-",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "CdGttK44",
+              "label": "Empire Bounty (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hZjPpN-",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Empire Bounty",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Steam Tank",
+      "forUnits": [
+        "v7FIEfQ"
+      ],
+      "sections": [
+        {
+          "label": "Replace Tank Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1kBEuMt",
+              "label": "Heavy Tank Cannon (18\", A2, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "v7FIEfQ",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Tank Cannon",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Empire Artillery",
+      "forUnits": [
+        "9M00fD4"
+      ],
+      "sections": [
+        {
+          "label": "Replace Firepowder Volley Gun",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nSQnR90cTl",
+              "label": "Volley Gun (18\", A6, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9M00fD4",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Volley Gun",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "x738xso",
+              "label": "Cannon (30\", A2, AP(1), Blast(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "9M00fD4",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "AAAkQIV",
+              "label": "Heavy Cannon (30\", A2, AP(2), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "9M00fD4",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "jmRXa",
+              "label": "Rocket Battery (24\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "9M00fD4",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rocket Battery",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "0Ktfo",
+              "label": "Heavy Mortar (36\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "9M00fD4",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Mortar",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2xMVsru3",
+              "label": "Empire Bounty (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9M00fD4",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Empire Bounty",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "7OKOT",
+      "hint": "Mercenaries",
+      "forUnits": [
+        "dBSLa40"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Firepowder Pistols and Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "N3ouc",
+              "label": "Dual Hand Weapons (A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dBSLa40",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "6MrVuu3jr7",
+              "label": "Pistol (9\", A1, AP(1)), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dBSLa40",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "U_VElBhLf2",
+              "label": "Twin Firepowder Pistols (9\", A2, Fracture), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dBSLa40",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Firepowder Pistols",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Fracture"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "xul9-",
+              "label": "Twin Pistol (9\", A2, AP(1)), Hand Weapon (A1)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "dBSLa40",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Pistol",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "IbvlHdhK",
+              "label": "Empire Bounty (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dBSLa40",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Empire Bounty",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "P2CIy",
+      "hint": "War Wagon",
+      "forUnits": [
+        "cevXrfE"
+      ],
+      "sections": [
+        {
+          "label": "Replace Extra Space",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "xX6QQ",
+              "label": "Spear Crew (A6, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cevXrfE",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear Crew",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "fPceV",
+              "label": "Crossbow Crew (24\", A6, Rending), Crew Attacks (A2)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "cevXrfE",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow Crew",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Crew Attacks",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "J1nWecrF",
+              "label": "Empire Bounty (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "cevXrfE",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Empire Bounty",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "7Y96z",
+      "hint": "Elemental Titan",
+      "forUnits": [
+        "0RUh3Gd"
+      ],
+      "sections": [
+        {
+          "label": "Replace Fire Elemental",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "YoO5q",
+              "label": "Air Elemental (Flying, Precision Fighter Buff)",
+              "cost": 120,
+              "costs": [
+                {
+                  "unitId": "0RUh3Gd",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Air Elemental",
+                  "type": "item",
+                  "content": [
+                    "Flying",
+                    "Precision Fighter Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "kJE5L",
+              "label": "Aether Elemental (Furious, Furious Buff)",
+              "cost": 155,
+              "costs": [
+                {
+                  "unitId": "0RUh3Gd",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Aether Elemental",
+                  "type": "item",
+                  "content": [
+                    "Furious",
+                    "Furious Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "wmshz",
+              "label": "Earth Elemental (Heavy Claws (A4, AP(4)), Fortified)",
+              "cost": 135,
+              "costs": [
+                {
+                  "unitId": "0RUh3Gd",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Earth Elemental",
+                  "type": "item",
+                  "content": [
+                    "Fortified",
+                    "Heavy Claws"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "8HNWT",
+              "label": "Water Elemental (Mend, Resistance)",
+              "cost": 155,
+              "costs": [
+                {
+                  "unitId": "0RUh3Gd",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Water Elemental",
+                  "type": "item",
+                  "content": [
+                    "Mend",
+                    "Resistance"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "pYdSR",
+              "label": "Elemental Chimera (Breath Attack, Flying, Fortified, Furious, Resistance)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "0RUh3Gd",
+                  "cost": 135
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Elemental Chimera",
+                  "type": "item",
+                  "content": [
+                    "Breath Attack",
+                    "Flying",
+                    "Fortified",
+                    "Furious",
+                    "Resistance"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "rmQDCEou",
+      "hint": "Mercenary Hunters",
+      "forUnits": [
+        "Nxj9qhc"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "BlJrg6fRA4",
+              "label": "Empire Bounty (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Nxj9qhc",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Empire Bounty",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "tk5hIse9",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "yYreRfL"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sv6yej48",
+              "label": "Engineer (Re-Position Artillery)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Engineer",
+                  "type": "item",
+                  "content": [
+                    "Re-Position Artillery"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0KT7j9AhUd",
+              "label": "Captain (Rapid Rush Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Rapid Rush Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "a9HtN5MT",
+              "label": "Cleric (Furious Buff)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cleric",
+                  "type": "item",
+                  "content": [
+                    "Furious Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "V6OBvy2i",
+              "label": "Surgeon (Regeneration Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Surgeon",
+                  "type": "item",
+                  "content": [
+                    "Regeneration Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oCga83K2",
+              "label": "Logistics Officer (Precision Shooter Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Logistics Officer",
+                  "type": "item",
+                  "content": [
+                    "Precision Shooter Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "BnDx7EIf",
+              "label": "Battle Mage (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Battle Mage",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "rLZoovKo",
+              "label": "Master Battle Mage (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yYreRfL",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Battle Mage",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "V_Gobhvu",
+      "hint": "Message Runner",
+      "forUnits": [
+        "-ESvMWE",
+        "0IYBIDW",
+        "kY9pOKT",
+        "vmcM4E8",
+        "eXoFcRr",
+        "rKfk_hD"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "k5m3jl0m8K",
+              "label": "Message Runner (Extended Buff Range)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-ESvMWE",
+                  "cost": 5
+                },
+                {
+                  "unitId": "0IYBIDW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "kY9pOKT",
+                  "cost": 5
+                },
+                {
+                  "unitId": "vmcM4E8",
+                  "cost": 5
+                },
+                {
+                  "unitId": "eXoFcRr",
+                  "cost": 5
+                },
+                {
+                  "unitId": "rKfk_hD",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Message Runner",
+                  "type": "item",
+                  "content": [
+                    "Extended Buff Range"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ozQ0bUOC",
+      "hint": "Specialists - Master",
+      "forUnits": [
+        "Vj0QX3_"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "XAms9iBv",
+              "label": "Great Empire Icon Bearer (Hold the Line Boost Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Empire Icon Bearer",
+                  "type": "item",
+                  "content": [
+                    "Hold the Line Boost Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zCzn9Ag3",
+              "label": "Captain (Rapid Rush Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Rapid Rush Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jCsNtr7Y",
+              "label": "Cleric (Furious Buff)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cleric",
+                  "type": "item",
+                  "content": [
+                    "Furious Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "MEDktZQ2",
+              "label": "Bounty Hunter (Precision Fighting Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bounty Hunter",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighting Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "c67yYZZe",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "pbXLeUYX",
+              "label": "Logistics Officer (Precision Shooter Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Logistics Officer",
+                  "type": "item",
+                  "content": [
+                    "Precision Shooter Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zXmNOV7e",
+              "label": "General (Coordinate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Vj0QX3_",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "General",
+                  "type": "item",
+                  "content": [
+                    "Coordinate"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,8 +3,13 @@
   "factionName": "Human Inquisition",
   "gameSystem": "grimdark-future",
   "factionType": "zealot",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.263Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.133Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 57
+  },
   "units": [
     {
       "id": "ZaWWIux",
@@ -19,19 +24,42 @@
         "Tough(3)",
         "Inquisitorial Agent"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "rnWe_JBd"
+      ],
       "tags": [
+        "hero",
+        "leader",
+        "tough",
+        "human",
+        "zealot",
         "balanced",
         "elite",
-        "hero",
-        "human",
-        "leader",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "humanity": 3,
+        "faith": 4,
         "versatility": 2
       }
     },
@@ -48,19 +76,39 @@
         "Hero",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "3RFhbHWm",
+        "zkUk83CQ"
+      ],
       "tags": [
-        "balanced",
         "hero",
-        "human",
         "leader",
         "tough",
+        "human",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "humanity": 3,
+        "faith": 4,
         "versatility": 2
       }
     },
@@ -81,21 +129,45 @@
         "Surprise Attack(2)",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Neuro Pistol",
+          "range": 12,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Toxic Blade",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)",
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "hero",
+        "leader",
+        "tough",
+        "stealth",
+        "human",
+        "zealot",
         "balanced",
         "elite",
-        "hero",
-        "human",
-        "leader",
-        "stealth",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "subtlety": 4,
-        "leadership": 3,
         "humanity": 3,
+        "faith": 4,
         "versatility": 2
       }
     },
@@ -116,21 +188,43 @@
         "Inquisitorial Agent",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Helmet Laser",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "hero",
+        "leader",
+        "tough",
+        "stealth",
+        "human",
+        "zealot",
         "balanced",
         "elite",
-        "hero",
-        "human",
-        "leader",
-        "stealth",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "subtlety": 4,
-        "leadership": 3,
         "humanity": 3,
+        "faith": 4,
         "versatility": 2
       }
     },
@@ -151,24 +245,46 @@
         "Evasive",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Executioner Gun",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "Executioner Claw",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "elite",
         "fast",
         "hero",
-        "human",
         "leader",
         "regeneration",
+        "tough",
         "stealth",
-        "tough"
+        "human",
+        "zealot",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "subtlety": 4,
         "speed": 4,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "subtlety": 4,
         "humanity": 3,
+        "faith": 4,
         "versatility": 2
       }
     },
@@ -189,24 +305,48 @@
         "Tough(3)",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": " Heavy Sniper Rifle",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)",
+            "Reliable",
+            "Takedown"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
+        "defensive",
+        "hero",
+        "leader",
+        "scout",
+        "mobile",
+        "tough",
+        "stealth",
+        "human",
+        "zealot",
         "balanced",
         "elite",
-        "hero",
-        "human",
-        "leader",
-        "mobile",
-        "scout",
-        "stealth",
-        "tough"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "patience": 4,
+        "leadership": 5,
+        "elite": 5,
         "subtlety": 5,
-        "leadership": 3,
         "speed": 3,
         "humanity": 3,
+        "faith": 4,
         "versatility": 2
       }
     },
@@ -221,18 +361,37 @@
       "rules": [
         "Inquisitorial Agent"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
+        "human",
+        "zealot",
         "balanced",
         "expendable",
         "horde",
-        "human",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": 5,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": -3,
+        "collective": 5
       }
     },
     {
@@ -246,14 +405,28 @@
       "rules": [
         "Inquisitorial Agent"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "9Tpoj-3b"
+      ],
       "tags": [
+        "defensive",
         "human",
-        "melee",
-        "reliable"
+        "zealot",
+        "melee"
       ],
       "dimensionScores": {
+        "patience": 2,
         "humanity": 3,
-        "order": 2
+        "faith": 4,
+        "tech": -1
       }
     },
     {
@@ -268,19 +441,36 @@
         "Furious",
         "Inquisitorial Agent"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "igdQzGSG"
+      ],
       "tags": [
         "aggressive",
-        "balanced",
-        "expendable",
         "human",
-        "zealot"
+        "zealot",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "patience": -3,
         "humanity": 3,
         "faith": 4,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -295,20 +485,35 @@
         "Fearless",
         "Inquisitorial Agent"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "954Ie"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
-        "faithful",
         "fearless",
         "human",
-        "monster",
-        "zealot"
+        "zealot",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "faith": 5,
-        "humanity": -1,
-        "versatility": 2
+        "humanity": 3,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -323,15 +528,36 @@
         "Bounding",
         "Inquisitorial Agent"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "DG0s8"
+      ],
       "tags": [
+        "fast",
+        "human",
+        "zealot",
         "balanced",
-        "expendable",
-        "human"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "speed": 4,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -346,16 +572,32 @@
         "Inquisitorial Agent",
         "Fortified"
       ],
+      "weapons": [
+        {
+          "name": "Needle Sword",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Mi0opncS"
+      ],
       "tags": [
+        "defensive",
         "human",
+        "zealot",
         "melee",
-        "veteran",
-        "zealot"
+        "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "patience": 2,
         "humanity": 3,
-        "faith": 4
+        "faith": 4,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -370,17 +612,34 @@
         "Inquisitorial Agent",
         "Unpredictable Shooter"
       ],
+      "weapons": [
+        {
+          "name": "Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "TekucNAt"
+      ],
       "tags": [
-        "balanced",
         "human",
-        "unpredictable",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "order": -3,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -395,18 +654,37 @@
         "Caster Group",
         "Inquisitorial Agent"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "MH-1nGo5"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
-        "human",
         "magic",
-        "psychic"
+        "psychic",
+        "human",
+        "zealot",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "mystery": 5,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -421,18 +699,35 @@
         "Inquisitorial Agent",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Barb-Whip",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Shred"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "NBlatqkR"
+      ],
       "tags": [
-        "elite",
-        "human",
-        "melee",
+        "scout",
         "mobile",
-        "scout"
+        "human",
+        "zealot",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "subtlety": 3,
         "speed": 3,
-        "humanity": 3
+        "humanity": 3,
+        "faith": 4,
+        "patience": -1,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -447,15 +742,40 @@
         "Inquisitorial Agent",
         "Quick Readjustment"
       ],
+      "weapons": [
+        {
+          "name": "Daemon Ripple",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Indirect",
+            "Bane"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "jtgoZ8lv"
+      ],
       "tags": [
+        "human",
+        "zealot",
+        "indirect",
         "balanced",
-        "elite",
-        "human"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "subtlety": 1,
+        "patience": 1,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -470,16 +790,33 @@
         "Inquisitorial Agent",
         "Evasive"
       ],
+      "weapons": [
+        {
+          "name": "Dual Shock-Whips",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Surge"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "rzkqZd0a"
+      ],
       "tags": [
-        "elite",
+        "stealth",
         "human",
+        "zealot",
         "melee",
-        "stealth"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
         "subtlety": 4,
-        "humanity": 3
+        "humanity": 3,
+        "faith": 4,
+        "patience": -1,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -494,18 +831,41 @@
         "Inquisitorial Agent",
         "Relentless"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Cyborg Arm",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "JFTXK"
+      ],
       "tags": [
-        "balanced",
-        "cyborg",
-        "human",
         "ranged",
+        "human",
+        "zealot",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 2,
+        "patience": 1,
+        "tech": 1,
         "humanity": 3,
-        "versatility": 2
+        "faith": 4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -523,21 +883,41 @@
         "Transport(11)",
         "Inquisitorial Agent"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "eHBoGpYZ"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
         "vehicle",
-        "veteran"
+        "zealot",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "humanity": 3
+        "patience": -1,
+        "elite": 4,
+        "collective": 2,
+        "versatility": 1,
+        "tech": 4,
+        "faith": 4
       }
     },
     {
@@ -554,21 +934,46 @@
         "Inquisitorial Agent",
         "Tough(9)"
       ],
+      "weapons": [
+        {
+          "name": "Acid Cannon",
+          "range": 18,
+          "attacks": 6,
+          "special": [
+            "Bane"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "eHBoGpYZ",
+        "3nNYtL17"
+      ],
       "tags": [
-        "aggressive",
         "fast",
-        "human",
-        "ranged",
+        "aggressive",
         "tough",
         "vehicle",
-        "veteran"
+        "zealot",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "humanity": 3
+        "patience": -1,
+        "elite": 4,
+        "tech": 4,
+        "faith": 4
       }
     }
   ],

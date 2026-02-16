@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DATA_DIR = path.join(__dirname, '../data');
+const DATA_DIR = path.join(__dirname, '../data/untagged-army-books');
 const GRIMDARK_DIR = path.join(DATA_DIR, 'grimdark-future');
 const AGEOFANTASY_DIR = path.join(DATA_DIR, 'age-of-fantasy');
 

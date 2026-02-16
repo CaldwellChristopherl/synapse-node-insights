@@ -3,8 +3,13 @@
   "factionName": "Havoc Warriors",
   "gameSystem": "age-of-fantasy",
   "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.628Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.017Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 41
+  },
   "units": [
     {
       "id": "vnS2q8Z",
@@ -20,24 +25,34 @@
         "Tough(3)",
         "Versatile Attack"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "0F-loTQX"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
         "melee",
-        "tech",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3
+        "tech": -1
       }
     },
     {
@@ -53,24 +68,34 @@
         "Tough(3)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "0F-loTQX"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
         "melee",
-        "tech",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
         "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3
+        "tech": -1
       }
     },
     {
@@ -88,30 +113,37 @@
         "Havocbound",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "3kEH_O4p"
+      ],
       "tags": [
         "aggressive",
-        "chaotic",
-        "corrupted",
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "mobile",
+        "tough",
         "scout",
-        "tech",
-        "tough"
+        "mobile",
+        "corrupted",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "patience": -3,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "subtlety": 3,
         "speed": 3,
-        "order": -3
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -128,25 +160,41 @@
         "Tough(6)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Daemon Hammer",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
         "melee",
-        "monster",
-        "tech",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "leadership": 5,
+        "elite": 5,
         "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "order": -3
+        "tech": -1
       }
     },
     {
@@ -162,29 +210,38 @@
         "Havocbound",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1",
+        "-LAz1HOB"
+      ],
       "tags": [
         "aggressive",
-        "chaotic",
-        "cheap",
+        "scout",
+        "mobile",
         "corrupted",
+        "melee",
+        "cheap",
         "expendable",
         "horde",
-        "human",
-        "melee",
-        "mobile",
-        "scout",
-        "swarm",
-        "tech"
+        "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
-        "patience": -3,
+        "patience": -4,
         "subtlety": 3,
         "speed": 3,
-        "order": -3
+        "purity": -4,
+        "tech": -1,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -198,17 +255,30 @@
       "rules": [
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "F1",
+        "-LAz1HOB"
+      ],
       "tags": [
-        "chaotic",
         "corrupted",
-        "human",
         "melee",
-        "tech"
+        "armored"
       ],
       "dimensionScores": {
         "purity": -4,
-        "humanity": 3,
-        "order": -3
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -223,19 +293,32 @@
         "Havocbound",
         "Versatile Attack"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "F1",
+        "-LAz1HOB"
+      ],
       "tags": [
-        "chaotic",
         "corrupted",
-        "human",
         "melee",
-        "tech",
-        "veteran"
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
         "purity": -4,
-        "humanity": 3,
-        "order": -3
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -251,22 +334,27 @@
         "Unpredictable Fighter",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Mutated Limbs",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "chaotic",
-        "corrupted",
         "fearless",
-        "human",
+        "corrupted",
         "melee",
-        "tech",
-        "unpredictable",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "faith": 2,
-        "order": -5
+        "purity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -281,22 +369,28 @@
         "Tough(3)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "G1"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
-        "tech",
         "tough",
+        "corrupted",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "elite": 4,
         "purity": -4,
-        "humanity": 3,
-        "order": -3,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -306,27 +400,43 @@
       "size": 3,
       "quality": 4,
       "defense": 3,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Tough(3)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Great Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "cavalry",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
-        "tech",
         "tough",
-        "veteran"
+        "corrupted",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "elite": 4,
         "purity": -4,
-        "humanity": 3,
-        "speed": 3,
-        "order": -3
+        "tech": -1
       }
     },
     {
@@ -342,23 +452,30 @@
         "Tough(3)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Dual Heavy Hand Weapons",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "SP3-sldf"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
         "regeneration",
-        "tech",
         "tough",
+        "corrupted",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "elite": 4,
         "purity": -4,
-        "humanity": 3,
-        "order": -3,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -375,26 +492,35 @@
         "Havocbound",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Havoc Sword",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "CTIpA"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
         "mobile",
-        "scout",
-        "tech",
         "tough",
+        "scout",
+        "monster",
+        "corrupted",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
+        "elite": 4,
         "subtlety": 3,
-        "order": -3,
-        "tech": -3
+        "humanity": -3,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -409,24 +535,37 @@
         "Havocbound",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Shortbow",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "-LAz1HOB",
+        "AkjTzLVj"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
-        "expendable",
-        "human",
-        "mobile",
         "scout",
-        "tech"
+        "mobile",
+        "corrupted",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "subtlety": 3,
         "speed": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -442,22 +581,32 @@
         "Strider",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
         "mobile",
-        "tech"
+        "monster",
+        "corrupted",
+        "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "order": -3,
-        "tech": -3
+        "humanity": -3,
+        "purity": -4,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -467,28 +616,39 @@
       "size": 5,
       "quality": 5,
       "defense": 5,
-      "role": "fast-attack",
+      "role": "troops",
       "rules": [
         "Flying",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Armblades",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "n-7pC"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
+        "mobile",
+        "monster",
+        "corrupted",
         "melee",
-        "tech"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
+        "speed": 5,
+        "humanity": -3,
         "purity": -4,
-        "humanity": 3,
-        "speed": 3,
-        "order": -3,
-        "tech": -3
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -506,27 +666,34 @@
         "Havocbound",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "-LAz1HOB"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "chaotic",
-        "corrupted",
-        "expendable",
         "fast",
-        "human",
-        "melee",
-        "mobile",
+        "aggressive",
         "scout",
-        "tech"
+        "mobile",
+        "corrupted",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3,
+        "patience": -4,
         "subtlety": 3,
-        "order": -3
+        "purity": -4,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -542,24 +709,35 @@
         "Impact(1)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "K1",
+        "-LAz1HOB"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "chaotic",
-        "corrupted",
         "fast",
-        "human",
+        "aggressive",
+        "corrupted",
         "melee",
-        "tech",
-        "veteran"
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "speed": 4,
+        "patience": -4,
         "purity": -4,
-        "humanity": 3,
-        "speed": 5,
-        "patience": -3,
-        "order": -3
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -576,27 +754,44 @@
         "Tough(3)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hooves",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hexed Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1",
+        "ABgXpNp_"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "chaotic",
-        "corrupted",
-        "daemon",
-        "elite",
         "fast",
-        "human",
+        "aggressive",
+        "tough",
+        "corrupted",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -5,
-        "humanity": -1,
-        "faith": 3,
-        "speed": 5,
+        "speed": 4,
         "patience": -3,
-        "order": -3
+        "elite": 5,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -613,25 +808,32 @@
         "Tough(6)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Great Weapon",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aggressive",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "tough",
         "monster",
-        "tech",
-        "tough"
+        "corrupted",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "purity": -4,
         "patience": -3,
-        "order": -3,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -641,27 +843,44 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "troops",
       "rules": [
         "Fear(2)",
         "Tough(12)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Giant Fists",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "nviJ6TNd"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
-        "tech",
         "tough",
-        "veteran"
+        "corrupted",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
+        "elite": 4,
         "purity": -4,
-        "order": -3
+        "tech": -1
       }
     },
     {
@@ -678,25 +897,42 @@
         "Tough(12)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Razor Claws",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "7oz3TNet"
+      ],
       "tags": [
         "aggressive",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
-        "tech",
         "tough",
-        "veteran"
+        "monster",
+        "corrupted",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
         "patience": -3,
-        "order": -3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -714,25 +950,41 @@
         "Tough(12)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Triple Jaws",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
         "flying",
-        "human",
-        "melee",
-        "monster",
-        "tech",
+        "mobile",
         "tough",
-        "veteran"
+        "monster",
+        "corrupted",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
+        "speed": 5,
+        "elite": 4,
+        "humanity": -3,
         "purity": -4,
-        "speed": 3,
-        "order": -3,
-        "tech": -3
+        "tech": -1
       }
     },
     {
@@ -750,26 +1002,50 @@
         "Tough(12)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Vortex of Mutation",
+          "range": 18,
+          "attacks": 3,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Barbed Tentacles",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "7oz3TNet"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "monster",
         "regeneration",
-        "tech",
         "tough",
-        "unpredictable",
-        "veteran"
+        "monster",
+        "corrupted",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
+        "patience": 1,
+        "elite": 4,
+        "humanity": -3,
         "purity": -4,
-        "order": -5,
-        "versatility": 2,
-        "tech": -3
+        "versatility": 2
       }
     },
     {
@@ -786,25 +1062,41 @@
         "Tough(6)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Hooves",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "s5sVEnxl"
+      ],
       "tags": [
-        "aggressive",
-        "cavalry",
-        "chaotic",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
+        "aggressive",
+        "tough",
+        "cavalry",
+        "corrupted",
         "melee",
-        "tech",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "patience": -3,
-        "order": -3
+        "elite": 5,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -814,7 +1106,7 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "monster",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Fear(1)",
@@ -822,28 +1114,43 @@
         "Tough(6)",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "DyClsPve"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "chaotic",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
+        "aggressive",
+        "tough",
+        "cavalry",
+        "corrupted",
         "melee",
-        "monster",
-        "tech",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "purity": -4,
         "speed": 5,
         "patience": -3,
-        "order": -3,
-        "tech": -3
+        "elite": 5,
+        "purity": -4,
+        "tech": -1
       }
     },
     {
@@ -859,25 +1166,43 @@
         "Artillery",
         "Havocbound"
       ],
+      "weapons": [
+        {
+          "name": "Hell Fire",
+          "range": 36,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "M1"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
-        "daemon",
-        "defensive",
-        "monster",
-        "ranged",
-        "static",
         "tough",
+        "artillery",
+        "static",
+        "ranged",
+        "corrupted",
+        "indirect",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -5,
-        "humanity": -4,
-        "faith": 3,
         "patience": 5,
-        "order": -3,
+        "elite": 4,
+        "tech": 3,
+        "purity": -4,
+        "subtlety": 1,
         "versatility": 2
       }
     }

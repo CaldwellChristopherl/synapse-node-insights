@@ -1,0 +1,2587 @@
+{
+  "factionId": "VU1EFPa2uODffW8D",
+  "factionName": "Duchies of Vinci",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Vinci Leader",
+      "forUnits": [
+        "4xFAaqz"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gO3KQ",
+              "label": "Poisoned Armblades (A4, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Poisoned Armblades",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "rAGmVIp",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yCjbI",
+              "label": "Advanced Rapid Handbow (9\", A3, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Advanced Rapid Handbow",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "yMshtqjoFt",
+              "label": "Advanced Slayerbolt Crossbow (18\", A2, Decimate)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Advanced Slayerbolt Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Decimate"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "_znibsY",
+              "label": "Advanced Crossbow (24\", A2, Rending)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Advanced Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "JqNe36H",
+              "label": "Automa Pigeon (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Automa Pigeon",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "1zB2d62",
+              "label": "Automa Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Automa Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xAUxSILxZx",
+              "label": "Stealth Assassin (Ambush, Stealth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stealth Assassin",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "sro5XIS",
+              "label": "Automa Boar (Metal Tusks (A1, AP(1)), Armor(3), Fast, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Automa Boar",
+                  "type": "item",
+                  "content": [
+                    "Metal Tusks",
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "eLlNVCX",
+              "label": "Automa Bird (Heavy Claws (A6, AP(1)), Armor(3), Fear(1), Flying, Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 135
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Automa Bird",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Armor",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "nZYtOPCx",
+              "label": "Bot-Bow Drone (18\", A1, AP(1), Limited, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bot-Bow Drone",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "AP",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "hyQX59GQ",
+              "label": "Sawblade Drone (A2, Limited, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sawblade Drone",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "aSBa409_",
+              "label": "Markerflare Drone (Precision Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Markerflare Drone",
+                  "type": "item",
+                  "content": [
+                    "Precision Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Vinci Scholar",
+      "forUnits": [
+        "-9F1FDu"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "LAC-7PA",
+              "label": "Cog-Explosives (12\", A1, Blast(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cog-Explosives",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "ZnLmwQc",
+              "label": "Sleeve-Shooter (12\", A2, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sleeve-Shooter",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "b2ubUSkKBe",
+              "label": "Automa Leader (Fearless)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Automa Leader",
+                  "type": "item",
+                  "content": [
+                    "Fearless"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "rzDTspY",
+              "label": "Automa Horse (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Automa Horse",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "uUaMj",
+              "label": "Automa Helper (Mend)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Automa Helper",
+                  "type": "item",
+                  "content": [
+                    "Mend"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "p6M56SKg",
+              "label": "Sawblade Drone (A2, Limited, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sawblade Drone",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "k-kEImW5",
+              "label": "Bot-Bow Drone (18\", A1, AP(1), Limited, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bot-Bow Drone",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "AP",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "MwDkE714",
+              "label": "Markerflare Drone (Precision Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Markerflare Drone",
+                  "type": "item",
+                  "content": [
+                    "Precision Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "gh9JJOe"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "LDr2dv8",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "gh9JJOe",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "vrKSbOa",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "gh9JJOe",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Vx8dNU-",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "gh9JJOe",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Militia",
+      "forUnits": [
+        "gh9JJOe"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "86RgiGV",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "gh9JJOe",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "wihhExx",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "gh9JJOe",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade up to two models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vPY3Gtvv",
+              "label": "Bot-Bow Drone (18\", A1, AP(1), Limited, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "gh9JJOe",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bot-Bow Drone",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "AP",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "Sa4md-95",
+              "label": "Sawblade Drone (A2, Limited, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "gh9JJOe",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sawblade Drone",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "OkRavSB7",
+              "label": "Markerflare Drone (Precision Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gh9JJOe",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Markerflare Drone",
+                  "type": "item",
+                  "content": [
+                    "Precision Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Automa Guard",
+      "forUnits": [
+        "00sI1ix"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "QibLhm5",
+              "label": "Self-Repairing (Regeneration)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "00sI1ix",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Self-Repairing",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Harlequins",
+      "forUnits": [
+        "jVLKMIF"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Juggler Bombs and Knives",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "FRTRt",
+              "label": "Club (A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "jVLKMIF",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Club",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Assassins",
+      "forUnits": [
+        "Zpo3LF7"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "R38jndG",
+              "label": "Poisoned Blades (Bane in Melee)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "Zpo3LF7",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Poisoned Blades",
+                  "type": "item",
+                  "content": [
+                    "Bane in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "p5HWsy-",
+              "label": "Throwing Knives (12\", A1)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "Zpo3LF7",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Knives",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "City Guard",
+      "forUnits": [
+        "s2QC06M"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Slayerbolt Crossbow",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lsGXtgHFCv",
+              "label": "Crossbow (24\", A1, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "s2QC06M",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "cFImeuP",
+              "label": "Shotbow (12\", A2, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "s2QC06M",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shotbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all Crossbows with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "vT5-kcD",
+              "label": "Heavy Bolts (Ignores Cover)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "s2QC06M",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Bolts",
+                  "type": "item",
+                  "content": [
+                    "Ignores Cover"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sfQKsSK",
+              "label": "Flame Bolts (Bane)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "s2QC06M",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flame Bolts",
+                  "type": "item",
+                  "content": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Scouts",
+      "forUnits": [
+        "OciwHsc"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "GRx5ZcX",
+              "label": "Wings (Ambush, Flying)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "OciwHsc",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "aU8Yw",
+              "label": "Metal Spurs (Impact(1))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "OciwHsc",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Metal Spurs",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Automa Drones",
+      "forUnits": [
+        "gAsJjC8"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Bot-Sawblades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "BmjhFBv",
+              "label": "Bot-Bows (18\", A1, AP(1), Rending), Rotor Blades (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "gAsJjC8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bot-Bows",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Rotor Blades",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Aerea Guard",
+      "forUnits": [
+        "2I2swvL"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Dual Heavy Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "91pTkUzsep",
+              "label": "Heavy Slayerbolt Crossbow (18\", A2, Decimate), Bash (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2I2swvL",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Slayerbolt Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Decimate"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any Heavy Slayerbolt Crossbow",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "TqZDasn-Oo",
+              "label": "Heavy Crossbow (24\", A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2I2swvL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "_LSrOmO",
+              "label": "Heavy Shotbow (12\", A4, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "2I2swvL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Shotbow",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all Heavy Crossbows with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Yz77kcI",
+              "label": "Heavy Bolts (Ignores Cover)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "2I2swvL",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Bolts",
+                  "type": "item",
+                  "content": [
+                    "Ignores Cover"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "SssK7eF",
+              "label": "Flame Bolts (Bane)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "2I2swvL",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Flame Bolts",
+                  "type": "item",
+                  "content": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "EnTtYVB0",
+              "label": "Spotting Scope (Increased Shooting Range Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2I2swvL",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Scope",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Automa Brutes",
+      "forUnits": [
+        "Cfl-Phe"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "9V-1GCI",
+              "label": "Self-Repairing (Regeneration)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "Cfl-Phe",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Self-Repairing",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M1",
+      "hint": "Automa Cavalry",
+      "forUnits": [
+        "pRfAhrc"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "yzSPV",
+              "label": "Rapid Handbow (9\", A2, Rending), Hand Weapon (A1)",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "pRfAhrc",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Handbow",
+                  "type": "weapon",
+                  "range": 9,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "A2",
+      "hint": "Vita Aerea",
+      "forUnits": [
+        "BVHvAzH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Slayerbolt Crossbow Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "qQXyRAdU6D",
+              "label": "Crossbow Crew (24\", A6, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BVHvAzH",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow Crew",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 6,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "zjSYD",
+              "label": "Crossbow Crew (24\", A4, Rending), Gunship (Crossing Barrage(2))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "BVHvAzH",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gunship",
+                  "type": "item",
+                  "content": [
+                    "Crossing Barrage"
+                  ]
+                },
+                {
+                  "name": "Crossbow Crew",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "-tULUh1",
+              "label": "Forward Deployment (Scout)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "BVHvAzH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Forward Deployment",
+                  "type": "item",
+                  "content": [
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "LvSX44juxy",
+              "label": "Spotting Scope (Increased Shooting Range Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "BVHvAzH",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Scope",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B2",
+      "hint": "Support Wagon",
+      "forUnits": [
+        "Un5rOt_"
+      ],
+      "sections": [
+        {
+          "label": "Replace Repeater Slayerbolt Crossbow",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "FI58KWMk08",
+              "label": "Repeater Crossbow (18\", A6, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Un5rOt_",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Repeater Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "XPXPsb8",
+              "label": "Light Mortar (24\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "Un5rOt_",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light Mortar",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D2",
+      "hint": "Vinci Artillery",
+      "forUnits": [
+        "B5FFpCx"
+      ],
+      "sections": [
+        {
+          "label": "Replace Ribauldequin",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "qtAjM",
+              "label": "Scout-Gunner Slingshot (30\", A1, AP(1), Deadly(3), Indirect, Takedown)",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "B5FFpCx",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scout-Gunner Slingshot",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Indirect",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "IVaWL",
+              "label": "Spingarde (30\", A2, AP(1), Blast(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "B5FFpCx",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spingarde",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "4WlKjsd",
+              "label": "Heavy Spingarde (30\", A2, AP(2), Deadly(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "B5FFpCx",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spingarde",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "U0d14",
+              "label": "Scout-Bomber Slingshot (24\", A2, Blast(3), Indirect, Precise)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "B5FFpCx",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scout-Bomber Slingshot",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Indirect",
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "X3Cmc",
+              "label": "Heavy Mortar (36\", A2, AP(1), Blast(3), Indirect)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "B5FFpCx",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Mortar",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "uCa22iH9",
+              "label": "Spotting Scope (Increased Shooting Range Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "B5FFpCx",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Scope",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "uyzBp",
+      "hint": "Vinci Titan",
+      "forUnits": [
+        "bG1Baax"
+      ],
+      "sections": [
+        {
+          "label": "Replace Vulcolato Bull Titan",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "4WkCL",
+              "label": "Paretemi Bear Titan (Super-Heavy Cannon (30\", A2, AP(4), Deadly(6)))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bG1Baax",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Paretemi Bear Titan",
+                  "type": "item",
+                  "content": [
+                    "Super-Heavy Cannon"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "BNXWm",
+              "label": "Milfilumi Turtle Titan (Heavy Mortar (36\", A2, AP(1), Blast(3), Indirect), Shoulder-Cannons (18\", A2, AP(2), Blast(3)))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bG1Baax",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Milfilumi Turtle Titan",
+                  "type": "item",
+                  "content": [
+                    "Shoulder-Cannons",
+                    "Heavy Mortar"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "8100Z",
+              "label": "Cargo Hold (Transport(21))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bG1Baax",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cargo Hold",
+                  "type": "item",
+                  "content": [
+                    "Transport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N0GXw6Yy",
+      "hint": "Support Drones",
+      "forUnits": [
+        "s2QC06M"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "HX_64N_K",
+              "label": "Sawblade Drone (A2, Limited, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "s2QC06M",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sawblade Drone",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "Rending",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "nir9JPhM",
+              "label": "Bot-Bow Drone (18\", A1, AP(1), Limited, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "s2QC06M",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bot-Bow Drone",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "AP",
+                    "Limited"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "bLLu-kCm",
+              "label": "Markerflare Drone (Precision Spotter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "s2QC06M",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Markerflare Drone",
+                  "type": "item",
+                  "content": [
+                    "Precision Spotter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "jD85fBXp",
+      "hint": "Snipers",
+      "forUnits": [
+        "MAIEJ2g"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Slayerbolt Snipebow",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "wzp6uC7UVE",
+              "label": "Snipebow (30\", A1, Reliable, Rending, Takedown)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MAIEJ2g",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Snipebow",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "Rending",
+                    "Takedown",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "s1m-y7Vh9U",
+              "label": "Pavise Shield (Shielded, Slow)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MAIEJ2g",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pavise Shield",
+                  "type": "item",
+                  "content": [
+                    "Shielded",
+                    "Slow"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "w_NJjMTQ",
+              "label": "Spotting Scope (Increased Shooting Range Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MAIEJ2g",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spotting Scope",
+                  "type": "item",
+                  "content": [
+                    "Increased Shooting Range Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "WosSXv5y",
+      "hint": "Specialists - Scholar",
+      "forUnits": [
+        "-9F1FDu"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yWHXF8G7Ts",
+              "label": "Mindstone Protector (Fortified Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mindstone Protector",
+                  "type": "item",
+                  "content": [
+                    "Fortified Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "xSFidrxj",
+              "label": "Artillery Inventor (Re-Position Artillery)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Artillery Inventor",
+                  "type": "item",
+                  "content": [
+                    "Re-Position Artillery"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "GmPbTrvk1W",
+              "label": "Captain (Rapid Advance Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Rapid Advance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "yqRSNgpe",
+              "label": "Alchemist (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Alchemist",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "2BMtz5tR",
+              "label": "Munitioner (Ranged Slayer Aura)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Munitioner",
+                  "type": "item",
+                  "content": [
+                    "Ranged Slayer Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZoBJQESpql",
+              "label": "Inventor (Vinci Tech Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-9F1FDu",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Inventor",
+                  "type": "item",
+                  "content": [
+                    "Vinci Tech Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "VvAkECQ2",
+      "hint": "Specialists - Leader",
+      "forUnits": [
+        "4xFAaqz"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "B1-V-s51",
+              "label": "Mindstone Protector (Fortified Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mindstone Protector",
+                  "type": "item",
+                  "content": [
+                    "Fortified Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "AyhbPMCJ",
+              "label": "War Master (Unstoppable in Melee Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Master",
+                  "type": "item",
+                  "content": [
+                    "Unstoppable in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xDsGsYp4dh",
+              "label": "Master Assassin (Takedown Strike)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Assassin",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "7Jm39IZt",
+              "label": "Captain (Rapid Advance Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Captain",
+                  "type": "item",
+                  "content": [
+                    "Rapid Advance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "OGhMu91j",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "zxYQmtn2",
+              "label": "Munitioner (Ranged Slayer Aura)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "4xFAaqz",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Munitioner",
+                  "type": "item",
+                  "content": [
+                    "Ranged Slayer Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

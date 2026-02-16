@@ -2,9 +2,14 @@
   "factionId": "mdT4HVzHUmxGevc_",
   "factionName": "Ghostly Undead",
   "gameSystem": "age-of-fantasy",
-  "factionType": "organic",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.574Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.900Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "troops",
+    "rolePercentage": 50
+  },
   "units": [
     {
       "id": "KIRv9jr",
@@ -21,21 +26,36 @@
         "Empyrean Spirit",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Howl",
+          "range": 12,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "lqzGwh_x"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "elite",
         "hero",
         "leader",
-        "organic",
-        "tough"
+        "tough",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "tech": -2,
-        "leadership": 3,
-        "tradition": 4,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -55,23 +75,35 @@
         "Empyrean Spirit",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Scythe",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)",
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "eJI1E_qq"
+      ],
       "tags": [
-        "ancient",
-        "elite",
+        "ambush",
+        "mobile",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "mobile",
-        "organic",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "tech": -2,
+        "subtlety": 3,
         "speed": 3,
-        "leadership": 3,
-        "tradition": 4
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -89,23 +121,33 @@
         "Tough(3)",
         "Empyrean Spirit"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "DwWN9Aya"
+      ],
       "tags": [
         "aggressive",
-        "ancient",
         "hero",
         "leader",
-        "melee",
-        "organic",
         "tough",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": -2,
         "patience": -3,
-        "leadership": 3,
-        "tradition": 4
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -122,21 +164,29 @@
         "Tough(3)",
         "Empyrean Spirit"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "4PjthEaU"
+      ],
       "tags": [
-        "ancient",
-        "expendable",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "organic",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "tech": -2,
-        "leadership": 3,
-        "tradition": 4
+        "leadership": 5,
+        "elite": -1,
+        "tech": -1
       }
     },
     {
@@ -151,20 +201,31 @@
         "Empyrean Spirit",
         "Ethereal"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "E1",
+        "CPvLfHLQ"
+      ],
       "tags": [
-        "ancient",
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
-        "organic",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
-        "collective": 5,
-        "tech": -2,
-        "tradition": 4
+        "collective": 5
       }
     },
     {
@@ -179,14 +240,26 @@
         "Ethereal",
         "Empyrean Spirit"
       ],
+      "weapons": [
+        {
+          "name": "Scythe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "ancient",
-        "melee",
-        "organic"
+        "melee"
       ],
       "dimensionScores": {
-        "tech": -2,
-        "tradition": 4
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -202,14 +275,25 @@
         "Empyrean Spirit",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Mourning Blade",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "ancient",
-        "melee",
-        "organic"
+        "melee"
       ],
       "dimensionScores": {
-        "tech": -2,
-        "tradition": 4
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -225,16 +309,28 @@
         "Empyrean Spirit",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Dual Scythe-Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "CPvLfHLQ"
+      ],
       "tags": [
-        "ancient",
-        "expendable",
         "melee",
-        "organic"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
-        "tradition": 4
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -250,16 +346,27 @@
         "Furious",
         "Empyrean Spirit"
       ],
+      "weapons": [
+        {
+          "name": "Scythe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "wHhlY85e"
+      ],
       "tags": [
         "aggressive",
-        "ancient",
-        "melee",
-        "organic"
+        "melee"
       ],
       "dimensionScores": {
-        "tech": -2,
-        "patience": -3,
-        "tradition": 4
+        "patience": -4,
+        "tech": -1
       }
     },
     {
@@ -276,18 +383,32 @@
         "Empyrean Spirit",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Scythe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "MeybUWcq"
+      ],
       "tags": [
-        "ancient",
-        "melee",
+        "ambush",
         "mobile",
-        "organic",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -2,
+        "subtlety": 3,
         "speed": 3,
-        "tradition": 4
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -302,17 +423,38 @@
         "Empyrean Spirit",
         "Ethereal"
       ],
+      "weapons": [
+        {
+          "name": "Soul Crossbow",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Indirect",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "CPvLfHLQ",
+        "zZfJHgdn"
+      ],
       "tags": [
-        "ancient",
+        "indirect",
         "balanced",
-        "expendable",
-        "organic"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
-        "tradition": 4,
-        "versatility": 2
+        "subtlety": 1,
+        "patience": 1,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -328,17 +470,32 @@
         "Empyrean Spirit",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Howl",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "MeybUWcq"
+      ],
       "tags": [
-        "ancient",
         "balanced",
-        "organic",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -2,
-        "tradition": 4,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -355,21 +512,28 @@
         "Empyrean Spirit",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "MeybUWcq"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "horde",
-        "melee",
-        "organic",
-        "swarm",
         "tough",
+        "horde",
+        "swarm",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -5,
+        "elite": 4,
         "collective": 5,
-        "tradition": 4
+        "tech": -1
       }
     },
     {
@@ -386,20 +550,32 @@
         "Fast",
         "Impact(1)"
       ],
+      "weapons": [
+        {
+          "name": "Glaive",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "CPvLfHLQ"
+      ],
       "tags": [
-        "aggressive",
-        "ancient",
-        "expendable",
         "fast",
+        "aggressive",
         "melee",
-        "organic"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": -2,
         "speed": 4,
-        "patience": -3,
-        "tradition": 4
+        "patience": -4,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -416,16 +592,28 @@
         "Fast",
         "Traversal"
       ],
+      "weapons": [
+        {
+          "name": "Scythe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Reap"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "96kly5my"
+      ],
       "tags": [
-        "ancient",
         "fast",
-        "melee",
-        "organic"
+        "melee"
       ],
       "dimensionScores": {
-        "tech": -2,
         "speed": 4,
-        "tradition": 4
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -442,20 +630,30 @@
         "Empyrean Spirit",
         "Fast"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "L1"
+      ],
       "tags": [
         "aggressive",
-        "ancient",
         "fast",
         "melee",
-        "organic",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -2,
-        "patience": -3,
+        "patience": -4,
         "speed": 4,
-        "tradition": 4
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -465,7 +663,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "monster",
+      "role": "fast-attack",
       "rules": [
         "Ethereal",
         "Fear(1)",
@@ -474,23 +672,37 @@
         "Empyrean Spirit",
         "Fast"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Scythe Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Reap"
+          ]
+        },
+        {
+          "name": "Hooves",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "aggressive",
-        "ancient",
+        "tough",
         "fast",
         "melee",
-        "monster",
-        "organic",
-        "tough",
-        "veteran"
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
-        "tech": -2,
         "patience": -3,
+        "elite": 4,
         "speed": 4,
-        "tradition": 4
+        "tech": -1
       }
     },
     {
@@ -510,24 +722,48 @@
         "Resistance",
         "Fast"
       ],
+      "weapons": [
+        {
+          "name": "Howl",
+          "range": 12,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Hooves",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "1X1mk0CM"
+      ],
       "tags": [
-        "aggressive",
-        "ancient",
-        "balanced",
-        "fast",
         "magic",
-        "organic",
         "psychic",
+        "aggressive",
         "tough",
+        "fast",
+        "cavalry",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": -2,
         "mystery": 5,
-        "patience": -3,
-        "speed": 4,
-        "tradition": 4,
+        "patience": -2,
+        "elite": 4,
+        "speed": 5,
         "versatility": 2
       }
     }

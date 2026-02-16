@@ -1,6 +1,15 @@
-export const extractTags = (unit) => {
+/**
+ * Runtime tag extraction from unit data.
+ * Used as fallback when pre-tagged data is not available.
+ *
+ * @param {Object} unit - Unit with rules, weapons, name, etc.
+ * @param {Object} [context] - Optional faction context { factionType, monoType }
+ * @returns {string[]} Array of tags
+ */
+export const extractTags = (unit, context) => {
   const tags = [];
   const unitName = (unit.name || '').toLowerCase();
+  const factionType = context?.factionType || 'mixed';
 
   // Extract tags from unit rules
   unit.rules?.forEach(rule => {
@@ -13,7 +22,13 @@ export const extractTags = (unit) => {
     if (ruleName.includes('ambush')) tags.push('ambush', 'mobile');
     if (ruleName.includes('strider')) tags.push('mobile');
     if (ruleName.includes('slow')) tags.push('slow');
-    if (ruleName.includes('aircraft')) tags.push('aircraft', 'flying', 'vehicle');
+    if (ruleName.includes('aircraft')) {
+      if (factionType === 'organic') {
+        tags.push('flying');
+      } else {
+        tags.push('aircraft', 'flying', 'vehicle');
+      }
+    }
     if (ruleName.includes('bounding')) tags.push('fast');
 
     // Combat rules
@@ -22,25 +37,31 @@ export const extractTags = (unit) => {
     if (ruleName.includes('fearless')) tags.push('fearless');
     if (ruleName.includes('furious')) tags.push('aggressive');
     if (ruleName.includes('impact')) tags.push('aggressive');
-    if (ruleName.includes('shielded')) tags.push('defensive');
+    if (ruleName.includes('shielded') || ruleName.includes('fortified')) tags.push('defensive');
     if (ruleName.includes('regeneration')) tags.push('regeneration');
     if (ruleName.includes('stealth')) tags.push('stealth');
     if (ruleName.includes('relentless')) tags.push('ranged');
     if (ruleName.includes('artillery')) tags.push('artillery', 'static', 'ranged');
+    if (ruleName.includes('good shot')) tags.push('ranged');
+    if (ruleName.includes('sniper')) tags.push('sniper', 'ranged');
+    if (ruleName.includes('infiltrate')) tags.push('stealth', 'infiltrate');
 
-    // Special abilities
+    // Psychic/Magic
     if (ruleName.includes('caster') || ruleName.includes('wizard') || ruleName.includes('psychic')) {
       tags.push('magic', 'psychic');
     }
     if (ruleName.includes('transport')) tags.push('transport');
-    if (ruleName.includes('good shot')) tags.push('ranged');
+
+    // v1.8.0: Honor Code and Mercenary
+    if (ruleName.includes('honor code')) tags.push('honorable', 'noble');
+    if (ruleName.includes('mercenary')) tags.push('independent');
 
     // Faction-wide rules
     if (ruleName.includes('battleborn')) tags.push('disciplined', 'fearless');
     if (ruleName.includes('bloodborn')) tags.push('aggressive', 'melee');
     if (ruleName.includes('darkborn')) tags.push('stealth');
     if (ruleName.includes('hold the line')) tags.push('disciplined');
-    if (ruleName.includes('hive bond')) tags.push('collective');
+    if (ruleName.includes('hive bond') || ruleName.includes('hivebond')) tags.push('collective');
     if (ruleName.includes('mischievous')) tags.push('treacherous', 'cunning');
     if (ruleName.includes('reinforced')) tags.push('tough', 'resilient');
     if (ruleName.includes('for the greater good')) tags.push('collective', 'disciplined');
@@ -49,6 +70,8 @@ export const extractTags = (unit) => {
         ruleName.includes('plague') || ruleName.includes('war'))) {
       tags.push('corrupted');
     }
+    if (ruleName.includes('undead')) tags.push('corrupted');
+    if (ruleName.includes('poison')) tags.push('poison');
   });
 
   // Name-based detection for vehicles
@@ -58,7 +81,8 @@ export const extractTags = (unit) => {
   }
   if (unitName.includes('walker') || unitName.includes('titan') || unitName.includes('mech') ||
       unitName.includes('dreadnought')) {
-    tags.push('vehicle');
+    if (factionType !== 'organic') tags.push('vehicle');
+    else tags.push('monster');
   }
   if (unitName.includes('gunship') || unitName.includes('aircraft') || unitName.includes('flyer') ||
       unitName.includes('bomber') || unitName.includes('fighter')) {
@@ -70,7 +94,7 @@ export const extractTags = (unit) => {
   }
 
   // Battlesuit/Mech detection
-  if (unitName.includes('suit') || unitName.includes('battlesuit') || unitName.includes('armor')) {
+  if (unitName.includes('suit') || unitName.includes('battlesuit')) {
     tags.push('vehicle');
   }
 
@@ -81,30 +105,25 @@ export const extractTags = (unit) => {
   }
 
   // Assassin detection
-  if (unitName.includes('assassin')) {
-    tags.push('stealth');
-  }
+  if (unitName.includes('assassin')) tags.push('stealth');
 
   // Robot/Drone detection
   if (unitName.includes('robot') || unitName.includes('automaton') || unitName.includes('construct')) {
     tags.push('robot');
   }
-  if (unitName.includes('drone')) {
-    tags.push('drone', 'robot');
-  }
+  if (unitName.includes('drone')) tags.push('drone', 'robot');
+
+  // Faction type context tags
+  if (factionType === 'organic') tags.push('organic');
+  if (factionType === 'corrupted') tags.push('corrupted');
+  if (factionType === 'zealot') tags.push('zealot');
 
   // Analyze weapons for combat style
   let hasRanged = false;
   let hasMelee = false;
   unit.weapons?.forEach(weapon => {
-    if (weapon.range > 24) {
-      tags.push('long-range', 'artillery');
-      hasRanged = true;
-    } else if (weapon.range > 0) {
-      hasRanged = true;
-    } else {
-      hasMelee = true;
-    }
+    if (weapon.range > 0) hasRanged = true;
+    else hasMelee = true;
   });
 
   if (hasRanged && !hasMelee) tags.push('ranged');
@@ -112,10 +131,8 @@ export const extractTags = (unit) => {
   else if (hasRanged && hasMelee) tags.push('balanced');
 
   // Stats-based tags
-  const costPerModel = unit.cost / unit.size;
-  const qualityScore = 6 - unit.quality;
+  const costPerModel = unit.cost / (unit.size || 1);
 
-  // Elite vs cheap calculation
   if (costPerModel >= 30 && unit.quality <= 3) {
     tags.push('elite');
   } else if (costPerModel >= 20 && unit.quality <= 4) {
@@ -124,18 +141,17 @@ export const extractTags = (unit) => {
     tags.push('cheap');
   }
 
-  if (unit.quality >= 5) {
-    tags.push('expendable');
-  }
+  if (unit.quality >= 5) tags.push('expendable');
+  if ((unit.size || 1) >= 10) tags.push('horde', 'swarm');
+  if (unit.defense <= 3) tags.push('armored');
 
-  // Swarm/horde detection
-  if (unit.size >= 10) {
-    tags.push('horde', 'swarm');
-  }
-
-  // Armored units
-  if (unit.defense <= 3) {
-    tags.push('armored');
+  // Mono-type versatility override (v1.8.0)
+  if (context?.monoType?.isMonoType) {
+    const idx1 = tags.indexOf('versatile');
+    if (idx1 >= 0) tags.splice(idx1, 1);
+    const idx2 = tags.indexOf('adaptive');
+    if (idx2 >= 0) tags.splice(idx2, 1);
+    tags.push('specialist');
   }
 
   return [...new Set(tags)];

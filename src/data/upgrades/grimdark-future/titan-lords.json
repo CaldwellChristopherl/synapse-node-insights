@@ -1,0 +1,2388 @@
+{
+  "factionId": "3j10zage1lddt6sr",
+  "factionName": "Titan Lords",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Mini-Titan Upgrades",
+      "forUnits": [
+        "v_CUjRs",
+        "doBdEas",
+        "yxEPpE-"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "YQiHb",
+              "label": "Top-Fuser (12\", A1, AP(4), Deadly(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 35
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 35
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Top-Fuser",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "3qBGx",
+              "label": "Top-Machinegun (30\", A3, AP(1))",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 50
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 50
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Top-Machinegun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "HSqlb",
+              "label": "Top-Launcher (36\", A1, Blast(3), Indirect)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 60
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 60
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Top-Launcher",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "jk6Wr",
+              "label": "Titan Core (Delayed Action)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 20
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 20
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Core",
+                  "type": "item",
+                  "content": [
+                    "Delayed Action"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "1BABw5X-in",
+              "label": "Psychic Lord (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 40
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 40
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychic Lord",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "aG4SOBv",
+              "label": "Energy Field (Regeneration)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 40
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 40
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Field",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3SA99wHR0S",
+              "label": "Assault Config (Fast, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 45
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 45
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Assault Config",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Titan Upgrades",
+      "forUnits": [
+        "69MeS1T",
+        "blwKVKT",
+        "4iPKrlj"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Hull-Fuser",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8lys0",
+              "label": "Hull-Machinegun (30\", A3, AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 15
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 15
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hull-Machinegun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ljbaU4G",
+              "label": "Top-Rocket (36\", A1, Blast(3), Indirect)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 60
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 60
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Top-Rocket",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "39m0E",
+              "label": "Top-Missile (36\", A1, AP(2), Deadly(3))",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 60
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 60
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Top-Missile",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "V3Q7Q",
+              "label": "Top-Anti-Air (36\", A3, AP(1), Unstoppable)",
+              "cost": 75,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 65
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 65
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Top-Anti-Air",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Unstoppable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "4P7xg",
+              "label": "Titan Core (Delayed Action)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 20
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 20
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Core",
+                  "type": "item",
+                  "content": [
+                    "Delayed Action"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "T-Q93JL55O",
+              "label": "Exploration Config (Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 30
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 30
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Exploration Config",
+                  "type": "item",
+                  "content": [
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "RhG2EvmQps",
+              "label": "Psychic Lord (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 65
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 65
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychic Lord",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "r2-9d7S",
+              "label": "Energy Field (Regeneration)",
+              "cost": 120,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 90
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 90
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Field",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Heavy Titan Upgrades",
+      "forUnits": [
+        "LMdHc9e"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Titan Harpoon Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5ciWa",
+              "label": "Titan Triple Flamer (18\", A3, AP(1), Blast(3), Reliable)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Triple Flamer",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "luvx-",
+              "label": "Titan Volcano Cannon (30\", A3, AP(3), Deadly(3))",
+              "cost": 65,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 85
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Volcano Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "UgjZm",
+              "label": "Plasma Battle Cannon (30\", A3, AP(4), Blast(3))",
+              "cost": 80,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 125
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Plasma Battle Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace any Twin Shoulder-Cannons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "qMEUN",
+              "label": "Twin Shoulder-Missile (24\", A2, AP(3), Deadly(3))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Twin Shoulder-Missile",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "SEnXIC9",
+              "label": "Top-Cannon (24\", A2, AP(1), Blast(3))",
+              "cost": 75,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Top-Cannon",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "NZMpyHy",
+              "label": "Top-Missile (24\", A2, AP(3), Deadly(3))",
+              "cost": 110,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 120
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Top-Missile",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "R5YEL",
+              "label": "Titan Core (Delayed Action)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Core",
+                  "type": "item",
+                  "content": [
+                    "Delayed Action"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Z4unLQizd8",
+              "label": "Exploration Config (Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Exploration Config",
+                  "type": "item",
+                  "content": [
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qHr-BSnLq5",
+              "label": "Psychic Lord (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychic Lord",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "7a4uz",
+              "label": "Energy Field (Regeneration)",
+              "cost": 160,
+              "costs": [
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 120
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Field",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "FkW7e",
+      "hint": "Mini-Titans Melee",
+      "forUnits": [
+        "v_CUjRs",
+        "doBdEas"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "UnQgw",
+              "label": "Heavy Lance (A6, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 10
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "fgUpF",
+              "label": "Heavy Chainsaw (A2, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 15
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Chainsaw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "z-vHs",
+              "label": "Heavy Fist (A4, AP(4))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 20
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "OwfwV",
+              "label": "Heavy Sword (A6, AP(1), Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 25
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "ocLg_",
+              "label": "Heavy Flail (A6, Reliable, Rending)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 30
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "Rending",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "WYPox",
+              "label": "Heavy Claw (A6, AP(1), Reliable)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 30
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Titan Shield",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5EFD5sbMpr",
+              "label": "Heavy Hammer (A2, AP(1), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 30
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "dW3hJ",
+      "hint": "Mini-Titans Ranged",
+      "forUnits": [
+        "doBdEas",
+        "yxEPpE-"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Fusion Blaster",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "L89A3",
+              "label": "Gatling Cannon (30\", A6, AP(1), Rending)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "doBdEas",
+                  "cost": 15
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gatling Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "T3Nug",
+              "label": "Hell Autocannon (36\", A6, AP(2))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "doBdEas",
+                  "cost": 40
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 50
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hell Autocannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N0XqA",
+      "hint": "Titan Melee",
+      "forUnits": [
+        "69MeS1T",
+        "blwKVKT"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Titan Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nPT2F",
+              "label": "Titan Lance (A12, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 25
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 12,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "gjcQ_",
+              "label": "Titan Chainsaw (A4, AP(2), Deadly(3))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 30
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Chainsaw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "dWnSF",
+              "label": "Titan Sword (A12, AP(1), Rending)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 55
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 12,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "09w2O",
+              "label": "Titan Fist (A9, AP(4))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 55
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 9,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "rb2TQ",
+              "label": "Titan Flail (A12, Reliable, Rending)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 60
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 12,
+                  "special": [
+                    "Rending",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "sg0CG",
+              "label": "Titan Claw (A12, AP(1), Reliable)",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 65
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 12,
+                  "special": [
+                    "AP",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Titan Shield",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Osop2",
+              "label": "Titan Hammer (A4, AP(1), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 60
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "-bOjE",
+      "hint": "Titan Ranged",
+      "forUnits": [
+        "blwKVKT",
+        "4iPKrlj"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Titan Fusion Cannon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "NAT56",
+              "label": "Titan Laser Cannon (36\", A3, AP(3), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 10
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Laser Cannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "XoCgR",
+              "label": "Titan Gatling Cannon (30\", A9, AP(1), Rending), Heavy Flamer (12\", A1, AP(1), Blast(3), Reliable)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 5
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Gatling Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 9,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Heavy Flamer",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-armor",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "09WrV",
+              "label": "Heavy Machinegun (30\", A3, AP(1)), Titan Battle Cannon (30\", A3, AP(2), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 15
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Battle Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Heavy Machinegun",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "O-hsw",
+              "label": "Titan Pulse Laser (30\", A9, AP(3))",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 25
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Pulse Laser",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 9,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "UBfuL",
+              "label": "Titan Plasma Cannon (30\", A3, AP(4), Blast(3))",
+              "cost": -5,
+              "costs": [
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 30
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Plasma Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 3,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "2yNbr",
+      "hint": "Disciple of Havoc",
+      "forUnits": [
+        "bcpqzan",
+        "v_CUjRs",
+        "doBdEas",
+        "yxEPpE-",
+        "69MeS1T",
+        "blwKVKT",
+        "4iPKrlj",
+        "LMdHc9e"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "bEwQ5",
+              "label": "Disciple of War (Warbound)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 5
+                },
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 10
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 10
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 10
+                },
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 25
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 20
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 25
+                },
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Disciple of War",
+                  "type": "item",
+                  "content": [
+                    "Warbound"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CaAtx",
+              "label": "Disciple of Lust (Lustbound)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 15
+                },
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 20
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 20
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 20
+                },
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 35
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 35
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 35
+                },
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Disciple of Lust",
+                  "type": "item",
+                  "content": [
+                    "Lustbound"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Ha7EL",
+              "label": "Disciple of Change (Changebound)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 20
+                },
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 25
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 25
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 25
+                },
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 50
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 50
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 50
+                },
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Disciple of Change",
+                  "type": "item",
+                  "content": [
+                    "Changebound"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Xpa44",
+              "label": "Disciple of Plague (Plaguebound)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 20
+                },
+                {
+                  "unitId": "v_CUjRs",
+                  "cost": 25
+                },
+                {
+                  "unitId": "doBdEas",
+                  "cost": 25
+                },
+                {
+                  "unitId": "yxEPpE-",
+                  "cost": 25
+                },
+                {
+                  "unitId": "69MeS1T",
+                  "cost": 55
+                },
+                {
+                  "unitId": "blwKVKT",
+                  "cost": 55
+                },
+                {
+                  "unitId": "4iPKrlj",
+                  "cost": 55
+                },
+                {
+                  "unitId": "LMdHc9e",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Disciple of Plague",
+                  "type": "item",
+                  "content": [
+                    "Plaguebound"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "V4LzS8wg",
+      "hint": "Micro-Titan Upgrades",
+      "forUnits": [
+        "bcpqzan"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "At4ll3Sehm",
+              "label": "Titan Core (Delayed Action)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Titan Core",
+                  "type": "item",
+                  "content": [
+                    "Delayed Action"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "9Q2QZg0p",
+              "label": "Energy Field (Regeneration)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Energy Field",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "BMrLgDtZ6D",
+              "label": "Vanguard Config (Scout, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Vanguard Config",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gBSzk3DdhQ",
+              "label": "Psychic Lord (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Psychic Lord",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Dt4jA0yd",
+      "hint": "Micro-Titans Ranged",
+      "forUnits": [
+        "bcpqzan"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Heavy Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "-M5WEujMpU",
+              "label": "Fusion Blaster (24\", A1, AP(4), Deadly(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 90
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fusion Blaster",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "FK0DZOce",
+              "label": "Gatling Cannon (30\", A6, AP(1), Rending)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 105
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Gatling Cannon",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "5NvAvFfU",
+              "label": "Hell Autocannon (36\", A6, AP(2))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 130
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hell Autocannon",
+                  "type": "weapon",
+                  "range": 36,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "1TksVWNd",
+      "hint": "Micro-Titans Melee",
+      "forUnits": [
+        "bcpqzan"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "9c6ii-kS",
+              "label": "Heavy Lance (A3, Thrust)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "iIhw0nGx",
+              "label": "Heavy Chainsaw (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Chainsaw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "aJ_--Lcw",
+              "label": "Heavy Fist (A2, AP(4))",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Fist",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "8mC-j0uV",
+              "label": "Heavy Sword (A3, AP(1), Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "AFH5go9S",
+              "label": "Heavy Flail (A3, Reliable, Rending)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Flail",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "IMYX_etu",
+              "label": "Heavy Claw (A3, AP(1), Reliable)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Claw",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Reliable"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Titan Shield",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "CiEvHFeYC7",
+              "label": "Heavy Hammer (A1, AP(1), Blast(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "bcpqzan",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-horde"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "collective": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

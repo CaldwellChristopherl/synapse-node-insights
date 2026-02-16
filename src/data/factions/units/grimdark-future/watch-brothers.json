@@ -3,8 +3,13 @@
   "factionName": "Watch Brothers",
   "gameSystem": "grimdark-future",
   "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.528Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.532Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 55
+  },
   "units": [
     {
       "id": "JVfYuXAMc",
@@ -21,24 +26,40 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "PzePx",
+        "gIdERs5O"
+      ],
       "tags": [
-        "elite",
-        "fearless",
+        "ambush",
+        "mobile",
         "hero",
         "leader",
-        "melee",
-        "mobile",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "defensive",
+        "human",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
+        "subtlety": 3,
         "speed": 3,
-        "leadership": 3,
-        "faith": 5,
-        "humanity": -4
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "faith": 2,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -55,23 +76,47 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Flamer Pistol",
+          "range": 6,
+          "attacks": 1,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Heavy CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "hE8ye",
+        "C1",
+        "S6v3T1nb"
+      ],
       "tags": [
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "human",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 5
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "faith": 2,
+        "humanity": 3,
+        "versatility": 2
       }
     },
     {
@@ -86,19 +131,40 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "dP0Zq",
+        "lBsat"
+      ],
       "tags": [
-        "balanced",
-        "elite",
         "fearless",
         "human",
-        "monster",
-        "zealot"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "faith": 5,
-        "versatility": 2
+        "faith": 2,
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -115,22 +181,45 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "MWMyH",
+        "lBsat"
+      ],
       "tags": [
+        "ambush",
+        "mobile",
+        "flying",
+        "fearless",
+        "human",
         "balanced",
         "elite",
-        "fearless",
-        "flying",
-        "human",
-        "mobile",
-        "monster",
-        "zealot"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
+        "subtlety": 3,
         "speed": 5,
-        "faith": 5,
-        "versatility": 2
+        "faith": 2,
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -147,20 +236,37 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1",
+        "lBsat"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
+        "ambush",
         "mobile",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "defensive",
+        "human",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "subtlety": 3,
         "speed": 3,
-        "faith": 5,
-        "humanity": -4
+        "patience": 3,
+        "elite": 5,
+        "faith": 2,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -170,30 +276,59 @@
       "size": 3,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "aoRc6cK5"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "elite",
         "fast",
-        "fearless",
-        "human",
         "tough",
+        "fearless",
         "vehicle",
-        "zealot"
+        "cavalry",
+        "human",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "tech": 3,
         "humanity": 3,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -213,22 +348,39 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Storm Rifle",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "r1P1w"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
+        "fearless",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4
       }
     },
     {
@@ -247,22 +399,41 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2",
+        "rDXPYf9Y"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
+        "fearless",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4
       }
     },
     {
@@ -281,20 +452,40 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Death Launcher",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Blast(6)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2",
+        "rDXPYf9Y"
+      ],
       "tags": [
-        "elite",
-        "fearless",
+        "ambush",
         "mobile",
-        "ranged",
         "tough",
+        "transport",
+        "fearless",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
+        "subtlety": 3,
         "speed": 3,
-        "faith": 5
+        "patience": 2,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4
       }
     },
     {
@@ -313,22 +504,47 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Rifle Array",
+          "range": 24,
+          "attacks": 12,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2",
+        "A2"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
         "tough",
+        "aggressive",
+        "transport",
+        "fearless",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4
       }
     },
     {
@@ -345,18 +561,39 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Fist",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
         "tough",
+        "fearless",
         "vehicle",
-        "zealot"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "faith": 5
+        "elite": 5,
+        "faith": 2,
+        "tech": 2
       }
     },
     {
@@ -374,23 +611,47 @@
         "Fearless",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Storm Missiles",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Twin Minigun",
+          "range": 24,
+          "attacks": 8,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "9v6ox"
+      ],
       "tags": [
         "aircraft",
-        "defensive",
-        "elite",
-        "fearless",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "zealot"
+        "tough",
+        "transport",
+        "fearless",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "faith": 5,
-        "patience": 3
+        "patience": 2,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2
       }
     },
     {
@@ -400,29 +661,49 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "heavy-support",
       "rules": [
         "Artillery",
         "Fearless",
         "Tough(3)",
         "Watchborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Gatling Cannon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F2"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "elite",
-        "fearless",
-        "ranged",
+        "artillery",
         "static",
+        "ranged",
+        "fearless",
         "tough",
-        "vehicle",
-        "zealot"
+        "human",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "patience": 5,
-        "faith": 5,
+        "tech": 3,
+        "faith": 2,
+        "elite": 5,
+        "humanity": 3,
         "versatility": 2
       }
     }

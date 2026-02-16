@@ -3,8 +3,13 @@
   "factionName": "Shadow Stalkers",
   "gameSystem": "age-of-fantasy",
   "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.885Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.393Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 29
+  },
   "units": [
     {
       "id": "BzhKtzr",
@@ -21,19 +26,33 @@
         "Shadowborn",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Butcher Blade",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "byJFE",
+        "Op1ye6Cn"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "humanity": -4,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -50,17 +69,31 @@
         "Tough(3)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "YUvTY",
+        "Xy1wyZTe"
+      ],
       "tags": [
-        "elite",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -78,17 +111,37 @@
         "Shadowborn",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Throwing Spears",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "8tgG5",
+        "iFD4lLMx"
+      ],
       "tags": [
-        "balanced",
         "hero",
         "leader",
         "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -107,17 +160,38 @@
         "Shadowborn",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Champion Shadow Staff",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "9XSzu",
+        "iFD4lLMx"
+      ],
       "tags": [
-        "balanced",
-        "expendable",
         "hero",
         "leader",
-        "tough"
+        "tough",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -134,17 +208,31 @@
         "Tough(3)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "Xy1wyZTe"
+      ],
       "tags": [
-        "expendable",
         "hero",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3
+        "leadership": 5,
+        "elite": -1,
+        "tech": -1
       }
     },
     {
@@ -158,14 +246,28 @@
       "rules": [
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "-I9Od"
+      ],
       "tags": [
+        "melee",
         "cheap",
         "expendable",
         "horde",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
         "collective": 5
       }
@@ -183,14 +285,29 @@
         "Scout",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Toxin Dagger",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "67uoQ"
+      ],
       "tags": [
-        "melee",
+        "scout",
         "mobile",
-        "scout"
+        "melee"
       ],
       "dimensionScores": {
         "subtlety": 3,
-        "speed": 3
+        "speed": 3,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -206,14 +323,30 @@
         "Shadowborn",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Throwing Spears",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "ll4pM"
+      ],
       "tags": [
-        "balanced",
-        "reliable",
-        "versatile"
+        "balanced"
       ],
       "dimensionScores": {
-        "versatility": 5,
-        "order": 2
+        "versatility": 2
       }
     },
     {
@@ -228,14 +361,27 @@
         "Melee Slayer",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Halberd",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "IFllj"
+      ],
       "tags": [
-        "balanced",
         "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "versatility": 2
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -251,14 +397,33 @@
         "Shadowborn",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Stalker Wand",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Fragment"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "p3Tky",
+        "-I9Od"
+      ],
       "tags": [
         "balanced",
-        "expendable",
-        "versatile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "versatility": 5
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -276,20 +441,34 @@
         "Tough(3)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "-I9Od",
+        "9oFgk"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "elite",
         "fast",
+        "aggressive",
+        "tough",
+        "monster",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "speed": 5,
+        "speed": 4,
         "patience": -3,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -305,13 +484,29 @@
         "Shadowborn",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Butcher Blade",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
-        "elite",
+        "tough",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -327,17 +522,30 @@
         "Strider",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
-        "beast",
-        "expendable",
         "fast",
+        "mobile",
+        "monster",
         "melee",
-        "mobile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
         "speed": 5,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -353,13 +561,30 @@
         "Tough(3)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1"
+      ],
       "tags": [
-        "expendable",
+        "tough",
+        "horde",
+        "swarm",
         "melee",
-        "tough"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3
+        "elite": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -376,17 +601,33 @@
         "Tough(3)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "KRPmW"
+      ],
       "tags": [
-        "beast",
-        "melee",
+        "ambush",
         "mobile",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
+        "subtlety": 3,
         "speed": 3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -396,7 +637,7 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Breath Attack",
         "Fear(1)",
@@ -404,17 +645,41 @@
         "Tough(6)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "iMCOR3XJ"
+      ],
       "tags": [
-        "beast",
         "flying",
-        "melee",
+        "mobile",
         "tough",
-        "vehicle",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "speed": 3
+        "speed": 5,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -431,17 +696,42 @@
         "Tough(6)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "HrLjV"
+      ],
       "tags": [
-        "beast",
-        "elite",
-        "melee",
+        "ambush",
         "mobile",
-        "tough"
+        "tough",
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "subtlety": 3,
         "speed": 3,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -451,7 +741,7 @@
       "size": 1,
       "quality": 4,
       "defense": 5,
-      "role": "vehicle",
+      "role": "monster",
       "rules": [
         "Caster(3)",
         "Ethereal",
@@ -460,18 +750,30 @@
         "Shadowborn",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 6,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "PEG-C"
+      ],
       "tags": [
-        "beast",
         "magic",
-        "melee",
         "psychic",
         "tough",
-        "vehicle",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "mystery": 5
+        "mystery": 5,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -489,19 +791,42 @@
         "Tough(12)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "WPGmH"
+      ],
       "tags": [
-        "beast",
-        "melee",
+        "defensive",
         "mobile",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
+        "patience": 3,
         "speed": 3,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -518,17 +843,39 @@
         "Tough(12)",
         "Resistance"
       ],
+      "weapons": [
+        {
+          "name": "Great Flail",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "PFlbK"
+      ],
       "tags": [
-        "beast",
-        "elite",
-        "melee",
+        "tough",
         "monster",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -546,19 +893,42 @@
         "Tough(12)",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "YVBVR"
+      ],
       "tags": [
-        "beast",
-        "elite",
-        "melee",
+        "ambush",
         "mobile",
+        "tough",
         "monster",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
+        "subtlety": 3,
         "speed": 3,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -576,21 +946,50 @@
         "Fearless",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Great Claws",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(4)"
+          ]
+        },
+        {
+          "name": "Stalker Crew",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "0cNCnEia"
+      ],
       "tags": [
-        "beast",
-        "fearless",
-        "melee",
         "mobile",
-        "monster",
         "tough",
-        "veteran"
+        "fearless",
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -4,
         "speed": 3,
+        "elite": 4,
         "faith": 2,
-        "tech": -3
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -608,17 +1007,38 @@
         "Unique",
         "Shadowborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
         "hero",
         "leader",
-        "melee",
         "mobile",
-        "tough"
+        "tough",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "collective": -1,
-        "leadership": 3,
-        "speed": 3
+        "leadership": 5,
+        "elite": -1,
+        "speed": 3,
+        "tech": -1
       }
     }
   ],

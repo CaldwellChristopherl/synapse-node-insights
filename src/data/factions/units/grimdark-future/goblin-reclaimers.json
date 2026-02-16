@@ -3,8 +3,13 @@
   "factionName": "Goblin Reclaimers",
   "gameSystem": "grimdark-future",
   "factionType": "mixed",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.200Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:23.036Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "swarm",
+    "rolePercentage": 23
+  },
   "units": [
     {
       "id": "E8xb3jd",
@@ -19,23 +24,49 @@
         "Mischievous",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Rocket Launcher",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Heavy Claw",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "uedZbXye",
+        "JPh9UHhO"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
         "hero",
         "leader",
-        "tough",
         "treacherous",
+        "cunning",
+        "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": 3,
-        "leadership": 3,
-        "honor": -4,
+        "leadership": 5,
+        "elite": 5,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
+        "patience": 1,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -53,25 +84,48 @@
         "Mischievous",
         "Tough(6)"
       ],
+      "weapons": [
+        {
+          "name": "Rapid Rocket Launcher",
+          "range": 18,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "uedZbXye"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
         "fast",
         "hero",
         "leader",
-        "tough",
         "treacherous",
+        "cunning",
+        "tough",
         "vehicle",
-        "veteran"
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "tech": 3,
         "speed": 4,
-        "leadership": 3,
-        "honor": -4,
+        "leadership": 5,
+        "elite": 5,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
+        "patience": 1,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -88,21 +142,40 @@
         "Mischievous",
         "Tough(3)"
       ],
+      "weapons": [
+        {
+          "name": "Boss Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "uVBFEcen"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
         "hero",
         "leader",
-        "tough",
         "treacherous",
+        "cunning",
+        "tough",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "honor": -4,
+        "leadership": 5,
+        "elite": 5,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
+        "patience": 1,
         "versatility": 2
       }
     },
@@ -119,19 +192,39 @@
         "Tough(3)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Boss Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "rW8YG",
+        "fmsQqAV8"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
-        "expendable",
         "hero",
         "leader",
-        "treacherous"
+        "tough",
+        "treacherous",
+        "cunning",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "leadership": 3,
-        "honor": -4,
+        "leadership": 5,
+        "elite": -1,
+        "patience": 1,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
         "versatility": 2
       }
@@ -147,21 +240,42 @@
       "rules": [
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Scrap Gun",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "aBPSY",
+        "rGfUa",
+        "ZxxXrfMg",
+        "w2xk_"
+      ],
       "tags": [
+        "treacherous",
+        "cunning",
         "balanced",
         "cheap",
-        "cunning",
         "expendable",
         "horde",
-        "swarm",
-        "treacherous"
+        "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "honor": -4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -175,21 +289,41 @@
       "rules": [
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1",
+        "ZxxXrfMg",
+        "w2xk_"
+      ],
       "tags": [
+        "treacherous",
+        "cunning",
         "balanced",
         "cheap",
-        "cunning",
         "expendable",
         "horde",
-        "swarm",
-        "treacherous"
+        "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "honor": -4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -204,20 +338,36 @@
         "Unpredictable Fighter",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "yjd2u",
+        "w2xk_"
+      ],
       "tags": [
+        "treacherous",
         "cunning",
+        "melee",
         "expendable",
         "horde",
-        "melee",
-        "swarm",
-        "treacherous",
-        "unpredictable"
+        "swarm"
       ],
       "dimensionScores": {
+        "honor": -5,
+        "subtlety": 2,
+        "order": -2,
+        "patience": -1,
+        "tech": -1,
         "elite": -3,
-        "collective": 5,
-        "order": -5,
-        "honor": -4
+        "collective": 5
       }
     },
     {
@@ -233,22 +383,41 @@
         "Strider",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Scrap Gun",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "01BZp",
+        "ZxxXrfMg",
+        "w2xk_"
+      ],
       "tags": [
+        "scout",
+        "mobile",
+        "treacherous",
+        "cunning",
         "balanced",
         "cheap",
-        "cunning",
-        "expendable",
-        "mobile",
-        "scout",
-        "treacherous"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "subtlety": 3,
+        "subtlety": 5,
         "speed": 3,
-        "honor": -4,
+        "honor": -5,
         "order": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5
       }
     },
     {
@@ -262,17 +431,36 @@
       "rules": [
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Boss Pistol",
+          "range": 12,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "5do_i",
+        "rGfUa"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
         "treacherous",
+        "cunning",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "honor": -4,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -282,31 +470,49 @@
       "size": 5,
       "quality": 5,
       "defense": 6,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Scout",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "TMCuL",
+        "ZxxXrfMg"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "cunning",
-        "expendable",
         "fast",
-        "mobile",
         "scout",
+        "mobile",
         "treacherous",
-        "vehicle"
+        "cunning",
+        "vehicle",
+        "cavalry",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "tech": 3,
         "speed": 5,
-        "subtlety": 3,
-        "honor": -4,
+        "subtlety": 5,
+        "honor": -5,
         "order": -2,
-        "versatility": 2
+        "tech": 3,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -321,16 +527,42 @@
         "Relentless",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Smasher Rifle",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(4)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "_e3q1",
+        "ZxxXrfMg"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
         "ranged",
-        "treacherous"
+        "treacherous",
+        "cunning",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "honor": -4,
+        "patience": 1,
+        "tech": 1,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -340,7 +572,7 @@
       "size": 3,
       "quality": 5,
       "defense": 5,
-      "role": "troops",
+      "role": "fast-attack",
       "rules": [
         "Bounding",
         "Regeneration",
@@ -348,22 +580,53 @@
         "Tough(3)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Scrap Gun",
+          "range": 18,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Rending Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "Fpdrh",
+        "ZxxXrfMg"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "cavalry",
-        "cunning",
-        "mobile",
+        "fast",
         "regeneration",
+        "mobile",
         "tough",
-        "treacherous"
+        "treacherous",
+        "cunning",
+        "cavalry",
+        "monster",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
         "speed": 5,
-        "honor": -4,
+        "patience": 1,
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
-        "versatility": 2,
-        "tech": -3
+        "humanity": -3,
+        "versatility": 2
       }
     },
     {
@@ -379,19 +642,46 @@
         "Tough(3)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Rocket Launcher",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H2",
+        "ZxxXrfMg",
+        "pnQV7"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
         "fast",
         "tough",
         "treacherous",
-        "vehicle"
+        "cunning",
+        "vehicle",
+        "balanced",
+        "expendable",
+        "armored"
       ],
       "dimensionScores": {
-        "tech": 3,
         "speed": 4,
-        "honor": -4,
+        "patience": 1,
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -407,17 +697,46 @@
         "Tough(3)",
         "Mischievous"
       ],
+      "weapons": [
+        {
+          "name": "Rocket Launcher",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Mini-Claw",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K2",
+        "H2",
+        "ZxxXrfMg"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
         "tough",
         "treacherous",
-        "vehicle"
+        "cunning",
+        "vehicle",
+        "balanced",
+        "expendable",
+        "armored"
       ],
       "dimensionScores": {
-        "tech": 3,
-        "honor": -4,
+        "patience": 1,
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -428,7 +747,7 @@
       "size": 1,
       "quality": 5,
       "defense": 4,
-      "role": "vehicle",
+      "role": "monster",
       "rules": [
         "Bounding",
         "Regeneration",
@@ -437,20 +756,48 @@
         "Mischievous",
         "Fear(1)"
       ],
+      "weapons": [
+        {
+          "name": "Rocket Launcher",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H2",
+        "5lTJB_ug"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "cunning",
-        "mobile",
+        "fast",
         "regeneration",
+        "mobile",
         "tough",
         "treacherous",
-        "vehicle"
+        "cunning",
+        "monster",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "speed": 3,
-        "honor": -4,
+        "speed": 5,
+        "patience": 1,
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
+        "humanity": -3,
         "versatility": 2
       }
     },
@@ -469,25 +816,51 @@
         "Mischievous",
         "Tough(12)"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Lobber Mortar",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(6)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Sponson-Flamers",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "qk55M"
+      ],
       "tags": [
-        "aggressive",
-        "cunning",
         "fast",
         "fearless",
-        "ranged",
-        "tough",
+        "aggressive",
         "treacherous",
+        "cunning",
+        "tough",
         "vehicle",
-        "veteran"
+        "indirect",
+        "ranged",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 4,
         "faith": 2,
-        "patience": -3,
-        "honor": -4,
-        "order": -2
+        "honor": -5,
+        "subtlety": 3,
+        "order": -2,
+        "elite": 4,
+        "tech": 4
       }
     },
     {
@@ -503,19 +876,46 @@
         "Mischievous",
         "Artillery"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Lobber Mortar",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(6)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "DfVVAEHs"
+      ],
       "tags": [
-        "balanced",
-        "cunning",
-        "defensive",
-        "ranged",
-        "static",
         "tough",
-        "treacherous"
+        "treacherous",
+        "cunning",
+        "artillery",
+        "static",
+        "ranged",
+        "indirect",
+        "balanced",
+        "expendable",
+        "armored"
       ],
       "dimensionScores": {
-        "honor": -4,
-        "order": -2,
         "patience": 5,
+        "elite": -2,
+        "honor": -5,
+        "subtlety": 3,
+        "order": -2,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -533,21 +933,43 @@
         "Tough(6)",
         "Unique"
       ],
+      "weapons": [
+        {
+          "name": "Rad-Machinegun",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "Shred"
+          ]
+        },
+        {
+          "name": "Ventslicer Chainsaw",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "balanced",
-        "cunning",
         "hero",
         "leader",
-        "tough",
         "treacherous",
-        "veteran"
+        "cunning",
+        "tough",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
-        "honor": -4,
+        "leadership": 5,
+        "elite": 5,
+        "honor": -5,
+        "subtlety": 2,
         "order": -2,
+        "patience": 1,
         "versatility": 2
       }
     }

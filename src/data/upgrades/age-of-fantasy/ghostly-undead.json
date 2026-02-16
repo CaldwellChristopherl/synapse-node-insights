@@ -1,0 +1,1680 @@
+{
+  "factionId": "mdT4HVzHUmxGevc_",
+  "factionName": "Ghostly Undead",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Grim Leader",
+      "forUnits": [
+        "sZOk97D"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "8xHNQz6",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "QU-no_C",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "p467NAP",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "xDQlp49",
+              "label": "Heavy Scythe (A3, AP(2), Reap)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Scythe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Reap"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "BiOaaDpjCs",
+              "label": "Heavy Great Sword (A3, AP(2), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "XRmdlMe",
+              "label": "Ghost Steed (Fast, Impact(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ghost Steed",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "cNkfyy6",
+              "label": "Monarch Throne (Herald (A2), Armor(4), Fear(1), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Monarch Throne",
+                  "type": "item",
+                  "content": [
+                    "Herald",
+                    "Armor",
+                    "Fear",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "AOciZgQ",
+              "label": "Great Steed (Horns (A1, Thrust), Armor(4), Fast, Impact(2), Tough(3), Traversal)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Steed",
+                  "type": "item",
+                  "content": [
+                    "Horns",
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Tough",
+                    "Traversal"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Champion",
+      "forUnits": [
+        "JBL3Vy8"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7F2QUqj",
+              "label": "Spear (A3, Counter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "lW-AAdz",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "fQTG4XO",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "b6g7Cl2",
+              "label": "Great Sword (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "esrVMF2x7s",
+              "label": "Soul Crossbow (18\", A2, Indirect, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Crossbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Indirect",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "indirect",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "subtlety": 1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "DT0v2vzo_G",
+              "label": "Crossbow (24\", A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Command Group",
+      "forUnits": [
+        "DhvthEJ",
+        "m0GGwdf",
+        "gm_qxr_"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2yN0nsI",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "DhvthEJ",
+                  "cost": 5
+                },
+                {
+                  "unitId": "m0GGwdf",
+                  "cost": 5
+                },
+                {
+                  "unitId": "gm_qxr_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "67GQ1zq",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "DhvthEJ",
+                  "cost": 5
+                },
+                {
+                  "unitId": "m0GGwdf",
+                  "cost": 5
+                },
+                {
+                  "unitId": "gm_qxr_",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "YfvYFjf",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "DhvthEJ",
+                  "cost": 10
+                },
+                {
+                  "unitId": "m0GGwdf",
+                  "cost": 10
+                },
+                {
+                  "unitId": "gm_qxr_",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Ghost Horde",
+      "forUnits": [
+        "DhvthEJ"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "fNNZ-ml",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "DhvthEJ",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "CUotWbT",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "DhvthEJ",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Ghost Reapers",
+      "forUnits": [
+        "i_OLmkC"
+      ],
+      "sections": [
+        {
+          "label": "Replace one Scythe",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "9Nh1vLG",
+              "label": "Death Bell (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "i_OLmkC",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Death Bell",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Mourner Banshees",
+      "forUnits": [
+        "k3W697Z"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "VLZa62w",
+              "label": "Shriek (12\", A1, AP(1))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "k3W697Z",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shriek",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Dread Knights",
+      "forUnits": [
+        "tjl-HZk"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "u32jAdY",
+              "label": "Tormentors (Ambush)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "tjl-HZk",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tormentors",
+                  "type": "item",
+                  "content": [
+                    "Ambush"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "DwWN9Aya",
+      "hint": "Specialists - Leader",
+      "forUnits": [
+        "sZOk97D"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "55LjuqMR",
+              "label": "Warden (Shielded Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warden",
+                  "type": "item",
+                  "content": [
+                    "Shielded Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "gwGy-0Tr",
+              "label": "Jailor (Scout Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jailor",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6fKvYgMl",
+              "label": "Knight (Empyrean Spirit Boost Aura)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knight",
+                  "type": "item",
+                  "content": [
+                    "Empyrean Spirit Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8U0m_w50",
+              "label": "Executioner (Unpredictable Fighter Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Executioner",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xNl-qPw7-i",
+              "label": "Overseer (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "k20PgVHC",
+              "label": "Soul Guardian (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Guardian",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "iOZnyL9M",
+              "label": "Master Soul Guardian (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Soul Guardian",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "BkDOtpmH",
+              "label": "Chain-Spirit Companion (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sZOk97D",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chain-Spirit Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "CPvLfHLQ",
+      "hint": "Soul Eater",
+      "forUnits": [
+        "DhvthEJ",
+        "53Pt8nw",
+        "m0GGwdf",
+        "gm_qxr_"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "c-M9PhwNx0",
+              "label": "Soul Eater (Precision Feat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DhvthEJ",
+                  "cost": 35
+                },
+                {
+                  "unitId": "53Pt8nw",
+                  "cost": 35
+                },
+                {
+                  "unitId": "m0GGwdf",
+                  "cost": 35
+                },
+                {
+                  "unitId": "gm_qxr_",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Eater",
+                  "type": "item",
+                  "content": [
+                    "Precision Feat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "MeybUWcq",
+      "hint": "Eternal Haunt",
+      "forUnits": [
+        "EiYK0wE",
+        "8TnMJg4",
+        "6RvcG75"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "tQDJ2-jYV-",
+              "label": "Eternal Haunt (Bane Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "EiYK0wE",
+                  "cost": 60
+                },
+                {
+                  "unitId": "8TnMJg4",
+                  "cost": 60
+                },
+                {
+                  "unitId": "6RvcG75",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Eternal Haunt",
+                  "type": "item",
+                  "content": [
+                    "Bane Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "96kly5my",
+      "hint": "Hexed Knights",
+      "forUnits": [
+        "9iQDdT3"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "sRFrvCEP3y",
+              "label": "Spectral Touch (Crossing Attack(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "9iQDdT3",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spectral Touch",
+                  "type": "item",
+                  "content": [
+                    "Crossing Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "1X1mk0CM",
+      "hint": "Ghost Chariot",
+      "forUnits": [
+        "rDVz1we"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "yy846szV",
+              "label": "Eternal Haunt (Bane Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "rDVz1we",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Eternal Haunt",
+                  "type": "item",
+                  "content": [
+                    "Bane Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "wHhlY85e",
+      "hint": "Ghost Revenants",
+      "forUnits": [
+        "Z6rb_vU"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Scythes",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7_Tnof-QWY",
+              "label": "Great Sword (A1, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "Z6rb_vU",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Sword",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "4PjthEaU",
+      "hint": "Specialists - Champion",
+      "forUnits": [
+        "JBL3Vy8"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fmEVVPqi",
+              "label": "Warden (Shielded Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warden",
+                  "type": "item",
+                  "content": [
+                    "Shielded Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "GwjF3v-Xsq",
+              "label": "Jailor (Scout Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jailor",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sEHO7cYL",
+              "label": "Executioner (Unpredictable Fighter Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Executioner",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "yDyMBzoh",
+              "label": "Tormentor (Relentless Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tormentor",
+                  "type": "item",
+                  "content": [
+                    "Relentless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "FVu9Push4i",
+              "label": "Overseer (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "WFD4itOH",
+              "label": "Soul Guardian (Caster(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Soul Guardian",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "QhUWO0iB",
+              "label": "Master Soul Guardian (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Soul Guardian",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Sa4nuUhI",
+              "label": "Chain-Spirit Companion (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "JBL3Vy8",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Chain-Spirit Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "eJI1E_qq",
+      "hint": "Specialists - Wraith",
+      "forUnits": [
+        "_khyoFE"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Btg2ECkT",
+              "label": "Warden (Shielded Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "_khyoFE",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warden",
+                  "type": "item",
+                  "content": [
+                    "Shielded Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "oAJpDhVq",
+              "label": "Knight (Empyrean Spirit Boost Aura)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "_khyoFE",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knight",
+                  "type": "item",
+                  "content": [
+                    "Empyrean Spirit Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "8qMvtViM",
+              "label": "Executioner (Unpredictable Fighter Aura)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "_khyoFE",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Executioner",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "i3RuTDHbdo",
+              "label": "Overseer (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_khyoFE",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "lqzGwh_x",
+      "hint": "Specialists - Banshee",
+      "forUnits": [
+        "KIRv9jr"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "juoSOaVm",
+              "label": "Warden (Shielded Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "KIRv9jr",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Warden",
+                  "type": "item",
+                  "content": [
+                    "Shielded Aura"
+                  ]
+                }
+              ],
+              "tags": [
+                "defensive"
+              ],
+              "dimensionScores": {
+                "patience": 2
+              }
+            },
+            {
+              "uid": "3jOlhboz",
+              "label": "Jailor (Scout Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "KIRv9jr",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Jailor",
+                  "type": "item",
+                  "content": [
+                    "Scout Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "QxVOu3Cp",
+              "label": "Knight (Empyrean Spirit Boost Aura)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "KIRv9jr",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Knight",
+                  "type": "item",
+                  "content": [
+                    "Empyrean Spirit Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "u5rbBEYF",
+              "label": "Tormentor (Relentless Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KIRv9jr",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Tormentor",
+                  "type": "item",
+                  "content": [
+                    "Relentless Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "FC3gpHVF",
+              "label": "Overseer (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KIRv9jr",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "CUmMbW6Xs-",
+              "label": "Overseer (No Retreat Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KIRv9jr",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Overseer",
+                  "type": "item",
+                  "content": [
+                    "No Retreat Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "zZfJHgdn",
+      "hint": "Craven Shooters",
+      "forUnits": [
+        "m0GGwdf"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Soul Crossbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "9LzzjMK-zg",
+              "label": "Crossbow (24\", A1, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "m0GGwdf",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

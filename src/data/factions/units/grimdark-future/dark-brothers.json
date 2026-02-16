@@ -3,8 +3,13 @@
   "factionName": "Dark Brothers",
   "gameSystem": "grimdark-future",
   "factionType": "tech",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.108Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:22.907Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "vehicle",
+    "rolePercentage": 43
+  },
   "units": [
     {
       "id": "YOJxkaTsG",
@@ -21,24 +26,41 @@
         "Darkborn",
         "Rapid Ambush"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 4,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "PzePx",
+        "gIdERs5O"
+      ],
       "tags": [
-        "elite",
-        "fearless",
         "hero",
         "leader",
-        "melee",
-        "mobile",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "stealth",
+        "ambush",
+        "mobile",
+        "defensive",
+        "human",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "leadership": 3,
-        "faith": 5,
-        "humanity": -4,
-        "speed": 3
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "faith": 2,
+        "subtlety": 5,
+        "speed": 3,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -56,23 +78,39 @@
         "Versatile Attack",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "HkK5EImr",
+        "9gPjzFMb"
+      ],
       "tags": [
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "stealth",
+        "defensive",
+        "human",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 5
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "faith": 2,
+        "subtlety": 4,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -89,23 +127,47 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Gravity Pistol",
+          "range": 9,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Smash"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "B1",
+        "HkK5EImr"
+      ],
       "tags": [
-        "elite",
-        "fearless",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "stealth",
+        "human",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "humanity": -1,
-        "leadership": 3,
-        "faith": 5
+        "leadership": 5,
+        "elite": 5,
+        "patience": 1,
+        "faith": 2,
+        "subtlety": 4,
+        "humanity": 3,
+        "versatility": 2
       }
     },
     {
@@ -123,24 +185,48 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Gravity Pistol",
+          "range": 9,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Smash"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "GPBPT",
+        "A1",
+        "O5LFWJcd"
+      ],
       "tags": [
-        "fearless",
         "hero",
         "leader",
-        "melee",
         "mobile",
-        "monster",
         "tough",
-        "veteran",
-        "zealot"
+        "fearless",
+        "stealth",
+        "human",
+        "balanced",
+        "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "speed": 3,
-        "faith": 5,
-        "humanity": -4
+        "patience": 1,
+        "faith": 2,
+        "subtlety": 4,
+        "humanity": 3,
+        "versatility": 2
       }
     },
     {
@@ -156,18 +242,40 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "balanced",
-        "fearless",
         "mobile",
-        "veteran",
-        "zealot"
+        "fearless",
+        "stealth",
+        "human",
+        "balanced",
+        "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
         "speed": 3,
-        "faith": 5,
-        "versatility": 2
+        "faith": 2,
+        "subtlety": 4,
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -182,18 +290,40 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "lBsat"
+      ],
       "tags": [
+        "fearless",
+        "stealth",
+        "human",
         "balanced",
         "elite",
-        "fearless",
-        "human",
-        "zealot"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "faith": 2,
+        "subtlety": 4,
         "humanity": 3,
-        "faith": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -208,18 +338,42 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "lBsat"
+      ],
       "tags": [
+        "fearless",
+        "stealth",
+        "human",
         "balanced",
         "elite",
-        "fearless",
-        "human",
-        "zealot"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
+        "faith": 2,
+        "subtlety": 4,
         "humanity": 3,
-        "faith": 5,
-        "versatility": 2
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -235,19 +389,40 @@
         "Versatile Attack",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Rifle",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C_pZc",
+        "lBsat"
+      ],
       "tags": [
+        "fearless",
+        "stealth",
+        "human",
         "balanced",
         "elite",
-        "fearless",
-        "human",
-        "monster",
-        "zealot"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "faith": 5,
-        "versatility": 2
+        "faith": 2,
+        "subtlety": 4,
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -263,18 +438,36 @@
         "Versatile Attack",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "GEMr7",
+        "lBsat"
+      ],
       "tags": [
-        "elite",
         "fearless",
+        "stealth",
+        "defensive",
         "human",
-        "monster",
         "ranged",
-        "zealot"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "faith": 5
+        "faith": 2,
+        "subtlety": 4,
+        "patience": 4,
+        "humanity": 3,
+        "tech": 1,
+        "elite": 4
       }
     },
     {
@@ -290,20 +483,44 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F1"
+      ],
       "tags": [
+        "ranged",
+        "fearless",
+        "stealth",
+        "human",
         "balanced",
         "elite",
-        "fearless",
-        "human",
-        "monster",
-        "ranged",
-        "zealot"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "faith": 5,
-        "versatility": 2
+        "patience": 1,
+        "tech": 1,
+        "faith": 2,
+        "subtlety": 4,
+        "humanity": 3,
+        "versatility": 2,
+        "elite": 4
       }
     },
     {
@@ -320,20 +537,39 @@
         "Darkborn",
         "Rapid Ambush"
       ],
+      "weapons": [
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "H1",
+        "lBsat",
+        "tFwcp"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
-        "mobile",
-        "monster",
         "tough",
-        "zealot"
+        "fearless",
+        "stealth",
+        "ambush",
+        "mobile",
+        "defensive",
+        "human",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "faith": 5,
-        "humanity": -4,
-        "speed": 3
+        "patience": 3,
+        "elite": 5,
+        "faith": 2,
+        "subtlety": 5,
+        "speed": 3,
+        "humanity": 3,
+        "tech": -1
       }
     },
     {
@@ -343,7 +579,7 @@
       "size": 3,
       "quality": 4,
       "defense": 4,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Scout",
@@ -351,24 +587,54 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Grenade Launcher",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
         "fast",
-        "fearless",
-        "mobile",
         "scout",
+        "mobile",
         "tough",
+        "fearless",
+        "stealth",
         "vehicle",
-        "veteran",
-        "zealot"
+        "cavalry",
+        "human",
+        "balanced",
+        "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
         "speed": 5,
-        "subtlety": 3,
-        "faith": 5,
+        "subtlety": 5,
+        "patience": 1,
+        "elite": 4,
+        "faith": 2,
+        "tech": 3,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -379,30 +645,61 @@
       "size": 3,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(3)",
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J1",
+        "Z4NCt"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "elite",
         "fast",
-        "fearless",
-        "human",
         "tough",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "cavalry",
+        "human",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 5,
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 3,
         "humanity": 3,
-        "faith": 5,
         "versatility": 2
       }
     },
@@ -413,27 +710,69 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Fast",
         "Tough(6)",
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Rifle",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Heavy Pistol",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "CCW",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "K1"
+      ],
       "tags": [
+        "fast",
+        "tough",
+        "fearless",
+        "stealth",
+        "vehicle",
+        "human",
         "balanced",
         "elite",
-        "fast",
-        "fearless",
-        "tough",
-        "vehicle",
-        "zealot"
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "faith": 5,
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 3,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -453,22 +792,41 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Storm Rifle",
+          "range": 24,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "r1P1w"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 4
       }
     },
     {
@@ -487,22 +845,42 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
+        "aggressive",
         "tough",
+        "transport",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 4
       }
     },
     {
@@ -521,20 +899,40 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Death Launcher",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "Blast(6)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C2"
+      ],
       "tags": [
-        "elite",
-        "fearless",
+        "ambush",
         "mobile",
-        "ranged",
         "tough",
+        "transport",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
+        "subtlety": 5,
         "speed": 3,
-        "faith": 5
+        "patience": 2,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "tech": 4
       }
     },
     {
@@ -552,22 +950,47 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Storm Cannon",
+          "range": 30,
+          "attacks": 4,
+          "special": [
+            "AP(2)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2",
+        "D2"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
         "tough",
+        "aggressive",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 4
       }
     },
     {
@@ -586,22 +1009,49 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Heavy Machinegun",
+          "range": 30,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Heavy Rifle Array",
+          "range": 24,
+          "attacks": 12,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E2",
+        "A2"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
         "fast",
-        "fearless",
-        "ranged",
         "tough",
+        "aggressive",
+        "transport",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
         "speed": 4,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 4
       }
     },
     {
@@ -611,29 +1061,51 @@
       "size": 1,
       "quality": 3,
       "defense": 3,
-      "role": "elite",
+      "role": "heavy-support",
       "rules": [
         "Artillery",
         "Fearless",
         "Tough(3)",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Gatling Cannon",
+          "range": 24,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "F2"
+      ],
       "tags": [
-        "balanced",
-        "defensive",
-        "elite",
-        "fearless",
-        "monster",
-        "ranged",
+        "artillery",
         "static",
+        "ranged",
+        "fearless",
         "tough",
-        "zealot"
+        "stealth",
+        "human",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "patience": 5,
-        "faith": 5,
-        "humanity": -4,
+        "tech": 3,
+        "faith": 2,
+        "elite": 5,
+        "subtlety": 4,
+        "humanity": 3,
         "versatility": 2
       }
     },
@@ -644,7 +1116,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Ambush",
         "Fast",
@@ -654,23 +1126,43 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Flamer",
+          "range": 12,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Blast(3)",
+            "Reliable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G2"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
-        "fast",
-        "fearless",
+        "ambush",
         "mobile",
-        "ranged",
+        "fast",
+        "aggressive",
         "tough",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "human",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
+        "subtlety": 5,
         "speed": 5,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "faith": 2,
+        "tech": 4,
+        "humanity": 3
       }
     },
     {
@@ -680,7 +1172,7 @@
       "size": 1,
       "quality": 3,
       "defense": 2,
-      "role": "vehicle",
+      "role": "fast-attack",
       "rules": [
         "Ambush",
         "Fast",
@@ -690,23 +1182,42 @@
         "Darkborn",
         "Fearless"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Machinegun",
+          "range": 30,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "6Iz7d",
+        "r1P1w"
+      ],
       "tags": [
-        "aggressive",
-        "elite",
-        "fast",
-        "fearless",
+        "ambush",
         "mobile",
-        "ranged",
+        "fast",
+        "aggressive",
         "tough",
+        "stealth",
+        "fearless",
         "vehicle",
-        "zealot"
+        "human",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
+        "subtlety": 5,
         "speed": 5,
-        "patience": -3,
-        "faith": 5
+        "patience": -1,
+        "elite": 5,
+        "faith": 2,
+        "tech": 4,
+        "humanity": 3
       }
     },
     {
@@ -723,19 +1234,43 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Twin Flamer",
+          "range": 12,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Reliable"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H2"
+      ],
       "tags": [
-        "balanced",
-        "battlesuit",
-        "elite",
-        "fearless",
         "tough",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 5,
-        "faith": 5,
+        "patience": 1,
+        "elite": 5,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 3,
         "versatility": 2
       }
     },
@@ -753,18 +1288,41 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Fist",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
         "tough",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "faith": 5
+        "elite": 5,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 2
       }
     },
     {
@@ -782,18 +1340,41 @@
         "Versatile Attack",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Walker Fist",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(4)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I2"
+      ],
       "tags": [
-        "elite",
-        "fearless",
-        "melee",
         "tough",
+        "fearless",
+        "stealth",
         "vehicle",
-        "zealot"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "tech": 3,
-        "faith": 5
+        "elite": 5,
+        "faith": 2,
+        "subtlety": 4,
+        "tech": 2
       }
     },
     {
@@ -810,21 +1391,46 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Minigun",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Typhoon Missiles",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(2)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "J2"
+      ],
       "tags": [
         "aircraft",
-        "elite",
-        "fearless",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "zealot"
+        "tough",
+        "fearless",
+        "stealth",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "faith": 5
+        "patience": 2,
+        "elite": 5,
+        "faith": 2,
+        "subtlety": 4
       }
     },
     {
@@ -842,23 +1448,66 @@
         "Fearless",
         "Darkborn"
       ],
+      "weapons": [
+        {
+          "name": "Storm Missiles",
+          "range": 36,
+          "attacks": 1,
+          "special": [
+            "AP(3)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Light Heavy Rifle Array",
+          "range": 24,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Twin Minigun",
+          "range": 24,
+          "attacks": 8,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Typhoon Missiles",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "AP(2)",
+            "Unstoppable"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "K2"
+      ],
       "tags": [
         "aircraft",
-        "defensive",
-        "elite",
-        "fearless",
         "flying",
-        "ranged",
-        "tough",
         "vehicle",
-        "zealot"
+        "tough",
+        "transport",
+        "fearless",
+        "stealth",
+        "ranged",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
         "tech": 5,
         "speed": 5,
-        "faith": 5,
-        "patience": 3
+        "patience": 2,
+        "elite": 5,
+        "collective": 2,
+        "versatility": 1,
+        "faith": 2,
+        "subtlety": 4
       }
     }
   ],

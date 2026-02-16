@@ -1,0 +1,3769 @@
+{
+  "factionId": "qtuyeoRfXKlNflK0",
+  "factionName": "Wood Elves",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Grove Champion",
+      "forUnits": [
+        "DDfHPmh"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Umu3Elm",
+              "label": "Heavy Halberd (A3, AP(1), Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending",
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "_MdKeM3",
+              "label": "Heavy Spear (A3, AP(1), Counter)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "cc7YMQt",
+              "label": "Dual Heavy Hand Weapons (A4, AP(1))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Heavy Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "7UQgrYy",
+              "label": "Heavy Lance (A3, AP(1), Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP",
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "9xzespv",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "E5WmojrZXC",
+              "label": "Dancer Leader (Regeneration)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dancer Leader",
+                  "type": "item",
+                  "content": [
+                    "Regeneration"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "IymRFo2Jn5",
+              "label": "Watch Leader (Ambush, Stealth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Watch Leader",
+                  "type": "item",
+                  "content": [
+                    "Ambush",
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "nKpy5Of",
+              "label": "Deer (Fast, Impact(1), Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deer",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CUIBSqf48T",
+              "label": "Glider Leader (Regeneration, Teleport)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Glider Leader",
+                  "type": "item",
+                  "content": [
+                    "Regeneration",
+                    "Teleport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "BxGiHN7",
+              "label": "Great Stag (Fast, Impact(3), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Stag",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jTLA0Kq",
+              "label": "Giant Owl (Rending Claws (A1, Rending), Fast, Flying, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Owl",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Fast",
+                    "Flying",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "q5e1V",
+              "label": "Forest Dragon (Heavy Claws (A6, AP(1)), Stomp (A4, AP(1)), Armor(3), Breath Attack, Fear(2), Flying, Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 295
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Forest Dragon",
+                  "type": "item",
+                  "content": [
+                    "Heavy Claws",
+                    "Stomp",
+                    "Armor",
+                    "Breath Attack",
+                    "Fear",
+                    "Flying",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Treeman Elder",
+      "forUnits": [
+        "_ugzUsY"
+      ],
+      "sections": [
+        {
+          "label": "Replace Branch Mace",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "gvasjj4",
+              "label": "Branch Claws (A4, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Branch Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "CcC5j3M",
+              "label": "Branch Spike (A1, AP(4), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Branch Spike",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Eternal Elder",
+      "forUnits": [
+        "p2InlnL"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spite Blade",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "P6Kxe",
+              "label": "Heavy Claws (A4, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "6o2y6",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "7n05H",
+              "label": "Great Scythe (A1, AP(4), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Scythe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ZTAvlaCEd1",
+              "label": "Great Rapid Hunting Shortbow (18\", A3, Pierce)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Rapid Hunting Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Pierce"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "VdlcT",
+              "label": "Great Spite Shortbow (18\", A3, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Spite Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "ZNeS0q-",
+              "label": "Wings (Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Command Group",
+      "forUnits": [
+        "GFRa6rq",
+        "01F6ROv",
+        "IwSVor6",
+        "2ZWcx2t",
+        "yji6M1E",
+        "7dxwe57",
+        "Da6iqpU",
+        "uwbY7DS",
+        "OheI5PK"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Qtig4oz",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "GFRa6rq",
+                  "cost": 5
+                },
+                {
+                  "unitId": "01F6ROv",
+                  "cost": 5
+                },
+                {
+                  "unitId": "IwSVor6",
+                  "cost": 5
+                },
+                {
+                  "unitId": "2ZWcx2t",
+                  "cost": 5
+                },
+                {
+                  "unitId": "yji6M1E",
+                  "cost": 5
+                },
+                {
+                  "unitId": "7dxwe57",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Da6iqpU",
+                  "cost": 5
+                },
+                {
+                  "unitId": "uwbY7DS",
+                  "cost": 5
+                },
+                {
+                  "unitId": "OheI5PK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "7A95lee",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "GFRa6rq",
+                  "cost": 5
+                },
+                {
+                  "unitId": "01F6ROv",
+                  "cost": 5
+                },
+                {
+                  "unitId": "IwSVor6",
+                  "cost": 5
+                },
+                {
+                  "unitId": "2ZWcx2t",
+                  "cost": 5
+                },
+                {
+                  "unitId": "yji6M1E",
+                  "cost": 5
+                },
+                {
+                  "unitId": "7dxwe57",
+                  "cost": 5
+                },
+                {
+                  "unitId": "Da6iqpU",
+                  "cost": 5
+                },
+                {
+                  "unitId": "uwbY7DS",
+                  "cost": 5
+                },
+                {
+                  "unitId": "OheI5PK",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "BnQqZiE",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "GFRa6rq",
+                  "cost": 10
+                },
+                {
+                  "unitId": "01F6ROv",
+                  "cost": 10
+                },
+                {
+                  "unitId": "IwSVor6",
+                  "cost": 10
+                },
+                {
+                  "unitId": "2ZWcx2t",
+                  "cost": 10
+                },
+                {
+                  "unitId": "yji6M1E",
+                  "cost": 10
+                },
+                {
+                  "unitId": "7dxwe57",
+                  "cost": 10
+                },
+                {
+                  "unitId": "Da6iqpU",
+                  "cost": 10
+                },
+                {
+                  "unitId": "uwbY7DS",
+                  "cost": 10
+                },
+                {
+                  "unitId": "OheI5PK",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Eternal Revenants",
+      "forUnits": [
+        "01F6ROv"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Spite Blades",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "NVS_QEera2",
+              "label": "Hunting Shortbow (18\", A1, Pierce), Claws (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "01F6ROv",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Pierce"
+                  ]
+                },
+                {
+                  "name": "Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "-2u3OPF",
+              "label": "Heavy Claws (A2, AP(1))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "01F6ROv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "iWkU-B3",
+              "label": "Spite Shortbow (18\", A1, Rending), Claws (A1)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "01F6ROv",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spite Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                },
+                {
+                  "name": "Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Spite Blade",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "NNEUZ",
+              "label": "Great Scythe (A1, AP(4), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "01F6ROv",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Scythe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "dk5OZ",
+              "label": "Wings (Flying)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "01F6ROv",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Glade Guardians",
+      "forUnits": [
+        "yji6M1E"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all Longbows with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "TO6PH7AGFh",
+              "label": "Hunting Arrow (Pierce)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "yji6M1E",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Arrow",
+                  "type": "item",
+                  "content": [
+                    "Pierce"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "aSKgg",
+              "label": "Precision Arrows (Precise)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "yji6M1E",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Precision Arrows",
+                  "type": "item",
+                  "content": [
+                    "Precise"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nVad6",
+              "label": "Toxic Arrows (Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "yji6M1E",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Toxic Arrows",
+                  "type": "item",
+                  "content": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "B6TLA",
+              "label": "Barbed Arrows (AP(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "yji6M1E",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Barbed Arrows",
+                  "type": "item",
+                  "content": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Yw0lG",
+              "label": "Magic Arrows (Rending)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "yji6M1E",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magic Arrows",
+                  "type": "item",
+                  "content": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Deer Riders",
+      "forUnits": [
+        "7dxwe57"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lAPMzCYaIu",
+              "label": "Hunting Bow (24\", A1, Pierce), Hand Weapon (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "7dxwe57",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Pierce"
+                  ]
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "m0dAJ",
+              "label": "Rapid Bow (24\", A2), Hand Weapon (A1)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "7dxwe57",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                },
+                {
+                  "name": "Hand Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Mounted Weavers",
+      "forUnits": [
+        "uwbY7DS"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "lmot0",
+              "label": "Magic Blade (A1, Bane)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "uwbY7DS",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Magic Blade",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "cnTTm3M",
+              "label": "Handmaiden (Caster(1))",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "uwbY7DS",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Handmaiden",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Eternal Hunters",
+      "forUnits": [
+        "dEMaoBh"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Great Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "l0W7q5_",
+              "label": "Great Scythe (A1, AP(4), Deadly(3))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "dEMaoBh",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Scythe",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "jfM_XkWLSy",
+              "label": "Heavy Hunting Bow (24\", A3, Pierce), Claws (A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "dEMaoBh",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Hunting Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "Pierce"
+                  ]
+                },
+                {
+                  "name": "Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "o6rjU2M",
+              "label": "Heavy Bow (24\", A3, AP(1)), Claws (A2)",
+              "cost": 80,
+              "costs": [
+                {
+                  "unitId": "dEMaoBh",
+                  "cost": 75
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Owl Riders",
+      "forUnits": [
+        "sOfgrnh"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "BIFbrIqEVF",
+              "label": "Rapid Hunting Shortbow (18\", A2, Pierce)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sOfgrnh",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Hunting Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Pierce"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "SFpVM",
+              "label": "Owl-Rider Shortbow (18\", A3)",
+              "cost": 55,
+              "costs": [
+                {
+                  "unitId": "sOfgrnh",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Owl-Rider Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Kw4iA_bO",
+              "label": "Hunting Lure (Quick Shot Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "sOfgrnh",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Lure",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Tree Giant",
+      "forUnits": [
+        "TerGuIM"
+      ],
+      "sections": [
+        {
+          "label": "Replace Whip Root",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1AVuGp2",
+              "label": "Branch Mace (A6, AP(2))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "TerGuIM",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Branch Mace",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "cyvC3en",
+              "label": "Treeman Ancient (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "TerGuIM",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Treeman Ancient",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "H5rlBoV",
+              "label": "Master Treeman Ancient (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "TerGuIM",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Treeman Ancient",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "is7BI693",
+              "label": "Glow-Fairy Dust (Grounded Protection)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "TerGuIM",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Glow-Fairy Dust",
+                  "type": "item",
+                  "content": [
+                    "Grounded Protection"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "l1tXy",
+      "hint": "Glade Defenders",
+      "forUnits": [
+        "GFRa6rq"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "HG3Ca",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "GFRa6rq",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "70sN8",
+              "label": "Spear (A1, Counter)",
+              "cost": 45,
+              "costs": [
+                {
+                  "unitId": "GFRa6rq",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Q2sXQ",
+      "hint": "Glade Leader",
+      "forUnits": [
+        "2HF3Nnt"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "sHiHu",
+              "label": "Spear (A3, Counter)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "2ahhQ",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "H4fje",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "TXkvA",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "GtV6W",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Lejf_fK3en",
+              "label": "Scout Master (Scout, Stealth)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Scout Master",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Stealth"
+                  ]
+                }
+              ],
+              "tags": [
+                "stealth"
+              ],
+              "dimensionScores": {
+                "subtlety": 3
+              }
+            },
+            {
+              "uid": "2MuQV",
+              "label": "Deer (Fast, Impact(1), Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Deer",
+                  "type": "item",
+                  "content": [
+                    "Fast",
+                    "Impact",
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "h5dYO",
+              "label": "Great Stag (Armor(4), Fast, Impact(3), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Stag",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "C-wV8",
+              "label": "Giant Owl (Rending Claws (A1, Rending), Armor(4), Fast, Flying, Impact(2), Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Owl",
+                  "type": "item",
+                  "content": [
+                    "Rending Claws",
+                    "Armor",
+                    "Fast",
+                    "Flying",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "XtHHZ",
+              "label": "Giant Beetle (Great Horn (A2, AP(2), Deadly(3)), Stomp (A4, AP(1)), Armor(3), Fear(2), Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 215
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Beetle",
+                  "type": "item",
+                  "content": [
+                    "Great Horn",
+                    "Stomp",
+                    "Armor",
+                    "Fear",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "R0EgN",
+      "hint": "Eternal Bug Riders",
+      "forUnits": [
+        "OheI5PK"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Lances",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "zwlwp",
+              "label": "Spite Blades (A1, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "OheI5PK",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spite Blades",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "wTXNP",
+      "hint": "Eternal Guardian",
+      "forUnits": [
+        "-PxpnbM"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Jn6GY",
+              "label": "Heavy Glaive (A6, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-PxpnbM",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 6,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "EVbfd",
+              "label": "Wings (Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "-PxpnbM",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Fmw6r",
+      "hint": "Giant Beetle",
+      "forUnits": [
+        "j6eudp0"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hunting Shortbow Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7FWj5ZkqDI",
+              "label": "Shortbow Crew (18\", A6)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j6eudp0",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "372P1",
+              "label": "Beetle Nest (Spawn(Beetle Swarms [3]))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j6eudp0",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beetle Nest",
+                  "type": "item",
+                  "content": [
+                    "Spawn"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "ZBL36",
+              "label": "Ballista (24\", A2, AP(2), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j6eudp0",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Ballista",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FzRmG",
+              "label": "Trample (Impact(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j6eudp0",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Trample",
+                  "type": "item",
+                  "content": [
+                    "Impact"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Mi2A4K3Z0B",
+              "label": "Hunting Lure (Quick Shot Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "j6eudp0",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Lure",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "jwaHa",
+      "hint": "Treeman Brutes",
+      "forUnits": [
+        "qDAISiA"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Branch Maces",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Fx2gj",
+              "label": "Branch Claws (A4, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qDAISiA",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Branch Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "NEQDHhnT",
+              "label": "Glow-Fairy Dust (Grounded Protection Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "qDAISiA",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Glow-Fairy Dust",
+                  "type": "item",
+                  "content": [
+                    "Grounded Protection Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "1-gUF",
+      "hint": "Treemen",
+      "forUnits": [
+        "pognt8d"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Heavy Claws",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "34hPP",
+              "label": "Branch Claws (A1, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pognt8d",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Branch Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "eyvOm",
+              "label": "Weaving Branch (12\", A1), Claws (A1)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pognt8d",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Weaving Branch",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 1,
+                  "special": []
+                },
+                {
+                  "name": "Claws",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "DNfu_1y3",
+              "label": "Glow-Fairy Dust (Grounded Protection Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "pognt8d",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Glow-Fairy Dust",
+                  "type": "item",
+                  "content": [
+                    "Grounded Protection Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "vBbIv",
+      "hint": "War Dancers",
+      "forUnits": [
+        "2ZWcx2t"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "fVNbf",
+              "label": "Glider Wings (Teleport)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2ZWcx2t",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Glider Wings",
+                  "type": "item",
+                  "content": [
+                    "Teleport"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Ut8pmoDR",
+              "label": "Hunting Lure (Quick Shot Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2ZWcx2t",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Lure",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "bC7ik",
+      "hint": "Eternal Guardian Ancient",
+      "forUnits": [
+        "J_QVrUH"
+      ],
+      "sections": [
+        {
+          "label": "Replace Great Hammer",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "5L8rF",
+              "label": "Heavy Glaive (A9, AP(1), Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Glaive",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 9,
+                  "special": [
+                    "AP",
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "XQHLq",
+              "label": "Squirm-fly (12\", A9, Bane)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 60
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Squirm-fly",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 9,
+                  "special": [
+                    "Bane"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "SGc9a",
+              "label": "Fury-fly (18\", A6, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 65
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Fury-fly",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "nZ7Si",
+              "label": "Wings (Flying)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wings",
+                  "type": "item",
+                  "content": [
+                    "Flying"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "cyTDX",
+      "hint": "Leader Upgrades",
+      "forUnits": [
+        "DDfHPmh",
+        "2HF3Nnt"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "HIa3L",
+              "label": "Great Longbow (30\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 20
+                },
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Longbow",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            },
+            {
+              "uid": "OlugA6MbVu",
+              "label": "Great Rapid Shortbow (18\", A3)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 20
+                },
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Rapid Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "QJsgVTIAow",
+              "label": "Great Hunting Shortbow (18\", A2, Pierce)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 20
+                },
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Hunting Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Pierce"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "AMqUJH31Pq",
+              "label": "Great Hunting Bow (24\", A2, Pierce)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 20
+                },
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Hunting Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Pierce"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "TLpGIFPFdj",
+              "label": "Great Rapid Bow (24\", A3)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 30
+                },
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Rapid Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 3,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "az4NX",
+              "label": "Beast Companion (Repel Ambushers)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 10
+                },
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Beast Companion",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "U8N4h1oZ",
+      "hint": "Glow-Fairy Dust",
+      "forUnits": [
+        "IwSVor6",
+        "Da6iqpU"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "D97-4Vk0IK",
+              "label": "Glow-Fairy Dust (Grounded Protection Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "IwSVor6",
+                  "cost": 20
+                },
+                {
+                  "unitId": "Da6iqpU",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Glow-Fairy Dust",
+                  "type": "item",
+                  "content": [
+                    "Grounded Protection Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "RpapiXLK",
+      "hint": "Giant Owls",
+      "forUnits": [
+        "KLI8cVe"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "VoO1bKVvWY",
+              "label": "Hunting Lure (Quick Shot Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "KLI8cVe",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Hunting Lure",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "N92nOt54",
+      "hint": "Glade Scouts",
+      "forUnits": [
+        "R5d3t4g"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hunting Bows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "2YROBvd3WP",
+              "label": "Rapid Bow (24\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "R5d3t4g",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Bow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "aH1blIB4",
+      "hint": "Forest Watch",
+      "forUnits": [
+        "6DoZviX"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hunting Shortbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "pSwplE-5NY",
+              "label": "Rapid Shortbow (18\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6DoZviX",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Rapid Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "5jcwBjpq",
+              "label": "Glow-Fairy Dust (Grounded Protection Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6DoZviX",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Glow-Fairy Dust",
+                  "type": "item",
+                  "content": [
+                    "Grounded Protection Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "eK4X61TO",
+      "hint": "Specialists - Grove",
+      "forUnits": [
+        "DDfHPmh"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_TyNBd8n",
+              "label": "Stalk Master (Hit & Run Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stalk Master",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "c0NHwiWCiv",
+              "label": "Forest Warden (Melee Evasion Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Forest Warden",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "-8sJJyDC",
+              "label": "Dance Master (Piercing Assault Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dance Master",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "fGgp-sBj9J",
+              "label": "Wild Hunter (Unpredictable Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wild Hunter",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "uy8FgKap",
+              "label": "Spell Weaver (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spell Weaver",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "b9F6tx90",
+              "label": "Master Spell Weaver (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "DDfHPmh",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Spell Weaver",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "YTCKXlAg",
+      "hint": "Specialists - Eternal",
+      "forUnits": [
+        "p2InlnL"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_ePoijcd",
+              "label": "Stalk Master (Rapid Advance Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stalk Master",
+                  "type": "item",
+                  "content": [
+                    "Rapid Advance Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "vJluyyHV",
+              "label": "Heartwood Defender (Wild Veil Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heartwood Defender",
+                  "type": "item",
+                  "content": [
+                    "Wild Veil Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "CZEnq7tx",
+              "label": "War Master (Piercing Assault Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Master",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "hpLLaA5k",
+              "label": "Wild Hunter (Unpredictable Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wild Hunter",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "2p3khixr",
+              "label": "Spell Weaver (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spell Weaver",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oy-Gqc0vxs",
+              "label": "Master Spell Weaver (Caster(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "p2InlnL",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Spell Weaver",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "Iwc7rWem",
+      "hint": "Specialists - Treeman",
+      "forUnits": [
+        "_ugzUsY"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "EloTGOea",
+              "label": "Branch Master (Hit & Run Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Branch Master",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "3iHDDITy",
+              "label": "Forest Warden (Melee Evasion Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Forest Warden",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "B7tKZjCg",
+              "label": "Heartwood Defender (Wild Veil Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heartwood Defender",
+                  "type": "item",
+                  "content": [
+                    "Wild Veil Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "9gvpvAdl",
+              "label": "Heartwood Icon Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heartwood Icon Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jH-8i3JT",
+              "label": "Wild Weaver (Unpredictable Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wild Weaver",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "sp1Z35uW",
+              "label": "Forest Wraith (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Forest Wraith",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "Oq8li06l",
+              "label": "Master Forest Wraith (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "_ugzUsY",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Forest Wraith",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": []
+        }
+      ]
+    },
+    {
+      "uid": "i9K277Ij",
+      "hint": "Specialists - Glade",
+      "forUnits": [
+        "2HF3Nnt"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Vs4CI_JN",
+              "label": "Glade Master (Hit & Run Shooter Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Glade Master",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "oUdVcQA-",
+              "label": "Forest Warden (Melee Evasion Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Forest Warden",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "9SKh3hwq",
+              "label": "Heartwood Defender (Wild Veil Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heartwood Defender",
+                  "type": "item",
+                  "content": [
+                    "Wild Veil Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "eWSaiHR6",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "kDPMg5VK",
+              "label": "War Master (Piercing Assault Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Master",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "s1WbIQ9H",
+              "label": "Spell Weaver (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spell Weaver",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nzIsHS7d",
+              "label": "Master Spell Weaver (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "2HF3Nnt",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Spell Weaver",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "VYQeN8dU",
+      "hint": "Specialists - Guardian Ancient",
+      "forUnits": [
+        "J_QVrUH"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "F70DA3oh",
+              "label": "Heartwood Defender (Wild Veil Boost)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heartwood Defender",
+                  "type": "item",
+                  "content": [
+                    "Wild Veil Boost"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "u9xIlx0d",
+              "label": "Stalk Master (Hit & Run Shooter)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stalk Master",
+                  "type": "item",
+                  "content": [
+                    "Hit & Run Shooter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "mc-HbZBA",
+              "label": "War Master (Piercing Assault)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "War Master",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "shOvP1l8",
+              "label": "Spell Weaver (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spell Weaver",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "yPE7Zigt",
+              "label": "Master Spell Weaver (Caster(3))",
+              "cost": 60,
+              "costs": [
+                {
+                  "unitId": "J_QVrUH",
+                  "cost": 70
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Master Spell Weaver",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,9 +2,14 @@
   "factionId": "t-sIke2snonFSL6Q",
   "factionName": "Mummified Undead",
   "gameSystem": "age-of-fantasy",
-  "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:16.689Z",
+  "factionType": "mixed",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:27.134Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 30
+  },
   "units": [
     {
       "id": "AfqFVor",
@@ -19,23 +24,31 @@
         "Tough(3)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "9GeLv1dD"
+      ],
       "tags": [
-        "ancient",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "tradition": 4
+        "leadership": 5,
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -51,22 +64,29 @@
         "Tough(3)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "L4zIk2o-"
+      ],
       "tags": [
-        "ancient",
-        "corrupted",
-        "expendable",
         "hero",
-        "human",
         "leader",
-        "melee"
+        "tough",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "tradition": 4
+        "leadership": 5,
+        "elite": -1,
+        "tech": -1
       }
     },
     {
@@ -80,22 +100,30 @@
       "rules": [
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "D1"
+      ],
       "tags": [
-        "ancient",
+        "melee",
         "cheap",
-        "corrupted",
         "expendable",
         "horde",
-        "human",
-        "melee",
         "swarm"
       ],
       "dimensionScores": {
+        "patience": -1,
+        "tech": -1,
         "elite": -5,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
-        "tradition": 4
+        "collective": 5
       }
     },
     {
@@ -111,26 +139,31 @@
         "Fearless",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "ancient",
-        "cheap",
-        "corrupted",
-        "expendable",
-        "fearless",
-        "horde",
-        "human",
-        "melee",
         "slow",
+        "fearless",
+        "melee",
+        "cheap",
+        "expendable",
+        "horde",
         "swarm"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "collective": 5,
-        "purity": -4,
-        "humanity": 3,
         "speed": -2,
         "faith": 2,
-        "tradition": 4
+        "patience": -1,
+        "tech": -1,
+        "elite": -5,
+        "collective": 5
       }
     },
     {
@@ -144,16 +177,26 @@
       "rules": [
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "E1"
+      ],
       "tags": [
-        "ancient",
-        "corrupted",
-        "human",
         "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
-        "tradition": 4
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -167,20 +210,32 @@
       "rules": [
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Bow",
+          "range": 24,
+          "attacks": 1,
+          "special": []
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "BvwdziQX"
+      ],
       "tags": [
-        "ancient",
         "balanced",
         "cheap",
-        "corrupted",
-        "expendable",
-        "human"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -5,
-        "purity": -4,
-        "humanity": 3,
-        "tradition": 4,
-        "versatility": 2
+        "versatility": 2,
+        "elite": -5
       }
     },
     {
@@ -195,19 +250,27 @@
         "Tough(3)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Dual Heavy Hand Weapons",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "ancient",
-        "corrupted",
-        "elite",
-        "human",
+        "tough",
         "melee",
-        "tough"
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
-        "tradition": 4
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -224,26 +287,32 @@
         "Scout",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "F1"
+      ],
       "tags": [
-        "aggressive",
-        "ancient",
-        "cavalry",
-        "corrupted",
-        "expendable",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
+        "scout",
         "mobile",
-        "scout"
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "patience": -3,
+        "patience": -4,
         "subtlety": 3,
-        "tradition": 4
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -258,23 +327,41 @@
         "Fast",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Heavy Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "J1"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "cavalry",
-        "corrupted",
         "fast",
-        "human",
+        "cavalry",
+        "monster",
         "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "tradition": 4,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1,
+        "elite": 3
       }
     },
     {
@@ -291,25 +378,33 @@
         "Tough(3)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Snake Fangs",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "aggressive",
-        "ancient",
-        "beast",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 4,
         "patience": -3,
-        "tradition": 4,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -326,26 +421,43 @@
         "Tough(3)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Skeleton Spear Rider",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Thrust"
+          ]
+        },
+        {
+          "name": "Snake Fangs",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "C1",
+        "kSx9s9-Y"
+      ],
       "tags": [
-        "aggressive",
-        "ancient",
-        "beast",
-        "cavalry",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
         "tough",
+        "cavalry",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "patience": -3,
-        "tradition": 4,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -362,23 +474,32 @@
         "Tough(3)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Halberd",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I1"
+      ],
       "tags": [
-        "aggressive",
-        "ancient",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
+        "aggressive",
+        "tough",
         "melee",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": 4,
         "patience": -3,
-        "tradition": 4
+        "elite": 5,
+        "tech": -1
       }
     },
     {
@@ -394,21 +515,26 @@
         "Strider",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
-        "mobile"
+        "mobile",
+        "monster",
+        "melee"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "tradition": 4,
-        "tech": -3
+        "humanity": -3,
+        "patience": -1,
+        "tech": -1
       }
     },
     {
@@ -424,20 +550,30 @@
         "Tough(3)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Swarm Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "ancient",
-        "corrupted",
-        "expendable",
-        "human",
+        "mobile",
+        "tough",
+        "horde",
+        "swarm",
         "melee",
-        "mobile"
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
-        "tradition": 4
+        "elite": -2,
+        "collective": 5,
+        "tech": -1
       }
     },
     {
@@ -447,29 +583,38 @@
       "size": 3,
       "quality": 4,
       "defense": 5,
-      "role": "fast-attack",
+      "role": "troops",
       "rules": [
         "Flying",
         "Tough(3)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Sharp Beak",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Rending"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "i7OUBgj8"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
         "flying",
-        "human",
-        "melee",
+        "mobile",
         "tough",
+        "monster",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3,
-        "tradition": 4,
-        "tech": -3
+        "speed": 5,
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -479,30 +624,47 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "monster",
       "rules": [
         "Ambush",
         "Fear(1)",
         "Tough(6)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Pincers",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stinger",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "Bane"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
+        "ambush",
         "mobile",
         "tough",
-        "vehicle",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
+        "subtlety": 3,
         "speed": 3,
-        "tradition": 4
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -519,22 +681,37 @@
         "Regeneration",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Release Spirits",
+          "range": 24,
+          "attacks": 2,
+          "special": [
+            "Blast(3)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E2"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "corrupted",
-        "elite",
-        "human",
-        "regeneration",
         "slow",
-        "tough"
+        "tough",
+        "regeneration",
+        "balanced",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": -2,
-        "tradition": 4,
+        "patience": 1,
+        "elite": 5,
         "versatility": 2
       }
     },
@@ -551,22 +728,36 @@
         "Tough(12)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 10,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A2"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "tradition": 4,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -582,22 +773,38 @@
         "Tough(12)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Sphinx Crew",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "Rending"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "8khPW"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
-        "human",
-        "melee",
-        "monster",
         "tough",
-        "veteran"
+        "monster",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "humanity": -1,
-        "purity": -4,
-        "tradition": 4,
-        "tech": -3
+        "elite": 4,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -613,22 +820,36 @@
         "Tough(12)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Dual Hand Weapons",
+          "range": 0,
+          "attacks": 10,
+          "special": []
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B2"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
-        "elite",
-        "human",
-        "melee",
+        "tough",
         "monster",
-        "tough"
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "purity": -4,
-        "tradition": 4,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -645,25 +866,41 @@
         "Tough(12)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Great Weapon",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "CluVEwT-"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
-        "elite",
-        "human",
         "magic",
-        "melee",
-        "monster",
         "psychic",
-        "tough"
+        "tough",
+        "monster",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "purity": -4,
         "mystery": 5,
-        "tradition": 4,
-        "tech": -3
+        "elite": 5,
+        "humanity": -3,
+        "tech": -1
       }
     },
     {
@@ -680,24 +917,39 @@
         "Tough(6)",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Hooves",
+          "range": 0,
+          "attacks": 2,
+          "special": []
+        },
+        {
+          "name": "Spear Crew",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Thrust"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D2"
+      ],
       "tags": [
-        "aggressive",
-        "ancient",
-        "cavalry",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
         "tough",
-        "veteran"
+        "cavalry",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "patience": -3,
-        "tradition": 4
+        "elite": 4,
+        "tech": -1
       }
     },
     {
@@ -713,21 +965,40 @@
         "Artillery",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Skull Barrage",
+          "range": 36,
+          "attacks": 6,
+          "special": [
+            "AP(1)",
+            "Indirect"
+          ]
+        },
+        {
+          "name": "Crew",
+          "range": 0,
+          "attacks": 3,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "m9eZKfzK"
+      ],
       "tags": [
-        "ancient",
-        "balanced",
-        "corrupted",
-        "defensive",
-        "human",
-        "ranged",
+        "tough",
+        "artillery",
         "static",
-        "tough"
+        "ranged",
+        "indirect",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "purity": -4,
-        "humanity": 3,
         "patience": 5,
-        "tradition": 4,
+        "elite": -2,
+        "tech": 3,
+        "subtlety": 1,
         "versatility": 2
       }
     },
@@ -745,23 +1016,49 @@
         "Fearless",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Titan Strike",
+          "range": 0,
+          "attacks": 12,
+          "special": [
+            "AP(2)",
+            "Rending"
+          ]
+        },
+        {
+          "name": "Titanic Bash",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(4)",
+            "Blast(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "SYrZt"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
-        "elite",
-        "fearless",
-        "human",
-        "melee",
         "tough",
-        "vehicle"
+        "fearless",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
+        "elite": 5,
         "faith": 2,
-        "tradition": 4
+        "tech": 2
       }
     },
     {
@@ -779,25 +1076,43 @@
         "Fearless",
         "Royal Legion"
       ],
+      "weapons": [
+        {
+          "name": "Godly Battle-Axe",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(2)",
+            "Blast(6)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 8,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "lhDni"
+      ],
       "tags": [
-        "ancient",
-        "beast",
-        "corrupted",
-        "elite",
-        "fearless",
         "flying",
-        "human",
-        "melee",
+        "mobile",
         "tough",
-        "vehicle"
+        "fearless",
+        "vehicle",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3,
+        "speed": 5,
+        "elite": 5,
         "faith": 2,
-        "tradition": 4
+        "tech": 2
       }
     },
     {
@@ -815,25 +1130,30 @@
         "Unique",
         "Unpredictable Fighter"
       ],
+      "weapons": [
+        {
+          "name": "Crescent Blades",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [],
       "tags": [
-        "ancient",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
-        "unpredictable"
+        "defensive",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3,
-        "tradition": 4
+        "leadership": 5,
+        "elite": 5,
+        "patience": 3,
+        "tech": -1
       }
     }
   ],

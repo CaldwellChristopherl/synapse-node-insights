@@ -1,0 +1,2360 @@
+{
+  "factionId": "q9BQlBp583ZuuOnQ",
+  "factionName": "Goblins",
+  "packages": [
+    {
+      "uid": "A1",
+      "hint": "Goblin Leader",
+      "forUnits": [
+        "MhIwX30"
+      ],
+      "sections": [
+        {
+          "label": "Replace Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "7L35nZ1",
+              "label": "Spear (A3, Counter)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "yKh9SG-",
+              "label": "Halberd (A3, Rending)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "f0zZB1_",
+              "label": "Dual Hand Weapons (A4)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Dual Hand Weapons",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "l0MoSok",
+              "label": "Great Weapon (A3, AP(2))",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "zc09xBI",
+              "label": "Lance (A3, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "2n_QC",
+              "label": "Leader Shortbow (18\", A2)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Leader Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "5nBt2tqxjL",
+              "label": "Leader Crossbow (24\", A2, Rending)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Leader Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Spider Clan",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "3qRXsb90",
+              "label": "Bat Clan (Furious)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bat Clan",
+                  "type": "item",
+                  "content": [
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "K7XD5n0B",
+              "label": "Wolf Clan (Fearless)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wolf Clan",
+                  "type": "item",
+                  "content": [
+                    "Fearless"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with any",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FZZdjJGeGj",
+              "label": "Mob Madness (Instinctive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mob Madness",
+                  "type": "item",
+                  "content": [
+                    "Instinctive"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "bEy6X38",
+              "label": "Pet Cave-Beast (Repel Ambushers)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Pet Cave-Beast",
+                  "type": "item",
+                  "content": [
+                    "Repel Ambushers"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Mb5Uim-",
+              "label": "Spider (Acid Fangs (A1, Shred), Scout)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spider",
+                  "type": "item",
+                  "content": [
+                    "Acid Fangs",
+                    "Scout"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "MXDuSU-",
+              "label": "Wolf (Bite (A1, AP(1)), Fast)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wolf",
+                  "type": "item",
+                  "content": [
+                    "Bite",
+                    "Fast"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "qMF4uTW",
+              "label": "Cave-Beast (Vicious Bites (A1, Rending), Bounding)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cave-Beast",
+                  "type": "item",
+                  "content": [
+                    "Vicious Bites",
+                    "Bounding"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "2zscMW316-",
+              "label": "Great Wolf (Heavy Bites (A2, AP(1)), Fast, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Wolf",
+                  "type": "item",
+                  "content": [
+                    "Heavy Bites",
+                    "Fast",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "4KFznM7",
+              "label": "Great Spider (Acid Fangs (A4, Shred), Scout, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Spider",
+                  "type": "item",
+                  "content": [
+                    "Acid Fangs",
+                    "Scout",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "6ShJKux",
+              "label": "Great Cave-Beast (Vicious Bites (A3, Rending), Bounding, Tough(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Great Cave-Beast",
+                  "type": "item",
+                  "content": [
+                    "Vicious Bites",
+                    "Bounding",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "jtWAnQGmbD",
+              "label": "Wolf Chariot (Heavy Bites (A2, AP(1)), Armor(3), Fast, Impact(4), Tough(6))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 105
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wolf Chariot",
+                  "type": "item",
+                  "content": [
+                    "Heavy Bites",
+                    "Armor",
+                    "Fast",
+                    "Impact",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "V-uIXejb4d",
+              "label": "Giant Cave-Beast (Stomp (A4, AP(1)), Giant Jaws (A8, Rending), Armor(3), Bounding, Fear(2), Tough(12))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 220
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Cave-Beast",
+                  "type": "item",
+                  "content": [
+                    "Stomp",
+                    "Giant Jaws",
+                    "Armor",
+                    "Bounding",
+                    "Fear",
+                    "Tough"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "B1",
+      "hint": "Troll Boss",
+      "forUnits": [
+        "DQ5jgGa"
+      ],
+      "sections": [
+        {
+          "label": "Replace Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "nq95rp2",
+              "label": "Heavy Great Weapon (A4, AP(4))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            },
+            {
+              "uid": "EkbWy",
+              "label": "Throw Stones (12\", A6, AP(1)), Bash (A4)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throw Stones",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "gsq9MnTG",
+              "label": "Sniff Out Threats (Piercing Assault Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniff Out Threats",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "C1",
+      "hint": "Command Group",
+      "forUnits": [
+        "NfGAfXW",
+        "voUEnj5",
+        "6z-hbTL"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade up to three models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "8zTgfkb",
+              "label": "Sergeant",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "NfGAfXW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "voUEnj5",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6z-hbTL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sergeant",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "0yDh4IX",
+              "label": "Banner",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "NfGAfXW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "voUEnj5",
+                  "cost": 5
+                },
+                {
+                  "unitId": "6z-hbTL",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Banner",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "xH7ucVK",
+              "label": "Musician",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "NfGAfXW",
+                  "cost": 10
+                },
+                {
+                  "unitId": "voUEnj5",
+                  "cost": 10
+                },
+                {
+                  "unitId": "6z-hbTL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Musician",
+                  "type": "ArmyBookRule"
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "D1",
+      "hint": "Warriors",
+      "forUnits": [
+        "NfGAfXW"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Ke_fk6T",
+              "label": "Halberd (A1, Rending)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "NfGAfXW",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Halberd",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "sFXkrrM",
+              "label": "Spear (A1, Counter)",
+              "cost": 35,
+              "costs": [
+                {
+                  "unitId": "NfGAfXW",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Spear",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Counter"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "E1",
+      "hint": "Cave-Beast Herd",
+      "forUnits": [
+        "HypLKLk"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Xf0j0Gj",
+              "label": "Goblin Herder (Unpredictable Fighter)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "HypLKLk",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Goblin Herder",
+                  "type": "item",
+                  "content": [
+                    "Unpredictable Fighter"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F1",
+      "hint": "Trolls",
+      "forUnits": [
+        "QF59XD5"
+      ],
+      "sections": [
+        {
+          "label": "Replace any Heavy Hand Weapon",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "zUhnV",
+              "label": "Throw Rocks (12\", A3, AP(1)), Bash (A2)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "QF59XD5",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throw Rocks",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            },
+            {
+              "uid": "Vw2mqOF",
+              "label": "Heavy Great Weapon (A3, AP(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "QF59XD5",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Heavy Great Weapon",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 3,
+                  "special": [
+                    "AP"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "_l1j4luC",
+              "label": "Sniff Out Threats (Piercing Assault Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QF59XD5",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniff Out Threats",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "G1",
+      "hint": "Shooters",
+      "forUnits": [
+        "voUEnj5"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Shortbows",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "cwQA62M",
+              "label": "Crossbow (24\", A1, Rending)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "voUEnj5",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "Rending"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-armor"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1,
+                "elite": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace one Crossbow",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "6ClKtGbX3x",
+              "label": "Skewer-Bolt Crossbow (24\", A1, AP(2), Skewer)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "voUEnj5",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skewer-Bolt Crossbow",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Skewer"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "H1",
+      "hint": "Beast Riders",
+      "forUnits": [
+        "6z-hbTL"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Hand Weapons",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "1M3AN_w",
+              "label": "Lance (A1, Thrust)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "6z-hbTL",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Lance",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "Thrust"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee"
+              ],
+              "dimensionScores": {
+                "patience": -1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "T1VGjwj",
+              "label": "Shortbow (18\", A1)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "6z-hbTL",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 1,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace all Spider Mounts",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "--bByAx8Ee",
+              "label": "Wolf Mount (Bite (A1, AP(1)), Fast, Fearless)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6z-hbTL",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wolf Mount",
+                  "type": "item",
+                  "content": [
+                    "Bite",
+                    "Fast",
+                    "Fearless"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "gh1xU-S2YE",
+              "label": "Cave-Beast Mount (Vicious Jaws (A1, Rending), Bounding, Furious)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "6z-hbTL",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cave-Beast Mount",
+                  "type": "item",
+                  "content": [
+                    "Vicious Jaws",
+                    "Bounding",
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "I1",
+      "hint": "Troll Giant",
+      "forUnits": [
+        "_-4Y87q"
+      ],
+      "sections": [
+        {
+          "label": "Replace Giant Club",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "K8CHctUOEP",
+              "label": "Giant Hammer (A2, AP(4), Deadly(3))",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_-4Y87q",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Hammer",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "bwYPNNm2MH",
+              "label": "Throw Boulders (18\", A2, AP(1), Blast(3)), Bash (A4)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_-4Y87q",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throw Boulders",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "AP"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1,
+                "collective": 1
+              }
+            },
+            {
+              "uid": "LZd7m3v",
+              "label": "Throw Skewer-Spear (18\", A2, AP(2), Skewer), Bash (A4)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "_-4Y87q",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throw Skewer-Spear",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Skewer"
+                  ]
+                },
+                {
+                  "name": "Bash",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged",
+                "melee"
+              ],
+              "dimensionScores": {
+                "tech": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "Z-7UGxo_",
+              "label": "Sniff Out Threats (Piercing Assault Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "_-4Y87q",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniff Out Threats",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "J1",
+      "hint": "Giant Spider",
+      "forUnits": [
+        "4OMUbC2"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spider Shrine",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "erYOVeU",
+              "label": "Shortbow Crew (18\", A6)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "4OMUbC2",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            },
+            {
+              "uid": "hlPqq",
+              "label": "Web Catapult (24\", A2, Blast(3), Indirect)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "4OMUbC2",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Web Catapult",
+                  "type": "weapon",
+                  "range": 24,
+                  "attacks": 2,
+                  "special": [
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 2,
+                "tech": 1,
+                "collective": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "yiwp6mAkhK",
+              "label": "Skewer-Bolt Thrower (30\", A2, AP(2), Skewer)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "4OMUbC2",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skewer-Bolt Thrower",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Skewer"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        },
+        {
+          "label": "Replace Great Acid Fang",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "etWIBA7",
+              "label": "Acid Fangs (A4, Shred), Giant Stinger (A1, AP(2), Deadly(3))",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "4OMUbC2",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Giant Stinger",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                },
+                {
+                  "name": "Acid Fangs",
+                  "type": "weapon",
+                  "range": 0,
+                  "attacks": 4,
+                  "special": [
+                    "Shred"
+                  ]
+                }
+              ],
+              "tags": [
+                "melee",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": -1,
+                "elite": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "K1",
+      "hint": "Wolf Chariot",
+      "forUnits": [
+        "Q4emtC6"
+      ],
+      "sections": [
+        {
+          "label": "Replace Spear Crew",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "t9dFFks",
+              "label": "Shortbow Crew (18\", A6)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "Q4emtC6",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shortbow Crew",
+                  "type": "weapon",
+                  "range": 18,
+                  "attacks": 6,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "L1",
+      "hint": "Pump Wagon",
+      "forUnits": [
+        "WWAhxDC"
+      ],
+      "sections": [
+        {
+          "label": "Replace Crew Attacks",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "311Ahk8",
+              "label": "Throwing Weapons Crew (12\", A6)",
+              "cost": 10,
+              "costs": [
+                {
+                  "unitId": "WWAhxDC",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Throwing Weapons Crew",
+                  "type": "weapon",
+                  "range": 12,
+                  "attacks": 6,
+                  "special": []
+                }
+              ],
+              "tags": [
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 1,
+                "tech": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "M1",
+      "hint": "Goblin Artillery",
+      "forUnits": [
+        "hGp-X7M"
+      ],
+      "sections": [
+        {
+          "label": "Replace Scrap-Shooter",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "DdSuLQL",
+              "label": "Goblin Slingshot (30\", A1, AP(1), Deadly(3), Indirect, Takedown)",
+              "cost": 85,
+              "costs": [
+                {
+                  "unitId": "hGp-X7M",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Goblin Slingshot",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly",
+                    "Indirect",
+                    "Takedown"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "elite": 1,
+                "subtlety": 1
+              }
+            },
+            {
+              "uid": "76l89d-",
+              "label": "Bolt Thrower (30\", A1, AP(3), Deadly(6))",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "hGp-X7M",
+                  "cost": 25
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bolt Thrower",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Deadly"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-elite"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3,
+                "elite": 1
+              }
+            },
+            {
+              "uid": "3L1Tgj-",
+              "label": "Light Stone Thrower (30\", A1, AP(2), Blast(6), Indirect)",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "hGp-X7M",
+                  "cost": 55
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Light Stone Thrower",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 1,
+                  "special": [
+                    "AP",
+                    "Blast",
+                    "Indirect"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged",
+                "anti-horde",
+                "indirect"
+              ],
+              "dimensionScores": {
+                "patience": 4,
+                "tech": 3,
+                "collective": 1,
+                "subtlety": 1
+              }
+            }
+          ]
+        },
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "WmP7Bgl9",
+              "label": "Sniff Out Threats (Piercing Assault Mark)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "hGp-X7M",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Sniff Out Threats",
+                  "type": "item",
+                  "content": [
+                    "Piercing Assault Mark"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "dIbO3",
+      "hint": "Assassins",
+      "forUnits": [
+        "ahILLgo"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "jNJfA",
+              "label": "Nasty Ambush (Surprise Attack(1))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "ahILLgo",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Nasty Ambush",
+                  "type": "item",
+                  "content": [
+                    "Surprise Attack"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "id3_J",
+              "label": "Headhunter (Takedown Strike)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "ahILLgo",
+                  "cost": 45
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Headhunter",
+                  "type": "item",
+                  "content": [
+                    "Takedown Strike"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "WElvV",
+      "hint": "Goblin Clans",
+      "forUnits": [
+        "NfGAfXW",
+        "voUEnj5"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Spider Clans",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "Z-Axh",
+              "label": "Bat Clan (Furious)",
+              "cost": 5,
+              "costs": [
+                {
+                  "unitId": "NfGAfXW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "voUEnj5",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Bat Clan",
+                  "type": "item",
+                  "content": [
+                    "Furious"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "q86Im",
+              "label": "Wolf Clan (Fearless)",
+              "cost": 15,
+              "costs": [
+                {
+                  "unitId": "NfGAfXW",
+                  "cost": 10
+                },
+                {
+                  "unitId": "voUEnj5",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Wolf Clan",
+                  "type": "item",
+                  "content": [
+                    "Fearless"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "8Gnl1BiT",
+      "hint": "Troll Tribes",
+      "forUnits": [
+        "QF59XD5"
+      ],
+      "sections": [
+        {
+          "label": "Replace all Forest Tribes",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "CNUIET5hAb",
+              "label": "Cave Tribe (Furious, Shred in Melee)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "QF59XD5",
+                  "cost": 5
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Cave Tribe",
+                  "type": "item",
+                  "content": [
+                    "Furious",
+                    "Shred in Melee"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "5yYIey76",
+              "label": "Stone Tribe (Armor(3), Fearless)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "QF59XD5",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stone Tribe",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Fearless"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "pg6bfxLq",
+      "hint": "Shroom-Sniffers",
+      "forUnits": [
+        "u8VLOLK"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade one model with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "a3OGQWuRVD",
+              "label": "Power Shrooms (Precision Fighter Buff)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "u8VLOLK",
+                  "cost": 20
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Power Shrooms",
+                  "type": "item",
+                  "content": [
+                    "Precision Fighter Buff"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "xIepTb7J",
+      "hint": "Giant Cave-Beast",
+      "forUnits": [
+        "YrYb72R"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "j994_HpoWw",
+              "label": "Skewer-Bolt Thrower (30\", A2, AP(2), Skewer)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "YrYb72R",
+                  "cost": 80
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skewer-Bolt Thrower",
+                  "type": "weapon",
+                  "range": 30,
+                  "attacks": 2,
+                  "special": [
+                    "AP",
+                    "Skewer"
+                  ]
+                }
+              ],
+              "tags": [
+                "long-range",
+                "ranged"
+              ],
+              "dimensionScores": {
+                "patience": 3,
+                "tech": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "wU37Uj_a",
+      "hint": "Specialists - Goblin",
+      "forUnits": [
+        "MhIwX30"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "xfmjADLN",
+              "label": "Trailmaster (Rapid Charge Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Trailmaster",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "lnv05g_N",
+              "label": "Brewer (Melee Evasion Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Brewer",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "RtZUZOW1",
+              "label": "Big Boss (Thrust in Melee Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Big Boss",
+                  "type": "item",
+                  "content": [
+                    "Thrust in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "DmCdK7Di",
+              "label": "Army Standard Bearer (Fear(3))",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Army Standard Bearer",
+                  "type": "item",
+                  "content": [
+                    "Fear"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "uvMbaHYSAM",
+              "label": "Skirmisher (Quick Shot Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 35
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Skirmisher",
+                  "type": "item",
+                  "content": [
+                    "Quick Shot Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "TdU840pH",
+              "label": "Shaman (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "MhIwX30",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shaman",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "iUDhFVim",
+      "hint": "Troll Tribes (One Model)",
+      "forUnits": [
+        "DQ5jgGa",
+        "_-4Y87q"
+      ],
+      "sections": [
+        {
+          "label": "Replace Cave Tribe",
+          "variant": "replace",
+          "options": [
+            {
+              "uid": "ieNO5AMB7C",
+              "label": "Forest Tribe (Scout, Strider)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 5
+                },
+                {
+                  "unitId": "_-4Y87q",
+                  "cost": 0
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Forest Tribe",
+                  "type": "item",
+                  "content": [
+                    "Scout",
+                    "Strider"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "x68eqkOk",
+              "label": "Stone Tribe (Armor(3), Fearless)",
+              "cost": 20,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 10
+                },
+                {
+                  "unitId": "_-4Y87q",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Stone Tribe",
+                  "type": "item",
+                  "content": [
+                    "Armor",
+                    "Fearless"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "tNRza3iu",
+      "hint": "Mob Madness",
+      "forUnits": [
+        "NfGAfXW",
+        "voUEnj5",
+        "6z-hbTL",
+        "dBNP3MI"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade all models with",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "9WWodJ33",
+              "label": "Mob Madness (Instinctive)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "NfGAfXW",
+                  "cost": 5
+                },
+                {
+                  "unitId": "voUEnj5",
+                  "cost": 10
+                },
+                {
+                  "unitId": "6z-hbTL",
+                  "cost": 5
+                },
+                {
+                  "unitId": "dBNP3MI",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Mob Madness",
+                  "type": "item",
+                  "content": [
+                    "Instinctive"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "UP8jGi06",
+      "hint": "Specialists - Troll",
+      "forUnits": [
+        "DQ5jgGa"
+      ],
+      "sections": [
+        {
+          "label": "Upgrade with one",
+          "variant": "upgrade",
+          "options": [
+            {
+              "uid": "FGnXOW_U",
+              "label": "Trailmaster (Rapid Charge Aura)",
+              "cost": 25,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 10
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Trailmaster",
+                  "type": "item",
+                  "content": [
+                    "Rapid Charge Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "nfMJFHVE",
+              "label": "Brewer (Melee Evasion Aura)",
+              "cost": 30,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 15
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Brewer",
+                  "type": "item",
+                  "content": [
+                    "Melee Evasion Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "pmK1-SLo",
+              "label": "Big Boss (Thrust in Melee Aura)",
+              "cost": 50,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 30
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Big Boss",
+                  "type": "item",
+                  "content": [
+                    "Thrust in Melee Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "azVeni6N",
+              "label": "Instigator (Mischievous Boost Aura)",
+              "cost": 0,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Instigator",
+                  "type": "item",
+                  "content": [
+                    "Mischievous Boost Aura"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            },
+            {
+              "uid": "cUTKTkh-",
+              "label": "Shaman (Caster(2))",
+              "cost": 40,
+              "costs": [
+                {
+                  "unitId": "DQ5jgGa",
+                  "cost": 40
+                }
+              ],
+              "gains": [
+                {
+                  "name": "Shaman",
+                  "type": "item",
+                  "content": [
+                    "Caster"
+                  ]
+                }
+              ],
+              "tags": [],
+              "dimensionScores": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

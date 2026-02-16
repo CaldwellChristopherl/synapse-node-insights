@@ -3,8 +3,13 @@
   "factionName": "Wormhole Daemons of War",
   "gameSystem": "grimdark-future",
   "factionType": "corrupted",
-  "version": "1.7.2",
-  "taggedAt": "2026-02-03T04:18:17.655Z",
+  "version": "1.8.0",
+  "taggedAt": "2026-02-16T21:19:26.688Z",
+  "monoType": {
+    "isMonoType": false,
+    "dominantRole": "fast-attack",
+    "rolePercentage": 50
+  },
   "units": [
     {
       "id": "cHwKtZbGh",
@@ -22,30 +27,51 @@
         "Tough(18)",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Exalted Flame Hammer",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "A1",
+        "0X4v0YL4"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
         "fearless",
         "flying",
+        "mobile",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "faith": 2,
-        "speed": 3,
-        "leadership": 3,
-        "order": -3,
-        "tech": -3
+        "faith": 5,
+        "speed": 5,
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "humanity": -5,
+        "tech": -1
       }
     },
     {
@@ -62,26 +88,47 @@
         "Tough(12)",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Great Flame Hammer",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)",
+            "Blast(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "B1",
+        "gqDRC4s_"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
-        "melee",
+        "tough",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "order": -3,
-        "tech": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -98,24 +145,46 @@
         "Tough(6)",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Flame Spear",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Deadly(3)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "p5qpq",
+        "Egao10Zx"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "elite",
         "hero",
-        "human",
         "leader",
+        "tough",
+        "corrupted",
+        "daemon",
         "melee",
-        "monster",
-        "tough"
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -131,23 +200,45 @@
         "Tough(3)",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Axe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Flame Spear",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "olHRf",
+        "G4RLf"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
         "hero",
-        "human",
         "leader",
-        "melee",
         "tough",
+        "corrupted",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
-        "leadership": 3,
-        "order": -3
+        "leadership": 5,
+        "elite": 5,
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -165,28 +256,50 @@
         "Scout",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Axe",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Flame Spear",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)",
+            "Deadly(3)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "7SBV9",
+        "mMDknij7"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "hero",
-        "human",
-        "leader",
-        "melee",
         "mobile",
+        "hero",
+        "leader",
+        "tough",
         "scout",
-        "tough"
+        "corrupted",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "collective": -1,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": -1,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "tech": -1
       }
     },
     {
@@ -205,31 +318,41 @@
         "Scout",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Frenzied Bites",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
         "fast",
         "hero",
-        "human",
         "leader",
-        "melee",
-        "mobile",
-        "monster",
+        "tough",
         "scout",
-        "tough"
+        "mobile",
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "collective": -1,
-        "purity": -4,
-        "humanity": -1,
         "speed": 5,
-        "leadership": 3,
+        "leadership": 5,
+        "elite": 5,
         "subtlety": 3,
-        "order": -3,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -245,23 +368,37 @@
         "Scout",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Blood Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "Break"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "I_dTO"
+      ],
       "tags": [
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
-        "melee",
         "mobile",
-        "scout"
+        "scout",
+        "corrupted",
+        "daemon",
+        "melee",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -3
       }
     },
     {
@@ -275,18 +412,33 @@
       "rules": [
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Blood Sword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Break"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "F1"
+      ],
       "tags": [
-        "chaotic",
-        "cheap",
         "corrupted",
-        "human",
-        "melee"
+        "daemon",
+        "melee",
+        "cheap"
       ],
       "dimensionScores": {
-        "elite": -2,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "patience": -1,
+        "tech": -1,
+        "elite": -2
       }
     },
     {
@@ -302,24 +454,42 @@
         "Scout",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Long Whip",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "J2yxDCDL"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
-        "corrupted",
-        "expendable",
         "flying",
-        "human",
         "mobile",
-        "scout"
+        "scout",
+        "corrupted",
+        "daemon",
+        "balanced",
+        "expendable"
       ],
       "dimensionScores": {
-        "elite": -3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
+        "elite": -3
       }
     },
     {
@@ -333,19 +503,38 @@
       "rules": [
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Long Whip",
+          "range": 18,
+          "attacks": 1,
+          "special": [
+            "AP(2)"
+          ]
+        },
+        {
+          "name": "Hand Weapon",
+          "range": 0,
+          "attacks": 1,
+          "special": []
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "Ac2Ez"
+      ],
       "tags": [
-        "balanced",
-        "chaotic",
         "corrupted",
-        "human",
+        "daemon",
+        "balanced",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
-        "order": -3,
-        "versatility": 2
+        "purity": -5,
+        "faith": 3,
+        "humanity": -4,
+        "versatility": 2,
+        "elite": 3
       }
     },
     {
@@ -361,25 +550,38 @@
         "Scout",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Claws",
+          "range": 0,
+          "attacks": 2,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "G1"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "elite",
         "fast",
-        "human",
-        "melee",
+        "scout",
         "mobile",
-        "scout"
+        "corrupted",
+        "monster",
+        "daemon",
+        "melee",
+        "elite"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "subtlety": 3,
-        "order": -3,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "patience": -1,
+        "tech": -1,
+        "elite": 4
       }
     },
     {
@@ -396,26 +598,48 @@
         "Tough(3)",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Blood Sword",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "Break"
+          ]
+        },
+        {
+          "name": "Heavy Claws",
+          "range": 0,
+          "attacks": 1,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "E1",
+        "Gn-Xh"
+      ],
       "tags": [
-        "aggressive",
-        "beast",
-        "cavalry",
-        "chaotic",
-        "corrupted",
         "fast",
-        "human",
-        "melee",
+        "aggressive",
         "tough",
-        "veteran"
+        "corrupted",
+        "cavalry",
+        "monster",
+        "daemon",
+        "melee",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 5,
         "patience": -3,
-        "order": -3,
-        "tech": -3
+        "elite": 4,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -432,25 +656,37 @@
         "Warbound",
         "Scout"
       ],
+      "weapons": [
+        {
+          "name": "Mutated Blood Claws",
+          "range": 0,
+          "attacks": 4,
+          "special": [
+            "Break"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "0kpwq"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
-        "corrupted",
-        "human",
-        "melee",
         "mobile",
-        "scout",
         "tough",
+        "corrupted",
+        "scout",
+        "monster",
+        "daemon",
+        "melee",
         "veteran"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "purity": -4,
-        "humanity": 3,
         "speed": 3,
+        "elite": 4,
+        "purity": -5,
         "subtlety": 3,
-        "order": -3,
-        "tech": -3
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -460,29 +696,52 @@
       "size": 1,
       "quality": 4,
       "defense": 3,
-      "role": "vehicle",
+      "role": "troops",
       "rules": [
         "Fear(1)",
         "Tough(6)",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Horn-Shot Cannon",
+          "range": 24,
+          "attacks": 1,
+          "special": [
+            "AP(2)",
+            "Deadly(6)",
+            "Unstoppable"
+          ]
+        },
+        {
+          "name": "Crew Attacks",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "kLiWef7m"
+      ],
       "tags": [
-        "balanced",
-        "cavalry",
-        "chaotic",
-        "corrupted",
-        "human",
         "tough",
-        "vehicle",
-        "veteran"
+        "corrupted",
+        "cavalry",
+        "fast",
+        "daemon",
+        "balanced",
+        "veteran",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 3,
-        "tech": 3,
-        "purity": -4,
-        "humanity": 3,
-        "speed": 3,
-        "order": -3,
+        "patience": 1,
+        "elite": 4,
+        "purity": -5,
+        "speed": 5,
+        "faith": 3,
+        "humanity": -4,
         "versatility": 2
       }
     },
@@ -499,22 +758,43 @@
         "Tough(9)",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Frenzied Bites",
+          "range": 0,
+          "attacks": 9,
+          "special": [
+            "AP(1)"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 3,
+          "special": [
+            "AP(1)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "D1",
+        "Iqu9W"
+      ],
       "tags": [
-        "beast",
-        "chaotic",
+        "tough",
         "corrupted",
-        "elite",
-        "human",
-        "melee",
         "monster",
-        "tough"
+        "daemon",
+        "melee",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -1,
-        "purity": -4,
-        "order": -3,
-        "tech": -3
+        "elite": 5,
+        "purity": -5,
+        "humanity": -5,
+        "faith": 3,
+        "tech": -1
       }
     },
     {
@@ -531,25 +811,52 @@
         "Fearless",
         "Warbound"
       ],
+      "weapons": [
+        {
+          "name": "Blood Cannon",
+          "range": 18,
+          "attacks": 18,
+          "special": [
+            "Break"
+          ]
+        },
+        {
+          "name": "Giant Blood Sword",
+          "range": 0,
+          "attacks": 18,
+          "special": [
+            "Break"
+          ]
+        },
+        {
+          "name": "Stomp",
+          "range": 0,
+          "attacks": 6,
+          "special": [
+            "AP(2)"
+          ]
+        }
+      ],
+      "upgradeIds": [
+        "H1"
+      ],
       "tags": [
-        "balanced",
-        "beast",
-        "chaotic",
-        "corrupted",
-        "daemon",
-        "elite",
+        "tough",
         "fearless",
+        "corrupted",
         "monster",
-        "tough"
+        "daemon",
+        "balanced",
+        "elite",
+        "armored"
       ],
       "dimensionScores": {
-        "elite": 4,
-        "humanity": -4,
-        "purity": -5,
+        "patience": 1,
+        "elite": 5,
         "faith": 5,
-        "order": -3,
-        "versatility": 2,
-        "tech": -3
+        "purity": -5,
+        "humanity": -5,
+        "versatility": 2
       }
     }
   ],
