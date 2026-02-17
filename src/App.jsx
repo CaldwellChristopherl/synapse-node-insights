@@ -46,6 +46,7 @@ export default function SynapseNodeInsights() {
   const [savedResults, setSavedResults] = useState(null);
   const [showSavedResults, setShowSavedResults] = useState(false);
   const [savedResultsList, setSavedResultsList] = useState([]);
+  const [loadedScores, setLoadedScores] = useState(null);
 
   // Load saved results on mount
   useEffect(() => {
@@ -62,24 +63,11 @@ export default function SynapseNodeInsights() {
 
   // Load saved result
   const loadSavedResult = (result) => {
+    setLoadedScores(result.userScores || {});
     setAnswers({});
-    Object.entries(result.userScores || {}).forEach(([dim, score]) => {
-      const questions = QUESTIONS.filter(q => q.dimension === dim);
-      questions.forEach((q, idx) => {
-        if (idx === 0) {
-          setAnswers(prev => ({ ...prev, [q.id]: score }));
-        }
-      });
-    });
-    if (result.selectedFaction) {
-      setSelectedFaction(result.selectedFaction);
-    }
-    if (result.armyList && result.armyList.length > 0) {
-      setArmyList(result.armyList);
-    }
-    if (result.armyPoints) {
-      setArmyPoints(result.armyPoints);
-    }
+    if (result.gameSystem) setGameSystem(result.gameSystem);
+    if (result.selectedFaction) setSelectedFaction(result.selectedFaction);
+    if (result.armyPoints) setArmyPoints(result.armyPoints);
     setShowResults(true);
     setShowSavedResults(false);
   };
@@ -94,6 +82,7 @@ export default function SynapseNodeInsights() {
 
   // Calculate user dimension scores
   const userScores = useMemo(() => {
+    if (loadedScores && Object.keys(loadedScores).length > 0) return loadedScores;
     const scores = {};
     QUESTIONS.forEach(q => {
       if (answers[q.id] !== undefined) {
@@ -105,7 +94,7 @@ export default function SynapseNodeInsights() {
       scores[dim] = Math.max(-5, Math.min(5, scores[dim] / 2));
     });
     return scores;
-  }, [answers]);
+  }, [answers, loadedScores]);
 
   // Detect personality archetype
   const detectedArchetype = useMemo(() => {
@@ -333,6 +322,7 @@ export default function SynapseNodeInsights() {
   const resetQuiz = () => {
     setCurrentQuestion(0);
     setAnswers({});
+    setLoadedScores(null);
     setShowResults(false);
     setSelectedFaction(null);
     setFactionData(null);
