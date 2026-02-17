@@ -932,7 +932,7 @@ export default function SynapseNodeInsights() {
             <span className="text-white">Synapse Node</span>{' '}
             <span className={gameSystem === 'grimdark-future' ? 'text-red-500' : 'text-emerald-500'}>Insights</span>
           </h1>
-          <p className="text-zinc-500 text-sm">Find your perfect army • v3.0</p>
+          <p className="text-zinc-500 text-sm">Find your perfect army • v3.1</p>
         </div>
 
         <GameSystemToggle />

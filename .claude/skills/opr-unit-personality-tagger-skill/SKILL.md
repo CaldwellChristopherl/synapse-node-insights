@@ -1,10 +1,10 @@
-# OPR Unit Personality Tagger Skill - Version 1.8.0
+# OPR Unit Personality Tagger Skill - Version 1.9.0
 
 ## Overview
 
 This skill enables an AI agent to analyze One Page Rules (OPR) army book JSON files and add personality-based tags to each unit. These tags are used by the OPR Army Alignment Quiz to match units to player personalities based on 15 psychological dimensions.
 
-**Version 1.8.0 Update:** Titan Lords & Mono-Type Army Fixes — Mono-type army versatility override, Honor Code rule mapping, Titan Lords faction guidance, Dimension Inflation Check.
+**Version 1.9.0 Update:** Dimension-alignment scoring, narrative hero exclusion, auto-loadout suggestions, batch retag pipeline with upgrade extraction.
 
 ## Critical Distinction: Corrupted vs Organic
 
@@ -257,7 +257,7 @@ The agent produces a tagged unit file with the following structure:
   "factionId": "faction-slug",
   "factionName": "Faction Name",
   "gameSystem": "grimdark-future",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "taggedAt": "2026-02-01T00:00:00Z",
   "units": [
     {
@@ -1591,6 +1591,21 @@ If a unit cannot be confidently tagged:
 
 ## Version History
 
+- **1.9.0: Dimension-Alignment Scoring, Loadout Suggestions & Retag Pipeline**
+  - NEW: Batch retag script (`retag-army-books.cjs`) processes all 78 factions (1,708 units)
+  - NEW: Dimension-alignment scoring (dot-product) replaces boolean tag-presence scoring
+  - NEW: Three-tier scoring: pre-tagged dimensionScores > tags > runtime extraction
+  - NEW: Compact upgrade extraction with per-upgrade personality scoring
+  - NEW: Auto-applied loadout suggestions based on personality alignment
+  - NEW: `unitType` field preserved from raw data ("1" = narrative hero, excluded from army building)
+  - NEW: Smart hero selection — minimum 1, additional heroes require personality fit >= 55%
+  - NEW: LoadoutPanel UI component for exploring all upgrade options per unit
+  - NEW: Weighted faction matching algorithm (dimensions weighted by faction extremity)
+  - Fixed: Saved results now restore exact personality scores instead of re-computing from answers
+  - Fixed: Faction dimension scores for Titan Lords, Rebel Guerrillas, Dark Elf Raiders, Jackals
+  - Fixed: Balanced Commander archetype over-triggering, added Pragmatic General fallback
+  - Updated: `tag-to-dimension.jsx` with missing mappings (collective, cunning, balanced, corrupted, resilient, armored, aircraft)
+  - Updated: `extract-tags.jsx` with faction context, Honor Code, Mercenary, poison, sniper, infiltrate
 - **1.8.0: Titan Lords & Mono-Type Army Fixes**
   - NEW: Mono-type army versatility override rule
   - NEW: Honor Code → honorable/noble tag mapping

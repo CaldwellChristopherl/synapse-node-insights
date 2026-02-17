@@ -13,7 +13,7 @@ const GAME_SYSTEMS = {
   'age-of-fantasy': 'age-of-fantasy'
 };
 
-const VERSION = '1.8.0';
+const VERSION = '1.9.0';
 
 // === TAG-TO-DIMENSION MAP (mirrors tag-to-dimension.jsx) ===
 const TAG_TO_DIM = {
