@@ -8,6 +8,8 @@ import { DIMENSION_INFO } from './data/personality/dimension-info';
 import { getForceOrgLimits } from './helper/game/get-force-org-limits';
 import { scoreUnit } from './helper/unit-score/score-unit';
 import { LoadoutPanel } from './components/LoadoutPanel';
+import { loadUpgrades, getUnitUpgrades } from './helper/upgrades/load-upgrades';
+import { getRecommendedUpgrades } from './helper/upgrades/score-upgrade';
 
 const factionUnitFiles = import.meta.glob('./data/factions/units/*/*.json', { eager: false });
 
@@ -132,6 +134,7 @@ export default function SynapseNodeInsights() {
   const recommendedUnits = useMemo(() => {
     if (!factionData?.units) return [];
     return factionData.units
+      .filter(unit => unit.unitType !== '1') // Exclude narrative heroes
       .map(unit => ({
         ...unit,
         personalityScore: scoreUnit(unit, userScores, factionContext),
@@ -140,75 +143,76 @@ export default function SynapseNodeInsights() {
       .sort((a, b) => b.personalityScore - a.personalityScore);
   }, [factionData, userScores, factionContext]);
 
-  // Build army list with force organization rules
+  // Build army list with force organization rules and auto-apply loadouts
   useEffect(() => {
     if (!recommendedUnits.length) {
       setArmyList([]);
       return;
     }
-    
-    const limits = getForceOrgLimits(armyPoints,gameSystem);
+
+    const HERO_MIN_SCORE = 55; // Only add extra heroes above this threshold
+    const LOADOUT_MIN_SCORE = 55; // Only apply loadouts that improve personality match
+
+    const limits = getForceOrgLimits(armyPoints, gameSystem);
     const list = [];
     let remaining = armyPoints;
-    const unitCounts = {}; // Track copies of each unit
+    const unitCounts = {};
     let heroCount = 0;
-    
-    // Sort units: heroes first (by personality), then non-heroes (by personality)
+
     const heroes = recommendedUnits.filter(u => u.role === 'hero');
     const troops = recommendedUnits.filter(u => u.role !== 'hero');
-    
-    // Add heroes (up to limit)
+
+    // Add heroes: minimum 1, then only those with good personality fit
     for (const hero of heroes) {
       if (heroCount >= limits.maxHeroes) break;
       if (hero.cost > limits.maxUnitCost) continue;
       if (hero.cost > remaining) continue;
-      
+
       const copies = unitCounts[hero.id] || 0;
       if (copies >= limits.maxCopies) continue;
-      
+
+      // After the first hero, only add more if they're a good personality fit
+      if (heroCount >= 1 && hero.personalityScore < HERO_MIN_SCORE) continue;
+
       list.push({ ...hero, quantity: 1 });
       unitCounts[hero.id] = copies + 1;
       remaining -= hero.cost;
       heroCount++;
     }
-    
-    // Fill with troops - allow multiples!
+
+    // Fill with troops
     let iterations = 0;
-    const maxIterations = 50; // Prevent infinite loops
-    
+    const maxIterations = 50;
+
     while (remaining >= 50 && list.length < limits.maxUnits && iterations < maxIterations) {
       iterations++;
       let addedUnit = false;
-      
+
       for (const unit of troops) {
         if (unit.cost > limits.maxUnitCost) continue;
         if (unit.cost > remaining) continue;
         if (list.length >= limits.maxUnits) break;
-        
+
         const copies = unitCounts[unit.id] || 0;
         if (copies >= limits.maxCopies) continue;
-        
-        // Check if we already have this unit in the list
+
         const existingIdx = list.findIndex(u => u.id === unit.id);
-        
         if (existingIdx >= 0) {
-          // Increment quantity of existing unit
           list[existingIdx].quantity = (list[existingIdx].quantity || 1) + 1;
         } else {
-          // Add new unit entry
           list.push({ ...unit, quantity: 1 });
         }
-        
+
         unitCounts[unit.id] = copies + 1;
         remaining -= unit.cost;
         addedUnit = true;
-        break; // Restart loop to re-evaluate best options
+        break;
       }
-      
-      if (!addedUnit) break; // No more units can be added
+
+      if (!addedUnit) break;
     }
-    
-    // Consolidate list - group by unit and sum quantities
+
+    // Consolidate list
     const consolidated = [];
     const seen = new Set();
     for (const unit of list) {
@@ -217,9 +221,57 @@ export default function SynapseNodeInsights() {
       const totalQty = list.filter(u => u.id === unit.id).reduce((sum, u) => sum + (u.quantity || 1), 0);
       consolidated.push({ ...unit, quantity: totalQty });
     }
-    
-    setArmyList(consolidated);
-  }, [recommendedUnits, armyPoints]);
+
+    // Auto-apply loadouts that increase personality match
+    const applyLoadouts = async () => {
+      const upgradeData = await loadUpgrades(gameSystem, selectedFaction);
+      if (!upgradeData) {
+        setArmyList(consolidated);
+        return;
+      }
+
+      let loadoutBudget = remaining; // Points left after unit selection
+      const withLoadouts = consolidated.map(unit => {
+        const packages = getUnitUpgrades(upgradeData, unit.id);
+        if (!packages.length) return unit;
+
+        const recommended = getRecommendedUpgrades(packages, unit.id, userScores);
+        const applied = [];
+
+        // Pick top loadouts that score above threshold and fit budget
+        // Respect quantity: each copy gets the same loadout, so cost multiplies
+        for (const rec of recommended) {
+          if (rec.score < LOADOUT_MIN_SCORE) continue;
+          const totalCost = rec.cost * (unit.quantity || 1);
+          if (totalCost > loadoutBudget) continue;
+
+          applied.push({
+            label: rec.option.label,
+            cost: rec.cost,
+            score: rec.score,
+            tags: rec.option.tags || []
+          });
+          loadoutBudget -= totalCost;
+
+          if (applied.length >= 3) break; // Max 3 loadouts per unit
+        }
+
+        if (!applied.length) return unit;
+
+        const loadoutCostPerModel = applied.reduce((s, l) => s + l.cost, 0);
+        return {
+          ...unit,
+          loadouts: applied,
+          loadoutCost: loadoutCostPerModel,
+          totalCost: unit.cost + loadoutCostPerModel
+        };
+      });
+
+      setArmyList(withLoadouts);
+    };
+
+    applyLoadouts();
+  }, [recommendedUnits, armyPoints, selectedFaction, gameSystem, userScores]);
 
   // Fetch faction data - generates units based on faction personality
   const handleSelectFaction = async (factionName) => {
@@ -358,7 +410,11 @@ export default function SynapseNodeInsights() {
       archetype: detectedArchetype,
       topFactions: factionMatches.slice(0, 5),
       selectedFaction,
-      armyList: armyList.map(u => ({ name: u.name, cost: u.cost, quantity: u.quantity })),
+      armyList: armyList.map(u => ({
+        name: u.name, cost: u.cost, quantity: u.quantity,
+        loadouts: u.loadouts || [], loadoutCost: u.loadoutCost || 0,
+        totalCost: u.totalCost || u.cost
+      })),
       armyPoints
     };
     
@@ -702,7 +758,7 @@ export default function SynapseNodeInsights() {
                   <span className={`text-lg font-bold ${
                     gameSystem === 'grimdark-future' ? 'text-red-400' : 'text-emerald-400'
                   }`}>
-                    {armyList.reduce((s, u) => s + (u.cost * u.quantity), 0)}
+                    {armyList.reduce((s, u) => s + ((u.totalCost || u.cost) * u.quantity), 0)}
                   </span>
                   <span className="text-zinc-500"> / {armyPoints} pts</span>
                 </div>
@@ -732,7 +788,11 @@ export default function SynapseNodeInsights() {
                         </div>
                         <div className="flex items-center gap-3">
                           <span className="text-xs text-zinc-500">
-                            {unit.quantity > 1 ? `${unit.cost}×${unit.quantity} = ${unit.cost * unit.quantity}` : unit.cost} pts
+                            {(() => {
+                              const perModel = unit.totalCost || unit.cost;
+                              if (unit.quantity > 1) return `${perModel}×${unit.quantity} = ${perModel * unit.quantity} pts`;
+                              return `${perModel} pts`;
+                            })()}
                           </span>
                           <span className={`px-2 py-0.5 rounded text-xs ${
                             unit.personalityScore >= 70 ? 'bg-green-900/50 text-green-400' :
@@ -754,6 +814,23 @@ export default function SynapseNodeInsights() {
                           <span key={`t${i}`} className="px-1.5 py-0.5 bg-zinc-700/50 rounded text-xs text-zinc-500">{t}</span>
                         ))}
                       </div>
+                      {unit.loadouts?.length > 0 && (
+                        <div className="mt-2 pl-3 border-l-2 border-zinc-700 space-y-1">
+                          <p className="text-[10px] text-zinc-500 uppercase tracking-wider">Recommended Loadout</p>
+                          {unit.loadouts.map((lo, li) => (
+                            <div key={li} className="flex items-center justify-between text-xs">
+                              <span className="text-zinc-300 truncate flex-1 mr-2">{lo.label}</span>
+                              <div className="flex items-center gap-2 shrink-0">
+                                <span className="text-zinc-500">+{lo.cost}pts</span>
+                                <span className={`px-1.5 py-0.5 rounded ${
+                                  lo.score >= 70 ? 'bg-green-900/50 text-green-400' :
+                                  'bg-yellow-900/50 text-yellow-400'
+                                }`}>{lo.score}%</span>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                       <LoadoutPanel
                         unit={unit}
                         gameSystem={gameSystem}

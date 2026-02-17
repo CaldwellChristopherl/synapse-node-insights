@@ -637,7 +637,7 @@ function processArmyBook(filePath, gameSystem) {
     const role = inferRole(u);
     const dimensionScores = computeDimensionScores(tags, factionContext);
 
-    return {
+    const result = {
       id: u.id,
       name: u.name,
       cost: u.cost,
@@ -651,6 +651,9 @@ function processArmyBook(filePath, gameSystem) {
       tags,
       dimensionScores
     };
+    // Preserve unit type: "1" = narrative hero, "0" = special construct
+    if (u.type !== undefined) result.unitType = String(u.type);
+    return result;
   });
 
   // Write tagged unit file
